@@ -26,8 +26,14 @@ jobs:
       - name: Install JS deps
         run: npm install
 
-      - name: Prebuild iOS (native proje + pods)
-        run: npx expo prebuild -p ios
+      - name: Prebuild iOS (sadece native proje)
+        run: npx expo prebuild -p ios --no-install
+
+      - name: Pod install (CocoaPods -> .xcworkspace)
+        run: |
+          set -eo pipefail
+          cd ios
+          pod install --repo-update
 
       - name: Build unsigned .app
         run: |
@@ -35,6 +41,7 @@ jobs:
           SCHEME=$(basename ios/*.xcodeproj .xcodeproj)
           WS="ios/$SCHEME.xcworkspace"
           echo "Scheme: $SCHEME | Workspace: $WS"
+          ls -la ios
           xcodebuild \
             -workspace "$WS" \
             -scheme "$SCHEME" \
