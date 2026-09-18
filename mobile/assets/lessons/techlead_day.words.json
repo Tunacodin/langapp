@@ -1,0 +1,3067 @@
+[
+  {
+    "w": "So",
+    "start_ms": 0,
+    "end_ms": 860
+  },
+  {
+    "w": "sorry",
+    "start_ms": 50970,
+    "end_ms": 51250
+  },
+  {
+    "w": "I'm",
+    "start_ms": 51250,
+    "end_ms": 51410
+  },
+  {
+    "w": "late,",
+    "start_ms": 51410,
+    "end_ms": 51590
+  },
+  {
+    "w": "I",
+    "start_ms": 51930,
+    "end_ms": 52010
+  },
+  {
+    "w": "just",
+    "start_ms": 52010,
+    "end_ms": 52350
+  },
+  {
+    "w": "know",
+    "start_ms": 52350,
+    "end_ms": 52710
+  },
+  {
+    "w": "worries.",
+    "start_ms": 52710,
+    "end_ms": 52990
+  },
+  {
+    "w": "I'm",
+    "start_ms": 53410,
+    "end_ms": 53470
+  },
+  {
+    "w": "sure",
+    "start_ms": 53470,
+    "end_ms": 53630
+  },
+  {
+    "w": "there",
+    "start_ms": 53630,
+    "end_ms": 53790
+  },
+  {
+    "w": "was",
+    "start_ms": 53790,
+    "end_ms": 53930
+  },
+  {
+    "w": "a",
+    "start_ms": 53930,
+    "end_ms": 54010
+  },
+  {
+    "w": "lot",
+    "start_ms": 54010,
+    "end_ms": 54210
+  },
+  {
+    "w": "of",
+    "start_ms": 54210,
+    "end_ms": 54310
+  },
+  {
+    "w": "traffic",
+    "start_ms": 54310,
+    "end_ms": 54530
+  },
+  {
+    "w": "from",
+    "start_ms": 54530,
+    "end_ms": 54850
+  },
+  {
+    "w": "your",
+    "start_ms": 54850,
+    "end_ms": 54950
+  },
+  {
+    "w": "bedroom",
+    "start_ms": 54950,
+    "end_ms": 55230
+  },
+  {
+    "w": "to",
+    "start_ms": 55230,
+    "end_ms": 55410
+  },
+  {
+    "w": "your",
+    "start_ms": 55410,
+    "end_ms": 55490
+  },
+  {
+    "w": "living",
+    "start_ms": 55490,
+    "end_ms": 55710
+  },
+  {
+    "w": "room.",
+    "start_ms": 55710,
+    "end_ms": 55970
+  },
+  {
+    "w": "You",
+    "start_ms": 56490,
+    "end_ms": 56810
+  },
+  {
+    "w": "know",
+    "start_ms": 56810,
+    "end_ms": 56970
+  },
+  {
+    "w": "how",
+    "start_ms": 56970,
+    "end_ms": 57130
+  },
+  {
+    "w": "it",
+    "start_ms": 57130,
+    "end_ms": 57250
+  },
+  {
+    "w": "is,",
+    "start_ms": 57250,
+    "end_ms": 57410
+  },
+  {
+    "w": "Monday",
+    "start_ms": 57590,
+    "end_ms": 57830
+  },
+  {
+    "w": "mornings.",
+    "start_ms": 57830,
+    "end_ms": 58070
+  },
+  {
+    "w": "Today",
+    "start_ms": 58790,
+    "end_ms": 58890
+  },
+  {
+    "w": "is",
+    "start_ms": 58890,
+    "end_ms": 59130
+  },
+  {
+    "w": "Wednesday.",
+    "start_ms": 59130,
+    "end_ms": 59390
+  },
+  {
+    "w": "Anyways,",
+    "start_ms": 60790,
+    "end_ms": 61310
+  },
+  {
+    "w": "any",
+    "start_ms": 61570,
+    "end_ms": 61830
+  },
+  {
+    "w": "updates",
+    "start_ms": 61830,
+    "end_ms": 62210
+  },
+  {
+    "w": "on",
+    "start_ms": 62210,
+    "end_ms": 62570
+  },
+  {
+    "w": "our",
+    "start_ms": 62570,
+    "end_ms": 62710
+  },
+  {
+    "w": "customer,",
+    "start_ms": 62710,
+    "end_ms": 63070
+  },
+  {
+    "w": "blinder",
+    "start_ms": 63550,
+    "end_ms": 63750
+  },
+  {
+    "w": ".io?",
+    "start_ms": 63750,
+    "end_ms": 64190
+  },
+  {
+    "w": "Yep,",
+    "start_ms": 64610,
+    "end_ms": 64870
+  },
+  {
+    "w": "I",
+    "start_ms": 65310,
+    "end_ms": 65690
+  },
+  {
+    "w": "finalized",
+    "start_ms": 65690,
+    "end_ms": 65990
+  },
+  {
+    "w": "the",
+    "start_ms": 65990,
+    "end_ms": 66290
+  },
+  {
+    "w": "design",
+    "start_ms": 66290,
+    "end_ms": 66550
+  },
+  {
+    "w": "and",
+    "start_ms": 66550,
+    "end_ms": 66750
+  },
+  {
+    "w": "the",
+    "start_ms": 66750,
+    "end_ms": 66850
+  },
+  {
+    "w": "proposal,",
+    "start_ms": 66850,
+    "end_ms": 67170
+  },
+  {
+    "w": "and",
+    "start_ms": 67870,
+    "end_ms": 68030
+  },
+  {
+    "w": "later",
+    "start_ms": 68030,
+    "end_ms": 68270
+  },
+  {
+    "w": "today",
+    "start_ms": 68270,
+    "end_ms": 68630
+  },
+  {
+    "w": "I",
+    "start_ms": 68630,
+    "end_ms": 68990
+  },
+  {
+    "w": "have",
+    "start_ms": 68990,
+    "end_ms": 69350
+  },
+  {
+    "w": "a",
+    "start_ms": 69350,
+    "end_ms": 69590
+  },
+  {
+    "w": "design",
+    "start_ms": 69590,
+    "end_ms": 69930
+  },
+  {
+    "w": "review",
+    "start_ms": 69930,
+    "end_ms": 70290
+  },
+  {
+    "w": "with",
+    "start_ms": 70290,
+    "end_ms": 70550
+  },
+  {
+    "w": "the",
+    "start_ms": 70550,
+    "end_ms": 70670
+  },
+  {
+    "w": "broader",
+    "start_ms": 70670,
+    "end_ms": 70850
+  },
+  {
+    "w": "team,",
+    "start_ms": 70850,
+    "end_ms": 71290
+  },
+  {
+    "w": "and",
+    "start_ms": 71650,
+    "end_ms": 71890
+  },
+  {
+    "w": "then",
+    "start_ms": 71890,
+    "end_ms": 72030
+  },
+  {
+    "w": "after",
+    "start_ms": 72030,
+    "end_ms": 72270
+  },
+  {
+    "w": "that",
+    "start_ms": 72270,
+    "end_ms": 72550
+  },
+  {
+    "w": "I",
+    "start_ms": 72550,
+    "end_ms": 72790
+  },
+  {
+    "w": "have",
+    "start_ms": 72790,
+    "end_ms": 73030
+  },
+  {
+    "w": "a",
+    "start_ms": 73030,
+    "end_ms": 73130
+  },
+  {
+    "w": "sync",
+    "start_ms": 73130,
+    "end_ms": 73390
+  },
+  {
+    "w": "with",
+    "start_ms": 73390,
+    "end_ms": 73750
+  },
+  {
+    "w": "the",
+    "start_ms": 73750,
+    "end_ms": 73910
+  },
+  {
+    "w": "customer",
+    "start_ms": 73910,
+    "end_ms": 74290
+  },
+  {
+    "w": "where",
+    "start_ms": 74290,
+    "end_ms": 74730
+  },
+  {
+    "w": "I'll",
+    "start_ms": 74730,
+    "end_ms": 74910
+  },
+  {
+    "w": "propose",
+    "start_ms": 74910,
+    "end_ms": 75210
+  },
+  {
+    "w": "the",
+    "start_ms": 75210,
+    "end_ms": 75410
+  },
+  {
+    "w": "infrastructure",
+    "start_ms": 75410,
+    "end_ms": 75690
+  },
+  {
+    "w": "solution.",
+    "start_ms": 75690,
+    "end_ms": 76450
+  },
+  {
+    "w": "Good.",
+    "start_ms": 76450,
+    "end_ms": 77110
+  },
+  {
+    "w": "Let",
+    "start_ms": 77510,
+    "end_ms": 77950
+  },
+  {
+    "w": "me",
+    "start_ms": 77950,
+    "end_ms": 78030
+  },
+  {
+    "w": "know",
+    "start_ms": 78030,
+    "end_ms": 78150
+  },
+  {
+    "w": "if",
+    "start_ms": 78150,
+    "end_ms": 78270
+  },
+  {
+    "w": "you",
+    "start_ms": 78270,
+    "end_ms": 78330
+  },
+  {
+    "w": "need",
+    "start_ms": 78330,
+    "end_ms": 78450
+  },
+  {
+    "w": "any",
+    "start_ms": 78450,
+    "end_ms": 78570
+  },
+  {
+    "w": "support",
+    "start_ms": 78570,
+    "end_ms": 78830
+  },
+  {
+    "w": "for",
+    "start_ms": 78830,
+    "end_ms": 79110
+  },
+  {
+    "w": "me,",
+    "start_ms": 79110,
+    "end_ms": 79270
+  },
+  {
+    "w": "but",
+    "start_ms": 79490,
+    "end_ms": 79750
+  },
+  {
+    "w": "that's",
+    "start_ms": 79750,
+    "end_ms": 80390
+  },
+  {
+    "w": "all",
+    "start_ms": 80390,
+    "end_ms": 80590
+  },
+  {
+    "w": "I",
+    "start_ms": 80590,
+    "end_ms": 80730
+  },
+  {
+    "w": "have",
+    "start_ms": 80730,
+    "end_ms": 80910
+  },
+  {
+    "w": "for",
+    "start_ms": 80910,
+    "end_ms": 81130
+  },
+  {
+    "w": "you",
+    "start_ms": 81130,
+    "end_ms": 81270
+  },
+  {
+    "w": "today.",
+    "start_ms": 81270,
+    "end_ms": 81550
+  },
+  {
+    "w": "Oh",
+    "start_ms": 81790,
+    "end_ms": 81870
+  },
+  {
+    "w": "yes.",
+    "start_ms": 81870,
+    "end_ms": 82090
+  },
+  {
+    "w": "The",
+    "start_ms": 82950,
+    "end_ms": 83390
+  },
+  {
+    "w": "performance",
+    "start_ms": 83390,
+    "end_ms": 83830
+  },
+  {
+    "w": "review",
+    "start_ms": 83830,
+    "end_ms": 84170
+  },
+  {
+    "w": "is",
+    "start_ms": 84170,
+    "end_ms": 84370
+  },
+  {
+    "w": "coming",
+    "start_ms": 84370,
+    "end_ms": 84590
+  },
+  {
+    "w": "up.",
+    "start_ms": 84590,
+    "end_ms": 84810
+  },
+  {
+    "w": "You",
+    "start_ms": 85250,
+    "end_ms": 85570
+  },
+  {
+    "w": "said",
+    "start_ms": 85570,
+    "end_ms": 85750
+  },
+  {
+    "w": "that",
+    "start_ms": 85750,
+    "end_ms": 85970
+  },
+  {
+    "w": "if",
+    "start_ms": 85970,
+    "end_ms": 86150
+  },
+  {
+    "w": "I",
+    "start_ms": 86150,
+    "end_ms": 86310
+  },
+  {
+    "w": "let",
+    "start_ms": 86310,
+    "end_ms": 86470
+  },
+  {
+    "w": "this",
+    "start_ms": 86470,
+    "end_ms": 86690
+  },
+  {
+    "w": "project,",
+    "start_ms": 86690,
+    "end_ms": 87110
+  },
+  {
+    "w": "I",
+    "start_ms": 87630,
+    "end_ms": 87790
+  },
+  {
+    "w": "hope",
+    "start_ms": 87790,
+    "end_ms": 87830
+  },
+  {
+    "w": "you",
+    "start_ms": 87830,
+    "end_ms": 87970
+  },
+  {
+    "w": "set",
+    "start_ms": 87970,
+    "end_ms": 88130
+  },
+  {
+    "w": "up",
+    "start_ms": 88130,
+    "end_ms": 88230
+  },
+  {
+    "w": "for",
+    "start_ms": 88230,
+    "end_ms": 88390
+  },
+  {
+    "w": "a",
+    "start_ms": 88390,
+    "end_ms": 88490
+  },
+  {
+    "w": "promotion.",
+    "start_ms": 88490,
+    "end_ms": 88910
+  },
+  {
+    "w": "I",
+    "start_ms": 93500,
+    "end_ms": 93540
+  },
+  {
+    "w": "was",
+    "start_ms": 93540,
+    "end_ms": 93860
+  },
+  {
+    "w": "just",
+    "start_ms": 93860,
+    "end_ms": 94060
+  },
+  {
+    "w": "one",
+    "start_ms": 94060,
+    "end_ms": 94160
+  },
+  {
+    "w": "performance.",
+    "start_ms": 94160,
+    "end_ms": 94380
+  },
+  {
+    "w": "Sorry,",
+    "start_ms": 94860,
+    "end_ms": 95300
+  },
+  {
+    "w": "go",
+    "start_ms": 95480,
+    "end_ms": 95680
+  },
+  {
+    "w": "ahead.",
+    "start_ms": 95680,
+    "end_ms": 95880
+  },
+  {
+    "w": "Go",
+    "start_ms": 95980,
+    "end_ms": 95980
+  },
+  {
+    "w": "on.",
+    "start_ms": 95980,
+    "end_ms": 96080
+  },
+  {
+    "w": "So",
+    "start_ms": 97960,
+    "end_ms": 98400
+  },
+  {
+    "w": "as",
+    "start_ms": 98400,
+    "end_ms": 98580
+  },
+  {
+    "w": "I",
+    "start_ms": 98580,
+    "end_ms": 98740
+  },
+  {
+    "w": "was",
+    "start_ms": 98740,
+    "end_ms": 98880
+  },
+  {
+    "w": "wondering,",
+    "start_ms": 98880,
+    "end_ms": 99140
+  },
+  {
+    "w": "sorry,",
+    "start_ms": 99660,
+    "end_ms": 100280
+  },
+  {
+    "w": "please",
+    "start_ms": 100580,
+    "end_ms": 100960
+  },
+  {
+    "w": "go.",
+    "start_ms": 100960,
+    "end_ms": 101200
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 101640,
+    "end_ms": 101940
+  },
+  {
+    "w": "okay,",
+    "start_ms": 102160,
+    "end_ms": 102600
+  },
+  {
+    "w": "cool.",
+    "start_ms": 102600,
+    "end_ms": 102920
+  },
+  {
+    "w": "I'll",
+    "start_ms": 103520,
+    "end_ms": 103960
+  },
+  {
+    "w": "go",
+    "start_ms": 103960,
+    "end_ms": 104100
+  },
+  {
+    "w": "then.",
+    "start_ms": 104100,
+    "end_ms": 104640
+  },
+  {
+    "w": "Thanks",
+    "start_ms": 104640,
+    "end_ms": 104940
+  },
+  {
+    "w": "everyone",
+    "start_ms": 104940,
+    "end_ms": 105020
+  },
+  {
+    "w": "for",
+    "start_ms": 105020,
+    "end_ms": 106680
+  },
+  {
+    "w": "joining.",
+    "start_ms": 170480,
+    "end_ms": 170820
+  },
+  {
+    "w": "I'll",
+    "start_ms": 171260,
+    "end_ms": 171360
+  },
+  {
+    "w": "be",
+    "start_ms": 171360,
+    "end_ms": 171460
+  },
+  {
+    "w": "talking",
+    "start_ms": 171460,
+    "end_ms": 171760
+  },
+  {
+    "w": "about",
+    "start_ms": 171760,
+    "end_ms": 172180
+  },
+  {
+    "w": "the",
+    "start_ms": 172180,
+    "end_ms": 172540
+  },
+  {
+    "w": "infrastructure",
+    "start_ms": 172540,
+    "end_ms": 173040
+  },
+  {
+    "w": "proposal",
+    "start_ms": 173040,
+    "end_ms": 173620
+  },
+  {
+    "w": "for",
+    "start_ms": 173620,
+    "end_ms": 174140
+  },
+  {
+    "w": "the",
+    "start_ms": 174140,
+    "end_ms": 174360
+  },
+  {
+    "w": "company",
+    "start_ms": 174360,
+    "end_ms": 174680
+  },
+  {
+    "w": "Blinder.",
+    "start_ms": 174680,
+    "end_ms": 175200
+  },
+  {
+    "w": "Dane,",
+    "start_ms": 175860,
+    "end_ms": 176140
+  },
+  {
+    "w": "do",
+    "start_ms": 176440,
+    "end_ms": 176700
+  },
+  {
+    "w": "you",
+    "start_ms": 176700,
+    "end_ms": 179540
+  },
+  {
+    "w": "need",
+    "start_ms": 179540,
+    "end_ms": 180700
+  },
+  {
+    "w": "some",
+    "start_ms": 180700,
+    "end_ms": 180880
+  },
+  {
+    "w": "time",
+    "start_ms": 180880,
+    "end_ms": 181120
+  },
+  {
+    "w": "to...",
+    "start_ms": 181120,
+    "end_ms": 181640
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 181640,
+    "end_ms": 181720
+  },
+  {
+    "w": "I'm",
+    "start_ms": 181960,
+    "end_ms": 182120
+  },
+  {
+    "w": "good.",
+    "start_ms": 182120,
+    "end_ms": 182240
+  },
+  {
+    "w": "Okay.",
+    "start_ms": 183080,
+    "end_ms": 183480
+  },
+  {
+    "w": "So",
+    "start_ms": 184580,
+    "end_ms": 185160
+  },
+  {
+    "w": "as",
+    "start_ms": 185160,
+    "end_ms": 185280
+  },
+  {
+    "w": "I",
+    "start_ms": 185280,
+    "end_ms": 185440
+  },
+  {
+    "w": "was",
+    "start_ms": 185440,
+    "end_ms": 185560
+  },
+  {
+    "w": "saying,",
+    "start_ms": 185560,
+    "end_ms": 185840
+  },
+  {
+    "w": "Blinder",
+    "start_ms": 186360,
+    "end_ms": 187040
+  },
+  {
+    "w": "provides",
+    "start_ms": 187040,
+    "end_ms": 187860
+  },
+  {
+    "w": "window",
+    "start_ms": 187860,
+    "end_ms": 188420
+  },
+  {
+    "w": "blinds",
+    "start_ms": 188420,
+    "end_ms": 189000
+  },
+  {
+    "w": "as",
+    "start_ms": 189000,
+    "end_ms": 189060
+  },
+  {
+    "w": "a",
+    "start_ms": 189060,
+    "end_ms": 189160
+  },
+  {
+    "w": "service,",
+    "start_ms": 189160,
+    "end_ms": 189500
+  },
+  {
+    "w": "and",
+    "start_ms": 189960,
+    "end_ms": 190140
+  },
+  {
+    "w": "I'm",
+    "start_ms": 190140,
+    "end_ms": 191020
+  },
+  {
+    "w": "sorry.",
+    "start_ms": 191020,
+    "end_ms": 191200
+  },
+  {
+    "w": "I",
+    "start_ms": 191860,
+    "end_ms": 192400
+  },
+  {
+    "w": "just",
+    "start_ms": 192400,
+    "end_ms": 192520
+  },
+  {
+    "w": "want",
+    "start_ms": 192520,
+    "end_ms": 192660
+  },
+  {
+    "w": "to",
+    "start_ms": 192660,
+    "end_ms": 192740
+  },
+  {
+    "w": "say",
+    "start_ms": 192740,
+    "end_ms": 192920
+  },
+  {
+    "w": "that",
+    "start_ms": 192920,
+    "end_ms": 193160
+  },
+  {
+    "w": "it's",
+    "start_ms": 193160,
+    "end_ms": 193680
+  },
+  {
+    "w": "totally",
+    "start_ms": 193680,
+    "end_ms": 193840
+  },
+  {
+    "w": "okay",
+    "start_ms": 193840,
+    "end_ms": 194260
+  },
+  {
+    "w": "if",
+    "start_ms": 194260,
+    "end_ms": 194540
+  },
+  {
+    "w": "you",
+    "start_ms": 194540,
+    "end_ms": 194640
+  },
+  {
+    "w": "need",
+    "start_ms": 194640,
+    "end_ms": 194740
+  },
+  {
+    "w": "to",
+    "start_ms": 194740,
+    "end_ms": 194880
+  },
+  {
+    "w": "sit",
+    "start_ms": 194880,
+    "end_ms": 195040
+  },
+  {
+    "w": "this",
+    "start_ms": 195040,
+    "end_ms": 195220
+  },
+  {
+    "w": "one",
+    "start_ms": 195220,
+    "end_ms": 195320
+  },
+  {
+    "w": "out",
+    "start_ms": 195320,
+    "end_ms": 195500
+  },
+  {
+    "w": "and",
+    "start_ms": 195500,
+    "end_ms": 195880
+  },
+  {
+    "w": "deal",
+    "start_ms": 195880,
+    "end_ms": 196040
+  },
+  {
+    "w": "with",
+    "start_ms": 196040,
+    "end_ms": 196500
+  },
+  {
+    "w": "it.",
+    "start_ms": 196500,
+    "end_ms": 196600
+  },
+  {
+    "w": "There's",
+    "start_ms": 196600,
+    "end_ms": 197140
+  },
+  {
+    "w": "nothing",
+    "start_ms": 197140,
+    "end_ms": 197440
+  },
+  {
+    "w": "else",
+    "start_ms": 197440,
+    "end_ms": 197800
+  },
+  {
+    "w": "I",
+    "start_ms": 197800,
+    "end_ms": 197920
+  },
+  {
+    "w": "would",
+    "start_ms": 197920,
+    "end_ms": 198060
+  },
+  {
+    "w": "rather",
+    "start_ms": 198060,
+    "end_ms": 198220
+  },
+  {
+    "w": "do",
+    "start_ms": 198220,
+    "end_ms": 198460
+  },
+  {
+    "w": "than",
+    "start_ms": 198460,
+    "end_ms": 198640
+  },
+  {
+    "w": "listen",
+    "start_ms": 198640,
+    "end_ms": 198960
+  },
+  {
+    "w": "to",
+    "start_ms": 198960,
+    "end_ms": 199140
+  },
+  {
+    "w": "your",
+    "start_ms": 199140,
+    "end_ms": 199280
+  },
+  {
+    "w": "well",
+    "start_ms": 199280,
+    "end_ms": 199460
+  },
+  {
+    "w": "-prepared",
+    "start_ms": 199460,
+    "end_ms": 199840
+  },
+  {
+    "w": "presentation.",
+    "start_ms": 199840,
+    "end_ms": 200400
+  },
+  {
+    "w": "On",
+    "start_ms": 204220,
+    "end_ms": 204700
+  },
+  {
+    "w": "second",
+    "start_ms": 204700,
+    "end_ms": 205180
+  },
+  {
+    "w": "thought,",
+    "start_ms": 205180,
+    "end_ms": 205440
+  },
+  {
+    "w": "you",
+    "start_ms": 205680,
+    "end_ms": 205980
+  },
+  {
+    "w": "might",
+    "start_ms": 205980,
+    "end_ms": 206120
+  },
+  {
+    "w": "be",
+    "start_ms": 206120,
+    "end_ms": 206240
+  },
+  {
+    "w": "right.",
+    "start_ms": 206240,
+    "end_ms": 206380
+  },
+  {
+    "w": "Sorry",
+    "start_ms": 206940,
+    "end_ms": 207420
+  },
+  {
+    "w": "honey,",
+    "start_ms": 207420,
+    "end_ms": 207620
+  },
+  {
+    "w": "I'm",
+    "start_ms": 207860,
+    "end_ms": 207920
+  },
+  {
+    "w": "coming.",
+    "start_ms": 207920,
+    "end_ms": 208140
+  },
+  {
+    "w": "As",
+    "start_ms": 208880,
+    "end_ms": 208980
+  },
+  {
+    "w": "I",
+    "start_ms": 208980,
+    "end_ms": 209920
+  },
+  {
+    "w": "was",
+    "start_ms": 209920,
+    "end_ms": 210040
+  },
+  {
+    "w": "saying,",
+    "start_ms": 210040,
+    "end_ms": 210300
+  },
+  {
+    "w": "a",
+    "start_ms": 210300,
+    "end_ms": 210500
+  },
+  {
+    "w": "company",
+    "start_ms": 210500,
+    "end_ms": 210740
+  },
+  {
+    "w": "offering",
+    "start_ms": 210740,
+    "end_ms": 211220
+  },
+  {
+    "w": "blinds",
+    "start_ms": 211220,
+    "end_ms": 211760
+  },
+  {
+    "w": "as",
+    "start_ms": 211760,
+    "end_ms": 211800
+  },
+  {
+    "w": "a",
+    "start_ms": 211800,
+    "end_ms": 211920
+  },
+  {
+    "w": "service",
+    "start_ms": 211920,
+    "end_ms": 212280
+  },
+  {
+    "w": "will",
+    "start_ms": 212280,
+    "end_ms": 212600
+  },
+  {
+    "w": "definitely...",
+    "start_ms": 212600,
+    "end_ms": 213460
+  },
+  {
+    "w": "Am",
+    "start_ms": 213460,
+    "end_ms": 213580
+  },
+  {
+    "w": "I",
+    "start_ms": 213580,
+    "end_ms": 213740
+  },
+  {
+    "w": "late?",
+    "start_ms": 213740,
+    "end_ms": 213900
+  },
+  {
+    "w": "I'm",
+    "start_ms": 215840,
+    "end_ms": 215880
+  },
+  {
+    "w": "so",
+    "start_ms": 215880,
+    "end_ms": 216020
+  },
+  {
+    "w": "sorry.",
+    "start_ms": 216020,
+    "end_ms": 216280
+  },
+  {
+    "w": "I",
+    "start_ms": 216980,
+    "end_ms": 217260
+  },
+  {
+    "w": "thought",
+    "start_ms": 217260,
+    "end_ms": 217540
+  },
+  {
+    "w": "it",
+    "start_ms": 217540,
+    "end_ms": 217640
+  },
+  {
+    "w": "was",
+    "start_ms": 217640,
+    "end_ms": 217740
+  },
+  {
+    "w": "scheduled",
+    "start_ms": 217740,
+    "end_ms": 217900
+  },
+  {
+    "w": "at",
+    "start_ms": 217900,
+    "end_ms": 218100
+  },
+  {
+    "w": "2",
+    "start_ms": 218100,
+    "end_ms": 218240
+  },
+  {
+    "w": ".35,",
+    "start_ms": 218240,
+    "end_ms": 218620
+  },
+  {
+    "w": "not",
+    "start_ms": 219000,
+    "end_ms": 219080
+  },
+  {
+    "w": "2",
+    "start_ms": 219080,
+    "end_ms": 219280
+  },
+  {
+    "w": ".30",
+    "start_ms": 219280,
+    "end_ms": 219580
+  },
+  {
+    "w": "on",
+    "start_ms": 219580,
+    "end_ms": 219800
+  },
+  {
+    "w": "the",
+    "start_ms": 219800,
+    "end_ms": 219880
+  },
+  {
+    "w": "dot.",
+    "start_ms": 219880,
+    "end_ms": 220180
+  },
+  {
+    "w": "Anyways,",
+    "start_ms": 221380,
+    "end_ms": 221980
+  },
+  {
+    "w": "so",
+    "start_ms": 222300,
+    "end_ms": 222600
+  },
+  {
+    "w": "here",
+    "start_ms": 222600,
+    "end_ms": 223320
+  },
+  {
+    "w": "is",
+    "start_ms": 223320,
+    "end_ms": 223700
+  },
+  {
+    "w": "my",
+    "start_ms": 223700,
+    "end_ms": 223920
+  },
+  {
+    "w": "proposal",
+    "start_ms": 223920,
+    "end_ms": 224460
+  },
+  {
+    "w": "for",
+    "start_ms": 224460,
+    "end_ms": 224920
+  },
+  {
+    "w": "the",
+    "start_ms": 224920,
+    "end_ms": 225080
+  },
+  {
+    "w": "infra",
+    "start_ms": 225080,
+    "end_ms": 225400
+  },
+  {
+    "w": "-changers",
+    "start_ms": 225400,
+    "end_ms": 225780
+  },
+  {
+    "w": "to",
+    "start_ms": 225780,
+    "end_ms": 226000
+  },
+  {
+    "w": "allow",
+    "start_ms": 226000,
+    "end_ms": 226200
+  },
+  {
+    "w": "for",
+    "start_ms": 226200,
+    "end_ms": 226480
+  },
+  {
+    "w": "horizontal",
+    "start_ms": 226480,
+    "end_ms": 226820
+  },
+  {
+    "w": "scaling.",
+    "start_ms": 226820,
+    "end_ms": 227280
+  },
+  {
+    "w": "Any",
+    "start_ms": 228240,
+    "end_ms": 228680
+  },
+  {
+    "w": "questions?",
+    "start_ms": 228680,
+    "end_ms": 229020
+  },
+  {
+    "w": "All",
+    "start_ms": 233910,
+    "end_ms": 234470
+  },
+  {
+    "w": "right.",
+    "start_ms": 234470,
+    "end_ms": 234650
+  },
+  {
+    "w": "Well,",
+    "start_ms": 234990,
+    "end_ms": 235070
+  },
+  {
+    "w": "if",
+    "start_ms": 235230,
+    "end_ms": 235350
+  },
+  {
+    "w": "there's",
+    "start_ms": 235350,
+    "end_ms": 235530
+  },
+  {
+    "w": "no",
+    "start_ms": 235530,
+    "end_ms": 235650
+  },
+  {
+    "w": "questions,",
+    "start_ms": 235650,
+    "end_ms": 236010
+  },
+  {
+    "w": "you",
+    "start_ms": 236030,
+    "end_ms": 236790
+  },
+  {
+    "w": "guys",
+    "start_ms": 236790,
+    "end_ms": 236950
+  },
+  {
+    "w": "can",
+    "start_ms": 236950,
+    "end_ms": 237130
+  },
+  {
+    "w": "get",
+    "start_ms": 237130,
+    "end_ms": 237270
+  },
+  {
+    "w": "25",
+    "start_ms": 237270,
+    "end_ms": 237570
+  },
+  {
+    "w": "minutes",
+    "start_ms": 237570,
+    "end_ms": 237930
+  },
+  {
+    "w": "back.",
+    "start_ms": 237930,
+    "end_ms": 238190
+  },
+  {
+    "w": "Thanks.",
+    "start_ms": 238810,
+    "end_ms": 239150
+  },
+  {
+    "w": "Bye.",
+    "start_ms": 239630,
+    "end_ms": 239870
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 241010,
+    "end_ms": 241610
+  },
+  {
+    "w": "so",
+    "start_ms": 282580,
+    "end_ms": 282740
+  },
+  {
+    "w": "that's",
+    "start_ms": 282740,
+    "end_ms": 283000
+  },
+  {
+    "w": "the",
+    "start_ms": 283000,
+    "end_ms": 283120
+  },
+  {
+    "w": "high",
+    "start_ms": 283120,
+    "end_ms": 283380
+  },
+  {
+    "w": "-level",
+    "start_ms": 283380,
+    "end_ms": 283680
+  },
+  {
+    "w": "overview",
+    "start_ms": 283680,
+    "end_ms": 284080
+  },
+  {
+    "w": "of",
+    "start_ms": 284080,
+    "end_ms": 284660
+  },
+  {
+    "w": "the",
+    "start_ms": 284660,
+    "end_ms": 284900
+  },
+  {
+    "w": "new",
+    "start_ms": 284900,
+    "end_ms": 285060
+  },
+  {
+    "w": "design",
+    "start_ms": 285060,
+    "end_ms": 285400
+  },
+  {
+    "w": "for",
+    "start_ms": 285400,
+    "end_ms": 285860
+  },
+  {
+    "w": "Blinder.",
+    "start_ms": 285860,
+    "end_ms": 286460
+  },
+  {
+    "w": "Do",
+    "start_ms": 287600,
+    "end_ms": 287720
+  },
+  {
+    "w": "you",
+    "start_ms": 287720,
+    "end_ms": 287780
+  },
+  {
+    "w": "have",
+    "start_ms": 287780,
+    "end_ms": 287900
+  },
+  {
+    "w": "any",
+    "start_ms": 287900,
+    "end_ms": 287980
+  },
+  {
+    "w": "questions?",
+    "start_ms": 287980,
+    "end_ms": 288380
+  },
+  {
+    "w": "Sorry,",
+    "start_ms": 291350,
+    "end_ms": 291670
+  },
+  {
+    "w": "it's",
+    "start_ms": 291890,
+    "end_ms": 292170
+  },
+  {
+    "w": "not",
+    "start_ms": 292170,
+    "end_ms": 292730
+  },
+  {
+    "w": "a",
+    "start_ms": 292730,
+    "end_ms": 292850
+  },
+  {
+    "w": "big",
+    "start_ms": 292850,
+    "end_ms": 292950
+  },
+  {
+    "w": "deal,",
+    "start_ms": 292950,
+    "end_ms": 293210
+  },
+  {
+    "w": "but",
+    "start_ms": 293210,
+    "end_ms": 293510
+  },
+  {
+    "w": "it",
+    "start_ms": 293510,
+    "end_ms": 293910
+  },
+  {
+    "w": "kind",
+    "start_ms": 293910,
+    "end_ms": 294050
+  },
+  {
+    "w": "of",
+    "start_ms": 294050,
+    "end_ms": 294170
+  },
+  {
+    "w": "bothers",
+    "start_ms": 294170,
+    "end_ms": 294390
+  },
+  {
+    "w": "me.",
+    "start_ms": 294390,
+    "end_ms": 294670
+  },
+  {
+    "w": "So",
+    "start_ms": 294670,
+    "end_ms": 295270
+  },
+  {
+    "w": "the",
+    "start_ms": 295270,
+    "end_ms": 295410
+  },
+  {
+    "w": "company",
+    "start_ms": 295410,
+    "end_ms": 295830
+  },
+  {
+    "w": "name",
+    "start_ms": 295830,
+    "end_ms": 296190
+  },
+  {
+    "w": "is",
+    "start_ms": 296190,
+    "end_ms": 297210
+  },
+  {
+    "w": "Blinder",
+    "start_ms": 297210,
+    "end_ms": 297750
+  },
+  {
+    "w": "without",
+    "start_ms": 297750,
+    "end_ms": 298730
+  },
+  {
+    "w": "the",
+    "start_ms": 298730,
+    "end_ms": 299250
+  },
+  {
+    "w": "E,",
+    "start_ms": 299250,
+    "end_ms": 299490
+  },
+  {
+    "w": "so",
+    "start_ms": 299850,
+    "end_ms": 300210
+  },
+  {
+    "w": "it's",
+    "start_ms": 300210,
+    "end_ms": 300430
+  },
+  {
+    "w": "Blinder.",
+    "start_ms": 300430,
+    "end_ms": 301050
+  },
+  {
+    "w": "Okay,",
+    "start_ms": 302550,
+    "end_ms": 303270
+  },
+  {
+    "w": "yeah.",
+    "start_ms": 303690,
+    "end_ms": 303710
+  },
+  {
+    "w": "Blinder?",
+    "start_ms": 304390,
+    "end_ms": 305110
+  },
+  {
+    "w": "No.",
+    "start_ms": 305770,
+    "end_ms": 306370
+  },
+  {
+    "w": "Blinder.",
+    "start_ms": 307190,
+    "end_ms": 307570
+  },
+  {
+    "w": "Blinder.",
+    "start_ms": 308550,
+    "end_ms": 308810
+  },
+  {
+    "w": "All",
+    "start_ms": 309470,
+    "end_ms": 309490
+  },
+  {
+    "w": "right,",
+    "start_ms": 309490,
+    "end_ms": 309570
+  },
+  {
+    "w": "we",
+    "start_ms": 310250,
+    "end_ms": 310290
+  },
+  {
+    "w": "can",
+    "start_ms": 310290,
+    "end_ms": 310790
+  },
+  {
+    "w": "take",
+    "start_ms": 310790,
+    "end_ms": 310930
+  },
+  {
+    "w": "this",
+    "start_ms": 310930,
+    "end_ms": 311110
+  },
+  {
+    "w": "offline",
+    "start_ms": 311110,
+    "end_ms": 311270
+  },
+  {
+    "w": "for",
+    "start_ms": 311270,
+    "end_ms": 311630
+  },
+  {
+    "w": "another",
+    "start_ms": 311630,
+    "end_ms": 311750
+  },
+  {
+    "w": "time.",
+    "start_ms": 311750,
+    "end_ms": 312070
+  },
+  {
+    "w": "What",
+    "start_ms": 312790,
+    "end_ms": 312790
+  },
+  {
+    "w": "were",
+    "start_ms": 312790,
+    "end_ms": 313070
+  },
+  {
+    "w": "you",
+    "start_ms": 313070,
+    "end_ms": 313150
+  },
+  {
+    "w": "saying?",
+    "start_ms": 313150,
+    "end_ms": 313330
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 314190,
+    "end_ms": 314190
+  },
+  {
+    "w": "do",
+    "start_ms": 314370,
+    "end_ms": 314490
+  },
+  {
+    "w": "you",
+    "start_ms": 314490,
+    "end_ms": 314630
+  },
+  {
+    "w": "have",
+    "start_ms": 314630,
+    "end_ms": 314910
+  },
+  {
+    "w": "any",
+    "start_ms": 314910,
+    "end_ms": 315050
+  },
+  {
+    "w": "questions",
+    "start_ms": 315050,
+    "end_ms": 315470
+  },
+  {
+    "w": "about",
+    "start_ms": 315470,
+    "end_ms": 316170
+  },
+  {
+    "w": "the",
+    "start_ms": 316170,
+    "end_ms": 316370
+  },
+  {
+    "w": "design?",
+    "start_ms": 316370,
+    "end_ms": 316630
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 317110,
+    "end_ms": 317150
+  },
+  {
+    "w": "yeah.",
+    "start_ms": 317210,
+    "end_ms": 317330
+  },
+  {
+    "w": "Here's",
+    "start_ms": 317790,
+    "end_ms": 317890
+  },
+  {
+    "w": "the",
+    "start_ms": 317890,
+    "end_ms": 318010
+  },
+  {
+    "w": "thing.",
+    "start_ms": 318010,
+    "end_ms": 318130
+  },
+  {
+    "w": "I",
+    "start_ms": 318850,
+    "end_ms": 318850
+  },
+  {
+    "w": "don't",
+    "start_ms": 318850,
+    "end_ms": 319070
+  },
+  {
+    "w": "see",
+    "start_ms": 319070,
+    "end_ms": 319450
+  },
+  {
+    "w": "machine",
+    "start_ms": 319450,
+    "end_ms": 319890
+  },
+  {
+    "w": "learning",
+    "start_ms": 319890,
+    "end_ms": 320410
+  },
+  {
+    "w": "anywhere",
+    "start_ms": 320410,
+    "end_ms": 321290
+  },
+  {
+    "w": "in",
+    "start_ms": 321290,
+    "end_ms": 321690
+  },
+  {
+    "w": "your",
+    "start_ms": 321690,
+    "end_ms": 321790
+  },
+  {
+    "w": "proposal.",
+    "start_ms": 321790,
+    "end_ms": 322130
+  },
+  {
+    "w": "You",
+    "start_ms": 323010,
+    "end_ms": 323310
+  },
+  {
+    "w": "sell",
+    "start_ms": 323310,
+    "end_ms": 323930
+  },
+  {
+    "w": "blinds",
+    "start_ms": 323930,
+    "end_ms": 324710
+  },
+  {
+    "w": "to",
+    "start_ms": 324710,
+    "end_ms": 324830
+  },
+  {
+    "w": "customers.",
+    "start_ms": 324830,
+    "end_ms": 325370
+  },
+  {
+    "w": "No,",
+    "start_ms": 326210,
+    "end_ms": 326710
+  },
+  {
+    "w": "no.",
+    "start_ms": 326870,
+    "end_ms": 326970
+  },
+  {
+    "w": "We",
+    "start_ms": 327410,
+    "end_ms": 327430
+  },
+  {
+    "w": "sell",
+    "start_ms": 327430,
+    "end_ms": 327730
+  },
+  {
+    "w": "privacy.",
+    "start_ms": 327730,
+    "end_ms": 328210
+  },
+  {
+    "w": "We",
+    "start_ms": 329230,
+    "end_ms": 329250
+  },
+  {
+    "w": "sell",
+    "start_ms": 329250,
+    "end_ms": 329430
+  },
+  {
+    "w": "security.",
+    "start_ms": 329430,
+    "end_ms": 329790
+  },
+  {
+    "w": "We",
+    "start_ms": 330270,
+    "end_ms": 330270
+  },
+  {
+    "w": "sell",
+    "start_ms": 330270,
+    "end_ms": 330570
+  },
+  {
+    "w": "the",
+    "start_ms": 330570,
+    "end_ms": 331630
+  },
+  {
+    "w": "peace",
+    "start_ms": 331630,
+    "end_ms": 331850
+  },
+  {
+    "w": "of",
+    "start_ms": 331850,
+    "end_ms": 332030
+  },
+  {
+    "w": "mind.",
+    "start_ms": 332030,
+    "end_ms": 332290
+  },
+  {
+    "w": "And",
+    "start_ms": 333010,
+    "end_ms": 333030
+  },
+  {
+    "w": "window",
+    "start_ms": 333030,
+    "end_ms": 333270
+  },
+  {
+    "w": "blinds",
+    "start_ms": 333270,
+    "end_ms": 333810
+  },
+  {
+    "w": "are",
+    "start_ms": 333810,
+    "end_ms": 333990
+  },
+  {
+    "w": "merely",
+    "start_ms": 333990,
+    "end_ms": 334330
+  },
+  {
+    "w": "the",
+    "start_ms": 334330,
+    "end_ms": 334590
+  },
+  {
+    "w": "means",
+    "start_ms": 334590,
+    "end_ms": 334930
+  },
+  {
+    "w": "for",
+    "start_ms": 334930,
+    "end_ms": 335550
+  },
+  {
+    "w": "that,",
+    "start_ms": 335550,
+    "end_ms": 335770
+  },
+  {
+    "w": "with",
+    "start_ms": 336150,
+    "end_ms": 336590
+  },
+  {
+    "w": "machine",
+    "start_ms": 336590,
+    "end_ms": 337270
+  },
+  {
+    "w": "learning,",
+    "start_ms": 337270,
+    "end_ms": 337570
+  },
+  {
+    "w": "of",
+    "start_ms": 337650,
+    "end_ms": 337790
+  },
+  {
+    "w": "course.",
+    "start_ms": 337790,
+    "end_ms": 337950
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 338990,
+    "end_ms": 339490
+  },
+  {
+    "w": "okay.",
+    "start_ms": 339990,
+    "end_ms": 340010
+  },
+  {
+    "w": "What",
+    "start_ms": 340530,
+    "end_ms": 341130
+  },
+  {
+    "w": "data",
+    "start_ms": 341130,
+    "end_ms": 341870
+  },
+  {
+    "w": "sets",
+    "start_ms": 341870,
+    "end_ms": 342150
+  },
+  {
+    "w": "are",
+    "start_ms": 342150,
+    "end_ms": 342350
+  },
+  {
+    "w": "we",
+    "start_ms": 342350,
+    "end_ms": 342450
+  },
+  {
+    "w": "working",
+    "start_ms": 342450,
+    "end_ms": 342630
+  },
+  {
+    "w": "with?",
+    "start_ms": 342630,
+    "end_ms": 342910
+  },
+  {
+    "w": "Are",
+    "start_ms": 343510,
+    "end_ms": 343770
+  },
+  {
+    "w": "you",
+    "start_ms": 343770,
+    "end_ms": 343890
+  },
+  {
+    "w": "collecting",
+    "start_ms": 343890,
+    "end_ms": 344110
+  },
+  {
+    "w": "their",
+    "start_ms": 344110,
+    "end_ms": 344390
+  },
+  {
+    "w": "feedbacks,",
+    "start_ms": 344390,
+    "end_ms": 345110
+  },
+  {
+    "w": "their",
+    "start_ms": 345350,
+    "end_ms": 345550
+  },
+  {
+    "w": "returns?",
+    "start_ms": 345550,
+    "end_ms": 345870
+  },
+  {
+    "w": "Wait,",
+    "start_ms": 346590,
+    "end_ms": 346590
+  },
+  {
+    "w": "wait.",
+    "start_ms": 346650,
+    "end_ms": 346850
+  },
+  {
+    "w": "Did",
+    "start_ms": 347250,
+    "end_ms": 347270
+  },
+  {
+    "w": "you",
+    "start_ms": 347270,
+    "end_ms": 347770
+  },
+  {
+    "w": "not",
+    "start_ms": 347770,
+    "end_ms": 347910
+  },
+  {
+    "w": "hear",
+    "start_ms": 347910,
+    "end_ms": 348070
+  },
+  {
+    "w": "a",
+    "start_ms": 348070,
+    "end_ms": 348250
+  },
+  {
+    "w": "word",
+    "start_ms": 348250,
+    "end_ms": 348590
+  },
+  {
+    "w": "I",
+    "start_ms": 348590,
+    "end_ms": 348990
+  },
+  {
+    "w": "said?",
+    "start_ms": 348990,
+    "end_ms": 349270
+  },
+  {
+    "w": "We",
+    "start_ms": 349950,
+    "end_ms": 350430
+  },
+  {
+    "w": "are",
+    "start_ms": 350430,
+    "end_ms": 350530
+  },
+  {
+    "w": "all",
+    "start_ms": 350530,
+    "end_ms": 350770
+  },
+  {
+    "w": "about",
+    "start_ms": 350770,
+    "end_ms": 351010
+  },
+  {
+    "w": "privacy,",
+    "start_ms": 351010,
+    "end_ms": 351490
+  },
+  {
+    "w": "so",
+    "start_ms": 351870,
+    "end_ms": 351910
+  },
+  {
+    "w": "we",
+    "start_ms": 351910,
+    "end_ms": 352050
+  },
+  {
+    "w": "would",
+    "start_ms": 352050,
+    "end_ms": 352190
+  },
+  {
+    "w": "never",
+    "start_ms": 352190,
+    "end_ms": 352590
+  },
+  {
+    "w": "collect",
+    "start_ms": 352590,
+    "end_ms": 353230
+  },
+  {
+    "w": "data",
+    "start_ms": 353230,
+    "end_ms": 353770
+  },
+  {
+    "w": "from",
+    "start_ms": 353770,
+    "end_ms": 354170
+  },
+  {
+    "w": "our",
+    "start_ms": 354170,
+    "end_ms": 354250
+  },
+  {
+    "w": "customers.",
+    "start_ms": 354250,
+    "end_ms": 354610
+  },
+  {
+    "w": "Actually,",
+    "start_ms": 357770,
+    "end_ms": 358250
+  },
+  {
+    "w": "I",
+    "start_ms": 358250,
+    "end_ms": 358730
+  },
+  {
+    "w": "think",
+    "start_ms": 358730,
+    "end_ms": 359230
+  },
+  {
+    "w": "I",
+    "start_ms": 359230,
+    "end_ms": 359390
+  },
+  {
+    "w": "understand",
+    "start_ms": 359390,
+    "end_ms": 359730
+  },
+  {
+    "w": "our",
+    "start_ms": 359730,
+    "end_ms": 360710
+  },
+  {
+    "w": "intellectual",
+    "start_ms": 360710,
+    "end_ms": 361150
+  },
+  {
+    "w": "discrepancy.",
+    "start_ms": 361150,
+    "end_ms": 361910
+  },
+  {
+    "w": "Okay,",
+    "start_ms": 362590,
+    "end_ms": 362590
+  },
+  {
+    "w": "oral",
+    "start_ms": 363150,
+    "end_ms": 363270
+  },
+  {
+    "w": "communication.",
+    "start_ms": 363270,
+    "end_ms": 363710
+  },
+  {
+    "w": "It's",
+    "start_ms": 364610,
+    "end_ms": 364810
+  },
+  {
+    "w": "low",
+    "start_ms": 364810,
+    "end_ms": 364970
+  },
+  {
+    "w": "bandwidth",
+    "start_ms": 364970,
+    "end_ms": 365310
+  },
+  {
+    "w": "medium.",
+    "start_ms": 365310,
+    "end_ms": 365650
+  },
+  {
+    "w": "I",
+    "start_ms": 366230,
+    "end_ms": 366270
+  },
+  {
+    "w": "get",
+    "start_ms": 366270,
+    "end_ms": 366430
+  },
+  {
+    "w": "it.",
+    "start_ms": 366430,
+    "end_ms": 366590
+  },
+  {
+    "w": "It's",
+    "start_ms": 366870,
+    "end_ms": 366910
+  },
+  {
+    "w": "not",
+    "start_ms": 366910,
+    "end_ms": 366990
+  },
+  {
+    "w": "your",
+    "start_ms": 366990,
+    "end_ms": 367090
+  },
+  {
+    "w": "fault.",
+    "start_ms": 367090,
+    "end_ms": 367290
+  },
+  {
+    "w": "Let",
+    "start_ms": 367950,
+    "end_ms": 368110
+  },
+  {
+    "w": "me",
+    "start_ms": 368110,
+    "end_ms": 368170
+  },
+  {
+    "w": "just",
+    "start_ms": 368170,
+    "end_ms": 368270
+  },
+  {
+    "w": "show",
+    "start_ms": 368270,
+    "end_ms": 368470
+  },
+  {
+    "w": "you",
+    "start_ms": 368470,
+    "end_ms": 368630
+  },
+  {
+    "w": "a",
+    "start_ms": 368630,
+    "end_ms": 368810
+  },
+  {
+    "w": "PowerPoint",
+    "start_ms": 368810,
+    "end_ms": 369230
+  },
+  {
+    "w": "of",
+    "start_ms": 369230,
+    "end_ms": 369770
+  },
+  {
+    "w": "our",
+    "start_ms": 369770,
+    "end_ms": 369850
+  },
+  {
+    "w": "design.",
+    "start_ms": 369850,
+    "end_ms": 370090
+  },
+  {
+    "w": "I",
+    "start_ms": 370650,
+    "end_ms": 370650
+  },
+  {
+    "w": "think",
+    "start_ms": 370650,
+    "end_ms": 370830
+  },
+  {
+    "w": "it'll",
+    "start_ms": 370830,
+    "end_ms": 371510
+  },
+  {
+    "w": "make",
+    "start_ms": 371510,
+    "end_ms": 371630
+  },
+  {
+    "w": "a",
+    "start_ms": 371630,
+    "end_ms": 371750
+  },
+  {
+    "w": "lot",
+    "start_ms": 371750,
+    "end_ms": 371850
+  },
+  {
+    "w": "more",
+    "start_ms": 371850,
+    "end_ms": 371970
+  },
+  {
+    "w": "sense",
+    "start_ms": 371970,
+    "end_ms": 372170
+  },
+  {
+    "w": "once",
+    "start_ms": 372170,
+    "end_ms": 372770
+  },
+  {
+    "w": "you",
+    "start_ms": 372770,
+    "end_ms": 372930
+  },
+  {
+    "w": "see",
+    "start_ms": 372930,
+    "end_ms": 373030
+  },
+  {
+    "w": "the",
+    "start_ms": 373030,
+    "end_ms": 373110
+  },
+  {
+    "w": "diagram.",
+    "start_ms": 373110,
+    "end_ms": 373350
+  },
+  {
+    "w": "Do",
+    "start_ms": 373350,
+    "end_ms": 374270
+  },
+  {
+    "w": "you",
+    "start_ms": 379550,
+    "end_ms": 379850
+  },
+  {
+    "w": "see",
+    "start_ms": 379850,
+    "end_ms": 379970
+  },
+  {
+    "w": "my",
+    "start_ms": 379970,
+    "end_ms": 380070
+  },
+  {
+    "w": "screen?",
+    "start_ms": 380070,
+    "end_ms": 380290
+  },
+  {
+    "w": "I",
+    "start_ms": 381230,
+    "end_ms": 381390
+  },
+  {
+    "w": "see",
+    "start_ms": 381390,
+    "end_ms": 383510
+  },
+  {
+    "w": "your",
+    "start_ms": 383510,
+    "end_ms": 383630
+  },
+  {
+    "w": "screen,",
+    "start_ms": 383630,
+    "end_ms": 383950
+  },
+  {
+    "w": "but",
+    "start_ms": 384070,
+    "end_ms": 384170
+  },
+  {
+    "w": "I",
+    "start_ms": 384170,
+    "end_ms": 384250
+  },
+  {
+    "w": "don't",
+    "start_ms": 384250,
+    "end_ms": 384370
+  },
+  {
+    "w": "think",
+    "start_ms": 384370,
+    "end_ms": 384470
+  },
+  {
+    "w": "you're",
+    "start_ms": 384470,
+    "end_ms": 384610
+  },
+  {
+    "w": "sharing",
+    "start_ms": 384610,
+    "end_ms": 384790
+  },
+  {
+    "w": "the",
+    "start_ms": 384790,
+    "end_ms": 384950
+  },
+  {
+    "w": "right",
+    "start_ms": 384950,
+    "end_ms": 385070
+  },
+  {
+    "w": "one.",
+    "start_ms": 385070,
+    "end_ms": 385450
+  },
+  {
+    "w": "There",
+    "start_ms": 386130,
+    "end_ms": 386510
+  },
+  {
+    "w": "we",
+    "start_ms": 386510,
+    "end_ms": 386610
+  },
+  {
+    "w": "go.",
+    "start_ms": 386610,
+    "end_ms": 386850
+  },
+  {
+    "w": "So",
+    "start_ms": 390170,
+    "end_ms": 390370
+  },
+  {
+    "w": "you",
+    "start_ms": 390370,
+    "end_ms": 390810
+  },
+  {
+    "w": "understand",
+    "start_ms": 390810,
+    "end_ms": 391070
+  },
+  {
+    "w": "now,",
+    "start_ms": 391070,
+    "end_ms": 391530
+  },
+  {
+    "w": "right?",
+    "start_ms": 391530,
+    "end_ms": 391790
+  },
+  {
+    "w": "The",
+    "start_ms": 392510,
+    "end_ms": 392710
+  },
+  {
+    "w": "innovation?",
+    "start_ms": 392710,
+    "end_ms": 392990
+  },
+  {
+    "w": "Just",
+    "start_ms": 393510,
+    "end_ms": 393690
+  },
+  {
+    "w": "a",
+    "start_ms": 393690,
+    "end_ms": 394070
+  },
+  {
+    "w": "second.",
+    "start_ms": 394070,
+    "end_ms": 394290
+  },
+  {
+    "w": "Sorry.",
+    "start_ms": 403410,
+    "end_ms": 403890
+  },
+  {
+    "w": "I",
+    "start_ms": 404230,
+    "end_ms": 404350
+  },
+  {
+    "w": "had",
+    "start_ms": 404350,
+    "end_ms": 404490
+  },
+  {
+    "w": "a",
+    "start_ms": 404490,
+    "end_ms": 404570
+  },
+  {
+    "w": "delivery",
+    "start_ms": 404570,
+    "end_ms": 404850
+  },
+  {
+    "w": "come",
+    "start_ms": 404850,
+    "end_ms": 405170
+  },
+  {
+    "w": "in.",
+    "start_ms": 405170,
+    "end_ms": 405330
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 405890,
+    "end_ms": 406270
+  },
+  {
+    "w": "we'll",
+    "start_ms": 406550,
+    "end_ms": 406890
+  },
+  {
+    "w": "look",
+    "start_ms": 406890,
+    "end_ms": 407270
+  },
+  {
+    "w": "into",
+    "start_ms": 407270,
+    "end_ms": 407550
+  },
+  {
+    "w": "that.",
+    "start_ms": 407550,
+    "end_ms": 407790
+  },
+  {
+    "w": "Do",
+    "start_ms": 408210,
+    "end_ms": 408450
+  },
+  {
+    "w": "you",
+    "start_ms": 408450,
+    "end_ms": 408590
+  },
+  {
+    "w": "have",
+    "start_ms": 408590,
+    "end_ms": 408870
+  },
+  {
+    "w": "a",
+    "start_ms": 408870,
+    "end_ms": 408990
+  },
+  {
+    "w": "team",
+    "start_ms": 408990,
+    "end_ms": 409250
+  },
+  {
+    "w": "of",
+    "start_ms": 409250,
+    "end_ms": 409470
+  },
+  {
+    "w": "machine",
+    "start_ms": 409470,
+    "end_ms": 409670
+  },
+  {
+    "w": "learning",
+    "start_ms": 409670,
+    "end_ms": 409930
+  },
+  {
+    "w": "engineers",
+    "start_ms": 409930,
+    "end_ms": 410510
+  },
+  {
+    "w": "to",
+    "start_ms": 410510,
+    "end_ms": 411370
+  },
+  {
+    "w": "work",
+    "start_ms": 411370,
+    "end_ms": 411550
+  },
+  {
+    "w": "with",
+    "start_ms": 411550,
+    "end_ms": 411710
+  },
+  {
+    "w": "us?",
+    "start_ms": 411710,
+    "end_ms": 411870
+  },
+  {
+    "w": "No,",
+    "start_ms": 412530,
+    "end_ms": 413010
+  },
+  {
+    "w": "why",
+    "start_ms": 413170,
+    "end_ms": 413550
+  },
+  {
+    "w": "would",
+    "start_ms": 413550,
+    "end_ms": 413730
+  },
+  {
+    "w": "we?",
+    "start_ms": 413730,
+    "end_ms": 413890
+  },
+  {
+    "w": "Well,",
+    "start_ms": 414450,
+    "end_ms": 414690
+  },
+  {
+    "w": "how",
+    "start_ms": 414850,
+    "end_ms": 414990
+  },
+  {
+    "w": "are",
+    "start_ms": 414990,
+    "end_ms": 415070
+  },
+  {
+    "w": "you",
+    "start_ms": 415070,
+    "end_ms": 415150
+  },
+  {
+    "w": "going",
+    "start_ms": 415150,
+    "end_ms": 415270
+  },
+  {
+    "w": "to",
+    "start_ms": 415270,
+    "end_ms": 415270
+  },
+  {
+    "w": "maintain",
+    "start_ms": 415270,
+    "end_ms": 415610
+  },
+  {
+    "w": "all",
+    "start_ms": 415610,
+    "end_ms": 415790
+  },
+  {
+    "w": "this",
+    "start_ms": 415790,
+    "end_ms": 415950
+  },
+  {
+    "w": "new",
+    "start_ms": 415950,
+    "end_ms": 416130
+  },
+  {
+    "w": "technology",
+    "start_ms": 416130,
+    "end_ms": 416450
+  },
+  {
+    "w": "in",
+    "start_ms": 416450,
+    "end_ms": 416770
+  },
+  {
+    "w": "your",
+    "start_ms": 416770,
+    "end_ms": 416850
+  },
+  {
+    "w": "system?",
+    "start_ms": 416850,
+    "end_ms": 417190
+  },
+  {
+    "w": "Well,",
+    "start_ms": 417190,
+    "end_ms": 417790
+  },
+  {
+    "w": "that's",
+    "start_ms": 417870,
+    "end_ms": 418010
+  },
+  {
+    "w": "for",
+    "start_ms": 418010,
+    "end_ms": 418130
+  },
+  {
+    "w": "you",
+    "start_ms": 418130,
+    "end_ms": 418290
+  },
+  {
+    "w": "guys",
+    "start_ms": 418290,
+    "end_ms": 418450
+  },
+  {
+    "w": "to",
+    "start_ms": 418450,
+    "end_ms": 418610
+  },
+  {
+    "w": "figure",
+    "start_ms": 418610,
+    "end_ms": 418770
+  },
+  {
+    "w": "out.",
+    "start_ms": 418770,
+    "end_ms": 419010
+  },
+  {
+    "w": "Isn't",
+    "start_ms": 419170,
+    "end_ms": 419310
+  },
+  {
+    "w": "that",
+    "start_ms": 419310,
+    "end_ms": 419410
+  },
+  {
+    "w": "the",
+    "start_ms": 419410,
+    "end_ms": 419550
+  },
+  {
+    "w": "whole",
+    "start_ms": 419550,
+    "end_ms": 419670
+  },
+  {
+    "w": "point",
+    "start_ms": 419670,
+    "end_ms": 419910
+  },
+  {
+    "w": "of",
+    "start_ms": 419910,
+    "end_ms": 420030
+  },
+  {
+    "w": "your",
+    "start_ms": 420030,
+    "end_ms": 420110
+  },
+  {
+    "w": "team?",
+    "start_ms": 420110,
+    "end_ms": 420350
+  },
+  {
+    "w": "Anyways,",
+    "start_ms": 421010,
+    "end_ms": 421330
+  },
+  {
+    "w": "I",
+    "start_ms": 421430,
+    "end_ms": 421530
+  },
+  {
+    "w": "got",
+    "start_ms": 421530,
+    "end_ms": 421630
+  },
+  {
+    "w": "to",
+    "start_ms": 421630,
+    "end_ms": 421730
+  },
+  {
+    "w": "go.",
+    "start_ms": 421730,
+    "end_ms": 421890
+  },
+  {
+    "w": "My",
+    "start_ms": 422390,
+    "end_ms": 422390
+  },
+  {
+    "w": "masseuse",
+    "start_ms": 422390,
+    "end_ms": 422750
+  },
+  {
+    "w": "is",
+    "start_ms": 422750,
+    "end_ms": 422930
+  },
+  {
+    "w": "here.",
+    "start_ms": 422930,
+    "end_ms": 423170
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 423610,
+    "end_ms": 423610
+  },
+  {
+    "w": "one",
+    "start_ms": 423810,
+    "end_ms": 424010
+  },
+  {
+    "w": "more",
+    "start_ms": 424010,
+    "end_ms": 424130
+  },
+  {
+    "w": "thing.",
+    "start_ms": 424130,
+    "end_ms": 424290
+  },
+  {
+    "w": "Block",
+    "start_ms": 425090,
+    "end_ms": 425150
+  },
+  {
+    "w": "changed.",
+    "start_ms": 425150,
+    "end_ms": 425390
+  },
+  {
+    "w": "We'll",
+    "start_ms": 426350,
+    "end_ms": 426550
+  },
+  {
+    "w": "talk",
+    "start_ms": 426550,
+    "end_ms": 426670
+  },
+  {
+    "w": "about",
+    "start_ms": 426670,
+    "end_ms": 426810
+  },
+  {
+    "w": "that",
+    "start_ms": 426810,
+    "end_ms": 426910
+  },
+  {
+    "w": "next",
+    "start_ms": 426910,
+    "end_ms": 427030
+  },
+  {
+    "w": "time.",
+    "start_ms": 427030,
+    "end_ms": 427230
+  },
+  {
+    "w": "Sorry.",
+    "start_ms": 432460,
+    "end_ms": 432780
+  }
+]

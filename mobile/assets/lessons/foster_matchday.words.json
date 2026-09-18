@@ -1,0 +1,2377 @@
+[
+  {
+    "w": "Right,",
+    "start_ms": 4500,
+    "end_ms": 4940
+  },
+  {
+    "w": "look",
+    "start_ms": 4940,
+    "end_ms": 5180
+  },
+  {
+    "w": "at",
+    "start_ms": 5180,
+    "end_ms": 6280
+  },
+  {
+    "w": "this",
+    "start_ms": 18760,
+    "end_ms": 19020
+  },
+  {
+    "w": "guy",
+    "start_ms": 19020,
+    "end_ms": 19240
+  },
+  {
+    "w": "here.",
+    "start_ms": 19240,
+    "end_ms": 19660
+  },
+  {
+    "w": "I",
+    "start_ms": 19940,
+    "end_ms": 20080
+  },
+  {
+    "w": "like",
+    "start_ms": 20080,
+    "end_ms": 20740
+  },
+  {
+    "w": "this.",
+    "start_ms": 20740,
+    "end_ms": 20960
+  },
+  {
+    "w": "How",
+    "start_ms": 21360,
+    "end_ms": 21440
+  },
+  {
+    "w": "you",
+    "start_ms": 21440,
+    "end_ms": 21780
+  },
+  {
+    "w": "doing",
+    "start_ms": 21780,
+    "end_ms": 21900
+  },
+  {
+    "w": "pal?",
+    "start_ms": 21900,
+    "end_ms": 22060
+  },
+  {
+    "w": "You",
+    "start_ms": 22580,
+    "end_ms": 22940
+  },
+  {
+    "w": "good?",
+    "start_ms": 22940,
+    "end_ms": 23300
+  },
+  {
+    "w": "Yeah.",
+    "start_ms": 23680,
+    "end_ms": 23900
+  },
+  {
+    "w": "Love",
+    "start_ms": 24000,
+    "end_ms": 24140
+  },
+  {
+    "w": "that.",
+    "start_ms": 24140,
+    "end_ms": 24360
+  },
+  {
+    "w": "Don't",
+    "start_ms": 25500,
+    "end_ms": 25860
+  },
+  {
+    "w": "cost",
+    "start_ms": 25860,
+    "end_ms": 26040
+  },
+  {
+    "w": "a",
+    "start_ms": 26040,
+    "end_ms": 26200
+  },
+  {
+    "w": "big",
+    "start_ms": 26200,
+    "end_ms": 26320
+  },
+  {
+    "w": "time,",
+    "start_ms": 26320,
+    "end_ms": 26480
+  },
+  {
+    "w": "you're",
+    "start_ms": 26520,
+    "end_ms": 26640
+  },
+  {
+    "w": "all",
+    "start_ms": 26640,
+    "end_ms": 26740
+  },
+  {
+    "w": "to",
+    "start_ms": 26740,
+    "end_ms": 26860
+  },
+  {
+    "w": "it.",
+    "start_ms": 26860,
+    "end_ms": 26980
+  },
+  {
+    "w": "Yes.",
+    "start_ms": 27540,
+    "end_ms": 27900
+  },
+  {
+    "w": "So",
+    "start_ms": 29740,
+    "end_ms": 30100
+  },
+  {
+    "w": "go",
+    "start_ms": 30100,
+    "end_ms": 30360
+  },
+  {
+    "w": "bridge,",
+    "start_ms": 30360,
+    "end_ms": 30680
+  },
+  {
+    "w": "I",
+    "start_ms": 30760,
+    "end_ms": 30960
+  },
+  {
+    "w": "see",
+    "start_ms": 30960,
+    "end_ms": 31180
+  },
+  {
+    "w": "high",
+    "start_ms": 31180,
+    "end_ms": 31460
+  },
+  {
+    "w": "roads.",
+    "start_ms": 31460,
+    "end_ms": 31760
+  },
+  {
+    "w": "I",
+    "start_ms": 32080,
+    "end_ms": 32159
+  },
+  {
+    "w": "will",
+    "start_ms": 32159,
+    "end_ms": 32400
+  },
+  {
+    "w": "do,",
+    "start_ms": 32400,
+    "end_ms": 32659
+  },
+  {
+    "w": "mate.",
+    "start_ms": 32860,
+    "end_ms": 32900
+  },
+  {
+    "w": "He's",
+    "start_ms": 33520,
+    "end_ms": 33680
+  },
+  {
+    "w": "all",
+    "start_ms": 33680,
+    "end_ms": 33780
+  },
+  {
+    "w": "right,",
+    "start_ms": 33780,
+    "end_ms": 33940
+  },
+  {
+    "w": "Mark,",
+    "start_ms": 34040,
+    "end_ms": 34220
+  },
+  {
+    "w": "Kenny.",
+    "start_ms": 34340,
+    "end_ms": 34400
+  },
+  {
+    "w": "All",
+    "start_ms": 34960,
+    "end_ms": 35000
+  },
+  {
+    "w": "right,",
+    "start_ms": 35000,
+    "end_ms": 35100
+  },
+  {
+    "w": "that's",
+    "start_ms": 35180,
+    "end_ms": 35340
+  },
+  {
+    "w": "okay.",
+    "start_ms": 35340,
+    "end_ms": 35340
+  },
+  {
+    "w": "You",
+    "start_ms": 35700,
+    "end_ms": 35740
+  },
+  {
+    "w": "all",
+    "start_ms": 35740,
+    "end_ms": 35820
+  },
+  {
+    "w": "right?",
+    "start_ms": 35820,
+    "end_ms": 35860
+  },
+  {
+    "w": "What",
+    "start_ms": 38490,
+    "end_ms": 38850
+  },
+  {
+    "w": "you",
+    "start_ms": 38850,
+    "end_ms": 38930
+  },
+  {
+    "w": "saying?",
+    "start_ms": 38930,
+    "end_ms": 39090
+  },
+  {
+    "w": "No,",
+    "start_ms": 39490,
+    "end_ms": 39650
+  },
+  {
+    "w": "no,",
+    "start_ms": 39750,
+    "end_ms": 39750
+  },
+  {
+    "w": "no.",
+    "start_ms": 39930,
+    "end_ms": 39930
+  },
+  {
+    "w": "I",
+    "start_ms": 40710,
+    "end_ms": 40850
+  },
+  {
+    "w": "knew",
+    "start_ms": 40850,
+    "end_ms": 41110
+  },
+  {
+    "w": "that",
+    "start_ms": 41110,
+    "end_ms": 41330
+  },
+  {
+    "w": "was",
+    "start_ms": 41330,
+    "end_ms": 41510
+  },
+  {
+    "w": "going",
+    "start_ms": 41510,
+    "end_ms": 41630
+  },
+  {
+    "w": "to",
+    "start_ms": 41630,
+    "end_ms": 41790
+  },
+  {
+    "w": "be",
+    "start_ms": 41790,
+    "end_ms": 41910
+  },
+  {
+    "w": "down.",
+    "start_ms": 41910,
+    "end_ms": 42090
+  },
+  {
+    "w": "That's",
+    "start_ms": 42230,
+    "end_ms": 42350
+  },
+  {
+    "w": "what",
+    "start_ms": 42350,
+    "end_ms": 42470
+  },
+  {
+    "w": "we",
+    "start_ms": 42470,
+    "end_ms": 42630
+  },
+  {
+    "w": "want.",
+    "start_ms": 42630,
+    "end_ms": 42850
+  },
+  {
+    "w": "Half",
+    "start_ms": 43350,
+    "end_ms": 43350
+  },
+  {
+    "w": "-time",
+    "start_ms": 43350,
+    "end_ms": 43590
+  },
+  {
+    "w": "fuel.",
+    "start_ms": 43590,
+    "end_ms": 43790
+  },
+  {
+    "w": "Right,",
+    "start_ms": 46550,
+    "end_ms": 46910
+  },
+  {
+    "w": "here",
+    "start_ms": 47070,
+    "end_ms": 47090
+  },
+  {
+    "w": "we",
+    "start_ms": 47090,
+    "end_ms": 47190
+  },
+  {
+    "w": "go.",
+    "start_ms": 47190,
+    "end_ms": 47370
+  },
+  {
+    "w": "We're",
+    "start_ms": 47590,
+    "end_ms": 47670
+  },
+  {
+    "w": "at",
+    "start_ms": 47670,
+    "end_ms": 47750
+  },
+  {
+    "w": "Playmore.",
+    "start_ms": 47750,
+    "end_ms": 48430
+  },
+  {
+    "w": "Match",
+    "start_ms": 48710,
+    "end_ms": 48790
+  },
+  {
+    "w": "is",
+    "start_ms": 48790,
+    "end_ms": 48970
+  },
+  {
+    "w": "about",
+    "start_ms": 48970,
+    "end_ms": 49190
+  },
+  {
+    "w": "to",
+    "start_ms": 49190,
+    "end_ms": 49330
+  },
+  {
+    "w": "kick",
+    "start_ms": 49330,
+    "end_ms": 49430
+  },
+  {
+    "w": "off",
+    "start_ms": 49430,
+    "end_ms": 49650
+  },
+  {
+    "w": "in",
+    "start_ms": 49650,
+    "end_ms": 49790
+  },
+  {
+    "w": "about",
+    "start_ms": 49790,
+    "end_ms": 49910
+  },
+  {
+    "w": "one",
+    "start_ms": 49910,
+    "end_ms": 50170
+  },
+  {
+    "w": "hour",
+    "start_ms": 50170,
+    "end_ms": 50510
+  },
+  {
+    "w": "and",
+    "start_ms": 50510,
+    "end_ms": 50670
+  },
+  {
+    "w": "a",
+    "start_ms": 50670,
+    "end_ms": 50750
+  },
+  {
+    "w": "half.",
+    "start_ms": 50750,
+    "end_ms": 50910
+  },
+  {
+    "w": "No",
+    "start_ms": 50910,
+    "end_ms": 51250
+  },
+  {
+    "w": "pressure",
+    "start_ms": 51250,
+    "end_ms": 51470
+  },
+  {
+    "w": "today.",
+    "start_ms": 51470,
+    "end_ms": 51870
+  },
+  {
+    "w": "The",
+    "start_ms": 52050,
+    "end_ms": 52050
+  },
+  {
+    "w": "job",
+    "start_ms": 52050,
+    "end_ms": 52270
+  },
+  {
+    "w": "has",
+    "start_ms": 52270,
+    "end_ms": 52470
+  },
+  {
+    "w": "been",
+    "start_ms": 52470,
+    "end_ms": 52650
+  },
+  {
+    "w": "done.",
+    "start_ms": 52650,
+    "end_ms": 52810
+  },
+  {
+    "w": "I",
+    "start_ms": 52930,
+    "end_ms": 52930
+  },
+  {
+    "w": "hope",
+    "start_ms": 52930,
+    "end_ms": 53070
+  },
+  {
+    "w": "you've",
+    "start_ms": 53070,
+    "end_ms": 53270
+  },
+  {
+    "w": "enjoyed",
+    "start_ms": 53270,
+    "end_ms": 53490
+  },
+  {
+    "w": "all",
+    "start_ms": 53490,
+    "end_ms": 54090
+  },
+  {
+    "w": "the",
+    "start_ms": 54090,
+    "end_ms": 54230
+  },
+  {
+    "w": "vlogs",
+    "start_ms": 54230,
+    "end_ms": 54550
+  },
+  {
+    "w": "so",
+    "start_ms": 54550,
+    "end_ms": 54670
+  },
+  {
+    "w": "far.",
+    "start_ms": 54670,
+    "end_ms": 54930
+  },
+  {
+    "w": "Well,",
+    "start_ms": 55210,
+    "end_ms": 55310
+  },
+  {
+    "w": "we'll",
+    "start_ms": 55410,
+    "end_ms": 55430
+  },
+  {
+    "w": "make",
+    "start_ms": 55430,
+    "end_ms": 55530
+  },
+  {
+    "w": "them",
+    "start_ms": 55530,
+    "end_ms": 55750
+  },
+  {
+    "w": "any",
+    "start_ms": 55750,
+    "end_ms": 55790
+  },
+  {
+    "w": "more.",
+    "start_ms": 55790,
+    "end_ms": 56010
+  },
+  {
+    "w": "I",
+    "start_ms": 56270,
+    "end_ms": 56270
+  },
+  {
+    "w": "haven't",
+    "start_ms": 56270,
+    "end_ms": 56470
+  },
+  {
+    "w": "got",
+    "start_ms": 56470,
+    "end_ms": 56530
+  },
+  {
+    "w": "a",
+    "start_ms": 56530,
+    "end_ms": 56630
+  },
+  {
+    "w": "clue.",
+    "start_ms": 56630,
+    "end_ms": 56750
+  },
+  {
+    "w": "We'll",
+    "start_ms": 56990,
+    "end_ms": 57150
+  },
+  {
+    "w": "see.",
+    "start_ms": 57150,
+    "end_ms": 57330
+  },
+  {
+    "w": "Just",
+    "start_ms": 57730,
+    "end_ms": 57730
+  },
+  {
+    "w": "going",
+    "start_ms": 57730,
+    "end_ms": 57830
+  },
+  {
+    "w": "to",
+    "start_ms": 57830,
+    "end_ms": 57890
+  },
+  {
+    "w": "enjoy",
+    "start_ms": 57890,
+    "end_ms": 57990
+  },
+  {
+    "w": "this",
+    "start_ms": 57990,
+    "end_ms": 58230
+  },
+  {
+    "w": "one",
+    "start_ms": 58230,
+    "end_ms": 58350
+  },
+  {
+    "w": "today.",
+    "start_ms": 58350,
+    "end_ms": 58570
+  },
+  {
+    "w": "Simple",
+    "start_ms": 58910,
+    "end_ms": 58990
+  },
+  {
+    "w": "as",
+    "start_ms": 58990,
+    "end_ms": 59370
+  },
+  {
+    "w": "that",
+    "start_ms": 59370,
+    "end_ms": 59610
+  },
+  {
+    "w": "GoPro",
+    "start_ms": 59610,
+    "end_ms": 59830
+  },
+  {
+    "w": "in",
+    "start_ms": 59830,
+    "end_ms": 60170
+  },
+  {
+    "w": "a",
+    "start_ms": 60170,
+    "end_ms": 60250
+  },
+  {
+    "w": "gold",
+    "start_ms": 60250,
+    "end_ms": 60330
+  },
+  {
+    "w": "time,",
+    "start_ms": 60330,
+    "end_ms": 60590
+  },
+  {
+    "w": "baby.",
+    "start_ms": 60650,
+    "end_ms": 60710
+  },
+  {
+    "w": "I",
+    "start_ms": 60850,
+    "end_ms": 60870
+  },
+  {
+    "w": "might",
+    "start_ms": 60870,
+    "end_ms": 61030
+  },
+  {
+    "w": "wear",
+    "start_ms": 61030,
+    "end_ms": 61170
+  },
+  {
+    "w": "the",
+    "start_ms": 61170,
+    "end_ms": 61290
+  },
+  {
+    "w": "chest",
+    "start_ms": 61290,
+    "end_ms": 61430
+  },
+  {
+    "w": "cam",
+    "start_ms": 61430,
+    "end_ms": 61610
+  },
+  {
+    "w": "as",
+    "start_ms": 61610,
+    "end_ms": 61730
+  },
+  {
+    "w": "well",
+    "start_ms": 61730,
+    "end_ms": 61810
+  },
+  {
+    "w": "today,",
+    "start_ms": 61810,
+    "end_ms": 62030
+  },
+  {
+    "w": "but",
+    "start_ms": 62150,
+    "end_ms": 62270
+  },
+  {
+    "w": "we...",
+    "start_ms": 62270,
+    "end_ms": 62690
+  },
+  {
+    "w": "Come",
+    "start_ms": 64069,
+    "end_ms": 64390
+  },
+  {
+    "w": "on",
+    "start_ms": 64390,
+    "end_ms": 64530
+  },
+  {
+    "w": "then,",
+    "start_ms": 64530,
+    "end_ms": 64550
+  },
+  {
+    "w": "boys.",
+    "start_ms": 64610,
+    "end_ms": 64690
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 67690,
+    "end_ms": 67830
+  },
+  {
+    "w": "I'm",
+    "start_ms": 68310,
+    "end_ms": 68310
+  },
+  {
+    "w": "coming",
+    "start_ms": 68310,
+    "end_ms": 68350
+  },
+  {
+    "w": "out.",
+    "start_ms": 68350,
+    "end_ms": 68550
+  },
+  {
+    "w": "I'm",
+    "start_ms": 68630,
+    "end_ms": 68690
+  },
+  {
+    "w": "coming",
+    "start_ms": 68690,
+    "end_ms": 68810
+  },
+  {
+    "w": "out.",
+    "start_ms": 68810,
+    "end_ms": 68970
+  },
+  {
+    "w": "I'm",
+    "start_ms": 69090,
+    "end_ms": 69090
+  },
+  {
+    "w": "coming",
+    "start_ms": 69090,
+    "end_ms": 69130
+  },
+  {
+    "w": "out.",
+    "start_ms": 69130,
+    "end_ms": 69370
+  },
+  {
+    "w": "I'm",
+    "start_ms": 69470,
+    "end_ms": 69490
+  },
+  {
+    "w": "going",
+    "start_ms": 69490,
+    "end_ms": 69550
+  },
+  {
+    "w": "to",
+    "start_ms": 69550,
+    "end_ms": 69670
+  },
+  {
+    "w": "punish",
+    "start_ms": 69670,
+    "end_ms": 69810
+  },
+  {
+    "w": "it.",
+    "start_ms": 69810,
+    "end_ms": 70010
+  },
+  {
+    "w": "Let",
+    "start_ms": 70230,
+    "end_ms": 70490
+  },
+  {
+    "w": "me",
+    "start_ms": 70490,
+    "end_ms": 70570
+  },
+  {
+    "w": "go.",
+    "start_ms": 70570,
+    "end_ms": 70710
+  },
+  {
+    "w": "Let",
+    "start_ms": 71010,
+    "end_ms": 71330
+  },
+  {
+    "w": "me",
+    "start_ms": 71330,
+    "end_ms": 71570
+  },
+  {
+    "w": "go.",
+    "start_ms": 71570,
+    "end_ms": 71730
+  },
+  {
+    "w": "I",
+    "start_ms": 77560,
+    "end_ms": 77720
+  },
+  {
+    "w": "didn't",
+    "start_ms": 77720,
+    "end_ms": 77940
+  },
+  {
+    "w": "pat",
+    "start_ms": 77940,
+    "end_ms": 78060
+  },
+  {
+    "w": "my",
+    "start_ms": 78060,
+    "end_ms": 78200
+  },
+  {
+    "w": "boots.",
+    "start_ms": 78200,
+    "end_ms": 78420
+  },
+  {
+    "w": "I'm",
+    "start_ms": 79180,
+    "end_ms": 79360
+  },
+  {
+    "w": "so",
+    "start_ms": 89440,
+    "end_ms": 89580
+  },
+  {
+    "w": "adorable.",
+    "start_ms": 89580,
+    "end_ms": 90120
+  },
+  {
+    "w": "It's",
+    "start_ms": 96550,
+    "end_ms": 96690
+  },
+  {
+    "w": "really",
+    "start_ms": 96690,
+    "end_ms": 96690
+  },
+  {
+    "w": "important.",
+    "start_ms": 96690,
+    "end_ms": 96870
+  },
+  {
+    "w": "It's",
+    "start_ms": 97270,
+    "end_ms": 97350
+  },
+  {
+    "w": "kangaroo.",
+    "start_ms": 97350,
+    "end_ms": 97610
+  },
+  {
+    "w": "It's",
+    "start_ms": 97990,
+    "end_ms": 98050
+  },
+  {
+    "w": "kangaroo.",
+    "start_ms": 98050,
+    "end_ms": 98390
+  },
+  {
+    "w": "F***ing",
+    "start_ms": 98850,
+    "end_ms": 99170
+  },
+  {
+    "w": "out.",
+    "start_ms": 99170,
+    "end_ms": 99270
+  },
+  {
+    "w": "F***.",
+    "start_ms": 101030,
+    "end_ms": 101350
+  },
+  {
+    "w": "See",
+    "start_ms": 115090,
+    "end_ms": 115410
+  },
+  {
+    "w": "you,",
+    "start_ms": 115410,
+    "end_ms": 115590
+  },
+  {
+    "w": "girl.",
+    "start_ms": 115610,
+    "end_ms": 115690
+  },
+  {
+    "w": "Go.",
+    "start_ms": 115690,
+    "end_ms": 115790
+  },
+  {
+    "w": "Go.",
+    "start_ms": 116110,
+    "end_ms": 116370
+  },
+  {
+    "w": "Go.",
+    "start_ms": 116730,
+    "end_ms": 116990
+  },
+  {
+    "w": "F***.",
+    "start_ms": 117470,
+    "end_ms": 117850
+  },
+  {
+    "w": "No,",
+    "start_ms": 121040,
+    "end_ms": 121200
+  },
+  {
+    "w": "you",
+    "start_ms": 121260,
+    "end_ms": 121320
+  },
+  {
+    "w": "got",
+    "start_ms": 121320,
+    "end_ms": 121400
+  },
+  {
+    "w": "to",
+    "start_ms": 121400,
+    "end_ms": 121520
+  },
+  {
+    "w": "do",
+    "start_ms": 121520,
+    "end_ms": 121640
+  },
+  {
+    "w": "it.",
+    "start_ms": 121640,
+    "end_ms": 121720
+  },
+  {
+    "w": "See",
+    "start_ms": 122660,
+    "end_ms": 123040
+  },
+  {
+    "w": "you.",
+    "start_ms": 123040,
+    "end_ms": 123200
+  },
+  {
+    "w": "See",
+    "start_ms": 123260,
+    "end_ms": 123400
+  },
+  {
+    "w": "you.",
+    "start_ms": 123400,
+    "end_ms": 123580
+  },
+  {
+    "w": "See",
+    "start_ms": 123580,
+    "end_ms": 123580
+  },
+  {
+    "w": "you.",
+    "start_ms": 123580,
+    "end_ms": 123940
+  },
+  {
+    "w": "We",
+    "start_ms": 123960,
+    "end_ms": 124340
+  },
+  {
+    "w": "six",
+    "start_ms": 124340,
+    "end_ms": 125200
+  },
+  {
+    "w": "up.",
+    "start_ms": 315440,
+    "end_ms": 315680
+  },
+  {
+    "w": "Mark",
+    "start_ms": 316160,
+    "end_ms": 316480
+  },
+  {
+    "w": "Howard,",
+    "start_ms": 316480,
+    "end_ms": 316720
+  },
+  {
+    "w": "everybody.",
+    "start_ms": 316860,
+    "end_ms": 317080
+  },
+  {
+    "w": "What",
+    "start_ms": 317420,
+    "end_ms": 317440
+  },
+  {
+    "w": "a",
+    "start_ms": 317440,
+    "end_ms": 317580
+  },
+  {
+    "w": "legend.",
+    "start_ms": 317580,
+    "end_ms": 317820
+  },
+  {
+    "w": "Everybody",
+    "start_ms": 318980,
+    "end_ms": 319000
+  },
+  {
+    "w": "needs",
+    "start_ms": 319000,
+    "end_ms": 319320
+  },
+  {
+    "w": "a",
+    "start_ms": 319320,
+    "end_ms": 319520
+  },
+  {
+    "w": "Mark",
+    "start_ms": 319520,
+    "end_ms": 319680
+  },
+  {
+    "w": "Howard.",
+    "start_ms": 319680,
+    "end_ms": 319980
+  },
+  {
+    "w": "I",
+    "start_ms": 320100,
+    "end_ms": 320100
+  },
+  {
+    "w": "promise",
+    "start_ms": 320100,
+    "end_ms": 320280
+  },
+  {
+    "w": "you.",
+    "start_ms": 320280,
+    "end_ms": 320500
+  },
+  {
+    "w": "Yours",
+    "start_ms": 321060,
+    "end_ms": 321440
+  },
+  {
+    "w": "Mine",
+    "start_ms": 321440,
+    "end_ms": 321580
+  },
+  {
+    "w": "Away",
+    "start_ms": 321580,
+    "end_ms": 321800
+  },
+  {
+    "w": "podcast.",
+    "start_ms": 321800,
+    "end_ms": 322260
+  },
+  {
+    "w": "Ten",
+    "start_ms": 432440,
+    "end_ms": 432480
+  },
+  {
+    "w": "minutes",
+    "start_ms": 432480,
+    "end_ms": 432640
+  },
+  {
+    "w": "left.",
+    "start_ms": 432640,
+    "end_ms": 432860
+  },
+  {
+    "w": "Goldie's",
+    "start_ms": 436480,
+    "end_ms": 436600
+  },
+  {
+    "w": "on",
+    "start_ms": 436600,
+    "end_ms": 436700
+  },
+  {
+    "w": "fire",
+    "start_ms": 436700,
+    "end_ms": 436940
+  },
+  {
+    "w": "for",
+    "start_ms": 436940,
+    "end_ms": 437140
+  },
+  {
+    "w": "them.",
+    "start_ms": 437140,
+    "end_ms": 437260
+  },
+  {
+    "w": "Dada.",
+    "start_ms": 448820,
+    "end_ms": 448920
+  },
+  {
+    "w": "Dada.",
+    "start_ms": 449140,
+    "end_ms": 449200
+  },
+  {
+    "w": "It's",
+    "start_ms": 452640,
+    "end_ms": 452700
+  },
+  {
+    "w": "a",
+    "start_ms": 452700,
+    "end_ms": 452740
+  },
+  {
+    "w": "corner.",
+    "start_ms": 452740,
+    "end_ms": 452880
+  },
+  {
+    "w": "Love",
+    "start_ms": 460840,
+    "end_ms": 460880
+  },
+  {
+    "w": "that.",
+    "start_ms": 460880,
+    "end_ms": 461140
+  },
+  {
+    "w": "Bonesy.",
+    "start_ms": 461480,
+    "end_ms": 461800
+  },
+  {
+    "w": "Go",
+    "start_ms": 491980,
+    "end_ms": 491980
+  },
+  {
+    "w": "on,",
+    "start_ms": 491980,
+    "end_ms": 492100
+  },
+  {
+    "w": "Mindy.",
+    "start_ms": 492120,
+    "end_ms": 492280
+  },
+  {
+    "w": "Mindy.",
+    "start_ms": 492480,
+    "end_ms": 492860
+  },
+  {
+    "w": "That's",
+    "start_ms": 497500,
+    "end_ms": 497580
+  },
+  {
+    "w": "right.",
+    "start_ms": 497580,
+    "end_ms": 497660
+  },
+  {
+    "w": "He's",
+    "start_ms": 497860,
+    "end_ms": 497960
+  },
+  {
+    "w": "out",
+    "start_ms": 497960,
+    "end_ms": 498080
+  },
+  {
+    "w": "of",
+    "start_ms": 498080,
+    "end_ms": 498220
+  },
+  {
+    "w": "fright",
+    "start_ms": 498220,
+    "end_ms": 498320
+  },
+  {
+    "w": "though.",
+    "start_ms": 498320,
+    "end_ms": 498540
+  },
+  {
+    "w": "Come",
+    "start_ms": 498560,
+    "end_ms": 498740
+  },
+  {
+    "w": "on.",
+    "start_ms": 498740,
+    "end_ms": 498940
+  },
+  {
+    "w": "There's",
+    "start_ms": 499260,
+    "end_ms": 499640
+  },
+  {
+    "w": "no",
+    "start_ms": 499640,
+    "end_ms": 499760
+  },
+  {
+    "w": "fucking",
+    "start_ms": 499760,
+    "end_ms": 500100
+  },
+  {
+    "w": "need",
+    "start_ms": 500100,
+    "end_ms": 500280
+  },
+  {
+    "w": "for",
+    "start_ms": 500280,
+    "end_ms": 500400
+  },
+  {
+    "w": "that.",
+    "start_ms": 500400,
+    "end_ms": 500560
+  },
+  {
+    "w": "There",
+    "start_ms": 500560,
+    "end_ms": 501060
+  },
+  {
+    "w": "is",
+    "start_ms": 501060,
+    "end_ms": 501180
+  },
+  {
+    "w": "no",
+    "start_ms": 501180,
+    "end_ms": 501380
+  },
+  {
+    "w": "need",
+    "start_ms": 501380,
+    "end_ms": 501560
+  },
+  {
+    "w": "for",
+    "start_ms": 501560,
+    "end_ms": 501720
+  },
+  {
+    "w": "that.",
+    "start_ms": 501720,
+    "end_ms": 501860
+  },
+  {
+    "w": "Bad",
+    "start_ms": 533670,
+    "end_ms": 534030
+  },
+  {
+    "w": "play.",
+    "start_ms": 534030,
+    "end_ms": 534190
+  },
+  {
+    "w": "Talk",
+    "start_ms": 534350,
+    "end_ms": 534430
+  },
+  {
+    "w": "to",
+    "start_ms": 534430,
+    "end_ms": 534550
+  },
+  {
+    "w": "me.",
+    "start_ms": 534550,
+    "end_ms": 534650
+  },
+  {
+    "w": "Bad",
+    "start_ms": 534850,
+    "end_ms": 534870
+  },
+  {
+    "w": "play.",
+    "start_ms": 534870,
+    "end_ms": 535270
+  },
+  {
+    "w": "It's",
+    "start_ms": 535630,
+    "end_ms": 535970
+  },
+  {
+    "w": "a",
+    "start_ms": 535970,
+    "end_ms": 535970
+  },
+  {
+    "w": "good",
+    "start_ms": 535970,
+    "end_ms": 536090
+  },
+  {
+    "w": "game,",
+    "start_ms": 536090,
+    "end_ms": 536310
+  },
+  {
+    "w": "isn't",
+    "start_ms": 536470,
+    "end_ms": 536570
+  },
+  {
+    "w": "it?",
+    "start_ms": 536570,
+    "end_ms": 537010
+  },
+  {
+    "w": "Big",
+    "start_ms": 537150,
+    "end_ms": 537330
+  },
+  {
+    "w": "crank.",
+    "start_ms": 537330,
+    "end_ms": 537530
+  },
+  {
+    "w": "I",
+    "start_ms": 538550,
+    "end_ms": 538570
+  },
+  {
+    "w": "don't",
+    "start_ms": 538570,
+    "end_ms": 538770
+  },
+  {
+    "w": "think",
+    "start_ms": 538770,
+    "end_ms": 538870
+  },
+  {
+    "w": "it.",
+    "start_ms": 538870,
+    "end_ms": 539010
+  },
+  {
+    "w": "Oh",
+    "start_ms": 539150,
+    "end_ms": 539270
+  },
+  {
+    "w": "my",
+    "start_ms": 539270,
+    "end_ms": 539470
+  },
+  {
+    "w": "gosh.",
+    "start_ms": 539470,
+    "end_ms": 539690
+  },
+  {
+    "w": "It's",
+    "start_ms": 539730,
+    "end_ms": 539790
+  },
+  {
+    "w": "all",
+    "start_ms": 539790,
+    "end_ms": 539910
+  },
+  {
+    "w": "gold,",
+    "start_ms": 539910,
+    "end_ms": 540050
+  },
+  {
+    "w": "right?",
+    "start_ms": 540390,
+    "end_ms": 540430
+  },
+  {
+    "w": "I've",
+    "start_ms": 542610,
+    "end_ms": 542970
+  },
+  {
+    "w": "done",
+    "start_ms": 542970,
+    "end_ms": 543050
+  },
+  {
+    "w": "that.",
+    "start_ms": 543050,
+    "end_ms": 543210
+  },
+  {
+    "w": "It's",
+    "start_ms": 543350,
+    "end_ms": 543410
+  },
+  {
+    "w": "all",
+    "start_ms": 543410,
+    "end_ms": 543490
+  },
+  {
+    "w": "good",
+    "start_ms": 543490,
+    "end_ms": 544330
+  },
+  {
+    "w": "to",
+    "start_ms": 560710,
+    "end_ms": 560850
+  },
+  {
+    "w": "see.",
+    "start_ms": 560850,
+    "end_ms": 561050
+  },
+  {
+    "w": "Right.",
+    "start_ms": 600570,
+    "end_ms": 600930
+  },
+  {
+    "w": "There",
+    "start_ms": 601030,
+    "end_ms": 601090
+  },
+  {
+    "w": "we",
+    "start_ms": 601090,
+    "end_ms": 601190
+  },
+  {
+    "w": "go.",
+    "start_ms": 601190,
+    "end_ms": 601390
+  },
+  {
+    "w": "Finished.",
+    "start_ms": 601570,
+    "end_ms": 601770
+  },
+  {
+    "w": "One",
+    "start_ms": 602110,
+    "end_ms": 602110
+  },
+  {
+    "w": "all",
+    "start_ms": 602110,
+    "end_ms": 602350
+  },
+  {
+    "w": "in",
+    "start_ms": 602350,
+    "end_ms": 602550
+  },
+  {
+    "w": "the",
+    "start_ms": 602550,
+    "end_ms": 602670
+  },
+  {
+    "w": "end",
+    "start_ms": 602670,
+    "end_ms": 602850
+  },
+  {
+    "w": "here",
+    "start_ms": 602850,
+    "end_ms": 603110
+  },
+  {
+    "w": "at",
+    "start_ms": 603110,
+    "end_ms": 603270
+  },
+  {
+    "w": "Torquay.",
+    "start_ms": 603270,
+    "end_ms": 603750
+  },
+  {
+    "w": "Look",
+    "start_ms": 603950,
+    "end_ms": 604110
+  },
+  {
+    "w": "at",
+    "start_ms": 604110,
+    "end_ms": 604290
+  },
+  {
+    "w": "this",
+    "start_ms": 604290,
+    "end_ms": 604470
+  },
+  {
+    "w": "here",
+    "start_ms": 604470,
+    "end_ms": 604730
+  },
+  {
+    "w": "now.",
+    "start_ms": 604730,
+    "end_ms": 605010
+  },
+  {
+    "w": "It's",
+    "start_ms": 605570,
+    "end_ms": 605710
+  },
+  {
+    "w": "about",
+    "start_ms": 605710,
+    "end_ms": 605910
+  },
+  {
+    "w": "half",
+    "start_ms": 605910,
+    "end_ms": 606270
+  },
+  {
+    "w": "past",
+    "start_ms": 606270,
+    "end_ms": 606430
+  },
+  {
+    "w": "seven.",
+    "start_ms": 606430,
+    "end_ms": 606750
+  },
+  {
+    "w": "That",
+    "start_ms": 607150,
+    "end_ms": 607150
+  },
+  {
+    "w": "is",
+    "start_ms": 607150,
+    "end_ms": 607330
+  },
+  {
+    "w": "the",
+    "start_ms": 607330,
+    "end_ms": 607450
+  },
+  {
+    "w": "final",
+    "start_ms": 607450,
+    "end_ms": 607650
+  },
+  {
+    "w": "game",
+    "start_ms": 607650,
+    "end_ms": 608030
+  },
+  {
+    "w": "of",
+    "start_ms": 608030,
+    "end_ms": 608290
+  },
+  {
+    "w": "the",
+    "start_ms": 608290,
+    "end_ms": 608410
+  },
+  {
+    "w": "season.",
+    "start_ms": 608410,
+    "end_ms": 608650
+  },
+  {
+    "w": "We",
+    "start_ms": 608890,
+    "end_ms": 608910
+  },
+  {
+    "w": "won",
+    "start_ms": 608910,
+    "end_ms": 609030
+  },
+  {
+    "w": "the",
+    "start_ms": 609030,
+    "end_ms": 609210
+  },
+  {
+    "w": "league.",
+    "start_ms": 609210,
+    "end_ms": 609350
+  },
+  {
+    "w": "We",
+    "start_ms": 609550,
+    "end_ms": 609570
+  },
+  {
+    "w": "did",
+    "start_ms": 609570,
+    "end_ms": 609710
+  },
+  {
+    "w": "what",
+    "start_ms": 609710,
+    "end_ms": 609910
+  },
+  {
+    "w": "we",
+    "start_ms": 609910,
+    "end_ms": 610030
+  },
+  {
+    "w": "needed",
+    "start_ms": 610030,
+    "end_ms": 610150
+  },
+  {
+    "w": "to",
+    "start_ms": 610150,
+    "end_ms": 610410
+  },
+  {
+    "w": "do.",
+    "start_ms": 610410,
+    "end_ms": 610490
+  },
+  {
+    "w": "I",
+    "start_ms": 610630,
+    "end_ms": 610710
+  },
+  {
+    "w": "did",
+    "start_ms": 610710,
+    "end_ms": 610850
+  },
+  {
+    "w": "what",
+    "start_ms": 610850,
+    "end_ms": 611030
+  },
+  {
+    "w": "I",
+    "start_ms": 611030,
+    "end_ms": 611150
+  },
+  {
+    "w": "needed",
+    "start_ms": 611150,
+    "end_ms": 611290
+  },
+  {
+    "w": "to",
+    "start_ms": 611290,
+    "end_ms": 611510
+  },
+  {
+    "w": "do",
+    "start_ms": 611510,
+    "end_ms": 611630
+  },
+  {
+    "w": "anyway.",
+    "start_ms": 611630,
+    "end_ms": 611850
+  },
+  {
+    "w": "Proud",
+    "start_ms": 612210,
+    "end_ms": 612250
+  },
+  {
+    "w": "of",
+    "start_ms": 612250,
+    "end_ms": 612430
+  },
+  {
+    "w": "the",
+    "start_ms": 612430,
+    "end_ms": 612510
+  },
+  {
+    "w": "boys.",
+    "start_ms": 612510,
+    "end_ms": 612630
+  },
+  {
+    "w": "Proud",
+    "start_ms": 612870,
+    "end_ms": 612910
+  },
+  {
+    "w": "of",
+    "start_ms": 612910,
+    "end_ms": 613070
+  },
+  {
+    "w": "the",
+    "start_ms": 613070,
+    "end_ms": 613150
+  },
+  {
+    "w": "fans.",
+    "start_ms": 613150,
+    "end_ms": 613330
+  },
+  {
+    "w": "Special",
+    "start_ms": 613810,
+    "end_ms": 614170
+  },
+  {
+    "w": "club",
+    "start_ms": 614170,
+    "end_ms": 614470
+  },
+  {
+    "w": "this",
+    "start_ms": 614470,
+    "end_ms": 614610
+  },
+  {
+    "w": "is,",
+    "start_ms": 614610,
+    "end_ms": 614790
+  },
+  {
+    "w": "you",
+    "start_ms": 614810,
+    "end_ms": 614890
+  },
+  {
+    "w": "know.",
+    "start_ms": 614890,
+    "end_ms": 614990
+  },
+  {
+    "w": "I",
+    "start_ms": 617090,
+    "end_ms": 617170
+  },
+  {
+    "w": "do",
+    "start_ms": 617170,
+    "end_ms": 617170
+  },
+  {
+    "w": "another",
+    "start_ms": 617170,
+    "end_ms": 617290
+  },
+  {
+    "w": "year.",
+    "start_ms": 617290,
+    "end_ms": 617650
+  },
+  {
+    "w": "Oh",
+    "start_ms": 618170,
+    "end_ms": 618450
+  },
+  {
+    "w": "my",
+    "start_ms": 618450,
+    "end_ms": 618730
+  },
+  {
+    "w": "God.",
+    "start_ms": 618730,
+    "end_ms": 618910
+  },
+  {
+    "w": "I",
+    "start_ms": 619050,
+    "end_ms": 619050
+  },
+  {
+    "w": "don't",
+    "start_ms": 619050,
+    "end_ms": 619230
+  },
+  {
+    "w": "know.",
+    "start_ms": 619230,
+    "end_ms": 619370
+  },
+  {
+    "w": "I",
+    "start_ms": 619570,
+    "end_ms": 619650
+  },
+  {
+    "w": "do",
+    "start_ms": 619650,
+    "end_ms": 619810
+  },
+  {
+    "w": "not",
+    "start_ms": 619810,
+    "end_ms": 619990
+  },
+  {
+    "w": "know.",
+    "start_ms": 619990,
+    "end_ms": 620170
+  },
+  {
+    "w": "I'm",
+    "start_ms": 620750,
+    "end_ms": 621010
+  },
+  {
+    "w": "going",
+    "start_ms": 621010,
+    "end_ms": 621110
+  },
+  {
+    "w": "to",
+    "start_ms": 621110,
+    "end_ms": 621170
+  },
+  {
+    "w": "have",
+    "start_ms": 621170,
+    "end_ms": 621190
+  },
+  {
+    "w": "to",
+    "start_ms": 621190,
+    "end_ms": 621290
+  },
+  {
+    "w": "think",
+    "start_ms": 621290,
+    "end_ms": 621430
+  },
+  {
+    "w": "about",
+    "start_ms": 621430,
+    "end_ms": 621650
+  },
+  {
+    "w": "this.",
+    "start_ms": 621650,
+    "end_ms": 621870
+  },
+  {
+    "w": "I'm",
+    "start_ms": 622150,
+    "end_ms": 622290
+  },
+  {
+    "w": "going",
+    "start_ms": 622290,
+    "end_ms": 622410
+  },
+  {
+    "w": "to",
+    "start_ms": 622410,
+    "end_ms": 622470
+  },
+  {
+    "w": "have",
+    "start_ms": 622470,
+    "end_ms": 622470
+  },
+  {
+    "w": "to",
+    "start_ms": 622470,
+    "end_ms": 622570
+  },
+  {
+    "w": "think",
+    "start_ms": 622570,
+    "end_ms": 622730
+  },
+  {
+    "w": "about",
+    "start_ms": 622730,
+    "end_ms": 622950
+  },
+  {
+    "w": "it.",
+    "start_ms": 622950,
+    "end_ms": 623070
+  },
+  {
+    "w": "It's",
+    "start_ms": 623070,
+    "end_ms": 623070
+  },
+  {
+    "w": "as",
+    "start_ms": 623070,
+    "end_ms": 623190
+  },
+  {
+    "w": "simple",
+    "start_ms": 623190,
+    "end_ms": 623390
+  },
+  {
+    "w": "as",
+    "start_ms": 623390,
+    "end_ms": 623530
+  },
+  {
+    "w": "that.",
+    "start_ms": 623530,
+    "end_ms": 623630
+  },
+  {
+    "w": "I'm",
+    "start_ms": 623730,
+    "end_ms": 623810
+  },
+  {
+    "w": "genuinely",
+    "start_ms": 623810,
+    "end_ms": 623910
+  },
+  {
+    "w": "going",
+    "start_ms": 623910,
+    "end_ms": 624190
+  },
+  {
+    "w": "to",
+    "start_ms": 624190,
+    "end_ms": 624270
+  },
+  {
+    "w": "have",
+    "start_ms": 624270,
+    "end_ms": 624290
+  },
+  {
+    "w": "to",
+    "start_ms": 624290,
+    "end_ms": 624390
+  },
+  {
+    "w": "think",
+    "start_ms": 624390,
+    "end_ms": 624530
+  },
+  {
+    "w": "about",
+    "start_ms": 624530,
+    "end_ms": 624670
+  },
+  {
+    "w": "it.",
+    "start_ms": 624670,
+    "end_ms": 624790
+  },
+  {
+    "w": "I've",
+    "start_ms": 624850,
+    "end_ms": 624890
+  },
+  {
+    "w": "never",
+    "start_ms": 624890,
+    "end_ms": 625050
+  },
+  {
+    "w": "felt",
+    "start_ms": 625050,
+    "end_ms": 625390
+  },
+  {
+    "w": "this",
+    "start_ms": 625390,
+    "end_ms": 625890
+  },
+  {
+    "w": "much",
+    "start_ms": 625890,
+    "end_ms": 626090
+  },
+  {
+    "w": "love",
+    "start_ms": 626090,
+    "end_ms": 626370
+  },
+  {
+    "w": "or",
+    "start_ms": 626370,
+    "end_ms": 626790
+  },
+  {
+    "w": "welcome",
+    "start_ms": 626790,
+    "end_ms": 627230
+  },
+  {
+    "w": "as",
+    "start_ms": 627230,
+    "end_ms": 627510
+  },
+  {
+    "w": "well",
+    "start_ms": 627510,
+    "end_ms": 627670
+  },
+  {
+    "w": "as",
+    "start_ms": 627670,
+    "end_ms": 627830
+  },
+  {
+    "w": "I",
+    "start_ms": 627830,
+    "end_ms": 627930
+  },
+  {
+    "w": "have",
+    "start_ms": 627930,
+    "end_ms": 628110
+  },
+  {
+    "w": "here",
+    "start_ms": 628110,
+    "end_ms": 628350
+  },
+  {
+    "w": "at",
+    "start_ms": 628350,
+    "end_ms": 628530
+  },
+  {
+    "w": "Rexxham.",
+    "start_ms": 628530,
+    "end_ms": 628870
+  },
+  {
+    "w": "Really",
+    "start_ms": 629330,
+    "end_ms": 629610
+  },
+  {
+    "w": "enjoyed",
+    "start_ms": 629610,
+    "end_ms": 629790
+  },
+  {
+    "w": "my",
+    "start_ms": 629790,
+    "end_ms": 630030
+  },
+  {
+    "w": "eight",
+    "start_ms": 630030,
+    "end_ms": 630170
+  },
+  {
+    "w": "games.",
+    "start_ms": 630170,
+    "end_ms": 630390
+  },
+  {
+    "w": "We'll",
+    "start_ms": 631510,
+    "end_ms": 631590
+  },
+  {
+    "w": "see.",
+    "start_ms": 631590,
+    "end_ms": 631730
+  },
+  {
+    "w": "Simple",
+    "start_ms": 632130,
+    "end_ms": 632130
+  },
+  {
+    "w": "as",
+    "start_ms": 632130,
+    "end_ms": 632290
+  },
+  {
+    "w": "that.",
+    "start_ms": 632290,
+    "end_ms": 632390
+  },
+  {
+    "w": "I",
+    "start_ms": 632570,
+    "end_ms": 632570
+  },
+  {
+    "w": "love",
+    "start_ms": 632570,
+    "end_ms": 632670
+  },
+  {
+    "w": "you",
+    "start_ms": 632670,
+    "end_ms": 632790
+  },
+  {
+    "w": "all.",
+    "start_ms": 632790,
+    "end_ms": 632950
+  },
+  {
+    "w": "I'll",
+    "start_ms": 633250,
+    "end_ms": 633310
+  },
+  {
+    "w": "see",
+    "start_ms": 633310,
+    "end_ms": 633390
+  },
+  {
+    "w": "you",
+    "start_ms": 633390,
+    "end_ms": 633470
+  },
+  {
+    "w": "all",
+    "start_ms": 633470,
+    "end_ms": 633550
+  },
+  {
+    "w": "soon,",
+    "start_ms": 633550,
+    "end_ms": 633690
+  },
+  {
+    "w": "right?",
+    "start_ms": 633770,
+    "end_ms": 633870
+  },
+  {
+    "w": "All",
+    "start_ms": 634010,
+    "end_ms": 634010
+  },
+  {
+    "w": "the",
+    "start_ms": 634010,
+    "end_ms": 634090
+  },
+  {
+    "w": "best.",
+    "start_ms": 634090,
+    "end_ms": 634190
+  },
+  {
+    "w": "Look",
+    "start_ms": 634370,
+    "end_ms": 634410
+  },
+  {
+    "w": "at",
+    "start_ms": 634410,
+    "end_ms": 634590
+  },
+  {
+    "w": "this",
+    "start_ms": 634590,
+    "end_ms": 634750
+  },
+  {
+    "w": "place.",
+    "start_ms": 634750,
+    "end_ms": 634890
+  },
+  {
+    "w": "Seagulls",
+    "start_ms": 635710,
+    "end_ms": 635990
+  },
+  {
+    "w": "are",
+    "start_ms": 635990,
+    "end_ms": 636050
+  },
+  {
+    "w": "funny.",
+    "start_ms": 636050,
+    "end_ms": 636190
+  },
+  {
+    "w": "Seagulls",
+    "start_ms": 636490,
+    "end_ms": 636670
+  },
+  {
+    "w": "are",
+    "start_ms": 636670,
+    "end_ms": 636770
+  },
+  {
+    "w": "about",
+    "start_ms": 636770,
+    "end_ms": 636870
+  },
+  {
+    "w": "the",
+    "start_ms": 636870,
+    "end_ms": 636910
+  },
+  {
+    "w": "size",
+    "start_ms": 636910,
+    "end_ms": 637010
+  },
+  {
+    "w": "of",
+    "start_ms": 637010,
+    "end_ms": 637170
+  },
+  {
+    "w": "a",
+    "start_ms": 637170,
+    "end_ms": 637230
+  },
+  {
+    "w": "dog,",
+    "start_ms": 637230,
+    "end_ms": 637350
+  },
+  {
+    "w": "by",
+    "start_ms": 637350,
+    "end_ms": 637610
+  },
+  {
+    "w": "the",
+    "start_ms": 637610,
+    "end_ms": 637710
+  },
+  {
+    "w": "way.",
+    "start_ms": 637710,
+    "end_ms": 637810
+  },
+  {
+    "w": "They're",
+    "start_ms": 637890,
+    "end_ms": 637950
+  },
+  {
+    "w": "absolutely",
+    "start_ms": 637950,
+    "end_ms": 638170
+  },
+  {
+    "w": "massive.",
+    "start_ms": 638170,
+    "end_ms": 638690
+  }
+]

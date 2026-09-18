@@ -30,3 +30,11 @@ __pycache__/
 # os
 .DS_Store
 Thumbs.db
+
+# buyuk medya: git'te degil, kendi depolama/CDN'inde dursun (expo-video URL'den oynatir)
+mobile/assets/videos/
+builds/
+*.ipa
+
+# loglar
+*.log

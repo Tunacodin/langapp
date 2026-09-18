@@ -95,6 +95,17 @@ def transcribe(src, media_path):
     return len(sentences), len(flat_words)
 
 
+def enrich(src_id):
+    # Transkript sonrasi: spaCy lemma/POS + gramer (A) + opsiyonel LLM (B).
+    # build_corpus kendi icinde graceful; spaCy yoksa net mesajla cikar.
+    try:
+        import build_corpus
+    except Exception as e:
+        print(f"  [enrich atlandi] build_corpus yuklenemedi: {e}")
+        return
+    build_corpus.process(src_id, build_corpus.llm_client())
+
+
 def main():
     with open(SOURCES, encoding="utf-8") as f:
         srcs = json.load(f)
@@ -118,6 +129,7 @@ def main():
             path = download(src)
             nc, nw = transcribe(src, path)
             print(f"  [ok] cumle: {nc} | kelime: {nw}")
+            enrich(src["id"])
         except subprocess.CalledProcessError as e:
             print(f"  [HATA] indirme basarisiz: {e}")
         except Exception as e:
