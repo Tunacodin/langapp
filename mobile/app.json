@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "langapp",
+    "slug": "langapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "mobile",
     "userInterfaceStyle": "light",
     "ios": {
-      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.tunadev58.langapp",
       "infoPlist": {
         "NSSpeechRecognitionUsageDescription": "Soylediklerini yaziya cevirmek icin konusma tanima gerekiyor.",
         "NSMicrophoneUsageDescription": "Telaffuz pratigi icin mikrofon erisimi gerekiyor."
@@ -39,9 +39,9 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#FFFFFF",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 160
         }
       ],
       "expo-audio",
