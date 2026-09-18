@@ -1,0 +1,1272 @@
+[
+  {
+    "w": "Produced",
+    "start_ms": 180,
+    "end_ms": 800
+  },
+  {
+    "w": "by",
+    "start_ms": 800,
+    "end_ms": 1000
+  },
+  {
+    "w": "Archer",
+    "start_ms": 1000,
+    "end_ms": 1320
+  },
+  {
+    "w": "Productions,",
+    "start_ms": 1320,
+    "end_ms": 1700
+  },
+  {
+    "w": "Incorporated.",
+    "start_ms": 2100,
+    "end_ms": 2820
+  },
+  {
+    "w": "Hey,",
+    "start_ms": 3840,
+    "end_ms": 4400
+  },
+  {
+    "w": "Bert,",
+    "start_ms": 4580,
+    "end_ms": 4640
+  },
+  {
+    "w": "come",
+    "start_ms": 5100,
+    "end_ms": 5280
+  },
+  {
+    "w": "on",
+    "start_ms": 5280,
+    "end_ms": 5420
+  },
+  {
+    "w": "out",
+    "start_ms": 5420,
+    "end_ms": 5620
+  },
+  {
+    "w": "and",
+    "start_ms": 5620,
+    "end_ms": 5820
+  },
+  {
+    "w": "meet",
+    "start_ms": 5820,
+    "end_ms": 5980
+  },
+  {
+    "w": "all",
+    "start_ms": 5980,
+    "end_ms": 6140
+  },
+  {
+    "w": "these",
+    "start_ms": 6140,
+    "end_ms": 6360
+  },
+  {
+    "w": "nice",
+    "start_ms": 6360,
+    "end_ms": 6560
+  },
+  {
+    "w": "people,",
+    "start_ms": 6560,
+    "end_ms": 6980
+  },
+  {
+    "w": "please.",
+    "start_ms": 7260,
+    "end_ms": 7660
+  },
+  {
+    "w": "All",
+    "start_ms": 8400,
+    "end_ms": 8920
+  },
+  {
+    "w": "right,",
+    "start_ms": 8920,
+    "end_ms": 9460
+  },
+  {
+    "w": "we",
+    "start_ms": 9880,
+    "end_ms": 10040
+  },
+  {
+    "w": "really",
+    "start_ms": 10040,
+    "end_ms": 10220
+  },
+  {
+    "w": "can't",
+    "start_ms": 10220,
+    "end_ms": 10620
+  },
+  {
+    "w": "blame",
+    "start_ms": 10620,
+    "end_ms": 10760
+  },
+  {
+    "w": "you.",
+    "start_ms": 10760,
+    "end_ms": 11040
+  },
+  {
+    "w": "You",
+    "start_ms": 11520,
+    "end_ms": 11840
+  },
+  {
+    "w": "see,",
+    "start_ms": 11840,
+    "end_ms": 11980
+  },
+  {
+    "w": "Bert",
+    "start_ms": 12200,
+    "end_ms": 12440
+  },
+  {
+    "w": "is",
+    "start_ms": 12440,
+    "end_ms": 12680
+  },
+  {
+    "w": "a",
+    "start_ms": 12680,
+    "end_ms": 12800
+  },
+  {
+    "w": "very,",
+    "start_ms": 12800,
+    "end_ms": 13160
+  },
+  {
+    "w": "very",
+    "start_ms": 13160,
+    "end_ms": 13640
+  },
+  {
+    "w": "careful",
+    "start_ms": 13640,
+    "end_ms": 13920
+  },
+  {
+    "w": "fellow.",
+    "start_ms": 13920,
+    "end_ms": 14400
+  },
+  {
+    "w": "When",
+    "start_ms": 14900,
+    "end_ms": 15140
+  },
+  {
+    "w": "there's",
+    "start_ms": 15140,
+    "end_ms": 15340
+  },
+  {
+    "w": "danger,",
+    "start_ms": 15340,
+    "end_ms": 15540
+  },
+  {
+    "w": "this",
+    "start_ms": 16239,
+    "end_ms": 16420
+  },
+  {
+    "w": "is",
+    "start_ms": 16420,
+    "end_ms": 16580
+  },
+  {
+    "w": "the",
+    "start_ms": 16580,
+    "end_ms": 16700
+  },
+  {
+    "w": "way",
+    "start_ms": 16700,
+    "end_ms": 16880
+  },
+  {
+    "w": "he",
+    "start_ms": 16880,
+    "end_ms": 17120
+  },
+  {
+    "w": "keeps",
+    "start_ms": 17120,
+    "end_ms": 17320
+  },
+  {
+    "w": "from",
+    "start_ms": 17320,
+    "end_ms": 17580
+  },
+  {
+    "w": "being",
+    "start_ms": 17580,
+    "end_ms": 17760
+  },
+  {
+    "w": "hurt.",
+    "start_ms": 17760,
+    "end_ms": 18000
+  },
+  {
+    "w": "Sometimes",
+    "start_ms": 18980,
+    "end_ms": 19540
+  },
+  {
+    "w": "it",
+    "start_ms": 19540,
+    "end_ms": 20100
+  },
+  {
+    "w": "even",
+    "start_ms": 20100,
+    "end_ms": 20420
+  },
+  {
+    "w": "saves",
+    "start_ms": 20420,
+    "end_ms": 20760
+  },
+  {
+    "w": "his",
+    "start_ms": 20760,
+    "end_ms": 21160
+  },
+  {
+    "w": "life.",
+    "start_ms": 21160,
+    "end_ms": 21420
+  },
+  {
+    "w": "That's",
+    "start_ms": 22440,
+    "end_ms": 23000
+  },
+  {
+    "w": "why",
+    "start_ms": 23000,
+    "end_ms": 23140
+  },
+  {
+    "w": "these",
+    "start_ms": 23140,
+    "end_ms": 23360
+  },
+  {
+    "w": "children",
+    "start_ms": 23360,
+    "end_ms": 23720
+  },
+  {
+    "w": "are",
+    "start_ms": 23720,
+    "end_ms": 24120
+  },
+  {
+    "w": "practicing",
+    "start_ms": 24120,
+    "end_ms": 24460
+  },
+  {
+    "w": "to",
+    "start_ms": 24460,
+    "end_ms": 24940
+  },
+  {
+    "w": "duck",
+    "start_ms": 24940,
+    "end_ms": 25240
+  },
+  {
+    "w": "and",
+    "start_ms": 25240,
+    "end_ms": 25540
+  },
+  {
+    "w": "cover",
+    "start_ms": 25540,
+    "end_ms": 25760
+  },
+  {
+    "w": "just",
+    "start_ms": 25760,
+    "end_ms": 26400
+  },
+  {
+    "w": "as",
+    "start_ms": 26400,
+    "end_ms": 26620
+  },
+  {
+    "w": "you",
+    "start_ms": 26620,
+    "end_ms": 26760
+  },
+  {
+    "w": "do",
+    "start_ms": 26760,
+    "end_ms": 26940
+  },
+  {
+    "w": "in",
+    "start_ms": 26940,
+    "end_ms": 27120
+  },
+  {
+    "w": "your",
+    "start_ms": 27120,
+    "end_ms": 27280
+  },
+  {
+    "w": "school.",
+    "start_ms": 27280,
+    "end_ms": 27640
+  },
+  {
+    "w": "We",
+    "start_ms": 28440,
+    "end_ms": 28920
+  },
+  {
+    "w": "all",
+    "start_ms": 28920,
+    "end_ms": 29080
+  },
+  {
+    "w": "know",
+    "start_ms": 29080,
+    "end_ms": 29380
+  },
+  {
+    "w": "the",
+    "start_ms": 29380,
+    "end_ms": 29600
+  },
+  {
+    "w": "atomic",
+    "start_ms": 29600,
+    "end_ms": 29860
+  },
+  {
+    "w": "bomb",
+    "start_ms": 29860,
+    "end_ms": 30200
+  },
+  {
+    "w": "is",
+    "start_ms": 30200,
+    "end_ms": 30700
+  },
+  {
+    "w": "very",
+    "start_ms": 30700,
+    "end_ms": 30900
+  },
+  {
+    "w": "dangerous.",
+    "start_ms": 30900,
+    "end_ms": 31360
+  },
+  {
+    "w": "Since",
+    "start_ms": 32040,
+    "end_ms": 32280
+  },
+  {
+    "w": "it",
+    "start_ms": 32280,
+    "end_ms": 32380
+  },
+  {
+    "w": "may",
+    "start_ms": 32380,
+    "end_ms": 32540
+  },
+  {
+    "w": "be",
+    "start_ms": 32540,
+    "end_ms": 32640
+  },
+  {
+    "w": "used",
+    "start_ms": 32640,
+    "end_ms": 32860
+  },
+  {
+    "w": "against",
+    "start_ms": 32860,
+    "end_ms": 33100
+  },
+  {
+    "w": "us,",
+    "start_ms": 33100,
+    "end_ms": 33460
+  },
+  {
+    "w": "we",
+    "start_ms": 33900,
+    "end_ms": 34100
+  },
+  {
+    "w": "must",
+    "start_ms": 34100,
+    "end_ms": 34240
+  },
+  {
+    "w": "get",
+    "start_ms": 34240,
+    "end_ms": 34380
+  },
+  {
+    "w": "ready",
+    "start_ms": 34380,
+    "end_ms": 34640
+  },
+  {
+    "w": "for",
+    "start_ms": 34640,
+    "end_ms": 34860
+  },
+  {
+    "w": "it,",
+    "start_ms": 34860,
+    "end_ms": 35060
+  },
+  {
+    "w": "just",
+    "start_ms": 35180,
+    "end_ms": 35440
+  },
+  {
+    "w": "as",
+    "start_ms": 35440,
+    "end_ms": 35640
+  },
+  {
+    "w": "we",
+    "start_ms": 35640,
+    "end_ms": 35780
+  },
+  {
+    "w": "are",
+    "start_ms": 35780,
+    "end_ms": 35860
+  },
+  {
+    "w": "ready",
+    "start_ms": 35860,
+    "end_ms": 36100
+  },
+  {
+    "w": "for",
+    "start_ms": 36100,
+    "end_ms": 36340
+  },
+  {
+    "w": "many",
+    "start_ms": 36340,
+    "end_ms": 36520
+  },
+  {
+    "w": "other",
+    "start_ms": 36520,
+    "end_ms": 36760
+  },
+  {
+    "w": "dangers",
+    "start_ms": 36760,
+    "end_ms": 37100
+  },
+  {
+    "w": "that",
+    "start_ms": 37100,
+    "end_ms": 37560
+  },
+  {
+    "w": "are",
+    "start_ms": 37560,
+    "end_ms": 37720
+  },
+  {
+    "w": "around",
+    "start_ms": 37720,
+    "end_ms": 38080
+  },
+  {
+    "w": "us",
+    "start_ms": 38080,
+    "end_ms": 38260
+  },
+  {
+    "w": "all",
+    "start_ms": 38260,
+    "end_ms": 38580
+  },
+  {
+    "w": "the",
+    "start_ms": 38580,
+    "end_ms": 38720
+  },
+  {
+    "w": "time.",
+    "start_ms": 38720,
+    "end_ms": 38980
+  },
+  {
+    "w": "Fire",
+    "start_ms": 39680,
+    "end_ms": 40040
+  },
+  {
+    "w": "is",
+    "start_ms": 40040,
+    "end_ms": 40340
+  },
+  {
+    "w": "a",
+    "start_ms": 40340,
+    "end_ms": 40440
+  },
+  {
+    "w": "danger.",
+    "start_ms": 40440,
+    "end_ms": 40680
+  },
+  {
+    "w": "It",
+    "start_ms": 41320,
+    "end_ms": 41500
+  },
+  {
+    "w": "can",
+    "start_ms": 41500,
+    "end_ms": 41640
+  },
+  {
+    "w": "burn",
+    "start_ms": 41640,
+    "end_ms": 41840
+  },
+  {
+    "w": "whole",
+    "start_ms": 41840,
+    "end_ms": 42120
+  },
+  {
+    "w": "buildings",
+    "start_ms": 42120,
+    "end_ms": 42600
+  },
+  {
+    "w": "if",
+    "start_ms": 42600,
+    "end_ms": 43160
+  },
+  {
+    "w": "someone",
+    "start_ms": 43160,
+    "end_ms": 43440
+  },
+  {
+    "w": "is",
+    "start_ms": 43440,
+    "end_ms": 43800
+  },
+  {
+    "w": "careless.",
+    "start_ms": 43800,
+    "end_ms": 44120
+  },
+  {
+    "w": "But",
+    "start_ms": 45100,
+    "end_ms": 45300
+  },
+  {
+    "w": "we",
+    "start_ms": 45300,
+    "end_ms": 45520
+  },
+  {
+    "w": "are",
+    "start_ms": 45520,
+    "end_ms": 45640
+  },
+  {
+    "w": "ready",
+    "start_ms": 45640,
+    "end_ms": 45840
+  },
+  {
+    "w": "for",
+    "start_ms": 45840,
+    "end_ms": 46100
+  },
+  {
+    "w": "fires.",
+    "start_ms": 46100,
+    "end_ms": 46320
+  },
+  {
+    "w": "We",
+    "start_ms": 47080,
+    "end_ms": 47260
+  },
+  {
+    "w": "have",
+    "start_ms": 47260,
+    "end_ms": 47360
+  },
+  {
+    "w": "a",
+    "start_ms": 47360,
+    "end_ms": 47460
+  },
+  {
+    "w": "fine",
+    "start_ms": 47460,
+    "end_ms": 47760
+  },
+  {
+    "w": "fire",
+    "start_ms": 47760,
+    "end_ms": 48080
+  },
+  {
+    "w": "department",
+    "start_ms": 48080,
+    "end_ms": 48620
+  },
+  {
+    "w": "to",
+    "start_ms": 48620,
+    "end_ms": 49000
+  },
+  {
+    "w": "put",
+    "start_ms": 49000,
+    "end_ms": 49240
+  },
+  {
+    "w": "out",
+    "start_ms": 49240,
+    "end_ms": 49400
+  },
+  {
+    "w": "the",
+    "start_ms": 49400,
+    "end_ms": 49560
+  },
+  {
+    "w": "fire.",
+    "start_ms": 49560,
+    "end_ms": 49820
+  },
+  {
+    "w": "And",
+    "start_ms": 50280,
+    "end_ms": 50500
+  },
+  {
+    "w": "you",
+    "start_ms": 50500,
+    "end_ms": 50600
+  },
+  {
+    "w": "have",
+    "start_ms": 50600,
+    "end_ms": 50740
+  },
+  {
+    "w": "fire",
+    "start_ms": 50740,
+    "end_ms": 51040
+  },
+  {
+    "w": "drills",
+    "start_ms": 51040,
+    "end_ms": 51420
+  },
+  {
+    "w": "in",
+    "start_ms": 51420,
+    "end_ms": 51700
+  },
+  {
+    "w": "your",
+    "start_ms": 51700,
+    "end_ms": 51860
+  },
+  {
+    "w": "school",
+    "start_ms": 51860,
+    "end_ms": 52100
+  },
+  {
+    "w": "so",
+    "start_ms": 52100,
+    "end_ms": 52680
+  },
+  {
+    "w": "you",
+    "start_ms": 52680,
+    "end_ms": 52820
+  },
+  {
+    "w": "know",
+    "start_ms": 52820,
+    "end_ms": 53020
+  },
+  {
+    "w": "what",
+    "start_ms": 53020,
+    "end_ms": 53240
+  },
+  {
+    "w": "to",
+    "start_ms": 53240,
+    "end_ms": 53380
+  },
+  {
+    "w": "do.",
+    "start_ms": 53380,
+    "end_ms": 53560
+  },
+  {
+    "w": "Automobiles",
+    "start_ms": 54540,
+    "end_ms": 55060
+  },
+  {
+    "w": "can",
+    "start_ms": 55060,
+    "end_ms": 55580
+  },
+  {
+    "w": "be",
+    "start_ms": 55580,
+    "end_ms": 55720
+  },
+  {
+    "w": "dangerous,",
+    "start_ms": 55720,
+    "end_ms": 56020
+  },
+  {
+    "w": "too.",
+    "start_ms": 56280,
+    "end_ms": 56380
+  },
+  {
+    "w": "They",
+    "start_ms": 56900,
+    "end_ms": 57080
+  },
+  {
+    "w": "sometimes",
+    "start_ms": 57080,
+    "end_ms": 57300
+  },
+  {
+    "w": "cause",
+    "start_ms": 57300,
+    "end_ms": 57840
+  },
+  {
+    "w": "bad",
+    "start_ms": 57840,
+    "end_ms": 58260
+  },
+  {
+    "w": "accidents,",
+    "start_ms": 58260,
+    "end_ms": 58660
+  },
+  {
+    "w": "but",
+    "start_ms": 59180,
+    "end_ms": 59280
+  },
+  {
+    "w": "we",
+    "start_ms": 59280,
+    "end_ms": 59500
+  },
+  {
+    "w": "are",
+    "start_ms": 59500,
+    "end_ms": 59580
+  },
+  {
+    "w": "ready.",
+    "start_ms": 59580,
+    "end_ms": 59780
+  },
+  {
+    "w": "We",
+    "start_ms": 60240,
+    "end_ms": 60340
+  },
+  {
+    "w": "have",
+    "start_ms": 60340,
+    "end_ms": 60460
+  },
+  {
+    "w": "safety",
+    "start_ms": 60460,
+    "end_ms": 60620
+  },
+  {
+    "w": "rules",
+    "start_ms": 60620,
+    "end_ms": 61040
+  },
+  {
+    "w": "that",
+    "start_ms": 61040,
+    "end_ms": 61300
+  },
+  {
+    "w": "car",
+    "start_ms": 61300,
+    "end_ms": 61500
+  },
+  {
+    "w": "drivers",
+    "start_ms": 61500,
+    "end_ms": 61820
+  },
+  {
+    "w": "and",
+    "start_ms": 61820,
+    "end_ms": 62180
+  },
+  {
+    "w": "people",
+    "start_ms": 62180,
+    "end_ms": 62480
+  },
+  {
+    "w": "who",
+    "start_ms": 62480,
+    "end_ms": 62680
+  },
+  {
+    "w": "are",
+    "start_ms": 62680,
+    "end_ms": 62760
+  },
+  {
+    "w": "walking",
+    "start_ms": 62760,
+    "end_ms": 63060
+  },
+  {
+    "w": "must",
+    "start_ms": 63060,
+    "end_ms": 63460
+  },
+  {
+    "w": "obey.",
+    "start_ms": 63460,
+    "end_ms": 63740
+  },
+  {
+    "w": "Now,",
+    "start_ms": 64580,
+    "end_ms": 65099
+  },
+  {
+    "w": "we",
+    "start_ms": 65500,
+    "end_ms": 65840
+  },
+  {
+    "w": "must",
+    "start_ms": 65840,
+    "end_ms": 65960
+  },
+  {
+    "w": "be",
+    "start_ms": 65960,
+    "end_ms": 66120
+  },
+  {
+    "w": "ready",
+    "start_ms": 66120,
+    "end_ms": 66340
+  },
+  {
+    "w": "for",
+    "start_ms": 66340,
+    "end_ms": 66720
+  },
+  {
+    "w": "a",
+    "start_ms": 66720,
+    "end_ms": 66840
+  },
+  {
+    "w": "new",
+    "start_ms": 66840,
+    "end_ms": 66980
+  },
+  {
+    "w": "danger,",
+    "start_ms": 66980,
+    "end_ms": 67340
+  },
+  {
+    "w": "the",
+    "start_ms": 68080,
+    "end_ms": 68160
+  },
+  {
+    "w": "atomic",
+    "start_ms": 68160,
+    "end_ms": 68520
+  },
+  {
+    "w": "bomb.",
+    "start_ms": 68520,
+    "end_ms": 68860
+  },
+  {
+    "w": "First,",
+    "start_ms": 69960,
+    "end_ms": 70480
+  },
+  {
+    "w": "you",
+    "start_ms": 70780,
+    "end_ms": 71000
+  },
+  {
+    "w": "have",
+    "start_ms": 71000,
+    "end_ms": 71120
+  },
+  {
+    "w": "to",
+    "start_ms": 71120,
+    "end_ms": 71240
+  },
+  {
+    "w": "know",
+    "start_ms": 71240,
+    "end_ms": 71420
+  },
+  {
+    "w": "what",
+    "start_ms": 71420,
+    "end_ms": 71660
+  },
+  {
+    "w": "happens",
+    "start_ms": 71660,
+    "end_ms": 72000
+  },
+  {
+    "w": "when",
+    "start_ms": 72000,
+    "end_ms": 72320
+  },
+  {
+    "w": "an",
+    "start_ms": 72320,
+    "end_ms": 72440
+  },
+  {
+    "w": "atomic",
+    "start_ms": 72440,
+    "end_ms": 72640
+  },
+  {
+    "w": "bomb",
+    "start_ms": 72640,
+    "end_ms": 73040
+  },
+  {
+    "w": "explodes.",
+    "start_ms": 73040,
+    "end_ms": 73420
+  },
+  {
+    "w": "You",
+    "start_ms": 74320,
+    "end_ms": 74600
+  },
+  {
+    "w": "will",
+    "start_ms": 74600,
+    "end_ms": 74700
+  },
+  {
+    "w": "know",
+    "start_ms": 74700,
+    "end_ms": 74860
+  },
+  {
+    "w": "when",
+    "start_ms": 74860,
+    "end_ms": 75140
+  },
+  {
+    "w": "it",
+    "start_ms": 75140,
+    "end_ms": 75240
+  },
+  {
+    "w": "comes.",
+    "start_ms": 75240,
+    "end_ms": 75480
+  },
+  {
+    "w": "We",
+    "start_ms": 76140,
+    "end_ms": 76300
+  },
+  {
+    "w": "hope",
+    "start_ms": 76300,
+    "end_ms": 76460
+  },
+  {
+    "w": "it",
+    "start_ms": 76460,
+    "end_ms": 76600
+  },
+  {
+    "w": "never",
+    "start_ms": 76600,
+    "end_ms": 76740
+  },
+  {
+    "w": "comes,",
+    "start_ms": 76740,
+    "end_ms": 77080
+  },
+  {
+    "w": "but",
+    "start_ms": 77080,
+    "end_ms": 77380
+  },
+  {
+    "w": "we",
+    "start_ms": 77380,
+    "end_ms": 77760
+  },
+  {
+    "w": "must",
+    "start_ms": 77760,
+    "end_ms": 77880
+  },
+  {
+    "w": "get",
+    "start_ms": 77880,
+    "end_ms": 78000
+  },
+  {
+    "w": "ready.",
+    "start_ms": 78000,
+    "end_ms": 78180
+  },
+  {
+    "w": "It",
+    "start_ms": 78940,
+    "end_ms": 79120
+  },
+  {
+    "w": "looks",
+    "start_ms": 79120,
+    "end_ms": 79220
+  },
+  {
+    "w": "something",
+    "start_ms": 79220,
+    "end_ms": 79420
+  },
+  {
+    "w": "like",
+    "start_ms": 79420,
+    "end_ms": 79720
+  },
+  {
+    "w": "this.",
+    "start_ms": 79720,
+    "end_ms": 79880
+  },
+  {
+    "w": "There",
+    "start_ms": 80440,
+    "end_ms": 80900
+  },
+  {
+    "w": "is",
+    "start_ms": 80900,
+    "end_ms": 81040
+  },
+  {
+    "w": "a",
+    "start_ms": 81040,
+    "end_ms": 81080
+  },
+  {
+    "w": "bright",
+    "start_ms": 81080,
+    "end_ms": 81400
+  },
+  {
+    "w": "flash,",
+    "start_ms": 81400,
+    "end_ms": 81620
+  },
+  {
+    "w": "brighter",
+    "start_ms": 82120,
+    "end_ms": 82160
+  },
+  {
+    "w": "than",
+    "start_ms": 82160,
+    "end_ms": 82500
+  },
+  {
+    "w": "the",
+    "start_ms": 82500,
+    "end_ms": 82600
+  },
+  {
+    "w": "sun,",
+    "start_ms": 82600,
+    "end_ms": 82820
+  },
+  {
+    "w": "brighter",
+    "start_ms": 83060,
+    "end_ms": 83180
+  },
+  {
+    "w": "than",
+    "start_ms": 83180,
+    "end_ms": 83400
+  },
+  {
+    "w": "anything",
+    "start_ms": 83400,
+    "end_ms": 83680
+  },
+  {
+    "w": "you've",
+    "start_ms": 83680,
+    "end_ms": 84000
+  },
+  {
+    "w": "ever",
+    "start_ms": 84000,
+    "end_ms": 84160
+  },
+  {
+    "w": "seen.",
+    "start_ms": 84160,
+    "end_ms": 84400
+  },
+  {
+    "w": "If",
+    "start_ms": 85240,
+    "end_ms": 85700
+  },
+  {
+    "w": "you",
+    "start_ms": 85700,
+    "end_ms": 85820
+  },
+  {
+    "w": "were",
+    "start_ms": 85820,
+    "end_ms": 85920
+  },
+  {
+    "w": "not",
+    "start_ms": 85920,
+    "end_ms": 86120
+  },
+  {
+    "w": "ready",
+    "start_ms": 86120,
+    "end_ms": 86480
+  },
+  {
+    "w": "and",
+    "start_ms": 86480,
+    "end_ms": 87020
+  },
+  {
+    "w": "did",
+    "start_ms": 87020,
+    "end_ms": 87100
+  },
+  {
+    "w": "not",
+    "start_ms": 87100,
+    "end_ms": 87260
+  },
+  {
+    "w": "know",
+    "start_ms": 87260,
+    "end_ms": 87580
+  },
+  {
+    "w": "what",
+    "start_ms": 87580,
+    "end_ms": 87840
+  },
+  {
+    "w": "to",
+    "start_ms": 87840,
+    "end_ms": 87940
+  },
+  {
+    "w": "do,",
+    "start_ms": 87940,
+    "end_ms": 88200
+  },
+  {
+    "w": "it",
+    "start_ms": 88820,
+    "end_ms": 89080
+  },
+  {
+    "w": "could",
+    "start_ms": 89080,
+    "end_ms": 89220
+  },
+  {
+    "w": "hurt",
+    "start_ms": 89220,
+    "end_ms": 89420
+  },
+  {
+    "w": "you.",
+    "start_ms": 89420,
+    "end_ms": 89660
+  }
+]

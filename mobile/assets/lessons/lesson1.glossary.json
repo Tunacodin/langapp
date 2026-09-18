@@ -1,0 +1,1073 @@
+{
+  "a": {
+    "pos": "article",
+    "cefr": "A1",
+    "senses": [
+      "bir (belirsiz tanımlık)"
+    ]
+  },
+  "accidents": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "kazalar"
+    ]
+  },
+  "against": {
+    "pos": "preposition",
+    "cefr": "A2",
+    "senses": [
+      "-e karşı",
+      "aleyhine",
+      "-e dayalı/yaslı"
+    ]
+  },
+  "all": {
+    "pos": "determiner",
+    "cefr": "A1",
+    "senses": [
+      "hepsi, tüm",
+      "bütünüyle"
+    ]
+  },
+  "an": {
+    "pos": "article",
+    "cefr": "A1",
+    "senses": [
+      "bir (sesli harfle başlayan sözcükten önce)"
+    ]
+  },
+  "and": {
+    "pos": "conjunction",
+    "cefr": "A1",
+    "senses": [
+      "ve"
+    ]
+  },
+  "anything": {
+    "pos": "pronoun",
+    "cefr": "A2",
+    "senses": [
+      "herhangi bir şey",
+      "(olumsuzda) hiçbir şey"
+    ]
+  },
+  "archer": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "Archer (ozel isim; okcu)"
+    ]
+  },
+  "are": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "-sin/-siniz/-ler (be fiilinin çoğul/2. tekil hali)"
+    ]
+  },
+  "around": {
+    "pos": "preposition",
+    "cefr": "A2",
+    "senses": [
+      "etrafinda, cevrede",
+      "yaklasik"
+    ]
+  },
+  "as": {
+    "pos": "conjunction",
+    "cefr": "A2",
+    "senses": [
+      "gibi",
+      "-digi icin",
+      "-ken"
+    ]
+  },
+  "atomic": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "atom(a ait)",
+      "atomik"
+    ]
+  },
+  "automobiles": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "otomobiller, arabalar"
+    ]
+  },
+  "bad": {
+    "pos": "adjective",
+    "cefr": "A1",
+    "senses": [
+      "kotu",
+      "fena"
+    ]
+  },
+  "be": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "olmak",
+      "bulunmak"
+    ]
+  },
+  "being": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "olma (be fiilinin -ing hali)",
+      "varlık"
+    ]
+  },
+  "bert": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "Bert (özel isim, kaplumbağa karakteri)"
+    ]
+  },
+  "blame": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "suclamak",
+      "(isim) suc, kabahat"
+    ]
+  },
+  "bomb": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "bomba",
+      "(fiil) bombalamak"
+    ]
+  },
+  "bright": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "parlak",
+      "aydınlık",
+      "zeki"
+    ]
+  },
+  "brighter": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "daha parlak",
+      "daha aydınlık"
+    ]
+  },
+  "buildings": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "binalar"
+    ]
+  },
+  "burn": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "yakmak",
+      "yanmak",
+      "(yanık) yara"
+    ]
+  },
+  "but": {
+    "pos": "conjunction",
+    "cefr": "A1",
+    "senses": [
+      "ama, fakat",
+      "ancak"
+    ]
+  },
+  "by": {
+    "pos": "preposition",
+    "cefr": "A1",
+    "senses": [
+      "-in tarafindan",
+      "yaninda",
+      "ile"
+    ]
+  },
+  "can": {
+    "pos": "modal",
+    "cefr": "A1",
+    "senses": [
+      "-ebilmek (yetenek)",
+      "-ebilir (olasılık/izin)"
+    ]
+  },
+  "can't": {
+    "pos": "contraction",
+    "cefr": "A1",
+    "senses": [
+      "cannot: -emez, -amaz"
+    ]
+  },
+  "car": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "araba",
+      "otomobil"
+    ]
+  },
+  "careful": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "dikkatli",
+      "özenli"
+    ]
+  },
+  "careless": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "dikkatsiz",
+      "özensiz"
+    ]
+  },
+  "cause": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "-e yol acmak, neden olmak",
+      "(isim) neden, sebep"
+    ]
+  },
+  "children": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "çocuklar"
+    ]
+  },
+  "come": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "gelmek"
+    ]
+  },
+  "comes": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "gelir (come fiilinin 3. tekil hali)"
+    ]
+  },
+  "could": {
+    "pos": "modal",
+    "cefr": "A2",
+    "senses": [
+      "-ebilirdi, olabilir",
+      "(kibar) -ebilir miyim"
+    ]
+  },
+  "cover": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "örtmek, kapamak",
+      "siper almak, kapanmak",
+      "(isim) örtü, kapak"
+    ]
+  },
+  "danger": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "tehlike"
+    ]
+  },
+  "dangerous": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "tehlikeli"
+    ]
+  },
+  "dangers": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "tehlikeler"
+    ]
+  },
+  "department": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "bölüm, daire",
+      "(fire department) itfaiye"
+    ]
+  },
+  "did": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "yapti (do gecmisi)",
+      "(soru/olumsuz) gecmis yardimci fiil"
+    ]
+  },
+  "do": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "yapmak",
+      "(soru/olumsuz için) yardımcı fiil"
+    ]
+  },
+  "drills": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "tatbikatlar",
+      "alıştırmalar",
+      "matkaplar"
+    ]
+  },
+  "drivers": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "sürücüler, şoförler"
+    ]
+  },
+  "duck": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "eğilmek, çömelmek (kaçınmak için)",
+      "(isim) ördek"
+    ]
+  },
+  "even": {
+    "pos": "adverb",
+    "cefr": "A2",
+    "senses": [
+      "bile, hatta",
+      "(sıfat) düz, eşit"
+    ]
+  },
+  "ever": {
+    "pos": "adverb",
+    "cefr": "A2",
+    "senses": [
+      "hiç, şimdiye dek",
+      "her zaman"
+    ]
+  },
+  "explodes": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "patlar (explode fiilinin 3. tekil hali)"
+    ]
+  },
+  "fellow": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "adam, kişi, herif",
+      "(sıfat) hem-, arkadaş (fellow worker: iş arkadaşı)"
+    ]
+  },
+  "fine": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "iyi, güzel",
+      "ince, kaliteli",
+      "(isim) para cezası"
+    ]
+  },
+  "fire": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "ateş, yangın",
+      "(fiil) ateş etmek",
+      "(fiil) işten kovmak"
+    ]
+  },
+  "fires": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "yanginlar, atesler"
+    ]
+  },
+  "first": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "önce, ilk olarak",
+      "birinci"
+    ]
+  },
+  "flash": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "parlama, ışık patlaması",
+      "flaş",
+      "(fiil) çakmak, parıldamak"
+    ]
+  },
+  "for": {
+    "pos": "preposition",
+    "cefr": "A1",
+    "senses": [
+      "için",
+      "-e doğru",
+      "boyunca (süre)"
+    ]
+  },
+  "from": {
+    "pos": "preposition",
+    "cefr": "A1",
+    "senses": [
+      "-den, -dan",
+      "-den beri"
+    ]
+  },
+  "get": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "almak, elde etmek",
+      "olmak, -leşmek",
+      "varmak, ulaşmak"
+    ]
+  },
+  "happens": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "olur, gerçekleşir (happen fiilinin 3. tekil hali)"
+    ]
+  },
+  "have": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "sahip olmak, -si olmak",
+      "(have to) -mek zorunda olmak",
+      "yardımcı fiil (perfect)"
+    ]
+  },
+  "he": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "o (erkek)"
+    ]
+  },
+  "hey": {
+    "pos": "interjection",
+    "cefr": "A1",
+    "senses": [
+      "hey, baksana"
+    ]
+  },
+  "his": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "onun (erkek)",
+      "onunki"
+    ]
+  },
+  "hope": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "ummak, ümit etmek",
+      "(isim) umut"
+    ]
+  },
+  "hurt": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "incitmek, canını yakmak",
+      "acımak",
+      "zarar vermek"
+    ]
+  },
+  "if": {
+    "pos": "conjunction",
+    "cefr": "A1",
+    "senses": [
+      "eğer, -se/-sa",
+      "acaba (dolaylı soru)"
+    ]
+  },
+  "in": {
+    "pos": "preposition",
+    "cefr": "A1",
+    "senses": [
+      "içinde, -de/-da",
+      "(zaman) içinde/sonra"
+    ]
+  },
+  "incorporated": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "anonim sirket (Inc.)",
+      "birlestirilmis"
+    ]
+  },
+  "is": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "-dir (be fiilinin 3. tekil hali)"
+    ]
+  },
+  "it": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "o (cansız/hayvan)",
+      "onu"
+    ]
+  },
+  "just": {
+    "pos": "adverb",
+    "cefr": "A2",
+    "senses": [
+      "sadece, yalnizca",
+      "az once",
+      "tam"
+    ]
+  },
+  "keeps": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "tutar, saklar",
+      "(keep from) -mekten alıkoyar/korur",
+      "sürdürür"
+    ]
+  },
+  "know": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "bilmek",
+      "tanımak"
+    ]
+  },
+  "life": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "hayat, yaşam",
+      "can"
+    ]
+  },
+  "like": {
+    "pos": "preposition",
+    "cefr": "A1",
+    "senses": [
+      "gibi",
+      "(fiil) hoslanmak, sevmek"
+    ]
+  },
+  "looks": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "gorunur, bakar",
+      "(look like) -e benzer"
+    ]
+  },
+  "many": {
+    "pos": "determiner",
+    "cefr": "A1",
+    "senses": [
+      "bircok, cok"
+    ]
+  },
+  "may": {
+    "pos": "modal",
+    "cefr": "A2",
+    "senses": [
+      "-ebilir (olasılık)",
+      "-ebilir (izin)"
+    ]
+  },
+  "meet": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "tanismak, bulusmak",
+      "karsilamak"
+    ]
+  },
+  "must": {
+    "pos": "modal",
+    "cefr": "A2",
+    "senses": [
+      "-meli/-malı (zorunluluk)",
+      "-mış olmalı (kesin tahmin)"
+    ]
+  },
+  "never": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "asla, hiçbir zaman"
+    ]
+  },
+  "new": {
+    "pos": "adjective",
+    "cefr": "A1",
+    "senses": [
+      "yeni"
+    ]
+  },
+  "nice": {
+    "pos": "adjective",
+    "cefr": "A1",
+    "senses": [
+      "hos, iyi, guzel"
+    ]
+  },
+  "not": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "degil, -me/-ma (olumsuzluk)"
+    ]
+  },
+  "now": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "simdi",
+      "artik"
+    ]
+  },
+  "obey": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "uymak, itaat etmek",
+      "boyun eğmek"
+    ]
+  },
+  "on": {
+    "pos": "preposition",
+    "cefr": "A1",
+    "senses": [
+      "ustunde, -de",
+      "acik (durum)"
+    ]
+  },
+  "other": {
+    "pos": "adjective",
+    "cefr": "A1",
+    "senses": [
+      "diger, oteki, baska"
+    ]
+  },
+  "out": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "dışarı, dışarıda",
+      "(put out) söndürmek",
+      "bitmiş, tükenmiş"
+    ]
+  },
+  "people": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "insanlar",
+      "halk"
+    ]
+  },
+  "please": {
+    "pos": "interjection",
+    "cefr": "A1",
+    "senses": [
+      "lutfen",
+      "(fiil) memnun etmek"
+    ]
+  },
+  "practicing": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "pratik yapıyor, alıştırma yapıyor (practice -ing)"
+    ]
+  },
+  "produced": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "uretildi/uretti (produce)",
+      "yapimini ustlendi"
+    ]
+  },
+  "productions": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "yapimlar, uretim(ler)"
+    ]
+  },
+  "put": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "koymak, yerleştirmek",
+      "(put out) söndürmek"
+    ]
+  },
+  "ready": {
+    "pos": "adjective",
+    "cefr": "A1",
+    "senses": [
+      "hazır"
+    ]
+  },
+  "really": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "gercekten, cidden"
+    ]
+  },
+  "right": {
+    "pos": "adjective",
+    "cefr": "A1",
+    "senses": [
+      "dogru",
+      "sag",
+      "(all right) peki, tamam"
+    ]
+  },
+  "rules": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "kurallar",
+      "(fiil) yönetir, hükmeder"
+    ]
+  },
+  "safety": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "güvenlik",
+      "emniyet"
+    ]
+  },
+  "saves": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "kurtarır",
+      "biriktirir, tasarruf eder",
+      "(dosya) kaydeder"
+    ]
+  },
+  "school": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "okul"
+    ]
+  },
+  "see": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "görmek",
+      "anlamak",
+      "(you see) bak, anlarsın ya"
+    ]
+  },
+  "seen": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "görülmüş, görülen (see fiilinin 3. hali)"
+    ]
+  },
+  "since": {
+    "pos": "conjunction",
+    "cefr": "B1",
+    "senses": [
+      "-dığı için (neden)",
+      "-den beri (zaman)"
+    ]
+  },
+  "so": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "bu yüzden, öyleyse",
+      "çok, o kadar",
+      "(so that) -sın diye"
+    ]
+  },
+  "someone": {
+    "pos": "pronoun",
+    "cefr": "A2",
+    "senses": [
+      "biri, birisi"
+    ]
+  },
+  "something": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "bir sey"
+    ]
+  },
+  "sometimes": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "bazen, ara sıra"
+    ]
+  },
+  "sun": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "güneş"
+    ]
+  },
+  "than": {
+    "pos": "conjunction",
+    "cefr": "A2",
+    "senses": [
+      "-den (karşılaştırmada: bigger than)"
+    ]
+  },
+  "that": {
+    "pos": "determiner",
+    "cefr": "A1",
+    "senses": [
+      "şu, o",
+      "ki (bağlaç)",
+      "(that's why) işte bu yüzden"
+    ]
+  },
+  "that's": {
+    "pos": "contraction",
+    "cefr": "A1",
+    "senses": [
+      "that is: o ...-dir",
+      "(that's why) işte bu yüzden"
+    ]
+  },
+  "the": {
+    "pos": "article",
+    "cefr": "A1",
+    "senses": [
+      "(belirli tanımlık; genelde çevrilmez)"
+    ]
+  },
+  "there": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "orada, oraya",
+      "(there is/are) ... var"
+    ]
+  },
+  "there's": {
+    "pos": "contraction",
+    "cefr": "A1",
+    "senses": [
+      "there is: ... var"
+    ]
+  },
+  "these": {
+    "pos": "determiner",
+    "cefr": "A1",
+    "senses": [
+      "bunlar, bu"
+    ]
+  },
+  "they": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "onlar"
+    ]
+  },
+  "this": {
+    "pos": "determiner",
+    "cefr": "A1",
+    "senses": [
+      "bu"
+    ]
+  },
+  "time": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "zaman",
+      "kez, defa",
+      "(all the time) her zaman"
+    ]
+  },
+  "to": {
+    "pos": "preposition",
+    "cefr": "A1",
+    "senses": [
+      "-e/-a doğru",
+      "(mastar) -mek/-mak"
+    ]
+  },
+  "too": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "de/da, ayrica",
+      "cok, fazla"
+    ]
+  },
+  "us": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "bizi, bize"
+    ]
+  },
+  "used": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "kullanıldı/kullanılan (use)",
+      "(be used) kullanılmak",
+      "(used to) eskiden -erdi"
+    ]
+  },
+  "very": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "çok",
+      "tam da"
+    ]
+  },
+  "walking": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "yürüyor, yürüyen (walk -ing)",
+      "yürüyüş"
+    ]
+  },
+  "way": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "yol",
+      "yöntem, biçim",
+      "(this way) bu şekilde"
+    ]
+  },
+  "we": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "biz"
+    ]
+  },
+  "were": {
+    "pos": "verb",
+    "cefr": "A1",
+    "senses": [
+      "-di/idi (be cogul/2. gecmis)"
+    ]
+  },
+  "what": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "ne",
+      "ki o şey (what happens: ne olduğu)"
+    ]
+  },
+  "when": {
+    "pos": "conjunction",
+    "cefr": "A1",
+    "senses": [
+      "-dığında, ...-ınca",
+      "ne zaman"
+    ]
+  },
+  "who": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "kim",
+      "ki o (kişiyi niteler)"
+    ]
+  },
+  "whole": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "bütün, tüm",
+      "koca"
+    ]
+  },
+  "why": {
+    "pos": "adverb",
+    "cefr": "A1",
+    "senses": [
+      "neden, niçin"
+    ]
+  },
+  "will": {
+    "pos": "modal",
+    "cefr": "A1",
+    "senses": [
+      "-ecek (gelecek zaman)",
+      "(isim) irade, vasiyet"
+    ]
+  },
+  "you": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "sen, siz",
+      "seni, size"
+    ]
+  },
+  "you've": {
+    "pos": "contraction",
+    "cefr": "A2",
+    "senses": [
+      "you have: sen ...-dın (perfect)",
+      "sende ... var"
+    ]
+  },
+  "your": {
+    "pos": "pronoun",
+    "cefr": "A1",
+    "senses": [
+      "senin, sizin"
+    ]
+  }
+}
