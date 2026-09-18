@@ -3,7 +3,7 @@ import { Link } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
-import { AppSheet } from '@/components/app-sheet';
+import { SheetStepper } from '@/components/sheet-stepper';
 import { Screen } from '@/components/screen';
 import { H1, Lead, SectionLabel } from '@/components/ui';
 import { colors, radius, space } from '@/constants/appTheme';
@@ -73,23 +73,41 @@ export default function TodayScreen() {
         ))}
       </View>
 
-      <AppSheet
+      <SheetStepper
         visible={sheetOpen}
         onClose={() => setSheetOpen(false)}
-        title="Günlük döngü nasıl çalışır?"
-        snapPoints={['half', 'full']}>
-        <Text style={styles.sheetText}>
-          Her gün üç adımı sırayla yap: önce seviyenin bir tık üstü bir video izle
-          (girdi), sonra cümleleri yüksek sesle tekrar et (üretim), en son
-          yakaladığın öbekleri kartlarla tazele (tekrar).
-        </Text>
-        <Text style={styles.sheetText}>
-          Amaç hız değil süreklilik. Kısa ama her gün.
-        </Text>
-        <Pressable style={styles.sheetBtn} onPress={() => setSheetOpen(false)}>
-          <Text style={styles.sheetBtnText}>Anladım</Text>
-        </Pressable>
-      </AppSheet>
+        onDone={() => setSheetOpen(false)}
+        doneLabel="Anladım"
+        steps={[
+          {
+            title: '1. Girdi',
+            content: (
+              <Text style={styles.sheetText}>
+                Seviyenin bir tık üstü bir video izle. Bilmediğin öbekleri yakala; anlamak
+                için her kelimeyi bilmen gerekmez.
+              </Text>
+            ),
+          },
+          {
+            title: '2. Üretim',
+            content: (
+              <Text style={styles.sheetText}>
+                Cümleleri yüksek sesle tekrar et (shadowing). Telaffuzunu duy, geri bildirim
+                al. Konuşma kası ancak konuşarak gelişir.
+              </Text>
+            ),
+          },
+          {
+            title: '3. Tekrar',
+            content: (
+              <Text style={styles.sheetText}>
+                Yakaladığın öbekleri kartlarla tazele. Amaç hız değil süreklilik: kısa ama
+                her gün.
+              </Text>
+            ),
+          },
+        ]}
+      />
     </Screen>
   );
 }

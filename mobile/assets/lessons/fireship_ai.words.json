@@ -1,0 +1,2637 @@
+[
+  {
+    "w": "Machine",
+    "start_ms": 0,
+    "end_ms": 420
+  },
+  {
+    "w": "Learning,",
+    "start_ms": 420,
+    "end_ms": 760
+  },
+  {
+    "w": "teach",
+    "start_ms": 1240,
+    "end_ms": 1320
+  },
+  {
+    "w": "a",
+    "start_ms": 1320,
+    "end_ms": 1600
+  },
+  {
+    "w": "computer",
+    "start_ms": 1600,
+    "end_ms": 1900
+  },
+  {
+    "w": "how",
+    "start_ms": 1900,
+    "end_ms": 2220
+  },
+  {
+    "w": "to",
+    "start_ms": 2220,
+    "end_ms": 2420
+  },
+  {
+    "w": "perform",
+    "start_ms": 2420,
+    "end_ms": 2780
+  },
+  {
+    "w": "a",
+    "start_ms": 2780,
+    "end_ms": 2900
+  },
+  {
+    "w": "task",
+    "start_ms": 2900,
+    "end_ms": 3120
+  },
+  {
+    "w": "without",
+    "start_ms": 3120,
+    "end_ms": 3540
+  },
+  {
+    "w": "explicitly",
+    "start_ms": 3540,
+    "end_ms": 4160
+  },
+  {
+    "w": "programming",
+    "start_ms": 4160,
+    "end_ms": 4800
+  },
+  {
+    "w": "it",
+    "start_ms": 4800,
+    "end_ms": 5100
+  },
+  {
+    "w": "to",
+    "start_ms": 5100,
+    "end_ms": 5320
+  },
+  {
+    "w": "perform",
+    "start_ms": 5320,
+    "end_ms": 5660
+  },
+  {
+    "w": "said",
+    "start_ms": 5660,
+    "end_ms": 6040
+  },
+  {
+    "w": "task.",
+    "start_ms": 6040,
+    "end_ms": 6260
+  },
+  {
+    "w": "Instead,",
+    "start_ms": 6660,
+    "end_ms": 6920
+  },
+  {
+    "w": "feed",
+    "start_ms": 7220,
+    "end_ms": 7440
+  },
+  {
+    "w": "data",
+    "start_ms": 7440,
+    "end_ms": 7760
+  },
+  {
+    "w": "into",
+    "start_ms": 7760,
+    "end_ms": 8160
+  },
+  {
+    "w": "an",
+    "start_ms": 8160,
+    "end_ms": 8280
+  },
+  {
+    "w": "algorithm",
+    "start_ms": 8280,
+    "end_ms": 8600
+  },
+  {
+    "w": "to",
+    "start_ms": 8600,
+    "end_ms": 9100
+  },
+  {
+    "w": "gradually",
+    "start_ms": 9100,
+    "end_ms": 9400
+  },
+  {
+    "w": "improve",
+    "start_ms": 9400,
+    "end_ms": 9900
+  },
+  {
+    "w": "outcomes",
+    "start_ms": 9900,
+    "end_ms": 10340
+  },
+  {
+    "w": "with",
+    "start_ms": 10340,
+    "end_ms": 10680
+  },
+  {
+    "w": "experience,",
+    "start_ms": 10680,
+    "end_ms": 11140
+  },
+  {
+    "w": "similar",
+    "start_ms": 11420,
+    "end_ms": 11720
+  },
+  {
+    "w": "to",
+    "start_ms": 11720,
+    "end_ms": 12080
+  },
+  {
+    "w": "how",
+    "start_ms": 12080,
+    "end_ms": 12280
+  },
+  {
+    "w": "organic",
+    "start_ms": 12280,
+    "end_ms": 12640
+  },
+  {
+    "w": "life",
+    "start_ms": 12640,
+    "end_ms": 13060
+  },
+  {
+    "w": "learns.",
+    "start_ms": 13060,
+    "end_ms": 13320
+  },
+  {
+    "w": "The",
+    "start_ms": 13640,
+    "end_ms": 13660
+  },
+  {
+    "w": "term",
+    "start_ms": 13660,
+    "end_ms": 13920
+  },
+  {
+    "w": "was",
+    "start_ms": 13920,
+    "end_ms": 14160
+  },
+  {
+    "w": "coined",
+    "start_ms": 14160,
+    "end_ms": 14360
+  },
+  {
+    "w": "in",
+    "start_ms": 14360,
+    "end_ms": 14520
+  },
+  {
+    "w": "1959",
+    "start_ms": 14520,
+    "end_ms": 15200
+  },
+  {
+    "w": "by",
+    "start_ms": 15200,
+    "end_ms": 15660
+  },
+  {
+    "w": "Arthur",
+    "start_ms": 15660,
+    "end_ms": 15900
+  },
+  {
+    "w": "Samuel",
+    "start_ms": 15900,
+    "end_ms": 16360
+  },
+  {
+    "w": "at",
+    "start_ms": 16360,
+    "end_ms": 16740
+  },
+  {
+    "w": "IBM,",
+    "start_ms": 16740,
+    "end_ms": 17060
+  },
+  {
+    "w": "who",
+    "start_ms": 17440,
+    "end_ms": 17520
+  },
+  {
+    "w": "was",
+    "start_ms": 17520,
+    "end_ms": 17640
+  },
+  {
+    "w": "developing",
+    "start_ms": 17640,
+    "end_ms": 18100
+  },
+  {
+    "w": "artificial",
+    "start_ms": 18100,
+    "end_ms": 18400
+  },
+  {
+    "w": "intelligence",
+    "start_ms": 18400,
+    "end_ms": 19220
+  },
+  {
+    "w": "that",
+    "start_ms": 19220,
+    "end_ms": 19540
+  },
+  {
+    "w": "could",
+    "start_ms": 19540,
+    "end_ms": 19700
+  },
+  {
+    "w": "play",
+    "start_ms": 19700,
+    "end_ms": 19900
+  },
+  {
+    "w": "checkers.",
+    "start_ms": 19900,
+    "end_ms": 20360
+  },
+  {
+    "w": "Half",
+    "start_ms": 20560,
+    "end_ms": 20680
+  },
+  {
+    "w": "a",
+    "start_ms": 20680,
+    "end_ms": 20780
+  },
+  {
+    "w": "century",
+    "start_ms": 20780,
+    "end_ms": 21040
+  },
+  {
+    "w": "later,",
+    "start_ms": 21040,
+    "end_ms": 21440
+  },
+  {
+    "w": "and",
+    "start_ms": 21640,
+    "end_ms": 21720
+  },
+  {
+    "w": "predictive",
+    "start_ms": 21720,
+    "end_ms": 21960
+  },
+  {
+    "w": "models",
+    "start_ms": 21960,
+    "end_ms": 22340
+  },
+  {
+    "w": "are",
+    "start_ms": 22340,
+    "end_ms": 22740
+  },
+  {
+    "w": "embedded",
+    "start_ms": 22740,
+    "end_ms": 23000
+  },
+  {
+    "w": "in",
+    "start_ms": 23000,
+    "end_ms": 23260
+  },
+  {
+    "w": "many",
+    "start_ms": 23260,
+    "end_ms": 23420
+  },
+  {
+    "w": "of",
+    "start_ms": 23420,
+    "end_ms": 23600
+  },
+  {
+    "w": "the",
+    "start_ms": 23600,
+    "end_ms": 23700
+  },
+  {
+    "w": "products",
+    "start_ms": 23700,
+    "end_ms": 23980
+  },
+  {
+    "w": "we",
+    "start_ms": 23980,
+    "end_ms": 24260
+  },
+  {
+    "w": "use",
+    "start_ms": 24260,
+    "end_ms": 24400
+  },
+  {
+    "w": "every",
+    "start_ms": 24400,
+    "end_ms": 24620
+  },
+  {
+    "w": "day,",
+    "start_ms": 24620,
+    "end_ms": 24880
+  },
+  {
+    "w": "which",
+    "start_ms": 25000,
+    "end_ms": 25260
+  },
+  {
+    "w": "perform",
+    "start_ms": 25260,
+    "end_ms": 25500
+  },
+  {
+    "w": "two",
+    "start_ms": 25500,
+    "end_ms": 25940
+  },
+  {
+    "w": "fundamental",
+    "start_ms": 25940,
+    "end_ms": 26320
+  },
+  {
+    "w": "jobs.",
+    "start_ms": 26320,
+    "end_ms": 26720
+  },
+  {
+    "w": "One",
+    "start_ms": 27100,
+    "end_ms": 27160
+  },
+  {
+    "w": "is",
+    "start_ms": 27160,
+    "end_ms": 27280
+  },
+  {
+    "w": "to",
+    "start_ms": 27280,
+    "end_ms": 27420
+  },
+  {
+    "w": "classify",
+    "start_ms": 27420,
+    "end_ms": 27800
+  },
+  {
+    "w": "data,",
+    "start_ms": 27800,
+    "end_ms": 28200
+  },
+  {
+    "w": "like",
+    "start_ms": 28600,
+    "end_ms": 28700
+  },
+  {
+    "w": "is",
+    "start_ms": 28700,
+    "end_ms": 28980
+  },
+  {
+    "w": "there",
+    "start_ms": 28980,
+    "end_ms": 29120
+  },
+  {
+    "w": "another",
+    "start_ms": 29120,
+    "end_ms": 29320
+  },
+  {
+    "w": "car",
+    "start_ms": 29320,
+    "end_ms": 29580
+  },
+  {
+    "w": "on",
+    "start_ms": 29580,
+    "end_ms": 29740
+  },
+  {
+    "w": "the",
+    "start_ms": 29740,
+    "end_ms": 29820
+  },
+  {
+    "w": "road,",
+    "start_ms": 29820,
+    "end_ms": 30040
+  },
+  {
+    "w": "or",
+    "start_ms": 30340,
+    "end_ms": 30460
+  },
+  {
+    "w": "does",
+    "start_ms": 30460,
+    "end_ms": 30700
+  },
+  {
+    "w": "this",
+    "start_ms": 30700,
+    "end_ms": 30860
+  },
+  {
+    "w": "patient",
+    "start_ms": 30860,
+    "end_ms": 31080
+  },
+  {
+    "w": "have",
+    "start_ms": 31080,
+    "end_ms": 31380
+  },
+  {
+    "w": "cancer?",
+    "start_ms": 31380,
+    "end_ms": 31540
+  },
+  {
+    "w": "The",
+    "start_ms": 32100,
+    "end_ms": 32180
+  },
+  {
+    "w": "other",
+    "start_ms": 32180,
+    "end_ms": 32380
+  },
+  {
+    "w": "is",
+    "start_ms": 32380,
+    "end_ms": 32740
+  },
+  {
+    "w": "to",
+    "start_ms": 32740,
+    "end_ms": 32900
+  },
+  {
+    "w": "make",
+    "start_ms": 32900,
+    "end_ms": 33040
+  },
+  {
+    "w": "predictions",
+    "start_ms": 33040,
+    "end_ms": 33520
+  },
+  {
+    "w": "about",
+    "start_ms": 33520,
+    "end_ms": 34040
+  },
+  {
+    "w": "future",
+    "start_ms": 34040,
+    "end_ms": 34360
+  },
+  {
+    "w": "outcomes,",
+    "start_ms": 34360,
+    "end_ms": 34720
+  },
+  {
+    "w": "like",
+    "start_ms": 34820,
+    "end_ms": 35260
+  },
+  {
+    "w": "will",
+    "start_ms": 35260,
+    "end_ms": 35480
+  },
+  {
+    "w": "the",
+    "start_ms": 35480,
+    "end_ms": 35620
+  },
+  {
+    "w": "stock",
+    "start_ms": 35620,
+    "end_ms": 35840
+  },
+  {
+    "w": "go",
+    "start_ms": 35840,
+    "end_ms": 36100
+  },
+  {
+    "w": "up,",
+    "start_ms": 36100,
+    "end_ms": 36240
+  },
+  {
+    "w": "or",
+    "start_ms": 36440,
+    "end_ms": 36580
+  },
+  {
+    "w": "which",
+    "start_ms": 36580,
+    "end_ms": 36780
+  },
+  {
+    "w": "YouTube",
+    "start_ms": 36780,
+    "end_ms": 37060
+  },
+  {
+    "w": "video",
+    "start_ms": 37060,
+    "end_ms": 37420
+  },
+  {
+    "w": "do",
+    "start_ms": 37420,
+    "end_ms": 37720
+  },
+  {
+    "w": "you",
+    "start_ms": 37720,
+    "end_ms": 37820
+  },
+  {
+    "w": "want",
+    "start_ms": 37820,
+    "end_ms": 37940
+  },
+  {
+    "w": "to",
+    "start_ms": 37940,
+    "end_ms": 38020
+  },
+  {
+    "w": "watch",
+    "start_ms": 38020,
+    "end_ms": 38200
+  },
+  {
+    "w": "next?",
+    "start_ms": 38200,
+    "end_ms": 38400
+  },
+  {
+    "w": "The",
+    "start_ms": 38740,
+    "end_ms": 38800
+  },
+  {
+    "w": "first",
+    "start_ms": 38800,
+    "end_ms": 38980
+  },
+  {
+    "w": "step",
+    "start_ms": 38980,
+    "end_ms": 39200
+  },
+  {
+    "w": "in",
+    "start_ms": 39200,
+    "end_ms": 39320
+  },
+  {
+    "w": "the",
+    "start_ms": 39320,
+    "end_ms": 39400
+  },
+  {
+    "w": "process",
+    "start_ms": 39400,
+    "end_ms": 39740
+  },
+  {
+    "w": "is",
+    "start_ms": 39740,
+    "end_ms": 40100
+  },
+  {
+    "w": "to",
+    "start_ms": 40100,
+    "end_ms": 40260
+  },
+  {
+    "w": "acquire",
+    "start_ms": 40260,
+    "end_ms": 40660
+  },
+  {
+    "w": "and",
+    "start_ms": 40660,
+    "end_ms": 41080
+  },
+  {
+    "w": "clean",
+    "start_ms": 41080,
+    "end_ms": 41360
+  },
+  {
+    "w": "up",
+    "start_ms": 41360,
+    "end_ms": 41600
+  },
+  {
+    "w": "data,",
+    "start_ms": 41600,
+    "end_ms": 41820
+  },
+  {
+    "w": "lots",
+    "start_ms": 42140,
+    "end_ms": 42400
+  },
+  {
+    "w": "and",
+    "start_ms": 42400,
+    "end_ms": 42640
+  },
+  {
+    "w": "lots",
+    "start_ms": 42640,
+    "end_ms": 42840
+  },
+  {
+    "w": "of",
+    "start_ms": 42840,
+    "end_ms": 43040
+  },
+  {
+    "w": "data.",
+    "start_ms": 43040,
+    "end_ms": 43200
+  },
+  {
+    "w": "The",
+    "start_ms": 43520,
+    "end_ms": 43560
+  },
+  {
+    "w": "better",
+    "start_ms": 43560,
+    "end_ms": 43760
+  },
+  {
+    "w": "the",
+    "start_ms": 43760,
+    "end_ms": 43920
+  },
+  {
+    "w": "data",
+    "start_ms": 43920,
+    "end_ms": 44140
+  },
+  {
+    "w": "represents",
+    "start_ms": 44140,
+    "end_ms": 44440
+  },
+  {
+    "w": "the",
+    "start_ms": 44440,
+    "end_ms": 44740
+  },
+  {
+    "w": "problem,",
+    "start_ms": 44740,
+    "end_ms": 45040
+  },
+  {
+    "w": "the",
+    "start_ms": 45300,
+    "end_ms": 45420
+  },
+  {
+    "w": "better",
+    "start_ms": 45420,
+    "end_ms": 45660
+  },
+  {
+    "w": "the",
+    "start_ms": 45660,
+    "end_ms": 45800
+  },
+  {
+    "w": "results,",
+    "start_ms": 45800,
+    "end_ms": 46040
+  },
+  {
+    "w": "garbage",
+    "start_ms": 46520,
+    "end_ms": 46720
+  },
+  {
+    "w": "in,",
+    "start_ms": 46720,
+    "end_ms": 47020
+  },
+  {
+    "w": "garbage",
+    "start_ms": 47260,
+    "end_ms": 47400
+  },
+  {
+    "w": "out.",
+    "start_ms": 47400,
+    "end_ms": 47720
+  },
+  {
+    "w": "The",
+    "start_ms": 47940,
+    "end_ms": 48000
+  },
+  {
+    "w": "data",
+    "start_ms": 48000,
+    "end_ms": 48220
+  },
+  {
+    "w": "needs",
+    "start_ms": 48220,
+    "end_ms": 48560
+  },
+  {
+    "w": "to",
+    "start_ms": 48560,
+    "end_ms": 48740
+  },
+  {
+    "w": "have",
+    "start_ms": 48740,
+    "end_ms": 48880
+  },
+  {
+    "w": "some",
+    "start_ms": 48880,
+    "end_ms": 49060
+  },
+  {
+    "w": "kind",
+    "start_ms": 49060,
+    "end_ms": 49220
+  },
+  {
+    "w": "of",
+    "start_ms": 49220,
+    "end_ms": 49320
+  },
+  {
+    "w": "signal",
+    "start_ms": 49320,
+    "end_ms": 49580
+  },
+  {
+    "w": "to",
+    "start_ms": 49580,
+    "end_ms": 49920
+  },
+  {
+    "w": "be",
+    "start_ms": 49920,
+    "end_ms": 50040
+  },
+  {
+    "w": "valuable",
+    "start_ms": 50040,
+    "end_ms": 50340
+  },
+  {
+    "w": "to",
+    "start_ms": 50340,
+    "end_ms": 50620
+  },
+  {
+    "w": "the",
+    "start_ms": 50620,
+    "end_ms": 50720
+  },
+  {
+    "w": "algorithm",
+    "start_ms": 50720,
+    "end_ms": 51020
+  },
+  {
+    "w": "for",
+    "start_ms": 51020,
+    "end_ms": 51420
+  },
+  {
+    "w": "making",
+    "start_ms": 51420,
+    "end_ms": 51620
+  },
+  {
+    "w": "predictions,",
+    "start_ms": 51620,
+    "end_ms": 51960
+  },
+  {
+    "w": "and",
+    "start_ms": 52500,
+    "end_ms": 52640
+  },
+  {
+    "w": "data",
+    "start_ms": 52640,
+    "end_ms": 52820
+  },
+  {
+    "w": "scientists",
+    "start_ms": 52820,
+    "end_ms": 53240
+  },
+  {
+    "w": "perform",
+    "start_ms": 53240,
+    "end_ms": 53720
+  },
+  {
+    "w": "a",
+    "start_ms": 53720,
+    "end_ms": 53960
+  },
+  {
+    "w": "job",
+    "start_ms": 53960,
+    "end_ms": 54200
+  },
+  {
+    "w": "called",
+    "start_ms": 54200,
+    "end_ms": 54500
+  },
+  {
+    "w": "feature",
+    "start_ms": 54500,
+    "end_ms": 54720
+  },
+  {
+    "w": "engineering",
+    "start_ms": 54720,
+    "end_ms": 55060
+  },
+  {
+    "w": "to",
+    "start_ms": 55060,
+    "end_ms": 55720
+  },
+  {
+    "w": "transform",
+    "start_ms": 55720,
+    "end_ms": 56240
+  },
+  {
+    "w": "raw",
+    "start_ms": 56240,
+    "end_ms": 56440
+  },
+  {
+    "w": "data",
+    "start_ms": 56440,
+    "end_ms": 56720
+  },
+  {
+    "w": "into",
+    "start_ms": 56720,
+    "end_ms": 57080
+  },
+  {
+    "w": "features",
+    "start_ms": 57080,
+    "end_ms": 57540
+  },
+  {
+    "w": "that",
+    "start_ms": 57540,
+    "end_ms": 57940
+  },
+  {
+    "w": "better",
+    "start_ms": 57940,
+    "end_ms": 58200
+  },
+  {
+    "w": "represent",
+    "start_ms": 58200,
+    "end_ms": 58720
+  },
+  {
+    "w": "the",
+    "start_ms": 58720,
+    "end_ms": 58960
+  },
+  {
+    "w": "underlying",
+    "start_ms": 58960,
+    "end_ms": 59320
+  },
+  {
+    "w": "problem.",
+    "start_ms": 59320,
+    "end_ms": 59760
+  },
+  {
+    "w": "The",
+    "start_ms": 60220,
+    "end_ms": 60280
+  },
+  {
+    "w": "next",
+    "start_ms": 60280,
+    "end_ms": 60400
+  },
+  {
+    "w": "step",
+    "start_ms": 60400,
+    "end_ms": 60700
+  },
+  {
+    "w": "is",
+    "start_ms": 60700,
+    "end_ms": 60980
+  },
+  {
+    "w": "to",
+    "start_ms": 60980,
+    "end_ms": 61140
+  },
+  {
+    "w": "separate",
+    "start_ms": 61140,
+    "end_ms": 61480
+  },
+  {
+    "w": "the",
+    "start_ms": 61480,
+    "end_ms": 61700
+  },
+  {
+    "w": "data",
+    "start_ms": 61700,
+    "end_ms": 61840
+  },
+  {
+    "w": "into",
+    "start_ms": 61840,
+    "end_ms": 62320
+  },
+  {
+    "w": "a",
+    "start_ms": 62320,
+    "end_ms": 62480
+  },
+  {
+    "w": "training",
+    "start_ms": 62480,
+    "end_ms": 62680
+  },
+  {
+    "w": "set",
+    "start_ms": 62680,
+    "end_ms": 63100
+  },
+  {
+    "w": "and",
+    "start_ms": 63100,
+    "end_ms": 63420
+  },
+  {
+    "w": "testing",
+    "start_ms": 63420,
+    "end_ms": 63720
+  },
+  {
+    "w": "set.",
+    "start_ms": 63720,
+    "end_ms": 64160
+  },
+  {
+    "w": "The",
+    "start_ms": 64440,
+    "end_ms": 64560
+  },
+  {
+    "w": "training",
+    "start_ms": 64560,
+    "end_ms": 64780
+  },
+  {
+    "w": "data",
+    "start_ms": 64780,
+    "end_ms": 65060
+  },
+  {
+    "w": "is",
+    "start_ms": 65060,
+    "end_ms": 65280
+  },
+  {
+    "w": "fed",
+    "start_ms": 65280,
+    "end_ms": 65459
+  },
+  {
+    "w": "into",
+    "start_ms": 65459,
+    "end_ms": 65840
+  },
+  {
+    "w": "an",
+    "start_ms": 65840,
+    "end_ms": 65940
+  },
+  {
+    "w": "algorithm",
+    "start_ms": 65940,
+    "end_ms": 66240
+  },
+  {
+    "w": "to",
+    "start_ms": 66240,
+    "end_ms": 66620
+  },
+  {
+    "w": "build",
+    "start_ms": 66620,
+    "end_ms": 66820
+  },
+  {
+    "w": "a",
+    "start_ms": 66820,
+    "end_ms": 66960
+  },
+  {
+    "w": "model,",
+    "start_ms": 66960,
+    "end_ms": 67220
+  },
+  {
+    "w": "then",
+    "start_ms": 67480,
+    "end_ms": 67680
+  },
+  {
+    "w": "the",
+    "start_ms": 67680,
+    "end_ms": 67780
+  },
+  {
+    "w": "testing",
+    "start_ms": 67780,
+    "end_ms": 68000
+  },
+  {
+    "w": "data",
+    "start_ms": 68000,
+    "end_ms": 68340
+  },
+  {
+    "w": "is",
+    "start_ms": 68340,
+    "end_ms": 68680
+  },
+  {
+    "w": "used",
+    "start_ms": 68680,
+    "end_ms": 68940
+  },
+  {
+    "w": "to",
+    "start_ms": 68940,
+    "end_ms": 69100
+  },
+  {
+    "w": "validate",
+    "start_ms": 69100,
+    "end_ms": 69420
+  },
+  {
+    "w": "the",
+    "start_ms": 69420,
+    "end_ms": 69700
+  },
+  {
+    "w": "accuracy",
+    "start_ms": 69700,
+    "end_ms": 70200
+  },
+  {
+    "w": "or",
+    "start_ms": 70200,
+    "end_ms": 70700
+  },
+  {
+    "w": "error",
+    "start_ms": 70700,
+    "end_ms": 71000
+  },
+  {
+    "w": "of",
+    "start_ms": 71000,
+    "end_ms": 71440
+  },
+  {
+    "w": "the",
+    "start_ms": 71440,
+    "end_ms": 71560
+  },
+  {
+    "w": "model.",
+    "start_ms": 71560,
+    "end_ms": 71760
+  },
+  {
+    "w": "The",
+    "start_ms": 72020,
+    "end_ms": 72100
+  },
+  {
+    "w": "next",
+    "start_ms": 72100,
+    "end_ms": 72200
+  },
+  {
+    "w": "step",
+    "start_ms": 72200,
+    "end_ms": 72500
+  },
+  {
+    "w": "is",
+    "start_ms": 72500,
+    "end_ms": 72720
+  },
+  {
+    "w": "to",
+    "start_ms": 72720,
+    "end_ms": 72880
+  },
+  {
+    "w": "choose",
+    "start_ms": 72880,
+    "end_ms": 73160
+  },
+  {
+    "w": "an",
+    "start_ms": 73160,
+    "end_ms": 73280
+  },
+  {
+    "w": "algorithm,",
+    "start_ms": 73280,
+    "end_ms": 73580
+  },
+  {
+    "w": "which",
+    "start_ms": 73940,
+    "end_ms": 74060
+  },
+  {
+    "w": "might",
+    "start_ms": 74060,
+    "end_ms": 74220
+  },
+  {
+    "w": "be",
+    "start_ms": 74220,
+    "end_ms": 74420
+  },
+  {
+    "w": "a",
+    "start_ms": 74420,
+    "end_ms": 74560
+  },
+  {
+    "w": "simple",
+    "start_ms": 74560,
+    "end_ms": 74880
+  },
+  {
+    "w": "statistical",
+    "start_ms": 74880,
+    "end_ms": 75120
+  },
+  {
+    "w": "model",
+    "start_ms": 75120,
+    "end_ms": 75740
+  },
+  {
+    "w": "like",
+    "start_ms": 75740,
+    "end_ms": 76080
+  },
+  {
+    "w": "linear",
+    "start_ms": 76080,
+    "end_ms": 76320
+  },
+  {
+    "w": "or",
+    "start_ms": 76320,
+    "end_ms": 76780
+  },
+  {
+    "w": "logistic",
+    "start_ms": 76780,
+    "end_ms": 77200
+  },
+  {
+    "w": "regression,",
+    "start_ms": 77200,
+    "end_ms": 77560
+  },
+  {
+    "w": "or",
+    "start_ms": 77980,
+    "end_ms": 78100
+  },
+  {
+    "w": "a",
+    "start_ms": 78100,
+    "end_ms": 78220
+  },
+  {
+    "w": "decision",
+    "start_ms": 78220,
+    "end_ms": 78440
+  },
+  {
+    "w": "tree",
+    "start_ms": 78440,
+    "end_ms": 78820
+  },
+  {
+    "w": "that",
+    "start_ms": 78820,
+    "end_ms": 79140
+  },
+  {
+    "w": "assigns",
+    "start_ms": 79140,
+    "end_ms": 79320
+  },
+  {
+    "w": "different",
+    "start_ms": 79320,
+    "end_ms": 79780
+  },
+  {
+    "w": "weights",
+    "start_ms": 79780,
+    "end_ms": 80100
+  },
+  {
+    "w": "to",
+    "start_ms": 80100,
+    "end_ms": 80360
+  },
+  {
+    "w": "features",
+    "start_ms": 80360,
+    "end_ms": 80720
+  },
+  {
+    "w": "in",
+    "start_ms": 80720,
+    "end_ms": 80920
+  },
+  {
+    "w": "the",
+    "start_ms": 80920,
+    "end_ms": 81020
+  },
+  {
+    "w": "data,",
+    "start_ms": 81020,
+    "end_ms": 81220
+  },
+  {
+    "w": "or",
+    "start_ms": 81220,
+    "end_ms": 81660
+  },
+  {
+    "w": "you",
+    "start_ms": 81660,
+    "end_ms": 81800
+  },
+  {
+    "w": "might",
+    "start_ms": 81800,
+    "end_ms": 81940
+  },
+  {
+    "w": "get",
+    "start_ms": 81940,
+    "end_ms": 82120
+  },
+  {
+    "w": "fancy",
+    "start_ms": 82120,
+    "end_ms": 82340
+  },
+  {
+    "w": "with",
+    "start_ms": 82340,
+    "end_ms": 82900
+  },
+  {
+    "w": "a",
+    "start_ms": 82900,
+    "end_ms": 83040
+  },
+  {
+    "w": "convolutional",
+    "start_ms": 83040,
+    "end_ms": 83900
+  },
+  {
+    "w": "neural",
+    "start_ms": 83900,
+    "end_ms": 84100
+  },
+  {
+    "w": "network,",
+    "start_ms": 84100,
+    "end_ms": 84520
+  },
+  {
+    "w": "which",
+    "start_ms": 84720,
+    "end_ms": 84820
+  },
+  {
+    "w": "is",
+    "start_ms": 84820,
+    "end_ms": 84940
+  },
+  {
+    "w": "an",
+    "start_ms": 84940,
+    "end_ms": 85000
+  },
+  {
+    "w": "algorithm",
+    "start_ms": 85000,
+    "end_ms": 85320
+  },
+  {
+    "w": "that",
+    "start_ms": 85320,
+    "end_ms": 85840
+  },
+  {
+    "w": "also",
+    "start_ms": 85840,
+    "end_ms": 86100
+  },
+  {
+    "w": "assigns",
+    "start_ms": 86100,
+    "end_ms": 86520
+  },
+  {
+    "w": "weights",
+    "start_ms": 86520,
+    "end_ms": 86780
+  },
+  {
+    "w": "to",
+    "start_ms": 86780,
+    "end_ms": 87000
+  },
+  {
+    "w": "features,",
+    "start_ms": 87000,
+    "end_ms": 87220
+  },
+  {
+    "w": "but",
+    "start_ms": 87700,
+    "end_ms": 87880
+  },
+  {
+    "w": "also",
+    "start_ms": 87880,
+    "end_ms": 88100
+  },
+  {
+    "w": "takes",
+    "start_ms": 88100,
+    "end_ms": 88540
+  },
+  {
+    "w": "the",
+    "start_ms": 88540,
+    "end_ms": 88680
+  },
+  {
+    "w": "input",
+    "start_ms": 88680,
+    "end_ms": 88920
+  },
+  {
+    "w": "data",
+    "start_ms": 88920,
+    "end_ms": 89120
+  },
+  {
+    "w": "and",
+    "start_ms": 89120,
+    "end_ms": 89560
+  },
+  {
+    "w": "creates",
+    "start_ms": 89560,
+    "end_ms": 89860
+  },
+  {
+    "w": "additional",
+    "start_ms": 89860,
+    "end_ms": 90020
+  },
+  {
+    "w": "features",
+    "start_ms": 90020,
+    "end_ms": 90640
+  },
+  {
+    "w": "automatically.",
+    "start_ms": 90640,
+    "end_ms": 90960
+  },
+  {
+    "w": "And",
+    "start_ms": 91700,
+    "end_ms": 91740
+  },
+  {
+    "w": "that's",
+    "start_ms": 91740,
+    "end_ms": 91980
+  },
+  {
+    "w": "extremely",
+    "start_ms": 91980,
+    "end_ms": 92260
+  },
+  {
+    "w": "useful",
+    "start_ms": 92260,
+    "end_ms": 92700
+  },
+  {
+    "w": "for",
+    "start_ms": 92700,
+    "end_ms": 93100
+  },
+  {
+    "w": "datasets",
+    "start_ms": 93100,
+    "end_ms": 93440
+  },
+  {
+    "w": "that",
+    "start_ms": 93440,
+    "end_ms": 93840
+  },
+  {
+    "w": "contain",
+    "start_ms": 93840,
+    "end_ms": 94000
+  },
+  {
+    "w": "things",
+    "start_ms": 94000,
+    "end_ms": 94460
+  },
+  {
+    "w": "like",
+    "start_ms": 94460,
+    "end_ms": 94640
+  },
+  {
+    "w": "images",
+    "start_ms": 94640,
+    "end_ms": 94980
+  },
+  {
+    "w": "or",
+    "start_ms": 94980,
+    "end_ms": 95420
+  },
+  {
+    "w": "natural",
+    "start_ms": 95420,
+    "end_ms": 95680
+  },
+  {
+    "w": "language,",
+    "start_ms": 95680,
+    "end_ms": 96120
+  },
+  {
+    "w": "where",
+    "start_ms": 96400,
+    "end_ms": 96560
+  },
+  {
+    "w": "manual",
+    "start_ms": 96560,
+    "end_ms": 96900
+  },
+  {
+    "w": "feature",
+    "start_ms": 96900,
+    "end_ms": 97240
+  },
+  {
+    "w": "engineering",
+    "start_ms": 97240,
+    "end_ms": 97580
+  },
+  {
+    "w": "is",
+    "start_ms": 97580,
+    "end_ms": 98080
+  },
+  {
+    "w": "virtually",
+    "start_ms": 98080,
+    "end_ms": 98380
+  },
+  {
+    "w": "impossible.",
+    "start_ms": 98380,
+    "end_ms": 98720
+  },
+  {
+    "w": "Every",
+    "start_ms": 99300,
+    "end_ms": 99460
+  },
+  {
+    "w": "one",
+    "start_ms": 99460,
+    "end_ms": 99620
+  },
+  {
+    "w": "of",
+    "start_ms": 99620,
+    "end_ms": 99700
+  },
+  {
+    "w": "these",
+    "start_ms": 99700,
+    "end_ms": 99800
+  },
+  {
+    "w": "algorithms",
+    "start_ms": 99800,
+    "end_ms": 100140
+  },
+  {
+    "w": "learns",
+    "start_ms": 100140,
+    "end_ms": 100640
+  },
+  {
+    "w": "to",
+    "start_ms": 100640,
+    "end_ms": 100860
+  },
+  {
+    "w": "get",
+    "start_ms": 100860,
+    "end_ms": 100960
+  },
+  {
+    "w": "better",
+    "start_ms": 100960,
+    "end_ms": 101260
+  },
+  {
+    "w": "by",
+    "start_ms": 101260,
+    "end_ms": 101680
+  },
+  {
+    "w": "comparing",
+    "start_ms": 101680,
+    "end_ms": 102160
+  },
+  {
+    "w": "its",
+    "start_ms": 102160,
+    "end_ms": 102320
+  },
+  {
+    "w": "predictions",
+    "start_ms": 102320,
+    "end_ms": 102620
+  },
+  {
+    "w": "to",
+    "start_ms": 102620,
+    "end_ms": 103180
+  },
+  {
+    "w": "an",
+    "start_ms": 103180,
+    "end_ms": 103300
+  },
+  {
+    "w": "error",
+    "start_ms": 103300,
+    "end_ms": 103500
+  },
+  {
+    "w": "function.",
+    "start_ms": 103500,
+    "end_ms": 103820
+  },
+  {
+    "w": "If",
+    "start_ms": 104220,
+    "end_ms": 104300
+  },
+  {
+    "w": "it's",
+    "start_ms": 104300,
+    "end_ms": 104480
+  },
+  {
+    "w": "a",
+    "start_ms": 104480,
+    "end_ms": 104560
+  },
+  {
+    "w": "classification",
+    "start_ms": 104560,
+    "end_ms": 104880
+  },
+  {
+    "w": "problem,",
+    "start_ms": 104880,
+    "end_ms": 105520
+  },
+  {
+    "w": "like",
+    "start_ms": 105660,
+    "end_ms": 106060
+  },
+  {
+    "w": "is",
+    "start_ms": 106060,
+    "end_ms": 106280
+  },
+  {
+    "w": "this",
+    "start_ms": 106280,
+    "end_ms": 106400
+  },
+  {
+    "w": "animal",
+    "start_ms": 106400,
+    "end_ms": 106640
+  },
+  {
+    "w": "a",
+    "start_ms": 106640,
+    "end_ms": 107000
+  },
+  {
+    "w": "cat",
+    "start_ms": 107000,
+    "end_ms": 107220
+  },
+  {
+    "w": "or",
+    "start_ms": 107220,
+    "end_ms": 107560
+  },
+  {
+    "w": "a",
+    "start_ms": 107560,
+    "end_ms": 107640
+  },
+  {
+    "w": "dog,",
+    "start_ms": 107640,
+    "end_ms": 107920
+  },
+  {
+    "w": "the",
+    "start_ms": 108160,
+    "end_ms": 108220
+  },
+  {
+    "w": "error",
+    "start_ms": 108220,
+    "end_ms": 108460
+  },
+  {
+    "w": "function",
+    "start_ms": 108460,
+    "end_ms": 108820
+  },
+  {
+    "w": "might",
+    "start_ms": 108820,
+    "end_ms": 109120
+  },
+  {
+    "w": "be",
+    "start_ms": 109120,
+    "end_ms": 109300
+  },
+  {
+    "w": "accuracy.",
+    "start_ms": 109300,
+    "end_ms": 109680
+  },
+  {
+    "w": "If",
+    "start_ms": 110180,
+    "end_ms": 110320
+  },
+  {
+    "w": "it's",
+    "start_ms": 110320,
+    "end_ms": 110460
+  },
+  {
+    "w": "a",
+    "start_ms": 110460,
+    "end_ms": 110540
+  },
+  {
+    "w": "regression",
+    "start_ms": 110540,
+    "end_ms": 110780
+  },
+  {
+    "w": "problem,",
+    "start_ms": 110780,
+    "end_ms": 111240
+  },
+  {
+    "w": "like",
+    "start_ms": 111320,
+    "end_ms": 111780
+  },
+  {
+    "w": "how",
+    "start_ms": 111780,
+    "end_ms": 111980
+  },
+  {
+    "w": "much",
+    "start_ms": 111980,
+    "end_ms": 112140
+  },
+  {
+    "w": "will",
+    "start_ms": 112140,
+    "end_ms": 112320
+  },
+  {
+    "w": "a",
+    "start_ms": 112320,
+    "end_ms": 112420
+  },
+  {
+    "w": "loaf",
+    "start_ms": 112420,
+    "end_ms": 112660
+  },
+  {
+    "w": "of",
+    "start_ms": 112660,
+    "end_ms": 112780
+  },
+  {
+    "w": "bread",
+    "start_ms": 112780,
+    "end_ms": 112980
+  },
+  {
+    "w": "costs",
+    "start_ms": 112980,
+    "end_ms": 113200
+  },
+  {
+    "w": "next",
+    "start_ms": 113200,
+    "end_ms": 113520
+  },
+  {
+    "w": "year,",
+    "start_ms": 113520,
+    "end_ms": 113840
+  },
+  {
+    "w": "then",
+    "start_ms": 114120,
+    "end_ms": 114220
+  },
+  {
+    "w": "it",
+    "start_ms": 114220,
+    "end_ms": 114300
+  },
+  {
+    "w": "might",
+    "start_ms": 114300,
+    "end_ms": 114460
+  },
+  {
+    "w": "be",
+    "start_ms": 114460,
+    "end_ms": 114660
+  },
+  {
+    "w": "mean",
+    "start_ms": 114660,
+    "end_ms": 115000
+  },
+  {
+    "w": "absolute",
+    "start_ms": 115000,
+    "end_ms": 115360
+  },
+  {
+    "w": "error.",
+    "start_ms": 115360,
+    "end_ms": 115820
+  },
+  {
+    "w": "Python",
+    "start_ms": 116220,
+    "end_ms": 116400
+  },
+  {
+    "w": "is",
+    "start_ms": 116400,
+    "end_ms": 116880
+  },
+  {
+    "w": "the",
+    "start_ms": 116880,
+    "end_ms": 117000
+  },
+  {
+    "w": "language",
+    "start_ms": 117000,
+    "end_ms": 117220
+  },
+  {
+    "w": "of",
+    "start_ms": 117220,
+    "end_ms": 117360
+  },
+  {
+    "w": "choice",
+    "start_ms": 117360,
+    "end_ms": 117500
+  },
+  {
+    "w": "among",
+    "start_ms": 117500,
+    "end_ms": 117860
+  },
+  {
+    "w": "data",
+    "start_ms": 117860,
+    "end_ms": 118060
+  },
+  {
+    "w": "scientists,",
+    "start_ms": 118060,
+    "end_ms": 118440
+  },
+  {
+    "w": "but",
+    "start_ms": 118920,
+    "end_ms": 119240
+  },
+  {
+    "w": "R",
+    "start_ms": 119240,
+    "end_ms": 119480
+  },
+  {
+    "w": "and",
+    "start_ms": 119480,
+    "end_ms": 119780
+  },
+  {
+    "w": "Julia",
+    "start_ms": 119780,
+    "end_ms": 120100
+  },
+  {
+    "w": "are",
+    "start_ms": 120100,
+    "end_ms": 120560
+  },
+  {
+    "w": "also",
+    "start_ms": 120560,
+    "end_ms": 120800
+  },
+  {
+    "w": "popular",
+    "start_ms": 120800,
+    "end_ms": 121240
+  },
+  {
+    "w": "options,",
+    "start_ms": 121240,
+    "end_ms": 121620
+  },
+  {
+    "w": "and",
+    "start_ms": 121980,
+    "end_ms": 122080
+  },
+  {
+    "w": "there",
+    "start_ms": 122080,
+    "end_ms": 122200
+  },
+  {
+    "w": "are",
+    "start_ms": 122200,
+    "end_ms": 122280
+  },
+  {
+    "w": "many",
+    "start_ms": 122280,
+    "end_ms": 122420
+  },
+  {
+    "w": "supporting",
+    "start_ms": 122420,
+    "end_ms": 122820
+  },
+  {
+    "w": "frameworks",
+    "start_ms": 122820,
+    "end_ms": 123240
+  },
+  {
+    "w": "out",
+    "start_ms": 123240,
+    "end_ms": 123560
+  },
+  {
+    "w": "there",
+    "start_ms": 123560,
+    "end_ms": 123760
+  },
+  {
+    "w": "to",
+    "start_ms": 123760,
+    "end_ms": 124020
+  },
+  {
+    "w": "make",
+    "start_ms": 124020,
+    "end_ms": 124240
+  },
+  {
+    "w": "the",
+    "start_ms": 124240,
+    "end_ms": 124380
+  },
+  {
+    "w": "process",
+    "start_ms": 124380,
+    "end_ms": 124640
+  },
+  {
+    "w": "approachable.",
+    "start_ms": 124640,
+    "end_ms": 125280
+  },
+  {
+    "w": "The",
+    "start_ms": 125580,
+    "end_ms": 125660
+  },
+  {
+    "w": "end",
+    "start_ms": 125660,
+    "end_ms": 125840
+  },
+  {
+    "w": "result",
+    "start_ms": 125840,
+    "end_ms": 126060
+  },
+  {
+    "w": "of",
+    "start_ms": 126060,
+    "end_ms": 126300
+  },
+  {
+    "w": "the",
+    "start_ms": 126300,
+    "end_ms": 126420
+  },
+  {
+    "w": "machine",
+    "start_ms": 126420,
+    "end_ms": 126600
+  },
+  {
+    "w": "learning",
+    "start_ms": 126600,
+    "end_ms": 126840
+  },
+  {
+    "w": "process",
+    "start_ms": 126840,
+    "end_ms": 127260
+  },
+  {
+    "w": "is",
+    "start_ms": 127260,
+    "end_ms": 127640
+  },
+  {
+    "w": "a",
+    "start_ms": 127640,
+    "end_ms": 127760
+  },
+  {
+    "w": "model,",
+    "start_ms": 127760,
+    "end_ms": 128020
+  },
+  {
+    "w": "which",
+    "start_ms": 128020,
+    "end_ms": 128479
+  },
+  {
+    "w": "is",
+    "start_ms": 128479,
+    "end_ms": 128620
+  },
+  {
+    "w": "just",
+    "start_ms": 128620,
+    "end_ms": 128880
+  },
+  {
+    "w": "a",
+    "start_ms": 128880,
+    "end_ms": 128979
+  },
+  {
+    "w": "file",
+    "start_ms": 128979,
+    "end_ms": 129300
+  },
+  {
+    "w": "that",
+    "start_ms": 129300,
+    "end_ms": 129699
+  },
+  {
+    "w": "takes",
+    "start_ms": 129699,
+    "end_ms": 129900
+  },
+  {
+    "w": "some",
+    "start_ms": 129900,
+    "end_ms": 130120
+  },
+  {
+    "w": "input",
+    "start_ms": 130120,
+    "end_ms": 130500
+  },
+  {
+    "w": "data",
+    "start_ms": 130500,
+    "end_ms": 130720
+  },
+  {
+    "w": "in",
+    "start_ms": 130720,
+    "end_ms": 131120
+  },
+  {
+    "w": "the",
+    "start_ms": 131120,
+    "end_ms": 131240
+  },
+  {
+    "w": "same",
+    "start_ms": 131240,
+    "end_ms": 131400
+  },
+  {
+    "w": "shape",
+    "start_ms": 131400,
+    "end_ms": 131760
+  },
+  {
+    "w": "that",
+    "start_ms": 131760,
+    "end_ms": 131920
+  },
+  {
+    "w": "it",
+    "start_ms": 131920,
+    "end_ms": 132020
+  },
+  {
+    "w": "was",
+    "start_ms": 132020,
+    "end_ms": 132100
+  },
+  {
+    "w": "trained",
+    "start_ms": 132100,
+    "end_ms": 132300
+  },
+  {
+    "w": "on,",
+    "start_ms": 132300,
+    "end_ms": 132620
+  },
+  {
+    "w": "then",
+    "start_ms": 132780,
+    "end_ms": 133020
+  },
+  {
+    "w": "spits",
+    "start_ms": 133020,
+    "end_ms": 133300
+  },
+  {
+    "w": "out",
+    "start_ms": 133300,
+    "end_ms": 133420
+  },
+  {
+    "w": "a",
+    "start_ms": 133420,
+    "end_ms": 133480
+  },
+  {
+    "w": "prediction",
+    "start_ms": 133480,
+    "end_ms": 133740
+  },
+  {
+    "w": "that",
+    "start_ms": 133740,
+    "end_ms": 134300
+  },
+  {
+    "w": "tries",
+    "start_ms": 134300,
+    "end_ms": 134560
+  },
+  {
+    "w": "to",
+    "start_ms": 134560,
+    "end_ms": 134740
+  },
+  {
+    "w": "minimize",
+    "start_ms": 134740,
+    "end_ms": 134980
+  },
+  {
+    "w": "the",
+    "start_ms": 134980,
+    "end_ms": 135340
+  },
+  {
+    "w": "error",
+    "start_ms": 135340,
+    "end_ms": 135620
+  },
+  {
+    "w": "that",
+    "start_ms": 135620,
+    "end_ms": 135900
+  },
+  {
+    "w": "it",
+    "start_ms": 135900,
+    "end_ms": 136000
+  },
+  {
+    "w": "was",
+    "start_ms": 136000,
+    "end_ms": 136120
+  },
+  {
+    "w": "optimized",
+    "start_ms": 136120,
+    "end_ms": 136440
+  },
+  {
+    "w": "for.",
+    "start_ms": 136440,
+    "end_ms": 136880
+  },
+  {
+    "w": "It",
+    "start_ms": 137060,
+    "end_ms": 137140
+  },
+  {
+    "w": "can",
+    "start_ms": 137140,
+    "end_ms": 137260
+  },
+  {
+    "w": "then",
+    "start_ms": 137260,
+    "end_ms": 137420
+  },
+  {
+    "w": "be",
+    "start_ms": 137420,
+    "end_ms": 137540
+  },
+  {
+    "w": "embedded",
+    "start_ms": 137540,
+    "end_ms": 137880
+  },
+  {
+    "w": "on",
+    "start_ms": 137880,
+    "end_ms": 138140
+  },
+  {
+    "w": "an",
+    "start_ms": 138140,
+    "end_ms": 138240
+  },
+  {
+    "w": "actual",
+    "start_ms": 138240,
+    "end_ms": 138520
+  },
+  {
+    "w": "device",
+    "start_ms": 138520,
+    "end_ms": 138880
+  },
+  {
+    "w": "or",
+    "start_ms": 138880,
+    "end_ms": 139300
+  },
+  {
+    "w": "deployed",
+    "start_ms": 139300,
+    "end_ms": 139460
+  },
+  {
+    "w": "to",
+    "start_ms": 139460,
+    "end_ms": 139820
+  },
+  {
+    "w": "the",
+    "start_ms": 139820,
+    "end_ms": 139920
+  },
+  {
+    "w": "cloud",
+    "start_ms": 139920,
+    "end_ms": 140120
+  },
+  {
+    "w": "to",
+    "start_ms": 140120,
+    "end_ms": 140520
+  },
+  {
+    "w": "build",
+    "start_ms": 140520,
+    "end_ms": 140800
+  },
+  {
+    "w": "a",
+    "start_ms": 140800,
+    "end_ms": 141040
+  },
+  {
+    "w": "real",
+    "start_ms": 141040,
+    "end_ms": 141240
+  },
+  {
+    "w": "-world",
+    "start_ms": 141240,
+    "end_ms": 141520
+  },
+  {
+    "w": "product.",
+    "start_ms": 141520,
+    "end_ms": 141900
+  },
+  {
+    "w": "This",
+    "start_ms": 142260,
+    "end_ms": 142280
+  },
+  {
+    "w": "has",
+    "start_ms": 142280,
+    "end_ms": 142400
+  },
+  {
+    "w": "been",
+    "start_ms": 142400,
+    "end_ms": 142580
+  },
+  {
+    "w": "machine",
+    "start_ms": 142580,
+    "end_ms": 142800
+  },
+  {
+    "w": "learning",
+    "start_ms": 142800,
+    "end_ms": 143160
+  },
+  {
+    "w": "in",
+    "start_ms": 143160,
+    "end_ms": 143520
+  },
+  {
+    "w": "100",
+    "start_ms": 143520,
+    "end_ms": 143780
+  },
+  {
+    "w": "seconds.",
+    "start_ms": 143780,
+    "end_ms": 144260
+  },
+  {
+    "w": "Like",
+    "start_ms": 144680,
+    "end_ms": 144720
+  },
+  {
+    "w": "and",
+    "start_ms": 144720,
+    "end_ms": 144860
+  },
+  {
+    "w": "subscribe",
+    "start_ms": 144860,
+    "end_ms": 145120
+  },
+  {
+    "w": "if",
+    "start_ms": 145120,
+    "end_ms": 145480
+  },
+  {
+    "w": "you",
+    "start_ms": 145480,
+    "end_ms": 145600
+  },
+  {
+    "w": "want",
+    "start_ms": 145600,
+    "end_ms": 145720
+  },
+  {
+    "w": "to",
+    "start_ms": 145720,
+    "end_ms": 145800
+  },
+  {
+    "w": "see",
+    "start_ms": 145800,
+    "end_ms": 145920
+  },
+  {
+    "w": "more",
+    "start_ms": 145920,
+    "end_ms": 146100
+  },
+  {
+    "w": "short",
+    "start_ms": 146100,
+    "end_ms": 146260
+  },
+  {
+    "w": "videos",
+    "start_ms": 146260,
+    "end_ms": 146560
+  },
+  {
+    "w": "like",
+    "start_ms": 146560,
+    "end_ms": 146840
+  },
+  {
+    "w": "this,",
+    "start_ms": 146840,
+    "end_ms": 147040
+  },
+  {
+    "w": "and",
+    "start_ms": 147360,
+    "end_ms": 147460
+  },
+  {
+    "w": "leave",
+    "start_ms": 147460,
+    "end_ms": 147620
+  },
+  {
+    "w": "a",
+    "start_ms": 147620,
+    "end_ms": 147720
+  },
+  {
+    "w": "comment",
+    "start_ms": 147720,
+    "end_ms": 148000
+  },
+  {
+    "w": "if",
+    "start_ms": 148000,
+    "end_ms": 148240
+  },
+  {
+    "w": "you",
+    "start_ms": 148240,
+    "end_ms": 148360
+  },
+  {
+    "w": "want",
+    "start_ms": 148360,
+    "end_ms": 148440
+  },
+  {
+    "w": "to",
+    "start_ms": 148440,
+    "end_ms": 148520
+  },
+  {
+    "w": "see",
+    "start_ms": 148520,
+    "end_ms": 148660
+  },
+  {
+    "w": "more",
+    "start_ms": 148660,
+    "end_ms": 148840
+  },
+  {
+    "w": "machine",
+    "start_ms": 148840,
+    "end_ms": 149100
+  },
+  {
+    "w": "learning",
+    "start_ms": 149100,
+    "end_ms": 149360
+  },
+  {
+    "w": "content",
+    "start_ms": 149360,
+    "end_ms": 149620
+  },
+  {
+    "w": "on",
+    "start_ms": 149620,
+    "end_ms": 150040
+  },
+  {
+    "w": "this",
+    "start_ms": 150040,
+    "end_ms": 150160
+  },
+  {
+    "w": "channel.",
+    "start_ms": 150160,
+    "end_ms": 150420
+  },
+  {
+    "w": "Thanks",
+    "start_ms": 150660,
+    "end_ms": 150760
+  },
+  {
+    "w": "for",
+    "start_ms": 150760,
+    "end_ms": 150920
+  },
+  {
+    "w": "watching,",
+    "start_ms": 150920,
+    "end_ms": 151240
+  },
+  {
+    "w": "and",
+    "start_ms": 151400,
+    "end_ms": 151660
+  },
+  {
+    "w": "I",
+    "start_ms": 151660,
+    "end_ms": 151820
+  },
+  {
+    "w": "will",
+    "start_ms": 151820,
+    "end_ms": 151980
+  },
+  {
+    "w": "see",
+    "start_ms": 151980,
+    "end_ms": 152200
+  },
+  {
+    "w": "you",
+    "start_ms": 152200,
+    "end_ms": 152400
+  },
+  {
+    "w": "in",
+    "start_ms": 152400,
+    "end_ms": 152540
+  },
+  {
+    "w": "the",
+    "start_ms": 152540,
+    "end_ms": 152620
+  },
+  {
+    "w": "next",
+    "start_ms": 152620,
+    "end_ms": 152780
+  },
+  {
+    "w": "one.",
+    "start_ms": 152780,
+    "end_ms": 153040
+  }
+]

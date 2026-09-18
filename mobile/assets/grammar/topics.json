@@ -1,0 +1,133 @@
+{
+  "version": "1",
+  "topics": [
+    {
+      "norm_pattern": "simple_past",
+      "category": "Tenses & Aspects",
+      "topic": "Simple Past",
+      "formula": "S + V2 (past)",
+      "note_tr": "Geçmişte bitmiş, belirli bir olay.",
+      "cefr": "A2"
+    },
+    {
+      "norm_pattern": "present_perfect_have_v3",
+      "category": "Tenses & Aspects",
+      "topic": "Present Perfect (have/has V3)",
+      "formula": "S + have/has + V3",
+      "note_tr": "Geçmişte olup şimdiye etkisi süren ya da zamanı belirsiz olay.",
+      "cefr": "B1"
+    },
+    {
+      "norm_pattern": "past_continuous_was_ving",
+      "category": "Tenses & Aspects",
+      "topic": "Past Continuous",
+      "formula": "S + was/were + V-ing",
+      "note_tr": "Geçmişte belli bir anda sürmekte olan eylem.",
+      "cefr": "A2"
+    },
+    {
+      "norm_pattern": "past_perfect_had_v3",
+      "category": "Tenses & Aspects",
+      "topic": "Past Perfect vs. Simple Past",
+      "formula": "S + had + V3",
+      "note_tr": "Geçmişteki başka bir olaydan ÖNCE tamamlanmış eylem.",
+      "cefr": "B1"
+    },
+    {
+      "norm_pattern": "modal_v1",
+      "category": "Modals & Modal Perfects",
+      "topic": "Could / Would / Should + V1",
+      "formula": "S + modal + V1",
+      "note_tr": "Şimdi/gelecek için olasılık, öneri, kibar istek.",
+      "cefr": "A2"
+    },
+    {
+      "norm_pattern": "should_have_v3",
+      "category": "Modals & Modal Perfects",
+      "topic": "Should Have V3",
+      "formula": "S + should have + V3",
+      "note_tr": "Geçmişte yapılması gerekip yapılmayan şey (pişmanlık/eleştiri).",
+      "cefr": "B1"
+    },
+    {
+      "norm_pattern": "could_have_v3",
+      "category": "Modals & Modal Perfects",
+      "topic": "Could Have V3",
+      "formula": "S + could have + V3",
+      "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen olasılık.",
+      "cefr": "B1"
+    },
+    {
+      "norm_pattern": "would_have_v3",
+      "category": "Modals & Modal Perfects",
+      "topic": "Would Have V3",
+      "formula": "S + would have + V3",
+      "note_tr": "Geçmişte farklı olsaydı gerçekleşecek sonuç (koşulun sonucu).",
+      "cefr": "B2"
+    },
+    {
+      "norm_pattern": "if_type0",
+      "category": "Conditionals & Wish",
+      "topic": "If Clause Type 0 (General Truth)",
+      "formula": "If + S + V1, S + V1",
+      "note_tr": "Her zaman doğru olan genel gerçek.",
+      "cefr": "A2"
+    },
+    {
+      "norm_pattern": "if_type1",
+      "category": "Conditionals & Wish",
+      "topic": "If Clause Type 1 (Real Future)",
+      "formula": "If + S + V1, S + will + V1",
+      "note_tr": "Gelecekte gerçekleşmesi olası koşul.",
+      "cefr": "B1"
+    },
+    {
+      "norm_pattern": "if_past_would",
+      "category": "Conditionals & Wish",
+      "topic": "If Clause Type 2 (Unreal Present)",
+      "formula": "If + S + V2, S + would + V1",
+      "note_tr": "Şu an gerçek olmayan/hayali durum.",
+      "cefr": "B1"
+    },
+    {
+      "norm_pattern": "if_had_v3_would_have_v3",
+      "category": "Conditionals & Wish",
+      "topic": "If Clause Type 3 (Unreal Past)",
+      "formula": "If + S + had V3, S + would have V3",
+      "note_tr": "Geçmişte gerçekleşmemiş, artık değiştirilemez koşul.",
+      "cefr": "B2"
+    },
+    {
+      "norm_pattern": "wish_past",
+      "category": "Conditionals & Wish",
+      "topic": "Wish Clause (Present/Past)",
+      "formula": "S + wish + S + V2 / had V3",
+      "note_tr": "Şu anki ya da geçmişteki durum için keşke.",
+      "cefr": "B2"
+    },
+    {
+      "norm_pattern": "noun_clause_wh",
+      "category": "Subordinate Clauses",
+      "topic": "Noun Clause (Object Position)",
+      "formula": "S + V + [WH + S + V]",
+      "note_tr": "WH- ile başlayan yan cümle, nesne olarak kullanılır.",
+      "cefr": "B1"
+    },
+    {
+      "norm_pattern": "relative_clause",
+      "category": "Subordinate Clauses",
+      "topic": "Relative Clause",
+      "formula": "N + [who/which/that + V ...]",
+      "note_tr": "İsmi niteleyen, açıklayan yan cümle.",
+      "cefr": "B1"
+    },
+    {
+      "norm_pattern": "embedded_wh_question",
+      "category": "Subordinate Clauses",
+      "topic": "Embedded WH- Question",
+      "formula": "... [WH + S + V] (soru sırası değişmez)",
+      "note_tr": "Soru cümlesi başka cümlenin içine gömülür; yardımcı fiil öne gelmez.",
+      "cefr": "B2"
+    }
+  ]
+}

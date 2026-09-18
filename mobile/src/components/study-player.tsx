@@ -10,7 +10,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { WordSheet } from '@/components/word-sheet';
 import { colors, radius, space } from '@/constants/appTheme';
-import { addSrsCard, getChunksForSentence, LessonChunk, SentenceRow } from '@/lib/db';
+import { addSrsCard, getChunksForSentence, LessonChunk, lookupLexeme, SentenceRow } from '@/lib/db';
 import { Gloss, lookupWord } from '@/lib/glossary';
 import { getSentenceWords, TWord } from '@/lib/words';
 
@@ -72,7 +72,13 @@ export function StudyPlayer({ uri, sentences, mediaId }: Props) {
   const autoRef = useRef(true);
   const [aspect, setAspect] = useState(4 / 3); // videonun gercek orani (sourceLoad ile)
   const [ms, setMs] = useState(0); // canli konum (karaoke vurgu icin)
-  const [sel, setSel] = useState<{ word: string; gloss: Gloss | null; timing?: TWord } | null>(null);
+  const [sel, setSel] = useState<{
+    word: string;
+    gloss: Gloss | null;
+    timing?: TWord;
+    lexiconId?: number | null;
+    contextSenseIdx?: number | null;
+  } | null>(null);
   const previewEndRef = useRef<number | null>(null); // kelime/segment onizleme bitisi (ms)
   const insets = useSafeAreaInsets();
 
@@ -172,8 +178,20 @@ export function StudyPlayer({ uri, sentences, mediaId }: Props) {
     player.play();
   }
   function openWord(token: string, timing?: TWord) {
-    const r = lookupWord(token);
     const clean = token.toLowerCase().replace(/[^a-z']/g, '');
+    // Once baglamsal (o cumledeki gecis) lemma cozumu; yoksa duz sozluk fallback.
+    const lex = current ? lookupLexeme(token, { mediaId, sentenceIdx: current.idx }) : null;
+    if (lex) {
+      setSel({
+        word: lex.lemma,
+        gloss: { pos: lex.pos, cefr: lex.cefr, senses: lex.senses.map((s) => s.gloss_tr) },
+        timing,
+        lexiconId: lex.lexicon_id,
+        contextSenseIdx: lex.contextSenseIdx,
+      });
+      return;
+    }
+    const r = lookupWord(token);
     setSel({ word: r?.word ?? clean, gloss: r?.gloss ?? null, timing });
   }
   function listenWord() {
@@ -181,12 +199,19 @@ export function StudyPlayer({ uri, sentences, mediaId }: Props) {
   }
   function addWordToSrs() {
     if (!sel) return;
+    // Baglamsal anlam biliniyorsa kartin arkasi o anlam; degilse tum anlamlar.
+    const senses = sel.gloss?.senses ?? [];
+    const back =
+      sel.contextSenseIdx != null && senses[sel.contextSenseIdx]
+        ? senses[sel.contextSenseIdx]
+        : senses.join('; ');
     addSrsCard({
       front_type: 'vocab',
       front_en: sel.word,
-      back_tr: sel.gloss ? sel.gloss.senses.join('; ') : '',
+      back_tr: back,
       media_id: mediaId,
       sentence_idx: current?.idx,
+      lexicon_id: sel.lexiconId ?? undefined,
     });
     setSel(null);
   }

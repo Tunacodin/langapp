@@ -4,12 +4,11 @@ name: iOS build (unsigned IPA)
 # Sideloadly / AltStore ile (ucretsiz Apple ID) iPhone'a kurabilirsin.
 # Elle tetikle: Actions sekmesi -> "iOS build (unsigned IPA)" -> Run workflow.
 
-# Expo SDK 55 (RN 0.83): expo-modules-jsi yok, Xcode 16.4 ile ham xcodebuild derler.
+# Expo SDK 55 (RN 0.83) imzasiz .ipa uretir (Sideloadly icin yedek yol).
+# Esas dagitim EAS Build + EAS Update (OTA) uzerinden; bu yuzden otomatik push
+# tetigi kapali, yalniz elle (workflow_dispatch) calisir. Xcode 26 kullanir.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['mobile/**', '.github/workflows/ios-build.yml']
 
 jobs:
   build:

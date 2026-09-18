@@ -1,0 +1,2747 @@
+[
+  {
+    "w": "Saturday",
+    "start_ms": 0,
+    "end_ms": 840
+  },
+  {
+    "w": "Social",
+    "start_ms": 840,
+    "end_ms": 1220
+  },
+  {
+    "w": "is",
+    "start_ms": 1220,
+    "end_ms": 1540
+  },
+  {
+    "w": "powered",
+    "start_ms": 1540,
+    "end_ms": 1760
+  },
+  {
+    "w": "by",
+    "start_ms": 1760,
+    "end_ms": 2040
+  },
+  {
+    "w": "EA",
+    "start_ms": 2040,
+    "end_ms": 2300
+  },
+  {
+    "w": "Sports",
+    "start_ms": 2300,
+    "end_ms": 2600
+  },
+  {
+    "w": "V",
+    "start_ms": 2600,
+    "end_ms": 2940
+  },
+  {
+    "w": "for",
+    "start_ms": 2940,
+    "end_ms": 3140
+  },
+  {
+    "w": "23,",
+    "start_ms": 3140,
+    "end_ms": 3500
+  },
+  {
+    "w": "with",
+    "start_ms": 4000,
+    "end_ms": 4180
+  },
+  {
+    "w": "PlayStation.",
+    "start_ms": 4180,
+    "end_ms": 4400
+  },
+  {
+    "w": "Hi,",
+    "start_ms": 5660,
+    "end_ms": 6140
+  },
+  {
+    "w": "I'm",
+    "start_ms": 6240,
+    "end_ms": 6320
+  },
+  {
+    "w": "Jedi,",
+    "start_ms": 6320,
+    "end_ms": 6440
+  },
+  {
+    "w": "and",
+    "start_ms": 6840,
+    "end_ms": 6860
+  },
+  {
+    "w": "it's",
+    "start_ms": 6860,
+    "end_ms": 6960
+  },
+  {
+    "w": "the",
+    "start_ms": 6960,
+    "end_ms": 7080
+  },
+  {
+    "w": "Fulham",
+    "start_ms": 7080,
+    "end_ms": 7340
+  },
+  {
+    "w": "no",
+    "start_ms": 7340,
+    "end_ms": 7460
+  },
+  {
+    "w": "-bounce",
+    "start_ms": 7460,
+    "end_ms": 7660
+  },
+  {
+    "w": "challenge.",
+    "start_ms": 7660,
+    "end_ms": 7960
+  },
+  {
+    "w": "Round",
+    "start_ms": 8380,
+    "end_ms": 8720
+  },
+  {
+    "w": "one",
+    "start_ms": 8720,
+    "end_ms": 8960
+  },
+  {
+    "w": "starts",
+    "start_ms": 8960,
+    "end_ms": 9240
+  },
+  {
+    "w": "on",
+    "start_ms": 9240,
+    "end_ms": 9460
+  },
+  {
+    "w": "the",
+    "start_ms": 9460,
+    "end_ms": 9560
+  },
+  {
+    "w": "18",
+    "start_ms": 9560,
+    "end_ms": 9760
+  },
+  {
+    "w": "-yard",
+    "start_ms": 9760,
+    "end_ms": 10080
+  },
+  {
+    "w": "line.",
+    "start_ms": 10080,
+    "end_ms": 10300
+  },
+  {
+    "w": "Each",
+    "start_ms": 10620,
+    "end_ms": 10700
+  },
+  {
+    "w": "player",
+    "start_ms": 10700,
+    "end_ms": 10940
+  },
+  {
+    "w": "has",
+    "start_ms": 10940,
+    "end_ms": 11240
+  },
+  {
+    "w": "one",
+    "start_ms": 11240,
+    "end_ms": 11480
+  },
+  {
+    "w": "attempt",
+    "start_ms": 11480,
+    "end_ms": 11740
+  },
+  {
+    "w": "to",
+    "start_ms": 11740,
+    "end_ms": 12080
+  },
+  {
+    "w": "hit",
+    "start_ms": 12080,
+    "end_ms": 12200
+  },
+  {
+    "w": "the",
+    "start_ms": 12200,
+    "end_ms": 12300
+  },
+  {
+    "w": "back",
+    "start_ms": 12300,
+    "end_ms": 12500
+  },
+  {
+    "w": "of",
+    "start_ms": 12500,
+    "end_ms": 12620
+  },
+  {
+    "w": "the",
+    "start_ms": 12620,
+    "end_ms": 12700
+  },
+  {
+    "w": "net.",
+    "start_ms": 12700,
+    "end_ms": 12840
+  },
+  {
+    "w": "If",
+    "start_ms": 13260,
+    "end_ms": 13300
+  },
+  {
+    "w": "the",
+    "start_ms": 13300,
+    "end_ms": 13400
+  },
+  {
+    "w": "player",
+    "start_ms": 13400,
+    "end_ms": 13580
+  },
+  {
+    "w": "misses",
+    "start_ms": 13580,
+    "end_ms": 13900
+  },
+  {
+    "w": "all",
+    "start_ms": 13900,
+    "end_ms": 14320
+  },
+  {
+    "w": "the",
+    "start_ms": 14320,
+    "end_ms": 14560
+  },
+  {
+    "w": "ball",
+    "start_ms": 14560,
+    "end_ms": 14680
+  },
+  {
+    "w": "bounces,",
+    "start_ms": 14680,
+    "end_ms": 15100
+  },
+  {
+    "w": "they",
+    "start_ms": 15420,
+    "end_ms": 15580
+  },
+  {
+    "w": "are",
+    "start_ms": 15580,
+    "end_ms": 15880
+  },
+  {
+    "w": "out.",
+    "start_ms": 15880,
+    "end_ms": 16140
+  },
+  {
+    "w": "If",
+    "start_ms": 16940,
+    "end_ms": 17140
+  },
+  {
+    "w": "they",
+    "start_ms": 17140,
+    "end_ms": 17300
+  },
+  {
+    "w": "score,",
+    "start_ms": 17300,
+    "end_ms": 17540
+  },
+  {
+    "w": "they",
+    "start_ms": 17920,
+    "end_ms": 18040
+  },
+  {
+    "w": "go",
+    "start_ms": 18040,
+    "end_ms": 18180
+  },
+  {
+    "w": "through",
+    "start_ms": 18180,
+    "end_ms": 18440
+  },
+  {
+    "w": "to",
+    "start_ms": 18440,
+    "end_ms": 18740
+  },
+  {
+    "w": "the",
+    "start_ms": 18740,
+    "end_ms": 18840
+  },
+  {
+    "w": "next",
+    "start_ms": 18840,
+    "end_ms": 19040
+  },
+  {
+    "w": "round.",
+    "start_ms": 19040,
+    "end_ms": 19260
+  },
+  {
+    "w": "Hi,",
+    "start_ms": 23140,
+    "end_ms": 23140
+  },
+  {
+    "w": "Emily,",
+    "start_ms": 23680,
+    "end_ms": 23680
+  },
+  {
+    "w": "I'm",
+    "start_ms": 23920,
+    "end_ms": 24260
+  },
+  {
+    "w": "a",
+    "start_ms": 24260,
+    "end_ms": 24340
+  },
+  {
+    "w": "midfielder.",
+    "start_ms": 24340,
+    "end_ms": 24460
+  },
+  {
+    "w": "How",
+    "start_ms": 24980,
+    "end_ms": 25140
+  },
+  {
+    "w": "will",
+    "start_ms": 25140,
+    "end_ms": 25300
+  },
+  {
+    "w": "he",
+    "start_ms": 25300,
+    "end_ms": 25380
+  },
+  {
+    "w": "do?",
+    "start_ms": 25380,
+    "end_ms": 25500
+  },
+  {
+    "w": "Do",
+    "start_ms": 25620,
+    "end_ms": 25640
+  },
+  {
+    "w": "you",
+    "start_ms": 25640,
+    "end_ms": 25680
+  },
+  {
+    "w": "think",
+    "start_ms": 25680,
+    "end_ms": 25780
+  },
+  {
+    "w": "he'll",
+    "start_ms": 25780,
+    "end_ms": 25940
+  },
+  {
+    "w": "succeed?",
+    "start_ms": 25940,
+    "end_ms": 26180
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 26420,
+    "end_ms": 26540
+  },
+  {
+    "w": "I",
+    "start_ms": 27080,
+    "end_ms": 27080
+  },
+  {
+    "w": "think",
+    "start_ms": 27080,
+    "end_ms": 27160
+  },
+  {
+    "w": "so.",
+    "start_ms": 27160,
+    "end_ms": 27300
+  },
+  {
+    "w": "One,",
+    "start_ms": 27540,
+    "end_ms": 27860
+  },
+  {
+    "w": "one,",
+    "start_ms": 28040,
+    "end_ms": 28040
+  },
+  {
+    "w": "one.",
+    "start_ms": 28260,
+    "end_ms": 28260
+  },
+  {
+    "w": "Let's",
+    "start_ms": 28620,
+    "end_ms": 28900
+  },
+  {
+    "w": "go.",
+    "start_ms": 28900,
+    "end_ms": 29040
+  },
+  {
+    "w": "Yeah!",
+    "start_ms": 31020,
+    "end_ms": 31340
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 31340,
+    "end_ms": 31700
+  },
+  {
+    "w": "there",
+    "start_ms": 31920,
+    "end_ms": 32140
+  },
+  {
+    "w": "we",
+    "start_ms": 32140,
+    "end_ms": 32340
+  },
+  {
+    "w": "go.",
+    "start_ms": 32340,
+    "end_ms": 32600
+  },
+  {
+    "w": "It's",
+    "start_ms": 33000,
+    "end_ms": 33140
+  },
+  {
+    "w": "gonna",
+    "start_ms": 33140,
+    "end_ms": 33140
+  },
+  {
+    "w": "be",
+    "start_ms": 33140,
+    "end_ms": 33220
+  },
+  {
+    "w": "a",
+    "start_ms": 33220,
+    "end_ms": 33300
+  },
+  {
+    "w": "calm.",
+    "start_ms": 33300,
+    "end_ms": 33480
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 34920,
+    "end_ms": 35360
+  },
+  {
+    "w": "it's",
+    "start_ms": 35360,
+    "end_ms": 35800
+  },
+  {
+    "w": "gonna",
+    "start_ms": 35800,
+    "end_ms": 35800
+  },
+  {
+    "w": "be",
+    "start_ms": 35800,
+    "end_ms": 36100
+  },
+  {
+    "w": "a",
+    "start_ms": 36100,
+    "end_ms": 36240
+  },
+  {
+    "w": "good",
+    "start_ms": 36240,
+    "end_ms": 36920
+  },
+  {
+    "w": "one.",
+    "start_ms": 36920,
+    "end_ms": 36920
+  },
+  {
+    "w": "Good",
+    "start_ms": 37080,
+    "end_ms": 37200
+  },
+  {
+    "w": "one.",
+    "start_ms": 37200,
+    "end_ms": 37400
+  },
+  {
+    "w": "Good",
+    "start_ms": 38800,
+    "end_ms": 39240
+  },
+  {
+    "w": "one.",
+    "start_ms": 39240,
+    "end_ms": 39240
+  },
+  {
+    "w": "Party's",
+    "start_ms": 39240,
+    "end_ms": 39420
+  },
+  {
+    "w": "a",
+    "start_ms": 39420,
+    "end_ms": 39460
+  },
+  {
+    "w": "good",
+    "start_ms": 39460,
+    "end_ms": 39560
+  },
+  {
+    "w": "one.",
+    "start_ms": 39560,
+    "end_ms": 39760
+  },
+  {
+    "w": "One,",
+    "start_ms": 40440,
+    "end_ms": 40880
+  },
+  {
+    "w": "two,",
+    "start_ms": 40900,
+    "end_ms": 41140
+  },
+  {
+    "w": "three.",
+    "start_ms": 41740,
+    "end_ms": 41740
+  },
+  {
+    "w": "One,",
+    "start_ms": 42660,
+    "end_ms": 43100
+  },
+  {
+    "w": "two,",
+    "start_ms": 43840,
+    "end_ms": 43840
+  },
+  {
+    "w": "three.",
+    "start_ms": 43840,
+    "end_ms": 43840
+  },
+  {
+    "w": "One,",
+    "start_ms": 43840,
+    "end_ms": 43840
+  },
+  {
+    "w": "two,",
+    "start_ms": 43840,
+    "end_ms": 44560
+  },
+  {
+    "w": "three.",
+    "start_ms": 44840,
+    "end_ms": 44840
+  },
+  {
+    "w": "One,",
+    "start_ms": 44840,
+    "end_ms": 44840
+  },
+  {
+    "w": "two,",
+    "start_ms": 44840,
+    "end_ms": 44840
+  },
+  {
+    "w": "three.",
+    "start_ms": 44840,
+    "end_ms": 44860
+  },
+  {
+    "w": "One,",
+    "start_ms": 44860,
+    "end_ms": 44860
+  },
+  {
+    "w": "two,",
+    "start_ms": 44860,
+    "end_ms": 45240
+  },
+  {
+    "w": "three.",
+    "start_ms": 45240,
+    "end_ms": 45240
+  },
+  {
+    "w": "The",
+    "start_ms": 45540,
+    "end_ms": 45600
+  },
+  {
+    "w": "check",
+    "start_ms": 45600,
+    "end_ms": 45820
+  },
+  {
+    "w": "-able.",
+    "start_ms": 45820,
+    "end_ms": 46200
+  },
+  {
+    "w": "One,",
+    "start_ms": 46480,
+    "end_ms": 46580
+  },
+  {
+    "w": "two,",
+    "start_ms": 46580,
+    "end_ms": 46580
+  },
+  {
+    "w": "three.",
+    "start_ms": 47240,
+    "end_ms": 47240
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 47240,
+    "end_ms": 47240
+  },
+  {
+    "w": "I",
+    "start_ms": 47240,
+    "end_ms": 47240
+  },
+  {
+    "w": "told",
+    "start_ms": 47240,
+    "end_ms": 47420
+  },
+  {
+    "w": "you.",
+    "start_ms": 47420,
+    "end_ms": 47600
+  },
+  {
+    "w": "Good",
+    "start_ms": 47760,
+    "end_ms": 47760
+  },
+  {
+    "w": "play,",
+    "start_ms": 47760,
+    "end_ms": 48240
+  },
+  {
+    "w": "good",
+    "start_ms": 48380,
+    "end_ms": 48400
+  },
+  {
+    "w": "play.",
+    "start_ms": 48400,
+    "end_ms": 48660
+  },
+  {
+    "w": "Andreas",
+    "start_ms": 48880,
+    "end_ms": 49160
+  },
+  {
+    "w": "Pereira,",
+    "start_ms": 49160,
+    "end_ms": 49660
+  },
+  {
+    "w": "midfielder.",
+    "start_ms": 49840,
+    "end_ms": 49960
+  },
+  {
+    "w": "Let's",
+    "start_ms": 50920,
+    "end_ms": 51040
+  },
+  {
+    "w": "go.",
+    "start_ms": 51040,
+    "end_ms": 51180
+  },
+  {
+    "w": "Andreas,",
+    "start_ms": 60370,
+    "end_ms": 60630
+  },
+  {
+    "w": "what",
+    "start_ms": 61050,
+    "end_ms": 61530
+  },
+  {
+    "w": "for",
+    "start_ms": 61530,
+    "end_ms": 61750
+  },
+  {
+    "w": "now?",
+    "start_ms": 61750,
+    "end_ms": 61950
+  },
+  {
+    "w": "Sorry,",
+    "start_ms": 63230,
+    "end_ms": 63670
+  },
+  {
+    "w": "guys.",
+    "start_ms": 63710,
+    "end_ms": 63810
+  },
+  {
+    "w": "Sorry,",
+    "start_ms": 63970,
+    "end_ms": 64410
+  },
+  {
+    "w": "guys.",
+    "start_ms": 64550,
+    "end_ms": 64610
+  },
+  {
+    "w": "It",
+    "start_ms": 65030,
+    "end_ms": 65090
+  },
+  {
+    "w": "was",
+    "start_ms": 65090,
+    "end_ms": 65170
+  },
+  {
+    "w": "maybe",
+    "start_ms": 65170,
+    "end_ms": 65530
+  },
+  {
+    "w": "a",
+    "start_ms": 65530,
+    "end_ms": 65710
+  },
+  {
+    "w": "little",
+    "start_ms": 65710,
+    "end_ms": 65870
+  },
+  {
+    "w": "bit",
+    "start_ms": 65870,
+    "end_ms": 66010
+  },
+  {
+    "w": "too",
+    "start_ms": 66010,
+    "end_ms": 66190
+  },
+  {
+    "w": "focused",
+    "start_ms": 66190,
+    "end_ms": 66470
+  },
+  {
+    "w": "for",
+    "start_ms": 66470,
+    "end_ms": 66810
+  },
+  {
+    "w": "this",
+    "start_ms": 66810,
+    "end_ms": 66970
+  },
+  {
+    "w": "one.",
+    "start_ms": 66970,
+    "end_ms": 67150
+  },
+  {
+    "w": "I'm",
+    "start_ms": 67370,
+    "end_ms": 67610
+  },
+  {
+    "w": "in",
+    "start_ms": 67610,
+    "end_ms": 67650
+  },
+  {
+    "w": "the",
+    "start_ms": 67650,
+    "end_ms": 67770
+  },
+  {
+    "w": "wrong",
+    "start_ms": 67770,
+    "end_ms": 67870
+  },
+  {
+    "w": "challenge.",
+    "start_ms": 67870,
+    "end_ms": 68130
+  },
+  {
+    "w": "It",
+    "start_ms": 68130,
+    "end_ms": 68670
+  },
+  {
+    "w": "was",
+    "start_ms": 68670,
+    "end_ms": 68690
+  },
+  {
+    "w": "the",
+    "start_ms": 68690,
+    "end_ms": 68730
+  },
+  {
+    "w": "way",
+    "start_ms": 68730,
+    "end_ms": 68830
+  },
+  {
+    "w": "William",
+    "start_ms": 68830,
+    "end_ms": 69090
+  },
+  {
+    "w": "got",
+    "start_ms": 69090,
+    "end_ms": 69210
+  },
+  {
+    "w": "caught.",
+    "start_ms": 69210,
+    "end_ms": 69450
+  },
+  {
+    "w": "He",
+    "start_ms": 69730,
+    "end_ms": 69730
+  },
+  {
+    "w": "said",
+    "start_ms": 69730,
+    "end_ms": 69870
+  },
+  {
+    "w": "you'd",
+    "start_ms": 69870,
+    "end_ms": 70070
+  },
+  {
+    "w": "miss.",
+    "start_ms": 70070,
+    "end_ms": 70190
+  },
+  {
+    "w": "Get",
+    "start_ms": 70430,
+    "end_ms": 70610
+  },
+  {
+    "w": "out!",
+    "start_ms": 70610,
+    "end_ms": 70830
+  },
+  {
+    "w": "Get",
+    "start_ms": 71210,
+    "end_ms": 71430
+  },
+  {
+    "w": "out!",
+    "start_ms": 71430,
+    "end_ms": 71430
+  },
+  {
+    "w": "Get",
+    "start_ms": 72870,
+    "end_ms": 73230
+  },
+  {
+    "w": "out!",
+    "start_ms": 73230,
+    "end_ms": 73410
+  },
+  {
+    "w": "Broke",
+    "start_ms": 73570,
+    "end_ms": 73710
+  },
+  {
+    "w": "some.",
+    "start_ms": 73710,
+    "end_ms": 73850
+  },
+  {
+    "w": "Guy",
+    "start_ms": 74510,
+    "end_ms": 74870
+  },
+  {
+    "w": "goes",
+    "start_ms": 74870,
+    "end_ms": 75090
+  },
+  {
+    "w": "for",
+    "start_ms": 75090,
+    "end_ms": 75270
+  },
+  {
+    "w": "me.",
+    "start_ms": 75270,
+    "end_ms": 75410
+  },
+  {
+    "w": "Strike.",
+    "start_ms": 75730,
+    "end_ms": 76090
+  },
+  {
+    "w": "Prediction.",
+    "start_ms": 76810,
+    "end_ms": 77070
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 77770,
+    "end_ms": 78010
+  },
+  {
+    "w": "I",
+    "start_ms": 78130,
+    "end_ms": 78130
+  },
+  {
+    "w": "think",
+    "start_ms": 78130,
+    "end_ms": 78210
+  },
+  {
+    "w": "he",
+    "start_ms": 78210,
+    "end_ms": 78370
+  },
+  {
+    "w": "skies",
+    "start_ms": 78370,
+    "end_ms": 78570
+  },
+  {
+    "w": "it.",
+    "start_ms": 78570,
+    "end_ms": 78810
+  },
+  {
+    "w": "What?",
+    "start_ms": 82120,
+    "end_ms": 82480
+  },
+  {
+    "w": "He's",
+    "start_ms": 83260,
+    "end_ms": 83360
+  },
+  {
+    "w": "never.",
+    "start_ms": 83360,
+    "end_ms": 83500
+  },
+  {
+    "w": "So,",
+    "start_ms": 84380,
+    "end_ms": 84740
+  },
+  {
+    "w": "I'm",
+    "start_ms": 84760,
+    "end_ms": 84880
+  },
+  {
+    "w": "Jed.",
+    "start_ms": 84880,
+    "end_ms": 84980
+  },
+  {
+    "w": "I",
+    "start_ms": 85160,
+    "end_ms": 85200
+  },
+  {
+    "w": "left",
+    "start_ms": 85200,
+    "end_ms": 85400
+  },
+  {
+    "w": "back.",
+    "start_ms": 85400,
+    "end_ms": 85620
+  },
+  {
+    "w": "I",
+    "start_ms": 86420,
+    "end_ms": 86780
+  },
+  {
+    "w": "think",
+    "start_ms": 86780,
+    "end_ms": 87000
+  },
+  {
+    "w": "I'm",
+    "start_ms": 87000,
+    "end_ms": 87200
+  },
+  {
+    "w": "just",
+    "start_ms": 87200,
+    "end_ms": 87320
+  },
+  {
+    "w": "gonna,",
+    "start_ms": 87320,
+    "end_ms": 87520
+  },
+  {
+    "w": "you",
+    "start_ms": 87680,
+    "end_ms": 87680
+  },
+  {
+    "w": "know,",
+    "start_ms": 87680,
+    "end_ms": 87800
+  },
+  {
+    "w": "go",
+    "start_ms": 87860,
+    "end_ms": 87960
+  },
+  {
+    "w": "laces,",
+    "start_ms": 87960,
+    "end_ms": 88300
+  },
+  {
+    "w": "go",
+    "start_ms": 88520,
+    "end_ms": 88540
+  },
+  {
+    "w": "a",
+    "start_ms": 88540,
+    "end_ms": 88620
+  },
+  {
+    "w": "bit",
+    "start_ms": 88620,
+    "end_ms": 88740
+  },
+  {
+    "w": "safe",
+    "start_ms": 88740,
+    "end_ms": 88920
+  },
+  {
+    "w": "of",
+    "start_ms": 88920,
+    "end_ms": 89140
+  },
+  {
+    "w": "it.",
+    "start_ms": 89140,
+    "end_ms": 89260
+  },
+  {
+    "w": "Try",
+    "start_ms": 89400,
+    "end_ms": 89460
+  },
+  {
+    "w": "and",
+    "start_ms": 89460,
+    "end_ms": 89600
+  },
+  {
+    "w": "good",
+    "start_ms": 89600,
+    "end_ms": 89900
+  },
+  {
+    "w": "technique.",
+    "start_ms": 89900,
+    "end_ms": 90140
+  },
+  {
+    "w": "Mate,",
+    "start_ms": 90880,
+    "end_ms": 90940
+  },
+  {
+    "w": "Harrison,",
+    "start_ms": 91020,
+    "end_ms": 91180
+  },
+  {
+    "w": "re",
+    "start_ms": 91340,
+    "end_ms": 91380
+  },
+  {
+    "w": "-brad.",
+    "start_ms": 91380,
+    "end_ms": 91660
+  },
+  {
+    "w": "Hey,",
+    "start_ms": 92580,
+    "end_ms": 92740
+  },
+  {
+    "w": "wait!",
+    "start_ms": 92940,
+    "end_ms": 93040
+  },
+  {
+    "w": "Whoa!",
+    "start_ms": 93680,
+    "end_ms": 94040
+  },
+  {
+    "w": "Hey,",
+    "start_ms": 94760,
+    "end_ms": 95120
+  },
+  {
+    "w": "at",
+    "start_ms": 95200,
+    "end_ms": 95220
+  },
+  {
+    "w": "least",
+    "start_ms": 95220,
+    "end_ms": 95340
+  },
+  {
+    "w": "everyone",
+    "start_ms": 95340,
+    "end_ms": 95580
+  },
+  {
+    "w": "else",
+    "start_ms": 95580,
+    "end_ms": 95760
+  },
+  {
+    "w": "missed",
+    "start_ms": 95760,
+    "end_ms": 95980
+  },
+  {
+    "w": "one.",
+    "start_ms": 95980,
+    "end_ms": 96180
+  },
+  {
+    "w": "And",
+    "start_ms": 96620,
+    "end_ms": 96760
+  },
+  {
+    "w": "say,",
+    "start_ms": 96760,
+    "end_ms": 96880
+  },
+  {
+    "w": "come",
+    "start_ms": 96980,
+    "end_ms": 97060
+  },
+  {
+    "w": "here,",
+    "start_ms": 97060,
+    "end_ms": 97160
+  },
+  {
+    "w": "what",
+    "start_ms": 97260,
+    "end_ms": 97300
+  },
+  {
+    "w": "happened?",
+    "start_ms": 97300,
+    "end_ms": 97460
+  },
+  {
+    "w": "George",
+    "start_ms": 98240,
+    "end_ms": 98600
+  },
+  {
+    "w": "put",
+    "start_ms": 98600,
+    "end_ms": 98820
+  },
+  {
+    "w": "me",
+    "start_ms": 98820,
+    "end_ms": 98940
+  },
+  {
+    "w": "off.",
+    "start_ms": 98940,
+    "end_ms": 99020
+  },
+  {
+    "w": "I'm",
+    "start_ms": 99560,
+    "end_ms": 99940
+  },
+  {
+    "w": "John",
+    "start_ms": 99940,
+    "end_ms": 100080
+  },
+  {
+    "w": "Polinga,",
+    "start_ms": 100080,
+    "end_ms": 100540
+  },
+  {
+    "w": "and",
+    "start_ms": 100680,
+    "end_ms": 100860
+  },
+  {
+    "w": "I",
+    "start_ms": 100860,
+    "end_ms": 100960
+  },
+  {
+    "w": "will",
+    "start_ms": 100960,
+    "end_ms": 101080
+  },
+  {
+    "w": "score.",
+    "start_ms": 101080,
+    "end_ms": 101280
+  },
+  {
+    "w": "He",
+    "start_ms": 101560,
+    "end_ms": 101620
+  },
+  {
+    "w": "will",
+    "start_ms": 101620,
+    "end_ms": 102020
+  },
+  {
+    "w": "do",
+    "start_ms": 102020,
+    "end_ms": 102160
+  },
+  {
+    "w": "good.",
+    "start_ms": 102160,
+    "end_ms": 102320
+  },
+  {
+    "w": "He",
+    "start_ms": 103360,
+    "end_ms": 103560
+  },
+  {
+    "w": "learned",
+    "start_ms": 103560,
+    "end_ms": 104020
+  },
+  {
+    "w": "how",
+    "start_ms": 104020,
+    "end_ms": 104200
+  },
+  {
+    "w": "to",
+    "start_ms": 104200,
+    "end_ms": 104380
+  },
+  {
+    "w": "kick",
+    "start_ms": 104380,
+    "end_ms": 104520
+  },
+  {
+    "w": "the",
+    "start_ms": 104520,
+    "end_ms": 104620
+  },
+  {
+    "w": "ball",
+    "start_ms": 104620,
+    "end_ms": 104760
+  },
+  {
+    "w": "with",
+    "start_ms": 104760,
+    "end_ms": 104920
+  },
+  {
+    "w": "Ronaldo.",
+    "start_ms": 104920,
+    "end_ms": 105180
+  },
+  {
+    "w": "Yes,",
+    "start_ms": 107500,
+    "end_ms": 107880
+  },
+  {
+    "w": "yes!",
+    "start_ms": 108220,
+    "end_ms": 108260
+  },
+  {
+    "w": "Like",
+    "start_ms": 108820,
+    "end_ms": 108940
+  },
+  {
+    "w": "that,",
+    "start_ms": 108940,
+    "end_ms": 109160
+  },
+  {
+    "w": "like",
+    "start_ms": 109160,
+    "end_ms": 109420
+  },
+  {
+    "w": "that,",
+    "start_ms": 109420,
+    "end_ms": 109640
+  },
+  {
+    "w": "Joe.",
+    "start_ms": 109760,
+    "end_ms": 109840
+  },
+  {
+    "w": "Two!",
+    "start_ms": 110260,
+    "end_ms": 110620
+  },
+  {
+    "w": "Two!",
+    "start_ms": 111200,
+    "end_ms": 111580
+  },
+  {
+    "w": "You",
+    "start_ms": 112080,
+    "end_ms": 112220
+  },
+  {
+    "w": "did",
+    "start_ms": 112220,
+    "end_ms": 112880
+  },
+  {
+    "w": "the",
+    "start_ms": 112880,
+    "end_ms": 113040
+  },
+  {
+    "w": "same?",
+    "start_ms": 113040,
+    "end_ms": 113180
+  },
+  {
+    "w": "You",
+    "start_ms": 113460,
+    "end_ms": 113460
+  },
+  {
+    "w": "did",
+    "start_ms": 113460,
+    "end_ms": 113460
+  },
+  {
+    "w": "the",
+    "start_ms": 113460,
+    "end_ms": 113600
+  },
+  {
+    "w": "same",
+    "start_ms": 113600,
+    "end_ms": 113700
+  },
+  {
+    "w": "thing.",
+    "start_ms": 113700,
+    "end_ms": 113900
+  },
+  {
+    "w": "Leave",
+    "start_ms": 115280,
+    "end_ms": 115440
+  },
+  {
+    "w": "Harrison",
+    "start_ms": 115440,
+    "end_ms": 115660
+  },
+  {
+    "w": "to",
+    "start_ms": 115660,
+    "end_ms": 115880
+  },
+  {
+    "w": "the",
+    "start_ms": 115880,
+    "end_ms": 116040
+  },
+  {
+    "w": "field,",
+    "start_ms": 116040,
+    "end_ms": 116080
+  },
+  {
+    "w": "though.",
+    "start_ms": 116160,
+    "end_ms": 116200
+  },
+  {
+    "w": "Oh.",
+    "start_ms": 117740,
+    "end_ms": 118120
+  },
+  {
+    "w": "What",
+    "start_ms": 119380,
+    "end_ms": 119520
+  },
+  {
+    "w": "was",
+    "start_ms": 119520,
+    "end_ms": 119820
+  },
+  {
+    "w": "that?",
+    "start_ms": 119820,
+    "end_ms": 119960
+  },
+  {
+    "w": "I'm",
+    "start_ms": 120660,
+    "end_ms": 121040
+  },
+  {
+    "w": "showing",
+    "start_ms": 121040,
+    "end_ms": 121180
+  },
+  {
+    "w": "all",
+    "start_ms": 121180,
+    "end_ms": 121380
+  },
+  {
+    "w": "the",
+    "start_ms": 121380,
+    "end_ms": 121500
+  },
+  {
+    "w": "build",
+    "start_ms": 121500,
+    "end_ms": 121660
+  },
+  {
+    "w": "ones",
+    "start_ms": 121660,
+    "end_ms": 121840
+  },
+  {
+    "w": "up.",
+    "start_ms": 121840,
+    "end_ms": 122020
+  },
+  {
+    "w": "I",
+    "start_ms": 122520,
+    "end_ms": 122520
+  },
+  {
+    "w": "was",
+    "start_ms": 122520,
+    "end_ms": 122520
+  },
+  {
+    "w": "doing",
+    "start_ms": 122520,
+    "end_ms": 122640
+  },
+  {
+    "w": "that",
+    "start_ms": 122640,
+    "end_ms": 122760
+  },
+  {
+    "w": "technique.",
+    "start_ms": 122760,
+    "end_ms": 122960
+  },
+  {
+    "w": "Just",
+    "start_ms": 123580,
+    "end_ms": 123620
+  },
+  {
+    "w": "hit",
+    "start_ms": 123620,
+    "end_ms": 124040
+  },
+  {
+    "w": "the",
+    "start_ms": 124040,
+    "end_ms": 124140
+  },
+  {
+    "w": "back",
+    "start_ms": 124140,
+    "end_ms": 124240
+  },
+  {
+    "w": "of",
+    "start_ms": 124240,
+    "end_ms": 124360
+  },
+  {
+    "w": "the",
+    "start_ms": 124360,
+    "end_ms": 124420
+  },
+  {
+    "w": "net.",
+    "start_ms": 124420,
+    "end_ms": 124540
+  },
+  {
+    "w": "Job",
+    "start_ms": 125480,
+    "end_ms": 125600
+  },
+  {
+    "w": "done!",
+    "start_ms": 125600,
+    "end_ms": 125800
+  },
+  {
+    "w": "On",
+    "start_ms": 126360,
+    "end_ms": 126740
+  },
+  {
+    "w": "to",
+    "start_ms": 126740,
+    "end_ms": 126740
+  },
+  {
+    "w": "the",
+    "start_ms": 126740,
+    "end_ms": 126740
+  },
+  {
+    "w": "next",
+    "start_ms": 126740,
+    "end_ms": 127340
+  },
+  {
+    "w": "one.",
+    "start_ms": 127340,
+    "end_ms": 127500
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 129949,
+    "end_ms": 130389
+  },
+  {
+    "w": "no.",
+    "start_ms": 130410,
+    "end_ms": 130550
+  },
+  {
+    "w": "It's",
+    "start_ms": 131490,
+    "end_ms": 131930
+  },
+  {
+    "w": "not",
+    "start_ms": 131930,
+    "end_ms": 132050
+  },
+  {
+    "w": "easy.",
+    "start_ms": 132050,
+    "end_ms": 132250
+  },
+  {
+    "w": "It's",
+    "start_ms": 132690,
+    "end_ms": 133130
+  },
+  {
+    "w": "a",
+    "start_ms": 133130,
+    "end_ms": 133210
+  },
+  {
+    "w": "bit",
+    "start_ms": 133210,
+    "end_ms": 133310
+  },
+  {
+    "w": "far.",
+    "start_ms": 133310,
+    "end_ms": 133550
+  },
+  {
+    "w": "I",
+    "start_ms": 134710,
+    "end_ms": 135150
+  },
+  {
+    "w": "have",
+    "start_ms": 135150,
+    "end_ms": 135590
+  },
+  {
+    "w": "a",
+    "start_ms": 135590,
+    "end_ms": 135810
+  },
+  {
+    "w": "technique",
+    "start_ms": 135810,
+    "end_ms": 137410
+  },
+  {
+    "w": "for",
+    "start_ms": 137410,
+    "end_ms": 137710
+  },
+  {
+    "w": "that.",
+    "start_ms": 137710,
+    "end_ms": 137830
+  },
+  {
+    "w": "Does",
+    "start_ms": 138350,
+    "end_ms": 138570
+  },
+  {
+    "w": "he",
+    "start_ms": 138570,
+    "end_ms": 138670
+  },
+  {
+    "w": "score,",
+    "start_ms": 138670,
+    "end_ms": 138830
+  },
+  {
+    "w": "yes",
+    "start_ms": 138970,
+    "end_ms": 139010
+  },
+  {
+    "w": "or",
+    "start_ms": 139010,
+    "end_ms": 139130
+  },
+  {
+    "w": "no?",
+    "start_ms": 139130,
+    "end_ms": 139250
+  },
+  {
+    "w": "Whitley.",
+    "start_ms": 140130,
+    "end_ms": 140570
+  },
+  {
+    "w": "Good.",
+    "start_ms": 146210,
+    "end_ms": 146390
+  },
+  {
+    "w": "So,",
+    "start_ms": 147270,
+    "end_ms": 147390
+  },
+  {
+    "w": "winning",
+    "start_ms": 147490,
+    "end_ms": 147570
+  },
+  {
+    "w": "is",
+    "start_ms": 147570,
+    "end_ms": 147790
+  },
+  {
+    "w": "out.",
+    "start_ms": 147790,
+    "end_ms": 147950
+  },
+  {
+    "w": "Lovely",
+    "start_ms": 148310,
+    "end_ms": 148310
+  },
+  {
+    "w": "technique.",
+    "start_ms": 148310,
+    "end_ms": 148550
+  },
+  {
+    "w": "But",
+    "start_ms": 149050,
+    "end_ms": 149070
+  },
+  {
+    "w": "he",
+    "start_ms": 149070,
+    "end_ms": 149170
+  },
+  {
+    "w": "is",
+    "start_ms": 149170,
+    "end_ms": 149270
+  },
+  {
+    "w": "out.",
+    "start_ms": 149270,
+    "end_ms": 149390
+  },
+  {
+    "w": "Feeling",
+    "start_ms": 150270,
+    "end_ms": 150330
+  },
+  {
+    "w": "confident.",
+    "start_ms": 150330,
+    "end_ms": 150630
+  },
+  {
+    "w": "Just",
+    "start_ms": 151510,
+    "end_ms": 151510
+  },
+  {
+    "w": "going",
+    "start_ms": 151510,
+    "end_ms": 151590
+  },
+  {
+    "w": "to",
+    "start_ms": 151590,
+    "end_ms": 151670
+  },
+  {
+    "w": "stab",
+    "start_ms": 151670,
+    "end_ms": 151910
+  },
+  {
+    "w": "it.",
+    "start_ms": 151910,
+    "end_ms": 152130
+  },
+  {
+    "w": "Back",
+    "start_ms": 152950,
+    "end_ms": 152970
+  },
+  {
+    "w": "of",
+    "start_ms": 152970,
+    "end_ms": 153130
+  },
+  {
+    "w": "the",
+    "start_ms": 153130,
+    "end_ms": 153210
+  },
+  {
+    "w": "net.",
+    "start_ms": 153210,
+    "end_ms": 153270
+  },
+  {
+    "w": "Let's",
+    "start_ms": 153410,
+    "end_ms": 153410
+  },
+  {
+    "w": "get",
+    "start_ms": 153410,
+    "end_ms": 153410
+  },
+  {
+    "w": "in.",
+    "start_ms": 153410,
+    "end_ms": 153530
+  },
+  {
+    "w": "Ready.",
+    "start_ms": 153810,
+    "end_ms": 153850
+  },
+  {
+    "w": "Oh!",
+    "start_ms": 155990,
+    "end_ms": 156430
+  },
+  {
+    "w": "That's",
+    "start_ms": 157730,
+    "end_ms": 158170
+  },
+  {
+    "w": "me.",
+    "start_ms": 158170,
+    "end_ms": 158290
+  },
+  {
+    "w": "I",
+    "start_ms": 158630,
+    "end_ms": 158830
+  },
+  {
+    "w": "think",
+    "start_ms": 158830,
+    "end_ms": 158970
+  },
+  {
+    "w": "I",
+    "start_ms": 158970,
+    "end_ms": 159110
+  },
+  {
+    "w": "will",
+    "start_ms": 159110,
+    "end_ms": 159230
+  },
+  {
+    "w": "score",
+    "start_ms": 159230,
+    "end_ms": 159390
+  },
+  {
+    "w": "again",
+    "start_ms": 159390,
+    "end_ms": 159650
+  },
+  {
+    "w": "and",
+    "start_ms": 159650,
+    "end_ms": 160070
+  },
+  {
+    "w": "I",
+    "start_ms": 160070,
+    "end_ms": 160230
+  },
+  {
+    "w": "will",
+    "start_ms": 160230,
+    "end_ms": 160870
+  },
+  {
+    "w": "win",
+    "start_ms": 160870,
+    "end_ms": 161110
+  },
+  {
+    "w": "this",
+    "start_ms": 161110,
+    "end_ms": 161690
+  },
+  {
+    "w": "challenge.",
+    "start_ms": 161690,
+    "end_ms": 162330
+  },
+  {
+    "w": "Hey,",
+    "start_ms": 163890,
+    "end_ms": 164170
+  },
+  {
+    "w": "Drow,",
+    "start_ms": 164170,
+    "end_ms": 164330
+  },
+  {
+    "w": "all",
+    "start_ms": 164510,
+    "end_ms": 164610
+  },
+  {
+    "w": "the",
+    "start_ms": 164610,
+    "end_ms": 164690
+  },
+  {
+    "w": "best,",
+    "start_ms": 164690,
+    "end_ms": 164810
+  },
+  {
+    "w": "man.",
+    "start_ms": 165030,
+    "end_ms": 165030
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 166390,
+    "end_ms": 166670
+  },
+  {
+    "w": "you",
+    "start_ms": 166770,
+    "end_ms": 166870
+  },
+  {
+    "w": "won!",
+    "start_ms": 166870,
+    "end_ms": 167090
+  },
+  {
+    "w": "Oh!",
+    "start_ms": 168210,
+    "end_ms": 168490
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 169230,
+    "end_ms": 169490
+  },
+  {
+    "w": "that",
+    "start_ms": 169610,
+    "end_ms": 169750
+  },
+  {
+    "w": "was",
+    "start_ms": 169750,
+    "end_ms": 169750
+  },
+  {
+    "w": "a",
+    "start_ms": 169750,
+    "end_ms": 169810
+  },
+  {
+    "w": "fun",
+    "start_ms": 169810,
+    "end_ms": 170130
+  },
+  {
+    "w": "one.",
+    "start_ms": 170130,
+    "end_ms": 170270
+  },
+  {
+    "w": "Next",
+    "start_ms": 170450,
+    "end_ms": 170630
+  },
+  {
+    "w": "time.",
+    "start_ms": 170630,
+    "end_ms": 170870
+  },
+  {
+    "w": "Hey,",
+    "start_ms": 171550,
+    "end_ms": 171830
+  },
+  {
+    "w": "Luke,",
+    "start_ms": 171970,
+    "end_ms": 172010
+  },
+  {
+    "w": "you",
+    "start_ms": 172190,
+    "end_ms": 172290
+  },
+  {
+    "w": "win",
+    "start_ms": 172290,
+    "end_ms": 172410
+  },
+  {
+    "w": "if",
+    "start_ms": 172410,
+    "end_ms": 172530
+  },
+  {
+    "w": "you",
+    "start_ms": 172530,
+    "end_ms": 172610
+  },
+  {
+    "w": "get",
+    "start_ms": 172610,
+    "end_ms": 172730
+  },
+  {
+    "w": "this.",
+    "start_ms": 172730,
+    "end_ms": 172830
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 173210,
+    "end_ms": 173330
+  },
+  {
+    "w": "I'm",
+    "start_ms": 173490,
+    "end_ms": 173490
+  },
+  {
+    "w": "going",
+    "start_ms": 173490,
+    "end_ms": 173610
+  },
+  {
+    "w": "to",
+    "start_ms": 173610,
+    "end_ms": 173650
+  },
+  {
+    "w": "win.",
+    "start_ms": 173650,
+    "end_ms": 173810
+  },
+  {
+    "w": "It's",
+    "start_ms": 178170,
+    "end_ms": 178450
+  },
+  {
+    "w": "done",
+    "start_ms": 178450,
+    "end_ms": 178550
+  },
+  {
+    "w": "it!",
+    "start_ms": 178550,
+    "end_ms": 178730
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 179590,
+    "end_ms": 179810
+  },
+  {
+    "w": "it's",
+    "start_ms": 179930,
+    "end_ms": 179950
+  },
+  {
+    "w": "done",
+    "start_ms": 179950,
+    "end_ms": 180170
+  },
+  {
+    "w": "it!",
+    "start_ms": 180170,
+    "end_ms": 180430
+  },
+  {
+    "w": "We've",
+    "start_ms": 180670,
+    "end_ms": 180870
+  },
+  {
+    "w": "got",
+    "start_ms": 180870,
+    "end_ms": 180970
+  },
+  {
+    "w": "a",
+    "start_ms": 180970,
+    "end_ms": 181030
+  },
+  {
+    "w": "winner!",
+    "start_ms": 181030,
+    "end_ms": 181250
+  },
+  {
+    "w": "We've",
+    "start_ms": 181830,
+    "end_ms": 181930
+  },
+  {
+    "w": "got",
+    "start_ms": 181930,
+    "end_ms": 182150
+  },
+  {
+    "w": "a",
+    "start_ms": 182150,
+    "end_ms": 182270
+  },
+  {
+    "w": "winner!",
+    "start_ms": 182270,
+    "end_ms": 182490
+  },
+  {
+    "w": "We've",
+    "start_ms": 182910,
+    "end_ms": 182930
+  },
+  {
+    "w": "got",
+    "start_ms": 182930,
+    "end_ms": 182930
+  },
+  {
+    "w": "a",
+    "start_ms": 182930,
+    "end_ms": 182930
+  },
+  {
+    "w": "winner!",
+    "start_ms": 182930,
+    "end_ms": 182930
+  },
+  {
+    "w": "We're",
+    "start_ms": 182930,
+    "end_ms": 183030
+  },
+  {
+    "w": "out",
+    "start_ms": 183030,
+    "end_ms": 183130
+  },
+  {
+    "w": "of",
+    "start_ms": 183130,
+    "end_ms": 183370
+  },
+  {
+    "w": "time!",
+    "start_ms": 183370,
+    "end_ms": 183550
+  },
+  {
+    "w": "It's",
+    "start_ms": 183750,
+    "end_ms": 183790
+  },
+  {
+    "w": "on",
+    "start_ms": 183790,
+    "end_ms": 183930
+  },
+  {
+    "w": "the",
+    "start_ms": 183930,
+    "end_ms": 184090
+  },
+  {
+    "w": "above.",
+    "start_ms": 184090,
+    "end_ms": 184250
+  },
+  {
+    "w": "We've",
+    "start_ms": 188520,
+    "end_ms": 188800
+  },
+  {
+    "w": "got",
+    "start_ms": 188800,
+    "end_ms": 188900
+  },
+  {
+    "w": "a",
+    "start_ms": 188900,
+    "end_ms": 188960
+  },
+  {
+    "w": "winner.",
+    "start_ms": 188960,
+    "end_ms": 189080
+  },
+  {
+    "w": "We've",
+    "start_ms": 189360,
+    "end_ms": 189420
+  },
+  {
+    "w": "got",
+    "start_ms": 189420,
+    "end_ms": 189420
+  },
+  {
+    "w": "a",
+    "start_ms": 189420,
+    "end_ms": 189420
+  },
+  {
+    "w": "winner.",
+    "start_ms": 189420,
+    "end_ms": 189420
+  },
+  {
+    "w": "Can",
+    "start_ms": 189420,
+    "end_ms": 189460
+  },
+  {
+    "w": "he",
+    "start_ms": 189460,
+    "end_ms": 189560
+  },
+  {
+    "w": "do",
+    "start_ms": 189560,
+    "end_ms": 189660
+  },
+  {
+    "w": "it",
+    "start_ms": 189660,
+    "end_ms": 189720
+  },
+  {
+    "w": "from",
+    "start_ms": 189720,
+    "end_ms": 189820
+  },
+  {
+    "w": "the",
+    "start_ms": 189820,
+    "end_ms": 189880
+  },
+  {
+    "w": "third",
+    "start_ms": 189880,
+    "end_ms": 190020
+  },
+  {
+    "w": "and",
+    "start_ms": 190020,
+    "end_ms": 190140
+  },
+  {
+    "w": "final",
+    "start_ms": 190140,
+    "end_ms": 190260
+  },
+  {
+    "w": "spot?",
+    "start_ms": 190260,
+    "end_ms": 190480
+  },
+  {
+    "w": "He's",
+    "start_ms": 190940,
+    "end_ms": 191220
+  },
+  {
+    "w": "only",
+    "start_ms": 191220,
+    "end_ms": 191280
+  },
+  {
+    "w": "young.",
+    "start_ms": 191280,
+    "end_ms": 191500
+  },
+  {
+    "w": "I've",
+    "start_ms": 191620,
+    "end_ms": 191640
+  },
+  {
+    "w": "done",
+    "start_ms": 191640,
+    "end_ms": 191760
+  },
+  {
+    "w": "a",
+    "start_ms": 191760,
+    "end_ms": 191840
+  },
+  {
+    "w": "few",
+    "start_ms": 191840,
+    "end_ms": 191940
+  },
+  {
+    "w": "reaches.",
+    "start_ms": 191940,
+    "end_ms": 192160
+  },
+  {
+    "w": "Well,",
+    "start_ms": 192740,
+    "end_ms": 193020
+  },
+  {
+    "w": "the",
+    "start_ms": 193080,
+    "end_ms": 193200
+  },
+  {
+    "w": "best.",
+    "start_ms": 193200,
+    "end_ms": 193340
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 195980,
+    "end_ms": 196260
+  },
+  {
+    "w": "hello.",
+    "start_ms": 196400,
+    "end_ms": 196620
+  },
+  {
+    "w": "Chance.",
+    "start_ms": 196880,
+    "end_ms": 196960
+  },
+  {
+    "w": "Oh!",
+    "start_ms": 198780,
+    "end_ms": 199120
+  },
+  {
+    "w": "We",
+    "start_ms": 200260,
+    "end_ms": 200380
+  },
+  {
+    "w": "need",
+    "start_ms": 200380,
+    "end_ms": 200560
+  },
+  {
+    "w": "B",
+    "start_ms": 200560,
+    "end_ms": 200700
+  },
+  {
+    "w": ".A",
+    "start_ms": 200700,
+    "end_ms": 200840
+  },
+  {
+    "w": ".R.",
+    "start_ms": 200840,
+    "end_ms": 201100
+  },
+  {
+    "w": "We",
+    "start_ms": 201460,
+    "end_ms": 201500
+  },
+  {
+    "w": "need",
+    "start_ms": 201500,
+    "end_ms": 201600
+  },
+  {
+    "w": "B",
+    "start_ms": 201600,
+    "end_ms": 201800
+  },
+  {
+    "w": ".A",
+    "start_ms": 201800,
+    "end_ms": 201980
+  },
+  {
+    "w": ".R.",
+    "start_ms": 201980,
+    "end_ms": 202180
+  },
+  {
+    "w": "It's",
+    "start_ms": 202320,
+    "end_ms": 202380
+  },
+  {
+    "w": "close.",
+    "start_ms": 202380,
+    "end_ms": 202540
+  },
+  {
+    "w": "I",
+    "start_ms": 203080,
+    "end_ms": 203080
+  },
+  {
+    "w": "think",
+    "start_ms": 203080,
+    "end_ms": 203120
+  },
+  {
+    "w": "it's",
+    "start_ms": 203120,
+    "end_ms": 203320
+  },
+  {
+    "w": "close.",
+    "start_ms": 203320,
+    "end_ms": 203380
+  },
+  {
+    "w": "It's",
+    "start_ms": 204360,
+    "end_ms": 204520
+  },
+  {
+    "w": "close.",
+    "start_ms": 204520,
+    "end_ms": 204520
+  },
+  {
+    "w": "It's",
+    "start_ms": 204780,
+    "end_ms": 205120
+  },
+  {
+    "w": "close.",
+    "start_ms": 205120,
+    "end_ms": 205280
+  },
+  {
+    "w": "Look",
+    "start_ms": 205640,
+    "end_ms": 205640
+  },
+  {
+    "w": "at",
+    "start_ms": 205640,
+    "end_ms": 205780
+  },
+  {
+    "w": "that",
+    "start_ms": 205780,
+    "end_ms": 205820
+  },
+  {
+    "w": "foot",
+    "start_ms": 205820,
+    "end_ms": 205940
+  },
+  {
+    "w": "on.",
+    "start_ms": 205940,
+    "end_ms": 206060
+  },
+  {
+    "w": "It's",
+    "start_ms": 206060,
+    "end_ms": 206340
+  },
+  {
+    "w": "close.",
+    "start_ms": 206340,
+    "end_ms": 206340
+  },
+  {
+    "w": "Good",
+    "start_ms": 206500,
+    "end_ms": 206500
+  },
+  {
+    "w": "effort.",
+    "start_ms": 206500,
+    "end_ms": 206580
+  },
+  {
+    "w": "The",
+    "start_ms": 206580,
+    "end_ms": 206720
+  },
+  {
+    "w": "wind's",
+    "start_ms": 206720,
+    "end_ms": 206980
+  },
+  {
+    "w": "killed",
+    "start_ms": 206980,
+    "end_ms": 207080
+  },
+  {
+    "w": "in",
+    "start_ms": 207080,
+    "end_ms": 207260
+  },
+  {
+    "w": "there,",
+    "start_ms": 207260,
+    "end_ms": 207360
+  },
+  {
+    "w": "isn't",
+    "start_ms": 207420,
+    "end_ms": 207680
+  },
+  {
+    "w": "it?",
+    "start_ms": 207680,
+    "end_ms": 207760
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 207840,
+    "end_ms": 207940
+  },
+  {
+    "w": "that's",
+    "start_ms": 208100,
+    "end_ms": 208220
+  },
+  {
+    "w": "right.",
+    "start_ms": 208220,
+    "end_ms": 208300
+  },
+  {
+    "w": "Still",
+    "start_ms": 208800,
+    "end_ms": 208800
+  },
+  {
+    "w": "one.",
+    "start_ms": 208800,
+    "end_ms": 208960
+  },
+  {
+    "w": "I'm",
+    "start_ms": 209340,
+    "end_ms": 209480
+  },
+  {
+    "w": "the",
+    "start_ms": 209480,
+    "end_ms": 209560
+  },
+  {
+    "w": "winner",
+    "start_ms": 209560,
+    "end_ms": 209680
+  },
+  {
+    "w": "of",
+    "start_ms": 209680,
+    "end_ms": 209900
+  },
+  {
+    "w": "NoBans",
+    "start_ms": 209900,
+    "end_ms": 210240
+  },
+  {
+    "w": "Challenge.",
+    "start_ms": 210240,
+    "end_ms": 210400
+  },
+  {
+    "w": "Yeah!",
+    "start_ms": 211280,
+    "end_ms": 211380
+  },
+  {
+    "w": "Can",
+    "start_ms": 215180,
+    "end_ms": 215520
+  },
+  {
+    "w": "I",
+    "start_ms": 216900,
+    "end_ms": 217240
+  },
+  {
+    "w": "go?",
+    "start_ms": 217240,
+    "end_ms": 217280
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 217440,
+    "end_ms": 217640
+  },
+  {
+    "w": "go",
+    "start_ms": 217880,
+    "end_ms": 217960
+  },
+  {
+    "w": "for",
+    "start_ms": 217960,
+    "end_ms": 218120
+  },
+  {
+    "w": "it.",
+    "start_ms": 218120,
+    "end_ms": 218220
+  },
+  {
+    "w": "You've",
+    "start_ms": 226400,
+    "end_ms": 226420
+  },
+  {
+    "w": "nailed",
+    "start_ms": 226420,
+    "end_ms": 226580
+  },
+  {
+    "w": "it.",
+    "start_ms": 226580,
+    "end_ms": 226760
+  },
+  {
+    "w": "Sataty",
+    "start_ms": 239560,
+    "end_ms": 239900
+  },
+  {
+    "w": "Social",
+    "start_ms": 239900,
+    "end_ms": 240100
+  },
+  {
+    "w": "is",
+    "start_ms": 240100,
+    "end_ms": 240420
+  },
+  {
+    "w": "powered",
+    "start_ms": 240420,
+    "end_ms": 240620
+  },
+  {
+    "w": "by",
+    "start_ms": 240620,
+    "end_ms": 240920
+  },
+  {
+    "w": "EA",
+    "start_ms": 240920,
+    "end_ms": 241160
+  },
+  {
+    "w": "Sports",
+    "start_ms": 241160,
+    "end_ms": 241460
+  },
+  {
+    "w": "FIFA",
+    "start_ms": 241460,
+    "end_ms": 241860
+  },
+  {
+    "w": "23",
+    "start_ms": 241860,
+    "end_ms": 242400
+  },
+  {
+    "w": "with",
+    "start_ms": 242400,
+    "end_ms": 243060
+  },
+  {
+    "w": "PlayStation.",
+    "start_ms": 243060,
+    "end_ms": 243280
+  }
+]

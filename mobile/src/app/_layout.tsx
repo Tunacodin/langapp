@@ -1,5 +1,6 @@
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { AnimatedSplashOverlay } from '@/components/animated-icon';
 import AppTabs from '@/components/app-tabs';
@@ -14,10 +15,11 @@ export default function RootLayout() {
     setupDb();
   }, []);
 
+  // GestureHandlerRootView: alttan acilan sheet'lerin kaydirma (swipe) hareketi icin sart.
   return (
-    <>
+    <GestureHandlerRootView style={{ flex: 1 }}>
       <AnimatedSplashOverlay />
       <AppTabs />
-    </>
+    </GestureHandlerRootView>
   );
 }
