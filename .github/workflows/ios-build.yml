@@ -19,12 +19,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Expo SDK 57 / expo-modules-jsi, Xcode 26'nin Swift derleyicisiyle uyumsuz
-      # (RuntimeScheduler SWIFT_RETURNS_RETAINED hatasi). Kararli 16.4'e sabitle.
-      - name: Xcode 16.4 sec
+      # expo-modules-jsi Swift 6.2 (Xcode 26) istiyor; ama Xcode 26.3 RuntimeScheduler
+      # interop kontrolunu sikilastirdigi icin patliyor. 26.1 ikisini de saglar.
+      - name: Xcode 26.1 sec
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '16.4'
+          xcode-version: '26.1'
 
       - uses: actions/setup-node@v4
         with:
