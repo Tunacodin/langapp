@@ -1,8 +1,9 @@
 import { ReactNode, useEffect, useRef, useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 
 import { AppSheet, SheetHeight } from '@/components/app-sheet';
+import { PressableScale } from '@/components/pressable-scale';
 import { colors, radius, space } from '@/constants/appTheme';
 
 export type SheetStep = {
@@ -94,15 +95,15 @@ export function SheetStepper({
       height={height}
       footer={
         <View style={styles.footerRow}>
-          <Pressable
+          <PressableScale
             style={[styles.btnGhost, isFirst && styles.btnDisabled]}
             disabled={isFirst}
             onPress={goBack}>
             <Text style={[styles.btnGhostText, isFirst && styles.btnDisabledText]}>{backLabel}</Text>
-          </Pressable>
-          <Pressable style={styles.btnFilled} onPress={goNext}>
+          </PressableScale>
+          <PressableScale style={styles.btnFilled} haptic="medium" onPress={goNext}>
             <Text style={styles.btnFilledText}>{isLast ? doneLabel : nextLabel}</Text>
-          </Pressable>
+          </PressableScale>
         </View>
       }>
       {/* Ilerleme: segmentli cubuk + adim sayaci */}

@@ -1,9 +1,12 @@
+import { Ionicons } from '@expo/vector-icons';
 import { Image } from 'expo-image';
 import * as SplashScreen from 'expo-splash-screen';
 import { useState } from 'react';
-import { Dimensions, StyleSheet, View } from 'react-native';
+import { Dimensions, StyleSheet, Text, View } from 'react-native';
 import Animated, { Easing, Keyframe } from 'react-native-reanimated';
 import { scheduleOnRN } from 'react-native-worklets';
+
+import { colors } from '@/constants/appTheme';
 
 const INITIAL_SCALE_FACTOR = Dimensions.get('screen').height / 90;
 const DURATION = 600;
@@ -33,7 +36,14 @@ export function AnimatedSplashOverlay() {
     },
   });
 
-  const image = <Image style={styles.image} source={require('@/assets/images/expo-logo.png')} />;
+  const image = (
+    <View style={styles.brandLockup}>
+      <View style={styles.mark}>
+        <Ionicons name="infinite" size={34} color={colors.accent} />
+      </View>
+      <Text style={styles.tagline}>Otantik Videolar · Shadowing · FSRS</Text>
+    </View>
+  );
 
   return animate ? (
     <Animated.View
@@ -140,9 +150,19 @@ const styles = StyleSheet.create({
   },
   splashOverlay: {
     ...StyleSheet.absoluteFill,
-    backgroundColor: '#208AEF',
+    backgroundColor: '#FFFFFF',
     alignItems: 'center',
     justifyContent: 'center',
     zIndex: 1000,
   },
+  brandLockup: { alignItems: 'center', gap: 12 },
+  mark: {
+    width: 72,
+    height: 72,
+    borderRadius: 18,
+    backgroundColor: colors.accentSoft,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  tagline: { fontSize: 12, fontWeight: '600', color: colors.muted },
 });

@@ -55,6 +55,9 @@ type AppSheetProps = {
   dismissible?: boolean;
   /** Alta sabitlenen aksiyon alani (kaydirma disinda kalir). */
   footer?: ReactNode;
+  /** true: sheet'in HERHANGI bir yerinden asagi cekince kapanir (yalniz handle degil).
+   *  Bu modda govde kaydirilmaz (kompakt/auto sheet'ler icin). Dokunuslar (buton) calisir. */
+  dragAnywhere?: boolean;
   children: ReactNode;
   /** Eski API uyumu icin durur; artik height ile yonetiliyor. */
   snapPoints?: unknown;
@@ -74,6 +77,7 @@ export function AppSheet({
   scrollable = false,
   dismissible = true,
   footer,
+  dragAnywhere = false,
   children,
 }: AppSheetProps) {
   const { height: screenH } = useWindowDimensions();
@@ -112,8 +116,10 @@ export function AppSheet({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mounted]);
 
-  // Baslik/tutamac alanindan asagi surukleyerek kapatma.
+  // Asagi surukleyerek kapatma. activeOffsetY(10): yalniz ~10px asagi cekiste devreye
+  // girer; boylece ic butonlara dokunma (tap) ve yukari hareketler pan'i tetiklemez.
   const pan = Gesture.Pan()
+    .activeOffsetY(10)
     .onStart(() => {
       dragStart.value = translateY.value;
     })
@@ -155,24 +161,42 @@ export function AppSheet({
         />
 
         <Animated.View style={[styles.sheet, sizeStyle, sheetStyle]}>
-          {/* Tutamac + baslik: suruklenebilir alan. */}
-          <GestureDetector gesture={pan}>
-            <View style={styles.grabArea}>
-              <View style={styles.handle} />
-              {title ? <Text style={styles.title}>{title}</Text> : null}
-            </View>
-          </GestureDetector>
+          {(() => {
+            const grab = (
+              <View style={styles.grabArea}>
+                <View style={styles.handle} />
+                {title ? <Text style={styles.title}>{title}</Text> : null}
+              </View>
+            );
+            // dragAnywhere: govde kaydirilmaz (pan ile cakismasin); aksi halde scrollable'a uy.
+            const useScroll = scrollable && !dragAnywhere;
+            const body = useScroll ? (
+              <ScrollView
+                style={styles.flex}
+                contentContainerStyle={[styles.body, { paddingBottom: bodyPadBottom }]}
+                showsVerticalScrollIndicator={false}>
+                {children}
+              </ScrollView>
+            ) : (
+              <View style={[styles.body, { paddingBottom: bodyPadBottom }]}>{children}</View>
+            );
 
-          {scrollable ? (
-            <ScrollView
-              style={styles.flex}
-              contentContainerStyle={[styles.body, { paddingBottom: bodyPadBottom }]}
-              showsVerticalScrollIndicator={false}>
-              {children}
-            </ScrollView>
-          ) : (
-            <View style={[styles.body, { paddingBottom: bodyPadBottom }]}>{children}</View>
-          )}
+            return dragAnywhere ? (
+              // Tum sheet (baslik + govde) suruklenebilir alan.
+              <GestureDetector gesture={pan}>
+                <View style={styles.flex}>
+                  {grab}
+                  {body}
+                </View>
+              </GestureDetector>
+            ) : (
+              // Yalniz tutamac/baslik suruklenebilir.
+              <>
+                <GestureDetector gesture={pan}>{grab}</GestureDetector>
+                {body}
+              </>
+            );
+          })()}
 
           {footer ? (
             <View style={[styles.footer, { paddingBottom: insets.bottom + space.md }]}>{footer}</View>
