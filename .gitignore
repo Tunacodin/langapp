@@ -31,8 +31,13 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# buyuk medya: git'te degil, kendi depolama/CDN'inde dursun (expo-video URL'den oynatir)
-mobile/assets/videos/
+# buyuk medya: kural olarak git'te degil. ISTISNA: gomulu (offline) 4 sabit ders
+# videosu build'e girmek zorunda oldugu icin izinli. Digerleri haric.
+mobile/assets/videos/*
+!mobile/assets/videos/lesson1.mp4
+!mobile/assets/videos/fireship_ai.mp4
+!mobile/assets/videos/mckinnon_day.mp4
+!mobile/assets/videos/tifo_clubs_money.mp4
 builds/
 *.ipa
 
