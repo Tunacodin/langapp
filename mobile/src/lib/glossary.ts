@@ -1,13 +1,12 @@
-import glossary from '../../assets/lessons/lesson1.glossary.json';
+import { LESSON_GLOSSARY, type Gloss } from './lessonAssets';
 
-export type Gloss = { pos: string; cefr: string; senses: string[] };
+export type { Gloss };
 
-const MAP = glossary as Record<string, Gloss>;
-
-// Ekrandaki bir kelimeyi (noktalama temizlenmis) sozlukte ara.
-export function lookupWord(raw: string): { word: string; gloss: Gloss } | null {
+// Ekrandaki bir kelimeyi (noktalama temizlenmis) o derse ait sozlukte ara.
+export function lookupWord(mediaId: string, raw: string): { word: string; gloss: Gloss } | null {
   const w = raw.toLowerCase().replace(/[^a-z']/g, '');
   if (!w) return null;
-  const g = MAP[w];
+  const map = LESSON_GLOSSARY[mediaId] ?? {};
+  const g = map[w];
   return g ? { word: w, gloss: g } : null;
 }

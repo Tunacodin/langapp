@@ -1,46 +1,191 @@
 import * as SQLite from 'expo-sqlite';
 
 import lesson1 from '../../assets/lessons/lesson1.json';
-import lesson1Glossary from '../../assets/lessons/lesson1.glossary.json';
-import lesson1Words from '../../assets/lessons/lesson1.words.json';
+import fireshipAi from '../../assets/lessons/fireship_ai.json';
+import mckinnonDay from '../../assets/lessons/mckinnon_day.json';
+import tifoClubsMoney from '../../assets/lessons/tifo_clubs_money.json';
+import easyengLondon from '../../assets/lessons/easyeng_london.json';
+import globalLexicon from '../../assets/lessons/_lexicon.json';
+import globalExamples from '../../assets/lessons/_examples.json';
+import articlesSeed from '../../assets/articles/_articles.json';
+import { LESSON_GLOSSARY, LESSON_WORDS } from './lessonAssets';
+import { GRAMMAR_TOPICS } from './grammar';
 import { emptyCard, rate } from './srs';
 import type { Grade } from 'ts-fsrs';
 
 // ---------------------------------------------------------------------------
-// Gramer konu sozlugu (KAPALI ENUM). 4 ana kategori altinda ~15 cekirdek kalip.
-// Bu liste hem burada hem scripts/grammar_topics.py'de AYNIDIR (tek kaynak).
-// A Katmani (regex) yuksek-kesinlikli olanlari, B Katmani (LLM) yapisal olanlari
-// tespit eder; ikisi de norm_pattern'i bu listeden secmek ZORUNDA (enum ile suzme).
+// Gramer konu sozlugu (KAPALI ENUM). Tek kaynak: assets/grammar/topics.json
+// (src/lib/grammar.ts uzerinden yuklenir; scripts/grammar_topics.py ayni JSON'u
+// okur). 4 ana kategori: Tenses & Aspects / Modals & Modal Perfects /
+// Conditionals & Wish / Subordinate Clauses. norm_pattern SERBEST metin degil;
+// tespit hatti (A regex + B LLM) yalniz bu kumeden bir deger uretebilir.
 // ---------------------------------------------------------------------------
-export type GrammarTopic = {
-  norm_pattern: string;
-  category: 'TENSE_ASPECT' | 'MODAL_VOICE' | 'VERB_PATTERN' | 'CLAUSE';
+const GRAMMAR_PATTERN_SET = new Set(GRAMMAR_TOPICS.map((t) => t.norm_pattern));
+
+// ---------------------------------------------------------------------------
+// Kelime anlam-alani (tema) sozlugu (KAPALI ENUM). scripts/vocab_domains.py ile
+// BIREBIR AYNIDIR (tek kaynak). Her icerik kokune (lemma) TAM BIR tema atanir.
+// UI: ikon + tonlu renk. GENERAL = somut temaya girmeyen soyut/islev kelimeleri.
+// ---------------------------------------------------------------------------
+export type VocabDomain = {
+  key: string;
   label_tr: string;
-  cefr: string;
-  layer: 'A' | 'B'; // A = regex/POS, B = LLM
+  icon: string; // Ionicons adi
 };
 
-export const GRAMMAR_TOPICS: GrammarTopic[] = [
-  // 1) Zaman / Gorunus
-  { norm_pattern: 'PRESENT_SIMPLE', category: 'TENSE_ASPECT', label_tr: 'Geniş Zaman', cefr: 'A1', layer: 'A' },
-  { norm_pattern: 'PRESENT_CONTINUOUS', category: 'TENSE_ASPECT', label_tr: 'Şimdiki Zaman', cefr: 'A1', layer: 'A' },
-  { norm_pattern: 'PRESENT_PERFECT', category: 'TENSE_ASPECT', label_tr: 'Yakın Geçmiş (have+V3)', cefr: 'B1', layer: 'A' },
-  { norm_pattern: 'PAST_SIMPLE', category: 'TENSE_ASPECT', label_tr: 'Geçmiş Zaman', cefr: 'A2', layer: 'A' },
-  { norm_pattern: 'PAST_CONTINUOUS', category: 'TENSE_ASPECT', label_tr: 'Geçmişte Sürekli (was+V-ing)', cefr: 'B1', layer: 'A' },
-  { norm_pattern: 'FUTURE_FORM', category: 'TENSE_ASPECT', label_tr: 'Gelecek (will / going to)', cefr: 'A2', layer: 'A' },
-  // 2) Kiplik / Cati
-  { norm_pattern: 'MODAL_VERB', category: 'MODAL_VOICE', label_tr: 'Kip Fiili (can/must/should...)', cefr: 'A2', layer: 'A' },
-  { norm_pattern: 'PASSIVE_VOICE', category: 'MODAL_VOICE', label_tr: 'Edilgen Çatı (be+V3)', cefr: 'B1', layer: 'A' },
-  // 3) Fiil Kaliplari
-  { norm_pattern: 'PHRASAL_VERB', category: 'VERB_PATTERN', label_tr: 'Öbek Fiil (verb+particle)', cefr: 'B1', layer: 'A' },
-  { norm_pattern: 'GERUND_INFINITIVE', category: 'VERB_PATTERN', label_tr: 'Fiil + -ing / to', cefr: 'B1', layer: 'B' },
-  { norm_pattern: 'CAUSATIVE', category: 'VERB_PATTERN', label_tr: 'Ettirgen (make/let/have + do)', cefr: 'B2', layer: 'B' },
-  // 4) Cumle Yapisi
-  { norm_pattern: 'RELATIVE_CLAUSE', category: 'CLAUSE', label_tr: 'Sıfat Cümleciği (who/which/that)', cefr: 'B1', layer: 'B' },
-  { norm_pattern: 'NOUN_CLAUSE', category: 'CLAUSE', label_tr: 'İsim Cümleciği (that-clause)', cefr: 'B2', layer: 'B' },
-  { norm_pattern: 'EMBEDDED_WH', category: 'CLAUSE', label_tr: 'Gömülü Soru (I know where...)', cefr: 'B2', layer: 'B' },
-  { norm_pattern: 'CONDITIONAL', category: 'CLAUSE', label_tr: 'Koşul Cümlesi (if...)', cefr: 'B1', layer: 'B' },
+export const VOCAB_DOMAINS: VocabDomain[] = [
+  { key: 'GREETINGS', label_tr: 'Selamlaşma & Nezaket', icon: 'hand-left-outline' },
+  { key: 'SOCIAL', label_tr: 'Sosyal & İlişkiler', icon: 'people-outline' },
+  { key: 'EMOTIONS', label_tr: 'Duygular & Karakter', icon: 'happy-outline' },
+  { key: 'HEALTH', label_tr: 'Sağlık & Beden', icon: 'fitness-outline' },
+  { key: 'BUSINESS', label_tr: 'İş & Kariyer', icon: 'briefcase-outline' },
+  { key: 'FINANCE', label_tr: 'Para & Ekonomi', icon: 'cash-outline' },
+  { key: 'TECH', label_tr: 'Teknoloji & Yazılım', icon: 'hardware-chip-outline' },
+  { key: 'MEDIA', label_tr: 'Medya & İletişim', icon: 'chatbubbles-outline' },
+  { key: 'FOOD', label_tr: 'Yemek & İçecek', icon: 'restaurant-outline' },
+  { key: 'TRAVEL', label_tr: 'Seyahat & Yer', icon: 'airplane-outline' },
+  { key: 'HOME', label_tr: 'Ev & Günlük Yaşam', icon: 'home-outline' },
+  { key: 'SPORTS', label_tr: 'Spor & Rekabet', icon: 'football-outline' },
+  { key: 'NATURE', label_tr: 'Doğa & Çevre', icon: 'leaf-outline' },
+  { key: 'EDUCATION', label_tr: 'Eğitim & Öğrenme', icon: 'school-outline' },
+  { key: 'ARTS', label_tr: 'Sanat & Eğlence', icon: 'color-palette-outline' },
+  { key: 'GENERAL', label_tr: 'Genel & Soyut', icon: 'ellipsis-horizontal-outline' },
 ];
+
+// ---------------------------------------------------------------------------
+// DERS MUFREDATI (KAPALI ENUM). Uluslararasi coursebook yapisi: 8 tematik unite.
+// Her unite, sahip oldugu GRAMER hedefleri (norm_pattern) + KELIME temalari
+// (VOCAB_DOMAINS) uzerinden GERCEK icerigi ceker (mercek mantigi, klasor degil).
+// grammarTargets = ders kitabindaki tam hedef (gosterim); grammar[] = su an
+// enum'da VAR OLAN ve baglanabilen norm_pattern'lar (bazi uniteler kismen bos).
+// reading/listening: makale/video elle unite ile etiketlenir (UNIT_BY_*).
+// ---------------------------------------------------------------------------
+export type CourseUnit = {
+  no: number;
+  title_en: string;
+  title_tr: string;
+  theme_tr: string;
+  icon: string; // Ionicons adi
+  cefr: string;
+  grammarTargets: string; // ders kitabi grameri (tam hedef, gosterim)
+  grammar: string[]; // enum'da mevcut baglanabilir norm_pattern'lar
+  domains: string[]; // VOCAB_DOMAINS anahtarlari
+  writing_tr: string; // yazma gorevi (talimat)
+};
+
+export const COURSE_UNITS: CourseUnit[] = [
+  {
+    no: 1,
+    title_en: 'Personal Identity & Relationships',
+    title_tr: 'Kimlik & İlişkiler',
+    theme_tr: 'Kendini tanıtma, aile, arkadaşlık, kişilik',
+    icon: 'people-circle-outline',
+    cefr: 'A2',
+    grammarTargets: 'Present Simple & Continuous, Stative Verbs',
+    grammar: ['present_simple', 'present_continuous'],
+    domains: ['SOCIAL', 'GREETINGS', 'EMOTIONS'],
+    writing_tr: 'Kısa bir kişisel profil ya da tanışma e-postası yaz.',
+  },
+  {
+    no: 2,
+    title_en: 'Daily Life, Routines & Habits',
+    title_tr: 'Günlük Yaşam & Alışkanlıklar',
+    theme_tr: 'Rutinler, iş-yaşam dengesi, serbest zaman',
+    icon: 'time-outline',
+    cefr: 'A2',
+    grammarTargets: 'Adverbs of Frequency, Prepositions of Time',
+    grammar: ['adverb_frequency'],
+    domains: ['HOME'],
+    writing_tr: 'Tipik bir gününü ya da bir alışkanlığını anlat.',
+  },
+  {
+    no: 3,
+    title_en: 'Travel, Culture & Exploration',
+    title_tr: 'Seyahat & Kültür',
+    theme_tr: 'Tatil, seyahat deneyimleri, kültürler, yön tarifi',
+    icon: 'airplane-outline',
+    cefr: 'A2',
+    grammarTargets: 'Past Simple vs. Past Continuous, used to',
+    grammar: ['simple_past', 'past_continuous_was_ving', 'used_to'],
+    domains: ['TRAVEL'],
+    writing_tr: 'Bir seyahat blog yazısı ya da kartpostal yaz.',
+  },
+  {
+    no: 4,
+    title_en: 'Food, Dining & Health',
+    title_tr: 'Beslenme & Sağlık',
+    theme_tr: 'Yemek kültürü, restoranlar, sağlıklı yaşam',
+    icon: 'restaurant-outline',
+    cefr: 'A2',
+    grammarTargets: 'Countable/Uncountable, Quantifiers',
+    grammar: ['quantifier'],
+    domains: ['FOOD', 'HEALTH'],
+    writing_tr: 'Bir restoran değerlendirmesi yaz.',
+  },
+  {
+    no: 5,
+    title_en: 'Work, Career & Ambition',
+    title_tr: 'Kariyer & Gelecek',
+    theme_tr: 'Meslekler, iş görüşmeleri, gelecek planları',
+    icon: 'briefcase-outline',
+    cefr: 'B1',
+    grammarTargets: 'Future Forms (will / be going to)',
+    grammar: ['future_will', 'future_going_to'],
+    domains: ['BUSINESS', 'FINANCE'],
+    writing_tr: 'Kısa bir ön yazı (cover letter) ya da hedef metni yaz.',
+  },
+  {
+    no: 6,
+    title_en: 'Technology, Media & Innovation',
+    title_tr: 'Teknoloji & Medya',
+    theme_tr: 'Dijital dünya, sosyal medya, yapay zeka',
+    icon: 'hardware-chip-outline',
+    cefr: 'B1',
+    grammarTargets: 'Present Perfect Simple vs. Continuous',
+    grammar: ['present_perfect_have_v3'],
+    domains: ['TECH', 'MEDIA'],
+    writing_tr: 'Ekran süresi üzerine bir görüş yazısı yaz.',
+  },
+  {
+    no: 7,
+    title_en: 'Environment, Nature & Climate',
+    title_tr: 'Çevre & Doğa',
+    theme_tr: 'İklim, geri dönüşüm, çevre koruma',
+    icon: 'leaf-outline',
+    cefr: 'B1',
+    grammarTargets: 'Conditionals (Type 1 & 2), Modals of Obligation',
+    grammar: ['if_type1', 'if_past_would', 'modal_v1'],
+    domains: ['NATURE'],
+    writing_tr: 'Sorun-çözüm (problem-solution) yazısı yaz.',
+  },
+  {
+    no: 8,
+    title_en: 'Arts, Entertainment & Leisure',
+    title_tr: 'Sanat & Eğlence',
+    theme_tr: 'Sinema, müzik, kitap, kültürel etkinlikler',
+    icon: 'color-palette-outline',
+    cefr: 'B1',
+    grammarTargets: 'Passive Voice, Relative Clauses',
+    grammar: ['passive_voice', 'relative_clause', 'noun_clause_wh', 'embedded_wh_question'],
+    domains: ['ARTS'],
+    writing_tr: 'Bir film ya da kitap değerlendirmesi yaz.',
+  },
+];
+
+// Elle etiket (karma yaklasim): hangi video/makale hangi uniteye ait.
+// Icerik az; el ile net eslenir. Yeni icerik eklendikce buraya eklenir.
+const UNIT_BY_MEDIA: Record<string, number> = {
+  lesson1: 1,
+  mckinnon_day: 2,
+  easyeng_london: 3,
+  tifo_clubs_money: 5,
+  fireship_ai: 6,
+};
+const UNIT_BY_ARTICLE: Record<string, number> = {
+  art_small_habits: 2,
+  art_first_users: 5,
+  art_why_sleep: 4,
+};
 
 // ---------------------------------------------------------------------------
 // Ders JSON tipleri (cikarim/pipeline ciktisi). Yeni alanlar OPSIYONEL: eski
@@ -64,10 +209,17 @@ export type LessonVocab = { word: string; text_tr: string; pos: string; cefr: st
 
 // Yeni sekil: sozluklesmis kok + anlam ayrimi.
 export type LessonSense = { sense_idx: number; gloss_tr: string };
-export type LessonLexeme = { lemma: string; pos: string; cefr: string; senses: LessonSense[] };
+export type LessonLexeme = {
+  lemma: string;
+  pos: string;
+  cefr: string;
+  domain?: string | null; // VOCAB_DOMAINS temasi; yoksa null
+  senses: LessonSense[];
+};
 export type LessonOccurrence = {
   surface: string; // ekranda gecen sozcuk (temizlenmis kucuk harf)
   lemma: string; // lexicon kokune baglar
+  pos?: string; // global sozlukte (lemma,pos) cifti icin gerekli
   sense_idx: number | null; // o baglamdaki anlam; belirsizse null (WSD kesin degil)
   start_ms: number;
   end_ms: number;
@@ -80,6 +232,8 @@ export type LessonSentence = {
   text_en: string;
   text_tr: string;
   cefr: string;
+  category?: string | null; // shadowing paketi (slug), or. 'greetings'
+  category_group?: string | null; // paket bolumu (slug), or. 'daily'
   chunks: LessonChunk[];
   grammar: LessonGrammar[];
   vocab?: LessonVocab[]; // eski alan; artik occurrences tercih edilir
@@ -90,16 +244,24 @@ export type Lesson = {
   title: string;
   license: string;
   cefr: string;
+  topic?: string | null; // konu (software/daily/football...) - filtre icin
+  video_url?: string | null; // uzak video adresi (CDN/depolama). Yoksa gomulu (require) fallback.
   lexicon?: LessonLexeme[]; // yeni: derse ait tekil kokler
   sentences: LessonSentence[];
 };
 
-const LESSONS: Lesson[] = [lesson1 as Lesson];
+const LESSONS: Lesson[] = [
+  lesson1 as Lesson,
+  fireshipAi as Lesson,
+  mckinnonDay as Lesson,
+  tifoClubsMoney as Lesson,
+  easyengLondon as Lesson,
+];
 
 const db = SQLite.openDatabaseSync('cogni3.db');
 
 // Ders verisi/semasi degistiginde artir; seed otomatik tazelenir (SRS korunur).
-const SEED_VERSION = '4';
+const SEED_VERSION = '16';
 
 // ---------------------------------------------------------------------------
 // Sema
@@ -118,7 +280,9 @@ export function initSchema() {
       youtube_id TEXT UNIQUE NOT NULL,
       title TEXT NOT NULL,
       license TEXT,
-      cefr TEXT
+      cefr TEXT,
+      video_url TEXT,
+      topic TEXT
     );
     CREATE TABLE IF NOT EXISTS sentences (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -129,6 +293,8 @@ export function initSchema() {
       text_en TEXT NOT NULL,
       text_tr TEXT,
       cefr TEXT,
+      category TEXT,
+      category_group TEXT,
       UNIQUE (media_id, idx),
       FOREIGN KEY (media_id) REFERENCES media_items (id) ON DELETE CASCADE
     );
@@ -148,7 +314,8 @@ export function initSchema() {
       category TEXT NOT NULL,
       label_tr TEXT NOT NULL,
       cefr TEXT,
-      layer TEXT
+      layer TEXT,
+      formula TEXT
     );
 
     -- Cumledeki gramer tespitleri. norm_pattern -> grammar_topics; span, text_en
@@ -171,6 +338,7 @@ export function initSchema() {
       lemma TEXT NOT NULL,
       pos TEXT,
       cefr TEXT,
+      domain TEXT,
       UNIQUE (lemma, pos)
     );
     CREATE TABLE IF NOT EXISTS senses (
@@ -192,6 +360,18 @@ export function initSchema() {
       end_ms INTEGER,
       FOREIGN KEY (lexicon_id) REFERENCES lexicon (id) ON DELETE SET NULL,
       FOREIGN KEY (sense_id) REFERENCES senses (id) ON DELETE SET NULL
+    );
+
+    -- Ornek kullanimlar (transfer): bir ogenin (kelime/chunk/gramer) BASKA
+    -- baglamlardaki ornek cumleleri. owner_key -> lexeme: 'lemma|pos',
+    -- chunk: text_en, grammar: norm_pattern. build_corpus (Layer B) uretir.
+    CREATE TABLE IF NOT EXISTS examples (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      owner_type TEXT NOT NULL,   -- 'lexeme' | 'chunk' | 'grammar'
+      owner_key TEXT NOT NULL,
+      text_en TEXT NOT NULL,
+      text_tr TEXT,
+      cefr TEXT
     );
 
     -- FSRS kartlari. Kelime karti benzersizligi ARTIK occurrence seviyesinde:
@@ -216,8 +396,45 @@ export function initSchema() {
       created_at TEXT DEFAULT CURRENT_TIMESTAMP
     );
 
+    -- Shadowing ilerlemesi: her cumle icin en iyi telaffuz skoru + deneme sayisi.
+    -- done = best_score >= SHADOW_DONE. Kutuphanedeki ilerleme cubuklari buradan
+    -- GERCEK veriyle hesaplanir (uydurma yuzde yok).
+    CREATE TABLE IF NOT EXISTS shadow_progress (
+      media_id TEXT NOT NULL,
+      sent_idx INTEGER NOT NULL,
+      best_score INTEGER NOT NULL DEFAULT 0,
+      attempts INTEGER NOT NULL DEFAULT 0,
+      updated_at INTEGER NOT NULL DEFAULT 0,
+      PRIMARY KEY (media_id, sent_idx)
+    );
+
+    -- Izleme ilerlemesi (Continue Watching): oynatici kaldigi konumu kaydeder.
+    -- İzle ana ekranindaki "Kaldigin yerden izle" karti bu GERCEK veriyle dolar
+    -- (uydurma yuzde yok). Kullanici verisi: seed tazelemede SILINMEZ.
+    CREATE TABLE IF NOT EXISTS watch_progress (
+      media_id TEXT PRIMARY KEY NOT NULL,
+      position_ms INTEGER NOT NULL DEFAULT 0,
+      duration_ms INTEGER NOT NULL DEFAULT 0,
+      updated_at INTEGER NOT NULL DEFAULT 0
+    );
+
+    -- Okuma metinleri (Kesfet 'Oku' bolumu). word_count/read_minutes seed aninda
+    -- metinden TURETILIR (uydurma degil). Ilerde makale pipeline'i doldurur.
+    CREATE TABLE IF NOT EXISTS articles (
+      id TEXT PRIMARY KEY NOT NULL,
+      title TEXT NOT NULL,
+      source TEXT,
+      cefr TEXT,
+      topic TEXT,
+      body_en TEXT NOT NULL,
+      body_tr TEXT,
+      word_count INTEGER NOT NULL DEFAULT 0,
+      read_minutes INTEGER NOT NULL DEFAULT 0
+    );
+
     CREATE INDEX IF NOT EXISTS ix_occ_surface ON word_occurrences (surface);
     CREATE INDEX IF NOT EXISTS ix_occ_sentence ON word_occurrences (media_id, sentence_idx);
+    CREATE INDEX IF NOT EXISTS ix_examples_owner ON examples (owner_type, owner_key);
   `);
 
   ensureColumns();
@@ -233,6 +450,24 @@ export function initSchema() {
 
 // Eski kurulumlari guvenli goc et.
 function ensureColumns() {
+  // media_items: uzak video adresi + konu (filtre icin).
+  const mi = db.getAllSync<{ name: string }>(`PRAGMA table_info(media_items)`).map((c) => c.name);
+  if (!mi.includes('video_url')) db.execSync(`ALTER TABLE media_items ADD COLUMN video_url TEXT`);
+  if (!mi.includes('topic')) db.execSync(`ALTER TABLE media_items ADD COLUMN topic TEXT`);
+
+  // sentences: shadowing paketi (kategori) + bolumu.
+  const se = db.getAllSync<{ name: string }>(`PRAGMA table_info(sentences)`).map((c) => c.name);
+  if (!se.includes('category')) db.execSync(`ALTER TABLE sentences ADD COLUMN category TEXT`);
+  if (!se.includes('category_group')) db.execSync(`ALTER TABLE sentences ADD COLUMN category_group TEXT`);
+
+  // lexicon: kelime temasi (VOCAB_DOMAINS).
+  const lx = db.getAllSync<{ name: string }>(`PRAGMA table_info(lexicon)`).map((c) => c.name);
+  if (!lx.includes('domain')) db.execSync(`ALTER TABLE lexicon ADD COLUMN domain TEXT`);
+
+  // grammar_topics: kural formulu (kart uzerinde gosterim).
+  const gt = db.getAllSync<{ name: string }>(`PRAGMA table_info(grammar_topics)`).map((c) => c.name);
+  if (!gt.includes('formula')) db.execSync(`ALTER TABLE grammar_topics ADD COLUMN formula TEXT`);
+
   // grammar_patterns: yeni sutunlar.
   const gp = db.getAllSync<{ name: string }>(`PRAGMA table_info(grammar_patterns)`).map((c) => c.name);
   if (!gp.includes('norm_pattern')) db.execSync(`ALTER TABLE grammar_patterns ADD COLUMN norm_pattern TEXT`);
@@ -278,10 +513,11 @@ function ensureColumns() {
 // ---------------------------------------------------------------------------
 function seedGrammarTopics() {
   for (const t of GRAMMAR_TOPICS) {
+    // label_tr <- topic (kitap adi, ing.); tek kaynak topics.json.
     db.runSync(
-      `INSERT OR REPLACE INTO grammar_topics (norm_pattern, category, label_tr, cefr, layer)
-       VALUES (?, ?, ?, ?, ?)`,
-      [t.norm_pattern, t.category, t.label_tr, t.cefr, t.layer],
+      `INSERT OR REPLACE INTO grammar_topics (norm_pattern, category, label_tr, cefr, layer, formula)
+       VALUES (?, ?, ?, ?, ?, ?)`,
+      [t.norm_pattern, t.category, t.topic, t.cefr, t.layer, t.formula],
     );
   }
 }
@@ -299,10 +535,11 @@ function seedLexemes(lexemes: LessonLexeme[]): {
   const lemmaToId = new Map<string, number>();
   const senseId = new Map<string, number>();
   for (const lx of lexemes) {
-    db.runSync(`INSERT OR IGNORE INTO lexicon (lemma, pos, cefr) VALUES (?, ?, ?)`, [
+    db.runSync(`INSERT OR IGNORE INTO lexicon (lemma, pos, cefr, domain) VALUES (?, ?, ?, ?)`, [
       lx.lemma,
       lx.pos,
       lx.cefr,
+      lx.domain ?? null,
     ]);
     const row = db.getFirstSync<{ id: number }>(
       `SELECT id FROM lexicon WHERE lemma = ? AND pos IS ?`,
@@ -310,7 +547,7 @@ function seedLexemes(lexemes: LessonLexeme[]): {
     );
     const lexId = row?.id;
     if (lexId == null) continue;
-    lemmaToId.set(lx.lemma, lexId);
+    lemmaToId.set(`${lx.lemma}|${lx.pos}`, lexId); // anahtar: lemma|pos (global sozluk)
     for (const se of lx.senses) {
       db.runSync(
         `INSERT OR IGNORE INTO senses (lexicon_id, sense_idx, gloss_tr) VALUES (?, ?, ?)`,
@@ -331,12 +568,19 @@ function seedLexemes(lexemes: LessonLexeme[]): {
 // Gercek lemma/WSD YOK: lemma = surface, sense_idx = null (belirsiz).
 function seedLessonFromLegacyAssets(L: Lesson) {
   type Gl = { pos: string; cefr: string; senses: string[] };
-  const gloss = lesson1Glossary as Record<string, Gl>;
-  const wordsFlat = lesson1Words as { w: string; start_ms: number; end_ms: number }[];
+  const gloss = (LESSON_GLOSSARY[L.video_id] ?? {}) as Record<string, Gl>;
+  const wordsFlat = (LESSON_WORDS[L.video_id] ?? []) as {
+    w: string;
+    start_ms: number;
+    end_ms: number;
+  }[];
 
-  // lexicon + senses (glossary'den).
+  // lexicon + senses (glossary'den). Yalniz ICERIK kelimeleri: fonksiyon
+  // kelimeleri (article/conjunction/preposition/pronoun/determiner) sozluge girmez.
+  const CONTENT = new Set(['verb', 'noun', 'adjective', 'adverb']);
   const lemmaToId = new Map<string, number>();
   for (const [surface, g] of Object.entries(gloss)) {
+    if (!CONTENT.has((g.pos ?? '').toLowerCase())) continue;
     const lemma = cleanSurface(surface);
     if (!lemma) continue;
     db.runSync(`INSERT OR IGNORE INTO lexicon (lemma, pos, cefr) VALUES (?, ?, ?)`, [lemma, g.pos, g.cefr]);
@@ -399,31 +643,62 @@ export function seedLessons() {
     DELETE FROM lexicon;
     DELETE FROM senses;
     DELETE FROM word_occurrences;
+    DELETE FROM examples;
+    DELETE FROM articles;
   `);
+
+  // Okuma metinleri: kelime sayisi + okuma suresi (dk) METINDEN turetilir (~200 kelime/dk).
+  for (const a of articlesSeed as ArticleSeed[]) {
+    const wc = a.body_en.trim().split(/\s+/).filter(Boolean).length;
+    const mins = Math.max(1, Math.round(wc / 200));
+    db.runSync(
+      `INSERT OR REPLACE INTO articles (id, title, source, cefr, topic, body_en, body_tr, word_count, read_minutes)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      [a.id, a.title, a.source ?? null, a.cefr ?? null, a.topic ?? null, a.body_en, a.body_tr ?? null, wc, mins],
+    );
+  }
+
+  // GLOBAL sozluk (tum videolar paylasir): bir kez tohumla, haritalari her derste kullan.
+  const { lemmaToId, senseId } = seedLexemes(globalLexicon as LessonLexeme[]);
+
+  // Ornek kullanimlar (transfer verisi).
+  for (const e of globalExamples as ExampleSeed[]) {
+    db.runSync(
+      `INSERT INTO examples (owner_type, owner_key, text_en, text_tr, cefr) VALUES (?, ?, ?, ?, ?)`,
+      [e.owner_type, e.owner_key, e.text_en, e.text_tr ?? null, e.cefr ?? null],
+    );
+  }
 
   for (const L of LESSONS) {
     db.runSync(
-      `INSERT OR IGNORE INTO media_items (id, youtube_id, title, license, cefr) VALUES (?, ?, ?, ?, ?)`,
-      [L.video_id, L.video_id, L.title, L.license, L.cefr],
+      `INSERT OR IGNORE INTO media_items (id, youtube_id, title, license, cefr, video_url, topic) VALUES (?, ?, ?, ?, ?, ?, ?)`,
+      [L.video_id, L.video_id, L.title, L.license, L.cefr, L.video_url ?? null, L.topic ?? null],
     );
 
-    // Sozluk: yeni sekil varsa dogrudan; yoksa eski varliklardan turet.
-    let lemmaToId = new Map<string, number>();
-    let senseId = new Map<string, number>();
-    const hasNewShape = Array.isArray(L.lexicon) && L.lexicon.length > 0;
-    if (hasNewShape) {
-      const r = seedLexemes(L.lexicon as LessonLexeme[]);
-      lemmaToId = r.lemmaToId;
-      senseId = r.senseId;
-    } else if (L.video_id === 'lesson1') {
+    // occurrences yeni sekilde global sozluge baglanir; yoksa (lesson1) eski
+    // glossary/words varliklarindan turet.
+    const hasOcc = L.sentences.some(
+      (s) => Array.isArray(s.occurrences) && s.occurrences.length > 0,
+    );
+    if (!hasOcc && LESSON_GLOSSARY[L.video_id] && LESSON_WORDS[L.video_id]) {
       seedLessonFromLegacyAssets(L);
     }
 
     for (const s of L.sentences) {
       db.runSync(
-        `INSERT OR IGNORE INTO sentences (media_id, idx, start_ms, end_ms, text_en, text_tr, cefr)
-         VALUES (?, ?, ?, ?, ?, ?, ?)`,
-        [L.video_id, s.idx, s.start_ms, s.end_ms, s.text_en, s.text_tr, s.cefr],
+        `INSERT OR IGNORE INTO sentences (media_id, idx, start_ms, end_ms, text_en, text_tr, cefr, category, category_group)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        [
+          L.video_id,
+          s.idx,
+          s.start_ms,
+          s.end_ms,
+          s.text_en,
+          s.text_tr,
+          s.cefr,
+          s.category ?? null,
+          s.category_group ?? null,
+        ],
       );
       for (const c of s.chunks) {
         db.runSync(
@@ -434,19 +709,17 @@ export function seedLessons() {
       for (const g of s.grammar) {
         // norm_pattern yalnizca gecerli enum ise yazilir (kapali liste dogrulamasi).
         const norm =
-          g.norm_pattern && GRAMMAR_TOPICS.some((t) => t.norm_pattern === g.norm_pattern)
-            ? g.norm_pattern
-            : null;
+          g.norm_pattern && GRAMMAR_PATTERN_SET.has(g.norm_pattern) ? g.norm_pattern : null;
         db.runSync(
           `INSERT INTO grammar_patterns (media_id, sentence_idx, pattern, note_tr, cefr, norm_pattern, span_start, span_end)
            VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
           [L.video_id, s.idx, g.pattern, g.note_tr, g.cefr, norm, g.span_start ?? null, g.span_end ?? null],
         );
       }
-      // occurrences yalnizca yeni sekilde (fallback zaten yukarida toplu yazdi).
-      if (hasNewShape && Array.isArray(s.occurrences)) {
+      // occurrences: global sozluge (lemma|pos) baglan (fallback zaten toplu yazdi).
+      if (hasOcc && Array.isArray(s.occurrences)) {
         for (const o of s.occurrences) {
-          const lexId = lemmaToId.get(o.lemma) ?? null;
+          const lexId = o.pos ? (lemmaToId.get(`${o.lemma}|${o.pos}`) ?? null) : null;
           const sId =
             lexId != null && o.sense_idx != null ? (senseId.get(`${lexId}:${o.sense_idx}`) ?? null) : null;
           db.runSync(
@@ -467,10 +740,26 @@ export function setupDb() {
   seedLessons();
 }
 
+// --- Basit ayar deposu (app_meta key-value): onboarding, seviye vb. ---
+export function getSetting(key: string): string | null {
+  return db.getFirstSync<{ value: string | null }>(`SELECT value FROM app_meta WHERE key = ?`, [key])?.value ?? null;
+}
+export function setSetting(key: string, value: string) {
+  db.runSync(`INSERT OR REPLACE INTO app_meta (key, value) VALUES (?, ?)`, [key, value]);
+}
+
 // ---------------------------------------------------------------------------
 // Sorgular
 // ---------------------------------------------------------------------------
-export type MediaRow = { id: string; youtube_id: string; title: string; license: string; cefr: string };
+export type MediaRow = {
+  id: string;
+  youtube_id: string;
+  title: string;
+  license: string;
+  cefr: string;
+  video_url: string | null;
+  topic: string | null;
+};
 export type SentenceRow = {
   id: number;
   media_id: string;
@@ -486,8 +775,397 @@ export function getMedia(): MediaRow[] {
   return db.getAllSync<MediaRow>(`SELECT * FROM media_items ORDER BY title`);
 }
 
+// İzle ana ekrani icin zenginlestirilmis katalog: her video + GERCEK meta
+// (toplam sure, benzersiz obek sayisi, cumle sayisi). Uydurma metrik yok.
+export type CatalogItem = MediaRow & {
+  duration_ms: number;
+  chunk_count: number;
+  sentence_count: number;
+};
+export function getCatalog(): CatalogItem[] {
+  return db.getAllSync<CatalogItem>(
+    `SELECT m.*,
+            COALESCE((SELECT MAX(s.end_ms) FROM sentences s WHERE s.media_id = m.id), 0) AS duration_ms,
+            (SELECT COUNT(DISTINCT c.text_en) FROM chunks c WHERE c.media_id = m.id) AS chunk_count,
+            (SELECT COUNT(*) FROM sentences s WHERE s.media_id = m.id) AS sentence_count
+     FROM media_items m
+     ORDER BY m.title`,
+  );
+}
+
 export function getSentences(mediaId: string): SentenceRow[] {
   return db.getAllSync<SentenceRow>(`SELECT * FROM sentences WHERE media_id = ? ORDER BY idx`, [mediaId]);
+}
+
+// --- Shadowing: CEFR seviyesine gore cumle havuzu (tum videolardan) ---
+// Her cumle kaynak video bilgisiyle gelir (ses klibi icin youtube_id/video_url).
+export type ShadowSentence = {
+  media_id: string;
+  youtube_id: string;
+  video_url: string | null;
+  title: string;
+  idx: number;
+  start_ms: number;
+  end_ms: number;
+  text_en: string;
+  text_tr: string | null;
+  cefr: string | null;
+};
+
+// Bir cumlenin kelime zamanlari (karaoke: video oynarken aktif kelimeyi vurgula).
+// Yalniz zaman damgali kelimeler (start_ms dolu), sirali.
+export type WordTiming = { surface: string; start_ms: number; end_ms: number };
+export function getSentenceWords(mediaId: string, sentenceIdx: number): WordTiming[] {
+  return db.getAllSync<WordTiming>(
+    `SELECT surface, start_ms, end_ms FROM word_occurrences
+     WHERE media_id = ? AND sentence_idx = ? AND start_ms IS NOT NULL AND end_ms IS NOT NULL
+     ORDER BY start_ms`,
+    [mediaId, sentenceIdx],
+  );
+}
+
+export type SentenceCefrCount = { cefr: string | null; c: number };
+
+// Filtre cipleri: CEFR basina cumle sayisi (bilinmeyen seviye null olarak en sona).
+export function getSentenceCefrCounts(): SentenceCefrCount[] {
+  return db.getAllSync<SentenceCefrCount>(
+    `SELECT cefr, COUNT(*) AS c FROM sentences
+     WHERE text_en IS NOT NULL AND TRIM(text_en) <> ''
+     GROUP BY cefr ORDER BY (cefr IS NULL), cefr`,
+  );
+}
+
+// CEFR filtreli cumle havuzu (bos ise tumu). idx sirasiyla, video icinde tutarli.
+export function getSentencesByCefr(cefr?: string | null, limit = 200): ShadowSentence[] {
+  const where = cefr ? `AND s.cefr = ?` : ``;
+  const args: (string | number)[] = cefr ? [cefr, limit] : [limit];
+  return db.getAllSync<ShadowSentence>(
+    `SELECT s.media_id, m.youtube_id, m.video_url, m.title, s.idx,
+            s.start_ms, s.end_ms, s.text_en, s.text_tr, s.cefr
+     FROM sentences s JOIN media_items m ON m.id = s.media_id
+     WHERE s.text_en IS NOT NULL AND TRIM(s.text_en) <> '' ${where}
+     ORDER BY s.media_id, s.idx
+     LIMIT ?`,
+    args,
+  );
+}
+
+// Bir videonun tum shadowing cumleleri (idx sirali, ses kaynagiyla). Kutuphaneden
+// bir "ders" (video) secilince studyo bununla dolar.
+export function getSentencesByMedia(mediaId: string): ShadowSentence[] {
+  return db.getAllSync<ShadowSentence>(
+    `SELECT s.media_id, m.youtube_id, m.video_url, m.title, s.idx,
+            s.start_ms, s.end_ms, s.text_en, s.text_tr, s.cefr
+     FROM sentences s JOIN media_items m ON m.id = s.media_id
+     WHERE s.media_id = ? AND s.text_en IS NOT NULL AND TRIM(s.text_en) <> ''
+     ORDER BY s.idx`,
+    [mediaId],
+  );
+}
+
+// --- Shadowing ilerleme takibi (GERCEK veri) ---
+// Bir cumle "tamamlandi" sayilir: en iyi telaffuz skoru bu esigi gecerse.
+export const SHADOW_DONE = 80;
+
+// Bir cumle denemesini kaydet: en iyi skoru yukselt, deneme sayacini artir.
+export function recordShadowAttempt(mediaId: string, sentIdx: number, score: number) {
+  db.runSync(
+    `INSERT INTO shadow_progress (media_id, sent_idx, best_score, attempts, updated_at)
+     VALUES (?, ?, ?, 1, ?)
+     ON CONFLICT(media_id, sent_idx) DO UPDATE SET
+       best_score = MAX(best_score, excluded.best_score),
+       attempts   = attempts + 1,
+       updated_at = excluded.updated_at`,
+    [mediaId, sentIdx, Math.round(score), Date.now()],
+  );
+}
+
+// Bir kategoriye (paket) ait TUM cumleler (4 videodan toplanir), ses kaynagiyla.
+// Studyo bir paketle bununla dolar. Video icinde tutarli sira; videolar arasi baslik.
+export function getSentencesByCategory(category: string): ShadowSentence[] {
+  return db.getAllSync<ShadowSentence>(
+    `SELECT s.media_id, m.youtube_id, m.video_url, m.title, s.idx,
+            s.start_ms, s.end_ms, s.text_en, s.text_tr, s.cefr
+     FROM sentences s JOIN media_items m ON m.id = s.media_id
+     WHERE s.category = ? AND s.text_en IS NOT NULL AND TRIM(s.text_en) <> ''
+     ORDER BY m.title, s.idx`,
+    [category],
+  );
+}
+
+// Shadowing kutuphanesi = KATEGORI PAKETLERI. Her paket (category), farkli
+// videolardan toplanan cumlelerin kesitidir. GERCEK metrik: cumle sayisi, kaynak
+// video sayisi, tamamlanan cumle (shadow_progress). Uydurma yok. category_group =
+// bolum basligi. Temsili poster = pakette en cok cumlesi olan videonun posteri.
+export type ShadowPack = {
+  category: string; // slug
+  category_group: string | null; // bolum slug
+  sentence_count: number;
+  video_count: number;
+  done_count: number; // best_score >= SHADOW_DONE
+  attempted_count: number;
+  poster_yt: string | null; // temsili poster icin youtube_id
+};
+export function getShadowPacks(): ShadowPack[] {
+  return db.getAllSync<ShadowPack>(
+    `SELECT s.category AS category,
+            MAX(s.category_group) AS category_group,
+            COUNT(*) AS sentence_count,
+            COUNT(DISTINCT s.media_id) AS video_count,
+            SUM(CASE WHEN p.best_score >= ${SHADOW_DONE} THEN 1 ELSE 0 END) AS done_count,
+            SUM(CASE WHEN p.media_id IS NOT NULL THEN 1 ELSE 0 END) AS attempted_count,
+            (SELECT m2.youtube_id FROM sentences s2 JOIN media_items m2 ON m2.id = s2.media_id
+               WHERE s2.category = s.category AND s2.text_en IS NOT NULL AND TRIM(s2.text_en) <> ''
+               GROUP BY s2.media_id ORDER BY COUNT(*) DESC, s2.media_id LIMIT 1) AS poster_yt
+     FROM sentences s
+     LEFT JOIN shadow_progress p ON p.media_id = s.media_id AND p.sent_idx = s.idx
+     WHERE s.category IS NOT NULL AND TRIM(s.category) <> ''
+       AND s.text_en IS NOT NULL AND TRIM(s.text_en) <> ''
+     GROUP BY s.category
+     ORDER BY category_group, sentence_count DESC`,
+  );
+}
+
+// --- Izleme ilerlemesi (Continue Watching) ---
+// Oynatici konumu kaydeder; İzle ekrani "Kaldigin yerden izle" bunu GERCEK gosterir.
+export function saveWatchProgress(mediaId: string, positionMs: number, durationMs: number) {
+  db.runSync(
+    `INSERT INTO watch_progress (media_id, position_ms, duration_ms, updated_at)
+     VALUES (?, ?, ?, ?)
+     ON CONFLICT(media_id) DO UPDATE SET
+       position_ms = excluded.position_ms,
+       duration_ms = MAX(watch_progress.duration_ms, excluded.duration_ms),
+       updated_at = excluded.updated_at`,
+    [mediaId, Math.max(0, Math.round(positionMs)), Math.max(0, Math.round(durationMs)), Date.now()],
+  );
+}
+
+// Bir videonun kayitli konumu (ms); yoksa 0. Oynatici acilista buraya sarar.
+export function getWatchPosition(mediaId: string): number {
+  return (
+    db.getFirstSync<{ position_ms: number }>(
+      `SELECT position_ms FROM watch_progress WHERE media_id = ?`,
+      [mediaId],
+    )?.position_ms ?? 0
+  );
+}
+
+// En son izlenen, henuz bitmemis video + katalog metrikleri (GERCEK ilerleme).
+// Bitmis (>= %95) sayilan videoyu gostermez. position_ms/dur = gercek tamamlanma.
+export type ContinueItem = CatalogItem & {
+  position_ms: number;
+  progress_duration_ms: number;
+  updated_at: number;
+};
+export function getContinueWatching(): ContinueItem | null {
+  const row = db.getFirstSync<ContinueItem>(
+    `SELECT m.*,
+            COALESCE((SELECT MAX(s.end_ms) FROM sentences s WHERE s.media_id = m.id), 0) AS duration_ms,
+            (SELECT COUNT(DISTINCT c.text_en) FROM chunks c WHERE c.media_id = m.id) AS chunk_count,
+            (SELECT COUNT(*) FROM sentences s WHERE s.media_id = m.id) AS sentence_count,
+            w.position_ms AS position_ms,
+            w.duration_ms AS progress_duration_ms,
+            w.updated_at AS updated_at
+     FROM watch_progress w JOIN media_items m ON m.id = w.media_id
+     WHERE w.position_ms > 0
+     ORDER BY w.updated_at DESC
+     LIMIT 1`,
+  );
+  if (!row) return null;
+  const dur = row.progress_duration_ms || row.duration_ms;
+  if (dur > 0 && row.position_ms / dur >= 0.95) return null; // neredeyse bitmis
+  return row;
+}
+
+// Video bazli shadowing ozeti (ana ekranda "kaldigin yerden" vb. icin). Her video +
+// GERCEK ilerleme (bitmis/toplam cumle). Konuya (topic) gore. Uydurma metrik yok.
+export type ShadowLibraryItem = MediaRow & {
+  duration_ms: number;
+  sentence_count: number;
+  done_count: number; // best_score >= SHADOW_DONE
+  attempted_count: number; // en az 1 deneme
+};
+export function getShadowLibrary(): ShadowLibraryItem[] {
+  return db
+    .getAllSync<ShadowLibraryItem>(
+      `SELECT m.*,
+            COALESCE((SELECT MAX(s.end_ms) FROM sentences s WHERE s.media_id = m.id), 0) AS duration_ms,
+            (SELECT COUNT(*) FROM sentences s
+               WHERE s.media_id = m.id AND s.text_en IS NOT NULL AND TRIM(s.text_en) <> '') AS sentence_count,
+            (SELECT COUNT(*) FROM shadow_progress p
+               WHERE p.media_id = m.id AND p.best_score >= ${SHADOW_DONE}) AS done_count,
+            (SELECT COUNT(*) FROM shadow_progress p WHERE p.media_id = m.id) AS attempted_count
+       FROM media_items m
+       ORDER BY m.title`,
+    )
+    .filter((m) => m.sentence_count > 0);
+}
+
+// ---------------------------------------------------------------------------
+// Kesfet ana ekrani: okuma metinleri + calisma kesitleri + siradaki gorev.
+// Tum metrikler GERCEK (kelime say., okuma dk, klip suresi, shadow ilerlemesi).
+// ---------------------------------------------------------------------------
+type ArticleSeed = {
+  id: string;
+  title: string;
+  source?: string | null;
+  cefr?: string | null;
+  topic?: string | null;
+  body_en: string;
+  body_tr?: string | null;
+};
+
+export type ArticleRow = {
+  id: string;
+  title: string;
+  source: string | null;
+  cefr: string | null;
+  topic: string | null;
+  word_count: number;
+  read_minutes: number;
+};
+export type ArticleFull = ArticleRow & { body_en: string; body_tr: string | null };
+
+export function getArticles(): ArticleRow[] {
+  return db.getAllSync<ArticleRow>(
+    `SELECT id, title, source, cefr, topic, word_count, read_minutes FROM articles ORDER BY cefr, title`,
+  );
+}
+export function getArticle(id: string): ArticleFull | null {
+  return (
+    db.getFirstSync<ArticleFull>(
+      `SELECT id, title, source, cefr, topic, word_count, read_minutes, body_en, body_tr
+       FROM articles WHERE id = ?`,
+      [id],
+    ) ?? null
+  );
+}
+
+// Calisma kesiti: bir videodan cikan TEK cumle (klip). Kart birimi budur; ham
+// video degil. start/end = klibin video icindeki zaman araligi (kesit suresi).
+export type SentenceClip = {
+  media_id: string;
+  youtube_id: string;
+  video_url: string | null;
+  title: string; // kaynak video basligi
+  idx: number;
+  start_ms: number;
+  end_ms: number;
+  text_en: string;
+  text_tr: string | null;
+  cefr: string | null;
+};
+
+// İzle kesitleri: obek (chunk) yogunlugu en yuksek cumleler (izlemeye en zengin).
+export type WatchClip = SentenceClip & { chunk_count: number };
+export function getWatchClips(limit = 40): WatchClip[] {
+  return db.getAllSync<WatchClip>(
+    `SELECT s.media_id, m.youtube_id, m.video_url, m.title, s.idx, s.start_ms, s.end_ms,
+            s.text_en, s.text_tr, s.cefr,
+            (SELECT COUNT(*) FROM chunks c WHERE c.media_id = s.media_id AND c.sentence_idx = s.idx) AS chunk_count
+     FROM sentences s JOIN media_items m ON m.id = s.media_id
+     WHERE s.text_en IS NOT NULL AND TRIM(s.text_en) <> ''
+     ORDER BY chunk_count DESC, s.media_id, s.idx
+     LIMIT ?`,
+    [limit],
+  );
+}
+
+// Shadowing kesitleri: henuz bitmemis (best_score < SHADOW_DONE) cumleler once.
+export type ShadowClip = SentenceClip & { best_score: number; attempts: number; done: number };
+export function getShadowClips(limit = 40): ShadowClip[] {
+  return db.getAllSync<ShadowClip>(
+    `SELECT s.media_id, m.youtube_id, m.video_url, m.title, s.idx, s.start_ms, s.end_ms,
+            s.text_en, s.text_tr, s.cefr,
+            COALESCE(p.best_score, 0) AS best_score,
+            COALESCE(p.attempts, 0) AS attempts,
+            CASE WHEN COALESCE(p.best_score, 0) >= ${SHADOW_DONE} THEN 1 ELSE 0 END AS done
+     FROM sentences s JOIN media_items m ON m.id = s.media_id
+     LEFT JOIN shadow_progress p ON p.media_id = s.media_id AND p.sent_idx = s.idx
+     WHERE s.text_en IS NOT NULL AND TRIM(s.text_en) <> ''
+     ORDER BY done ASC, attempts ASC, s.media_id, s.idx
+     LIMIT ?`,
+    [limit],
+  );
+}
+
+// Gramer kesitleri: icinde bir gramer kalibi gecen cumleler (kalip etiketiyle).
+export type GrammarClip = SentenceClip & { norm_pattern: string; label_tr: string };
+export function getGrammarClips(limit = 40): GrammarClip[] {
+  return db.getAllSync<GrammarClip>(
+    `SELECT gp.media_id, m.youtube_id, m.video_url, m.title, gp.sentence_idx AS idx,
+            s.start_ms, s.end_ms, s.text_en, s.text_tr, s.cefr,
+            gp.norm_pattern, gt.label_tr
+     FROM grammar_patterns gp
+     JOIN media_items m ON m.id = gp.media_id
+     JOIN sentences s ON s.media_id = gp.media_id AND s.idx = gp.sentence_idx
+     JOIN grammar_topics gt ON gt.norm_pattern = gp.norm_pattern
+     WHERE gp.norm_pattern IS NOT NULL AND TRIM(s.text_en) <> ''
+     GROUP BY gp.media_id, gp.sentence_idx, gp.norm_pattern
+     ORDER BY gp.media_id, gp.sentence_idx
+     LIMIT ?`,
+    [limit],
+  );
+}
+
+// Siradaki gorev: en son aktiviteye (izleme veya shadowing) gore bir SONRAKI
+// cumle-kesiti. Hic aktivite yoksa ilk videonun ilk cumlesi ("buradan basla").
+export type NextTask = SentenceClip & { domain: 'izle' | 'shadowing'; reason: string };
+export function getNextStudyTask(): NextTask | null {
+  const clipCols = `s.media_id, m.youtube_id, m.video_url, m.title, s.idx, s.start_ms, s.end_ms, s.text_en, s.text_tr, s.cefr`;
+  const w = db.getFirstSync<{ media_id: string; position_ms: number; updated_at: number }>(
+    `SELECT media_id, position_ms, updated_at FROM watch_progress ORDER BY updated_at DESC LIMIT 1`,
+  );
+  const sh = db.getFirstSync<{ media_id: string; sent_idx: number; updated_at: number }>(
+    `SELECT media_id, sent_idx, updated_at FROM shadow_progress ORDER BY updated_at DESC LIMIT 1`,
+  );
+  const wT = w?.updated_at ?? 0;
+  const shT = sh?.updated_at ?? 0;
+
+  // Hic aktivite yok: en bastan basla.
+  if (wT === 0 && shT === 0) {
+    const first = db.getFirstSync<SentenceClip>(
+      `SELECT ${clipCols} FROM sentences s JOIN media_items m ON m.id = s.media_id
+       WHERE TRIM(s.text_en) <> '' ORDER BY m.title, s.idx LIMIT 1`,
+    );
+    return first ? { ...first, domain: 'izle', reason: 'Buradan başla' } : null;
+  }
+
+  let mediaId: string;
+  let afterIdx: number;
+  let domain: 'izle' | 'shadowing';
+  let reason: string;
+  if (shT >= wT && sh) {
+    mediaId = sh.media_id;
+    afterIdx = sh.sent_idx;
+    domain = 'shadowing';
+    reason = 'Shadowing’e devam';
+  } else {
+    mediaId = w!.media_id;
+    domain = 'izle';
+    reason = 'İzlemeye devam';
+    const cur = db.getFirstSync<{ idx: number }>(
+      `SELECT idx FROM sentences WHERE media_id = ? AND start_ms <= ? ORDER BY idx DESC LIMIT 1`,
+      [mediaId, w!.position_ms],
+    );
+    afterIdx = cur?.idx ?? -1;
+  }
+
+  let next = db.getFirstSync<SentenceClip>(
+    `SELECT ${clipCols} FROM sentences s JOIN media_items m ON m.id = s.media_id
+     WHERE s.media_id = ? AND s.idx > ? AND TRIM(s.text_en) <> '' ORDER BY s.idx LIMIT 1`,
+    [mediaId, afterIdx],
+  );
+  if (!next) {
+    // Video bitti: baska bir videonun ilk cumlesi.
+    next = db.getFirstSync<SentenceClip>(
+      `SELECT ${clipCols} FROM sentences s JOIN media_items m ON m.id = s.media_id
+       WHERE s.media_id <> ? AND TRIM(s.text_en) <> '' ORDER BY m.title, s.idx LIMIT 1`,
+      [mediaId],
+    );
+    reason = 'Sıradaki video';
+  }
+  return next ? { ...next, domain, reason } : null;
 }
 
 export function getChunksForSentence(mediaId: string, sentenceIdx: number): LessonChunk[] {
@@ -586,6 +1264,30 @@ export function lookupLexeme(
   };
 }
 
+// Bir kokun (lemma) TUM turleri (isim/sifat/fiil...) anlamlariyla. Kelime sheet'i
+// "turleri ve halleri" bolumunu bundan doldurur. Ayni yazilisin farkli POS'lari
+// ayri lexicon kaydidir; hepsini getirir.
+export type LexemeForm = {
+  lexicon_id: number;
+  lemma: string;
+  pos: string;
+  cefr: string | null;
+  senses: Sense[];
+};
+export function getLexemeFormsByLemma(lemma: string): LexemeForm[] {
+  const rows = db.getAllSync<{ id: number; lemma: string; pos: string; cefr: string | null }>(
+    `SELECT id, lemma, pos, cefr FROM lexicon WHERE lemma = ? ORDER BY pos`,
+    [lemma.toLowerCase().trim()],
+  );
+  return rows.map((r) => ({
+    lexicon_id: r.id,
+    lemma: r.lemma,
+    pos: r.pos,
+    cefr: r.cefr,
+    senses: sensesFor(r.id),
+  }));
+}
+
 // Vocabulary Hub: ogrenilen tum kelimeler (occurrence -> lexicon) CEFR/lemma ile.
 export type VocabItem = { lexicon_id: number; lemma: string; pos: string; cefr: string };
 export function getVocabForSentence(mediaId: string, sentenceIdx: number): VocabItem[] {
@@ -594,6 +1296,388 @@ export function getVocabForSentence(mediaId: string, sentenceIdx: number): Vocab
      FROM word_occurrences o JOIN lexicon l ON l.id = o.lexicon_id
      WHERE o.media_id = ? AND o.sentence_idx = ? ORDER BY l.lemma`,
     [mediaId, sentenceIdx],
+  );
+}
+
+// --- Vocabulary Hub ---
+// Gorulen (occurrence'i olan) tum icerik kokleri; anlam + kac videoda gectigi +
+// FSRS hafiza kararliligi ile. CEFR/lemma sirali.
+export type VocabHubRow = {
+  lexicon_id: number;
+  lemma: string;
+  pos: string;
+  cefr: string | null;
+  domain: string; // COALESCE(l.domain,'GENERAL')
+  first_sense: string | null;
+  sense_count: number;
+  occ_count: number;
+  video_count: number;
+  stability: number | null; // FSRS kararlilik (gun); SRS'te degilse null
+  card_count: number; // bu koke ait SRS kart sayisi
+};
+
+export type VocabCefrCount = { cefr: string | null; c: number };
+export type VocabDomainCount = { domain: string; c: number };
+
+// CEFR tabani: A1/A2 (temel/islev kelimeleri) sozluk hub'inda GORUNMEZ; en az B1.
+// Seviyesi bilinmeyen (null) kokler gosterilir (Layer B ileride seviye atar).
+const CEFR_FLOOR = `(l.cefr IS NULL OR l.cefr NOT IN ('A1', 'A2'))`;
+
+// Filtre cipleri icin CEFR basina gorulen kok sayisi (A1/A2 haric).
+export function getVocabCefrCounts(): VocabCefrCount[] {
+  return db.getAllSync<VocabCefrCount>(
+    `SELECT l.cefr, COUNT(DISTINCT l.id) AS c
+     FROM lexicon l JOIN word_occurrences o ON o.lexicon_id = l.id
+     WHERE ${CEFR_FLOOR}
+     GROUP BY l.cefr
+     ORDER BY (l.cefr IS NULL), l.cefr`,
+  );
+}
+
+// Tema (domain) basina gorulen kok sayisi (A1/A2 haric). null tema -> GENERAL.
+// Filtre cipleri icin; yalniz >0 olan temalar ekranda gosterilir.
+export function getVocabDomainCounts(): VocabDomainCount[] {
+  return db.getAllSync<VocabDomainCount>(
+    `SELECT COALESCE(l.domain, 'GENERAL') AS domain, COUNT(DISTINCT l.id) AS c
+     FROM lexicon l JOIN word_occurrences o ON o.lexicon_id = l.id
+     WHERE ${CEFR_FLOOR}
+     GROUP BY COALESCE(l.domain, 'GENERAL')
+     ORDER BY c DESC`,
+  );
+}
+
+// Kelime listesi: tema ve/veya CEFR filtresiyle. Ikisi de bos ise tum hub (A1/A2 haric).
+export function getVocabulary(filter?: { cefr?: string | null; domain?: string | null }): VocabHubRow[] {
+  const conds = [CEFR_FLOOR];
+  const args: (string | null)[] = [];
+  if (filter?.cefr) {
+    conds.push(`l.cefr = ?`);
+    args.push(filter.cefr);
+  }
+  if (filter?.domain) {
+    conds.push(`COALESCE(l.domain, 'GENERAL') = ?`);
+    args.push(filter.domain);
+  }
+  return db.getAllSync<VocabHubRow>(
+    `SELECT l.id AS lexicon_id, l.lemma, l.pos, l.cefr, COALESCE(l.domain, 'GENERAL') AS domain,
+            (SELECT s.gloss_tr FROM senses s WHERE s.lexicon_id = l.id ORDER BY s.sense_idx LIMIT 1) AS first_sense,
+            (SELECT COUNT(*) FROM senses s WHERE s.lexicon_id = l.id) AS sense_count,
+            COUNT(o.id) AS occ_count,
+            COUNT(DISTINCT o.media_id) AS video_count,
+            (SELECT MAX(c.stability) FROM srs_cards c WHERE c.front_type = 'vocab' AND c.lexicon_id = l.id) AS stability,
+            (SELECT COUNT(*) FROM srs_cards c WHERE c.front_type = 'vocab' AND c.lexicon_id = l.id) AS card_count
+     FROM lexicon l JOIN word_occurrences o ON o.lexicon_id = l.id
+     WHERE ${conds.join(' AND ')}
+     GROUP BY l.id
+     ORDER BY (l.cefr IS NULL), l.cefr, l.lemma`,
+    args,
+  );
+}
+
+export type LexemeVideo = { media_id: string; title: string; cnt: number };
+export type LexemeDetail = {
+  lexicon_id: number;
+  lemma: string;
+  pos: string;
+  cefr: string | null;
+  senses: Sense[];
+  videos: LexemeVideo[];
+  stability: number | null;
+  state: number | null;
+  firstOcc: { media_id: string; sentence_idx: number } | null;
+};
+
+// Bir kokun tam detayi: anlamlar + hangi videolarda + SRS durumu + ilk gecis.
+export function getLexemeDetail(lexiconId: number): LexemeDetail | null {
+  const lx = db.getFirstSync<{ lemma: string; pos: string; cefr: string | null }>(
+    `SELECT lemma, pos, cefr FROM lexicon WHERE id = ?`,
+    [lexiconId],
+  );
+  if (!lx) return null;
+  const videos = db.getAllSync<LexemeVideo>(
+    `SELECT o.media_id, m.title, COUNT(*) AS cnt
+     FROM word_occurrences o JOIN media_items m ON m.id = o.media_id
+     WHERE o.lexicon_id = ? GROUP BY o.media_id ORDER BY cnt DESC`,
+    [lexiconId],
+  );
+  const srs = db.getFirstSync<{ stability: number | null; state: number | null }>(
+    `SELECT MAX(stability) AS stability, MAX(state) AS state
+     FROM srs_cards WHERE front_type = 'vocab' AND lexicon_id = ?`,
+    [lexiconId],
+  );
+  const firstOcc = db.getFirstSync<{ media_id: string; sentence_idx: number }>(
+    `SELECT media_id, sentence_idx FROM word_occurrences
+     WHERE lexicon_id = ? ORDER BY media_id, start_ms LIMIT 1`,
+    [lexiconId],
+  );
+  return {
+    lexicon_id: lexiconId,
+    lemma: lx.lemma,
+    pos: lx.pos,
+    cefr: lx.cefr,
+    senses: sensesFor(lexiconId),
+    videos,
+    stability: srs?.stability ?? null,
+    state: srs?.state ?? null,
+    firstOcc: firstOcc ?? null,
+  };
+}
+
+// --- Sozluk kutuphanesi: Obek ve Gramer listeleri (segment icin) ---
+export type ChunkLibRow = {
+  text_en: string;
+  text_tr: string;
+  type: string;
+  cefr: string;
+  media_count: number;
+};
+export function getChunksLibrary(): ChunkLibRow[] {
+  return db.getAllSync<ChunkLibRow>(
+    `SELECT text_en,
+            MAX(text_tr) AS text_tr,
+            MAX(type) AS type,
+            MAX(cefr) AS cefr,
+            COUNT(DISTINCT media_id) AS media_count
+     FROM chunks GROUP BY text_en ORDER BY text_en`,
+  );
+}
+
+export type GrammarLibRow = {
+  norm_pattern: string;
+  label_tr: string;
+  category: string;
+  cefr: string | null;
+  formula: string | null;
+  cnt: number; // bu kalibin gectigi cumle sayisi (calisma cumlesi)
+  video_count: number; // kac farkli videoda geciyor (video kesiti)
+  poster_media: string | null; // kalibin EN COK gectigi video (kart posteri icin)
+  saved: number; // 0/1: SRS'e eklendi mi (front_type='grammar')
+  srs_state: number | null; // FSRS: 0 yeni, 1 ogreniliyor, 2 ogrenildi, 3 tekrar
+  srs_stability: number | null; // FSRS kararlilik (gun)
+};
+// Not: (front_type,front_en) SRS'te benzersiz (ux_srs_other) -> gramer basina
+// en fazla 1 kart, bu yuzden LEFT JOIN 1:1'dir ve GROUP BY guvenli.
+export function getGrammarLibrary(): GrammarLibRow[] {
+  return db.getAllSync<GrammarLibRow>(
+    `SELECT gp.norm_pattern, gt.label_tr, gt.category, gt.cefr, gt.formula,
+            COUNT(*) AS cnt,
+            COUNT(DISTINCT gp.media_id) AS video_count,
+            (SELECT gp2.media_id FROM grammar_patterns gp2
+             WHERE gp2.norm_pattern = gp.norm_pattern
+             GROUP BY gp2.media_id ORDER BY COUNT(*) DESC, gp2.media_id LIMIT 1) AS poster_media,
+            CASE WHEN c.id IS NULL THEN 0 ELSE 1 END AS saved,
+            c.state AS srs_state,
+            c.stability AS srs_stability
+     FROM grammar_patterns gp
+     JOIN grammar_topics gt ON gt.norm_pattern = gp.norm_pattern
+     LEFT JOIN srs_cards c ON c.front_type = 'grammar' AND c.front_en = gp.norm_pattern
+     WHERE gp.norm_pattern IS NOT NULL
+     GROUP BY gp.norm_pattern
+     ORDER BY gt.category, gt.label_tr`,
+  );
+}
+
+// --- Konular (Ogren ana ekrani: gorsel kartlar) ---
+export type TopicRow = { topic: string; word_count: number };
+export function getTopics(): TopicRow[] {
+  return db.getAllSync<TopicRow>(
+    `SELECT m.topic, COUNT(DISTINCT o.lexicon_id) AS word_count
+     FROM media_items m JOIN word_occurrences o ON o.media_id = m.id
+     WHERE m.topic IS NOT NULL AND m.topic <> '' AND o.lexicon_id IS NOT NULL
+     GROUP BY m.topic ORDER BY word_count DESC`,
+  );
+}
+
+// Bir konunun TUM ogeleri (gramer + ifade/kalip + kelime), tek liste, tip etiketli.
+export type TopicItem = {
+  kind: 'grammar' | 'chunk' | 'word';
+  key: string; // grammar: norm_pattern | chunk: text_en | word: lexicon_id
+  title: string;
+  sub: string | null;
+  cefr: string | null;
+};
+export function getTopicItems(topic: string): TopicItem[] {
+  const grammar = db.getAllSync<{ key: string; title: string; cefr: string | null }>(
+    `SELECT DISTINCT gp.norm_pattern AS key, gt.label_tr AS title, gt.cefr AS cefr
+     FROM grammar_patterns gp
+     JOIN media_items m ON m.id = gp.media_id
+     JOIN grammar_topics gt ON gt.norm_pattern = gp.norm_pattern
+     WHERE m.topic = ? AND gp.norm_pattern IS NOT NULL
+     ORDER BY gt.category, gt.label_tr`,
+    [topic],
+  );
+  const chunks = db.getAllSync<{ key: string; sub: string | null }>(
+    `SELECT c.text_en AS key, MAX(c.text_tr) AS sub
+     FROM chunks c JOIN media_items m ON m.id = c.media_id
+     WHERE m.topic = ? GROUP BY c.text_en ORDER BY c.text_en`,
+    [topic],
+  );
+  const words = db.getAllSync<{ key: string; title: string; sub: string | null; cefr: string | null }>(
+    `SELECT l.id AS key, l.lemma AS title, l.cefr AS cefr,
+            (SELECT gloss_tr FROM senses s WHERE s.lexicon_id = l.id ORDER BY sense_idx LIMIT 1) AS sub
+     FROM lexicon l
+     JOIN word_occurrences o ON o.lexicon_id = l.id
+     JOIN media_items m ON m.id = o.media_id
+     WHERE m.topic = ? AND (l.cefr IS NULL OR l.cefr NOT IN ('A1','A2'))
+     GROUP BY l.id ORDER BY l.lemma`,
+    [topic],
+  );
+  return [
+    ...grammar.map((g) => ({ kind: 'grammar' as const, key: g.key, title: g.title, sub: null, cefr: g.cefr })),
+    ...chunks.map((c) => ({ kind: 'chunk' as const, key: c.key, title: c.key, sub: c.sub, cefr: null })),
+    ...words.map((w) => ({ kind: 'word' as const, key: String(w.key), title: w.title, sub: w.sub, cefr: w.cefr })),
+  ];
+}
+
+// --- Kaydedilenler (Pratik ekrani: SRS'e eklenmis cumle/kelime/obek) ---
+export type SavedCard = {
+  id: number;
+  front_type: string;
+  front_en: string;
+  back_tr: string | null;
+  lexicon_id: number | null;
+  due_ms: number | null;
+};
+export function getSavedCards(): SavedCard[] {
+  return db.getAllSync<SavedCard>(
+    `SELECT id, front_type, front_en, back_tr, lexicon_id, due_ms
+     FROM srs_cards ORDER BY due_ms IS NULL, due_ms, front_type`,
+  );
+}
+
+// Kartlarim hub'i icin zenginlestirilmis kart listesi: FSRS durumu + kararlilik +
+// kaynak video basligi. Metrikler (yeni/tekrar/kritik, hafiza koruma) buradan hesaplanir.
+export type CardFull = {
+  id: number;
+  front_type: string;
+  front_en: string;
+  back_tr: string | null;
+  lexicon_id: number | null;
+  media_id: string | null;
+  media_title: string | null;
+  due_ms: number | null;
+  state: number;
+  stability: number | null;
+  card_json: string;
+};
+export function getAllCards(): CardFull[] {
+  return db.getAllSync<CardFull>(
+    `SELECT c.id, c.front_type, c.front_en, c.back_tr, c.lexicon_id, c.media_id,
+            (SELECT m.title FROM media_items m WHERE m.id = c.media_id) AS media_title,
+            c.due_ms, c.state, c.stability, c.card_json
+     FROM srs_cards c
+     ORDER BY c.due_ms IS NULL, c.due_ms`,
+  );
+}
+
+// --- Ornek kullanimlar (transfer / ">=5 farkli baglam") ---
+export type ExampleSeed = {
+  owner_type: 'lexeme' | 'chunk' | 'grammar';
+  owner_key: string;
+  text_en: string;
+  text_tr?: string | null;
+  cefr?: string | null;
+};
+export type ExampleRow = { text_en: string; text_tr: string | null; cefr: string | null };
+
+function getExamples(ownerType: string, ownerKey: string, limit = 8): ExampleRow[] {
+  return db.getAllSync<ExampleRow>(
+    `SELECT text_en, text_tr, cefr FROM examples
+     WHERE owner_type = ? AND owner_key = ? LIMIT ?`,
+    [ownerType, ownerKey, limit],
+  );
+}
+
+export function getLexemeExamples(lemma: string, pos: string): ExampleRow[] {
+  return getExamples('lexeme', `${lemma}|${pos}`, 8);
+}
+export function getChunkExamples(textEn: string): ExampleRow[] {
+  return getExamples('chunk', textEn, 8);
+}
+export function getGrammarExamples(normPattern: string): ExampleRow[] {
+  return getExamples('grammar', normPattern, 8);
+}
+
+// Gramer icin GERCEK corpus ornekleri: ayni norm_pattern'a sahip diger cumleler
+// (baska videolar/anlar). LLM ornekleriyle birlikte ">=5 baglam"i besler.
+export type GrammarUsage = {
+  media_id: string;
+  title: string;
+  sentence_idx: number;
+  text_en: string;
+  text_tr: string;
+  span_start: number | null;
+  span_end: number | null;
+  sent_start: number; // sahne klibi icin cumle zaman araligi
+  sent_end: number;
+};
+export function getGrammarUsagesByPattern(
+  normPattern: string,
+  exclude?: { mediaId: string; sentenceIdx: number },
+  limit = 10,
+): GrammarUsage[] {
+  return db.getAllSync<GrammarUsage>(
+    `SELECT DISTINCT gp.media_id, m.title, gp.sentence_idx, s.text_en, s.text_tr,
+            gp.span_start, gp.span_end, s.start_ms AS sent_start, s.end_ms AS sent_end
+     FROM grammar_patterns gp
+     JOIN media_items m ON m.id = gp.media_id
+     JOIN sentences s ON s.media_id = gp.media_id AND s.idx = gp.sentence_idx
+     WHERE gp.norm_pattern = ?
+       AND NOT (gp.media_id = ? AND gp.sentence_idx = ?)
+     ORDER BY gp.media_id, gp.sentence_idx
+     LIMIT ?`,
+    [normPattern, exclude?.mediaId ?? '', exclude?.sentenceIdx ?? -1, limit],
+  );
+}
+
+// --- Capraz-video graf (Obsidian benzeri) ---
+// lexicon (lemma,pos) benzersiz ve dersler arasi PAYLASIMLI; ayni kok farkli
+// videolardaki occurrence'lari tek lexicon_id altinda toplar. Boylece bir kelimeyi
+// calisirken 20 videodaki tum gecisleri zaman damgasiyla getirebiliriz.
+export type CrossOccurrence = {
+  media_id: string;
+  title: string;
+  sentence_idx: number;
+  surface: string;
+  start_ms: number;
+  end_ms: number;
+  text_en: string;
+  text_tr: string;
+  sent_start: number; // sahne klibi icin cumle zaman araligi
+  sent_end: number;
+};
+
+// Bir kok (lemma) icin TUM videolardaki gecisler (Capraz Baglam Oynatici verisi).
+export function getCrossVideoOccurrencesByLemma(lemma: string): CrossOccurrence[] {
+  return db.getAllSync<CrossOccurrence>(
+    `SELECT o.media_id, m.title, o.sentence_idx, o.surface, o.start_ms, o.end_ms,
+            s.text_en, s.text_tr, s.start_ms AS sent_start, s.end_ms AS sent_end
+     FROM word_occurrences o
+     JOIN lexicon l ON l.id = o.lexicon_id
+     JOIN media_items m ON m.id = o.media_id
+     JOIN sentences s ON s.media_id = o.media_id AND s.idx = o.sentence_idx
+     WHERE l.lemma = ?
+     ORDER BY o.media_id, o.start_ms`,
+    [lemma.toLowerCase().trim()],
+  );
+}
+
+// Birden fazla FARKLI videoda gecen kokler (graf koprusu) + video sayisi.
+export type BridgeLemma = { lemma: string; pos: string; video_count: number; total: number };
+export function getCrossVideoBridges(minVideos = 2, limit = 100): BridgeLemma[] {
+  // Yalnizca icerik kelimeleri (isim/fiil/sifat/zarf/ozel isim). Islev kelimeleri
+  // (the/a/to/of...) grafi bogar, elenir.
+  return db.getAllSync<BridgeLemma>(
+    `SELECT l.lemma, l.pos,
+            COUNT(DISTINCT o.media_id) AS video_count,
+            COUNT(*) AS total
+     FROM word_occurrences o JOIN lexicon l ON l.id = o.lexicon_id
+     WHERE l.pos IN ('NOUN', 'VERB', 'ADJ', 'ADV', 'PROPN')
+     GROUP BY l.id
+     HAVING COUNT(DISTINCT o.media_id) >= ?
+     ORDER BY video_count DESC, total DESC
+     LIMIT ?`,
+    [minVideos, limit],
   );
 }
 
@@ -667,4 +1751,168 @@ export function countDueCards(): number {
     [Date.now()],
   );
   return r?.c ?? 0;
+}
+
+// ---------------------------------------------------------------------------
+// DERS MUFREDATI SORGULARI: unite -> GERCEK icerik (mercek). Gramer/kelime/pratik
+// otomatik (norm_pattern + domain uzerinden); reading/listening elle etiketten
+// (UNIT_BY_ARTICLE / UNIT_BY_MEDIA). Icerik yoksa bos doner (dururstce bos UI).
+// ---------------------------------------------------------------------------
+function unitPh(n: number): string {
+  return Array(n).fill('?').join(', ');
+}
+function mediaIdsForUnit(no: number): string[] {
+  return Object.keys(UNIT_BY_MEDIA).filter((k) => UNIT_BY_MEDIA[k] === no);
+}
+function articleIdsForUnit(no: number): string[] {
+  return Object.keys(UNIT_BY_ARTICLE).filter((k) => UNIT_BY_ARTICLE[k] === no);
+}
+
+export type CourseUnitOverview = CourseUnit & {
+  grammarCount: number; // bu unitenin baglanabilir kaliplarindan kaci videolarda geciyor
+  vocabCount: number; // temaya ait gorulen kok sayisi
+  practiceCount: number; // pratik cumlesi sayisi
+  readingCount: number; // eslenen makale
+  listeningCount: number; // eslenen video
+};
+
+function countIn(table: string, col: string, vals: string[]): number {
+  if (!vals.length) return 0;
+  const r = db.getFirstSync<{ c: number }>(
+    `SELECT COUNT(*) AS c FROM ${table} WHERE ${col} IN (${unitPh(vals.length)})`,
+    vals,
+  );
+  return r?.c ?? 0;
+}
+
+function unitVocabCount(domains: string[]): number {
+  if (!domains.length) return 0;
+  const r = db.getFirstSync<{ c: number }>(
+    `SELECT COUNT(DISTINCT l.id) AS c FROM lexicon l JOIN word_occurrences o ON o.lexicon_id = l.id
+     WHERE l.domain IN (${unitPh(domains.length)})`,
+    domains,
+  );
+  return r?.c ?? 0;
+}
+
+function unitGrammarCount(grammar: string[]): number {
+  if (!grammar.length) return 0;
+  const r = db.getFirstSync<{ c: number }>(
+    `SELECT COUNT(DISTINCT norm_pattern) AS c FROM grammar_patterns WHERE norm_pattern IN (${unitPh(grammar.length)})`,
+    grammar,
+  );
+  return r?.c ?? 0;
+}
+
+// Pratik cumlesi: cumle ya unitenin bir gramerini icerir YA DA temasindan bir kelime gecer.
+function unitPracticeWhere(grammar: string[], domains: string[]): { sql: string; args: string[] } | null {
+  const clauses: string[] = [];
+  const args: string[] = [];
+  if (grammar.length) {
+    clauses.push(
+      `EXISTS(SELECT 1 FROM grammar_patterns gp WHERE gp.media_id = s.media_id AND gp.sentence_idx = s.idx AND gp.norm_pattern IN (${unitPh(grammar.length)}))`,
+    );
+    args.push(...grammar);
+  }
+  if (domains.length) {
+    clauses.push(
+      `EXISTS(SELECT 1 FROM word_occurrences o JOIN lexicon l ON l.id = o.lexicon_id WHERE o.media_id = s.media_id AND o.sentence_idx = s.idx AND l.domain IN (${unitPh(domains.length)}))`,
+    );
+    args.push(...domains);
+  }
+  if (!clauses.length) return null;
+  return { sql: clauses.join(' OR '), args };
+}
+
+function unitPracticeCount(grammar: string[], domains: string[]): number {
+  const w = unitPracticeWhere(grammar, domains);
+  if (!w) return 0;
+  const r = db.getFirstSync<{ c: number }>(`SELECT COUNT(*) AS c FROM sentences s WHERE ${w.sql}`, w.args);
+  return r?.c ?? 0;
+}
+
+// Tum uniteler + GERCEK icerik sayimlari (Kesfet ust seridi / ders ekrani).
+export function getCourseUnits(): CourseUnitOverview[] {
+  return COURSE_UNITS.map((u) => ({
+    ...u,
+    grammarCount: unitGrammarCount(u.grammar),
+    vocabCount: unitVocabCount(u.domains),
+    practiceCount: unitPracticeCount(u.grammar, u.domains),
+    readingCount: countIn('articles', 'id', articleIdsForUnit(u.no)),
+    listeningCount: countIn('media_items', 'id', mediaIdsForUnit(u.no)),
+  }));
+}
+
+export function getCourseUnit(no: number): CourseUnit | null {
+  return COURSE_UNITS.find((u) => u.no === no) ?? null;
+}
+
+// Unite grameri: enum'da baglanabilen kaliplar (kutuphane satiri).
+export function getUnitGrammar(no: number): GrammarLibRow[] {
+  const u = getCourseUnit(no);
+  if (!u || !u.grammar.length) return [];
+  const set = new Set(u.grammar);
+  return getGrammarLibrary().filter((g) => set.has(g.norm_pattern));
+}
+
+// Unite kelimeleri: temalarina ait gorulen kokler.
+export function getUnitVocab(no: number): VocabHubRow[] {
+  const u = getCourseUnit(no);
+  if (!u || !u.domains.length) return [];
+  return db.getAllSync<VocabHubRow>(
+    `SELECT l.id AS lexicon_id, l.lemma, l.pos, l.cefr, COALESCE(l.domain, 'GENERAL') AS domain,
+            (SELECT s.gloss_tr FROM senses s WHERE s.lexicon_id = l.id ORDER BY s.sense_idx LIMIT 1) AS first_sense,
+            (SELECT COUNT(*) FROM senses s WHERE s.lexicon_id = l.id) AS sense_count,
+            COUNT(o.id) AS occ_count,
+            COUNT(DISTINCT o.media_id) AS video_count,
+            (SELECT MAX(c.stability) FROM srs_cards c WHERE c.front_type = 'vocab' AND c.lexicon_id = l.id) AS stability,
+            (SELECT COUNT(*) FROM srs_cards c WHERE c.front_type = 'vocab' AND c.lexicon_id = l.id) AS card_count
+     FROM lexicon l JOIN word_occurrences o ON o.lexicon_id = l.id
+     WHERE l.domain IN (${unitPh(u.domains.length)})
+     GROUP BY l.id
+     ORDER BY (l.cefr IS NULL), l.cefr, l.lemma`,
+    u.domains,
+  );
+}
+
+// Unite pratik cumleleri (Konusma/Shadowing): gramer VEYA tema eslesen gercek cumleler.
+export function getUnitPractice(no: number, limit = 100): ShadowSentence[] {
+  const u = getCourseUnit(no);
+  if (!u) return [];
+  const w = unitPracticeWhere(u.grammar, u.domains);
+  if (!w) return [];
+  return db.getAllSync<ShadowSentence>(
+    `SELECT s.media_id, m.youtube_id, m.video_url, m.title, s.idx,
+            s.start_ms, s.end_ms, s.text_en, s.text_tr, s.cefr
+     FROM sentences s JOIN media_items m ON m.id = s.media_id
+     WHERE (${w.sql}) AND s.text_en IS NOT NULL AND TRIM(s.text_en) <> ''
+     ORDER BY s.media_id, s.idx
+     LIMIT ?`,
+    [...w.args, limit],
+  );
+}
+
+// Unite okuma metinleri (elle etiketli makaleler).
+export function getUnitReading(no: number): ArticleRow[] {
+  const ids = articleIdsForUnit(no);
+  if (!ids.length) return [];
+  return db.getAllSync<ArticleRow>(
+    `SELECT id, title, source, cefr, topic, word_count, read_minutes FROM articles
+     WHERE id IN (${unitPh(ids.length)}) ORDER BY cefr, title`,
+    ids,
+  );
+}
+
+// Unite dinleme/izleme (elle etiketli videolar), sure/obek/cumle sayilariyla.
+export function getUnitListening(no: number): CatalogItem[] {
+  const ids = mediaIdsForUnit(no);
+  if (!ids.length) return [];
+  return db.getAllSync<CatalogItem>(
+    `SELECT m.*,
+            COALESCE((SELECT MAX(s.end_ms) FROM sentences s WHERE s.media_id = m.id), 0) AS duration_ms,
+            (SELECT COUNT(DISTINCT c.text_en) FROM chunks c WHERE c.media_id = m.id) AS chunk_count,
+            (SELECT COUNT(*) FROM sentences s WHERE s.media_id = m.id) AS sentence_count
+     FROM media_items m WHERE m.id IN (${unitPh(ids.length)}) ORDER BY m.title`,
+    ids,
+  );
 }

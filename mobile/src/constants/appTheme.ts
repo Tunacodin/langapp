@@ -9,13 +9,20 @@ export const colors = {
   muted: '#717171', // ikincil metin
   line: '#EBEBEB', // ince ayrac / hairline kenarlik
   lineStrong: '#DDDDDD', // belirgin kenarlik (input, buton dis cizgi)
-  accent: '#FF385C', // Rausch: tek guclu vurgu (mercan/kirmizi)
+  accent: '#FF385C', // Rausch: tek guclu vurgu (mercan/kirmizi) - CTA / kayit / ileri
   accentDark: '#E00B41', // basili/hover mercan
   accentSoft: '#FFE8EC', // mercanin soluk tonu (rozet zemini)
+  teal: '#008489', // ikincil aksan: gramer/yapi belirtecleri, chunk sinirlari
+  tealSoft: '#E6F4F4', // teal soluk ton (gramer highlight zemini)
   success: '#008A05', // fiyat/onay yesili
   warning: '#FFB400', // uyari sarisi
   danger: '#C13515', // hata kirmizisi (Airbnb error)
   star: '#222222', // yildiz/derece ikonu
+  // FSRS karar renkleri (recall butonlari + durum rozetleri)
+  again: '#EF4444', // tekrar/hata
+  hard: '#F59E0B', // zor
+  good: '#10B981', // iyi/basari
+  easy: '#008489', // kolay (teal ile ayni)
 } as const;
 
 export const space = {

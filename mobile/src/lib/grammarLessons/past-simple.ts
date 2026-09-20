@@ -1,0 +1,542 @@
+import { GrammarLesson } from './types';
+
+// SEED: Past Simple (Geçmiş Zaman) tam eğitim modülü. 6 adımın tamamı.
+export const PAST_SIMPLE: GrammarLesson = {
+  minutes: 4,
+  summary:
+    'Geçmişte belirli bir zamanda gerçekleşmiş ve tamamen tamamlanmış eylemleri, alışkanlıkları veya durumları anlatmak için kullanılır.',
+  summaryStrong: 'tamamen tamamlanmış',
+  timeMarkers: [
+    'yesterday',
+    'last night',
+    'two days ago',
+    'in 2018',
+    'last summer',
+    'an hour ago',
+    'when I was young',
+  ],
+  structures: [
+    {
+      key: 'positive',
+      num: 1,
+      title: 'Olumlu Cümle Yapısı',
+      subtitle: 'Affirmative',
+      metaTag: 'Özneye göre değişmez',
+      formula: [
+        { text: 'Subject (Özne)' },
+        { text: 'Fiil (V2 / -ed)', style: 'accent' },
+        { text: 'Nesne / Zaman', style: 'muted' },
+      ],
+      example: {
+        text: 'Sarah walked to school yesterday.',
+        highlight: ['walked'],
+        spoken: 'Sarah walked to school yesterday.',
+        translation: 'Sarah dün okula yürüdü.',
+      },
+      tip: 'Bütün öznelerde (I, You, He, She, It, We, They) fiil aynı şekilde V2 biçimini alır; üçüncü tekil şahısta ek değişmez.',
+      tipTone: 'amber',
+    },
+    {
+      key: 'negative',
+      num: 2,
+      title: 'Olumsuz Cümle Yapısı',
+      subtitle: 'Negative',
+      metaTag: "didn't + V1",
+      formula: [
+        { text: 'Subject (Özne)' },
+        { text: "didn't", style: 'accent' },
+        { text: 'Fiil (V1 - Yalın Hal)', style: 'neutral' },
+        { text: 'Nesne / Zaman', style: 'muted' },
+      ],
+      example: {
+        text: "Sarah didn't walk to school yesterday.",
+        highlight: ["didn't walk"],
+        spoken: 'Sarah did not walk to school yesterday.',
+        translation: 'Sarah dün okula yürümedi.',
+      },
+      tip: "Olumsuzda 'didn't' geldiği için fiil V2 değil, kesinlikle orijinal yalın hali (V1) ile kalır! (didn't walked değil, didn't walk)",
+      tipTone: 'red',
+    },
+    {
+      key: 'question',
+      num: 3,
+      title: 'Soru Cümlesi Yapısı',
+      subtitle: 'Question / Interrogative',
+      metaTag: 'Did başa gelir',
+      formula: [
+        { text: 'Did', style: 'accent' },
+        { text: 'Subject (Özne)' },
+        { text: 'Fiil (V1 - Yalın Hal)', style: 'neutral' },
+        { text: 'Nesne / Zaman ?', style: 'muted' },
+      ],
+      example: {
+        text: 'Did Sarah walk to school yesterday?',
+        highlight: ['Did', 'walk'],
+        spoken: 'Did Sarah walk to school yesterday?',
+        translation: 'Sarah dün okula yürüdü mü?',
+      },
+      tip: "Soru cümlesinde 'Did' başa gelir, fiil yine yalın (V1) kullanılır. (Did you go? Doğru; Did you went? Yanlış!)",
+      tipTone: 'amber',
+    },
+  ],
+  verbForms: {
+    regular: {
+      title: 'Düzenli Fiiller (+ed)',
+      desc: 'Fiilin yalın haline son harfe göre -ed, -d, -ied veya son ünsüz ikizlenerek -ed eklenir.',
+      formula: 'V + ed',
+      items: [
+        { from: 'work', to: 'worked' },
+        { from: 'play', to: 'played' },
+        { from: 'live', to: 'lived', note: '(+d)' },
+        { from: 'study', to: 'studied', note: '(y→ied)' },
+        { from: 'stop', to: 'stopped', note: '(ünsüz ikizlenir)' },
+      ],
+    },
+    irregular: {
+      title: 'Düzensiz Fiiller (V2)',
+      desc: 'Herhangi bir ek almazlar, kelimenin kendisi tamamen değişir.',
+      items: [
+        { from: 'go', to: 'went' },
+        { from: 'see', to: 'saw' },
+        { from: 'buy', to: 'bought' },
+        { from: 'make', to: 'made' },
+        { from: 'have', to: 'had' },
+        { from: 'take', to: 'took' },
+        { from: 'find', to: 'found' },
+        { from: 'come', to: 'came' },
+      ],
+    },
+    note: 'Düzensiz fiillerin bir formülü yoktur. En sık kullanılan 30-40 fiil, cümleler okundukça ve duyuldukça zihne doğal olarak yerleşir.',
+  },
+  quiz: {
+    prompt: 'We {blank} (go) to the cinema two days ago.',
+    blankAnswer: 'went',
+    translation: 'İki gün önce sinemaya gittik.',
+    spoken: 'We went to the cinema two days ago.',
+    options: [
+      { label: 'went', correct: true },
+      { label: 'goed', correct: false },
+      { label: 'goes', correct: false },
+    ],
+    explainCorrect: '"go" düzensiz bir fiildir; V2 hali "went" olur.',
+    explainWrong: '"go" düzenli değildir (-ed almaz). Geçmiş zaman V2 biçimi "went".',
+  },
+  examples: {
+    minutes: 5,
+    intro:
+      'Kuralın günlük dilde olumlu, olumsuz ve soru yapılarında nasıl kullanıldığını doğal örneklerle inceleyin.',
+    tabs: [
+      {
+        key: 'positive',
+        tabLabel: '+ Olumlu',
+        groups: [
+          {
+            title: 'Düzenli fiillerle (-ed)',
+            tag: 'Düzenli kural',
+            color: 'red',
+            cards: [
+              {
+                en: 'I visited my grandparents last weekend.',
+                highlight: ['visited'],
+                tr: 'Geçen hafta sonu büyükanne ve büyükbabamı ziyaret ettim.',
+                badge: 'visit → visited (+ed)',
+                meta: 'Zaman: last weekend',
+              },
+              {
+                en: 'They played basketball after school yesterday.',
+                highlight: ['played'],
+                tr: 'Dün okuldan sonra basketbol oynadılar.',
+                badge: 'play → played (+ed)',
+                meta: 'Zaman: yesterday',
+              },
+            ],
+          },
+          {
+            title: 'Düzensiz fiillerle (V2)',
+            tag: 'Özel çekim',
+            color: 'teal',
+            cards: [
+              {
+                en: 'They bought a new car yesterday.',
+                highlight: ['bought'],
+                tr: 'Dün yeni bir araba satın aldılar.',
+                badge: 'buy → bought (düzensiz)',
+                meta: 'V1: buy / V2: bought',
+              },
+              {
+                en: 'We went to a cozy Italian restaurant two days ago.',
+                highlight: ['went'],
+                tr: 'İki gün önce samimi bir İtalyan restoranına gittik.',
+                badge: 'go → went (düzensiz)',
+                meta: 'Zaman: two days ago',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        key: 'negative',
+        tabLabel: '- Olumsuz',
+        groups: [
+          {
+            title: "Olumsuz kalıp: didn't + yalın fiil (V1)",
+            tag: 'Kritik kural',
+            color: 'red',
+            cards: [
+              {
+                en: "She didn't come to the meeting this morning.",
+                highlight: ["didn't come"],
+                tr: 'Bu sabah toplantıya gelmedi.',
+                badge: "didn't + come (V1)",
+                meta: 'came değil, come',
+              },
+              {
+                en: "I didn't watch the news last night.",
+                highlight: ["didn't watch"],
+                tr: 'Dün gece haberleri izlemedim.',
+                badge: "didn't + watch (yalın)",
+                meta: 'Zaman: last night',
+              },
+            ],
+          },
+          {
+            title: 'Günlük konuşma örnekleri',
+            tag: 'Yaygın hatalar',
+            color: 'teal',
+            cards: [
+              {
+                en: "They didn't buy the flight tickets yet.",
+                highlight: ["didn't buy"],
+                tr: 'Uçak biletlerini henüz almadılar.',
+                badge: "didn't + buy (V1)",
+                meta: 'bought değil, buy',
+              },
+              {
+                en: "We didn't go out because of the heavy rain.",
+                highlight: ["didn't go"],
+                tr: 'Şiddetli yağmur yüzünden dışarı çıkmadık.',
+                badge: "didn't + go",
+                meta: 'went değil, go',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        key: 'question',
+        tabLabel: '? Soru',
+        groups: [
+          {
+            title: 'Genel soru: Did + özne + yalın fiil?',
+            tag: 'Soru mantığı',
+            color: 'red',
+            cards: [
+              {
+                en: 'Did you sleep well last night?',
+                highlight: ['Did you sleep'],
+                tr: 'Dün gece iyi uyudun mu?',
+                badge: 'Did + sleep (V1)',
+                meta: "Cevap: Yes, I did / No, I didn't",
+              },
+              {
+                en: 'Did they finish the project on time?',
+                highlight: ['Did they finish'],
+                tr: 'Projeyi zamanında bitirdiler mi?',
+                badge: 'Did + finish (V1)',
+                meta: 'finished değil, finish',
+              },
+            ],
+          },
+          {
+            title: 'Soru sözcükleriyle (Wh- + Did)',
+            tag: 'Wh- soruları',
+            color: 'teal',
+            cards: [
+              {
+                en: 'Where did you go on holiday last summer?',
+                highlight: ['did you go'],
+                tr: 'Geçen yaz tatilde nereye gittin?',
+                badge: 'Where did + go',
+                meta: 'Soru zarfı en başta',
+              },
+              {
+                en: 'What time did she arrive at the airport?',
+                highlight: ['did she arrive'],
+                tr: 'Havalimanına saat kaçta vardı?',
+                badge: 'What time did + arrive',
+                meta: 'arrived değil, arrive',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    quiz: {
+      prompt: 'Yesterday, we {blank} (see) a very interesting movie.',
+      blankAnswer: 'saw',
+      translation: 'Dün çok ilginç bir film izledik.',
+      spoken: 'Yesterday, we saw a very interesting movie.',
+      options: [
+        { label: 'saw', correct: true },
+        { label: 'seed', correct: false },
+        { label: 'seen', correct: false },
+      ],
+      explainCorrect: '"see" düzensiz bir fiildir; V2 hali "saw" (seed/seen değil).',
+      explainWrong: '"see" düzenli değildir (-ed almaz). Doğru V2 hali "saw".',
+    },
+  },
+  video: {
+    minutes: 6,
+    intro:
+      'Geçmiş zaman fiillerinin gerçek video kesitleri içinde nasıl aktığını izle, sonra 4 aşamalı pratikle pekiştir.',
+    practice: [
+      {
+        kind: 'gap',
+        instruction: 'Boşluk Doldurma · Fiil Çekimi',
+        prompt: 'We {blank} (start) the company in the garage.',
+        answer: 'started',
+        options: ['started', 'starts', 'was started'],
+        feedback: 'Doğru! Düzenli fiil "start" geçmişte "-ed" alarak "started" olur.',
+      },
+      {
+        kind: 'scramble',
+        instruction: 'Cümle Dizilimi · Sıralama',
+        hint: 'Blokları doğru sırayla dizerek cümleyi kur:',
+        blocks: ['Apple', 'We', 'the garage', 'started', 'in'],
+        correct: ['We', 'started', 'Apple', 'in', 'the garage'],
+        feedback: 'Doğru dizilim: özne + V2 (started) + nesne + yer.',
+      },
+      {
+        kind: 'error',
+        instruction: 'Hata Tespiti · Kural Analizi',
+        before: 'They ',
+        wrong: 'goed',
+        after: ' to the meeting and discussed the strategy.',
+        options: [
+          { label: 'goed (go → went olmalı)', correct: true },
+          { label: 'discussed (doğru çekim)', correct: false },
+        ],
+        feedback: 'Doğru tespit! "go" düzensizdir, 2. hali "went" olur; "goed" diye bir çekim yoktur.',
+      },
+      {
+        kind: 'gap',
+        instruction: 'Boşluk Doldurma · Düzensiz Fiil',
+        prompt: 'She {blank} (buy) a new phone yesterday.',
+        answer: 'bought',
+        options: ['bought', 'buyed', 'buys'],
+        feedback: 'Doğru! "buy" düzensizdir; geçmiş zaman hali "bought" (buyed değil).',
+      },
+    ],
+    tip: {
+      title: 'İzleme İpucu: Fiil Sesini Yakala',
+      text: 'Videoyu izlerken -ed takısının nasıl telaffuz edildiğine (t / d / ıd) ve düzensiz fiillerin (went, found) sesine odaklan; kural sonra oturur.',
+    },
+  },
+  reading: {
+    minutes: 7,
+    storyTitle: 'The Unexpected Journey',
+    intro:
+      'Past Simple fiillerinin zengin bir hikaye akışı ve doğal paragraf bağlamında nasıl birbirine bağlandığını oku, anlam çıkar ve pekiştir.',
+    paragraphs: [
+      {
+        section: 'Bölüm I • Ayrılış',
+        spoken:
+          'Last summer, Alex decided to leave the busy city behind. He packed his small backpack with only the essentials and took an early morning train to the mountains. The weather was unusually quiet, and the sun shone through the morning mist.',
+        segments: [
+          'Last summer, Alex ',
+          { verb: { base: 'decide', v2: 'decided', type: 'Düzenli (+d)', tr: 'karar verdi', tone: 'red' } },
+          ' to leave the busy city behind. He ',
+          { verb: { base: 'pack', v2: 'packed', type: 'Düzenli (+ed)', tr: 'paketledi, topladı', tone: 'red' } },
+          ' his small backpack with only the essentials and ',
+          { verb: { base: 'take', v2: 'took', type: 'Düzensiz (V2)', tr: 'bindi, aldı', tone: 'teal' } },
+          ' an early morning train to the mountains. The weather ',
+          { verb: { base: 'be', v2: 'was', type: 'Düzensiz durum fiili', tr: '...idi', tone: 'teal' } },
+          ' unusually quiet, and the sun ',
+          { verb: { base: 'shine', v2: 'shone', type: 'Düzensiz (V2)', tr: 'parladı, ışıldadı', tone: 'teal' } },
+          ' through the morning mist.',
+        ],
+      },
+      {
+        section: 'Bölüm II • Karşılama',
+        spoken:
+          'When he arrived at the small village of Eldridge, he noticed that time moved much slower there. He stayed at a family-run wooden inn where the host warmly welcomed him and offered hot herbal tea. They spoke about ancient mountain legends until midnight.',
+        segments: [
+          'When he ',
+          { verb: { base: 'arrive', v2: 'arrived', type: 'Düzenli (+d)', tr: 'vardı, ulaştı', tone: 'red' } },
+          ' at the small village of Eldridge, he ',
+          { verb: { base: 'notice', v2: 'noticed', type: 'Düzenli (+d)', tr: 'fark etti', tone: 'red' } },
+          ' that time ',
+          { verb: { base: 'move', v2: 'moved', type: 'Düzenli (+d)', tr: 'aktı, hareket etti', tone: 'red' } },
+          ' much slower there. He ',
+          { verb: { base: 'stay', v2: 'stayed', type: 'Düzenli (+ed)', tr: 'konakladı', tone: 'red' } },
+          ' at a family-run wooden inn where the host warmly ',
+          { verb: { base: 'welcome', v2: 'welcomed', type: 'Düzenli (+d)', tr: 'karşıladı', tone: 'red' } },
+          ' him and ',
+          { verb: { base: 'offer', v2: 'offered', type: 'Düzenli (+ed)', tr: 'ikram etti', tone: 'red' } },
+          ' hot herbal tea. They ',
+          { verb: { base: 'speak', v2: 'spoke', type: 'Düzensiz (V2)', tr: 'konuştular', tone: 'teal' } },
+          ' about ancient mountain legends until midnight.',
+        ],
+      },
+      {
+        section: 'Bölüm III • Keşif',
+        spoken:
+          "The next day, Alex didn't take the common tourist trail; instead, he explored the hidden waterfalls. He found an old stone bridge that connected two green valleys. For the first time in years, he felt completely calm.",
+        segments: [
+          'The next day, Alex ',
+          { verb: { base: 'did not take', v2: "didn't take", type: 'Olumsuz yapı', tr: 'kullanmadı, gitmedi', tone: 'green' } },
+          ' the common tourist trail; instead, he ',
+          { verb: { base: 'explore', v2: 'explored', type: 'Düzenli (+d)', tr: 'keşfetti', tone: 'red' } },
+          ' the hidden waterfalls. He ',
+          { verb: { base: 'find', v2: 'found', type: 'Düzensiz (V2)', tr: 'buldu', tone: 'teal' } },
+          ' an old stone bridge that ',
+          { verb: { base: 'connect', v2: 'connected', type: 'Düzenli (+ed)', tr: 'bağladı', tone: 'red' } },
+          ' two green valleys. For the first time in years, he ',
+          { verb: { base: 'feel', v2: 'felt', type: 'Düzensiz (V2)', tr: 'hissetti', tone: 'teal' } },
+          ' completely calm.',
+        ],
+      },
+      {
+        section: 'Bölüm IV • Dönüş',
+        spoken:
+          'After three peaceful days, Alex returned home. He wrote about the quiet village in his journal and promised to visit it again next year.',
+        segments: [
+          'After three peaceful days, Alex ',
+          { verb: { base: 'return', v2: 'returned', type: 'Düzenli (+ed)', tr: 'geri döndü', tone: 'red' } },
+          ' home. He ',
+          { verb: { base: 'write', v2: 'wrote', type: 'Düzensiz (V2)', tr: 'yazdı', tone: 'teal' } },
+          ' about the quiet village in his journal and ',
+          { verb: { base: 'promise', v2: 'promised', type: 'Düzenli (+d)', tr: 'söz verdi', tone: 'red' } },
+          ' to visit it again next year.',
+        ],
+      },
+    ],
+    highlights: [
+      { from: 'pack', to: 'packed', type: 'Düzenli', note: '+ed takısı ile oluşur', tone: 'red' },
+      { from: 'take', to: 'took', type: 'Düzensiz', note: 'Kökten ses değişimi', tone: 'teal' },
+      { from: 'shine', to: 'shone', type: 'Düzensiz', note: 'i → o ses değişimi', tone: 'teal' },
+      { from: 'write', to: 'wrote', type: 'Düzensiz', note: 'i → o kök değişimi', tone: 'teal' },
+      { from: 'feel', to: 'felt', type: 'Düzensiz', note: 'Duygu ve algı bildiren V2', tone: 'teal' },
+      { from: 'promise', to: 'promised', type: 'Düzenli', note: 'Sessiz e → +d', tone: 'red' },
+    ],
+    quiz: {
+      question: 'Metne göre Alex, dağ köyüne ulaştığında ne fark etti?',
+      questionEn: 'What did Alex do when he arrived at the mountain village?',
+      options: [
+        { label: 'He noticed that time moved slower and stayed at an inn.', correct: true },
+        { label: 'He immediately climbed the highest mountain peak.', correct: false },
+        { label: 'He missed his busy office routine in the city.', correct: false },
+      ],
+      notice: 'Doğru! 2. paragraftaki "...noticed that time moved slower..." ifadesi bu yanıtı doğruluyor.',
+    },
+    tip: {
+      title: 'Öğrenme İpucu: Geniş Bağlamda Gramer Edinimi',
+      text: 'Fiilleri tek tek ezberlemek yerine hikaye kurgusu içinde görmek, beynin olay örgüsüyle zaman kavramını (Past Simple) otomatik eşleştirmesini sağlar.',
+    },
+  },
+  recording: {
+    minutes: 5,
+    intro:
+      'Geçmiş zaman yapısını konuşarak pekiştir. Cümleyi dinle, sonra mikrofona basıp kendi sesinle tekrarla; telaffuzun ölçülsün.',
+    sentences: [
+      {
+        en: 'Last summer, Alex decided to leave the busy city.',
+        label: '1. decided to leave',
+        highlight: ['decided'],
+        tr: 'Geçen yaz Alex kalabalık şehri terk etmeye karar verdi.',
+        tip: '"decide" fiili "d" ile bittiği için -ed takısı /ɪd/ okunur: di-say-did. "desayd-ed" değil.',
+      },
+      {
+        en: 'We packed our bags and took an early train.',
+        label: '2. packed our bags',
+        highlight: ['packed', 'took'],
+        tr: 'Çantalarımızı topladık ve erken bir trene bindik.',
+        tip: '"pack" sessiz "k" ile bittiği için -ed burada /t/ okunur: "pakt". "take" düzensizdir: "took".',
+      },
+      {
+        en: "She didn't take the tourist train.",
+        label: "3. didn't take",
+        highlight: ["didn't take"],
+        tr: 'O, turist trenine binmedi.',
+        tip: "Olumsuzda fiil yalın kalır: \"didn't take\" (didn't took değil).",
+      },
+      {
+        en: 'Did you find the old stone bridge?',
+        label: '4. Did you find',
+        highlight: ['Did', 'find'],
+        tr: 'Eski taş köprüyü buldun mu?',
+        tip: 'Soruda "Did" + yalın fiil: "Did you find" (Did you found değil).',
+      },
+    ],
+  },
+  exam: {
+    minutes: 6,
+    passScore: 4,
+    intro:
+      'Kural mantığını, örnek cümleleri, video bağlamını ve telaffuz yapılarını bu karışık sınavla test et; sonra kartları FSRS hafıza havuzuna aktar.',
+    stages: [
+      {
+        kind: 'choice',
+        title: 'Zaman Zarfı Seçimi',
+        question: 'Aşağıdaki zaman zarflarından hangisi Past Simple ile kullanılır?',
+        options: [
+          { label: 'yesterday', correct: true },
+          { label: 'tomorrow', correct: false },
+          { label: 'next week', correct: false },
+        ],
+        explain: 'Past Simple geçmişe işaret eder: yesterday, last night, two days ago... "tomorrow/next week" gelecektir.',
+      },
+      {
+        kind: 'gap',
+        title: 'Boşluk Doldurma · Düzensiz Fiil',
+        prompt: 'We {blank} (have) a wonderful holiday last year.',
+        answer: 'had',
+        options: ['had', 'haved', 'has'],
+        rootHint: 'Hedef fiil kökü: [have]',
+        feedback: '"have" düzensizdir; geçmiş zaman hali "had"tir ("haved" diye bir çekim yoktur).',
+      },
+      {
+        kind: 'errorChoice',
+        title: 'Yazım Kuralı · Düzenli Fiil (-ied)',
+        question: 'Hangi cümlede yazım hatası var?',
+        options: [
+          {
+            label: 'She studyed all night for the exam.',
+            note: 'study → studied: sonu ünsüz+y olan fiilde y düşer, "-ied" gelir.',
+            correct: true,
+          },
+          { label: 'She studied all night for the exam.', note: 'Doğru: y → ied kuralı.', correct: false },
+          { label: 'They played football yesterday.', note: 'Doğru: ünlü+y ise düz "-ed".', correct: false },
+        ],
+      },
+      {
+        kind: 'choice',
+        title: 'Zaman Dönüşümü',
+        question: '"She plays tennis every day." cümlesinin Past Simple hali hangisidir?',
+        options: [
+          { label: 'She played tennis yesterday.', correct: true },
+          { label: 'She play tennis yesterday.', correct: false },
+          { label: 'She did played tennis yesterday.', correct: false },
+        ],
+        explain: 'Olumlu geçmişte fiil V2/-ed olur: "played". "did + played" birlikte kullanılmaz.',
+      },
+      {
+        kind: 'scramble',
+        title: 'Olumsuz Cümle Dizilimi',
+        targetTr: 'Dün gece televizyon izlemedik.',
+        blocks: ['watch', 'We', 'last night', "didn't", 'TV'],
+        correct: ['We', "didn't", 'watch', 'TV', 'last night'],
+        feedback: 'Olumsuz dizilim: özne + didn\'t + yalın fiil (watch) + nesne + zaman.',
+      },
+      {
+        kind: 'gap',
+        title: 'Soru · Yardımcı Fiil',
+        prompt: '{blank} you enjoy the concert last night?',
+        answer: 'Did',
+        options: ['Did', 'Do', 'Were'],
+        rootHint: 'Geçmiş zaman sorusu',
+        feedback: 'Geçmiş zaman sorusunda yardımcı fiil "Did" + yalın fiil (enjoy) gelir.',
+      },
+    ],
+  },
+};

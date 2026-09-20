@@ -43,6 +43,16 @@ export function rate(cardJson: string, grade: Grade, now = new Date()): ReviewRe
   };
 }
 
+// Bir kartin ANLIK geri cagirilabilirligi (R, 0..1): FSRS unutma egrisi.
+// Hafiza koruma yuzdesi icin gercek deger (uydurma degil).
+export function retrievability(cardJson: string, now = new Date()): number {
+  try {
+    return scheduler.get_retrievability(revive(cardJson), now, false) as number;
+  } catch {
+    return 0;
+  }
+}
+
 // Sonraki tekrarin ne zaman olacagini onizle (buton alti etiketi icin).
 export function previewIntervals(cardJson: string, now = new Date()) {
   const record = scheduler.repeat(revive(cardJson), now);

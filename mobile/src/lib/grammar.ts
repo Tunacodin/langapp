@@ -11,7 +11,18 @@ export type GrammarTopic = {
   formula: string;
   note_tr: string;
   cefr: string;
+  layer: 'A' | 'B'; // A = regex/POS (deterministik), B = yapisal (LLM tercihli)
 };
+
+// Kategori sirasi (ekranda bolum sirasi) - tek kaynak.
+export const CATEGORY_ORDER = [
+  'Tenses & Aspects',
+  'Modals & Modal Perfects',
+  'Conditionals & Wish',
+  'Subordinate Clauses',
+  'Voice & Passives',
+  'Quantity & Frequency',
+] as const;
 
 export const GRAMMAR_TOPICS: GrammarTopic[] = (topicsData as { topics: GrammarTopic[] }).topics;
 export const GRAMMAR_TOPICS_VERSION: string = (topicsData as { version: string }).version;
@@ -34,6 +45,8 @@ export const CATEGORY_COLOR: Record<string, string> = {
   'Conditionals & Wish': '#F97316', // turuncu
   'Modals & Modal Perfects': '#2563EB', // mavi
   'Tenses & Aspects': '#16A34A', // yesil
+  'Voice & Passives': '#0D9488', // teal
+  'Quantity & Frequency': '#DB2777', // pembe
 };
 
 export function colorFor(category: string): string {
