@@ -1,25 +1,29 @@
 # -*- coding: utf-8 -*-
-# ZENGINLESTIRME HATTI (ingest.py'den SONRA calisir).
-# Girdi (her id icin):
-#   assets/lessons/<id>.json          (cumleler: text_en/text_tr/chunks; lexicon BOS)
-#   assets/lessons/<id>.words.json    (duz kelime + zaman damgasi)
-#   assets/lessons/<id>.glossary.json (opsiyonel; surface->TR anlam, cevrimdisi kaynak)
-# Cikti (ayni dosyalara yazar):
-#   <id>.json'a       -> lexicon + her cumleye occurrences + grammar (norm_pattern/span)
-#   <id>.words.json'a -> her kelimeye lemma + pos
+# ZENGINLESTIRME HATTI (ingest.py'den SONRA calisir) - GLOBAL SOZLUK MODELI.
+#
+# Sozluk TEK yerde: assets/lessons/_lexicon.json (tum videolarda paylasilir).
+# Bir lemma'nin (kok) TR anlamlari BIR KEZ hesaplanir; ayni kelime 20 videoda
+# gecse de tekrar cevrilmez ve her yerde AYNI karsiligi gorur.
+# Video basina uretilen: sadece occurrence (gecis) + o cumledeki sense_idx (WSD)
+# + gramer. Bu sayede LLM maliyeti lemma sayisiyla sinirli kalir (cumle degil).
+#
+# Girdi (her id): <id>.json (cumleler), <id>.words.json, <id>.glossary.json (ops.)
+# Cikti: _lexicon.json (global) guncellenir; <id>.json'a occurrences+grammar;
+#        <id>.words.json'a lemma/pos.
 #
 # Iki katman:
-#   A KATMANI (spaCy, ZORUNLU): POS + lemma; yuksek-kesinlikli 9 kalip regex/POS ile,
-#            span_start/span_end (text_en icinde karakter araligi) ile isaretlenir.
-#   B KATMANI (LLM, OPSIYONEL): API anahtari VARSA yapisal kaliplar (Noun/Relative
-#            Clause, Embedded WH, Conditional, Gerund/Inf, Causative) tespit edilip
-#            grammar_topics enum'u ile SUZULUR; ayrica WSD (o baglamdaki sense_idx) ve
-#            eksik TR anlamlar doldurulur. Anahtar YOKSA script cokmeden A ile biter.
+#   A (spaCy, ZORUNLU): POS/lemma + occurrences (yalniz icerik kelimeleri) +
+#      9 yuksek-kesinlikli gramer kalibi (span'li).
+#   B (LLM, OPSIYONEL, ANAHTAR VARSA): (1) global sozlukte anlami eksik lemmalar
+#      icin TR anlam (toplu istek), (2) her cumlede WSD ile occurrence.sense_idx,
+#      (3) yapisal gramer (clause/gerund/conditional/causative), enum ile suzulur.
+#      Anahtar yoksa script cokmeden A ile biter.
 #
 # Kullanim:
-#   python scripts/build_corpus.py            # tum dersler
-#   python scripts/build_corpus.py lesson1    # tek id
-#   ANTHROPIC_API_KEY=... python scripts/build_corpus.py   # B katmani da acik
+#   python scripts/build_corpus.py                       # tum dersler (A; anahtar varsa B)
+#   ANTHROPIC_API_KEY=... python scripts/build_corpus.py fireship_ai mckinnon_day
+#   python scripts/build_corpus.py --reclean [id...]     # spaCy'siz: eski per-ders
+#                                                        # lexicon'u global modele goc et
 
 import json
 import os
@@ -27,26 +31,34 @@ import re
 import sys
 
 from grammar_topics import VALID, LAYER_B, label_of, cefr_of
+from grammar_detect import detect_grammar_a  # Layer-A tespit (tek kaynak)
+from vocab_domains import VALID as DOMAIN_VALID
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LESSON_DIR = os.path.join(ROOT, "assets", "lessons")
+GLOBAL_LEX = os.path.join(LESSON_DIR, "_lexicon.json")
+GLOBAL_EX = os.path.join(LESSON_DIR, "_examples.json")  # transfer ornekleri (global)
+EXAMPLES_PER_ITEM = 5
+
+# Sozluge yalnizca ICERIK kelimeleri girer (isim/fiil/sifat/zarf). Fonksiyon
+# kelimeleri, zamirler, ozel isimler, noktalama, sayilar occurrence/lexicon'a
+# alinmaz: bunlarin "anlam karti" ogretici degil, gurultu.
+CONTENT_POS = {"NOUN", "VERB", "ADJ", "ADV"}
+
+# spaCy'nin asiri-koklestirdigi bariz durumlar (ogrenci yuzey kelimeyi bekler).
+LEMMA_FIX = {"datum": "data"}
 
 _NLP = None
 
 
 def nlp():
-    """spaCy modelini bir kez yukle. Yoksa net kurulum mesaji ver ve cik."""
     global _NLP
     if _NLP is not None:
         return _NLP
     try:
         import spacy
     except ImportError:
-        sys.exit(
-            "spaCy gerekli (A katmani). Kur:\n"
-            "  pip install spacy\n"
-            "  python -m spacy download en_core_web_sm"
-        )
+        sys.exit("spaCy gerekli (A). Kur: pip install spacy && python -m spacy download en_core_web_sm")
     try:
         _NLP = spacy.load("en_core_web_sm")
     except OSError:
@@ -58,99 +70,62 @@ def clean(s):
     return re.sub(r"[^a-z']", "", s.lower())
 
 
+def load_json(path, default=None):
+    if not os.path.exists(path):
+        return default
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
 # --------------------------------------------------------------------------
-# A KATMANI: spaCy POS/lemma + yuksek-kesinlikli gramer kaliplari
+# GLOBAL SOZLUK yardimcilari. lexmap: (lemma,pos) -> {cefr, senses:[gloss...]}
+# --------------------------------------------------------------------------
+def load_lexmap():
+    data = load_json(GLOBAL_LEX, []) or []
+    lexmap = {}
+    for e in data:
+        lexmap[(e["lemma"], e["pos"])] = {
+            "cefr": e.get("cefr"),
+            "domain": e.get("domain"),  # tema (VOCAB_DOMAINS); yoksa None
+            "senses": [s["gloss_tr"] for s in (e.get("senses") or [])],
+        }
+    return lexmap
+
+
+def save_lexmap(lexmap):
+    out = []
+    for (lemma, pos), v in sorted(lexmap.items()):
+        out.append({
+            "lemma": lemma, "pos": pos, "cefr": v.get("cefr"), "domain": v.get("domain"),
+            "senses": [{"sense_idx": i, "gloss_tr": g} for i, g in enumerate(v["senses"])],
+        })
+    with open(GLOBAL_LEX, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    return out
+
+
+def sense_index(lexmap, lemma, pos, gloss):
+    """gloss'un global sozlukteki sense_idx'i; yoksa ekleyip idx dondur."""
+    e = lexmap.setdefault((lemma, pos), {"cefr": None, "senses": []})
+    if gloss and gloss not in e["senses"]:
+        e["senses"].append(gloss)
+    return e["senses"].index(gloss) if gloss in e["senses"] else None
+
+
+# --------------------------------------------------------------------------
+# A KATMANI: gramer kaliplari (spaCy)
 # --------------------------------------------------------------------------
 def _span(tokens):
-    """Token listesinden (text_en icinde) karakter araligi."""
     a = min(t.idx for t in tokens)
     b = max(t.idx + len(t.text) for t in tokens)
     return a, b
 
 
-def detect_grammar_a(doc):
-    """spaCy Doc -> [(norm_pattern, span_start, span_end)] (A katmani, kesin olanlar)."""
-    out = []
-    seen = set()
-
-    def add(norm, toks):
-        toks = [t for t in toks if t is not None]
-        if not toks:
-            return
-        a, b = _span(toks)
-        key = (norm, a, b)
-        if key in seen:
-            return
-        seen.add(key)
-        out.append((norm, a, b))
-
-    for tok in doc:
-        tag = tok.tag_
-        lemma = tok.lemma_.lower()
-
-        # PHRASAL_VERB: fiil + particle (dep=prt)
-        if tok.dep_ == "prt" and tok.head.pos_ in ("VERB", "AUX"):
-            add("PHRASAL_VERB", [tok.head, tok])
-
-        # MODAL_VERB / FUTURE_FORM: modal (MD)
-        if tag == "MD":
-            head = tok.head if tok.head.pos_ == "VERB" else None
-            if tok.text.lower() in ("will", "'ll", "wo"):  # wo(n't)
-                add("FUTURE_FORM", [tok, head])
-            else:
-                add("MODAL_VERB", [tok, head])
-
-        # FUTURE_FORM: going to + VB
-        if lemma == "go" and tag == "VBG":
-            nxt = doc[tok.i + 1] if tok.i + 1 < len(doc) else None
-            if nxt is not None and nxt.text.lower() == "to":
-                vb = doc[tok.i + 2] if tok.i + 2 < len(doc) else None
-                add("FUTURE_FORM", [tok, nxt, vb if (vb is not None and vb.tag_ == "VB") else None])
-
-        # be/have yardimci fiiller uzerinden bilesik zamanlar
-        if tok.pos_ == "AUX" or lemma in ("be", "have"):
-            vb = tok.head if tok.head is not tok else None
-            if vb is None:
-                continue
-            low = tok.text.lower()
-            if lemma == "be" and vb.tag_ == "VBG":
-                if low in ("is", "am", "are", "'s", "'m", "'re"):
-                    add("PRESENT_CONTINUOUS", [tok, vb])
-                elif low in ("was", "were"):
-                    add("PAST_CONTINUOUS", [tok, vb])
-            if lemma == "have" and vb.tag_ == "VBN" and low in ("have", "has", "'ve", "'s"):
-                add("PRESENT_PERFECT", [tok, vb])
-            if lemma == "be" and vb.tag_ == "VBN":
-                add("PASSIVE_VOICE", [tok, vb])
-
-    # PASSIVE_VOICE (dep tabanli yedek): nsubjpass/auxpass
-    for tok in doc:
-        if tok.dep_ in ("nsubjpass", "auxpass"):
-            head = tok.head
-            aux = [t for t in head.children if t.dep_ == "auxpass"]
-            add("PASSIVE_VOICE", [head] + aux)
-
-    # Basit zamanlar: bilesik yapilara girmemis kok fiiller
-    covered = {(a, b) for _, a, b in out}
-    for tok in doc:
-        if tok.pos_ != "VERB":
-            continue
-        a, b = tok.idx, tok.idx + len(tok.text)
-        if any(a >= s and b <= e for s, e in covered):
-            continue
-        if tok.tag_ == "VBD":
-            add("PAST_SIMPLE", [tok])
-        elif tok.tag_ in ("VBZ", "VBP"):
-            add("PRESENT_SIMPLE", [tok])
-
-    return out
+# detect_grammar_a: grammar_detect.py'ye tasindi (yeni taksonomi, tek kaynak).
 
 
 def align_timing(sent_words, doc):
-    """spaCy alpha token'larini words.json zaman damgalariyla sirayla eslestir.
-    Donen: token.i -> (start_ms, end_ms). Eslesmezse yok."""
-    timing = {}
-    j = 0
+    timing, j = {}, 0
     for t in doc:
         if not (t.is_alpha or "'" in t.text):
             continue
@@ -167,7 +142,7 @@ def align_timing(sent_words, doc):
 
 
 # --------------------------------------------------------------------------
-# B KATMANI: LLM (opsiyonel, graceful fallback)
+# B KATMANI: LLM (opsiyonel, graceful)
 # --------------------------------------------------------------------------
 def llm_client():
     key = os.environ.get("ANTHROPIC_API_KEY")
@@ -185,111 +160,159 @@ LLM_MODEL = os.environ.get("CORPUS_LLM_MODEL", "claude-haiku-4-5-20251001")
 _LAYER_B_LIST = ", ".join(sorted(LAYER_B))
 
 
-def llm_enrich_sentence(client, text_en, lemmas):
-    """Bir cumle icin yapisal gramer + WSD + eksik TR anlam iste. Hata olursa None."""
-    prompt = (
-        "You analyze one English sentence for a Turkish language-learning app.\n"
-        f'Sentence: "{text_en}"\n'
-        f"Lemmas present: {lemmas}\n\n"
-        "Return ONLY minified JSON with keys:\n"
-        '  "grammar": array of {"norm_pattern","span_start","span_end"} where '
-        f"norm_pattern is one of [{_LAYER_B_LIST}] and span_* are character offsets "
-        "into the sentence for the structure. Only include patterns truly present.\n"
-        '  "senses": object mapping each lemma to a short Turkish gloss (1-4 words) '
-        "for its meaning IN THIS sentence.\n"
-        "No prose, no code fences."
-    )
+def _llm_json(client, prompt, max_tokens=1200):
     try:
         msg = client.messages.create(
-            model=LLM_MODEL,
-            max_tokens=700,
+            model=LLM_MODEL, max_tokens=max_tokens,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
         raw = re.sub(r"^```(?:json)?|```$", "", raw).strip()
         return json.loads(raw)
-    except Exception as e:  # anahtar var ama cagri/parse patladi: cumleyi atla, surme.
+    except Exception as e:
         print(f"  [B] atlandi ({type(e).__name__})")
         return None
 
 
-# --------------------------------------------------------------------------
-# Ders isleme
-# --------------------------------------------------------------------------
-def load_json(path, default=None):
-    if not os.path.exists(path):
-        return default
-    with open(path, encoding="utf-8") as f:
-        return json.load(f)
+def llm_senses(client, items):
+    """items: [(lemma,pos)]. Toplu TR anlam + CEFR. Doner:
+    {'lemma|pos': {"tr": [anlam...], "cefr": "B1"}}."""
+    if not items:
+        return {}
+    listing = "\n".join(f"- {lemma} ({pos})" for lemma, pos in items)
+    prompt = (
+        "You are building a bilingual dictionary for Turkish learners of English.\n"
+        "For EACH lemma below give: (1) its 1-3 most common Turkish meanings (short, "
+        "1-4 words each, ordered by frequency); (2) its CEFR level (A1/A2/B1/B2/C1/C2).\n"
+        f"{listing}\n\n"
+        'Return ONLY minified JSON: {"lemma|pos": {"tr": ["anlam1","anlam2"], "cefr": "B1"}, ...} '
+        "using the exact lemma and POS tag given. No prose, no code fences."
+    )
+    data = _llm_json(client, prompt, max_tokens=2500)
+    return data or {}
 
 
+_DOMAIN_LIST = ", ".join(sorted(DOMAIN_VALID))
+
+
+def llm_domains(client, items):
+    """items: [(lemma,pos,[gloss...])]. Her koke KAPALI listeden TAM BIR tema atar.
+    Doner: {'lemma|pos': 'DOMAIN'}. Enum disi/eksik degerler cagiran tarafta elenir."""
+    if not items:
+        return {}
+    listing = "\n".join(
+        f"- {lemma} ({pos}): {', '.join(gs[:3])}" for lemma, pos, gs in items
+    )
+    prompt = (
+        "You classify English vocabulary into ONE semantic domain each, for a "
+        "Turkish learning app. Choose the single best-fit domain from this closed "
+        f"list ONLY: [{_DOMAIN_LIST}]. Use GENERAL for abstract/functional words "
+        "that fit no concrete theme.\n"
+        "Each item is 'lemma (POS): turkish meanings'.\n"
+        f"{listing}\n\n"
+        'Return ONLY minified JSON: {"lemma|pos": "DOMAIN", ...} using the exact '
+        "lemma and POS given and a domain from the list. No prose, no code fences."
+    )
+    data = _llm_json(client, prompt, max_tokens=2000)
+    return data or {}
+
+
+def llm_examples(client, items):
+    """items: [(owner_key, hint)] hint = kelime ya da 'gramer: <ad>'. Her oge icin
+    FARKLI baglamlarda EXAMPLES_PER_ITEM ornek cumle + TR + CEFR.
+    Doner: {owner_key: [{"en","tr","cefr"}, ...]}."""
+    if not items:
+        return {}
+    listing = "\n".join(f"- [{k}] {hint}" for k, hint in items)
+    prompt = (
+        "You write example sentences for a Turkish learner of English.\n"
+        f"For EACH item below, write {EXAMPLES_PER_ITEM} natural example sentences that "
+        "use it, each in a DIFFERENT everyday context (not copied from each other). "
+        "Give a short Turkish translation and a CEFR level for each sentence.\n"
+        f"{listing}\n\n"
+        'Return ONLY minified JSON: {"<key>": [{"en":"...","tr":"...","cefr":"B1"}, ...], ...} '
+        "using the exact [key] shown. No prose, no code fences."
+    )
+    data = _llm_json(client, prompt, max_tokens=3000)
+    return data or {}
+
+
+def llm_wsd(client, text_en, lemma_senses):
+    """lemma_senses: {lemma: [gloss...]}. Doner: {lemma: sense_idx} + yapisal gramer.
+    Cikti: {'senseidx': {lemma:int}, 'grammar':[{norm_pattern,span_start,span_end}]}"""
+    if not lemma_senses:
+        opts = "{}"
+    else:
+        opts = json.dumps(
+            {lm: [f"{i}:{g}" for i, g in enumerate(gs)] for lm, gs in lemma_senses.items()},
+            ensure_ascii=False,
+        )
+    prompt = (
+        "Analyze ONE English sentence for a Turkish learning app.\n"
+        f'Sentence: "{text_en}"\n'
+        f"For each lemma, its candidate senses as index:gloss -> {opts}\n\n"
+        "Return ONLY minified JSON with keys:\n"
+        '  "senseidx": object mapping each lemma to the integer index of the sense '
+        "used IN THIS sentence (choose the best fit).\n"
+        '  "grammar": array of {"norm_pattern","span_start","span_end"} where '
+        f"norm_pattern is one of [{_LAYER_B_LIST}]; character offsets into the sentence. "
+        "Only patterns truly present.\n"
+        "No prose, no code fences."
+    )
+    return _llm_json(client, prompt) or {}
+
+
+# --------------------------------------------------------------------------
+# Ders isleme (tek video)
+# --------------------------------------------------------------------------
 def sentence_words(words_flat, start_ms, next_start):
-    """Cumleye ait duz kelimeler (orta-nokta kurali)."""
-    res = []
-    for w in words_flat:
-        mid = (w["start_ms"] + w["end_ms"]) / 2
-        if mid >= start_ms and (next_start is None or mid < next_start):
-            res.append(w)
-    return res
+    return [w for w in words_flat
+            if start_ms <= (w["start_ms"] + w["end_ms"]) / 2 and
+            (next_start is None or (w["start_ms"] + w["end_ms"]) / 2 < next_start)]
 
 
 def process(lesson_id, client):
     base = os.path.join(LESSON_DIR, lesson_id)
     lesson = load_json(base + ".json")
-    words_flat = load_json(base + ".words.json", [])
+    words_flat = load_json(base + ".words.json", []) or []
     glossary = load_json(base + ".glossary.json", {}) or {}
     if lesson is None:
         print(f"[{lesson_id}] {base}.json yok, atlaniyor.")
         return
-    print(f"[{lesson_id}] {len(lesson['sentences'])} cumle "
-          f"(B katmani: {'acik' if client else 'kapali'})")
+    print(f"[{lesson_id}] {len(lesson['sentences'])} cumle (B: {'acik' if client else 'kapali'})")
 
     model = nlp()
+    lexmap = load_lexmap()
     sents = sorted(lesson["sentences"], key=lambda s: s["start_ms"])
 
-    # lexicon: (lemma,pos) -> {cefr, senses: {gloss_tr: sense_idx}}
-    lex = {}
-
-    def ensure(lemma, pos):
-        k = (lemma, pos)
-        if k not in lex:
-            lex[k] = {"cefr": None, "senses": {}}
-        return lex[k]
-
-    def add_sense(lemma, pos, gloss_tr):
-        e = ensure(lemma, pos)
-        if gloss_tr and gloss_tr not in e["senses"]:
-            e["senses"][gloss_tr] = len(e["senses"])
-        return e["senses"].get(gloss_tr) if gloss_tr else None
-
+    # --- A: occurrences (icerik kelimeleri) + gramer; cevrimdisi anlamlari doldur ---
     for si, s in enumerate(sents):
         next_start = sents[si + 1]["start_ms"] if si + 1 < len(sents) else None
         sw = sentence_words(words_flat, s["start_ms"], next_start)
         doc = model(s["text_en"])
         timing = align_timing(sw, doc)
 
-        # --- A: lemma/pos + occurrences + cevrimdisi TR anlam ---
         occurrences = []
-        lemmas_here = []
         for t in doc:
-            if not (t.is_alpha or "'" in t.text):
+            if t.pos_ not in CONTENT_POS or not (t.is_alpha or "'" in t.text):
                 continue
             surface = clean(t.text)
             if not surface:
                 continue
             lemma = t.lemma_.lower() if t.lemma_ not in ("-PRON-", "") else surface
+            lemma = LEMMA_FIX.get(lemma, lemma)
             pos = t.pos_
-            lemmas_here.append(lemma)
-            e = ensure(lemma, pos)
+            entry = lexmap.setdefault((lemma, pos), {"cefr": None, "senses": []})
             g = glossary.get(surface) or glossary.get(lemma)
             if g:
-                if g.get("cefr") and not e["cefr"]:
-                    e["cefr"] = g["cefr"]
+                if g.get("cefr") and not entry["cefr"]:
+                    entry["cefr"] = g["cefr"]
                 for gl in g.get("senses", []):
-                    add_sense(lemma, pos, gl)
+                    if gl not in entry["senses"]:
+                        entry["senses"].append(gl)
             st, en = timing.get(t.i, (s["start_ms"], s["end_ms"]))
             occurrences.append({
-                "surface": surface, "lemma": lemma, "_pos": pos,
+                "surface": surface, "lemma": lemma, "pos": pos,
                 "sense_idx": None, "start_ms": st, "end_ms": en,
             })
             if t.i in timing:
@@ -298,69 +321,214 @@ def process(lesson_id, client):
                         w["lemma"], w["pos"] = lemma, pos
                         break
 
-        # --- A: gramer kaliplari ---
-        grammar = list(s.get("grammar") or [])  # curated notlari koru
+        # Idempotent: onceki pipeline tespitlerini (norm_pattern'li) at, curated notu koru.
+        grammar = [g for g in (s.get("grammar") or []) if not g.get("norm_pattern")]
         for norm, a, b in detect_grammar_a(doc):
             grammar.append({
-                "pattern": s["text_en"][a:b],
-                "note_tr": label_of(norm),
-                "cefr": cefr_of(norm),
-                "norm_pattern": norm,
-                "span_start": a, "span_end": b,
+                "pattern": s["text_en"][a:b], "note_tr": label_of(norm),
+                "cefr": cefr_of(norm), "norm_pattern": norm, "span_start": a, "span_end": b,
             })
-
-        # --- B: LLM (opsiyonel) ---
-        if client:
-            data = llm_enrich_sentence(client, s["text_en"], sorted(set(lemmas_here)))
-            if data:
-                for gi in data.get("grammar", []):
-                    norm = gi.get("norm_pattern")
-                    if norm in VALID and norm in LAYER_B:
-                        a = gi.get("span_start")
-                        b = gi.get("span_end")
-                        frag = s["text_en"][a:b] if isinstance(a, int) and isinstance(b, int) else norm
-                        grammar.append({
-                            "pattern": frag or norm, "note_tr": label_of(norm),
-                            "cefr": cefr_of(norm), "norm_pattern": norm,
-                            "span_start": a, "span_end": b,
-                        })
-                senses_map = data.get("senses", {}) or {}
-                for occ in occurrences:
-                    gl = senses_map.get(occ["lemma"])
-                    if gl:
-                        occ["sense_idx"] = add_sense(occ["lemma"], occ["_pos"], gl)
-
-        for occ in occurrences:
-            occ.pop("_pos", None)
         s["occurrences"] = occurrences
         s["grammar"] = grammar
 
-    # lexicon'u derse yaz
-    lexicon_out = []
-    for (lemma, pos), v in sorted(lex.items()):
-        senses = [{"sense_idx": i, "gloss_tr": g}
-                  for g, i in sorted(v["senses"].items(), key=lambda kv: kv[1])]
-        lexicon_out.append({"lemma": lemma, "pos": pos, "cefr": v["cefr"], "senses": senses})
-    lesson["lexicon"] = lexicon_out
+    # --- B1: global sozlukte anlami EKSIK lemmalar icin toplu TR anlam ---
+    if client:
+        need = [k for k, v in lexmap.items() if not v["senses"]
+                and any(o["lemma"] == k[0] and o["pos"] == k[1]
+                        for s in sents for o in s["occurrences"])]
+        for i in range(0, len(need), 40):  # 40'lik gruplar
+            batch = need[i:i + 40]
+            got = llm_senses(client, batch)
+            for (lemma, pos) in batch:
+                info = got.get(f"{lemma}|{pos}")
+                # Yeni sekil {"tr":[...],"cefr":".."}; eski sekil sadece [..] da kabul.
+                trs = info.get("tr", []) if isinstance(info, dict) else (info or [])
+                cefr = info.get("cefr") if isinstance(info, dict) else None
+                for gl in trs:
+                    if gl and gl not in lexmap[(lemma, pos)]["senses"]:
+                        lexmap[(lemma, pos)]["senses"].append(gl)
+                if cefr and not lexmap[(lemma, pos)]["cefr"]:
+                    lexmap[(lemma, pos)]["cefr"] = cefr
+        print(f"  [B1] {len(need)} eksik lemma icin anlam + CEFR istendi.")
 
+    # --- B4: anlami olup temasi (domain) EKSIK lemmalar icin tema siniflandirma ---
+    if client:
+        seen_here = {(o["lemma"], o["pos"]) for s in sents for o in s["occurrences"]}
+        need_dom = [(lm, ps, v["senses"]) for (lm, ps), v in lexmap.items()
+                    if v["senses"] and not v.get("domain") and (lm, ps) in seen_here]
+        for i in range(0, len(need_dom), 40):
+            batch = need_dom[i:i + 40]
+            got = llm_domains(client, batch)
+            for (lemma, pos, _gs) in batch:
+                dom = got.get(f"{lemma}|{pos}")
+                if dom in DOMAIN_VALID:
+                    lexmap[(lemma, pos)]["domain"] = dom
+        print(f"  [B4] {len(need_dom)} lemma icin tema istendi.")
+
+    # --- B2: her cumlede WSD (sense_idx) + yapisal gramer ---
+    if client:
+        for s in sents:
+            lemma_senses = {}
+            for o in s["occurrences"]:
+                gs = lexmap.get((o["lemma"], o["pos"]), {}).get("senses", [])
+                if gs:
+                    lemma_senses[o["lemma"]] = gs
+            data = llm_wsd(client, s["text_en"], lemma_senses)
+            idxmap = data.get("senseidx", {}) or {}
+            for o in s["occurrences"]:
+                v = idxmap.get(o["lemma"])
+                if isinstance(v, int):
+                    gs = lexmap.get((o["lemma"], o["pos"]), {}).get("senses", [])
+                    o["sense_idx"] = v if 0 <= v < len(gs) else None
+            for gi in data.get("grammar", []):
+                norm = gi.get("norm_pattern")
+                if norm in VALID and norm in LAYER_B:
+                    a, b = gi.get("span_start"), gi.get("span_end")
+                    frag = s["text_en"][a:b] if isinstance(a, int) and isinstance(b, int) else norm
+                    s["grammar"].append({
+                        "pattern": frag or norm, "note_tr": label_of(norm),
+                        "cefr": cefr_of(norm), "norm_pattern": norm, "span_start": a, "span_end": b,
+                    })
+
+    # --- B3: transfer ornekleri (>=5 farkli baglam) - global, bir kez uret ---
+    if client:
+        generate_examples(client, sents, lexmap)
+
+    # per-ders lexicon alanini birak (global'e tasindi)
+    lesson.pop("lexicon", None)
     with open(base + ".json", "w", encoding="utf-8") as f:
         json.dump(lesson, f, ensure_ascii=False, indent=2)
     with open(base + ".words.json", "w", encoding="utf-8") as f:
         json.dump(words_flat, f, ensure_ascii=False, indent=2)
+    out = save_lexmap(lexmap)
+    n_sense = sum(len(e["senses"]) for e in out)
+    print(f"  -> global sozluk {len(out)} kok / {n_sense} anlam; ders occurrences+grammar yazildi.")
 
-    n_sense = sum(len(e["senses"]) for e in lexicon_out)
-    print(f"  -> lexicon {len(lexicon_out)} kok, {n_sense} anlam; words.json guncellendi.")
+
+def load_examples():
+    """_examples.json'u {owner_key: [rows]} + var olan anahtar kumesi olarak yukle."""
+    data = load_json(GLOBAL_EX, []) or []
+    have = set()
+    for e in data:
+        have.add((e["owner_type"], e["owner_key"]))
+    return data, have
+
+
+def generate_examples(client, sents, lexmap):
+    """Bu derste gecen ogeler (anlami olan kelimeler + gramer kaliplari) icin, henuz
+    ornegi olmayanlara EXAMPLES_PER_ITEM ornek uret. Global _examples.json'a ekler."""
+    data, have = load_examples()
+
+    # Aday ogeler: anlami olan kelimeler (lexeme) + gorulen norm_pattern'lar (grammar).
+    wanted = []  # (owner_type, owner_key, hint)
+    seen_local = set()
+    for s in sents:
+        for o in s["occurrences"]:
+            key = f"{o['lemma']}|{o['pos']}"
+            if lexmap.get((o["lemma"], o["pos"]), {}).get("senses") and \
+               ("lexeme", key) not in have and ("lexeme", key) not in seen_local:
+                seen_local.add(("lexeme", key))
+                wanted.append(("lexeme", key, o["lemma"]))
+        for g in s.get("grammar") or []:
+            norm = g.get("norm_pattern")
+            if norm and ("grammar", norm) not in have and ("grammar", norm) not in seen_local:
+                seen_local.add(("grammar", norm))
+                wanted.append(("grammar", norm, f"gramer: {label_of(norm)}"))
+
+    if not wanted:
+        print("  [B3] yeni ornek gerekmiyor.")
+        return
+
+    made = 0
+    for i in range(0, len(wanted), 10):  # 10'lu gruplar
+        batch = wanted[i:i + 10]
+        got = llm_examples(client, [(k, hint) for (_t, k, hint) in batch])
+        for (otype, key, _hint) in batch:
+            for ex in (got.get(key) or [])[:EXAMPLES_PER_ITEM]:
+                en = (ex.get("en") or "").strip()
+                if not en:
+                    continue
+                data.append({
+                    "owner_type": otype, "owner_key": key, "text_en": en,
+                    "text_tr": (ex.get("tr") or "").strip() or None,
+                    "cefr": ex.get("cefr"),
+                })
+                made += 1
+
+    with open(GLOBAL_EX, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"  [B3] {len(wanted)} oge icin {made} ornek uretildi (_examples.json).")
+
+
+# --------------------------------------------------------------------------
+# reclean: spaCy'siz goc (eski per-ders lexicon -> global model)
+# --------------------------------------------------------------------------
+def reclean(lesson_id, lexmap):
+    base = os.path.join(LESSON_DIR, lesson_id)
+    L = load_json(base + ".json")
+    if not L:
+        print(f"[{lesson_id}] json yok.")
+        return
+    # eski per-ders lexicon'u global'e katr (icerik + LEMMA_FIX + anlam birlestir)
+    for x in (L.get("lexicon") or []):
+        pos = x.get("pos")
+        if pos not in CONTENT_POS:
+            continue
+        lemma = LEMMA_FIX.get(x["lemma"], x["lemma"])
+        e = lexmap.setdefault((lemma, pos), {"cefr": x.get("cefr"), "senses": []})
+        if not e["cefr"] and x.get("cefr"):
+            e["cefr"] = x.get("cefr")
+        for s in x.get("senses") or []:
+            if s["gloss_tr"] not in e["senses"]:
+                e["senses"].append(s["gloss_tr"])
+    # Lemma -> aday pos'lar (anlami olan pos'u tercih ederek tek pos sec). Eski
+    # occurrence'larda pos yok; global sozlukten (lemma,pos) geri atanir.
+    by_lemma = {}
+    for (lemma, pos), v in lexmap.items():
+        by_lemma.setdefault(lemma, []).append((pos, len(v["senses"])))
+
+    def pick_pos(lemma):
+        cands = by_lemma.get(lemma)
+        if not cands:
+            return None
+        return sorted(cands, key=lambda x: -x[1])[0][0]  # en cok anlamli pos
+
+    # occurrence'lari icerik + LEMMA_FIX'e gore suz; pos ata; sense_idx'i null'a al.
+    kept = 0
+    for s in L["sentences"]:
+        new = []
+        for o in s.get("occurrences") or []:
+            lemma = LEMMA_FIX.get(o["lemma"], o["lemma"])
+            pos = o.get("pos") or pick_pos(lemma)
+            if pos is None or pos not in CONTENT_POS:
+                continue
+            o["lemma"], o["pos"], o["sense_idx"] = lemma, pos, None
+            new.append(o)
+        s["occurrences"] = new
+        kept += len(new)
+    L.pop("lexicon", None)
+    with open(base + ".json", "w", encoding="utf-8") as f:
+        json.dump(L, f, ensure_ascii=False, indent=2)
+    print(f"[{lesson_id}] reclean -> occ {kept} (icerik).")
+
+
+def all_ids():
+    return [f[:-5] for f in os.listdir(LESSON_DIR)
+            if f.endswith(".json") and not f.endswith(".words.json")
+            and not f.endswith(".glossary.json") and not f.startswith("_")]
 
 
 def main():
     ids = sys.argv[1:]
-    if not ids:
-        ids = [f[:-5] for f in os.listdir(LESSON_DIR)
-               if f.endswith(".json")
-               and not f.endswith(".words.json")
-               and not f.endswith(".glossary.json")]
+    if ids and ids[0] == "--reclean":
+        lexmap = load_lexmap()
+        for lid in (ids[1:] or all_ids()):
+            reclean(lid, lexmap)
+        out = save_lexmap(lexmap)
+        print(f"global sozluk yazildi: {len(out)} kok.")
+        return
     client = llm_client()
-    for lid in ids:
+    for lid in (ids or all_ids()):
         process(lid, client)
 
 

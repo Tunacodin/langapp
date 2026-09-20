@@ -32,7 +32,13 @@ def download(src):
         print(f"  [atla] video zaten var: {out}")
         return out
     # <=480p mp4: dil calismasi icin fazlasi gereksiz, disk/bant tasarrufu.
-    fmt = "bv*[height<=480][ext=mp4]+ba[ext=m4a]/b[height<=480]/b"
+    # H.264 (avc1) ZORUNLU: AV1 codec'ini telefon oynaticilari cozemez (ses var
+    # goruntu yok). Once avc1 dene, yoksa mp4'e dus.
+    fmt = (
+        "bv*[height<=480][vcodec^=avc1]+ba[ext=m4a]/"
+        "b[height<=480][vcodec^=avc1]/"
+        "bv*[height<=480][ext=mp4]+ba[ext=m4a]/b[height<=480]/b"
+    )
     cmd = [
         sys.executable, "-m", "yt_dlp",
         # YouTube artik JS imzali format istiyor; node calistiricisi 403'u onler.
@@ -54,9 +60,18 @@ def transcribe(src, media_path):
     except NameError:
         _MODEL = WhisperModel("base.en", device="cpu", compute_type="int8")
 
-    segments, _ = _MODEL.transcribe(
-        media_path, language="en", vad_filter=True, word_timestamps=True
-    )
+    def run(vad):
+        segs, _ = _MODEL.transcribe(
+            media_path, language="en", vad_filter=vad, word_timestamps=True
+        )
+        return list(segs)
+
+    # VAD bazi dosyalarda tum sesi yanlislikla kesiyor; 0 donerse VAD'siz tekrar dene.
+    segments = run(True)
+    if not segments:
+        print("  [uyari] VAD 0 segment verdi, VAD'siz yeniden deneniyor")
+        segments = run(False)
+
     sentences, flat_words = [], []
     for i, s in enumerate(segments):
         text = s.text.strip()
