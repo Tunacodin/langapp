@@ -14,7 +14,8 @@
       "bundleIdentifier": "com.tunadev58.langapp",
       "infoPlist": {
         "NSSpeechRecognitionUsageDescription": "Soylediklerini yaziya cevirmek icin konusma tanima gerekiyor.",
-        "NSMicrophoneUsageDescription": "Telaffuz pratigi icin mikrofon erisimi gerekiyor."
+        "NSMicrophoneUsageDescription": "Telaffuz pratigi icin mikrofon erisimi gerekiyor.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
