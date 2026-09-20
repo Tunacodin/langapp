@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "tertiary-container": "#00855b", "surface-container": "#f0eded", "on-tertiary": "#ffffff", "on-secondary-fixed-variant": "#004f52", "primary-fixed-dim": "#ffb2b6", "on-primary-fixed": "#40000d", "on-secondary-fixed": "#002021", "on-surface": "#1b1c1c", "tertiary-fixed-dim": "#4edea3", "on-secondary": "#ffffff", "surface-container-highest": "#e5e2e1", "on-tertiary-fixed": "#002113", "error-container": "#ffdad6", "on-error": "#ffffff", "primary": "#ba0036", "on-secondary-container": "#006e72", "surface-tint": "#be0038", "secondary": "#00696d", "surface-bright": "#fcf9f8", "surface": "#fcf9f8", "on-primary-container": "#fffbff", "on-error-container": "#93000a", "outline": "#906f70", "error": "#ba1a1a", "secondary-container": "#8eeff4", "primary-fixed": "#ffdada", "primary-container": "#e21e4a", "on-tertiary-container": "#f5fff6", "surface-variant": "#e5e2e1", "inverse-surface": "#303030", "inverse-primary": "#ffb2b6", "on-tertiary-fixed-variant": "#005236", "on-primary": "#ffffff", "on-surface-variant": "#5c3f41", "tertiary-fixed": "#6ffbbe", "on-primary-fixed-variant": "#920029", "outline-variant": "#e5bdbe", "tertiary": "#006947", "surface-container-low": "#f6f3f2", "secondary-fixed-dim": "#74d6db", "surface-container-lowest": "#ffffff", "background": "#fcf9f8", "surface-container-high": "#eae7e7", "surface-dim": "#dcd9d9", "secondary-fixed": "#91f2f7", "inverse-on-surface": "#f3f0ef", "on-background": "#1b1c1c" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "margin-tablet": "2rem", "space-md": "1rem", "space-xl": "2rem", "margin": "1.25rem", "margin-desktop": "3rem", "space-xs": "0.25rem", "gutter": "1rem", "space-sm": "0.5rem", "gutter-desktop": "2rem", "gutter-tablet": "1.5rem", "space-lg": "1.5rem" }, fontFamily: { "body-bold": ["Inter"], "body-lg": ["Inter"], "body-md": ["Inter"], "target-chunk-lg": ["Inter"], "headline-lg": ["Inter"], "target-chunk-lg-mobile": ["Inter"], "headline-lg-mobile": ["Inter"], "label-sm": ["Inter"], "headline-md": ["Inter"], "display-hero": ["Inter"], "headline-sm": ["Inter"], "label-md": ["Inter"] }, fontSize: { "body-bold": ["14px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "600" }], "body-lg": ["16px", { lineHeight: "24px", letterSpacing: "0em", fontWeight: "400" }], "body-md": ["14px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "400" }], "target-chunk-lg": ["24px", { lineHeight: "34px", letterSpacing: "-0.01em", fontWeight: "600" }], "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700" }], "target-chunk-lg-mobile": ["20px", { lineHeight: "30px", letterSpacing: "-0.01em", fontWeight: "600" }], "headline-lg-mobile": ["26px", { lineHeight: "34px", letterSpacing: "-0.02em", fontWeight: "700" }], "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.04em", fontWeight: "500" }], "headline-md": ["22px", { lineHeight: "28px", letterSpacing: "-0.015em", fontWeight: "600" }], "display-hero": ["40px", { lineHeight: "48px", letterSpacing: "-0.03em", fontWeight: "700" }], "headline-sm": ["18px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "600" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "600" }] } } } }</script><style>
+@layer base{
+  html,body{width:100vw;margin:0;padding:0;background-color:#ffffff;}
+  body{overscroll-behavior:none;font-family:Inter,sans-serif;}
+  .pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}
+  .pt-safe{padding-top:env(safe-area-inset-top,0px);}
+  main>:first-child{margin-top:0!important;}
+  main>:last-child{margin-bottom:0!important;}
+}
+::-webkit-scrollbar{display:none;}
+
+/* Rich Fluid Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.92) translateY(20px);
+  }
+  70% {
+    transform: scale(1.02) translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes wavePulse {
+  0%, 100% { height: 4px; }
+  50% { height: 14px; }
+}
+
+@keyframes micPulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(186, 0, 54, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(186, 0, 54, 0.02);
+  }
+}
+
+@keyframes spinRewind {
+  0% { transform: rotate(0deg) scale(0.92); }
+  60% { transform: rotate(-35deg) scale(1.05); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+@keyframes spinForward {
+  0% { transform: rotate(0deg) scale(0.92); }
+  60% { transform: rotate(35deg) scale(1.05); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+/* Staggered entrance classes */
+.anim-video {
+  animation: fadeInDown 0.6s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+.anim-header-info {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.15s backwards;
+}
+.anim-chips {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.22s backwards;
+}
+.anim-row-0 {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.28s backwards;
+}
+.anim-row-1 {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.34s backwards;
+}
+.anim-row-2 {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.40s backwards;
+}
+.anim-row-3 {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.46s backwards;
+}
+.anim-dock {
+  animation: popIn 0.65s cubic-bezier(0.34, 1.4, 0.64, 1) 0.3s backwards;
+}
+
+/* Audio wave animations */
+.wave-bar-1 { animation: wavePulse 1s ease-in-out infinite; }
+.wave-bar-2 { animation: wavePulse 1s ease-in-out 0.2s infinite; }
+.wave-bar-3 { animation: wavePulse 1s ease-in-out 0.4s infinite; }
+
+.mic-glow {
+  animation: micPulseGlow 2.4s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.spin-back-active {
+  animation: spinRewind 0.35s ease-out;
+}
+.spin-forward-active {
+  animation: spinForward 0.35s ease-out;
+}
+
+.transcript-row {
+  transition: all 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+</style></head><body class="bg-surface-container-lowest text-on-surface font-body-md text-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-14 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Go back" class="min-w-[44px] min-h-[44px] -ml-2 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container active:scale-90 transition-all duration-150" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[22px]">arrow_back_ios_new</span></button><div class="flex items-center gap-space-xs"><img alt="Brand logo. - Primary color: #ff385c
+- Font: inter
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain transition-transform duration-200 hover:scale-105" src="https://lh3.googleusercontent.com/aida/AEtjO1XoC4fzIRcivvz_mQoxTK-5rvwtWqyJXknuzWU5-jkWtON-h6tr6yZoTc-FvYKmyWHe7mvMwImczGaRtAtEL2noJ64KZTFr3pR2LNbS7mH9JfgNrstgN7NEXKFTk9wfA08xovGApMjxcZDaiH5M5NFQJPONqEWy_mWRhr4UASi4oKCdBxFc9gUELqQ2IQL8ikHv2OByVD1VLKFoE05OteQr9bBlLZaEKeRjYcwycvHrcMCjjB4gEyDaRqcq"/><span class="font-headline-sm text-headline-sm text-on-surface truncate tracking-tight">Ders &amp; Transkript</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Lesson options" class="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container active:scale-90 transition-all" type="button"><span class="material-symbols-outlined text-[24px]">more_horiz</span></button><button aria-label="Close transcript view" class="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container active:scale-90 transition-all" type="button"><span class="material-symbols-outlined text-[24px]">close</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ml-space-xs ring-1 ring-surface-container-highest transition-transform hover:scale-110 duration-200" src="https://lh3.googleusercontent.com/aida/AEtjO1XJ45rtKI3mHkx-4PYAg8I3HPWHcpzllRGWiWG6Evmnvimh_O20YZSrDVBhr8_tkg8f3p_u-gXyMVeN4xH2eZVbypCmhtsn4bay86KcbN7Us8R1kT3ITabr4fwZ6GTfHXP8hmVUyt69tgegEMc2A4a_My0ls8hFLuVLBMhcyz_Pl76jjHlJedreRm5kpsE9CFX8By0D3dPx1QPzmD3GWUdN6PyDDXQO-8MiJy8Zi_BNhWMHIMUBLxJmzso"/></div></div></header><main class="flex flex-col relative w-full pt-14 pb-safe bg-surface-container-lowest"><div class="flex flex-col w-full bg-surface-container-lowest text-on-surface select-none pb-28">
+<!-- Video Player Section (Top 35% visual proportion) -->
+<section class="anim-video relative w-full aspect-[16/10] bg-on-surface overflow-hidden rounded-b-2xl shadow-sm group">
+<!-- Active Video Frame -->
+<img alt="Steve Jobs speaking at the 2005 Stanford Commencement speech" class="w-full h-full object-cover brightness-[0.92] transition-transform duration-700 ease-out group-hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida/AEtjO1Wc4ecKdfCtzsW24gpbjD5v1yJWEW1Rwm8lRwaeaX3xZ4D2cHcYhiAKkHYuEkRGN5vzb7b6fubJFsBDfVAY-Ia7bK99rxeAEs-X6FCM9u1-besK9mCpYAdbIGGdN0BQ3xTknbtOvM2JG6a_Hi7gzLOVn7czRoyHkDYMQIDkkPRm5S7aK7xejYbntQMsWJf50J8_9yL8WOitL9KiZ42_tSsvOGOFuKCYjlua-_iphnbAeS2Ugj5WKFP2Kj0B"/>
+<!-- Subtle Cinematic Gradient Overlays -->
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-black/60 pointer-events-none"></div>
+<!-- Top Controls Overlay -->
+<div class="absolute top-3 inset-x-3 flex items-center justify-between z-10">
+<!-- Status Badges -->
+<div class="flex items-center gap-space-xs">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-black/50 backdrop-blur-md text-surface-container-lowest shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse" id="video-rec-dot"></span>
+<span class="font-label-sm text-label-sm tracking-wide" id="video-time-display">01:22 / 14:32</span>
+</div>
+<div class="px-2 py-1 rounded-full bg-black/40 backdrop-blur-md text-surface-container-lowest font-label-sm text-label-sm">
+          B2 • Doğal Akış
+        </div>
+</div>
+<!-- Playback Controls (Speed & CC) -->
+<div class="flex items-center gap-space-xs">
+<button aria-label="Playback Speed" class="h-7 px-2.5 flex items-center justify-center rounded-full bg-black/40 backdrop-blur-md text-surface-container-lowest font-label-sm text-label-sm hover:bg-black/60 active:scale-95 transition-all" id="btn-speed" type="button">
+          1.0x
+        </button>
+<button aria-label="Subtitles enabled" class="w-7 h-7 flex items-center justify-center rounded-full bg-primary text-on-primary hover:opacity-90 active:scale-95 transition-all" id="btn-cc" type="button">
+<span class="material-symbols-outlined text-[16px]">subtitles</span>
+</button>
+</div>
+</div>
+<!-- Center Play/Pause Overlay Micro-action -->
+<div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+<div class="w-12 h-12 rounded-full bg-black/40 backdrop-blur-sm flex items-center justify-center text-surface-container-lowest opacity-0 hover:opacity-100 group-hover:opacity-90 transition-all duration-200 pointer-events-auto cursor-pointer active:scale-90" id="video-center-btn">
+<span class="material-symbols-outlined text-[28px]" id="video-center-icon">pause</span>
+</div>
+</div>
+<!-- Bottom Scrubber & Time Indicator -->
+<div class="absolute bottom-0 inset-x-0 z-10 px-3 pb-2 pt-4 bg-gradient-to-t from-black/90 to-transparent cursor-pointer" id="scrubber-bar">
+<div class="relative w-full h-1 bg-white/30 rounded-full overflow-hidden hover:h-1.5 transition-all duration-150">
+<div class="absolute left-0 top-0 bottom-0 bg-primary rounded-full transition-all duration-300" id="video-scrubber-progress" style="width: 9.4%;"></div>
+</div>
+</div>
+</section>
+<!-- Interactive Transcript Section -->
+<section class="flex flex-col w-full pt-4 px-margin">
+<!-- Header Bar Above Transcript -->
+<div class="anim-header-info flex items-center justify-between pb-3">
+<div class="flex items-center gap-2">
+<h2 class="font-headline-sm text-headline-sm text-on-surface tracking-tight">İnteraktif Transkript</h2>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm" id="sentence-count-badge">
+          24 Cümle
+        </span>
+</div>
+<!-- Sync Toggle -->
+<button aria-label="Toggle auto-scroll synchronization" class="flex items-center gap-1 px-2.5 py-1 rounded-full text-secondary hover:bg-surface-container active:scale-95 transition-all" id="sync-toggle" type="button">
+<span class="material-symbols-outlined text-[16px] text-secondary transition-transform duration-500" id="sync-icon">sync</span>
+<span class="font-label-sm text-label-sm font-medium" id="sync-text">Eşzamanlı Kaydır</span>
+</button>
+</div>
+<!-- Filter Chips Row (Horizontal Scroll) -->
+<div class="anim-chips flex items-center gap-2 overflow-x-auto pb-3 pt-0.5 no-scrollbar" id="filter-chip-container">
+<button class="filter-chip flex-shrink-0 px-3.5 py-1.5 rounded-full bg-on-surface text-surface-container-lowest font-label-md text-label-md transition-all duration-200 active:scale-95 shadow-xs" data-filter="all" type="button">
+        Tümü (All)
+      </button>
+<button class="filter-chip flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md shadow-[0_0_0_1px_rgba(0,0,0,0.08)] hover:bg-surface-container-low active:scale-95 transition-all duration-200" data-filter="grammar" type="button">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+        Dilbilgisi Kalıpları
+      </button>
+<button class="filter-chip flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md shadow-[0_0_0_1px_rgba(0,0,0,0.08)] hover:bg-surface-container-low active:scale-95 transition-all duration-200" data-filter="chunk" type="button">
+<span class="w-2 h-2 rounded-full bg-[#D97706]"></span>
+        Sözcük Öbekleri
+      </button>
+</div>
+<!-- Subtitle Rows List -->
+<div class="flex flex-col w-full mt-1 space-y-1" id="transcript-container">
+<!-- Row 1: Past Context -->
+<div class="anim-row-0 transcript-row group flex flex-col p-3 rounded-xl hover:bg-surface-container-low transition-all cursor-pointer" data-category="general" data-index="0" data-time="01:18" data-timestamp="78">
+<div class="flex items-start gap-3">
+<div class="time-col flex items-center gap-1 shrink-0 pt-0.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant/70 font-mono time-label">[01:18]</span>
+<div class="wave-indicator hidden items-end gap-0.5 h-3.5 pl-0.5">
+<span class="w-0.5 bg-secondary rounded-full wave-bar-1" style="height: 10px;"></span>
+<span class="w-0.5 bg-secondary rounded-full wave-bar-2" style="height: 14px;"></span>
+<span class="w-0.5 bg-secondary rounded-full wave-bar-3" style="height: 6px;"></span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface/80 flex-1 leading-relaxed sentence-text transition-colors">
+            I had to make a tough decision yesterday.
+          </p>
+<button aria-label="Play segment at 01:18" class="row-play-btn w-7 h-7 rounded-full flex items-center justify-center text-on-surface-variant/50 group-hover:text-on-surface group-hover:bg-surface-container-highest active:scale-90 transition-all shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">play_arrow</span>
+</button>
+</div>
+</div>
+<div class="h-px w-full bg-surface-container-high/60 my-0.5 row-divider"></div>
+<!-- Row 2: Active / Currently Playing -->
+<div class="anim-row-1 transcript-row active-row group relative flex flex-col p-3 rounded-xl bg-surface-container-low shadow-[0_0_0_1px_rgba(0,105,109,0.15)] transition-all cursor-pointer" data-category="grammar" data-index="1" data-time="01:22" data-timestamp="82">
+<!-- Active Accent Indicator -->
+<div class="active-bar absolute left-0 top-3 bottom-3 w-1 bg-secondary rounded-r-full transition-all"></div>
+<div class="flex items-start gap-3 pl-1">
+<!-- Active Wave / Timestamp -->
+<div class="time-col flex items-center gap-1 shrink-0 pt-0.5">
+<span class="font-label-sm text-label-sm font-mono text-secondary font-semibold time-label">[01:22]</span>
+<div class="wave-indicator flex items-end gap-0.5 h-3.5 pl-0.5">
+<span class="w-0.5 bg-secondary rounded-full wave-bar-1" style="height: 10px;"></span>
+<span class="w-0.5 bg-secondary rounded-full wave-bar-2" style="height: 14px;"></span>
+<span class="w-0.5 bg-secondary rounded-full wave-bar-3" style="height: 6px;"></span>
+</div>
+</div>
+<!-- Sentence text with Grammar Highlight -->
+<div class="flex-1">
+<p class="font-body-bold text-body-bold text-on-surface leading-relaxed sentence-text transition-colors">
+              But I
+              <span class="inline-flex items-center px-1.5 py-0.5 rounded bg-[#E6F4F1] text-secondary font-semibold mx-0.5 cursor-pointer hover:bg-[#D4EFEA] active:scale-95 transition-all">
+                was just about to
+              </span>
+              give up when he arrived.
+            </p>
+<!-- Interactive Pedagogical Grammar Pill -->
+<div class="mt-2 inline-flex items-center gap-2 px-2.5 py-1 rounded-lg bg-surface-container-lowest text-on-surface shadow-[0_0_0_1px_rgba(0,105,109,0.2)] hover:shadow-sm transition-all duration-150">
+<span class="flex items-center justify-center w-4 h-4 rounded-full bg-[#E6F4F1] text-secondary font-bold text-[10px]">
+                i+1
+              </span>
+<span class="font-label-md text-label-md text-secondary">Pattern: be about to</span>
+<span class="text-on-surface-variant/50 text-[10px]">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Bir şey yapmak üzere olmak</span>
+</div>
+</div>
+<button aria-label="Pause active segment" class="row-play-btn w-7 h-7 rounded-full flex items-center justify-center bg-secondary text-on-secondary shadow-xs shrink-0 active:scale-90 transition-all" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+</button>
+</div>
+</div>
+<div class="h-px w-full bg-surface-container-high/60 my-0.5 row-divider"></div>
+<!-- Row 3: Upcoming Lexical Chunk Highlight -->
+<div class="anim-row-2 transcript-row group flex flex-col p-3 rounded-xl hover:bg-surface-container-low transition-all cursor-pointer" data-category="chunk" data-index="2" data-time="01:26" data-timestamp="86">
+<div class="flex items-start gap-3">
+<div class="time-col flex items-center gap-1 shrink-0 pt-0.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant/70 font-mono time-label">[01:26]</span>
+<div class="wave-indicator hidden items-end gap-0.5 h-3.5 pl-0.5">
+<span class="w-0.5 bg-secondary rounded-full wave-bar-1" style="height: 10px;"></span>
+<span class="w-0.5 bg-secondary rounded-full wave-bar-2" style="height: 14px;"></span>
+<span class="w-0.5 bg-secondary rounded-full wave-bar-3" style="height: 6px;"></span>
+</div>
+</div>
+<div class="flex-1">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed sentence-text transition-colors">
+              We need to
+              <span class="inline-flex items-center px-1.5 py-0.5 rounded bg-[#FEF3C7] text-[#92400E] font-medium mx-0.5 cursor-pointer hover:bg-[#FDE68A] active:scale-95 transition-all">
+                take into account
+              </span>
+              all possibilities.
+            </p>
+<!-- Chunk Explanation Pill -->
+<div class="mt-2 inline-flex items-center gap-2 px-2.5 py-1 rounded-lg bg-surface-container-lowest shadow-[0_0_0_1px_rgba(217,119,6,0.25)] hover:shadow-sm transition-all duration-150">
+<span class="w-2 h-2 rounded-full bg-[#D97706]"></span>
+<span class="font-label-md text-label-md text-[#92400E]">Chunk: take into account</span>
+<span class="text-on-surface-variant/40 text-[10px]">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Göz önünde bulundurmak</span>
+</div>
+</div>
+<button aria-label="Play segment at 01:26" class="row-play-btn w-7 h-7 rounded-full flex items-center justify-center text-on-surface-variant/50 group-hover:text-on-surface group-hover:bg-surface-container-highest active:scale-90 transition-all shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">play_arrow</span>
+</button>
+</div>
+</div>
+<div class="h-px w-full bg-surface-container-high/60 my-0.5 row-divider"></div>
+<!-- Row 4: Subsequent Context -->
+<div class="anim-row-3 transcript-row group flex flex-col p-3 rounded-xl hover:bg-surface-container-low transition-all cursor-pointer" data-category="general" data-index="3" data-time="01:31" data-timestamp="91">
+<div class="flex items-start gap-3">
+<div class="time-col flex items-center gap-1 shrink-0 pt-0.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant/70 font-mono time-label">[01:31]</span>
+<div class="wave-indicator hidden items-end gap-0.5 h-3.5 pl-0.5">
+<span class="w-0.5 bg-secondary rounded-full wave-bar-1" style="height: 10px;"></span>
+<span class="w-0.5 bg-secondary rounded-full wave-bar-2" style="height: 14px;"></span>
+<span class="w-0.5 bg-secondary rounded-full wave-bar-3" style="height: 6px;"></span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface/75 flex-1 leading-relaxed sentence-text transition-colors">
+            Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose.
+          </p>
+<button aria-label="Play segment at 01:31" class="row-play-btn w-7 h-7 rounded-full flex items-center justify-center text-on-surface-variant/50 group-hover:text-on-surface group-hover:bg-surface-container-highest active:scale-90 transition-all shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">play_arrow</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Floating Audio Control Dock (Anchored at Base) -->
+<aside class="anim-dock fixed bottom-4 inset-x-0 flex justify-center z-40 px-margin pointer-events-none">
+<div class="pointer-events-auto flex items-center justify-between gap-3 px-4 py-2.5 rounded-full bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_8px_32px_rgba(0,0,0,0.14),0_0_0_1px_rgba(0,0,0,0.06)] max-w-sm w-full transition-transform duration-300 hover:shadow-[0_12px_36px_rgba(0,0,0,0.18),0_0_0_1px_rgba(0,0,0,0.08)]">
+<!-- 5s Rewind Button -->
+<button aria-label="Rewind 5 seconds" class="w-10 h-10 flex flex-col items-center justify-center rounded-full text-on-surface hover:bg-surface-container-high active:scale-90 transition-transform duration-150" id="btn-rewind" type="button">
+<span class="material-symbols-outlined text-[22px] transition-transform duration-300" id="icon-rewind">replay_5</span>
+</button>
+<!-- Center Play/Pause Button in Brand Tone -->
+<button aria-label="Pause playback" class="w-12 h-12 flex items-center justify-center rounded-full bg-primary text-on-primary shadow-md hover:brightness-105 active:scale-90 transition-all duration-200" id="main-play-btn" type="button">
+<span class="material-symbols-outlined text-[28px] transition-transform duration-200" id="main-play-icon">pause</span>
+</button>
+<!-- 5s Forward Button -->
+<button aria-label="Forward 5 seconds" class="w-10 h-10 flex flex-col items-center justify-center rounded-full text-on-surface hover:bg-surface-container-high active:scale-90 transition-transform duration-150" id="btn-forward" type="button">
+<span class="material-symbols-outlined text-[22px] transition-transform duration-300" id="icon-forward">forward_5</span>
+</button>
+<div class="h-6 w-px bg-surface-container-highest mx-0.5"></div>
+<!-- Shadowing Mode CTA with glowing pulse -->
+<button aria-label="Start audio shadowing drill" class="mic-glow flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-surface-container-low text-on-surface font-body-bold text-body-bold hover:bg-surface-container shadow-[0_0_0_1px_rgba(0,0,0,0.08)] active:scale-95 transition-all duration-200" id="btn-shadowing" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary transition-transform duration-200 group-hover:scale-110">mic</span>
+<span class="font-label-md text-label-md tracking-tight">Shadowing</span>
+</button>
+</div>
+</aside>
+</div>
+<script>
+  // State management
+  let isPlaying = true;
+  let activeIndex = 1;
+  let autoScrollSync = true;
+  const totalDurationSec = 14 * 60 + 32; // 14:32
+
+  const playBtn = document.getElementById('main-play-btn');
+  const playIcon = document.getElementById('main-play-icon');
+  const videoCenterBtn = document.getElementById('video-center-btn');
+  const videoCenterIcon = document.getElementById('video-center-icon');
+  const videoRecDot = document.getElementById('video-rec-dot');
+  const videoTimeDisplay = document.getElementById('video-time-display');
+  const scrubberProgress = document.getElementById('video-scrubber-progress');
+  const syncToggle = document.getElementById('sync-toggle');
+  const syncIcon = document.getElementById('sync-icon');
+  const rewindBtn = document.getElementById('btn-rewind');
+  const forwardBtn = document.getElementById('btn-forward');
+  const rewindIcon = document.getElementById('icon-rewind');
+  const forwardIcon = document.getElementById('icon-forward');
+  const rows = document.querySelectorAll('.transcript-row');
+  const filterChips = document.querySelectorAll('.filter-chip');
+
+  // Toggle Play / Pause state across UI
+  function setPlayState(playing) {
+    isPlaying = playing;
+    const iconName = isPlaying ? 'pause' : 'play_arrow';
+    if (playIcon) playIcon.textContent = iconName;
+    if (videoCenterIcon) videoCenterIcon.textContent = iconName;
+
+    if (isPlaying) {
+      videoRecDot?.classList.add('animate-pulse');
+      document.querySelectorAll('.active-row .wave-bar-1, .active-row .wave-bar-2, .active-row .wave-bar-3').forEach(bar => {
+        bar.style.animationPlayState = 'running';
+      });
+    } else {
+      videoRecDot?.classList.remove('animate-pulse');
+      document.querySelectorAll('.wave-bar-1, .wave-bar-2, .wave-bar-3').forEach(bar => {
+        bar.style.animationPlayState = 'paused';
+      });
+    }
+  }
+
+  playBtn?.addEventListener('click', () => setPlayState(!isPlaying));
+  videoCenterBtn?.addEventListener('click', () => setPlayState(!isPlaying));
+
+  // Switch Active Transcript Row smoothly
+  function setActiveRow(index) {
+    activeIndex = index;
+    rows.forEach((row, i) => {
+      const isCurrent = i === index;
+      const timeLabel = row.querySelector('.time-label');
+      const wave = row.querySelector('.wave-indicator');
+      const sentence = row.querySelector('.sentence-text');
+      const btn = row.querySelector('.row-play-btn');
+      let accentBar = row.querySelector('.active-bar');
+
+      if (isCurrent) {
+        row.classList.add('active-row', 'bg-surface-container-low', 'shadow-[0_0_0_1px_rgba(0,105,109,0.15)]');
+        row.classList.remove('hover:bg-surface-container-low');
+        if (!accentBar) {
+          accentBar = document.createElement('div');
+          accentBar.className = 'active-bar absolute left-0 top-3 bottom-3 w-1 bg-secondary rounded-r-full transition-all';
+          row.prepend(accentBar);
+        }
+        if (timeLabel) {
+          timeLabel.className = 'font-label-sm text-label-sm font-mono text-secondary font-semibold time-label';
+        }
+        if (wave) {
+          wave.classList.remove('hidden');
+          wave.classList.add('flex');
+        }
+        if (sentence) {
+          sentence.className = 'font-body-bold text-body-bold text-on-surface leading-relaxed sentence-text transition-colors';
+        }
+        if (btn) {
+          btn.className = 'row-play-btn w-7 h-7 rounded-full flex items-center justify-center bg-secondary text-on-secondary shadow-xs shrink-0 active:scale-90 transition-all';
+          btn.innerHTML = '<span class="material-symbols-outlined text-[16px]">volume_up</span>';
+          btn.setAttribute('aria-label', 'Pause active segment');
+        }
+
+        // Update video progress & time badge
+        const timeStr = row.getAttribute('data-time') || '01:22';
+        const timestampSec = parseInt(row.getAttribute('data-timestamp') || '82', 10);
+        if (videoTimeDisplay) videoTimeDisplay.textContent = `${timeStr} / 14:32`;
+        if (scrubberProgress) {
+          const percent = ((timestampSec / totalDurationSec) * 100).toFixed(1);
+          scrubberProgress.style.width = `${percent}%`;
+        }
+
+        if (autoScrollSync) {
+          row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      } else {
+        row.classList.remove('active-row', 'bg-surface-container-low', 'shadow-[0_0_0_1px_rgba(0,105,109,0.15)]');
+        row.classList.add('hover:bg-surface-container-low');
+        if (accentBar) accentBar.remove();
+        if (timeLabel) {
+          timeLabel.className = 'font-label-sm text-label-sm text-on-surface-variant/70 font-mono time-label';
+        }
+        if (wave) {
+          wave.classList.remove('flex');
+          wave.classList.add('hidden');
+        }
+        if (sentence) {
+          sentence.className = 'font-body-md text-body-md text-on-surface/80 flex-1 leading-relaxed sentence-text transition-colors';
+        }
+        if (btn) {
+          btn.className = 'row-play-btn w-7 h-7 rounded-full flex items-center justify-center text-on-surface-variant/50 group-hover:text-on-surface group-hover:bg-surface-container-highest active:scale-90 transition-all shrink-0';
+          btn.innerHTML = '<span class="material-symbols-outlined text-[18px]">play_arrow</span>';
+          btn.setAttribute('aria-label', `Play segment at ${row.getAttribute('data-time')}`);
+        }
+      }
+    });
+
+    if (!isPlaying) {
+      setPlayState(true);
+    }
+  }
+
+  // Row click event binding
+  rows.forEach((row, idx) => {
+    row.addEventListener('click', (e) => {
+      // Avoid conflict if clicking inside specific pills
+      setActiveRow(idx);
+    });
+  });
+
+  // Filter Chip transitions & filtering logic
+  filterChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      filterChips.forEach(c => {
+        c.className = 'filter-chip flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md shadow-[0_0_0_1px_rgba(0,0,0,0.08)] hover:bg-surface-container-low active:scale-95 transition-all duration-200';
+      });
+      chip.className = 'filter-chip flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-on-surface text-surface-container-lowest font-label-md text-label-md transition-all duration-200 active:scale-95 shadow-xs';
+
+      const filter = chip.getAttribute('data-filter');
+      rows.forEach(row => {
+        const cat = row.getAttribute('data-category');
+        const divider = row.nextElementSibling;
+        const matches = (filter === 'all' || cat === filter);
+        
+        if (matches) {
+          row.style.display = 'flex';
+          row.style.opacity = '0';
+          row.style.transform = 'translateY(6px)';
+          setTimeout(() => {
+            row.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
+            row.style.opacity = '1';
+            row.style.transform = 'translateY(0)';
+          }, 20);
+          if (divider && divider.classList.contains('row-divider')) {
+            divider.style.display = 'block';
+          }
+        } else {
+          row.style.transition = 'opacity 0.15s ease, transform 0.15s ease';
+          row.style.opacity = '0';
+          row.style.transform = 'translateY(-4px)';
+          setTimeout(() => {
+            row.style.display = 'none';
+          }, 150);
+          if (divider && divider.classList.contains('row-divider')) {
+            divider.style.display = 'none';
+          }
+        }
+      });
+    });
+  });
+
+  // 5s Rewind & Forward Micro-interactions
+  rewindBtn?.addEventListener('click', () => {
+    rewindIcon?.classList.add('spin-back-active');
+    setTimeout(() => rewindIcon?.classList.remove('spin-back-active'), 350);
+    if (activeIndex > 0) {
+      setActiveRow(activeIndex - 1);
+    }
+  });
+
+  forwardBtn?.addEventListener('click', () => {
+    forwardIcon?.classList.add('spin-forward-active');
+    setTimeout(() => forwardIcon?.classList.remove('spin-forward-active'), 350);
+    if (activeIndex < rows.length - 1) {
+      setActiveRow(activeIndex + 1);
+    }
+  });
+
+  // Auto-scroll sync toggle micro-interaction
+  syncToggle?.addEventListener('click', () => {
+    autoScrollSync = !autoScrollSync;
+    if (syncIcon) {
+      syncIcon.style.transform = autoScrollSync ? 'rotate(360deg)' : 'rotate(0deg)';
+      syncIcon.className = `material-symbols-outlined text-[16px] transition-transform duration-500 ${autoScrollSync ? 'text-secondary' : 'text-on-surface-variant'}`;
+    }
+    const syncText = document.getElementById('sync-text');
+    if (syncText) {
+      syncText.className = `font-label-sm text-label-sm font-medium ${autoScrollSync ? 'text-secondary' : 'text-on-surface-variant'}`;
+    }
+  });
+
+  // Speed toggler cycle
+  const speedBtn = document.getElementById('btn-speed');
+  const speeds = ['0.8x', '1.0x', '1.25x', '1.5x'];
+  let currentSpeedIdx = 1;
+  speedBtn?.addEventListener('click', () => {
+    currentSpeedIdx = (currentSpeedIdx + 1) % speeds.length;
+    speedBtn.textContent = speeds[currentSpeedIdx];
+    speedBtn.classList.add('scale-110');
+    setTimeout(() => speedBtn.classList.remove('scale-110'), 150);
+  });
+
+  // Subtitle Toggle
+  const ccBtn = document.getElementById('btn-cc');
+  let ccActive = true;
+  ccBtn?.addEventListener('click', () => {
+    ccActive = !ccActive;
+    if (ccActive) {
+      ccBtn.className = 'w-7 h-7 flex items-center justify-center rounded-full bg-primary text-on-primary hover:opacity-90 active:scale-95 transition-all';
+    } else {
+      ccBtn.className = 'w-7 h-7 flex items-center justify-center rounded-full bg-black/40 backdrop-blur-md text-surface-container-lowest hover:bg-black/60 active:scale-95 transition-all';
+    }
+  });
+</script></main></body></html>

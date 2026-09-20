@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>Dilbilgisi Kalıbı Detayı - Modal Bottom Sheet</title>
+<!-- Tailwind CSS v3 with Forms & Container Queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration for Airbnb Minimalist Tokens -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary: '#FF385C',
+              dark: '#D70466',
+              teal: '#008489',
+              tealLight: '#E6F4F1',
+              charcoal: '#222222',
+              muted: '#717171',
+              border: '#EAEAEA',
+              surface: '#FFFFFF',
+              pillBg: '#F7F7F7'
+            }
+          },
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', '"SF Pro Display"', 'Inter', 'Helvetica Neue', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<!-- Component Layout Styling -->
+<style data-purpose="custom-scroll-and-visuals">
+    /* Native-feel iOS scrolling */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .tap-highlight-none {
+      -webkit-tap-highlight-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-black text-brand-charcoal antialiased select-none font-sans overflow-hidden flex justify-center items-center min-h-screen">
+<!-- Mobile Viewport Container (iOS Simulation Frame) -->
+<div class="relative w-full max-w-[430px] h-[932px] max-h-screen bg-black overflow-hidden flex flex-col justify-end shadow-2xl">
+<!-- BEGIN: BackgroundDimmedScreen -->
+<!-- Simulated blurred backdrop of {{DATA:SCREEN:SCREEN_3}} with Steve Jobs speech transcript -->
+<div class="absolute inset-0 z-0 bg-neutral-900 pointer-events-none filter blur-[2px] opacity-70 scale-105">
+<!-- Simulated Video Player Header -->
+<div class="w-full h-64 bg-neutral-800 relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="p-4 pt-12 flex justify-between items-center text-white text-xs">
+<span class="px-2 py-1 bg-black/40 rounded-full font-medium">01:22 / 14:32</span>
+<span class="px-2 py-1 bg-black/40 rounded-full font-medium">B2 • Doğal Akış</span>
+</div>
+</div>
+<!-- Simulated Transcript List -->
+<div class="p-5 space-y-4 text-white/40 text-sm">
+<p>[01:18] I had to make a tough decision yesterday.</p>
+<div class="p-3 rounded-xl bg-white/5 border border-white/10">
+<p class="text-white/90 font-medium">[01:22] But I was just about to give up when he arrived.</p>
+</div>
+<p>[01:26] We need to take into account all possibilities.</p>
+<p>[01:31] Remembering that you are going to die is the best way...</p>
+</div>
+</div>
+<!-- Darkened Overlay Mask -->
+<div class="absolute inset-0 z-10 bg-black/50 transition-opacity backdrop-blur-[2px]"></div>
+<!-- END: BackgroundDimmedScreen -->
+<!-- BEGIN: BottomSheetModal -->
+<!-- Modal Bottom Sheet occupying ~72% height -->
+<section class="relative z-20 w-full h-[74%] bg-brand-surface rounded-t-[24px] border-t border-brand-border flex flex-col overflow-hidden shadow-2xl" data-purpose="grammar-detail-bottom-sheet">
+<!-- BEGIN: SheetHeaderSection -->
+<header class="w-full pt-3 px-5 pb-3 border-b border-brand-border/60 shrink-0">
+<!-- iOS Style Drag Handle Indicator -->
+<div class="flex justify-center items-center pb-2">
+<div aria-hidden="true" class="w-10 h-1 bg-[#DDDDDD] rounded-full"></div>
+</div>
+<!-- Header Top Row: Category Pill & Close Action -->
+<div class="flex items-center justify-between mt-1">
+<!-- Pattern Pill Badge -->
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-brand-tealLight border border-brand-teal/20 text-brand-teal text-xs font-semibold tracking-wide">
+<span class="w-2 h-2 rounded-full bg-brand-teal animate-pulse"></span>
+<span>DİLBİLGİSİ KALIBI • B2</span>
+</div>
+<!-- Close Dismiss Icon Button -->
+<button aria-label="Kapat" class="w-8 h-8 rounded-full flex items-center justify-center text-brand-muted hover:text-brand-charcoal hover:bg-neutral-100 transition tap-highlight-none" type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+<!-- Pattern Title & Formulation -->
+<div class="mt-2.5">
+<div class="flex items-baseline gap-2">
+<h1 class="text-[20px] font-bold text-brand-charcoal tracking-tight leading-snug">
+              be about to + [Verb]
+            </h1>
+<span class="text-xs font-medium text-brand-teal tracking-normal">[yakın gelecek / eşiğinde olma]</span>
+</div>
+<p class="text-xs text-brand-muted mt-1 leading-normal font-normal">
+            Bir eylemi gerçekleştirmek üzere olmak, tam yapacakken gerçekleşen durumları ifade eder.
+          </p>
+</div>
+</header>
+<!-- END: SheetHeaderSection -->
+<!-- BEGIN: SheetScrollableContent -->
+<main class="flex-1 overflow-y-auto no-scrollbar px-5 py-4 space-y-4">
+<!-- Context Sentence Card Container -->
+<article class="bg-brand-surface rounded-[12px] border border-brand-border p-4 transition-all" data-purpose="original-sentence-context">
+<!-- Context Origin Label -->
+<div class="flex items-center justify-between text-xs text-brand-muted mb-2 font-medium">
+<span class="flex items-center gap-1.5">
+<svg class="w-3.5 h-3.5 text-brand-teal" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<polygon points="23 7 16 12 23 17 23 7"></polygon>
+<rect height="14" rx="2" ry="2" width="15" x="1" y="5"></rect>
+</svg>
+              Videodaki Orijinal Cümle (01:22)
+            </span>
+<!-- Inline Sentence Audio Trigger -->
+<button class="w-7 h-7 rounded-full bg-brand-tealLight text-brand-teal flex items-center justify-center hover:opacity-80 transition" title="Cümleyi Dinle" type="button">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+<path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+</svg>
+</button>
+</div>
+<!-- English Highlighted Sentence -->
+<p class="text-[15px] leading-relaxed font-semibold text-brand-charcoal">
+            "I <span class="bg-brand-tealLight text-brand-teal px-1.5 py-0.5 rounded border border-brand-teal/20 underline decoration-brand-teal/40 decoration-1 underline-offset-2">was just about to</span> give up when he arrived."
+          </p>
+<!-- Turkish Translation -->
+<p class="text-xs text-brand-muted mt-2 border-t border-brand-border/60 pt-2 font-normal">
+            Tam da pes etmek üzereydim ki o geldi.
+          </p>
+</article>
+<!-- BEGIN: CrossVideoIntelligenceSection -->
+<section class="pt-1" data-purpose="cross-video-intelligence">
+<!-- Section Heading -->
+<div class="flex items-center justify-between mb-1.5">
+<h2 class="text-[15px] font-semibold text-brand-charcoal flex items-center gap-1.5">
+<span>🎬</span> Kütüphanendeki 5 farklı videoda geçiyor:
+            </h2>
+</div>
+<p class="text-[12px] text-brand-muted mb-3 font-normal">
+            Gerçek hayatta farklı konuşmacılardan doğal ritimle dinle.
+          </p>
+<!-- Compact Occurrences List -->
+<div class="space-y-2.5">
+<!-- Occurrence Item 1 -->
+<div class="group flex items-center justify-between p-3 rounded-[10px] border border-brand-border bg-brand-surface hover:bg-neutral-50/80 transition cursor-pointer">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-neutral-100 flex items-center justify-center text-brand-charcoal group-hover:bg-brand-charcoal group-hover:text-white transition shrink-0">
+<svg class="w-3.5 h-3.5 ml-0.5" fill="currentColor" viewbox="0 0 24 24">
+<polygon points="5 3 19 12 5 21 5 3"></polygon>
+</svg>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="text-xs font-semibold text-brand-charcoal">Tech Talk 2024</span>
+<span class="text-[10px] font-medium bg-neutral-100 text-brand-muted px-1.5 py-0.2 rounded">03:12</span>
+</div>
+<p class="text-xs text-brand-muted mt-0.5">
+                    "...was <span class="text-brand-charcoal font-medium">about to launch</span> the project..."
+                  </p>
+</div>
+</div>
+<svg class="w-4 h-4 text-brand-muted" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24">
+<path d="M8.25 4.5l7.5 7.5-7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<!-- Occurrence Item 2 -->
+<div class="group flex items-center justify-between p-3 rounded-[10px] border border-brand-border bg-brand-surface hover:bg-neutral-50/80 transition cursor-pointer">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-neutral-100 flex items-center justify-center text-brand-charcoal group-hover:bg-brand-charcoal group-hover:text-white transition shrink-0">
+<svg class="w-3.5 h-3.5 ml-0.5" fill="currentColor" viewbox="0 0 24 24">
+<polygon points="5 3 19 12 5 21 5 3"></polygon>
+</svg>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="text-xs font-semibold text-brand-charcoal">Daily VLOG #12</span>
+<span class="text-[10px] font-medium bg-neutral-100 text-brand-muted px-1.5 py-0.2 rounded">01:05</span>
+</div>
+<p class="text-xs text-brand-muted mt-0.5">
+                    "...we were <span class="text-brand-charcoal font-medium">about to leave</span> the cafe..."
+                  </p>
+</div>
+</div>
+<svg class="w-4 h-4 text-brand-muted" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24">
+<path d="M8.25 4.5l7.5 7.5-7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<!-- Teaser Row (+3 more) -->
+<div class="text-center py-1">
+<span class="text-xs font-medium text-brand-muted hover:text-brand-charcoal transition cursor-pointer">
+                + 3 video daha (Podcast &amp; Röportajlar)
+              </span>
+</div>
+</div>
+<!-- Play All Occurrences Button -->
+<button class="w-full mt-3 py-2.5 px-4 rounded-[10px] border border-brand-charcoal bg-brand-surface text-brand-charcoal font-semibold text-xs tracking-tight flex items-center justify-center gap-2 hover:bg-neutral-100 active:scale-[0.99] transition tap-highlight-none" type="button">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span>Tüm Geçen Cümleleri Sırayla Dinle</span>
+</button>
+</section>
+<!-- END: CrossVideoIntelligenceSection -->
+</main>
+<!-- END: SheetScrollableContent -->
+<!-- BEGIN: FixedBottomActionSection -->
+<footer class="w-full p-4 pb-6 bg-brand-surface border-t border-brand-border flex items-center gap-3 shrink-0" data-purpose="pinned-bottom-actions">
+<!-- Text-to-Speech Audio Button (52x52px) -->
+<button aria-label="Telaffuz Dinle" class="w-[52px] h-[52px] rounded-[12px] bg-brand-surface border border-brand-border flex items-center justify-center text-brand-charcoal hover:bg-neutral-50 active:scale-95 transition tap-highlight-none shrink-0" type="button">
+<svg class="w-6 h-6 text-brand-charcoal" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24">
+<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+<path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+</svg>
+</button>
+<!-- Primary CTA: Add to FSRS Deck -->
+<button class="flex-1 h-[52px] rounded-[12px] bg-brand-primary text-white font-semibold text-[15px] flex items-center justify-center gap-2 hover:bg-brand-dark active:scale-[0.98] transition shadow-sm tap-highlight-none" type="button">
+<span class="text-base">🎴</span>
+<span>FSRS Destesine Ekle</span>
+</button>
+</footer>
+<!-- END: FixedBottomActionSection -->
+</section>
+<!-- END: BottomSheetModal -->
+</div>
+</body></html>

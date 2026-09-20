@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+
+<html lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>Dilbilgisi Kalıbı Detayı - Modal Bottom Sheet</title>
+<!-- Tailwind CSS v3 with Forms & Container Queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Canvas Confetti for Celebration Animation -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+<!-- Tailwind Configuration for Airbnb Minimalist Tokens -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary: '#FF385C',
+              dark: '#D70466',
+              teal: '#008489',
+              tealLight: '#E6F4F1',
+              charcoal: '#222222',
+              muted: '#717171',
+              border: '#EAEAEA',
+              surface: '#FFFFFF',
+              pillBg: '#F7F7F7'
+            }
+          },
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', '"SF Pro Display"', 'Inter', 'Helvetica Neue', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<!-- Component Layout Styling and Spring Animations -->
+<style data-purpose="custom-scroll-and-visuals">
+    /* Native-feel iOS scrolling */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .tap-highlight-none {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Spring Easing Sheet Entrance & Dismiss */
+    @keyframes sheetEntrance {
+      0% {
+        transform: translateY(100%);
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateY(0%);
+        opacity: 1;
+      }
+    }
+
+    @keyframes backdropFadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes handleBounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-2.5px);
+      }
+    }
+
+    /* Soundwave equalizer bars */
+    @keyframes barPulse {
+      0%, 100% {
+        height: 4px;
+      }
+      50% {
+        height: 18px;
+      }
+    }
+
+    .animate-sheet-spring {
+      animation: sheetEntrance 0.52s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .animate-backdrop-in {
+      animation: backdropFadeIn 0.4s ease-out forwards;
+    }
+
+    .animate-handle-subtle {
+      animation: handleBounce 2.5s ease-in-out infinite;
+    }
+
+    .equalizer-bar-1 { animation: barPulse 0.65s ease-in-out infinite 0.1s; }
+    .equalizer-bar-2 { animation: barPulse 0.55s ease-in-out infinite 0.25s; }
+    .equalizer-bar-3 { animation: barPulse 0.75s ease-in-out infinite 0.05s; }
+
+    /* Respect prefers-reduced-motion */
+    @media (prefers-reduced-motion: reduce) {
+      .animate-sheet-spring,
+      .animate-backdrop-in,
+      .animate-handle-subtle,
+      .equalizer-bar-1,
+      .equalizer-bar-2,
+      .equalizer-bar-3 {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body class="bg-black text-brand-charcoal antialiased select-none font-sans overflow-hidden flex justify-center items-center min-h-screen">
+<!-- Mobile Viewport Container (iOS Simulation Frame) -->
+<div class="relative w-full max-w-[430px] h-[932px] max-h-screen bg-black overflow-hidden flex flex-col justify-end shadow-2xl">
+<!-- BEGIN: BackgroundDimmedScreen -->
+<!-- Simulated blurred backdrop of transcript with Steve Jobs speech -->
+<div class="absolute inset-0 z-0 bg-neutral-900 pointer-events-none filter blur-[2px] opacity-70 scale-105">
+<!-- Simulated Video Player Header -->
+<div class="w-full h-64 bg-neutral-800 relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="p-4 pt-12 flex justify-between items-center text-white text-xs">
+<span class="px-2 py-1 bg-black/40 rounded-full font-medium">01:22 / 14:32</span>
+<span class="px-2 py-1 bg-black/40 rounded-full font-medium">B2 • Doğal Akış</span>
+</div>
+</div>
+<!-- Simulated Transcript List -->
+<div class="p-5 space-y-4 text-white/40 text-sm">
+<p>[01:18] I had to make a tough decision yesterday.</p>
+<div class="p-3 rounded-xl bg-white/5 border border-white/10">
+<p class="text-white/90 font-medium">[01:22] But I was just about to give up when he arrived.</p>
+</div>
+<p>[01:26] We need to take into account all possibilities.</p>
+<p>[01:31] Remembering that you are going to die is the best way...</p>
+</div>
+</div>
+<!-- Darkened Overlay Mask with Dismiss Trigger -->
+<div class="animate-backdrop-in absolute inset-0 z-10 bg-black/50 transition-opacity duration-300 backdrop-blur-[2px] cursor-pointer" id="backdropMask" onclick="dismissBottomSheet()" title="Kapatmak için dokunun"></div>
+<!-- END: BackgroundDimmedScreen -->
+<!-- Audio Playing Notification Toast -->
+<div class="absolute top-10 left-1/2 -translate-x-1/2 z-30 opacity-0 pointer-events-none transition-all duration-300 transform -translate-y-2 flex items-center gap-2.5 px-4 py-2 bg-neutral-900/90 text-white rounded-full shadow-lg backdrop-blur-md text-xs font-medium" id="audioToast">
+<span class="flex items-center gap-0.5 h-3">
+<span class="w-1 bg-brand-primary rounded-full equalizer-bar-1"></span>
+<span class="w-1 bg-brand-primary rounded-full equalizer-bar-2"></span>
+<span class="w-1 bg-brand-primary rounded-full equalizer-bar-3"></span>
+</span>
+<span id="toastMessage">Oynatılıyor...</span>
+</div>
+<!-- BEGIN: BottomSheetModal -->
+<!-- Modal Bottom Sheet occupying ~74% height with spring slide-up animation -->
+<section class="animate-sheet-spring relative z-20 w-full h-[74%] bg-brand-surface rounded-t-[24px] border-t border-brand-border flex flex-col overflow-hidden shadow-2xl transition-transform duration-300 ease-in-out" data-purpose="grammar-detail-bottom-sheet" id="bottomSheet">
+<!-- BEGIN: SheetHeaderSection -->
+<header class="w-full pt-3 px-5 pb-3 border-b border-brand-border/60 shrink-0">
+<!-- iOS Style Drag Handle Indicator with Gentle Bounce -->
+<div class="flex justify-center items-center pb-2">
+<div aria-hidden="true" class="animate-handle-subtle w-10 h-1 bg-[#DDDDDD] hover:bg-neutral-400 active:bg-neutral-500 rounded-full cursor-grab transition-colors"></div>
+</div>
+<!-- Header Top Row: Category Pill & Close Action -->
+<div class="flex items-center justify-between mt-1">
+<!-- Pattern Pill Badge -->
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-brand-tealLight border border-brand-teal/20 text-brand-teal text-xs font-semibold tracking-wide">
+<span class="w-2 h-2 rounded-full bg-brand-teal animate-pulse"></span>
+<span>DİLBİLGİSİ KALIBI • B2</span>
+</div>
+<!-- Close Dismiss Icon Button -->
+<button aria-label="Kapat" class="w-8 h-8 rounded-full flex items-center justify-center text-brand-muted hover:text-brand-charcoal hover:bg-neutral-100 active:scale-90 transition-all duration-200 tap-highlight-none" onclick="dismissBottomSheet()" type="button">
+<svg class="w-5 h-5 transition-transform duration-200 hover:rotate-90" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+<!-- Pattern Title & Formulation -->
+<div class="mt-2.5">
+<div class="flex items-baseline gap-2">
+<h1 class="text-[20px] font-bold text-brand-charcoal tracking-tight leading-snug">
+              be about to + [Verb]
+            </h1>
+<span class="text-xs font-medium text-brand-teal tracking-normal">[yakın gelecek / eşiğinde olma]</span>
+</div>
+<p class="text-xs text-brand-muted mt-1 leading-normal font-normal">
+            Bir eylemi gerçekleştirmek üzere olmak, tam yapacakken gerçekleşen durumları ifade eder.
+          </p>
+</div>
+</header>
+<!-- END: SheetHeaderSection -->
+<!-- BEGIN: SheetScrollableContent -->
+<main class="flex-1 overflow-y-auto no-scrollbar px-5 py-4 space-y-4">
+<!-- Context Sentence Card Container -->
+<article class="bg-brand-surface rounded-[12px] border border-brand-border p-4 transition-all hover:border-neutral-300" data-purpose="original-sentence-context">
+<!-- Context Origin Label -->
+<div class="flex items-center justify-between text-xs text-brand-muted mb-2 font-medium">
+<span class="flex items-center gap-1.5">
+<svg class="w-3.5 h-3.5 text-brand-teal" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<polygon points="23 7 16 12 23 17 23 7"></polygon>
+<rect height="14" rx="2" ry="2" width="15" x="1" y="5"></rect>
+</svg>
+              Videodaki Orijinal Cümle (01:22)
+            </span>
+<!-- Inline Sentence Audio Trigger -->
+<button class="w-7 h-7 rounded-full bg-brand-tealLight text-brand-teal flex items-center justify-center hover:opacity-80 active:scale-90 transition tap-highlight-none" id="inlineAudioBtn" onclick="toggleAudioPreview(this, 'Orijinal Video Cümlesi')" title="Cümleyi Dinle" type="button">
+<svg class="w-3.5 h-3.5 icon-idle" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+<path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+</svg>
+<div class="icon-playing hidden flex items-center gap-0.5 h-3">
+<span class="w-0.5 bg-brand-teal rounded-full h-3 animate-pulse"></span>
+<span class="w-0.5 bg-brand-teal rounded-full h-2 animate-pulse"></span>
+</div>
+</button>
+</div>
+<!-- English Highlighted Sentence -->
+<p class="text-[15px] leading-relaxed font-semibold text-brand-charcoal">
+            "I <span class="bg-brand-tealLight text-brand-teal px-1.5 py-0.5 rounded border border-brand-teal/20 underline decoration-brand-teal/40 decoration-1 underline-offset-2">was just about to</span> give up when he arrived."
+          </p>
+<!-- Turkish Translation -->
+<p class="text-xs text-brand-muted mt-2 border-t border-brand-border/60 pt-2 font-normal">
+            Tam da pes etmek üzereydim ki o geldi.
+          </p>
+</article>
+<!-- BEGIN: CrossVideoIntelligenceSection -->
+<section class="pt-1" data-purpose="cross-video-intelligence">
+<!-- Section Heading -->
+<div class="flex items-center justify-between mb-1.5">
+<h2 class="text-[15px] font-semibold text-brand-charcoal flex items-center gap-1.5">
+<span>🎬</span> Kütüphanendeki 5 farklı videoda geçiyor:
+            </h2>
+</div>
+<p class="text-[12px] text-brand-muted mb-3 font-normal">
+            Gerçek hayatta farklı konuşmacılardan doğal ritimle dinle.
+          </p>
+<!-- Compact Occurrences List -->
+<div class="space-y-2.5">
+<!-- Occurrence Item 1 -->
+<div class="group flex items-center justify-between p-3 rounded-[10px] border border-brand-border bg-brand-surface hover:bg-neutral-50/80 active:scale-[0.98] transition cursor-pointer select-none" onclick="toggleOccurrence(this, 'Tech Talk 2024')">
+<div class="flex items-center gap-3">
+<div class="play-indicator-circle w-8 h-8 rounded-full bg-neutral-100 flex items-center justify-center text-brand-charcoal group-hover:bg-brand-charcoal group-hover:text-white transition shrink-0">
+<svg class="w-3.5 h-3.5 ml-0.5 play-icon" fill="currentColor" viewbox="0 0 24 24">
+<polygon points="5 3 19 12 5 21 5 3"></polygon>
+</svg>
+<div class="playing-bars hidden flex items-center gap-0.5 h-3">
+<span class="w-0.5 bg-brand-primary rounded-full h-3 animate-pulse"></span>
+<span class="w-0.5 bg-brand-primary rounded-full h-2 animate-pulse"></span>
+</div>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="text-xs font-semibold text-brand-charcoal">Tech Talk 2024</span>
+<span class="text-[10px] font-medium bg-neutral-100 text-brand-muted px-1.5 py-0.2 rounded">03:12</span>
+</div>
+<p class="text-xs text-brand-muted mt-0.5">
+                    "...was <span class="text-brand-charcoal font-medium">about to launch</span> the project..."
+                  </p>
+</div>
+</div>
+<svg class="w-4 h-4 text-brand-muted group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24">
+<path d="M8.25 4.5l7.5 7.5-7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<!-- Occurrence Item 2 -->
+<div class="group flex items-center justify-between p-3 rounded-[10px] border border-brand-border bg-brand-surface hover:bg-neutral-50/80 active:scale-[0.98] transition cursor-pointer select-none" onclick="toggleOccurrence(this, 'Daily VLOG #12')">
+<div class="flex items-center gap-3">
+<div class="play-indicator-circle w-8 h-8 rounded-full bg-neutral-100 flex items-center justify-center text-brand-charcoal group-hover:bg-brand-charcoal group-hover:text-white transition shrink-0">
+<svg class="w-3.5 h-3.5 ml-0.5 play-icon" fill="currentColor" viewbox="0 0 24 24">
+<polygon points="5 3 19 12 5 21 5 3"></polygon>
+</svg>
+<div class="playing-bars hidden flex items-center gap-0.5 h-3">
+<span class="w-0.5 bg-brand-primary rounded-full h-3 animate-pulse"></span>
+<span class="w-0.5 bg-brand-primary rounded-full h-2 animate-pulse"></span>
+</div>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="text-xs font-semibold text-brand-charcoal">Daily VLOG #12</span>
+<span class="text-[10px] font-medium bg-neutral-100 text-brand-muted px-1.5 py-0.2 rounded">01:05</span>
+</div>
+<p class="text-xs text-brand-muted mt-0.5">
+                    "...we were <span class="text-brand-charcoal font-medium">about to leave</span> the cafe..."
+                  </p>
+</div>
+</div>
+<svg class="w-4 h-4 text-brand-muted group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24">
+<path d="M8.25 4.5l7.5 7.5-7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<!-- Teaser Row (+3 more) -->
+<div class="text-center py-1">
+<span class="text-xs font-medium text-brand-muted hover:text-brand-charcoal active:opacity-70 transition cursor-pointer" onclick="triggerToast('Ek 3 video listeleniyor...')">
+                + 3 video daha (Podcast &amp; Röportajlar)
+              </span>
+</div>
+</div>
+<!-- Play All Occurrences Button -->
+<button class="w-full mt-3 py-2.5 px-4 rounded-[10px] border border-brand-charcoal bg-brand-surface text-brand-charcoal font-semibold text-xs tracking-tight flex items-center justify-center gap-2 hover:bg-neutral-100 active:scale-[0.99] transition tap-highlight-none" onclick="playAllOccurrences(this)" type="button">
+<svg class="w-3.5 h-3.5 spin-on-active" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span id="playAllText">Tüm Geçen Cümleleri Sırayla Dinle</span>
+</button>
+</section>
+<!-- END: CrossVideoIntelligenceSection -->
+</main>
+<!-- END: SheetScrollableContent -->
+<!-- BEGIN: FixedBottomActionSection -->
+<footer class="w-full p-4 pb-6 bg-brand-surface border-t border-brand-border flex items-center gap-3 shrink-0" data-purpose="pinned-bottom-actions">
+<!-- Text-to-Speech Audio Button (52x52px) with Pulsing Sound Waves -->
+<button aria-label="Telaffuz Dinle" class="relative overflow-hidden w-[52px] h-[52px] rounded-[12px] bg-brand-surface border border-brand-border flex items-center justify-center text-brand-charcoal hover:bg-neutral-50 active:scale-95 transition-all tap-highlight-none shrink-0" id="ttsButton" onclick="triggerTTS(this)" type="button">
+<!-- Static / Default Speaker Icon -->
+<div class="flex items-center justify-center" id="ttsSpeakerIcon">
+<svg class="w-6 h-6 text-brand-charcoal transition-transform" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24">
+<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+<path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+</svg>
+</div>
+<!-- Sound Wave Equalizer Playing Animation Indicator -->
+<div class="hidden absolute inset-0 bg-brand-charcoal text-white flex items-center justify-center gap-1" id="ttsSoundWave">
+<span class="w-1 bg-white rounded-full equalizer-bar-1"></span>
+<span class="w-1 bg-white rounded-full equalizer-bar-2"></span>
+<span class="w-1 bg-white rounded-full equalizer-bar-3"></span>
+</div>
+</button>
+<!-- Primary CTA: Add to FSRS Deck with Checkmark Celebration State -->
+<button class="relative overflow-hidden flex-1 h-[52px] rounded-[12px] bg-brand-primary text-white font-semibold text-[15px] flex items-center justify-center gap-2 hover:bg-brand-dark active:scale-[0.98] transition-all duration-300 shadow-sm tap-highlight-none" id="fsrsCtaBtn" onclick="handleAddToDeck(this, event)" type="button">
+<div class="flex items-center gap-2 transition-all duration-300" id="ctaDefaultContent">
+<span class="text-base">🎴</span>
+<span>FSRS Destesine Ekle</span>
+</div>
+<div class="hidden absolute inset-0 bg-[#008A05] flex items-center justify-center gap-2 text-white font-semibold transition-all duration-300 transform scale-95 opacity-0" id="ctaSuccessContent">
+<svg class="w-5 h-5 text-white animate-bounce" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M4.5 12.75l6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span>Desteye Eklendi!</span>
+</div>
+</button>
+</footer>
+<!-- END: FixedBottomActionSection -->
+</section>
+<!-- END: BottomSheetModal -->
+</div>
+<!-- Interactive Logic for Fluid Micro-Interactions -->
+<script>
+  let toastTimer = null;
+
+  // Generic Toast Notification
+  function triggerToast(text, duration = 2000) {
+    const toast = document.getElementById('audioToast');
+    const toastMsg = document.getElementById('toastMessage');
+    toastMsg.innerText = text;
+    clearTimeout(toastTimer);
+    
+    toast.classList.remove('opacity-0', '-translate-y-2');
+    toast.classList.add('opacity-100', 'translate-y-0');
+
+    toastTimer = setTimeout(() => {
+      toast.classList.remove('opacity-100', 'translate-y-0');
+      toast.classList.add('opacity-0', '-translate-y-2');
+    }, duration);
+  }
+
+  // Dismiss Bottom Sheet with smooth slide out and reset
+  function dismissBottomSheet() {
+    const sheet = document.getElementById('bottomSheet');
+    const backdrop = document.getElementById('backdropMask');
+    
+    sheet.classList.remove('animate-sheet-spring');
+    sheet.style.transform = 'translateY(100%)';
+    backdrop.style.opacity = '0';
+    backdrop.style.pointerEvents = 'none';
+
+    // Interactive re-open trigger for demo evaluation convenience
+    setTimeout(() => {
+      sheet.style.transform = '';
+      sheet.classList.add('animate-sheet-spring');
+      backdrop.style.opacity = '';
+      backdrop.style.pointerEvents = 'auto';
+    }, 1500);
+  }
+
+  // TTS Pronunciation button interaction
+  function triggerTTS(btn) {
+    const speaker = document.getElementById('ttsSpeakerIcon');
+    const wave = document.getElementById('ttsSoundWave');
+    
+    speaker.classList.add('hidden');
+    wave.classList.remove('hidden');
+    triggerToast('Telaffuz Dinleniyor...');
+
+    setTimeout(() => {
+      wave.classList.add('hidden');
+      speaker.classList.remove('hidden');
+    }, 2200);
+  }
+
+  // Inline Original Sentence Audio Trigger
+  function toggleAudioPreview(btn, title) {
+    const iconIdle = btn.querySelector('.icon-idle');
+    const iconPlaying = btn.querySelector('.icon-playing');
+
+    iconIdle.classList.add('hidden');
+    iconPlaying.classList.remove('hidden');
+    triggerToast(title + ' Oynatılıyor...');
+
+    setTimeout(() => {
+      iconPlaying.classList.add('hidden');
+      iconIdle.classList.remove('hidden');
+    }, 1800);
+  }
+
+  // Occurrence item click toggle & preview
+  function toggleOccurrence(card, title) {
+    const circle = card.querySelector('.play-indicator-circle');
+    const playIcon = card.querySelector('.play-icon');
+    const bars = card.querySelector('.playing-bars');
+
+    const isCurrentlyPlaying = !bars.classList.contains('hidden');
+
+    if (isCurrentlyPlaying) {
+      bars.classList.add('hidden');
+      playIcon.classList.remove('hidden');
+      circle.classList.remove('bg-brand-primary', 'text-white');
+      triggerToast('Durduruldu');
+    } else {
+      // Reset any others
+      document.querySelectorAll('.playing-bars').forEach(b => b.classList.add('hidden'));
+      document.querySelectorAll('.play-icon').forEach(p => p.classList.remove('hidden'));
+
+      playIcon.classList.add('hidden');
+      bars.classList.remove('hidden');
+      triggerToast(title + ' Kesiti Oynatılıyor...');
+
+      setTimeout(() => {
+        bars.classList.add('hidden');
+        playIcon.classList.remove('hidden');
+      }, 2500);
+    }
+  }
+
+  // Play All Occurrences In Sequence
+  function playAllOccurrences(btn) {
+    const label = document.getElementById('playAllText');
+    const originalText = label.innerText;
+    label.innerText = 'Tüm Cümleler Oynatılıyor...';
+    triggerToast('5 Kesit Sırayla Oynatılıyor (1/5)');
+
+    setTimeout(() => {
+      label.innerText = originalText;
+    }, 3000);
+  }
+
+  // Primary FSRS CTA Click: Confetti celebration & button state swap
+  function handleAddToDeck(btn, event) {
+    const defaultContent = document.getElementById('ctaDefaultContent');
+    const successContent = document.getElementById('ctaSuccessContent');
+
+    // Prevent re-trigger if already succeeded
+    if (!successContent.classList.contains('hidden') && successContent.style.opacity === '1') return;
+
+    // Trigger Confetti Celebration (respect reduced-motion)
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!prefersReducedMotion && typeof confetti === 'function') {
+      const rect = btn.getBoundingClientRect();
+      const x = (rect.left + rect.width / 2) / window.innerWidth;
+      const y = (rect.top + rect.height / 2) / window.innerHeight;
+
+      confetti({
+        particleCount: 45,
+        spread: 60,
+        origin: { x, y },
+        colors: ['#FF385C', '#008489', '#FFB2B6', '#10B981'],
+        disableForReducedMotion: true
+      });
+    }
+
+    // Morph button state to Success
+    defaultContent.classList.add('opacity-0', 'scale-90');
+    setTimeout(() => {
+      defaultContent.classList.add('hidden');
+      successContent.classList.remove('hidden');
+      requestAnimationFrame(() => {
+        successContent.classList.remove('scale-95', 'opacity-0');
+        successContent.classList.add('scale-100', 'opacity-100');
+      });
+    }, 150);
+
+    triggerToast('Kalıp FSRS hafıza destenize eklendi! ✨');
+
+    // Revert button after 3 seconds for continuous testing
+    setTimeout(() => {
+      successContent.classList.remove('scale-100', 'opacity-100');
+      successContent.classList.add('scale-95', 'opacity-0');
+      setTimeout(() => {
+        successContent.classList.add('hidden');
+        defaultContent.classList.remove('hidden');
+        requestAnimationFrame(() => {
+          defaultContent.classList.remove('opacity-0', 'scale-90');
+        });
+      }, 150);
+    }, 3200);
+  }
+</script>
+</body></html>

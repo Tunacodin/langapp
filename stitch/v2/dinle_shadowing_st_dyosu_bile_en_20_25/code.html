@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-primary-container": "#fffbff", "on-secondary-container": "#006e72", "outline-variant": "#e5bdbe", "on-tertiary": "#ffffff", "surface-variant": "#e5e2e1", "on-tertiary-container": "#f5fff6", "on-error-container": "#93000a", "inverse-surface": "#303030", "on-surface-variant": "#5c3f41", "surface-container-lowest": "#ffffff", "on-secondary": "#ffffff", "surface-container-highest": "#e5e2e1", "surface-container-high": "#eae7e7", "on-secondary-fixed": "#002021", "on-surface": "#1b1c1c", "outline": "#906f70", "primary-container": "#e21e4a", "error-container": "#ffdad6", "primary-fixed-dim": "#ffb2b6", "tertiary": "#006947", "tertiary-fixed-dim": "#4edea3", "secondary-fixed-dim": "#74d6db", "secondary-container": "#8eeff4", "on-error": "#ffffff", "surface-bright": "#fcf9f8", "secondary": "#00696d", "error": "#ba1a1a", "surface-container-low": "#f6f3f2", "tertiary-fixed": "#6ffbbe", "surface-tint": "#be0038", "on-tertiary-fixed": "#002113", "on-background": "#1b1c1c", "on-primary-fixed-variant": "#920029", "surface-dim": "#dcd9d9", "primary": "#ba0036", "surface-container": "#f0eded", "on-primary-fixed": "#40000d", "primary-fixed": "#ffdada", "inverse-on-surface": "#f3f0ef", "tertiary-container": "#00855b", "on-primary": "#ffffff", "surface": "#fcf9f8", "on-secondary-fixed-variant": "#004f52", "secondary-fixed": "#91f2f7", "on-tertiary-fixed-variant": "#005236", "background": "#fcf9f8", "inverse-primary": "#ffb2b6" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "margin-tablet": "2rem", "space-sm": "0.5rem", "margin": "1.25rem", "space-xs": "0.25rem", "gutter-tablet": "1.5rem", "space-xl": "2rem", "space-md": "1rem", "gutter-desktop": "2rem", "margin-desktop": "3rem", "gutter": "1rem" }, fontFamily: { "headline-lg-mobile": ["Inter"], "display-hero": ["Inter"], "headline-sm": ["Inter"], "body-md": ["Inter"], "headline-lg": ["Inter"], "target-chunk-lg-mobile": ["Inter"], "headline-md": ["Inter"], "label-md": ["Inter"], "body-bold": ["Inter"], "target-chunk-lg": ["Inter"], "label-sm": ["Inter"], "body-lg": ["Inter"] }, fontSize: { "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "display-hero": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.03em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "target-chunk-lg-mobile": ["20px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-bold": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "600" }], "target-chunk-lg": ["24px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "500" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Brand logo. - Primary color: #ff385c
+- Font: inter
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XhAdL9fSYlQ3nDI6w65Za76MdUKt7Qi1PBzedxmtb9M-8JJayeB7UEVIeQ0PGmbz46I4m0TodjWtaZ7NVY1jwVndWve63g8VkWyo-nzBUbH0ZkGR1LXBlk1Led_-C20n7FB0-_aUH5nC7VdPz7J3BAoqtC2YaaXov4pDTwN5urBQ6MYvBvrIxXvfsfWYxTU5uUe9kFcDkagtzjKOzwOUuKpMULlIoShExkBIzWMzOlcD9ZtEQ67gbudugX"/><div class="flex flex-col"><div class="flex items-center gap-1"><span class="font-headline-sm text-headline-sm text-on-surface leading-tight">CogniLanguage</span><span class="hidden sm:inline-block font-label-sm text-label-sm text-on-surface-variant">• Grammar Grid</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">Grammar Video Hub</span></div></div><div class="flex items-center gap-space-sm"><button aria-label="Notifications" class="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1U71uPPn5mOWVjQuTEM_3H1-sSNoN-ZM6rfaO0YG9DHcP827wvIQzpRJpzsRyIVDuMzugs01QKNHz-jCX7WGyd09IFl9yO7D23XAaUM_V-bmNlE5hqFtmii5IkFKwLdsw8AhQdJnc5_A5QNl_bzjbR48WoKdR9tkiiPWfY-oQo1BS5Ea9yXNk8hSa8P0NOMCoVB50ZMAvVx-hkAG7kL7GA60fTgmaf_B2rGPjuGWmweei9s0M_v8AW-mjE"/></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<div class="px-margin pt-space-sm pb-space-lg flex flex-col gap-space-md">
+<!-- Top Header Title & Actions -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Shadowing Stüdyosu</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Broca Alanı • Akustik Telaffuz ve Ritim</p>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="flex items-center gap-1 px-3 py-1.5 rounded-full bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" id="tempo-pill">
+<span class="material-symbols-outlined text-[16px] text-primary">speed</span>
+<span class="font-label-md text-label-md">1.0x</span>
+</button>
+<button aria-label="Methodology Info" class="w-9 h-9 flex items-center justify-center rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" id="info-modal-btn">
+<span class="material-symbols-outlined text-[20px]">info</span>
+</button>
+</div>
+</div>
+<!-- Daily Broca Target Progress -->
+<div class="bg-surface-container-low p-3 rounded-xl flex flex-col gap-1.5 mt-1">
+<div class="flex justify-between items-center font-label-md text-label-md">
+<span class="text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-primary">target</span>
+            Günlük Broca Hedefi
+          </span>
+<span class="text-on-surface font-body-bold">11 / 15 dk <span class="text-primary font-normal">(%73)</span></span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full transition-all duration-500" style="width: 73%;"></div>
+</div>
+</div>
+</div>
+<!-- COMPONENT 20: Studio Mode Chips (Horizontal Scroll) -->
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-0.5">
+<button class="flex items-center gap-1.5 px-4 py-2 rounded-full bg-on-surface text-surface-container-lowest font-body-bold text-body-md shrink-0 shadow-sm transition-transform active:scale-95">
+<span class="material-symbols-outlined text-[18px]">headphones</span>
+        Kör Dinleme
+      </button>
+<button class="flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface font-body-md text-body-md shrink-0 shadow-sm hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">mic</span>
+        Sesli Tekrar
+      </button>
+<button class="flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface font-body-md text-body-md shrink-0 shadow-sm hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">swap_horiz</span>
+        TR ➔ EN Çeviri
+      </button>
+</div>
+<!-- COMPONENT 21: Blind Audio Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md relative overflow-hidden">
+<!-- Top Meta Badge & Slow toggle -->
+<div class="flex items-center justify-between">
+<div class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px]">psychology</span>
+          B2 • Comprehensible Chunk
+        </div>
+<button class="flex items-center gap-1 text-label-sm font-label-sm text-on-surface-variant hover:text-on-surface px-2 py-1 rounded-lg bg-surface-container-low" id="slow-audio-btn">
+<span class="material-symbols-outlined text-[14px]">slow_motion_video</span>
+          0.8x Yavaşlat
+        </button>
+</div>
+<!-- COMPONENT 22: Audio Play Trigger & Authentic Native Waveform -->
+<div class="flex flex-col gap-3 py-1">
+<div class="flex items-center gap-space-md">
+<button class="w-14 h-14 rounded-full bg-on-surface text-surface-container-lowest flex items-center justify-center shrink-0 shadow-md active:scale-95 transition-all" id="native-play-btn">
+<span class="material-symbols-outlined text-[28px]" id="native-play-icon" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+<div class="flex flex-col flex-1 gap-1.5">
+<div class="flex justify-between items-center font-label-sm text-label-sm text-on-surface-variant">
+<span class="font-mono" id="audio-current-time">00:03</span>
+<span class="text-on-surface font-body-bold truncate max-w-[140px]">Stanford Speech • S. Jobs</span>
+<span class="font-mono">00:05</span>
+</div>
+<!-- Authentic Native Waveform visualizer bars -->
+<div class="h-9 w-full flex items-center gap-1 px-1 bg-surface-container-low rounded-lg">
+<div class="w-1 h-3 bg-secondary rounded-full"></div>
+<div class="w-1 h-5 bg-secondary rounded-full"></div>
+<div class="w-1 h-8 bg-secondary rounded-full"></div>
+<div class="w-1 h-4 bg-secondary rounded-full"></div>
+<div class="w-1 h-6 bg-secondary rounded-full"></div>
+<div class="w-1 h-7 bg-secondary rounded-full"></div>
+<div class="w-1 h-8 bg-secondary rounded-full"></div>
+<div class="w-1 h-4 bg-secondary rounded-full"></div>
+<div class="w-1 h-5 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-6 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-7 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-4 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-3 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-6 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-5 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-2 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-4 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-6 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-3 bg-surface-variant rounded-full"></div>
+<div class="w-1 h-2 bg-surface-variant rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- COMPONENT 23: Reveal Text Toggle & Active Sentence Display -->
+<div class="flex flex-col gap-2 pt-2 bg-surface-container-low rounded-xl p-3.5">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Hedef Akustik Cümle</span>
+<button class="flex items-center gap-1 text-primary font-label-md text-label-md hover:underline" id="toggle-reveal-btn">
+<span class="material-symbols-outlined text-[16px]" id="reveal-icon">visibility</span>
+<span id="reveal-text-label">Metni Gizle</span>
+</button>
+</div>
+<div class="transition-all duration-300" id="sentence-container">
+<p class="font-target-chunk-lg-mobile text-target-chunk-lg-mobile text-on-surface leading-snug" id="sentence-text">
+            "You can't <span class="bg-secondary-container/40 text-on-secondary-fixed text-primary font-body-bold px-1 rounded inline-block">connect the dots</span> looking forward; you can only connect them looking backwards."
+          </p>
+<div class="flex items-center gap-2 mt-2 pt-2" id="phonetic-guide">
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-highest px-2 py-0.5 rounded font-mono">
+              /juː kænt kəˌnekt ðə ˈdɑːts ˈlʊk.ɪŋ ˈfɔːr.wɚd/
+            </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Acoustic & Waveform Analysis Section -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="font-body-bold text-body-bold text-on-surface">Gerçek Zamanlı Akustik Eşleşme</span>
+</div>
+<div class="px-2.5 py-1 rounded-full bg-tertiary-container text-on-tertiary font-body-bold text-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+          %91 Eşleşme
+        </div>
+</div>
+<!-- Real-time dynamic voice spectrogram equalizer -->
+<div class="h-16 w-full bg-surface-container-low rounded-xl px-4 flex items-center justify-between overflow-hidden">
+<div class="flex items-end gap-1.5 h-10 w-full justify-around">
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-4"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-8"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-6"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-9"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-5"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-10"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-7"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-8"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-5"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-9"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-6"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-10"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-4"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-7"></div>
+<div class="w-1.5 bg-primary rounded-full animate-pulse h-3"></div>
+</div>
+</div>
+<!-- Sub-scores Metric Pills -->
+<div class="grid grid-cols-3 gap-2 pt-1">
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col items-center text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">İntonasyon</span>
+<span class="font-body-bold text-body-bold text-tertiary mt-0.5">%94</span>
+<span class="font-label-sm text-[10px] text-tertiary">Mükemmel</span>
+</div>
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col items-center text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ritim / Hız</span>
+<span class="font-body-bold text-body-bold text-on-surface mt-0.5">128 WPM</span>
+<span class="font-label-sm text-[10px] text-secondary">Optimal</span>
+</div>
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col items-center text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fonetik</span>
+<span class="font-body-bold text-body-bold text-on-surface mt-0.5">%88</span>
+<span class="font-label-sm text-[10px] text-on-surface-variant">Güçlü</span>
+</div>
+</div>
+</div>
+<!-- COMPONENT 25: Simple Feedback Badge & Granular Word Chips -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="p-3 bg-tertiary-container/10 rounded-lg flex items-start gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-body-bold text-body-bold text-tertiary">Mükemmel Akustik Uyum!</span>
+<span class="font-body-md text-body-md text-on-surface mt-0.5">
+<span class="font-mono text-label-md bg-surface-container-highest px-1.5 py-0.5 rounded">/kəˌnekt ðə ˈdɑːts/</span> öbeği ana dil akıcılığında bağlandı.
+          </span>
+</div>
+</div>
+<!-- Detailed word chips feedback -->
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Kelime Bazlı Telaffuz Doğruluğu:</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 rounded bg-tertiary-container/15 text-tertiary font-body-bold text-label-md">You ✓</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/15 text-tertiary font-body-bold text-label-md">can't ✓</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/15 text-tertiary font-body-bold text-label-md">connect ✓</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/15 text-tertiary font-body-bold text-label-md">the ✓</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/15 text-tertiary font-body-bold text-label-md">dots ✓</span>
+<span class="px-2 py-1 rounded bg-secondary-container text-on-secondary-fixed font-body-bold text-label-md flex items-center gap-0.5">
+            looking
+            <span class="material-symbols-outlined text-[12px]">priority_high</span>
+</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/15 text-tertiary font-body-bold text-label-md">forward ✓</span>
+</div>
+</div>
+</div>
+<!-- COMPONENT 24: Pure Record Control -->
+<div class="flex flex-col items-center justify-center pt-space-xs pb-space-sm gap-3">
+<div class="flex items-center justify-between w-full max-w-xs px-2">
+<!-- Left Auxiliary Action: Restart -->
+<button aria-label="Baştan Al" class="w-12 h-12 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm active:scale-90 hover:bg-surface-container-low transition-all" id="reset-btn">
+<span class="material-symbols-outlined text-[22px]">replay</span>
+</button>
+<!-- Huge Red Prominent Microphone Button -->
+<div class="relative flex items-center justify-center">
+<div class="absolute w-24 h-24 rounded-full bg-primary/20 animate-ping" id="mic-pulse"></div>
+<button aria-label="Kaydı Başlat" class="relative z-10 w-[72px] h-[72px] rounded-full bg-primary text-on-primary flex items-center justify-center shadow-lg active:scale-95 transition-transform" id="record-btn">
+<span class="material-symbols-outlined text-[36px]" id="mic-icon" style="font-variation-settings: 'FILL' 1;">mic</span>
+</button>
+</div>
+<!-- Right Auxiliary Action: Next Sentence -->
+<button aria-label="Sonraki Cümle" class="w-12 h-12 rounded-full bg-on-surface text-surface-container-lowest flex items-center justify-center shadow-sm active:scale-90 hover:opacity-90 transition-all" id="next-sentence-btn">
+<span class="material-symbols-outlined text-[22px]">arrow_forward</span>
+</button>
+</div>
+<!-- State Subtitle Under Mic -->
+<span class="font-label-md text-label-md text-on-surface-variant" id="mic-status-label">
+        Basılı tut veya dokunarak konuşmaya başla
+      </span>
+</div>
+</div>
+<!-- Methodology Modal (Hidden by Default) -->
+<div class="hidden fixed inset-0 z-50 bg-black/40 flex items-end justify-center" id="methodology-modal">
+<div class="w-full max-w-lg bg-surface-container-lowest rounded-t-2xl p-space-lg flex flex-col gap-space-md max-h-[80vh] overflow-y-auto">
+<div class="w-10 h-1 bg-surface-container-highest rounded-full mx-auto -mt-2"></div>
+<div class="flex justify-between items-center">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Kör Dinleme &amp; Shadowing Nedir?</h2>
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant" id="close-modal-btn">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Beyninizin Broca alanı motor konuşma üretimini denetler. Metni okumadan yalnızca sese odaklanarak (Kör Dinleme) yapılan tekrarlar, beynin fonetik kalıpları ezberlemesini değil, akustik belleğe doğrudan işlemesini sağlar.
+      </p>
+<div class="bg-surface-container-low p-3 rounded-lg flex flex-col gap-1">
+<span class="font-body-bold text-body-bold text-on-surface">3 Adımlı Egzersiz:</span>
+<span class="font-body-md text-body-md text-on-surface-variant">1. Önce cümleyi görmeden 2 kez dinleyin.</span>
+<span class="font-body-md text-body-md text-on-surface-variant">2. Konuşmacı ile eş zamanlı (100ms gecikmeyle) gölgeleyerek konuşun.</span>
+<span class="font-body-md text-body-md text-on-surface-variant">3. Akustik skorunuza bakarak zayıf hecelere odaklanın.</span>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-body-bold text-body-md" id="modal-confirm-btn">
+        Anladım, Egzersize Devam Et
+      </button>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    // Reveal / Occlude text micro-interaction
+    const toggleRevealBtn = document.getElementById('toggle-reveal-btn');
+    const sentenceText = document.getElementById('sentence-text');
+    const phoneticGuide = document.getElementById('phonetic-guide');
+    const revealIcon = document.getElementById('reveal-icon');
+    const revealTextLabel = document.getElementById('reveal-text-label');
+    let isRevealed = true;
+
+    if (toggleRevealBtn) {
+      toggleRevealBtn.addEventListener('click', function() {
+        isRevealed = !isRevealed;
+        if (isRevealed) {
+          sentenceText.classList.remove('blur-sm', 'select-none');
+          phoneticGuide.classList.remove('opacity-0');
+          revealIcon.textContent = 'visibility';
+          revealTextLabel.textContent = 'Metni Gizle';
+        } else {
+          sentenceText.classList.add('blur-sm', 'select-none');
+          phoneticGuide.classList.add('opacity-0');
+          revealIcon.textContent = 'visibility_off';
+          revealTextLabel.textContent = 'Metni Göster';
+        }
+      });
+    }
+
+    // Audio native play state simulator
+    const nativePlayBtn = document.getElementById('native-play-btn');
+    const nativePlayIcon = document.getElementById('native-play-icon');
+    let isPlaying = false;
+
+    if (nativePlayBtn) {
+      nativePlayBtn.addEventListener('click', function() {
+        isPlaying = !isPlaying;
+        if (isPlaying) {
+          nativePlayIcon.textContent = 'pause';
+          setTimeout(() => {
+            isPlaying = false;
+            nativePlayIcon.textContent = 'play_arrow';
+          }, 3000);
+        } else {
+          nativePlayIcon.textContent = 'play_arrow';
+        }
+      });
+    }
+
+    // Record Button Pulse Toggle
+    const recordBtn = document.getElementById('record-btn');
+    const micIcon = document.getElementById('mic-icon');
+    const micPulse = document.getElementById('mic-pulse');
+    const micStatusLabel = document.getElementById('mic-status-label');
+    let isRecording = false;
+
+    if (recordBtn) {
+      recordBtn.addEventListener('click', function() {
+        isRecording = !isRecording;
+        if (isRecording) {
+          micIcon.textContent = 'stop';
+          micPulse.classList.remove('hidden');
+          micStatusLabel.textContent = 'Dinleniyor... Konuşmanızı tamamlayın';
+          micStatusLabel.classList.add('text-primary', 'font-body-bold');
+        } else {
+          micIcon.textContent = 'mic';
+          micPulse.classList.add('hidden');
+          micStatusLabel.textContent = 'Akustik analiz tamamlandı (%91 eşleşme)';
+          micStatusLabel.classList.remove('text-primary', 'font-body-bold');
+        }
+      });
+    }
+
+    // Modal behavior
+    const infoModalBtn = document.getElementById('info-modal-btn');
+    const methodologyModal = document.getElementById('methodology-modal');
+    const closeModalBtn = document.getElementById('close-modal-btn');
+    const modalConfirmBtn = document.getElementById('modal-confirm-btn');
+
+    function openModal() {
+      methodologyModal.classList.remove('hidden');
+    }
+    function closeModal() {
+      methodologyModal.classList.add('hidden');
+    }
+
+    if (infoModalBtn) infoModalBtn.addEventListener('click', openModal);
+    if (closeModalBtn) closeModalBtn.addEventListener('click', closeModal);
+    if (modalConfirmBtn) modalConfirmBtn.addEventListener('click', closeModal);
+
+    // Tempo switch indicator
+    const tempoPill = document.getElementById('tempo-pill');
+    const speeds = ['1.0x', '0.8x', '1.2x'];
+    let currentSpeedIdx = 0;
+    if (tempoPill) {
+      tempoPill.addEventListener('click', function() {
+        currentSpeedIdx = (currentSpeedIdx + 1) % speeds.length;
+        tempoPill.querySelector('span:last-child').textContent = speeds[currentSpeedIdx];
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.04)]" data-active-classes="text-primary font-body-bold"><div class="flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="watch-and-learn" href="#"><span class="material-symbols-outlined text-[24px]">smart_display</span><span class="font-label-sm text-label-sm">İzle</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="shadowing-studio" href="#"><span class="material-symbols-outlined text-[24px]">record_voice_over</span><span class="font-label-sm text-label-sm">Shadowing</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="grammar-grid" href="#"><span class="material-symbols-outlined text-[24px]">menu_book</span><span class="font-label-sm text-label-sm">Gramer</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="card-review" href="#"><span class="material-symbols-outlined text-[24px]">style</span><span class="font-label-sm text-label-sm">Kartlarım</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="profile-account" href="#"><span class="material-symbols-outlined text-[24px]">person</span><span class="font-label-sm text-label-sm">Profil</span></a></div></nav></body></html>
