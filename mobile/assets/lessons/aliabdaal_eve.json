@@ -8,30 +8,80 @@
     {
       "idx": 0,
       "start_ms": 0,
-      "end_ms": 3240,
-      "text_en": "Over the last few months, I've interviewed a bunch of sleep experts and listened to loads",
+      "end_ms": 7060,
+      "text_en": "Over the last few months, I've interviewed a bunch of sleep experts and listened to loads of podcasts and read loads of books all about the science behind effective sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve interviewed",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 27,
+          "span_end": 42
+        },
+        {
+          "pattern": "listened",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 72,
+          "span_end": 80
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 14,
+          "span_end": 17
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 1,
-      "start_ms": 3240,
-      "end_ms": 7060,
-      "text_en": "of podcasts and read loads of books all about the science behind effective sleep.",
+      "start_ms": 7380,
+      "end_ms": 13280,
+      "text_en": "And these are the nine evidence -based things that I've built into my routine to help me get an amazing night's sleep and feel well rested throughout the day.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve built",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 52,
+          "span_end": 61
+        },
+        {
+          "pattern": "that I've built into my routine",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 46,
+          "span_end": 77
+        },
+        {
+          "pattern": "-based",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 32,
+          "span_end": 38
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 2,
-      "start_ms": 7380,
-      "end_ms": 10740,
-      "text_en": "And these are the nine evidence-based things that I've built into my routine to help me",
+      "start_ms": 13500,
+      "end_ms": 14120,
+      "text_en": "Let's get started.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -40,42 +90,101 @@
     },
     {
       "idx": 3,
-      "start_ms": 10740,
-      "end_ms": 14120,
-      "text_en": "get an amazing night's sleep and feel well rested throughout the day. Let's get started.",
+      "start_ms": 14500,
+      "end_ms": 17120,
+      "text_en": "First off, I try to sleep for around 7 -8 hours each night.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 16
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 4,
-      "start_ms": 14500,
-      "end_ms": 18280,
-      "text_en": "First off, I try to sleep for around 7-8 hours each night. Now, the science on how long you should",
+      "start_ms": 17320,
+      "end_ms": 24200,
+      "text_en": "Now, the science on how long you should sleep for isn't straightforward, but most research says that between 7 -9 hours of sleep at night is ideal for a healthy adult.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "should sleep",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 33,
+          "span_end": 45
+        },
+        {
+          "pattern": "says",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 91,
+          "span_end": 95
+        },
+        {
+          "pattern": "most",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 77,
+          "span_end": 81
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 5,
-      "start_ms": 18280,
-      "end_ms": 22780,
-      "text_en": "sleep for isn't straightforward, but most research says that between 7-9 hours of sleep at night",
+      "start_ms": 24400,
+      "end_ms": 35520,
+      "text_en": "And according to a big 2015 study by the American Academy of Sleep Science and the Sleep Research Society, quote, adults should sleep 7 or more hours per night, because regularly getting less than 7 hours of sleep can lead to a load of bad stuff like weight gain",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "should sleep",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 121,
+          "span_end": 133
+        },
+        {
+          "pattern": "can lead",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 214,
+          "span_end": 222
+        },
+        {
+          "pattern": "regularly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 169,
+          "span_end": 178
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 6,
-      "start_ms": 22780,
-      "end_ms": 27140,
-      "text_en": "is ideal for a healthy adult. And according to a big 2015 study by the American Academy of",
+      "start_ms": 35520,
+      "end_ms": 38760,
+      "text_en": "and heart disease and depression and a charmingly increased risk of death.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -84,86 +193,221 @@
     },
     {
       "idx": 7,
-      "start_ms": 27140,
-      "end_ms": 31600,
-      "text_en": "Sleep Science and the Sleep Research Society, quote, adults should sleep 7 or more hours per night,",
+      "start_ms": 38960,
+      "end_ms": 42540,
+      "text_en": "If you're not sure if you should sleep 7 or 8 or 9 hours, then the solution is pretty simple.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "should sleep",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 26,
+          "span_end": 38
+        },
+        {
+          "pattern": "If you're not sure",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 18
+        },
+        {
+          "pattern": "if you should sleep 7 or 8 or 9 hours",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 19,
+          "span_end": 56
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 8,
-      "start_ms": 31820,
-      "end_ms": 35320,
-      "text_en": "because regularly getting less than 7 hours of sleep can lead to a load of bad stuff like weight",
+      "start_ms": 42940,
+      "end_ms": 46220,
+      "text_en": "Just experiment with how much sleep you need to feel happy and productive the next day.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 40,
+          "span_end": 44
+        },
+        {
+          "pattern": "much",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 25,
+          "span_end": 29
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 9,
-      "start_ms": 35320,
-      "end_ms": 39680,
-      "text_en": "gain and heart disease and depression and a charmingly increased risk of death. If you're not sure if",
+      "start_ms": 46400,
+      "end_ms": 54600,
+      "text_en": "And remember, if you get too obsessed with getting 8 hours of sleep every single night, that actually might spike your stress levels ironically making it more difficult to get to sleep, and this is called sleep anxiety.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is called",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 195,
+          "span_end": 204
+        },
+        {
+          "pattern": "might spike",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 102,
+          "span_end": 113
+        },
+        {
+          "pattern": "if you get too obsessed with getting 8 hours of sleep every single night",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 14,
+          "span_end": 86
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 21,
+          "span_end": 24
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 10,
-      "start_ms": 39680,
-      "end_ms": 44020,
-      "text_en": "you should sleep 7 or 8 or 9 hours, then the solution is pretty simple. Just experiment with how much",
+      "start_ms": 54600,
+      "end_ms": 58080,
+      "text_en": "So the second thing I try to do for a healthy sleep is to build a sleep rhythm.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 25
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 11,
-      "start_ms": 44020,
-      "end_ms": 47200,
-      "text_en": "sleep you need to feel happy and productive the next day. And remember, if you get too",
+      "start_ms": 58440,
+      "end_ms": 62200,
+      "text_en": "I set a regular time for going to sleep and waking up and I try my best to actually stick to it.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "going to sleep",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 25,
+          "span_end": 39
+        },
+        {
+          "pattern": "set",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 5
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 60,
+          "span_end": 63
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 12,
-      "start_ms": 47200,
-      "end_ms": 50840,
-      "text_en": "obsessed with getting 8 hours of sleep every single night, that actually might spike your stress",
+      "start_ms": 62300,
+      "end_ms": 66780,
+      "text_en": "So for example, I usually go to sleep around 11 or 11 .30 pm and get up around 7 am.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 28
+        },
+        {
+          "pattern": "usually",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 18,
+          "span_end": 25
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 13,
-      "start_ms": 50840,
-      "end_ms": 54600,
-      "text_en": "levels ironically making it more difficult to get to sleep, and this is called sleep anxiety.",
+      "start_ms": 67000,
+      "end_ms": 70020,
+      "text_en": "The more consistent your rhythm, the easier it's going to be to fall asleep and wake up.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'s going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 46,
+          "span_end": 60
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 14,
-      "start_ms": 54600,
-      "end_ms": 58900,
-      "text_en": "So the second thing I try to do for a healthy sleep is to build a sleep rhythm. I set a regular",
+      "start_ms": 70160,
+      "end_ms": 72300,
+      "text_en": "And this is because of the homeostatic sleep drive.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -172,130 +416,365 @@
     },
     {
       "idx": 15,
-      "start_ms": 58900,
-      "end_ms": 62740,
-      "text_en": "time for going to sleep and waking up and I try my best to actually stick to it. So for example,",
+      "start_ms": 72500,
+      "end_ms": 78240,
+      "text_en": "One of the main systems in our body that determines when we feel tired and when we feel awake, which is powered by the chemical adenosine.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is powered",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 101,
+          "span_end": 111
+        },
+        {
+          "pattern": "that determines when we feel tired and when we feel awake,",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 36,
+          "span_end": 94
+        },
+        {
+          "pattern": "which is powered by the chemical adenosine",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 95,
+          "span_end": 137
+        },
+        {
+          "pattern": "determines",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 41,
+          "span_end": 51
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 60,
+          "span_end": 64
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 83,
+          "span_end": 87
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 16,
-      "start_ms": 62920,
-      "end_ms": 67700,
-      "text_en": "I usually go to sleep around 11 or 11.30 pm and get up around 7 am. The more consistent your",
+      "start_ms": 78360,
+      "end_ms": 80640,
+      "text_en": "The adenosine makes us feel this intense need for sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 19
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 17,
-      "start_ms": 67700,
-      "end_ms": 71000,
-      "text_en": "rhythm, the easier it's going to be to fall asleep and wake up. And this is because of the",
+      "start_ms": 80860,
+      "end_ms": 86220,
+      "text_en": "From the moment we wake up in the morning, adenosine starts building up in our body until eventually we start feeling sleep hungry.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "wake",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 19,
+          "span_end": 23
+        },
+        {
+          "pattern": "starts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 53,
+          "span_end": 59
+        },
+        {
+          "pattern": "start",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 104,
+          "span_end": 109
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 18,
-      "start_ms": 71000,
-      "end_ms": 75100,
-      "text_en": "homeostatic sleep drive. One of the main systems in our body that determines when we feel tired",
+      "start_ms": 86520,
+      "end_ms": 88340,
+      "text_en": "The more adenosine we have, the sleepier we feel.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 26
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 44,
+          "span_end": 48
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 19,
-      "start_ms": 75100,
-      "end_ms": 79340,
-      "text_en": "and when we feel awake, which is powered by the chemical adenosine. The adenosine makes us feel",
+      "start_ms": 88500,
+      "end_ms": 93500,
+      "text_en": "When we actually do get enough sleep, that drives our adenosine levels down again and we wake up feeling well rested.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "drives",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 43,
+          "span_end": 49
+        },
+        {
+          "pattern": "wake",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 89,
+          "span_end": 93
+        },
+        {
+          "pattern": "enough",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 24,
+          "span_end": 30
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 20,
-      "start_ms": 79340,
-      "end_ms": 83140,
-      "text_en": "this intense need for sleep. From the moment we wake up in the morning, adenosine starts building",
+      "start_ms": 93740,
+      "end_ms": 96720,
+      "text_en": "Okay, so why does this mean we should have consistent times for waking and sleeping?",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "should have",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 31,
+          "span_end": 42
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 21,
-      "start_ms": 83140,
-      "end_ms": 87680,
-      "text_en": "up in our body until eventually we start feeling sleep hungry. The more adenosine we have, the",
+      "start_ms": 96960,
+      "end_ms": 106760,
+      "text_en": "Well, if we start going to sleep and waking up at the same time every day and get our proper 7 to 8 hours of sleep, then our adenosine levels will regularly peak at the same time each evening, making us feel properly tired and ready for bed.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "going to sleep",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 18,
+          "span_end": 32
+        },
+        {
+          "pattern": "will regularly peak",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 142,
+          "span_end": 161
+        },
+        {
+          "pattern": "if we start going to sleep and waking up at the same time every day and get our proper 7 to 8 hours of sleep",
+          "note_tr": "If Clause Type 1 (Real Future)",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 6,
+          "span_end": 114
+        },
+        {
+          "pattern": "start",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 17
+        },
+        {
+          "pattern": "regularly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 147,
+          "span_end": 156
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 22,
-      "start_ms": 87680,
-      "end_ms": 91780,
-      "text_en": "sleepier we feel. When we actually do get enough sleep, that drives our adenosine levels down again",
+      "start_ms": 106960,
+      "end_ms": 112100,
+      "text_en": "And after 7 to 8 hours of sleep, that adenosine will be low enough that we can wake up naturally without feeling too groggy or tired.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can wake",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 75,
+          "span_end": 83
+        },
+        {
+          "pattern": "will be",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 48,
+          "span_end": 55
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 23,
-      "start_ms": 91780,
-      "end_ms": 96180,
-      "text_en": "and we wake up feeling well rested. Okay, so why does this mean we should have consistent times for",
+      "start_ms": 112100,
+      "end_ms": 120860,
+      "text_en": "So the more we can invest in building this steady rhythm, the more we can bring our sleep schedule in sync with the chemicals in our body, and the less likely we are to feel weirdly awake at 2am and start playing video games.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can invest",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 15,
+          "span_end": 25
+        },
+        {
+          "pattern": "can bring",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 70,
+          "span_end": 79
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 24,
-      "start_ms": 96180,
-      "end_ms": 99380,
-      "text_en": "waking and sleeping? Well, if we start going to sleep and waking up at the same time every day",
+      "start_ms": 121060,
+      "end_ms": 123540,
+      "text_en": "And here are 4 practical things that can help you build that rhythm.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can help",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 37,
+          "span_end": 45
+        },
+        {
+          "pattern": "that can help you build that rhythm",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 32,
+          "span_end": 67
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 25,
-      "start_ms": 99380,
-      "end_ms": 103640,
-      "text_en": "and get our proper 7 to 8 hours of sleep, then our adenosine levels will regularly peak at the",
+      "start_ms": 123900,
+      "end_ms": 126820,
+      "text_en": "First, set an alarm for the same time every day to help you wake up consistently.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "set",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 10
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 26,
-      "start_ms": 103640,
-      "end_ms": 108220,
-      "text_en": "same time each evening, making us feel properly tired and ready for bed. And after 7 to 8 hours of sleep,",
+      "start_ms": 127200,
+      "end_ms": 128259,
+      "text_en": "Secondly, ignore the weekend.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -304,53 +783,113 @@
     },
     {
       "idx": 27,
-      "start_ms": 108280,
-      "end_ms": 112100,
-      "text_en": "that adenosine will be low enough that we can wake up naturally without feeling too groggy or tired.",
+      "start_ms": 128639,
+      "end_ms": 133260,
+      "text_en": "As far as your body is concerned, the weekend is just 2 days where you do your best to mess up your healthy sleep cycle.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is concerned",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 20,
+          "span_end": 32
+        },
+        {
+          "pattern": "where you do your best to mess up your healthy sleep cycle",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 61,
+          "span_end": 119
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 71,
+          "span_end": 73
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 28,
-      "start_ms": 112100,
-      "end_ms": 116000,
-      "text_en": "So the more we can invest in building this steady rhythm, the more we can bring our sleep schedule",
+      "start_ms": 133480,
+      "end_ms": 144720,
+      "text_en": "For me, I've tried to personally avoid lions or having a different sleep schedule on Saturdays and Sundays, so I don't mess up this adenosine rhythm that I've basically tried to schedule evening need ups with friends a",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve tried",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 9,
+          "span_end": 18
+        },
+        {
+          "pattern": "'ve basically tried",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 155,
+          "span_end": 174
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 29,
-      "start_ms": 116000,
-      "end_ms": 119900,
-      "text_en": "in sync with the chemicals in our body, and the less likely we are to feel weirdly awake at 2am",
+      "start_ms": 144720,
+      "end_ms": 145820,
+      "text_en": "little bit earlier in the day.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 0,
+          "span_end": 6
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 30,
-      "start_ms": 119900,
-      "end_ms": 123540,
-      "text_en": "and start playing video games. And here are 4 practical things that can help you build that rhythm.",
+      "start_ms": 145960,
+      "end_ms": 149140,
+      "text_en": "The occasional late night is totally fine, I just try not to make too much of a habit of it.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 50,
+          "span_end": 53
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 31,
-      "start_ms": 123900,
-      "end_ms": 127380,
-      "text_en": "First, set an alarm for the same time every day to help you wake up consistently. Secondly,",
+      "start_ms": 149240,
+      "end_ms": 151040,
+      "text_en": "The final tip is to actually listen to your body.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -359,9 +898,9 @@
     },
     {
       "idx": 32,
-      "start_ms": 127600,
-      "end_ms": 131880,
-      "text_en": "ignore the weekend. As far as your body is concerned, the weekend is just 2 days where you do your best",
+      "start_ms": 151320,
+      "end_ms": 153480,
+      "text_en": "Try not to push through that sleepy late evening feeling.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -370,64 +909,197 @@
     },
     {
       "idx": 33,
-      "start_ms": 131880,
-      "end_ms": 135900,
-      "text_en": "to mess up your healthy sleep cycle. For me, I've tried to personally avoid lions or having a",
+      "start_ms": 153860,
+      "end_ms": 156840,
+      "text_en": "That's the exact trigger we're working towards which makes it easier to fall asleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'re working",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 27,
+          "span_end": 38
+        },
+        {
+          "pattern": "we're working towards which makes it easier to fall asleep",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 25,
+          "span_end": 83
+        },
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 53,
+          "span_end": 58
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 34,
-      "start_ms": 135900,
-      "end_ms": 142080,
-      "text_en": "different sleep schedule on Saturdays and Sundays, so I don't mess up this adenosine rhythm that I've",
+      "start_ms": 157160,
+      "end_ms": 160700,
+      "text_en": "Okay, so the next thing I do to get a good night's sleep is to catch the morning sun when I wake up.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 28
+        },
+        {
+          "pattern": "wake",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 92,
+          "span_end": 96
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 35,
-      "start_ms": 142080,
-      "end_ms": 145820,
-      "text_en": "basically tried to schedule evening need ups with friends a little bit earlier in the day.",
+      "start_ms": 160800,
+      "end_ms": 169380,
+      "text_en": "That's because in addition to adenosine, there's a second system inside all of us that affects when we feel sleepy and when we feel awake, a kind of internal 24 hour clock called the circadian rhythm.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "that affects when we feel sleepy and when we feel awake, a kind of internal 24 hour clock called the circadian rhythm",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 82,
+          "span_end": 199
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 46,
+          "span_end": 48
+        },
+        {
+          "pattern": "affects",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 87,
+          "span_end": 94
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 103,
+          "span_end": 107
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 127,
+          "span_end": 131
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 36,
-      "start_ms": 145960,
-      "end_ms": 149140,
-      "text_en": "The occasional late night is totally fine, I just try not to make too much of a habit of it.",
+      "start_ms": 169380,
+      "end_ms": 179160,
+      "text_en": "This system is mainly controlled from a master clock in our brain called the suprachiasmatic nucleus which lives just above the roof of our mouth and sends signals to the rest of our body about whether to feel sleepy or awake.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is mainly controlled",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 12,
+          "span_end": 32
+        },
+        {
+          "pattern": "which lives just above the roof of our mouth and sends signals to the rest of our body about whether to feel sleepy or awake",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 101,
+          "span_end": 225
+        },
+        {
+          "pattern": "lives",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 107,
+          "span_end": 112
+        },
+        {
+          "pattern": "sends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 150,
+          "span_end": 155
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 37,
-      "start_ms": 149240,
-      "end_ms": 153280,
-      "text_en": "The final tip is to actually listen to your body. Try not to push through that sleepy late evening",
+      "start_ms": 179460,
+      "end_ms": 190560,
+      "text_en": "The circadian rhythm generally looks like a wave, with our brain releasing the chemicals cortisol and epinephrine to drive our upward spike in alertness during the morning and the rest of the day and melatonin driving the downward covid night, making us feel",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "looks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 31,
+          "span_end": 36
+        },
+        {
+          "pattern": "generally",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 21,
+          "span_end": 30
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 38,
-      "start_ms": 153280,
-      "end_ms": 156840,
-      "text_en": "feeling. That's the exact trigger we're working towards which makes it easier to fall asleep.",
+      "start_ms": 190560,
+      "end_ms": 191160,
+      "text_en": "like going to bed.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -436,141 +1108,409 @@
     },
     {
       "idx": 39,
-      "start_ms": 157160,
-      "end_ms": 160700,
-      "text_en": "Okay, so the next thing I do to get a good night's sleep is to catch the morning sun when I wake up.",
+      "start_ms": 191440,
+      "end_ms": 195440,
+      "text_en": "And the number one thing that influences this circadian rhythm is light, particularly morning sunlight.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "that influences",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 25,
+          "span_end": 40
+        },
+        {
+          "pattern": "influences",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 30,
+          "span_end": 40
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 40,
-      "start_ms": 160800,
-      "end_ms": 164500,
-      "text_en": "That's because in addition to adenosine, there's a second system inside all of us that affects when",
+      "start_ms": 195860,
+      "end_ms": 204620,
+      "text_en": "When morning sunlight hits the retina in our eyes, it sends a message to our internal circadian clock to trigger that release of cortisol and epinephrine, which makes us feel awake and alert.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "which makes us feel awake and alert",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 155,
+          "span_end": 190
+        },
+        {
+          "pattern": "hits",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 26
+        },
+        {
+          "pattern": "sends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 54,
+          "span_end": 59
+        },
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 161,
+          "span_end": 166
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 41,
-      "start_ms": 164500,
-      "end_ms": 169380,
-      "text_en": "we feel sleepy and when we feel awake, a kind of internal 24 hour clock called the circadian rhythm.",
+      "start_ms": 204920,
+      "end_ms": 209060,
+      "text_en": "Now, the sun doesn't need to be just peeking over the horizon, it just needs to be within a few hours of sunlight.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "needs",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 71,
+          "span_end": 76
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 92,
+          "span_end": 95
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 42,
-      "start_ms": 169380,
-      "end_ms": 173520,
-      "text_en": "This system is mainly controlled from a master clock in our brain called the suprachiasmatic",
+      "start_ms": 209460,
+      "end_ms": 211280,
+      "text_en": "And the sooner you can get it after waking up, the better.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 19,
+          "span_end": 26
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 43,
-      "start_ms": 173520,
-      "end_ms": 177520,
-      "text_en": "nucleus which lives just above the roof of our mouth and sends signals to the rest of our body",
+      "start_ms": 211500,
+      "end_ms": 218920,
+      "text_en": "So in terms of my personal morning routine, I wake up, I grab some water, I take my medication, which in this case is finasteride and heights supplement and probiotic.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "which in this case is finasteride and heights supplement and probiotic",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 96,
+          "span_end": 166
+        },
+        {
+          "pattern": "wake",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 46,
+          "span_end": 50
+        },
+        {
+          "pattern": "grab",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 57,
+          "span_end": 61
+        },
+        {
+          "pattern": "take",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 76,
+          "span_end": 80
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 62,
+          "span_end": 66
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 44,
-      "start_ms": 177520,
-      "end_ms": 181280,
-      "text_en": "about whether to feel sleepy or awake. The circadian rhythm generally looks like a wave,",
+      "start_ms": 219160,
+      "end_ms": 228580,
+      "text_en": "And then after having a shower, I'll normally go for a walk and I'll walk over to the local Pretamonjay where I've got the Pret coffee subscription, because that encourages me to actually get out of the house in the morning to grab my coffee.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 111,
+          "span_end": 118
+        },
+        {
+          "pattern": "'ll normally go",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 33,
+          "span_end": 48
+        },
+        {
+          "pattern": "'ll walk",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 65,
+          "span_end": 73
+        },
+        {
+          "pattern": "where I've got the Pret coffee subscription",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 104,
+          "span_end": 147
+        },
+        {
+          "pattern": "encourages",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 162,
+          "span_end": 172
+        },
+        {
+          "pattern": "normally",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 37,
+          "span_end": 45
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 45,
-      "start_ms": 181480,
-      "end_ms": 186120,
-      "text_en": "with our brain releasing the chemicals cortisol and epinephrine to drive our upward spike in alertness",
+      "start_ms": 229000,
+      "end_ms": 230040,
+      "text_en": "And that means I'm getting the morning sunlight.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'m getting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 16,
+          "span_end": 26
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 14
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 46,
-      "start_ms": 186120,
-      "end_ms": 189720,
-      "text_en": "during the morning and the rest of the day and melatonin driving the downward covid night,",
+      "start_ms": 230440,
+      "end_ms": 233300,
+      "text_en": "And I've also delayed my caffeine consumption more in that a little bit later.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve also delayed",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 5,
+          "span_end": 21
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 61,
+          "span_end": 67
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 47,
-      "start_ms": 189960,
-      "end_ms": 193560,
-      "text_en": "making us feel like going to bed. And the number one thing that influences this circadian rhythm",
+      "start_ms": 233520,
+      "end_ms": 241720,
+      "text_en": "Now other types of bright light can trigger our wake up mechanisms, but our brain responds best to the quality and amount of light that's coming from the sun when it's at a low solar angle.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'s coming",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 135,
+          "span_end": 144
+        },
+        {
+          "pattern": "can trigger",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 32,
+          "span_end": 43
+        },
+        {
+          "pattern": "that's coming from the sun when it's at a low solar angle",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 131,
+          "span_end": 188
+        },
+        {
+          "pattern": "responds",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 82,
+          "span_end": 90
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 48,
-      "start_ms": 193560,
-      "end_ms": 197840,
-      "text_en": "is light, particularly morning sunlight. When morning sunlight hits the retina in our eyes,",
+      "start_ms": 241840,
+      "end_ms": 248540,
+      "text_en": "So on bright cloudless days, you should apparently stay outside for around 10 minutes after waking up to properly trigger your circadian clock on cloudy days.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "should apparently stay",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 33,
+          "span_end": 55
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 49,
-      "start_ms": 197840,
-      "end_ms": 202700,
-      "text_en": "it sends a message to our internal circadian clock to trigger that release of cortisol and epinephrine,",
+      "start_ms": 248560,
+      "end_ms": 250120,
+      "text_en": "It might take a bit longer, like 20 minutes.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "might take",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 3,
+          "span_end": 13
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 50,
-      "start_ms": 203120,
-      "end_ms": 207000,
-      "text_en": "which makes us feel awake and alert. Now, the sun doesn't need to be just peeking over the horizon,",
+      "start_ms": 250120,
+      "end_ms": 252960,
+      "text_en": "And if it's really overcast, it could take 30 minutes to an hour.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "could take",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 32,
+          "span_end": 42
+        },
+        {
+          "pattern": "if it's really overcast",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 4,
+          "span_end": 27
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 51,
-      "start_ms": 207220,
-      "end_ms": 210960,
-      "text_en": "it just needs to be within a few hours of sunlight. And the sooner you can get it after waking up,",
+      "start_ms": 253100,
+      "end_ms": 255000,
+      "text_en": "But the main thing is that we don't want to overthink this.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -579,31 +1519,81 @@
     },
     {
       "idx": 52,
-      "start_ms": 211080,
-      "end_ms": 215120,
-      "text_en": "the better. So in terms of my personal morning routine, I wake up, I grab some water, I take my",
+      "start_ms": 255220,
+      "end_ms": 261560,
+      "text_en": "Perfect is the enemy of good and just getting any amount of morning sunlight in the morning is actually great for our circadian rhythm and for our sleep quality.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 46,
+          "span_end": 49
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 53,
-      "start_ms": 215120,
-      "end_ms": 219340,
-      "text_en": "medication, which in this case is finasteride and heights supplement and probiotic. And then",
+      "start_ms": 261800,
+      "end_ms": 273100,
+      "text_en": "Now, there's a second reason it's important to get that morning sunlight in that it sets our circadian clock on a timer to release the hormone melatonin from the pineal gland in our brain in about 12 to 14 hours time, which is going to make us feel sleepy",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is going to make",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 224,
+          "span_end": 240
+        },
+        {
+          "pattern": "in that it sets our circadian clock on a timer to release the hormone melatonin from the pineal gland in our brain in about 12 to 14 hours time, which is going to make us feel sleepy",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 73,
+          "span_end": 255
+        },
+        {
+          "pattern": "which is going to make us feel sleepy",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 218,
+          "span_end": 255
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 12
+        },
+        {
+          "pattern": "sets",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 84,
+          "span_end": 88
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 54,
-      "start_ms": 219340,
-      "end_ms": 222740,
-      "text_en": "after having a shower, I'll normally go for a walk and I'll walk over to the local",
+      "start_ms": 273100,
+      "end_ms": 273940,
+      "text_en": "later that evening.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -612,53 +1602,153 @@
     },
     {
       "idx": 55,
-      "start_ms": 223220,
-      "end_ms": 226420,
-      "text_en": "Pretamonjay where I've got the Pret coffee subscription, because that encourages me to",
+      "start_ms": 274180,
+      "end_ms": 279340,
+      "text_en": "So the earlier we get that morning sunlight, the sooner that clock starts counting down and the sooner we start feeling sleepy in the evening.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 18,
+          "span_end": 21
+        },
+        {
+          "pattern": "starts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 67,
+          "span_end": 73
+        },
+        {
+          "pattern": "start",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 106,
+          "span_end": 111
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 56,
-      "start_ms": 226420,
-      "end_ms": 229680,
-      "text_en": "actually get out of the house in the morning to grab my coffee. And that means I'm getting the",
+      "start_ms": 279520,
+      "end_ms": 290020,
+      "text_en": "So if I wake up at 7am and then I go for a morning walk to get that strong burst of morning sun for about 10 minutes, I should start getting the sleepy signal from my brain between about 7pm and 9pm that night.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "should start",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 120,
+          "span_end": 132
+        },
+        {
+          "pattern": "if I wake up at 7am",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 3,
+          "span_end": 22
+        },
+        {
+          "pattern": "wake",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 12
+        },
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 34,
+          "span_end": 36
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 57,
-      "start_ms": 229680,
-      "end_ms": 233300,
-      "text_en": "morning sunlight. And I've also delayed my caffeine consumption more in that a little bit later.",
+      "start_ms": 290260,
+      "end_ms": 295600,
+      "text_en": "But if I wake up later at 8am, for example, the sleepy phase is going to move forward to between 8pm and 10pm.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is going to move",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 61,
+          "span_end": 77
+        },
+        {
+          "pattern": "if I wake up later at 8am",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 4,
+          "span_end": 29
+        },
+        {
+          "pattern": "wake",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 13
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 58,
-      "start_ms": 233520,
-      "end_ms": 237460,
-      "text_en": "Now other types of bright light can trigger our wake up mechanisms, but our brain responds best",
+      "start_ms": 295860,
+      "end_ms": 299180,
+      "text_en": "And before we continue, I want to give a massive shout out to the Huberman Lab podcast.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "continue",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 22
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 30
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 59,
-      "start_ms": 237460,
-      "end_ms": 241920,
-      "text_en": "to the quality and amount of light that's coming from the sun when it's at a low solar angle. So",
+      "start_ms": 299540,
+      "end_ms": 301340,
+      "text_en": "Andrew Huberman's podcast is absolutely sick.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -667,75 +1757,161 @@
     },
     {
       "idx": 60,
-      "start_ms": 241920,
-      "end_ms": 245700,
-      "text_en": "on bright cloudless days, you should apparently stay outside for around 10 minutes after waking",
+      "start_ms": 301500,
+      "end_ms": 302220,
+      "text_en": "I listen to it all the time.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "listen",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 8
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 15,
+          "span_end": 18
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 61,
-      "start_ms": 245700,
-      "end_ms": 249380,
-      "text_en": "up to properly trigger your circadian clock on cloudy days. It might take a bit longer,",
+      "start_ms": 302640,
+      "end_ms": 308740,
+      "text_en": "And the episodes about sleep really help me figure out all of this stuff around the evidence around sleep and helped inform a lot of the research for this video.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "helped",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 110,
+          "span_end": 116
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 62,
-      "start_ms": 249380,
-      "end_ms": 253420,
-      "text_en": "like 20 minutes. And if it's really overcast, it could take 30 minutes to an hour. But the main",
+      "start_ms": 308960,
+      "end_ms": 310360,
+      "text_en": "So thank you Andrew Huberman and your team.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "thank",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 63,
-      "start_ms": 253420,
-      "end_ms": 256800,
-      "text_en": "thing is that we don't want to overthink this. Perfect is the enemy of good and just getting",
+      "start_ms": 310480,
+      "end_ms": 314280,
+      "text_en": "Okay, next let's look at what time we ideally want to be exercising to get the best possible sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 46,
+          "span_end": 50
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 64,
-      "start_ms": 256800,
-      "end_ms": 261040,
-      "text_en": "any amount of morning sunlight in the morning is actually great for our circadian rhythm and for",
+      "start_ms": 314640,
+      "end_ms": 320480,
+      "text_en": "So sunlight is the most important thing to focus on, but exercise does release endorphins, which also make us feel happy and more awake.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "which also make us feel happy and more awake",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 91,
+          "span_end": 135
+        },
+        {
+          "pattern": "make",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 102,
+          "span_end": 106
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 65,
-      "start_ms": 261040,
-      "end_ms": 264300,
-      "text_en": "our sleep quality. Now, there's a second reason it's important to get that morning sunlight in",
+      "start_ms": 320640,
+      "end_ms": 327740,
+      "text_en": "Now in an ideal world, I would be doing weight training in the morning, but I personally find that if I go gym in the morning, then I kind of feel a bit groggy for the rest of the day.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "find",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 89,
+          "span_end": 93
+        },
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 104,
+          "span_end": 106
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 142,
+          "span_end": 146
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 66,
-      "start_ms": 264300,
-      "end_ms": 268940,
-      "text_en": "that it sets our circadian clock on a timer to release the hormone melatonin from the pineal gland",
+      "start_ms": 327900,
+      "end_ms": 328740,
+      "text_en": "So I'm not a huge fan of that.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -744,64 +1920,181 @@
     },
     {
       "idx": 67,
-      "start_ms": 268940,
-      "end_ms": 273940,
-      "text_en": "in our brain in about 12 to 14 hours time, which is going to make us feel sleepy later that evening.",
+      "start_ms": 328880,
+      "end_ms": 330420,
+      "text_en": "Instead, I do my morning walk thing.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 13
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 68,
-      "start_ms": 274180,
-      "end_ms": 277800,
-      "text_en": "So the earlier we get that morning sunlight, the sooner that clock starts counting down and the",
+      "start_ms": 330640,
+      "end_ms": 332160,
+      "text_en": "This is a thing that I figured out with my health coach.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "that I figured out with my health coach",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 16,
+          "span_end": 55
+        },
+        {
+          "pattern": "figured",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 23,
+          "span_end": 30
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 69,
-      "start_ms": 277800,
-      "end_ms": 281760,
-      "text_en": "sooner we start feeling sleepy in the evening. So if I wake up at 7am and then I go for a morning",
+      "start_ms": 332220,
+      "end_ms": 334140,
+      "text_en": "He was like, you know, try and get some steps in in the morning.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 21
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 35,
+          "span_end": 39
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 70,
-      "start_ms": 281760,
-      "end_ms": 286140,
-      "text_en": "walk to get that strong burst of morning sun for about 10 minutes, I should start getting the",
+      "start_ms": 334140,
+      "end_ms": 337340,
+      "text_en": "And it also doubles as an effect in that it gets me the morning sunlight as well.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "doubles",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 19
+        },
+        {
+          "pattern": "gets",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 44,
+          "span_end": 48
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 71,
-      "start_ms": 286140,
-      "end_ms": 291680,
-      "text_en": "sleepy signal from my brain between about 7pm and 9pm that night. But if I wake up later at 8am,",
+      "start_ms": 337480,
+      "end_ms": 348760,
+      "text_en": "Now, if you can actually do some proper exercise in the morning, then according to Andrew Huberman, there is evidence that our body starts to develop this anticipatory circuit expecting that hit of morning exercise because it happened over the last few days and",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can actually do",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 12,
+          "span_end": 27
+        },
+        {
+          "pattern": "if you can actually do some proper exercise in the morning, then",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 5,
+          "span_end": 69
+        },
+        {
+          "pattern": "happened",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 226,
+          "span_end": 234
+        },
+        {
+          "pattern": "is",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 106,
+          "span_end": 108
+        },
+        {
+          "pattern": "starts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 132,
+          "span_end": 138
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 28,
+          "span_end": 32
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 249,
+          "span_end": 252
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 72,
-      "start_ms": 291840,
-      "end_ms": 296160,
-      "text_en": "for example, the sleepy phase is going to move forward to between 8pm and 10pm. And before we",
+      "start_ms": 348760,
+      "end_ms": 350900,
+      "text_en": "getting us to wake up and feel ready for it to happen again.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -810,130 +2103,413 @@
     },
     {
       "idx": 73,
-      "start_ms": 296160,
-      "end_ms": 300400,
-      "text_en": "continue, I want to give a massive shout out to the Huberman Lab podcast. Andrew Huberman's podcast",
+      "start_ms": 351140,
+      "end_ms": 353440,
+      "text_en": "And that adds to that morning spike of energy that we want.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "that we want",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 46,
+          "span_end": 58
+        },
+        {
+          "pattern": "adds",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 13
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 54,
+          "span_end": 58
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 74,
-      "start_ms": 300400,
-      "end_ms": 304380,
-      "text_en": "is absolutely sick. I listen to it all the time. And the episodes about sleep really help me figure",
+      "start_ms": 353700,
+      "end_ms": 359180,
+      "text_en": "And it sets us up for healthy sleepiness in the evening because our body is going to be tired and it's going to need sleep to recover from that training.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 73,
+          "span_end": 87
+        },
+        {
+          "pattern": "'s going to need",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 100,
+          "span_end": 116
+        },
+        {
+          "pattern": "sets",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 75,
-      "start_ms": 304380,
-      "end_ms": 308200,
-      "text_en": "out all of this stuff around the evidence around sleep and helped inform a lot of the research",
+      "start_ms": 359520,
+      "end_ms": 362640,
+      "text_en": "Like think about the last time you went for a really long hike or had a lot of exercise.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "went",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 35,
+          "span_end": 39
+        },
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 66,
+          "span_end": 69
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 76,
-      "start_ms": 308200,
-      "end_ms": 311720,
-      "text_en": "for this video. So thank you Andrew Huberman and your team. Okay, next let's look at what time",
+      "start_ms": 362640,
+      "end_ms": 364740,
+      "text_en": "You probably had a long deep sleep that night.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 13,
+          "span_end": 16
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 77,
-      "start_ms": 311720,
-      "end_ms": 315520,
-      "text_en": "we ideally want to be exercising to get the best possible sleep. So sunlight is the most important",
+      "start_ms": 364860,
+      "end_ms": 367660,
+      "text_en": "So we've talked about some of the stuff that I do in my morning routine so far.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve talked",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 5,
+          "span_end": 15
+        },
+        {
+          "pattern": "that I do in my morning routine so far",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 40,
+          "span_end": 78
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 47,
+          "span_end": 49
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 78,
-      "start_ms": 315520,
-      "end_ms": 320480,
-      "text_en": "thing to focus on, but exercise does release endorphins, which also make us feel happy and more awake.",
+      "start_ms": 368040,
+      "end_ms": 374680,
+      "text_en": "But one thing that I do that's unrelated to sleep is browse a cheeky newsletter called morning brew on my phone who are very kindly sponsoring this video.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "are very kindly sponsoring",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 116,
+          "span_end": 142
+        },
+        {
+          "pattern": "that I do",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 14,
+          "span_end": 23
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 21,
+          "span_end": 23
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 79,
-      "start_ms": 320640,
-      "end_ms": 324600,
-      "text_en": "Now in an ideal world, I would be doing weight training in the morning, but I personally find",
+      "start_ms": 374680,
+      "end_ms": 385720,
+      "text_en": "Now morning brew is a totally free 100 % free daily newsletter that's delivered every single day, Monday through Sunday and it just takes a few minutes to read and it gets you up to date on all of the interesting news from the world of business and",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'s delivered",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 67,
+          "span_end": 79
+        },
+        {
+          "pattern": "that's delivered every single day, Monday through Sunday",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 63,
+          "span_end": 119
+        },
+        {
+          "pattern": "takes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 132,
+          "span_end": 137
+        },
+        {
+          "pattern": "gets",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 167,
+          "span_end": 171
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 140,
+          "span_end": 143
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 80,
-      "start_ms": 324600,
-      "end_ms": 328020,
-      "text_en": "that if I go gym in the morning, then I kind of feel a bit groggy for the rest of the day. So I'm",
+      "start_ms": 385720,
+      "end_ms": 388200,
+      "text_en": "finance and tech, which are three of the things that I care most about.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "which are three of the things that I care most about",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 18,
+          "span_end": 70
+        },
+        {
+          "pattern": "that I care most about",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 48,
+          "span_end": 70
+        },
+        {
+          "pattern": "care",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 55,
+          "span_end": 59
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 81,
-      "start_ms": 328020,
-      "end_ms": 331620,
-      "text_en": "not a huge fan of that. Instead, I do my morning walk thing. This is a thing that I figured out with",
+      "start_ms": 388260,
+      "end_ms": 397620,
+      "text_en": "And it's my favorite way to consume the news because A, it doesn't take very long and B, it's written in a dry, witty, kind of entertaining manner, unlike most other sources of news, which are kind of dry and kind of boring.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'s written",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 91,
+          "span_end": 101
+        },
+        {
+          "pattern": "which are kind of dry and kind of boring",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 183,
+          "span_end": 223
+        },
+        {
+          "pattern": "most",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 155,
+          "span_end": 159
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 82,
-      "start_ms": 331620,
-      "end_ms": 335060,
-      "text_en": "my health coach. He was like, you know, try and get some steps in in the morning. And it also doubles",
+      "start_ms": 397820,
+      "end_ms": 406860,
+      "text_en": "And it's really useful for keeping up to date with the content creator business stuff that affects me personally, like for example, Zuckerberg recently rolling out Meta verified, which I heard about because I read my morning brew newsletter.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "that affects me personally",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 86,
+          "span_end": 112
+        },
+        {
+          "pattern": "which I heard about",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 179,
+          "span_end": 198
+        },
+        {
+          "pattern": "heard",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 187,
+          "span_end": 192
+        },
+        {
+          "pattern": "read",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 209,
+          "span_end": 213
+        },
+        {
+          "pattern": "affects",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 91,
+          "span_end": 98
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 83,
-      "start_ms": 335060,
-      "end_ms": 338440,
-      "text_en": "as an effect in that it gets me the morning sunlight as well. Now, if you can actually do",
+      "start_ms": 407240,
+      "end_ms": 412080,
+      "text_en": "And it's been great for also keeping me up to date about what's going on with the whole AI stuff because there's just too much going on.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'s been",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 6,
+          "span_end": 13
+        },
+        {
+          "pattern": "'s going",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 61,
+          "span_end": 69
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 110,
+          "span_end": 112
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 84,
-      "start_ms": 338440,
-      "end_ms": 342520,
-      "text_en": "some proper exercise in the morning, then according to Andrew Huberman, there is evidence that our body",
+      "start_ms": 412300,
+      "end_ms": 413380,
+      "text_en": "It's hard to keep track of it on Twitter.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -942,64 +2518,165 @@
     },
     {
       "idx": 85,
-      "start_ms": 342520,
-      "end_ms": 347460,
-      "text_en": "starts to develop this anticipatory circuit expecting that hit of morning exercise because it happened",
+      "start_ms": 413800,
+      "end_ms": 422900,
+      "text_en": "And so on morning brew, I get like a decent write up of what Microsoft Edge is doing and how chat GPT is going and like what's going on with Bing and how it's just started making absolutely ridiculous statements.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is doing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 76,
+          "span_end": 84
+        },
+        {
+          "pattern": "is going",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 102,
+          "span_end": 110
+        },
+        {
+          "pattern": "'s going",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 124,
+          "span_end": 132
+        },
+        {
+          "pattern": "'s just started",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 156,
+          "span_end": 171
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 29
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 86,
-      "start_ms": 347460,
-      "end_ms": 351360,
-      "text_en": "over the last few days and getting us to wake up and feel ready for it to happen again. And that",
+      "start_ms": 423260,
+      "end_ms": 425340,
+      "text_en": "And it's just generally funny and interesting reading about this kind of stuff.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "generally",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 14,
+          "span_end": 23
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 87,
-      "start_ms": 351360,
-      "end_ms": 355420,
-      "text_en": "adds to that morning spike of energy that we want. And it sets us up for healthy sleepiness in the",
+      "start_ms": 425540,
+      "end_ms": 433840,
+      "text_en": "So if you are interested in anything to do with business or finance or tech, or you just want an entertaining way to browse the news once a day, then there is no reason not to sign up to morning brew.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "if you are interested in anything to do with business or finance or tech, or you just want an entertaining way to browse the news once a day",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 3,
+          "span_end": 143
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 89,
+          "span_end": 93
+        },
+        {
+          "pattern": "is",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 156,
+          "span_end": 158
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 88,
-      "start_ms": 355420,
-      "end_ms": 358960,
-      "text_en": "evening because our body is going to be tired and it's going to need sleep to recover from that",
+      "start_ms": 433960,
+      "end_ms": 437160,
+      "text_en": "It is completely free and it takes less than 15 seconds to subscribe.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "takes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 29,
+          "span_end": 34
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 89,
-      "start_ms": 358960,
-      "end_ms": 362640,
-      "text_en": "training. Like think about the last time you went for a really long hike or had a lot of exercise.",
+      "start_ms": 437400,
+      "end_ms": 443660,
+      "text_en": "So if you're interested, then head over to morningbrewdaily .com forward slash Ali and then you can subscribe there and you'll be supporting the channel along the way.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can subscribe",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 96,
+          "span_end": 109
+        },
+        {
+          "pattern": "if you're interested",
+          "note_tr": "If Clause Type 1 (Real Future)",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 3,
+          "span_end": 23
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 90,
-      "start_ms": 362640,
-      "end_ms": 366420,
-      "text_en": "You probably had a long deep sleep that night. So we've talked about some of the stuff that I do",
+      "start_ms": 443760,
+      "end_ms": 444940,
+      "text_en": "That link is also in the video description.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1008,20 +2685,37 @@
     },
     {
       "idx": 91,
-      "start_ms": 366420,
-      "end_ms": 371240,
-      "text_en": "in my morning routine so far. But one thing that I do that's unrelated to sleep is browse a cheeky",
+      "start_ms": 445160,
+      "end_ms": 447100,
+      "text_en": "So thank you so much morning Brew for sponsoring this video.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "thank",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        },
+        {
+          "pattern": "much",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 16,
+          "span_end": 20
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 92,
-      "start_ms": 371240,
-      "end_ms": 375060,
-      "text_en": "newsletter called morning brew on my phone who are very kindly sponsoring this video. Now morning",
+      "start_ms": 447360,
+      "end_ms": 448960,
+      "text_en": "All right, time to talk about a big topic, caffeine.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1030,152 +2724,381 @@
     },
     {
       "idx": 93,
-      "start_ms": 375060,
-      "end_ms": 380120,
-      "text_en": "brew is a totally free 100% free daily newsletter that's delivered every single day, Monday through",
+      "start_ms": 449600,
+      "end_ms": 451920,
+      "text_en": "Now remember the chemical adenosine which makes us hungry for sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "which makes us hungry for sleep",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 36,
+          "span_end": 67
+        },
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 42,
+          "span_end": 47
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 94,
-      "start_ms": 380120,
-      "end_ms": 383880,
-      "text_en": "Sunday and it just takes a few minutes to read and it gets you up to date on all of the interesting",
+      "start_ms": 452140,
+      "end_ms": 456000,
+      "text_en": "Well, to actually make us feel sleepy, adenosine needs to get picked up by our adenosine receptors.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "needs",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 49,
+          "span_end": 54
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 95,
-      "start_ms": 383880,
-      "end_ms": 387800,
-      "text_en": "news from the world of business and finance and tech, which are three of the things that I care",
+      "start_ms": 456480,
+      "end_ms": 463780,
+      "text_en": "And what caffeine does is act like an adenosine antagonist blocking those adenosine receptors in our brain to stop the sleepy adenosine signal from being processed.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "being processed",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 148,
+          "span_end": 163
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 96,
-      "start_ms": 387800,
-      "end_ms": 391240,
-      "text_en": "most about. And it's my favorite way to consume the news because A, it doesn't take very long",
+      "start_ms": 464080,
+      "end_ms": 465960,
+      "text_en": "So the caffeine keeps us alert and awake initially.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "keeps",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 21
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 97,
-      "start_ms": 391240,
-      "end_ms": 396260,
-      "text_en": "and B, it's written in a dry, witty, kind of entertaining manner, unlike most other sources of news,",
+      "start_ms": 466360,
+      "end_ms": 472700,
+      "text_en": "But when the caffeine wears off, we get a caffeine crash as the blocked adenosine rushes through our receptors again, making us feel really tired.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "wears",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 27
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 36,
+          "span_end": 39
+        },
+        {
+          "pattern": "rushes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 82,
+          "span_end": 88
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 98,
-      "start_ms": 396500,
-      "end_ms": 399400,
-      "text_en": "which are kind of dry and kind of boring. And it's really useful for keeping up to date with the",
+      "start_ms": 472700,
+      "end_ms": 475700,
+      "text_en": "Now, I drink coffee every morning and around two to three times a day.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "drink",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 12
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 99,
-      "start_ms": 399400,
-      "end_ms": 403360,
-      "text_en": "content creator business stuff that affects me personally, like for example, Zuckerberg recently",
+      "start_ms": 475700,
+      "end_ms": 479480,
+      "text_en": "But there are two things when it comes to caffeine timing that I find quite useful.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "that I find quite useful",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 58,
+          "span_end": 82
+        },
+        {
+          "pattern": "are",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 13
+        },
+        {
+          "pattern": "comes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 33,
+          "span_end": 38
+        },
+        {
+          "pattern": "find",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 65,
+          "span_end": 69
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 100,
-      "start_ms": 403360,
-      "end_ms": 407320,
-      "text_en": "rolling out Meta verified, which I heard about because I read my morning brew newsletter. And",
+      "start_ms": 479700,
+      "end_ms": 482300,
+      "text_en": "Firstly, I try to avoid coffee for the first hour of the day.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 14
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 101,
-      "start_ms": 407320,
-      "end_ms": 410720,
-      "text_en": "it's been great for also keeping me up to date about what's going on with the whole AI stuff",
+      "start_ms": 482600,
+      "end_ms": 487960,
+      "text_en": "And the idea behind this is that it gives your body enough time to naturally clear the adenosine that's left behind in your system.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'s left",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 101,
+          "span_end": 108
+        },
+        {
+          "pattern": "that's left behind in your system",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 97,
+          "span_end": 130
+        },
+        {
+          "pattern": "gives",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 36,
+          "span_end": 41
+        },
+        {
+          "pattern": "enough",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 52,
+          "span_end": 58
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 102,
-      "start_ms": 410720,
-      "end_ms": 414160,
-      "text_en": "because there's just too much going on. It's hard to keep track of it on Twitter. And so on morning",
+      "start_ms": 487960,
+      "end_ms": 496000,
+      "text_en": "And secondly, to get better quality of sleep, I try to avoid drinking coffee or any other caffeinated drinks too late in the day, specifically after around two to three p .m.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 48,
+          "span_end": 51
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 80,
+          "span_end": 83
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 103,
-      "start_ms": 414160,
-      "end_ms": 419020,
-      "text_en": "brew, I get like a decent write up of what Microsoft Edge is doing and how chat GPT is going and like",
+      "start_ms": 496160,
+      "end_ms": 501260,
+      "text_en": "Now caffeine has a half life of five to six hours, which is the time it takes for the caffeine levels in your system to drop by 50%.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "which is the time it takes for the caffeine levels in your system to drop by 50%",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 51,
+          "span_end": 131
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 16
+        },
+        {
+          "pattern": "takes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 72,
+          "span_end": 77
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 104,
-      "start_ms": 419020,
-      "end_ms": 422900,
-      "text_en": "what's going on with Bing and how it's just started making absolutely ridiculous statements.",
+      "start_ms": 501260,
+      "end_ms": 506060,
+      "text_en": "But it takes even longer than that after drinking caffeine for our adenosine to be working normally again.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "takes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 12
+        },
+        {
+          "pattern": "normally",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 91,
+          "span_end": 99
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 105,
-      "start_ms": 423260,
-      "end_ms": 426060,
-      "text_en": "And it's just generally funny and interesting reading about this kind of stuff. So if you are",
+      "start_ms": 506280,
+      "end_ms": 511900,
+      "text_en": "So to stop caffeine interfering with our sleep, Dr. Huberman reckons that we should avoid it eight to 10 hours before our normal bedtime.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "should avoid",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 77,
+          "span_end": 89
+        },
+        {
+          "pattern": "reckons",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 61,
+          "span_end": 68
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 106,
-      "start_ms": 426060,
-      "end_ms": 429660,
-      "text_en": "interested in anything to do with business or finance or tech, or you just want an entertaining",
+      "start_ms": 512179,
+      "end_ms": 513580,
+      "text_en": "So stop drinking between 1 p .m.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1184,9 +3107,9 @@
     },
     {
       "idx": 107,
-      "start_ms": 429660,
-      "end_ms": 434140,
-      "text_en": "way to browse the news once a day, then there is no reason not to sign up to morning brew. It is",
+      "start_ms": 513700,
+      "end_ms": 514159,
+      "text_en": "and 3 p .m.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1195,9 +3118,9 @@
     },
     {
       "idx": 108,
-      "start_ms": 434140,
-      "end_ms": 438320,
-      "text_en": "completely free and it takes less than 15 seconds to subscribe. So if you're interested, then head",
+      "start_ms": 514299,
+      "end_ms": 515440,
+      "text_en": "if your bedtime is 11 p .m.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1206,53 +3129,113 @@
     },
     {
       "idx": 109,
-      "start_ms": 438320,
-      "end_ms": 442660,
-      "text_en": "over to morningbrewdaily.com forward slash Ali and then you can subscribe there and you'll be supporting",
+      "start_ms": 515799,
+      "end_ms": 519799,
+      "text_en": "Matthew Walker, the author of why we sleep is a bit more conservative and says aim for 10 to 12 hours.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "sleep",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 37,
+          "span_end": 42
+        },
+        {
+          "pattern": "says",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 74,
+          "span_end": 78
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 110,
-      "start_ms": 442660,
-      "end_ms": 446100,
-      "text_en": "the channel along the way. That link is also in the video description. So thank you so much morning",
+      "start_ms": 520039,
+      "end_ms": 523600,
+      "text_en": "So basically only caffeine in the morning, but I personally stop around 3 p .m.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "stop",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 60,
+          "span_end": 64
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 111,
-      "start_ms": 446100,
-      "end_ms": 449660,
-      "text_en": "Brew for sponsoring this video. All right, time to talk about a big topic, caffeine. Now",
+      "start_ms": 523600,
+      "end_ms": 525040,
+      "text_en": "Everyone has different caffeine tolerances though.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 12
+        },
+        {
+          "pattern": "tolerances",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 32,
+          "span_end": 42
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 112,
-      "start_ms": 449660,
-      "end_ms": 453020,
-      "text_en": "remember the chemical adenosine which makes us hungry for sleep. Well, to actually make us feel",
+      "start_ms": 525320,
+      "end_ms": 527820,
+      "text_en": "Like some people can't drink any caffeine past 11 a .m.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 5,
+          "span_end": 9
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 29,
+          "span_end": 32
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 113,
-      "start_ms": 453020,
-      "end_ms": 457600,
-      "text_en": "sleepy, adenosine needs to get picked up by our adenosine receptors. And what caffeine does is act",
+      "start_ms": 527980,
+      "end_ms": 528820,
+      "text_en": "Without it messing with their sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1261,9 +3244,9 @@
     },
     {
       "idx": 114,
-      "start_ms": 457600,
-      "end_ms": 462840,
-      "text_en": "like an adenosine antagonist blocking those adenosine receptors in our brain to stop the sleepy adenosine",
+      "start_ms": 529140,
+      "end_ms": 531420,
+      "text_en": "But for other people the cutoff point is more like 4 p .m.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1272,97 +3255,313 @@
     },
     {
       "idx": 115,
-      "start_ms": 462840,
-      "end_ms": 466920,
-      "text_en": "signal from being processed. So the caffeine keeps us alert and awake initially. But when the caffeine",
+      "start_ms": 531500,
+      "end_ms": 539580,
+      "text_en": "There's a small percentage of people that can even have caffeine late at night and still fall asleep easily, but that probably still affects their sleep quality even if they get technically a full night's sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can even have",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 42,
+          "span_end": 55
+        },
+        {
+          "pattern": "even if they get technically a full night's sleep",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 161,
+          "span_end": 210
+        },
+        {
+          "pattern": "that can even have caffeine late at night and still fall asleep easily",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 37,
+          "span_end": 107
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 7
+        },
+        {
+          "pattern": "affects",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 133,
+          "span_end": 140
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 174,
+          "span_end": 177
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 116,
-      "start_ms": 466920,
-      "end_ms": 471320,
-      "text_en": "wears off, we get a caffeine crash as the blocked adenosine rushes through our receptors again,",
+      "start_ms": 539720,
+      "end_ms": 543560,
+      "text_en": "And by the way, if you're enjoying this video so far, I'd love it if you could drop a little thumbs up on the thing.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'re enjoying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 22,
+          "span_end": 34
+        },
+        {
+          "pattern": "could drop",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 73,
+          "span_end": 83
+        },
+        {
+          "pattern": "if you could drop a little thumbs up on the thing",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 66,
+          "span_end": 115
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 86,
+          "span_end": 92
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 117,
-      "start_ms": 471620,
-      "end_ms": 475700,
-      "text_en": "making us feel really tired. Now, I drink coffee every morning and around two to three times a day.",
+      "start_ms": 543740,
+      "end_ms": 544980,
+      "text_en": "Apparently it really helps us for the algorithm.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "helps",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 21,
+          "span_end": 26
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 118,
-      "start_ms": 475700,
-      "end_ms": 480200,
-      "text_en": "But there are two things when it comes to caffeine timing that I find quite useful. Firstly, I try",
+      "start_ms": 545220,
+      "end_ms": 554640,
+      "text_en": "Now this is potentially getting a bit overboard, but the sixth thing that I try to do every day is to go outside around an hour or so before sunset and get a good 10 to 30 minutes of evening sunlight.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is potentially getting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 9,
+          "span_end": 31
+        },
+        {
+          "pattern": "that I try to do every day",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 69,
+          "span_end": 95
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 76,
+          "span_end": 79
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 119,
-      "start_ms": 480200,
-      "end_ms": 484360,
-      "text_en": "to avoid coffee for the first hour of the day. And the idea behind this is that it gives your body",
+      "start_ms": 554880,
+      "end_ms": 557380,
+      "text_en": "So the sunlight trick that we talked about earlier works in reverse.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "talked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 30,
+          "span_end": 36
+        },
+        {
+          "pattern": "trick",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 21
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 120,
-      "start_ms": 484360,
-      "end_ms": 488440,
-      "text_en": "enough time to naturally clear the adenosine that's left behind in your system. And secondly,",
+      "start_ms": 557680,
+      "end_ms": 567180,
+      "text_en": "When the light sensitive melanops and neurons in your eye detect the specific color and intensity of evening sunlight, they send a signal to your circadian clock that it's getting to the end of the day and that sleep is coming.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'s getting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 169,
+          "span_end": 179
+        },
+        {
+          "pattern": "is coming",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 217,
+          "span_end": 226
+        },
+        {
+          "pattern": "send",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 124,
+          "span_end": 128
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 121,
-      "start_ms": 488540,
-      "end_ms": 492880,
-      "text_en": "to get better quality of sleep, I try to avoid drinking coffee or any other caffeinated drinks",
+      "start_ms": 567380,
+      "end_ms": 573240,
+      "text_en": "Again, try to be in direct sunlight if it'll be possible because windows and other kind of barriers like sunglasses make the sunlight a lot less effective.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll be",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 41,
+          "span_end": 47
+        },
+        {
+          "pattern": "if it'll be possible because windows and other kind of barriers like sunglasses make the sunlight a lot less effective",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 36,
+          "span_end": 154
+        },
+        {
+          "pattern": "make",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 116,
+          "span_end": 120
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 122,
-      "start_ms": 492880,
-      "end_ms": 497320,
-      "text_en": "too late in the day, specifically after around two to three p.m. Now caffeine has a half life of",
+      "start_ms": 573520,
+      "end_ms": 583000,
+      "text_en": "So if you get the sun in the morning and in the evening, you give your internal clock consistent light anchors, making it way easier to get into a healthy rhythm of waking up and going to sleep at the same time every day.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "going to sleep",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 179,
+          "span_end": 193
+        },
+        {
+          "pattern": "if you get the sun in the morning and",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 3,
+          "span_end": 40
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 13
+        },
+        {
+          "pattern": "give",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 61,
+          "span_end": 65
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 123,
-      "start_ms": 497320,
-      "end_ms": 501260,
-      "text_en": "five to six hours, which is the time it takes for the caffeine levels in your system to drop by 50%.",
+      "start_ms": 583200,
+      "end_ms": 584400,
+      "text_en": "Alright, so now it's evening.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1371,20 +3570,37 @@
     },
     {
       "idx": 124,
-      "start_ms": 501260,
-      "end_ms": 505720,
-      "text_en": "But it takes even longer than that after drinking caffeine for our adenosine to be working normally",
+      "start_ms": 584820,
+      "end_ms": 595840,
+      "text_en": "And for me, I try my very best not to expose myself to artificial lights after around 8pm, and I try to avoid viewing bright lights between 10pm and 4am, including my laptop screen and my computer monitor and",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 17
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 97,
+          "span_end": 100
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 125,
-      "start_ms": 505720,
-      "end_ms": 509740,
-      "text_en": "again. So to stop caffeine interfering with our sleep, Dr. Huberman reckons that we should avoid it",
+      "start_ms": 595840,
+      "end_ms": 596140,
+      "text_en": "my phone.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1393,64 +3609,205 @@
     },
     {
       "idx": 126,
-      "start_ms": 509740,
-      "end_ms": 514320,
-      "text_en": "eight to 10 hours before our normal bedtime. So stop drinking between 1 p.m. and 3 p.m. if",
+      "start_ms": 596300,
+      "end_ms": 606020,
+      "text_en": "The reason we want to avoid light is because bright artificial lights mimic the effect of bright sunlight somewhat, which, like we've seen, tells our brain that it's daytime and releases cortisol and epinephrine that keeps us awake.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 130,
+          "span_end": 138
+        },
+        {
+          "pattern": "that keeps us awake",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 212,
+          "span_end": 231
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 18
+        },
+        {
+          "pattern": "mimic",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 70,
+          "span_end": 75
+        },
+        {
+          "pattern": "tells",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 140,
+          "span_end": 145
+        },
+        {
+          "pattern": "releases",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 178,
+          "span_end": 186
+        },
+        {
+          "pattern": "keeps",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 217,
+          "span_end": 222
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 127,
-      "start_ms": 514320,
-      "end_ms": 518460,
-      "text_en": "your bedtime is 11 p.m. Matthew Walker, the author of why we sleep is a bit more conservative and says",
+      "start_ms": 606200,
+      "end_ms": 608320,
+      "text_en": "And being awake in the evenings is exactly what we want to avoid.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 51,
+          "span_end": 55
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 128,
-      "start_ms": 518460,
-      "end_ms": 523600,
-      "text_en": "aim for 10 to 12 hours. So basically only caffeine in the morning, but I personally stop around 3 p.m.",
+      "start_ms": 608560,
+      "end_ms": 613000,
+      "text_en": "Now, scarily, the longer that we've been awake, the more sensitive we are to bright lights making us feel even more awake.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve been",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 32,
+          "span_end": 40
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 129,
-      "start_ms": 523600,
-      "end_ms": 527200,
-      "text_en": "Everyone has different caffeine tolerances though. Like some people can't drink any caffeine past",
+      "start_ms": 613160,
+      "end_ms": 614920,
+      "text_en": "So the later it gets in the evening, the higher the stakes.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "gets",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 20
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 130,
-      "start_ms": 527200,
-      "end_ms": 530960,
-      "text_en": "11 a.m. Without it messing with their sleep. But for other people the cutoff point is more like",
+      "start_ms": 614920,
+      "end_ms": 625960,
+      "text_en": "In fact, this 2018 study, which was published in the journal Cell, which is a high quality journal, showed that light arriving to the eyes between 11pm and 4am, even suppresses dopamine, the thing that makes us feel good, and is a natural",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "was published",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 32,
+          "span_end": 45
+        },
+        {
+          "pattern": "which was published in the journal Cell, which is a high quality journal,",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 26,
+          "span_end": 99
+        },
+        {
+          "pattern": "which is a high quality journal",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 67,
+          "span_end": 98
+        },
+        {
+          "pattern": "that makes us feel good",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 197,
+          "span_end": 220
+        },
+        {
+          "pattern": "showed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 100,
+          "span_end": 106
+        },
+        {
+          "pattern": "suppresses",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 166,
+          "span_end": 176
+        },
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 202,
+          "span_end": 207
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 131,
-      "start_ms": 530960,
-      "end_ms": 534880,
-      "text_en": "4 p.m. There's a small percentage of people that can even have caffeine late at night and still fall",
+      "start_ms": 625960,
+      "end_ms": 626360,
+      "text_en": "antidepressant.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1459,97 +3816,305 @@
     },
     {
       "idx": 132,
-      "start_ms": 534880,
-      "end_ms": 538720,
-      "text_en": "asleep easily, but that probably still affects their sleep quality even if they get technically",
+      "start_ms": 626760,
+      "end_ms": 630280,
+      "text_en": "And it also activates the habenula, the disappointment nucleus in our brain.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "activates",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 21
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 133,
-      "start_ms": 538720,
-      "end_ms": 542080,
-      "text_en": "a full night's sleep. And by the way, if you're enjoying this video so far, I'd love it if you",
+      "start_ms": 630460,
+      "end_ms": 635640,
+      "text_en": "And so over the next few days, this lowers our mood, and makes us feel more disappointed, and actually can make it harder to learn new things.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can make",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 103,
+          "span_end": 111
+        },
+        {
+          "pattern": "lowers",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 36,
+          "span_end": 42
+        },
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 57,
+          "span_end": 62
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 21,
+          "span_end": 24
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 134,
-      "start_ms": 542080,
-      "end_ms": 545420,
-      "text_en": "could drop a little thumbs up on the thing. Apparently it really helps us for the algorithm. Now this",
+      "start_ms": 635840,
+      "end_ms": 640420,
+      "text_en": "So for me personally, the way that I avoid all these lights is I try to avoid going on the computer beyond 10pm.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "that I avoid all these lights",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 30,
+          "span_end": 59
+        },
+        {
+          "pattern": "avoid",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 37,
+          "span_end": 42
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 65,
+          "span_end": 68
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 43,
+          "span_end": 46
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 135,
-      "start_ms": 545420,
-      "end_ms": 549200,
-      "text_en": "is potentially getting a bit overboard, but the sixth thing that I try to do every day is to go",
+      "start_ms": 640680,
+      "end_ms": 643840,
+      "text_en": "If I am on the computer, I try and dim the brightness setting on my computer down.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "If I am on the computer",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 23
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 27,
+          "span_end": 30
+        },
+        {
+          "pattern": "dim",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 35,
+          "span_end": 38
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 136,
-      "start_ms": 549200,
-      "end_ms": 555100,
-      "text_en": "outside around an hour or so before sunset and get a good 10 to 30 minutes of evening sunlight. So the",
+      "start_ms": 643960,
+      "end_ms": 650520,
+      "text_en": "I try and use the kind of flux light mode display setting on the Mac to try and avoid the blue light that comes in from the computer screen.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "that comes in from the computer screen",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 101,
+          "span_end": 139
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 5
+        },
+        {
+          "pattern": "comes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 106,
+          "span_end": 111
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 137,
-      "start_ms": 555100,
-      "end_ms": 559160,
-      "text_en": "sunlight trick that we talked about earlier works in reverse. When the light sensitive melanops and",
+      "start_ms": 650660,
+      "end_ms": 657360,
+      "text_en": "I also try my best to avoid using my phone at night time, and instead I use my Kindle, which is generally on a fairly dim dark mode warm light setting.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "which is generally on a fairly dim dark mode warm light setting",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 87,
+          "span_end": 150
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 10
+        },
+        {
+          "pattern": "use",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 72,
+          "span_end": 75
+        },
+        {
+          "pattern": "generally",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 96,
+          "span_end": 105
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 138,
-      "start_ms": 559160,
-      "end_ms": 562640,
-      "text_en": "neurons in your eye detect the specific color and intensity of evening sunlight,",
+      "start_ms": 657580,
+      "end_ms": 664740,
+      "text_en": "Now, apparently the positioning of these artificial lights can make a difference, because we're particularly sensitive to overhead lights, because we've evolved to detect the light from the sunlight.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve evolved",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 149,
+          "span_end": 160
+        },
+        {
+          "pattern": "can make",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 59,
+          "span_end": 67
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 139,
-      "start_ms": 563160,
-      "end_ms": 567020,
-      "text_en": "they send a signal to your circadian clock that it's getting to the end of the day and that sleep is",
+      "start_ms": 665020,
+      "end_ms": 673540,
+      "text_en": "And so having warm lights that are positioned low, like lamps and candles that are low down, instead of having the ceiling lights on, apparently it can make a difference to how effective a sleep can be.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "are positioned",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 31,
+          "span_end": 45
+        },
+        {
+          "pattern": "can make",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 148,
+          "span_end": 156
+        },
+        {
+          "pattern": "can be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 195,
+          "span_end": 201
+        },
+        {
+          "pattern": "that are low down",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 74,
+          "span_end": 91
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 140,
-      "start_ms": 567020,
-      "end_ms": 570580,
-      "text_en": "coming. Again, try to be in direct sunlight if it'll be possible because windows and other kind of",
+      "start_ms": 673720,
+      "end_ms": 674620,
+      "text_en": "Okay, a really quick tip here.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1558,31 +4123,73 @@
     },
     {
       "idx": 141,
-      "start_ms": 570580,
-      "end_ms": 574860,
-      "text_en": "barriers like sunglasses make the sunlight a lot less effective. So if you get the sun in the morning",
+      "start_ms": 674940,
+      "end_ms": 678040,
+      "text_en": "I always expect to feel alert around one hour before my natural bedtime.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "expect",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 15
+        },
+        {
+          "pattern": "always",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 2,
+          "span_end": 8
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 142,
-      "start_ms": 574860,
-      "end_ms": 579640,
-      "text_en": "and in the evening, you give your internal clock consistent light anchors, making it way easier",
+      "start_ms": 678320,
+      "end_ms": 682180,
+      "text_en": "And I know that if I just read a book and stick to my normal habits, then I'll eventually feel sleepy again.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll eventually feel",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 75,
+          "span_end": 94
+        },
+        {
+          "pattern": "read",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 26,
+          "span_end": 30
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 10
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 143,
-      "start_ms": 579640,
-      "end_ms": 583000,
-      "text_en": "to get into a healthy rhythm of waking up and going to sleep at the same time every day.",
+      "start_ms": 682320,
+      "end_ms": 683160,
+      "text_en": "Now, this is totally normal.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1591,9 +4198,9 @@
     },
     {
       "idx": 144,
-      "start_ms": 583200,
-      "end_ms": 587820,
-      "text_en": "Alright, so now it's evening. And for me, I try my very best not to expose myself to artificial",
+      "start_ms": 683160,
+      "end_ms": 687380,
+      "text_en": "And according to Dr. Hebrewman's podcast, this is a naturally occurring spike in wakefulness.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1602,108 +4209,269 @@
     },
     {
       "idx": 145,
-      "start_ms": 587820,
-      "end_ms": 593340,
-      "text_en": "lights after around 8pm, and I try to avoid viewing bright lights between 10pm and 4am,",
+      "start_ms": 687420,
+      "end_ms": 688740,
+      "text_en": "So don't freak out if it happens.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "if it happens",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 19,
+          "span_end": 32
+        },
+        {
+          "pattern": "happens",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 25,
+          "span_end": 32
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 146,
-      "start_ms": 593600,
-      "end_ms": 597040,
-      "text_en": "including my laptop screen and my computer monitor and my phone. The reason we want to avoid",
+      "start_ms": 688780,
+      "end_ms": 689400,
+      "text_en": "It's going to pass.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'s going to pass",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 2,
+          "span_end": 18
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 147,
-      "start_ms": 597040,
-      "end_ms": 600780,
-      "text_en": "light is because bright artificial lights mimic the effect of bright sunlight somewhat,",
+      "start_ms": 689780,
+      "end_ms": 693400,
+      "text_en": "Now, the final step in my sleep routine is keeping the room where I sleep nice and cool.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is keeping",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 40,
+          "span_end": 50
+        },
+        {
+          "pattern": "where I sleep nice and cool",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 60,
+          "span_end": 87
+        },
+        {
+          "pattern": "sleep",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 68,
+          "span_end": 73
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 148,
-      "start_ms": 601220,
-      "end_ms": 605220,
-      "text_en": "which, like we've seen, tells our brain that it's daytime and releases cortisol and epinephrine",
+      "start_ms": 693660,
+      "end_ms": 698020,
+      "text_en": "Now, our bodies need a drop in temperature by one to three degrees to fall asleep and to stay asleep effectively.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 20
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 149,
-      "start_ms": 605220,
-      "end_ms": 608620,
-      "text_en": "that keeps us awake. And being awake in the evenings is exactly what we want to avoid. Now,",
+      "start_ms": 698320,
+      "end_ms": 699160,
+      "text_en": "So here's what I do personally.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "what I do personally",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 10,
+          "span_end": 30
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 19
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 150,
-      "start_ms": 608660,
-      "end_ms": 611780,
-      "text_en": "scarily, the longer that we've been awake, the more sensitive we are to bright lights",
+      "start_ms": 699380,
+      "end_ms": 703820,
+      "text_en": "Firstly, if I'm in a hotel room or anything that has air conditioning and thermostat, I generally set it quite low.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "if I'm in a hotel room or anything that has air conditioning and thermostat",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 9,
+          "span_end": 84
+        },
+        {
+          "pattern": "that has air conditioning and thermostat",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 44,
+          "span_end": 84
+        },
+        {
+          "pattern": "set",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 98,
+          "span_end": 101
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 49,
+          "span_end": 52
+        },
+        {
+          "pattern": "generally",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 88,
+          "span_end": 97
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 151,
-      "start_ms": 611780,
-      "end_ms": 614920,
-      "text_en": "making us feel even more awake. So the later it gets in the evening, the higher the stakes.",
+      "start_ms": 704100,
+      "end_ms": 706240,
+      "text_en": "Some people say that 19 degrees Celsius is the ideal.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "say",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 15
+        },
+        {
+          "pattern": "Some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 0,
+          "span_end": 4
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 152,
-      "start_ms": 614920,
-      "end_ms": 618940,
-      "text_en": "In fact, this 2018 study, which was published in the journal Cell, which is a high quality journal,",
+      "start_ms": 706700,
+      "end_ms": 708220,
+      "text_en": "I find that that's still a bit warm for me.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "find",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 153,
-      "start_ms": 619120,
-      "end_ms": 624120,
-      "text_en": "showed that light arriving to the eyes between 11pm and 4am, even suppresses dopamine, the thing",
+      "start_ms": 708400,
+      "end_ms": 710780,
+      "text_en": "And I like to set it at like 16, 17 degrees, if I can.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "set it at like 16, 17 degrees, if I can",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 14,
+          "span_end": 53
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 10
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 154,
-      "start_ms": 624120,
-      "end_ms": 628340,
-      "text_en": "that makes us feel good, and is a natural antidepressant. And it also activates the habenula,",
+      "start_ms": 710920,
+      "end_ms": 712260,
+      "text_en": "In my own home, I don't have air conditioning.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1712,42 +4480,109 @@
     },
     {
       "idx": 155,
-      "start_ms": 628500,
-      "end_ms": 632160,
-      "text_en": "the disappointment nucleus in our brain. And so over the next few days, this lowers our mood,",
+      "start_ms": 712500,
+      "end_ms": 715480,
+      "text_en": "And so I'll sometimes open the windows if it's particularly warm in the room.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll sometimes open",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 8,
+          "span_end": 26
+        },
+        {
+          "pattern": "if it's particularly warm in the room",
+          "note_tr": "If Clause Type 1 (Real Future)",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 39,
+          "span_end": 76
+        },
+        {
+          "pattern": "sometimes",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 12,
+          "span_end": 21
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 156,
-      "start_ms": 632320,
-      "end_ms": 636040,
-      "text_en": "and makes us feel more disappointed, and actually can make it harder to learn new things. So for",
+      "start_ms": 715500,
+      "end_ms": 717360,
+      "text_en": "And I'll use a fan if it's particularly hot.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll use",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 5,
+          "span_end": 12
+        },
+        {
+          "pattern": "if it's particularly hot",
+          "note_tr": "If Clause Type 1 (Real Future)",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 19,
+          "span_end": 43
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 157,
-      "start_ms": 636040,
-      "end_ms": 639980,
-      "text_en": "me personally, the way that I avoid all these lights is I try to avoid going on the computer beyond",
+      "start_ms": 717400,
+      "end_ms": 719660,
+      "text_en": "Plus, I like the white noise of the fan, which helps me for the sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "which helps me for the sleep",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 41,
+          "span_end": 69
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 12
+        },
+        {
+          "pattern": "helps",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 47,
+          "span_end": 52
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 158,
-      "start_ms": 639980,
-      "end_ms": 644160,
-      "text_en": "10pm. If I am on the computer, I try and dim the brightness setting on my computer down. I try",
+      "start_ms": 719840,
+      "end_ms": 720420,
+      "text_en": "And this one's a bit extra.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1756,9 +4591,9 @@
     },
     {
       "idx": 159,
-      "start_ms": 644160,
-      "end_ms": 649480,
-      "text_en": "and use the kind of flux light mode display setting on the Mac to try and avoid the blue light that",
+      "start_ms": 720560,
+      "end_ms": 722480,
+      "text_en": "But I do also happen to have an eight sleep mattress.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1767,64 +4602,149 @@
     },
     {
       "idx": 160,
-      "start_ms": 649480,
-      "end_ms": 652920,
-      "text_en": "comes in from the computer screen. I also try my best to avoid using my phone at night time,",
+      "start_ms": 722820,
+      "end_ms": 725200,
+      "text_en": "I interview the founders of eight sleep on my podcast a little while ago.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "interview",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 11
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 56,
+          "span_end": 62
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 161,
-      "start_ms": 652920,
-      "end_ms": 657360,
-      "text_en": "and instead I use my Kindle, which is generally on a fairly dim dark mode warm light setting.",
+      "start_ms": 725320,
+      "end_ms": 726240,
+      "text_en": "We talked a lot about sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "talked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 9
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 162,
-      "start_ms": 657580,
-      "end_ms": 660480,
-      "text_en": "Now, apparently the positioning of these artificial lights can make a difference,",
+      "start_ms": 726440,
+      "end_ms": 728060,
+      "text_en": "I'll link that episode down below if you want to check it out.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll link",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 1,
+          "span_end": 9
+        },
+        {
+          "pattern": "if you want to check it out",
+          "note_tr": "If Clause Type 1 (Real Future)",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 34,
+          "span_end": 61
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 41,
+          "span_end": 45
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 163,
-      "start_ms": 660680,
-      "end_ms": 664340,
-      "text_en": "because we're particularly sensitive to overhead lights, because we've evolved to detect the light",
+      "start_ms": 728160,
+      "end_ms": 732520,
+      "text_en": "But the eight sleep mattress is basically like a mattress topo thing that has liquid cooling system in it.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "that has liquid cooling system in it",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 69,
+          "span_end": 105
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 74,
+          "span_end": 77
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 164,
-      "start_ms": 664340,
-      "end_ms": 668300,
-      "text_en": "from the sunlight. And so having warm lights that are positioned low, like lamps and candles that",
+      "start_ms": 732880,
+      "end_ms": 735020,
+      "text_en": "And so I usually have that set to the colder setting.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 21
+        },
+        {
+          "pattern": "usually",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 9,
+          "span_end": 16
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 165,
-      "start_ms": 668300,
-      "end_ms": 672740,
-      "text_en": "are low down, instead of having the ceiling lights on, apparently it can make a difference to how effective",
+      "start_ms": 735320,
+      "end_ms": 736780,
+      "text_en": "Honestly, something like that is pretty overkill.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1833,9 +4753,9 @@
     },
     {
       "idx": 166,
-      "start_ms": 672740,
-      "end_ms": 677200,
-      "text_en": "a sleep can be. Okay, a really quick tip here. I always expect to feel alert around one hour before",
+      "start_ms": 736920,
+      "end_ms": 737520,
+      "text_en": "You really don't need it.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1844,9 +4764,9 @@
     },
     {
       "idx": 167,
-      "start_ms": 677200,
-      "end_ms": 681080,
-      "text_en": "my natural bedtime. And I know that if I just read a book and stick to my normal habits, then I'll",
+      "start_ms": 737520,
+      "end_ms": 738100,
+      "text_en": "It's pretty expensive.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1855,42 +4775,125 @@
     },
     {
       "idx": 168,
-      "start_ms": 681080,
-      "end_ms": 684680,
-      "text_en": "eventually feel sleepy again. Now, this is totally normal. And according to Dr. Hebrewman's podcast,",
+      "start_ms": 738280,
+      "end_ms": 743060,
+      "text_en": "You can just leave a window open or just get a cheap house fan just to cool your body down to the temperature that it needs to be.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can just leave",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 18
+        },
+        {
+          "pattern": "that it needs to be",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 110,
+          "span_end": 129
+        },
+        {
+          "pattern": "needs",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 118,
+          "span_end": 123
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 169,
-      "start_ms": 684860,
-      "end_ms": 689260,
-      "text_en": "this is a naturally occurring spike in wakefulness. So don't freak out if it happens. It's going to",
+      "start_ms": 743160,
+      "end_ms": 748560,
+      "text_en": "And some people find that having a hot bath or a hot shower before bed really helps because it helps reduce your internal body temperature.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "find",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 20
+        },
+        {
+          "pattern": "helps",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 78,
+          "span_end": 83
+        },
+        {
+          "pattern": "helps",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 95,
+          "span_end": 100
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 4,
+          "span_end": 8
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 170,
-      "start_ms": 689260,
-      "end_ms": 693400,
-      "text_en": "pass. Now, the final step in my sleep routine is keeping the room where I sleep nice and cool.",
+      "start_ms": 748800,
+      "end_ms": 753540,
+      "text_en": "So if you incorporate each of these nine science back tips from my routine, your day might look something like this.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "might look",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 85,
+          "span_end": 95
+        },
+        {
+          "pattern": "if you incorporate each of these nine science back tips from my routine",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 3,
+          "span_end": 74
+        },
+        {
+          "pattern": "incorporate",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 21
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 171,
-      "start_ms": 693660,
-      "end_ms": 697900,
-      "text_en": "Now, our bodies need a drop in temperature by one to three degrees to fall asleep and to stay asleep",
+      "start_ms": 753760,
+      "end_ms": 755400,
+      "text_en": "You'd have a regular bedtime and waking time.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1899,9 +4902,9 @@
     },
     {
       "idx": 172,
-      "start_ms": 697900,
-      "end_ms": 701440,
-      "text_en": "effectively. So here's what I do personally. Firstly, if I'm in a hotel room or anything that has air",
+      "start_ms": 755600,
+      "end_ms": 757300,
+      "text_en": "So you'd get around seven to eight hours of sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1910,9 +4913,9 @@
     },
     {
       "idx": 173,
-      "start_ms": 701440,
-      "end_ms": 705540,
-      "text_en": "conditioning and thermostat, I generally set it quite low. Some people say that 19 degrees Celsius",
+      "start_ms": 761080,
+      "end_ms": 767020,
+      "text_en": "You'd delay your caffeine consumption for around an hour after waking up and you'd stop drinking caffeine after around two or three p .m.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -1921,277 +4924,306 @@
     },
     {
       "idx": 174,
-      "start_ms": 705540,
-      "end_ms": 709900,
-      "text_en": "is the ideal. I find that that's still a bit warm for me. And I like to set it at like 16, 17",
+      "start_ms": 767320,
+      "end_ms": 770740,
+      "text_en": "You might go for a walk and view evening sunlight for about 10 minutes just before sunset.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "might go",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 12
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 175,
-      "start_ms": 709900,
-      "end_ms": 713980,
-      "text_en": "degrees, if I can. In my own home, I don't have air conditioning. And so I'll sometimes open the",
+      "start_ms": 771180,
+      "end_ms": 774620,
+      "text_en": "You would dim all of your house lights just a few hours before bed and avoid any bright screens.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "would dim",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 13
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 46,
+          "span_end": 49
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 77,
+          "span_end": 80
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 176,
-      "start_ms": 713980,
-      "end_ms": 717720,
-      "text_en": "windows if it's particularly warm in the room. And I'll use a fan if it's particularly hot. Plus,",
+      "start_ms": 775020,
+      "end_ms": 777560,
+      "text_en": "You'd try and ride out any spike in energy before your bedtime.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 23,
+          "span_end": 26
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 177,
-      "start_ms": 717760,
-      "end_ms": 720660,
-      "text_en": "I like the white noise of the fan, which helps me for the sleep. And this one's a bit extra. But",
+      "start_ms": 778020,
+      "end_ms": 781040,
+      "text_en": "And finally, you'd keep your bedroom cool so that you can fall asleep easily.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "can fall",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 54,
+          "span_end": 62
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 178,
-      "start_ms": 720660,
-      "end_ms": 724200,
-      "text_en": "I do also happen to have an eight sleep mattress. I interview the founders of eight sleep on my",
+      "start_ms": 781460,
+      "end_ms": 783580,
+      "text_en": "Now, I'll be honest, I don't do all of these things every day.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll be",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 6,
+          "span_end": 12
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 179,
-      "start_ms": 724200,
-      "end_ms": 727620,
-      "text_en": "podcast a little while ago. We talked a lot about sleep. I'll link that episode down below if you",
+      "start_ms": 783740,
+      "end_ms": 790540,
+      "text_en": "I try my best to stick to them, but I don't beat myself up if I have a little bit of a lion or if I have coffee a little bit early in the morning or a little bit too late in the day.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "if I have a little bit of a lion or if I have coffee a little bit early in the morning or a little bit too late in the day",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 59,
+          "span_end": 181
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 5
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 64,
+          "span_end": 68
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 100,
+          "span_end": 104
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 71,
+          "span_end": 77
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 114,
+          "span_end": 120
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 151,
+          "span_end": 157
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 180,
-      "start_ms": 727620,
-      "end_ms": 731100,
-      "text_en": "want to check it out. But the eight sleep mattress is basically like a mattress topo thing that has",
+      "start_ms": 790760,
+      "end_ms": 795880,
+      "text_en": "And if you go to this video, you might like to check out this video over here, which is a video about why you might find yourself always tired.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "might like",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 33,
+          "span_end": 43
+        },
+        {
+          "pattern": "might find",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 110,
+          "span_end": 120
+        },
+        {
+          "pattern": "if you go to this video",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 4,
+          "span_end": 27
+        },
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 13
+        },
+        {
+          "pattern": "always",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 130,
+          "span_end": 136
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 181,
-      "start_ms": 731100,
-      "end_ms": 735440,
-      "text_en": "liquid cooling system in it. And so I usually have that set to the colder setting. Honestly,",
+      "start_ms": 796120,
+      "end_ms": 798080,
+      "text_en": "And it's about seven myths that are ruining your sleep.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "are ruining",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 32,
+          "span_end": 43
+        },
+        {
+          "pattern": "that are ruining your sleep",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 27,
+          "span_end": 54
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 182,
-      "start_ms": 735540,
-      "end_ms": 738600,
-      "text_en": "something like that is pretty overkill. You really don't need it. It's pretty expensive. You can",
+      "start_ms": 798240,
+      "end_ms": 802640,
+      "text_en": "And so with this video and that video, that's basically everything you need to know to have a fantastic sleep routine.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 71,
+          "span_end": 75
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 183,
-      "start_ms": 738600,
-      "end_ms": 742120,
-      "text_en": "just leave a window open or just get a cheap house fan just to cool your body down to the",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 184,
-      "start_ms": 742120,
-      "end_ms": 745620,
-      "text_en": "temperature that it needs to be. And some people find that having a hot bath or a hot shower before",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 185,
-      "start_ms": 745620,
-      "end_ms": 749560,
-      "text_en": "bed really helps because it helps reduce your internal body temperature. So if you incorporate",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 186,
-      "start_ms": 749560,
-      "end_ms": 753900,
-      "text_en": "each of these nine science back tips from my routine, your day might look something like this. You'd",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 187,
-      "start_ms": 753900,
-      "end_ms": 761080,
-      "text_en": "have a regular bedtime and waking time. So you'd get around seven to eight hours of sleep. You'd",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 188,
-      "start_ms": 761080,
-      "end_ms": 765300,
-      "text_en": "delay your caffeine consumption for around an hour after waking up and you'd stop drinking caffeine",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 189,
-      "start_ms": 765300,
-      "end_ms": 769900,
-      "text_en": "after around two or three p.m. You might go for a walk and view evening sunlight for about 10",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 190,
-      "start_ms": 769900,
-      "end_ms": 773640,
-      "text_en": "minutes just before sunset. You would dim all of your house lights just a few hours before bed and",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 191,
-      "start_ms": 773640,
-      "end_ms": 778080,
-      "text_en": "avoid any bright screens. You'd try and ride out any spike in energy before your bedtime. And",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 192,
-      "start_ms": 778080,
-      "end_ms": 781940,
-      "text_en": "finally, you'd keep your bedroom cool so that you can fall asleep easily. Now, I'll be honest,",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 193,
-      "start_ms": 782080,
-      "end_ms": 785960,
-      "text_en": "I don't do all of these things every day. I try my best to stick to them, but I don't beat myself",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 194,
-      "start_ms": 785960,
-      "end_ms": 789660,
-      "text_en": "up if I have a little bit of a lion or if I have coffee a little bit early in the morning or a",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 195,
-      "start_ms": 789660,
-      "end_ms": 792700,
-      "text_en": "little bit too late in the day. And if you go to this video, you might like to check out this video",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 196,
-      "start_ms": 792700,
-      "end_ms": 796740,
-      "text_en": "over here, which is a video about why you might find yourself always tired. And it's about seven",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 197,
-      "start_ms": 796740,
-      "end_ms": 800500,
-      "text_en": "myths that are ruining your sleep. And so with this video and that video, that's basically everything",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 198,
-      "start_ms": 800500,
+      "start_ms": 802920,
       "end_ms": 803860,
-      "text_en": "you need to know to have a fantastic sleep routine. Thank you so much for watching.",
+      "text_en": "Thank you so much for watching.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "Thank",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 0,
+          "span_end": 5
+        }
+      ],
       "vocab": []
     }
   ]

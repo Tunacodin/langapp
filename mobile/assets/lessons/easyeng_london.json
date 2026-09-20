@@ -14,7 +14,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 1,
@@ -25,7 +26,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 2,
@@ -36,7 +38,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 3,
@@ -47,7 +50,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "originally",
+          "lemma": "originally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 15860,
+          "end_ms": 16059
+        }
+      ]
     },
     {
       "idx": 4,
@@ -58,7 +71,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "southwest",
+          "lemma": "southwest",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 17420,
+          "end_ms": 17700
+        }
+      ]
     },
     {
       "idx": 5,
@@ -69,7 +92,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "upstate",
+          "lemma": "upstate",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 20780,
+          "end_ms": 20940
+        }
+      ]
     },
     {
       "idx": 6,
@@ -80,7 +113,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 7,
@@ -91,7 +125,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 8,
@@ -102,7 +137,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 9,
@@ -113,7 +149,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "states",
+          "lemma": "state",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 25000,
+          "end_ms": 25140
+        },
+        {
+          "surface": "originally",
+          "lemma": "originally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 25140,
+          "end_ms": 25460
+        }
+      ]
     },
     {
       "idx": 10,
@@ -123,8 +177,35 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "live",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 37,
+          "span_end": 41
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "northwest",
+          "lemma": "northwest",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 26860,
+          "end_ms": 28820
+        },
+        {
+          "surface": "live",
+          "lemma": "live",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 28360,
+          "end_ms": 28500
+        }
+      ]
     },
     {
       "idx": 11,
@@ -135,7 +216,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 29400,
+          "end_ms": 29540
+        },
+        {
+          "surface": "most",
+          "lemma": "most",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 29700,
+          "end_ms": 29820
+        }
+      ]
     },
     {
       "idx": 12,
@@ -145,8 +244,43 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "how diverse it is",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 7,
+          "span_end": 24
+        },
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "love",
+          "lemma": "love",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 31100,
+          "end_ms": 31240
+        },
+        {
+          "surface": "diverse",
+          "lemma": "diverse",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 31420,
+          "end_ms": 31700
+        }
+      ]
     },
     {
       "idx": 13,
@@ -156,8 +290,83 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "can walk",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 12,
+          "span_end": 20
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 32479,
+          "end_ms": 32659
+        },
+        {
+          "surface": "walk",
+          "lemma": "walk",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 32900,
+          "end_ms": 33120
+        },
+        {
+          "surface": "door",
+          "lemma": "door",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 33540,
+          "end_ms": 33800
+        },
+        {
+          "surface": "day",
+          "lemma": "day",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 34520,
+          "end_ms": 34780
+        },
+        {
+          "surface": "find",
+          "lemma": "find",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 34980,
+          "end_ms": 35200
+        },
+        {
+          "surface": "completely",
+          "lemma": "completely",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 35440,
+          "end_ms": 35740
+        },
+        {
+          "surface": "different",
+          "lemma": "different",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 35740,
+          "end_ms": 36100
+        }
+      ]
     },
     {
       "idx": 14,
@@ -168,7 +377,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "having",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 36880,
+          "end_ms": 37200
+        },
+        {
+          "surface": "plan",
+          "lemma": "plan",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 37320,
+          "end_ms": 37460
+        }
+      ]
     },
     {
       "idx": 15,
@@ -179,7 +406,33 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "similar",
+          "lemma": "similar",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 38580,
+          "end_ms": 38700
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 39320,
+          "end_ms": 39460
+        },
+        {
+          "surface": "varied",
+          "lemma": "varied",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 39460,
+          "end_ms": 40340
+        }
+      ]
     },
     {
       "idx": 16,
@@ -189,8 +442,59 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "which I really like",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 42,
+          "span_end": 61
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 57,
+          "span_end": 61
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "different",
+          "lemma": "different",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 41740,
+          "end_ms": 41980
+        },
+        {
+          "surface": "cities",
+          "lemma": "city",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 41980,
+          "end_ms": 42260
+        },
+        {
+          "surface": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 43220,
+          "end_ms": 43420
+        },
+        {
+          "surface": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 43420,
+          "end_ms": 43660
+        }
+      ]
     },
     {
       "idx": 17,
@@ -201,7 +505,57 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "kind",
+          "lemma": "kind",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 43940,
+          "end_ms": 44140
+        },
+        {
+          "surface": "confederation",
+          "lemma": "confederation",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 44280,
+          "end_ms": 44720
+        },
+        {
+          "surface": "places",
+          "lemma": "place",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 45020,
+          "end_ms": 45260
+        },
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 45860,
+          "end_ms": 46840
+        },
+        {
+          "surface": "world",
+          "lemma": "world",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 47180,
+          "end_ms": 47300
+        },
+        {
+          "surface": "oyster",
+          "lemma": "oyster",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 47480,
+          "end_ms": 47780
+        }
+      ]
     },
     {
       "idx": 18,
@@ -212,7 +566,73 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "shops",
+          "lemma": "shop",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 48100,
+          "end_ms": 48360
+        },
+        {
+          "surface": "best",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 49080,
+          "end_ms": 49940
+        },
+        {
+          "surface": "museums",
+          "lemma": "museum",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 49940,
+          "end_ms": 50220
+        },
+        {
+          "surface": "best",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 51060,
+          "end_ms": 51640
+        },
+        {
+          "surface": "seats",
+          "lemma": "seat",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 51640,
+          "end_ms": 51880
+        },
+        {
+          "surface": "learning",
+          "lemma": "learn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 52060,
+          "end_ms": 52280
+        },
+        {
+          "surface": "terms",
+          "lemma": "term",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 52640,
+          "end_ms": 53560
+        },
+        {
+          "surface": "scholastically",
+          "lemma": "scholastically",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 53860,
+          "end_ms": 55340
+        }
+      ]
     },
     {
       "idx": 19,
@@ -223,7 +643,33 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 57960,
+          "end_ms": 58140
+        },
+        {
+          "surface": "capital",
+          "lemma": "capital",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 58720,
+          "end_ms": 58960
+        },
+        {
+          "surface": "world",
+          "lemma": "world",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 59200,
+          "end_ms": 59340
+        }
+      ]
     },
     {
       "idx": 20,
@@ -233,8 +679,43 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "love",
+          "lemma": "love",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 60380,
+          "end_ms": 60520
+        },
+        {
+          "surface": "hustle",
+          "lemma": "hustle",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 60720,
+          "end_ms": 61060
+        },
+        {
+          "surface": "bustle",
+          "lemma": "bustle",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 61180,
+          "end_ms": 61540
+        }
+      ]
     },
     {
       "idx": 21,
@@ -244,8 +725,83 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "can find",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 63,
+          "span_end": 71
+        },
+        {
+          "pattern": "if you're interested",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 38,
+          "span_end": 58
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 7
+        },
+        {
+          "pattern": "always",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 8,
+          "span_end": 14
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "'s",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 62080,
+          "end_ms": 66280
+        },
+        {
+          "surface": "always",
+          "lemma": "always",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 62520,
+          "end_ms": 63480
+        },
+        {
+          "surface": "going",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 63780,
+          "end_ms": 64099
+        },
+        {
+          "surface": "interested",
+          "lemma": "interested",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 62080,
+          "end_ms": 66280
+        },
+        {
+          "surface": "find",
+          "lemma": "find",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 65840,
+          "end_ms": 66080
+        }
+      ]
     },
     {
       "idx": 22,
@@ -256,7 +812,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "interesting",
+          "lemma": "interesting",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 67440,
+          "end_ms": 67760
+        },
+        {
+          "surface": "go",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 68040,
+          "end_ms": 68180
+        }
+      ]
     },
     {
       "idx": 23,
@@ -266,8 +840,51 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 18,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "saying",
+          "lemma": "say",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 69800,
+          "end_ms": 69940
+        },
+        {
+          "surface": "'s",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 69200,
+          "end_ms": 70620
+        },
+        {
+          "surface": "lots",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 70200,
+          "end_ms": 70300
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 70500,
+          "end_ms": 70620
+        }
+      ]
     },
     {
       "idx": 24,
@@ -277,8 +894,75 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "come",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 70900,
+          "end_ms": 71120
+        },
+        {
+          "surface": "come",
+          "lemma": "come",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 71120,
+          "end_ms": 71300
+        },
+        {
+          "surface": "all",
+          "lemma": "all",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 71540,
+          "end_ms": 72000
+        },
+        {
+          "surface": "world",
+          "lemma": "world",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 72320,
+          "end_ms": 72580
+        },
+        {
+          "surface": "meet",
+          "lemma": "meet",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 72920,
+          "end_ms": 73100
+        },
+        {
+          "surface": "interesting",
+          "lemma": "interesting",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 73100,
+          "end_ms": 73340
+        },
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 73340,
+          "end_ms": 73780
+        }
+      ]
     },
     {
       "idx": 25,
@@ -289,7 +973,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 75540,
+          "end_ms": 75700
+        },
+        {
+          "surface": "most",
+          "lemma": "most",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 75800,
+          "end_ms": 75860
+        }
+      ]
     },
     {
       "idx": 26,
@@ -300,7 +1002,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "diversity",
+          "lemma": "diversity",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 77960,
+          "end_ms": 78280
+        }
+      ]
     },
     {
       "idx": 27,
@@ -311,7 +1023,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "diversity",
+          "lemma": "diversity",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 78740,
+          "end_ms": 79460
+        }
+      ]
     },
     {
       "idx": 28,
@@ -321,8 +1043,67 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "grew",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 17,
+          "span_end": 21
+        },
+        {
+          "pattern": "left",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 41,
+          "span_end": 45
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 80080,
+          "end_ms": 80080
+        },
+        {
+          "surface": "grew",
+          "lemma": "grow",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 81660,
+          "end_ms": 81780
+        },
+        {
+          "surface": "left",
+          "lemma": "leave",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 83960,
+          "end_ms": 84500
+        },
+        {
+          "surface": "first",
+          "lemma": "first",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 85760,
+          "end_ms": 85940
+        },
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 85940,
+          "end_ms": 86240
+        }
+      ]
     },
     {
       "idx": 29,
@@ -333,7 +1114,89 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "ever",
+          "lemma": "ever",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 87440,
+          "end_ms": 87620
+        },
+        {
+          "surface": "sort",
+          "lemma": "sort",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 87620,
+          "end_ms": 87780
+        },
+        {
+          "surface": "of",
+          "lemma": "of",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 87780,
+          "end_ms": 87900
+        },
+        {
+          "surface": "experienced",
+          "lemma": "experienced",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 87900,
+          "end_ms": 88420
+        },
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 91280,
+          "end_ms": 91460
+        },
+        {
+          "surface": "racism",
+          "lemma": "racism",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 92000,
+          "end_ms": 92340
+        },
+        {
+          "surface": "sort",
+          "lemma": "sort",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 92980,
+          "end_ms": 93540
+        },
+        {
+          "surface": "of",
+          "lemma": "of",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 93540,
+          "end_ms": 93640
+        },
+        {
+          "surface": "first",
+          "lemma": "first",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 93640,
+          "end_ms": 93840
+        },
+        {
+          "surface": "left",
+          "lemma": "left",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 93840,
+          "end_ms": 94020
+        }
+      ]
     },
     {
       "idx": 30,
@@ -343,8 +1206,75 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "'re just surrounded",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 44,
+          "span_end": 63
+        },
+        {
+          "pattern": "grow",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 29,
+          "span_end": 33
+        },
+        {
+          "pattern": "constantly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 70,
+          "span_end": 80
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "here",
+          "lemma": "here",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 95040,
+          "end_ms": 95300
+        },
+        {
+          "surface": "grow",
+          "lemma": "grow",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 95440,
+          "end_ms": 95600
+        },
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 95980,
+          "end_ms": 96100
+        },
+        {
+          "surface": "surrounded",
+          "lemma": "surround",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 96100,
+          "end_ms": 96360
+        },
+        {
+          "surface": "constantly",
+          "lemma": "constantly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 96800,
+          "end_ms": 97140
+        }
+      ]
     },
     {
       "idx": 31,
@@ -355,7 +1285,41 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "growing",
+          "lemma": "grow",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 97600,
+          "end_ms": 100340
+        },
+        {
+          "surface": "sort",
+          "lemma": "sort",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 100860,
+          "end_ms": 101020
+        },
+        {
+          "surface": "environment",
+          "lemma": "environment",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 101160,
+          "end_ms": 101540
+        },
+        {
+          "surface": "incredible",
+          "lemma": "incredible",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 102140,
+          "end_ms": 103840
+        }
+      ]
     },
     {
       "idx": 32,
@@ -365,8 +1329,83 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "if you live in London",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 49,
+          "span_end": 70
+        },
+        {
+          "pattern": "that you take for granted if you live in London",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 23,
+          "span_end": 70
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "take",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 32,
+          "span_end": 36
+        },
+        {
+          "pattern": "live",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 56,
+          "span_end": 60
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 104220,
+          "end_ms": 104340
+        },
+        {
+          "surface": "take",
+          "lemma": "take",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 106340,
+          "end_ms": 106520
+        },
+        {
+          "surface": "granted",
+          "lemma": "grant",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 106700,
+          "end_ms": 106880
+        },
+        {
+          "surface": "live",
+          "lemma": "live",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 107220,
+          "end_ms": 107340
+        }
+      ]
     },
     {
       "idx": 33,
@@ -376,8 +1415,75 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 7
+        },
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 51,
+          "span_end": 56
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "'s",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 108720,
+          "end_ms": 111400
+        },
+        {
+          "surface": "nowhere",
+          "lemma": "nowhere",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 109180,
+          "end_ms": 109340
+        },
+        {
+          "surface": "else",
+          "lemma": "else",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 109340,
+          "end_ms": 109640
+        },
+        {
+          "surface": "world",
+          "lemma": "world",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 110020,
+          "end_ms": 110180
+        },
+        {
+          "surface": "quite",
+          "lemma": "quite",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 110440,
+          "end_ms": 110780
+        },
+        {
+          "surface": "guess",
+          "lemma": "guess",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 111260,
+          "end_ms": 111400
+        }
+      ]
     },
     {
       "idx": 34,
@@ -387,8 +1493,75 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "many",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 13,
+          "span_end": 17
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 111600,
+          "end_ms": 111720
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 111720,
+          "end_ms": 111920
+        },
+        {
+          "surface": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 111920,
+          "end_ms": 112060
+        },
+        {
+          "surface": "different",
+          "lemma": "different",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 112060,
+          "end_ms": 112320
+        },
+        {
+          "surface": "kinds",
+          "lemma": "kind",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 112320,
+          "end_ms": 112540
+        },
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 112700,
+          "end_ms": 112980
+        },
+        {
+          "surface": "everywhere",
+          "lemma": "everywhere",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 112980,
+          "end_ms": 113880
+        }
+      ]
     },
     {
       "idx": 35,
@@ -399,7 +1572,57 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "fact",
+          "lemma": "fact",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 114440,
+          "end_ms": 114600
+        },
+        {
+          "surface": "cosmopolitan",
+          "lemma": "cosmopolitan",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 115020,
+          "end_ms": 115520
+        },
+        {
+          "surface": "lots",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 116140,
+          "end_ms": 116260
+        },
+        {
+          "surface": "different",
+          "lemma": "different",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 116420,
+          "end_ms": 116660
+        },
+        {
+          "surface": "ethnic",
+          "lemma": "ethnic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 116660,
+          "end_ms": 117360
+        },
+        {
+          "surface": "groups",
+          "lemma": "group",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 117360,
+          "end_ms": 117920
+        }
+      ]
     },
     {
       "idx": 36,
@@ -410,7 +1633,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "weather",
+          "lemma": "weather",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 118900,
+          "end_ms": 119080
+        },
+        {
+          "surface": "fantastic",
+          "lemma": "fantastic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 119640,
+          "end_ms": 119960
+        }
+      ]
     },
     {
       "idx": 37,
@@ -420,8 +1661,59 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 12
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 121380,
+          "end_ms": 121780
+        },
+        {
+          "surface": "'s",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 121380,
+          "end_ms": 123380
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 122200,
+          "end_ms": 122660
+        },
+        {
+          "surface": "beautiful",
+          "lemma": "beautiful",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 122660,
+          "end_ms": 122940
+        },
+        {
+          "surface": "city",
+          "lemma": "city",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 122940,
+          "end_ms": 123380
+        }
+      ]
     },
     {
       "idx": 38,
@@ -432,7 +1724,41 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "lots",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 123740,
+          "end_ms": 123920
+        },
+        {
+          "surface": "things",
+          "lemma": "thing",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 124080,
+          "end_ms": 124200
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 124400,
+          "end_ms": 124600
+        },
+        {
+          "surface": "places",
+          "lemma": "place",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 124660,
+          "end_ms": 124840
+        }
+      ]
     },
     {
       "idx": 39,
@@ -443,7 +1769,65 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "food",
+          "lemma": "food",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 126420,
+          "end_ms": 126620
+        },
+        {
+          "surface": "amazing",
+          "lemma": "amazing",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 126760,
+          "end_ms": 126980
+        },
+        {
+          "surface": "as",
+          "lemma": "as",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 126980,
+          "end_ms": 127380
+        },
+        {
+          "surface": "well",
+          "lemma": "well",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 127380,
+          "end_ms": 127580
+        },
+        {
+          "surface": "lots",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 128180,
+          "end_ms": 128340
+        },
+        {
+          "surface": "different",
+          "lemma": "different",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 128500,
+          "end_ms": 128680
+        },
+        {
+          "surface": "cultures",
+          "lemma": "culture",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 128680,
+          "end_ms": 128919
+        }
+      ]
     },
     {
       "idx": 40,
@@ -453,8 +1837,35 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "would I recommend",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 5,
+          "span_end": 22
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "recommend",
+          "lemma": "recommend",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 130280,
+          "end_ms": 130560
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 130940,
+          "end_ms": 131060
+        }
+      ]
     },
     {
       "idx": 41,
@@ -464,8 +1875,51 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 19,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "first",
+          "lemma": "first",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 131340,
+          "end_ms": 131540
+        },
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 132380,
+          "end_ms": 132660
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 132800,
+          "end_ms": 132900
+        },
+        {
+          "surface": "research",
+          "lemma": "research",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 133000,
+          "end_ms": 133320
+        }
+      ]
     },
     {
       "idx": 42,
@@ -476,7 +1930,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "massive",
+          "lemma": "massive",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 134180,
+          "end_ms": 134280
+        },
+        {
+          "surface": "city",
+          "lemma": "city",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 134280,
+          "end_ms": 134760
+        }
+      ]
     },
     {
       "idx": 43,
@@ -486,8 +1958,67 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "can easily get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 18
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "easily",
+          "lemma": "easily",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 135400,
+          "end_ms": 135580
+        },
+        {
+          "surface": "lost",
+          "lemma": "lose",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 135900,
+          "end_ms": 136060
+        },
+        {
+          "surface": "frightened",
+          "lemma": "frightened",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 136460,
+          "end_ms": 136520
+        },
+        {
+          "surface": "intimidated",
+          "lemma": "intimidate",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 137160,
+          "end_ms": 137160
+        },
+        {
+          "surface": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 138140,
+          "end_ms": 138240
+        },
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 138240,
+          "end_ms": 138460
+        }
+      ]
     },
     {
       "idx": 44,
@@ -497,8 +2028,75 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 20,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "then",
+          "lemma": "then",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 138460,
+          "end_ms": 138640
+        },
+        {
+          "surface": "go",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 138640,
+          "end_ms": 138840
+        },
+        {
+          "surface": "home",
+          "lemma": "home",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 138840,
+          "end_ms": 139080
+        },
+        {
+          "surface": "had",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 139380,
+          "end_ms": 140380
+        },
+        {
+          "surface": "quite",
+          "lemma": "quite",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 140380,
+          "end_ms": 140680
+        },
+        {
+          "surface": "poor",
+          "lemma": "poor",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 140680,
+          "end_ms": 140900
+        },
+        {
+          "surface": "experience",
+          "lemma": "experience",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 140900,
+          "end_ms": 141380
+        }
+      ]
     },
     {
       "idx": 45,
@@ -508,8 +2106,75 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 30
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 36,
+          "span_end": 40
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 142160,
+          "end_ms": 142220
+        },
+        {
+          "surface": "learn",
+          "lemma": "learn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 142620,
+          "end_ms": 142960
+        },
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 143340,
+          "end_ms": 143420
+        },
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 143520,
+          "end_ms": 143560
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 143680,
+          "end_ms": 143940
+        },
+        {
+          "surface": "research",
+          "lemma": "research",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 144060,
+          "end_ms": 144340
+        }
+      ]
     },
     {
       "idx": 46,
@@ -520,7 +2185,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 145120,
+          "end_ms": 145220
+        },
+        {
+          "surface": "go",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 145300,
+          "end_ms": 145460
+        }
+      ]
     },
     {
       "idx": 47,
@@ -530,8 +2213,59 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 34,
+          "span_end": 36
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 37,
+          "span_end": 41
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "part",
+          "lemma": "part",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 145720,
+          "end_ms": 145960
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 147560,
+          "end_ms": 147760
+        },
+        {
+          "surface": "research",
+          "lemma": "research",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 147920,
+          "end_ms": 148160
+        },
+        {
+          "surface": "stuck",
+          "lemma": "stick",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 148980,
+          "end_ms": 149180
+        }
+      ]
     },
     {
       "idx": 48,
@@ -542,7 +2276,49 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "walking",
+          "lemma": "walk",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 149380,
+          "end_ms": 149960
+        },
+        {
+          "surface": "around",
+          "lemma": "around",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 149960,
+          "end_ms": 150200
+        },
+        {
+          "surface": "best",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 150440,
+          "end_ms": 150560
+        },
+        {
+          "surface": "start",
+          "lemma": "start",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 150560,
+          "end_ms": 150800
+        },
+        {
+          "surface": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 150800,
+          "end_ms": 151100
+        }
+      ]
     },
     {
       "idx": 49,
@@ -552,8 +2328,67 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "has actually got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 19,
+          "span_end": 35
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "city",
+          "lemma": "city",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 151520,
+          "end_ms": 152080
+        },
+        {
+          "surface": "actually",
+          "lemma": "actually",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 152460,
+          "end_ms": 152680
+        },
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 152680,
+          "end_ms": 152820
+        },
+        {
+          "surface": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 152820,
+          "end_ms": 152960
+        },
+        {
+          "surface": "interesting",
+          "lemma": "interesting",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 153020,
+          "end_ms": 153220
+        },
+        {
+          "surface": "history",
+          "lemma": "history",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 153220,
+          "end_ms": 153540
+        }
+      ]
     },
     {
       "idx": 50,
@@ -563,8 +2398,91 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "'ve got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 9,
+          "span_end": 16
+        },
+        {
+          "pattern": "'s going",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 61,
+          "span_end": 69
+        },
+        {
+          "pattern": "what's going on",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 57,
+          "span_end": 72
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 153980,
+          "end_ms": 153980
+        },
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 154260,
+          "end_ms": 154300
+        },
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 154300,
+          "end_ms": 154620
+        },
+        {
+          "surface": "city",
+          "lemma": "city",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 155020,
+          "end_ms": 155980
+        },
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 157020,
+          "end_ms": 157020
+        },
+        {
+          "surface": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 157260,
+          "end_ms": 157400
+        },
+        {
+          "surface": "going",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 157780,
+          "end_ms": 158300
+        }
+      ]
     },
     {
       "idx": 51,
@@ -574,8 +2492,91 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "to do in London, which is not always easy",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 26,
+          "span_end": 67
+        },
+        {
+          "pattern": "which is not always easy",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 43,
+          "span_end": 67
+        },
+        {
+          "pattern": "always",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 56,
+          "span_end": 62
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "kind",
+          "lemma": "kind",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 158880,
+          "end_ms": 159160
+        },
+        {
+          "surface": "of",
+          "lemma": "of",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 159160,
+          "end_ms": 160680
+        },
+        {
+          "surface": "cheap",
+          "lemma": "cheap",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 160680,
+          "end_ms": 160680
+        },
+        {
+          "surface": "things",
+          "lemma": "thing",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 160680,
+          "end_ms": 160960
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 161080,
+          "end_ms": 161120
+        },
+        {
+          "surface": "always",
+          "lemma": "always",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 162040,
+          "end_ms": 162540
+        },
+        {
+          "surface": "easy",
+          "lemma": "easy",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 162540,
+          "end_ms": 163400
+        }
+      ]
     },
     {
       "idx": 52,
@@ -585,8 +2586,43 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 31
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "wandering",
+          "lemma": "wandering",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 164800,
+          "end_ms": 164940
+        },
+        {
+          "surface": "round",
+          "lemma": "round",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 164940,
+          "end_ms": 165260
+        },
+        {
+          "surface": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 165440,
+          "end_ms": 165580
+        }
+      ]
     },
     {
       "idx": 53,
@@ -596,8 +2632,43 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "would say",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 8,
+          "span_end": 17
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "say",
+          "lemma": "say",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 166980,
+          "end_ms": 167140
+        },
+        {
+          "surface": "same",
+          "lemma": "same",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 167240,
+          "end_ms": 167440
+        },
+        {
+          "surface": "actually",
+          "lemma": "actually",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 167440,
+          "end_ms": 167560
+        }
+      ]
     },
     {
       "idx": 54,
@@ -608,7 +2679,81 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 168000,
+          "end_ms": 168040
+        },
+        {
+          "surface": "walk",
+          "lemma": "walk",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 168040,
+          "end_ms": 168220
+        },
+        {
+          "surface": "around",
+          "lemma": "around",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 168220,
+          "end_ms": 168440
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 168680,
+          "end_ms": 168820
+        },
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 168980,
+          "end_ms": 169060
+        },
+        {
+          "surface": "city",
+          "lemma": "city",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 169200,
+          "end_ms": 169420
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 169620,
+          "end_ms": 169740
+        },
+        {
+          "surface": "feel",
+          "lemma": "feel",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 169840,
+          "end_ms": 170000
+        },
+        {
+          "surface": "city",
+          "lemma": "city",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 170280,
+          "end_ms": 170480
+        }
+      ]
     },
     {
       "idx": 55,
@@ -618,8 +2763,67 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "many",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 13,
+          "span_end": 17
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "go",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 170960,
+          "end_ms": 171080
+        },
+        {
+          "surface": "as",
+          "lemma": "as",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 171220,
+          "end_ms": 171320
+        },
+        {
+          "surface": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 171320,
+          "end_ms": 171440
+        },
+        {
+          "surface": "different",
+          "lemma": "different",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 171440,
+          "end_ms": 171640
+        },
+        {
+          "surface": "areas",
+          "lemma": "area",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 171640,
+          "end_ms": 172000
+        },
+        {
+          "surface": "possible",
+          "lemma": "possible",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 172200,
+          "end_ms": 172400
+        }
+      ]
     },
     {
       "idx": 56,
@@ -630,7 +2834,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "fun",
+          "lemma": "fun",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 175400,
+          "end_ms": 175660
+        }
+      ]
     },
     {
       "idx": 57,
@@ -640,8 +2854,59 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 11,
+          "span_end": 14
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "definitely",
+          "lemma": "definitely",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 176480,
+          "end_ms": 176920
+        },
+        {
+          "surface": "markets",
+          "lemma": "market",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 177280,
+          "end_ms": 177660
+        },
+        {
+          "surface": "markets",
+          "lemma": "market",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 177980,
+          "end_ms": 178160
+        },
+        {
+          "surface": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 178360,
+          "end_ms": 178520
+        },
+        {
+          "surface": "cool",
+          "lemma": "cool",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 178520,
+          "end_ms": 178720
+        }
+      ]
     },
     {
       "idx": 58,
@@ -652,7 +2917,73 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "trying",
+          "lemma": "try",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 180660,
+          "end_ms": 181100
+        },
+        {
+          "surface": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 181540,
+          "end_ms": 181700
+        },
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 181920,
+          "end_ms": 182080
+        },
+        {
+          "surface": "mix",
+          "lemma": "mix",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 182200,
+          "end_ms": 182440
+        },
+        {
+          "surface": "touristy",
+          "lemma": "touristy",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 182860,
+          "end_ms": 183420
+        },
+        {
+          "surface": "kind",
+          "lemma": "kind",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 183560,
+          "end_ms": 183720
+        },
+        {
+          "surface": "local",
+          "lemma": "local",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 183920,
+          "end_ms": 184660
+        },
+        {
+          "surface": "stuff",
+          "lemma": "stuff",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 184660,
+          "end_ms": 185120
+        }
+      ]
     },
     {
       "idx": 59,
@@ -663,7 +2994,41 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 185500,
+          "end_ms": 185640
+        },
+        {
+          "surface": "fun",
+          "lemma": "fun",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 185640,
+          "end_ms": 185920
+        },
+        {
+          "surface": "shortage",
+          "lemma": "shortage",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 186200,
+          "end_ms": 186360
+        },
+        {
+          "surface": "awesome",
+          "lemma": "awesome",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 186480,
+          "end_ms": 186560
+        }
+      ]
     },
     {
       "idx": 60,
@@ -674,7 +3039,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "shortage",
+          "lemma": "shortage",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 186560,
+          "end_ms": 186860
+        },
+        {
+          "surface": "great",
+          "lemma": "great",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 187180,
+          "end_ms": 187460
+        }
+      ]
     },
     {
       "idx": 61,
@@ -684,8 +3067,59 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "would definitely want",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 2,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "definitely",
+          "lemma": "definitely",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 188280,
+          "end_ms": 188460
+        },
+        {
+          "surface": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 188460,
+          "end_ms": 188700
+        },
+        {
+          "surface": "sure",
+          "lemma": "sure",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 189540,
+          "end_ms": 189740
+        },
+        {
+          "surface": "plenty",
+          "lemma": "plenty",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 190340,
+          "end_ms": 190540
+        },
+        {
+          "surface": "markets",
+          "lemma": "market",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 190760,
+          "end_ms": 191080
+        }
+      ]
     },
     {
       "idx": 62,
@@ -695,8 +3129,43 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 37,
+          "span_end": 40
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "anywhere",
+          "lemma": "anywhere",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 192640,
+          "end_ms": 193080
+        },
+        {
+          "surface": "sorts",
+          "lemma": "sort",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 197320,
+          "end_ms": 197500
+        },
+        {
+          "surface": "things",
+          "lemma": "thing",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 197640,
+          "end_ms": 197840
+        }
+      ]
     },
     {
       "idx": 63,
@@ -707,7 +3176,25 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "walking",
+          "lemma": "walk",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 199480,
+          "end_ms": 199820
+        },
+        {
+          "surface": "city",
+          "lemma": "city",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 200240,
+          "end_ms": 200440
+        }
+      ]
     },
     {
       "idx": 64,
@@ -717,8 +3204,27 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "would you describe",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 22
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "describe",
+          "lemma": "describe",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 201140,
+          "end_ms": 201340
+        }
+      ]
     },
     {
       "idx": 65,
@@ -728,8 +3234,51 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "are self-contained",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 22,
+          "span_end": 40
+        },
+        {
+          "pattern": "would say",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 2,
+          "span_end": 11
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "say",
+          "lemma": "say",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 205580,
+          "end_ms": 205840
+        },
+        {
+          "surface": "self",
+          "lemma": "self",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 206600,
+          "end_ms": 207160
+        },
+        {
+          "surface": "contained",
+          "lemma": "contain",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 207160,
+          "end_ms": 207500
+        }
+      ]
     },
     {
       "idx": 66,
@@ -739,8 +3288,51 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "if you don't ask them to",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 39,
+          "span_end": 63
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "interact",
+          "lemma": "interact",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 208580,
+          "end_ms": 209340
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 209700,
+          "end_ms": 209840
+        },
+        {
+          "surface": "much",
+          "lemma": "much",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 209840,
+          "end_ms": 210120
+        },
+        {
+          "surface": "ask",
+          "lemma": "ask",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 211200,
+          "end_ms": 211520
+        }
+      ]
     },
     {
       "idx": 67,
@@ -750,8 +3342,51 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "say",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 15
+        },
+        {
+          "pattern": "Some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 0,
+          "span_end": 4
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 212780,
+          "end_ms": 212940
+        },
+        {
+          "surface": "say",
+          "lemma": "say",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 212940,
+          "end_ms": 213140
+        },
+        {
+          "surface": "rude",
+          "lemma": "rude",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 213380,
+          "end_ms": 213500
+        }
+      ]
     },
     {
       "idx": 68,
@@ -761,8 +3396,67 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "generally",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 5,
+          "span_end": 14
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 213780,
+          "end_ms": 214140
+        },
+        {
+          "surface": "generally",
+          "lemma": "generally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 214140,
+          "end_ms": 214740
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 214940,
+          "end_ms": 215100
+        },
+        {
+          "surface": "friendly",
+          "lemma": "friendly",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 215100,
+          "end_ms": 215360
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 216040,
+          "end_ms": 216040
+        },
+        {
+          "surface": "hopeful",
+          "lemma": "hopeful",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 216040,
+          "end_ms": 216260
+        }
+      ]
     },
     {
       "idx": 69,
@@ -773,7 +3467,33 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "again",
+          "lemma": "again",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 217260,
+          "end_ms": 217280
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 217280,
+          "end_ms": 217580
+        },
+        {
+          "surface": "diverse",
+          "lemma": "diverse",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 217580,
+          "end_ms": 217880
+        }
+      ]
     },
     {
       "idx": 70,
@@ -784,7 +3504,33 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 219020,
+          "end_ms": 219180
+        },
+        {
+          "surface": "difficult",
+          "lemma": "difficult",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 219180,
+          "end_ms": 219480
+        },
+        {
+          "surface": "question",
+          "lemma": "question",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 219480,
+          "end_ms": 219880
+        }
+      ]
     },
     {
       "idx": 71,
@@ -795,7 +3541,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "days",
+          "lemma": "day",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 220840,
+          "end_ms": 221120
+        }
+      ]
     },
     {
       "idx": 72,
@@ -805,8 +3561,59 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "might not be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 49,
+          "span_end": 61
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 221940,
+          "end_ms": 222080
+        },
+        {
+          "surface": "say",
+          "lemma": "say",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 222200,
+          "end_ms": 222380
+        },
+        {
+          "surface": "friendly",
+          "lemma": "friendly",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 222920,
+          "end_ms": 223220
+        },
+        {
+          "surface": "outgoing",
+          "lemma": "outgoing",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 223520,
+          "end_ms": 223620
+        },
+        {
+          "surface": "true",
+          "lemma": "true",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 225060,
+          "end_ms": 225200
+        }
+      ]
     },
     {
       "idx": 73,
@@ -816,8 +3623,67 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "'ve got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 6,
+          "span_end": 13
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 226320,
+          "end_ms": 226420
+        },
+        {
+          "surface": "night",
+          "lemma": "night",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 226500,
+          "end_ms": 226620
+        },
+        {
+          "surface": "switch",
+          "lemma": "switch",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 226620,
+          "end_ms": 226900
+        },
+        {
+          "surface": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 227600,
+          "end_ms": 227760
+        },
+        {
+          "surface": "friendly",
+          "lemma": "friendly",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 227900,
+          "end_ms": 228120
+        },
+        {
+          "surface": "outgoing",
+          "lemma": "outgoing",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 228340,
+          "end_ms": 228520
+        }
+      ]
     },
     {
       "idx": 74,
@@ -827,8 +3693,59 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "'s using",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 18,
+          "span_end": 26
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 14
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 228520,
+          "end_ms": 229380
+        },
+        {
+          "surface": "depends",
+          "lemma": "depend",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 229820,
+          "end_ms": 229980
+        },
+        {
+          "surface": "using",
+          "lemma": "use",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 230980,
+          "end_ms": 231160
+        },
+        {
+          "surface": "multicultural",
+          "lemma": "multicultural",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 231160,
+          "end_ms": 231400
+        }
+      ]
     },
     {
       "idx": 75,
@@ -839,7 +3756,33 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "cool",
+          "lemma": "cool",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 232120,
+          "end_ms": 232400
+        },
+        {
+          "surface": "open",
+          "lemma": "open",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 232920,
+          "end_ms": 233340
+        },
+        {
+          "surface": "minded",
+          "lemma": "minded",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 233340,
+          "end_ms": 233700
+        }
+      ]
     },
     {
       "idx": 76,
@@ -850,7 +3793,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 77,
@@ -861,7 +3805,41 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "welcoming",
+          "lemma": "welcoming",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 235140,
+          "end_ms": 235700
+        },
+        {
+          "surface": "friendly",
+          "lemma": "friendly",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 235880,
+          "end_ms": 236360
+        },
+        {
+          "surface": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 237180,
+          "end_ms": 237180
+        },
+        {
+          "surface": "back",
+          "lemma": "back",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 237180,
+          "end_ms": 237420
+        }
+      ]
     },
     {
       "idx": 78,
@@ -872,7 +3850,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 238140,
+          "end_ms": 238700
+        }
+      ]
     },
     {
       "idx": 79,
@@ -883,7 +3871,49 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 239080,
+          "end_ms": 239240
+        },
+        {
+          "surface": "dynamic",
+          "lemma": "dynamic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 239240,
+          "end_ms": 239680
+        },
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 239680,
+          "end_ms": 240200
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 240880,
+          "end_ms": 240900
+        },
+        {
+          "surface": "dynamic",
+          "lemma": "dynamic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 240900,
+          "end_ms": 241320
+        }
+      ]
     },
     {
       "idx": 80,
@@ -894,7 +3924,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "londoners",
+          "lemma": "londoner",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 241960,
+          "end_ms": 242620
+        }
+      ]
     },
     {
       "idx": 81,
@@ -904,8 +3944,51 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "see",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 7
+        },
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 15
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 244580,
+          "end_ms": 245200
+        },
+        {
+          "surface": "love",
+          "lemma": "love",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 245360,
+          "end_ms": 245520
+        },
+        {
+          "surface": "londoners",
+          "lemma": "londoner",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 248160,
+          "end_ms": 250100
+        }
+      ]
     },
     {
       "idx": 82,
@@ -916,7 +3999,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 83,
@@ -927,7 +4011,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "busy",
+          "lemma": "busy",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 254220,
+          "end_ms": 254900
+        }
+      ]
     },
     {
       "idx": 84,
@@ -938,7 +4032,17 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "mistrusting",
+          "lemma": "mistrust",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 258240,
+          "end_ms": 258800
+        }
+      ]
     },
     {
       "idx": 85,
@@ -949,7 +4053,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 86,
@@ -960,7 +4065,8 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": []
     },
     {
       "idx": 87,
@@ -971,7 +4077,33 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "possibly",
+          "lemma": "possibly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 261180,
+          "end_ms": 261740
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 262060,
+          "end_ms": 262240
+        },
+        {
+          "surface": "fair",
+          "lemma": "fair",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 262240,
+          "end_ms": 262600
+        }
+      ]
     },
     {
       "idx": 88,
@@ -981,8 +4113,75 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "can be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 29,
+          "span_end": 35
+        },
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 50,
+          "span_end": 55
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "love",
+          "lemma": "love",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 262920,
+          "end_ms": 263580
+        },
+        {
+          "surface": "londoners",
+          "lemma": "londoner",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 264140,
+          "end_ms": 265220
+        },
+        {
+          "surface": "quite",
+          "lemma": "quite",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 265700,
+          "end_ms": 266080
+        },
+        {
+          "surface": "cold",
+          "lemma": "cold",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 266080,
+          "end_ms": 268800
+        },
+        {
+          "surface": "guess",
+          "lemma": "guess",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 269220,
+          "end_ms": 269420
+        }
+      ]
     },
     {
       "idx": 89,
@@ -992,8 +4191,35 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 35,
+          "span_end": 40
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 274340,
+          "end_ms": 274700
+        },
+        {
+          "surface": "guess",
+          "lemma": "guess",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 275460,
+          "end_ms": 275620
+        }
+      ]
     },
     {
       "idx": 90,
@@ -1003,8 +4229,99 @@
       "text_tr": "",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "what makes London great",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 50,
+          "span_end": 73
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 9,
+          "span_end": 12
+        },
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 55,
+          "span_end": 60
+        },
+        {
+          "pattern": "many",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 16,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 275920,
+          "end_ms": 280060
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 275920,
+          "end_ms": 280060
+        },
+        {
+          "surface": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 275920,
+          "end_ms": 280060
+        },
+        {
+          "surface": "different",
+          "lemma": "different",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 275920,
+          "end_ms": 280060
+        },
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 275920,
+          "end_ms": 280060
+        },
+        {
+          "surface": "makes",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 275920,
+          "end_ms": 280060
+        },
+        {
+          "surface": "great",
+          "lemma": "great",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 279820,
+          "end_ms": 280060
+        }
+      ]
     }
   ]
 }

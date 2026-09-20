@@ -7,7 +7,9 @@
   {
     "w": "summer",
     "start_ms": 5480,
-    "end_ms": 5740
+    "end_ms": 5740,
+    "lemma": "summer",
+    "pos": "NOUN"
   },
   {
     "w": "has",
@@ -17,7 +19,9 @@
   {
     "w": "seen",
     "start_ms": 6000,
-    "end_ms": 6200
+    "end_ms": 6200,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -27,12 +31,16 @@
   {
     "w": "financial",
     "start_ms": 6380,
-    "end_ms": 6740
+    "end_ms": 6740,
+    "lemma": "financial",
+    "pos": "ADJ"
   },
   {
     "w": "power",
     "start_ms": 6740,
-    "end_ms": 7360
+    "end_ms": 7360,
+    "lemma": "power",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -57,7 +65,9 @@
   {
     "w": "come",
     "start_ms": 8220,
-    "end_ms": 8580
+    "end_ms": 8580,
+    "lemma": "come",
+    "pos": "VERB"
   },
   {
     "w": "into",
@@ -67,17 +77,23 @@
   {
     "w": "focus",
     "start_ms": 8720,
-    "end_ms": 9140
+    "end_ms": 9140,
+    "lemma": "focus",
+    "pos": "NOUN"
   },
   {
     "w": "once",
     "start_ms": 9140,
-    "end_ms": 9500
+    "end_ms": 9500,
+    "lemma": "once",
+    "pos": "ADV"
   },
   {
     "w": "again,",
     "start_ms": 9500,
-    "end_ms": 9900
+    "end_ms": 9900,
+    "lemma": "again",
+    "pos": "ADV"
   },
   {
     "w": "with",
@@ -92,7 +108,9 @@
   {
     "w": "number",
     "start_ms": 10480,
-    "end_ms": 10720
+    "end_ms": 10720,
+    "lemma": "number",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -102,12 +120,16 @@
   {
     "w": "clubs",
     "start_ms": 10900,
-    "end_ms": 11080
+    "end_ms": 11080,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "breaking",
     "start_ms": 11080,
-    "end_ms": 11640
+    "end_ms": 11640,
+    "lemma": "break",
+    "pos": "VERB"
   },
   {
     "w": "their",
@@ -117,17 +139,23 @@
   {
     "w": "previous",
     "start_ms": 11980,
-    "end_ms": 12340
+    "end_ms": 12340,
+    "lemma": "previous",
+    "pos": "ADJ"
   },
   {
     "w": "transfer",
     "start_ms": 12340,
-    "end_ms": 12660
+    "end_ms": 12660,
+    "lemma": "transfer",
+    "pos": "NOUN"
   },
   {
     "w": "records",
     "start_ms": 12660,
-    "end_ms": 13240
+    "end_ms": 13240,
+    "lemma": "record",
+    "pos": "NOUN"
   },
   {
     "w": "during",
@@ -142,7 +170,9 @@
   {
     "w": "months",
     "start_ms": 14040,
-    "end_ms": 14240
+    "end_ms": 14240,
+    "lemma": "month",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -177,7 +207,9 @@
   {
     "w": "attempting",
     "start_ms": 17240,
-    "end_ms": 17480
+    "end_ms": 17480,
+    "lemma": "attempt",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -187,7 +219,9 @@
   {
     "w": "understand",
     "start_ms": 17820,
-    "end_ms": 18120
+    "end_ms": 18120,
+    "lemma": "understand",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -197,7 +231,9 @@
   {
     "w": "reasons",
     "start_ms": 18620,
-    "end_ms": 18940
+    "end_ms": 18940,
+    "lemma": "reason",
+    "pos": "NOUN"
   },
   {
     "w": "behind",
@@ -212,12 +248,16 @@
   {
     "w": "financial",
     "start_ms": 20200,
-    "end_ms": 20340
+    "end_ms": 20340,
+    "lemma": "financial",
+    "pos": "ADJ"
   },
   {
     "w": "dominance,",
     "start_ms": 20340,
-    "end_ms": 21100
+    "end_ms": 21100,
+    "lemma": "dominance",
+    "pos": "NOUN"
   },
   {
     "w": "one",
@@ -232,7 +272,9 @@
   {
     "w": "look",
     "start_ms": 21960,
-    "end_ms": 22220
+    "end_ms": 22220,
+    "lemma": "look",
+    "pos": "VERB"
   },
   {
     "w": "at",
@@ -247,7 +289,9 @@
   {
     "w": "benefit",
     "start_ms": 22460,
-    "end_ms": 22780
+    "end_ms": 22780,
+    "lemma": "benefit",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -262,17 +306,23 @@
   {
     "w": "TV",
     "start_ms": 23180,
-    "end_ms": 23420
+    "end_ms": 23420,
+    "lemma": "tv",
+    "pos": "NOUN"
   },
   {
     "w": "rights",
     "start_ms": 23420,
-    "end_ms": 23840
+    "end_ms": 23840,
+    "lemma": "right",
+    "pos": "NOUN"
   },
   {
     "w": "deal.",
     "start_ms": 23840,
-    "end_ms": 24140
+    "end_ms": 24140,
+    "lemma": "deal",
+    "pos": "NOUN"
   },
   {
     "w": "The",
@@ -282,7 +332,9 @@
   {
     "w": "latest",
     "start_ms": 25040,
-    "end_ms": 25320
+    "end_ms": 25320,
+    "lemma": "late",
+    "pos": "ADJ"
   },
   {
     "w": "Premier",
@@ -302,17 +354,23 @@
   {
     "w": "rights",
     "start_ms": 26200,
-    "end_ms": 26560
+    "end_ms": 26560,
+    "lemma": "right",
+    "pos": "NOUN"
   },
   {
     "w": "deal",
     "start_ms": 26560,
-    "end_ms": 26980
+    "end_ms": 26980,
+    "lemma": "deal",
+    "pos": "NOUN"
   },
   {
     "w": "kicked",
     "start_ms": 26980,
-    "end_ms": 27200
+    "end_ms": 27200,
+    "lemma": "kick",
+    "pos": "VERB"
   },
   {
     "w": "in",
@@ -342,7 +400,9 @@
   {
     "w": "season",
     "start_ms": 29400,
-    "end_ms": 29940
+    "end_ms": 29940,
+    "lemma": "season",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -352,17 +412,23 @@
   {
     "w": "saw",
     "start_ms": 30400,
-    "end_ms": 30640
+    "end_ms": 30640,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "clubs",
     "start_ms": 30640,
-    "end_ms": 30960
+    "end_ms": 30960,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "earn",
     "start_ms": 30960,
-    "end_ms": 31320
+    "end_ms": 31320,
+    "lemma": "earn",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -372,12 +438,16 @@
   {
     "w": "record",
     "start_ms": 31560,
-    "end_ms": 31920
+    "end_ms": 31920,
+    "lemma": "record",
+    "pos": "ADJ"
   },
   {
     "w": "windfall",
     "start_ms": 31920,
-    "end_ms": 32580
+    "end_ms": 32580,
+    "lemma": "windfall",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -402,12 +472,16 @@
   {
     "w": "pounds.",
     "start_ms": 34420,
-    "end_ms": 34840
+    "end_ms": 34840,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "Compared",
     "start_ms": 35400,
-    "end_ms": 35920
+    "end_ms": 35920,
+    "lemma": "compare",
+    "pos": "VERB"
   },
   {
     "w": "from",
@@ -422,7 +496,9 @@
   {
     "w": "deal",
     "start_ms": 36380,
-    "end_ms": 36520
+    "end_ms": 36520,
+    "lemma": "deal",
+    "pos": "NOUN"
   },
   {
     "w": "three",
@@ -432,12 +508,16 @@
   {
     "w": "years",
     "start_ms": 36840,
-    "end_ms": 37100
+    "end_ms": 37100,
+    "lemma": "year",
+    "pos": "NOUN"
   },
   {
     "w": "earlier,",
     "start_ms": 37100,
-    "end_ms": 37500
+    "end_ms": 37500,
+    "lemma": "early",
+    "pos": "ADV"
   },
   {
     "w": "it",
@@ -447,7 +527,9 @@
   {
     "w": "represented",
     "start_ms": 37900,
-    "end_ms": 38280
+    "end_ms": 38280,
+    "lemma": "represent",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -467,7 +549,9 @@
   {
     "w": "increase",
     "start_ms": 39600,
-    "end_ms": 40040
+    "end_ms": 40040,
+    "lemma": "increase",
+    "pos": "NOUN"
   },
   {
     "w": "for",
@@ -477,12 +561,16 @@
   {
     "w": "broadcasters",
     "start_ms": 40280,
-    "end_ms": 40760
+    "end_ms": 40760,
+    "lemma": "broadcaster",
+    "pos": "NOUN"
   },
   {
     "w": "according",
     "start_ms": 40760,
-    "end_ms": 41420
+    "end_ms": 41420,
+    "lemma": "accord",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -512,7 +600,9 @@
   {
     "w": "paying",
     "start_ms": 43020,
-    "end_ms": 43480
+    "end_ms": 43480,
+    "lemma": "pay",
+    "pos": "VERB"
   },
   {
     "w": "83",
@@ -527,7 +617,9 @@
   {
     "w": "more",
     "start_ms": 44400,
-    "end_ms": 44680
+    "end_ms": 44680,
+    "lemma": "more",
+    "pos": "ADJ"
   },
   {
     "w": "than",
@@ -542,7 +634,9 @@
   {
     "w": "did",
     "start_ms": 45060,
-    "end_ms": 45240
+    "end_ms": 45240,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -552,12 +646,16 @@
   {
     "w": "last",
     "start_ms": 45580,
-    "end_ms": 45780
+    "end_ms": 45780,
+    "lemma": "last",
+    "pos": "ADJ"
   },
   {
     "w": "round",
     "start_ms": 45780,
-    "end_ms": 46080
+    "end_ms": 46080,
+    "lemma": "round",
+    "pos": "NOUN"
   },
   {
     "w": "three",
@@ -567,12 +665,16 @@
   {
     "w": "years",
     "start_ms": 46500,
-    "end_ms": 46720
+    "end_ms": 46720,
+    "lemma": "year",
+    "pos": "NOUN"
   },
   {
     "w": "ago.",
     "start_ms": 46720,
-    "end_ms": 47000
+    "end_ms": 47000,
+    "lemma": "ago",
+    "pos": "ADV"
   },
   {
     "w": "The",
@@ -582,7 +684,9 @@
   {
     "w": "money",
     "start_ms": 48560,
-    "end_ms": 48740
+    "end_ms": 48740,
+    "lemma": "money",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -592,7 +696,9 @@
   {
     "w": "split",
     "start_ms": 49000,
-    "end_ms": 49220
+    "end_ms": 49220,
+    "lemma": "split",
+    "pos": "VERB"
   },
   {
     "w": "up",
@@ -612,27 +718,37 @@
   {
     "w": "key",
     "start_ms": 50120,
-    "end_ms": 50480
+    "end_ms": 50480,
+    "lemma": "key",
+    "pos": "ADJ"
   },
   {
     "w": "ways.",
     "start_ms": 50480,
-    "end_ms": 50840
+    "end_ms": 50840,
+    "lemma": "way",
+    "pos": "NOUN"
   },
   {
     "w": "Domestic",
     "start_ms": 52100,
-    "end_ms": 52320
+    "end_ms": 52320,
+    "lemma": "domestic",
+    "pos": "ADJ"
   },
   {
     "w": "TV",
     "start_ms": 52320,
-    "end_ms": 52820
+    "end_ms": 52820,
+    "lemma": "tv",
+    "pos": "NOUN"
   },
   {
     "w": "money",
     "start_ms": 52820,
-    "end_ms": 53220
+    "end_ms": 53220,
+    "lemma": "money",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -642,7 +758,9 @@
   {
     "w": "estimated",
     "start_ms": 53420,
-    "end_ms": 53780
+    "end_ms": 53780,
+    "lemma": "estimate",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -657,7 +775,9 @@
   {
     "w": "worth",
     "start_ms": 54320,
-    "end_ms": 54520
+    "end_ms": 54520,
+    "lemma": "worth",
+    "pos": "ADJ"
   },
   {
     "w": "around",
@@ -682,7 +802,9 @@
   {
     "w": "pounds",
     "start_ms": 55980,
-    "end_ms": 56320
+    "end_ms": 56320,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "per",
@@ -692,7 +814,9 @@
   {
     "w": "season.",
     "start_ms": 56560,
-    "end_ms": 56860
+    "end_ms": 56860,
+    "lemma": "season",
+    "pos": "NOUN"
   },
   {
     "w": "50",
@@ -722,12 +846,16 @@
   {
     "w": "divided",
     "start_ms": 58800,
-    "end_ms": 59140
+    "end_ms": 59140,
+    "lemma": "divide",
+    "pos": "VERB"
   },
   {
     "w": "equally",
     "start_ms": 59140,
-    "end_ms": 59580
+    "end_ms": 59580,
+    "lemma": "equally",
+    "pos": "ADV"
   },
   {
     "w": "and",
@@ -742,12 +870,16 @@
   {
     "w": "worth",
     "start_ms": 60260,
-    "end_ms": 60480
+    "end_ms": 60480,
+    "lemma": "worth",
+    "pos": "ADJ"
   },
   {
     "w": "roughly",
     "start_ms": 60480,
-    "end_ms": 60800
+    "end_ms": 60800,
+    "lemma": "roughly",
+    "pos": "ADV"
   },
   {
     "w": "35",
@@ -762,7 +894,9 @@
   {
     "w": "pounds",
     "start_ms": 61920,
-    "end_ms": 62280
+    "end_ms": 62280,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "per",
@@ -772,7 +906,9 @@
   {
     "w": "club,",
     "start_ms": 62540,
-    "end_ms": 62800
+    "end_ms": 62800,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "or",
@@ -807,7 +943,9 @@
   {
     "w": "further",
     "start_ms": 65440,
-    "end_ms": 65680
+    "end_ms": 65680,
+    "lemma": "further",
+    "pos": "ADJ"
   },
   {
     "w": "25",
@@ -827,7 +965,9 @@
   {
     "w": "merit",
     "start_ms": 67140,
-    "end_ms": 67360
+    "end_ms": 67360,
+    "lemma": "merit",
+    "pos": "NOUN"
   },
   {
     "w": "-based",
@@ -842,12 +982,16 @@
   {
     "w": "earned",
     "start_ms": 68060,
-    "end_ms": 68260
+    "end_ms": 68260,
+    "lemma": "earn",
+    "pos": "VERB"
   },
   {
     "w": "dependent",
     "start_ms": 68260,
-    "end_ms": 68560
+    "end_ms": 68560,
+    "lemma": "dependent",
+    "pos": "ADJ"
   },
   {
     "w": "on",
@@ -867,17 +1011,23 @@
   {
     "w": "final",
     "start_ms": 69380,
-    "end_ms": 69620
+    "end_ms": 69620,
+    "lemma": "final",
+    "pos": "ADJ"
   },
   {
     "w": "league",
     "start_ms": 69620,
-    "end_ms": 70040
+    "end_ms": 70040,
+    "lemma": "league",
+    "pos": "NOUN"
   },
   {
     "w": "position.",
     "start_ms": 70040,
-    "end_ms": 70400
+    "end_ms": 70400,
+    "lemma": "position",
+    "pos": "NOUN"
   },
   {
     "w": "The",
@@ -887,7 +1037,9 @@
   {
     "w": "team",
     "start_ms": 71720,
-    "end_ms": 71920
+    "end_ms": 71920,
+    "lemma": "team",
+    "pos": "NOUN"
   },
   {
     "w": "that",
@@ -897,12 +1049,16 @@
   {
     "w": "finishes",
     "start_ms": 72060,
-    "end_ms": 72360
+    "end_ms": 72360,
+    "lemma": "finish",
+    "pos": "VERB"
   },
   {
     "w": "bottom",
     "start_ms": 72360,
-    "end_ms": 72660
+    "end_ms": 72660,
+    "lemma": "bottom",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -932,12 +1088,16 @@
   {
     "w": "receive",
     "start_ms": 73880,
-    "end_ms": 74260
+    "end_ms": 74260,
+    "lemma": "receive",
+    "pos": "VERB"
   },
   {
     "w": "roughly",
     "start_ms": 74260,
-    "end_ms": 74640
+    "end_ms": 74640,
+    "lemma": "roughly",
+    "pos": "ADV"
   },
   {
     "w": "1",
@@ -957,7 +1117,9 @@
   {
     "w": "pounds",
     "start_ms": 75640,
-    "end_ms": 76040
+    "end_ms": 76040,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "with",
@@ -972,7 +1134,9 @@
   {
     "w": "further",
     "start_ms": 76620,
-    "end_ms": 76920
+    "end_ms": 76920,
+    "lemma": "further",
+    "pos": "ADJ"
   },
   {
     "w": "1",
@@ -992,7 +1156,9 @@
   {
     "w": "pounds",
     "start_ms": 77740,
-    "end_ms": 78120
+    "end_ms": 78120,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "for",
@@ -1007,7 +1173,9 @@
   {
     "w": "place",
     "start_ms": 78480,
-    "end_ms": 78820
+    "end_ms": 78820,
+    "lemma": "place",
+    "pos": "NOUN"
   },
   {
     "w": "above",
@@ -1027,7 +1195,9 @@
   {
     "w": "example,",
     "start_ms": 80120,
-    "end_ms": 80340
+    "end_ms": 80340,
+    "lemma": "example",
+    "pos": "NOUN"
   },
   {
     "w": "the",
@@ -1037,17 +1207,23 @@
   {
     "w": "champions",
     "start_ms": 80680,
-    "end_ms": 81040
+    "end_ms": 81040,
+    "lemma": "champion",
+    "pos": "NOUN"
   },
   {
     "w": "earn",
     "start_ms": 81040,
-    "end_ms": 81560
+    "end_ms": 81560,
+    "lemma": "earn",
+    "pos": "VERB"
   },
   {
     "w": "roughly",
     "start_ms": 81560,
-    "end_ms": 81820
+    "end_ms": 81820,
+    "lemma": "roughly",
+    "pos": "ADV"
   },
   {
     "w": "38",
@@ -1062,7 +1238,9 @@
   {
     "w": "pounds",
     "start_ms": 82600,
-    "end_ms": 82980
+    "end_ms": 82980,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -1077,12 +1255,16 @@
   {
     "w": "placed",
     "start_ms": 84060,
-    "end_ms": 84220
+    "end_ms": 84220,
+    "lemma": "place",
+    "pos": "VERB"
   },
   {
     "w": "earns",
     "start_ms": 84220,
-    "end_ms": 84640
+    "end_ms": 84640,
+    "lemma": "earn",
+    "pos": "VERB"
   },
   {
     "w": "21",
@@ -1097,7 +1279,9 @@
   {
     "w": "pounds.",
     "start_ms": 85440,
-    "end_ms": 85740
+    "end_ms": 85740,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "The",
@@ -1107,7 +1291,9 @@
   {
     "w": "remaining",
     "start_ms": 87000,
-    "end_ms": 87200
+    "end_ms": 87200,
+    "lemma": "remain",
+    "pos": "VERB"
   },
   {
     "w": "25",
@@ -1127,7 +1313,9 @@
   {
     "w": "divided",
     "start_ms": 88460,
-    "end_ms": 88840
+    "end_ms": 88840,
+    "lemma": "divide",
+    "pos": "VERB"
   },
   {
     "w": "up",
@@ -1142,12 +1330,16 @@
   {
     "w": "clubs",
     "start_ms": 89400,
-    "end_ms": 89780
+    "end_ms": 89780,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "depending",
     "start_ms": 89780,
-    "end_ms": 90220
+    "end_ms": 90220,
+    "lemma": "depend",
+    "pos": "VERB"
   },
   {
     "w": "on",
@@ -1162,7 +1354,9 @@
   {
     "w": "often",
     "start_ms": 90640,
-    "end_ms": 90940
+    "end_ms": 90940,
+    "lemma": "often",
+    "pos": "ADV"
   },
   {
     "w": "they",
@@ -1172,7 +1366,9 @@
   {
     "w": "appear",
     "start_ms": 91080,
-    "end_ms": 91440
+    "end_ms": 91440,
+    "lemma": "appear",
+    "pos": "VERB"
   },
   {
     "w": "on",
@@ -1182,17 +1378,23 @@
   {
     "w": "live",
     "start_ms": 91640,
-    "end_ms": 91840
+    "end_ms": 91840,
+    "lemma": "live",
+    "pos": "ADJ"
   },
   {
     "w": "TV",
     "start_ms": 91840,
-    "end_ms": 92160
+    "end_ms": 92160,
+    "lemma": "tv",
+    "pos": "NOUN"
   },
   {
     "w": "broadcasts",
     "start_ms": 92160,
-    "end_ms": 92580
+    "end_ms": 92580,
+    "lemma": "broadcast",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -1207,12 +1409,16 @@
   {
     "w": "also",
     "start_ms": 93540,
-    "end_ms": 93660
+    "end_ms": 93660,
+    "lemma": "also",
+    "pos": "ADV"
   },
   {
     "w": "known",
     "start_ms": 93660,
-    "end_ms": 94100
+    "end_ms": 94100,
+    "lemma": "know",
+    "pos": "VERB"
   },
   {
     "w": "as",
@@ -1222,12 +1428,16 @@
   {
     "w": "facility",
     "start_ms": 94520,
-    "end_ms": 94940
+    "end_ms": 94940,
+    "lemma": "facility",
+    "pos": "NOUN"
   },
   {
     "w": "fees.",
     "start_ms": 94940,
-    "end_ms": 95560
+    "end_ms": 95560,
+    "lemma": "fee",
+    "pos": "NOUN"
   },
   {
     "w": "Each",
@@ -1237,12 +1447,16 @@
   {
     "w": "team",
     "start_ms": 96700,
-    "end_ms": 97040
+    "end_ms": 97040,
+    "lemma": "team",
+    "pos": "NOUN"
   },
   {
     "w": "receives",
     "start_ms": 97040,
-    "end_ms": 97320
+    "end_ms": 97320,
+    "lemma": "receive",
+    "pos": "VERB"
   },
   {
     "w": "1",
@@ -1257,7 +1471,9 @@
   {
     "w": "pounds",
     "start_ms": 97940,
-    "end_ms": 98340
+    "end_ms": 98340,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "per",
@@ -1267,12 +1483,16 @@
   {
     "w": "TV",
     "start_ms": 98800,
-    "end_ms": 99180
+    "end_ms": 99180,
+    "lemma": "tv",
+    "pos": "NOUN"
   },
   {
     "w": "appearance",
     "start_ms": 99180,
-    "end_ms": 99640
+    "end_ms": 99640,
+    "lemma": "appearance",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -1287,7 +1507,9 @@
   {
     "w": "guaranteed",
     "start_ms": 100420,
-    "end_ms": 100800
+    "end_ms": 100800,
+    "lemma": "guarantee",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -1297,7 +1519,9 @@
   {
     "w": "minimum",
     "start_ms": 101220,
-    "end_ms": 101560
+    "end_ms": 101560,
+    "lemma": "minimum",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -1322,12 +1546,16 @@
   {
     "w": "season",
     "start_ms": 102940,
-    "end_ms": 103240
+    "end_ms": 103240,
+    "lemma": "season",
+    "pos": "NOUN"
   },
   {
     "w": "even",
     "start_ms": 103240,
-    "end_ms": 103820
+    "end_ms": 103820,
+    "lemma": "even",
+    "pos": "ADV"
   },
   {
     "w": "if",
@@ -1342,12 +1570,16 @@
   {
     "w": "appear",
     "start_ms": 104100,
-    "end_ms": 104200
+    "end_ms": 104200,
+    "lemma": "appear",
+    "pos": "VERB"
   },
   {
     "w": "less",
     "start_ms": 104200,
-    "end_ms": 104620
+    "end_ms": 104620,
+    "lemma": "less",
+    "pos": "ADJ"
   },
   {
     "w": "than",
@@ -1362,7 +1594,9 @@
   {
     "w": "times.",
     "start_ms": 105060,
-    "end_ms": 105380
+    "end_ms": 105380,
+    "lemma": "time",
+    "pos": "NOUN"
   },
   {
     "w": "Beyond",
@@ -1387,12 +1621,16 @@
   {
     "w": "overseas",
     "start_ms": 107960,
-    "end_ms": 108300
+    "end_ms": 108300,
+    "lemma": "overseas",
+    "pos": "ADJ"
   },
   {
     "w": "rights",
     "start_ms": 108300,
-    "end_ms": 108800
+    "end_ms": 108800,
+    "lemma": "right",
+    "pos": "NOUN"
   },
   {
     "w": "which",
@@ -1402,7 +1640,9 @@
   {
     "w": "add",
     "start_ms": 109340,
-    "end_ms": 109560
+    "end_ms": 109560,
+    "lemma": "add",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -1412,7 +1652,9 @@
   {
     "w": "further",
     "start_ms": 109780,
-    "end_ms": 110080
+    "end_ms": 110080,
+    "lemma": "further",
+    "pos": "ADJ"
   },
   {
     "w": "780",
@@ -1427,7 +1669,9 @@
   {
     "w": "pounds",
     "start_ms": 111300,
-    "end_ms": 111680
+    "end_ms": 111680,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "to",
@@ -1442,7 +1686,9 @@
   {
     "w": "part",
     "start_ms": 112100,
-    "end_ms": 112320
+    "end_ms": 112320,
+    "lemma": "part",
+    "pos": "NOUN"
   },
   {
     "w": "per",
@@ -1452,7 +1698,9 @@
   {
     "w": "season.",
     "start_ms": 112600,
-    "end_ms": 112960
+    "end_ms": 112960,
+    "lemma": "season",
+    "pos": "NOUN"
   },
   {
     "w": "This",
@@ -1467,7 +1715,9 @@
   {
     "w": "dished",
     "start_ms": 114000,
-    "end_ms": 114380
+    "end_ms": 114380,
+    "lemma": "dish",
+    "pos": "VERB"
   },
   {
     "w": "out",
@@ -1477,7 +1727,9 @@
   {
     "w": "equally",
     "start_ms": 114520,
-    "end_ms": 114720
+    "end_ms": 114720,
+    "lemma": "equally",
+    "pos": "ADV"
   },
   {
     "w": "to",
@@ -1502,7 +1754,9 @@
   {
     "w": "club",
     "start_ms": 115940,
-    "end_ms": 116240
+    "end_ms": 116240,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -1512,7 +1766,9 @@
   {
     "w": "earns",
     "start_ms": 116660,
-    "end_ms": 116900
+    "end_ms": 116900,
+    "lemma": "earn",
+    "pos": "VERB"
   },
   {
     "w": "them",
@@ -1522,7 +1778,9 @@
   {
     "w": "roughly",
     "start_ms": 117140,
-    "end_ms": 117360
+    "end_ms": 117360,
+    "lemma": "roughly",
+    "pos": "ADV"
   },
   {
     "w": "39",
@@ -1537,7 +1795,9 @@
   {
     "w": "pounds",
     "start_ms": 118300,
-    "end_ms": 118700
+    "end_ms": 118700,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "per",
@@ -1547,22 +1807,30 @@
   {
     "w": "season.",
     "start_ms": 119100,
-    "end_ms": 119380
+    "end_ms": 119380,
+    "lemma": "season",
+    "pos": "NOUN"
   },
   {
     "w": "All",
     "start_ms": 120140,
-    "end_ms": 120500
+    "end_ms": 120500,
+    "lemma": "all",
+    "pos": "ADV"
   },
   {
     "w": "in",
     "start_ms": 120500,
-    "end_ms": 120660
+    "end_ms": 120660,
+    "lemma": "in",
+    "pos": "ADV"
   },
   {
     "w": "all,",
     "start_ms": 120660,
-    "end_ms": 120820
+    "end_ms": 120820,
+    "lemma": "all",
+    "pos": "ADV"
   },
   {
     "w": "this",
@@ -1572,12 +1840,16 @@
   {
     "w": "helps",
     "start_ms": 121060,
-    "end_ms": 121300
+    "end_ms": 121300,
+    "lemma": "help",
+    "pos": "VERB"
   },
   {
     "w": "produce",
     "start_ms": 121300,
-    "end_ms": 121700
+    "end_ms": 121700,
+    "lemma": "produce",
+    "pos": "VERB"
   },
   {
     "w": "some",
@@ -1587,12 +1859,16 @@
   {
     "w": "staggering",
     "start_ms": 121980,
-    "end_ms": 122480
+    "end_ms": 122480,
+    "lemma": "staggering",
+    "pos": "ADJ"
   },
   {
     "w": "incomes",
     "start_ms": 122480,
-    "end_ms": 123020
+    "end_ms": 123020,
+    "lemma": "income",
+    "pos": "NOUN"
   },
   {
     "w": "for",
@@ -1612,22 +1888,30 @@
   {
     "w": "clubs,",
     "start_ms": 123900,
-    "end_ms": 124220
+    "end_ms": 124220,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "taking",
     "start_ms": 124620,
-    "end_ms": 124960
+    "end_ms": 124960,
+    "lemma": "take",
+    "pos": "VERB"
   },
   {
     "w": "last",
     "start_ms": 124960,
-    "end_ms": 125180
+    "end_ms": 125180,
+    "lemma": "last",
+    "pos": "ADJ"
   },
   {
     "w": "season",
     "start_ms": 125180,
-    "end_ms": 125600
+    "end_ms": 125600,
+    "lemma": "season",
+    "pos": "NOUN"
   },
   {
     "w": "as",
@@ -1642,12 +1926,16 @@
   {
     "w": "example,",
     "start_ms": 125980,
-    "end_ms": 126380
+    "end_ms": 126380,
+    "lemma": "example",
+    "pos": "NOUN"
   },
   {
     "w": "champions",
     "start_ms": 126940,
-    "end_ms": 127280
+    "end_ms": 127280,
+    "lemma": "champion",
+    "pos": "NOUN"
   },
   {
     "w": "Chelsea",
@@ -1657,7 +1945,9 @@
   {
     "w": "earned",
     "start_ms": 127600,
-    "end_ms": 128280
+    "end_ms": 128280,
+    "lemma": "earn",
+    "pos": "VERB"
   },
   {
     "w": "150",
@@ -1677,7 +1967,9 @@
   {
     "w": "pounds",
     "start_ms": 129840,
-    "end_ms": 130300
+    "end_ms": 130300,
+    "lemma": "pound",
+    "pos": "NOUN"
   },
   {
     "w": "for",
@@ -1687,7 +1979,9 @@
   {
     "w": "winning",
     "start_ms": 130740,
-    "end_ms": 130919
+    "end_ms": 130919,
+    "lemma": "win",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -1697,7 +1991,9 @@
   {
     "w": "title.",
     "start_ms": 131100,
-    "end_ms": 131400
+    "end_ms": 131400,
+    "lemma": "title",
+    "pos": "NOUN"
   },
   {
     "w": "Relegated",
@@ -1712,7 +2008,9 @@
   {
     "w": "earned",
     "start_ms": 133340,
-    "end_ms": 133860
+    "end_ms": 133860,
+    "lemma": "earn",
+    "pos": "VERB"
   },
   {
     "w": "an",
@@ -1722,12 +2020,16 @@
   {
     "w": "equally",
     "start_ms": 134020,
-    "end_ms": 134220
+    "end_ms": 134220,
+    "lemma": "equally",
+    "pos": "ADV"
   },
   {
     "w": "impressive",
     "start_ms": 134220,
-    "end_ms": 134640
+    "end_ms": 134640,
+    "lemma": "impressive",
+    "pos": "ADJ"
   },
   {
     "w": "93",
@@ -1752,7 +2054,9 @@
   {
     "w": "ratio",
     "start_ms": 137740,
-    "end_ms": 138040
+    "end_ms": 138040,
+    "lemma": "ratio",
+    "pos": "NOUN"
   },
   {
     "w": "between",
@@ -1762,7 +2066,9 @@
   {
     "w": "highest",
     "start_ms": 138460,
-    "end_ms": 138860
+    "end_ms": 138860,
+    "lemma": "high",
+    "pos": "ADJ"
   },
   {
     "w": "and",
@@ -1772,27 +2078,37 @@
   {
     "w": "lowest",
     "start_ms": 139140,
-    "end_ms": 139620
+    "end_ms": 139620,
+    "lemma": "low",
+    "pos": "ADJ"
   },
   {
     "w": "earning",
     "start_ms": 139620,
-    "end_ms": 139800
+    "end_ms": 139800,
+    "lemma": "earn",
+    "pos": "VERB"
   },
   {
     "w": "clubs",
     "start_ms": 139800,
-    "end_ms": 140080
+    "end_ms": 140080,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "last",
     "start_ms": 140080,
-    "end_ms": 140420
+    "end_ms": 140420,
+    "lemma": "last",
+    "pos": "ADJ"
   },
   {
     "w": "season",
     "start_ms": 140420,
-    "end_ms": 140740
+    "end_ms": 140740,
+    "lemma": "season",
+    "pos": "NOUN"
   },
   {
     "w": "was",
@@ -1827,7 +2143,9 @@
   {
     "w": "lowest",
     "start_ms": 143200,
-    "end_ms": 143500
+    "end_ms": 143500,
+    "lemma": "low",
+    "pos": "ADJ"
   },
   {
     "w": "among",
@@ -1842,12 +2160,16 @@
   {
     "w": "top",
     "start_ms": 144440,
-    "end_ms": 144580
+    "end_ms": 144580,
+    "lemma": "top",
+    "pos": "ADJ"
   },
   {
     "w": "leagues,",
     "start_ms": 144580,
-    "end_ms": 144820
+    "end_ms": 144820,
+    "lemma": "league",
+    "pos": "NOUN"
   },
   {
     "w": "which",
@@ -1857,7 +2179,9 @@
   {
     "w": "means",
     "start_ms": 145340,
-    "end_ms": 145540
+    "end_ms": 145540,
+    "lemma": "mean",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -1882,12 +2206,16 @@
   {
     "w": "more",
     "start_ms": 146400,
-    "end_ms": 146600
+    "end_ms": 146600,
+    "lemma": "more",
+    "pos": "ADV"
   },
   {
     "w": "equal",
     "start_ms": 146600,
-    "end_ms": 147020
+    "end_ms": 147020,
+    "lemma": "equal",
+    "pos": "ADJ"
   },
   {
     "w": "when",
@@ -1902,7 +2230,9 @@
   {
     "w": "comes",
     "start_ms": 147500,
-    "end_ms": 147680
+    "end_ms": 147680,
+    "lemma": "come",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -1912,12 +2242,16 @@
   {
     "w": "sharing",
     "start_ms": 147880,
-    "end_ms": 148180
+    "end_ms": 148180,
+    "lemma": "share",
+    "pos": "VERB"
   },
   {
     "w": "revenue",
     "start_ms": 148180,
-    "end_ms": 148640
+    "end_ms": 148640,
+    "lemma": "revenue",
+    "pos": "NOUN"
   },
   {
     "w": "than",
@@ -1932,7 +2266,9 @@
   {
     "w": "rivals.",
     "start_ms": 149180,
-    "end_ms": 149420
+    "end_ms": 149420,
+    "lemma": "rival",
+    "pos": "NOUN"
   },
   {
     "w": "For",
@@ -1942,7 +2278,9 @@
   {
     "w": "example,",
     "start_ms": 150960,
-    "end_ms": 151220
+    "end_ms": 151220,
+    "lemma": "example",
+    "pos": "NOUN"
   },
   {
     "w": "Spain",
@@ -1967,12 +2305,16 @@
   {
     "w": "time",
     "start_ms": 152620,
-    "end_ms": 152940
+    "end_ms": 152940,
+    "lemma": "time",
+    "pos": "NOUN"
   },
   {
     "w": "seen",
     "start_ms": 152940,
-    "end_ms": 153180
+    "end_ms": 153180,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "Barcelona",
@@ -1997,7 +2339,9 @@
   {
     "w": "enjoy",
     "start_ms": 154440,
-    "end_ms": 154980
+    "end_ms": 154980,
+    "lemma": "enjoy",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -2012,7 +2356,9 @@
   {
     "w": "share",
     "start_ms": 155800,
-    "end_ms": 156080
+    "end_ms": 156080,
+    "lemma": "share",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -2027,7 +2373,9 @@
   {
     "w": "funds.",
     "start_ms": 156400,
-    "end_ms": 156640
+    "end_ms": 156640,
+    "lemma": "fund",
+    "pos": "NOUN"
   },
   {
     "w": "This",
@@ -2037,7 +2385,9 @@
   {
     "w": "season,",
     "start_ms": 157480,
-    "end_ms": 157900
+    "end_ms": 157900,
+    "lemma": "season",
+    "pos": "NOUN"
   },
   {
     "w": "Atlético",
@@ -2052,7 +2402,9 @@
   {
     "w": "won",
     "start_ms": 158600,
-    "end_ms": 158900
+    "end_ms": 158900,
+    "lemma": "win",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -2062,7 +2414,9 @@
   {
     "w": "league",
     "start_ms": 159040,
-    "end_ms": 159200
+    "end_ms": 159200,
+    "lemma": "league",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -2077,7 +2431,9 @@
   {
     "w": "collected",
     "start_ms": 159540,
-    "end_ms": 159780
+    "end_ms": 159780,
+    "lemma": "collect",
+    "pos": "VERB"
   },
   {
     "w": "42",
@@ -2092,12 +2448,16 @@
   {
     "w": "euros",
     "start_ms": 160720,
-    "end_ms": 161200
+    "end_ms": 161200,
+    "lemma": "euro",
+    "pos": "NOUN"
   },
   {
     "w": "compared",
     "start_ms": 161200,
-    "end_ms": 161740
+    "end_ms": 161740,
+    "lemma": "compare",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -2117,7 +2477,9 @@
   {
     "w": "euros",
     "start_ms": 163040,
-    "end_ms": 163560
+    "end_ms": 163560,
+    "lemma": "euro",
+    "pos": "NOUN"
   },
   {
     "w": "for",
@@ -2182,7 +2544,9 @@
   {
     "w": "however,",
     "start_ms": 169600,
-    "end_ms": 169980
+    "end_ms": 169980,
+    "lemma": "however",
+    "pos": "ADV"
   },
   {
     "w": "a",
@@ -2192,12 +2556,16 @@
   {
     "w": "renegotiation",
     "start_ms": 170280,
-    "end_ms": 171100
+    "end_ms": 171100,
+    "lemma": "renegotiation",
+    "pos": "NOUN"
   },
   {
     "w": "saw",
     "start_ms": 171100,
-    "end_ms": 171820
+    "end_ms": 171820,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -2207,12 +2575,16 @@
   {
     "w": "structure",
     "start_ms": 172020,
-    "end_ms": 172280
+    "end_ms": 172280,
+    "lemma": "structure",
+    "pos": "NOUN"
   },
   {
     "w": "change",
     "start_ms": 172280,
-    "end_ms": 172680
+    "end_ms": 172680,
+    "lemma": "change",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -2227,12 +2599,16 @@
   {
     "w": "following",
     "start_ms": 173300,
-    "end_ms": 173600
+    "end_ms": 173600,
+    "lemma": "follow",
+    "pos": "VERB"
   },
   {
     "w": "parameters.",
     "start_ms": 173600,
-    "end_ms": 173940
+    "end_ms": 173940,
+    "lemma": "parameter",
+    "pos": "NOUN"
   },
   {
     "w": "A",
@@ -2252,12 +2628,16 @@
   {
     "w": "equal",
     "start_ms": 175680,
-    "end_ms": 176040
+    "end_ms": 176040,
+    "lemma": "equal",
+    "pos": "ADJ"
   },
   {
     "w": "share",
     "start_ms": 176040,
-    "end_ms": 176340
+    "end_ms": 176340,
+    "lemma": "share",
+    "pos": "NOUN"
   },
   {
     "w": "for",
@@ -2277,7 +2657,9 @@
   {
     "w": "clubs",
     "start_ms": 177320,
-    "end_ms": 177640
+    "end_ms": 177640,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "in",
@@ -2307,12 +2689,16 @@
   {
     "w": "merit",
     "start_ms": 179580,
-    "end_ms": 179860
+    "end_ms": 179860,
+    "lemma": "merit",
+    "pos": "NOUN"
   },
   {
     "w": "based",
     "start_ms": 179860,
-    "end_ms": 180220
+    "end_ms": 180220,
+    "lemma": "base",
+    "pos": "VERB"
   },
   {
     "w": "on",
@@ -2327,12 +2713,16 @@
   {
     "w": "clubs",
     "start_ms": 180840,
-    "end_ms": 181060
+    "end_ms": 181060,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "finish",
     "start_ms": 181060,
-    "end_ms": 181440
+    "end_ms": 181440,
+    "lemma": "finish",
+    "pos": "VERB"
   },
   {
     "w": "in",
@@ -2347,7 +2737,9 @@
   {
     "w": "table",
     "start_ms": 181720,
-    "end_ms": 181860
+    "end_ms": 181860,
+    "lemma": "table",
+    "pos": "NOUN"
   },
   {
     "w": "in",
@@ -2362,7 +2754,9 @@
   {
     "w": "last",
     "start_ms": 182200,
-    "end_ms": 182360
+    "end_ms": 182360,
+    "lemma": "last",
+    "pos": "ADJ"
   },
   {
     "w": "three",
@@ -2372,7 +2766,9 @@
   {
     "w": "years",
     "start_ms": 182640,
-    "end_ms": 182900
+    "end_ms": 182900,
+    "lemma": "year",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -2392,7 +2788,9 @@
   {
     "w": "according",
     "start_ms": 184220,
-    "end_ms": 184540
+    "end_ms": 184540,
+    "lemma": "accord",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -2407,17 +2805,23 @@
   {
     "w": "resource",
     "start_ms": 184900,
-    "end_ms": 185220
+    "end_ms": 185220,
+    "lemma": "resource",
+    "pos": "NOUN"
   },
   {
     "w": "generation",
     "start_ms": 185220,
-    "end_ms": 185560
+    "end_ms": 185560,
+    "lemma": "generation",
+    "pos": "NOUN"
   },
   {
     "w": "ability",
     "start_ms": 185560,
-    "end_ms": 186180
+    "end_ms": 186180,
+    "lemma": "ability",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -2427,12 +2831,16 @@
   {
     "w": "clubs.",
     "start_ms": 186540,
-    "end_ms": 186760
+    "end_ms": 186760,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "However,",
     "start_ms": 187720,
-    "end_ms": 187960
+    "end_ms": 187960,
+    "lemma": "however",
+    "pos": "ADV"
   },
   {
     "w": "don't",
@@ -2442,7 +2850,9 @@
   {
     "w": "expect",
     "start_ms": 188620,
-    "end_ms": 188900
+    "end_ms": 188900,
+    "lemma": "expect",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -2452,7 +2862,9 @@
   {
     "w": "glut",
     "start_ms": 189220,
-    "end_ms": 189380
+    "end_ms": 189380,
+    "lemma": "glut",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -2462,7 +2874,9 @@
   {
     "w": "spending",
     "start_ms": 189620,
-    "end_ms": 189960
+    "end_ms": 189960,
+    "lemma": "spending",
+    "pos": "NOUN"
   },
   {
     "w": "in",
@@ -2492,22 +2906,30 @@
   {
     "w": "deal",
     "start_ms": 191940,
-    "end_ms": 192160
+    "end_ms": 192160,
+    "lemma": "deal",
+    "pos": "NOUN"
   },
   {
     "w": "still",
     "start_ms": 192160,
-    "end_ms": 192460
+    "end_ms": 192460,
+    "lemma": "still",
+    "pos": "ADV"
   },
   {
     "w": "represented",
     "start_ms": 192460,
-    "end_ms": 192860
+    "end_ms": 192860,
+    "lemma": "represent",
+    "pos": "VERB"
   },
   {
     "w": "half",
     "start_ms": 192860,
-    "end_ms": 193360
+    "end_ms": 193360,
+    "lemma": "half",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -2537,7 +2959,9 @@
   {
     "w": "collects",
     "start_ms": 194340,
-    "end_ms": 194620
+    "end_ms": 194620,
+    "lemma": "collect",
+    "pos": "VERB"
   },
   {
     "w": "during",
@@ -2552,12 +2976,16 @@
   {
     "w": "same",
     "start_ms": 195140,
-    "end_ms": 195340
+    "end_ms": 195340,
+    "lemma": "same",
+    "pos": "ADJ"
   },
   {
     "w": "period",
     "start_ms": 195340,
-    "end_ms": 195700
+    "end_ms": 195700,
+    "lemma": "period",
+    "pos": "NOUN"
   },
   {
     "w": "for",
@@ -2567,12 +2995,16 @@
   {
     "w": "domestic",
     "start_ms": 195900,
-    "end_ms": 196080
+    "end_ms": 196080,
+    "lemma": "domestic",
+    "pos": "ADJ"
   },
   {
     "w": "rights.",
     "start_ms": 196080,
-    "end_ms": 196480
+    "end_ms": 196480,
+    "lemma": "right",
+    "pos": "NOUN"
   },
   {
     "w": "While",
@@ -2582,7 +3014,9 @@
   {
     "w": "reliance",
     "start_ms": 197880,
-    "end_ms": 198160
+    "end_ms": 198160,
+    "lemma": "reliance",
+    "pos": "NOUN"
   },
   {
     "w": "on",
@@ -2597,12 +3031,16 @@
   {
     "w": "money",
     "start_ms": 198560,
-    "end_ms": 198740
+    "end_ms": 198740,
+    "lemma": "money",
+    "pos": "NOUN"
   },
   {
     "w": "fluctuates",
     "start_ms": 198740,
-    "end_ms": 199200
+    "end_ms": 199200,
+    "lemma": "fluctuate",
+    "pos": "VERB"
   },
   {
     "w": "from",
@@ -2612,7 +3050,9 @@
   {
     "w": "club",
     "start_ms": 199520,
-    "end_ms": 199720
+    "end_ms": 199720,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "to",
@@ -2622,7 +3062,9 @@
   {
     "w": "club,",
     "start_ms": 199900,
-    "end_ms": 200140
+    "end_ms": 200140,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "a",
@@ -2632,7 +3074,9 @@
   {
     "w": "piece",
     "start_ms": 200680,
-    "end_ms": 200860
+    "end_ms": 200860,
+    "lemma": "piece",
+    "pos": "NOUN"
   },
   {
     "w": "in",
@@ -2657,7 +3101,9 @@
   {
     "w": "estimated",
     "start_ms": 201820,
-    "end_ms": 202160
+    "end_ms": 202160,
+    "lemma": "estimate",
+    "pos": "VERB"
   },
   {
     "w": "Bournemouth,",
@@ -2697,17 +3143,23 @@
   {
     "w": "clubs",
     "start_ms": 205480,
-    "end_ms": 205740
+    "end_ms": 205740,
+    "lemma": "club",
+    "pos": "NOUN"
   },
   {
     "w": "most",
     "start_ms": 205740,
-    "end_ms": 206160
+    "end_ms": 206160,
+    "lemma": "most",
+    "pos": "ADV"
   },
   {
     "w": "reliant",
     "start_ms": 206160,
-    "end_ms": 206520
+    "end_ms": 206520,
+    "lemma": "reliant",
+    "pos": "ADJ"
   },
   {
     "w": "on",
@@ -2717,12 +3169,16 @@
   {
     "w": "TV",
     "start_ms": 206960,
-    "end_ms": 207200
+    "end_ms": 207200,
+    "lemma": "tv",
+    "pos": "NOUN"
   },
   {
     "w": "money",
     "start_ms": 207200,
-    "end_ms": 207620
+    "end_ms": 207620,
+    "lemma": "money",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -2747,11 +3203,15 @@
   {
     "w": "least",
     "start_ms": 209280,
-    "end_ms": 209420
+    "end_ms": 209420,
+    "lemma": "least",
+    "pos": "ADJ"
   },
   {
     "w": "reliant.",
     "start_ms": 209420,
-    "end_ms": 209660
+    "end_ms": 209660,
+    "lemma": "reliant",
+    "pos": "ADJ"
   }
 ]

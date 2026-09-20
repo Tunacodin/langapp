@@ -2,7 +2,9 @@
   {
     "w": "Produced",
     "start_ms": 180,
-    "end_ms": 800
+    "end_ms": 800,
+    "lemma": "produce",
+    "pos": "VERB"
   },
   {
     "w": "by",
@@ -37,7 +39,9 @@
   {
     "w": "come",
     "start_ms": 5100,
-    "end_ms": 5280
+    "end_ms": 5280,
+    "lemma": "come",
+    "pos": "VERB"
   },
   {
     "w": "on",
@@ -57,7 +61,9 @@
   {
     "w": "meet",
     "start_ms": 5820,
-    "end_ms": 5980
+    "end_ms": 5980,
+    "lemma": "meet",
+    "pos": "VERB"
   },
   {
     "w": "all",
@@ -72,12 +78,16 @@
   {
     "w": "nice",
     "start_ms": 6360,
-    "end_ms": 6560
+    "end_ms": 6560,
+    "lemma": "nice",
+    "pos": "ADJ"
   },
   {
     "w": "people,",
     "start_ms": 6560,
-    "end_ms": 6980
+    "end_ms": 6980,
+    "lemma": "people",
+    "pos": "NOUN"
   },
   {
     "w": "please.",
@@ -87,12 +97,16 @@
   {
     "w": "All",
     "start_ms": 8400,
-    "end_ms": 8920
+    "end_ms": 8920,
+    "lemma": "all",
+    "pos": "ADV"
   },
   {
     "w": "right,",
     "start_ms": 8920,
-    "end_ms": 9460
+    "end_ms": 9460,
+    "lemma": "right",
+    "pos": "ADV"
   },
   {
     "w": "we",
@@ -102,7 +116,9 @@
   {
     "w": "really",
     "start_ms": 10040,
-    "end_ms": 10220
+    "end_ms": 10220,
+    "lemma": "really",
+    "pos": "ADV"
   },
   {
     "w": "can't",
@@ -112,7 +128,9 @@
   {
     "w": "blame",
     "start_ms": 10620,
-    "end_ms": 10760
+    "end_ms": 10760,
+    "lemma": "blame",
+    "pos": "VERB"
   },
   {
     "w": "you.",
@@ -127,7 +145,9 @@
   {
     "w": "see,",
     "start_ms": 11840,
-    "end_ms": 11980
+    "end_ms": 11980,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "Bert",
@@ -147,22 +167,30 @@
   {
     "w": "very,",
     "start_ms": 12800,
-    "end_ms": 13160
+    "end_ms": 13160,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "very",
     "start_ms": 13160,
-    "end_ms": 13640
+    "end_ms": 13640,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "careful",
     "start_ms": 13640,
-    "end_ms": 13920
+    "end_ms": 13920,
+    "lemma": "careful",
+    "pos": "ADJ"
   },
   {
     "w": "fellow.",
     "start_ms": 13920,
-    "end_ms": 14400
+    "end_ms": 14400,
+    "lemma": "fellow",
+    "pos": "NOUN"
   },
   {
     "w": "When",
@@ -177,7 +205,9 @@
   {
     "w": "danger,",
     "start_ms": 15340,
-    "end_ms": 15540
+    "end_ms": 15540,
+    "lemma": "danger",
+    "pos": "NOUN"
   },
   {
     "w": "this",
@@ -197,7 +227,9 @@
   {
     "w": "way",
     "start_ms": 16700,
-    "end_ms": 16880
+    "end_ms": 16880,
+    "lemma": "way",
+    "pos": "NOUN"
   },
   {
     "w": "he",
@@ -207,7 +239,9 @@
   {
     "w": "keeps",
     "start_ms": 17120,
-    "end_ms": 17320
+    "end_ms": 17320,
+    "lemma": "keep",
+    "pos": "VERB"
   },
   {
     "w": "from",
@@ -222,12 +256,16 @@
   {
     "w": "hurt.",
     "start_ms": 17760,
-    "end_ms": 18000
+    "end_ms": 18000,
+    "lemma": "hurt",
+    "pos": "VERB"
   },
   {
     "w": "Sometimes",
     "start_ms": 18980,
-    "end_ms": 19540
+    "end_ms": 19540,
+    "lemma": "sometimes",
+    "pos": "ADV"
   },
   {
     "w": "it",
@@ -237,12 +275,16 @@
   {
     "w": "even",
     "start_ms": 20100,
-    "end_ms": 20420
+    "end_ms": 20420,
+    "lemma": "even",
+    "pos": "ADV"
   },
   {
     "w": "saves",
     "start_ms": 20420,
-    "end_ms": 20760
+    "end_ms": 20760,
+    "lemma": "save",
+    "pos": "VERB"
   },
   {
     "w": "his",
@@ -252,7 +294,9 @@
   {
     "w": "life.",
     "start_ms": 21160,
-    "end_ms": 21420
+    "end_ms": 21420,
+    "lemma": "life",
+    "pos": "NOUN"
   },
   {
     "w": "That's",
@@ -272,7 +316,9 @@
   {
     "w": "children",
     "start_ms": 23360,
-    "end_ms": 23720
+    "end_ms": 23720,
+    "lemma": "child",
+    "pos": "NOUN"
   },
   {
     "w": "are",
@@ -282,7 +328,9 @@
   {
     "w": "practicing",
     "start_ms": 24120,
-    "end_ms": 24460
+    "end_ms": 24460,
+    "lemma": "practice",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -292,7 +340,9 @@
   {
     "w": "duck",
     "start_ms": 24940,
-    "end_ms": 25240
+    "end_ms": 25240,
+    "lemma": "duck",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -302,7 +352,9 @@
   {
     "w": "cover",
     "start_ms": 25540,
-    "end_ms": 25760
+    "end_ms": 25760,
+    "lemma": "cover",
+    "pos": "VERB"
   },
   {
     "w": "just",
@@ -322,7 +374,9 @@
   {
     "w": "do",
     "start_ms": 26760,
-    "end_ms": 26940
+    "end_ms": 26940,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "in",
@@ -337,7 +391,9 @@
   {
     "w": "school.",
     "start_ms": 27280,
-    "end_ms": 27640
+    "end_ms": 27640,
+    "lemma": "school",
+    "pos": "NOUN"
   },
   {
     "w": "We",
@@ -352,7 +408,9 @@
   {
     "w": "know",
     "start_ms": 29080,
-    "end_ms": 29380
+    "end_ms": 29380,
+    "lemma": "know",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -362,12 +420,16 @@
   {
     "w": "atomic",
     "start_ms": 29600,
-    "end_ms": 29860
+    "end_ms": 29860,
+    "lemma": "atomic",
+    "pos": "ADJ"
   },
   {
     "w": "bomb",
     "start_ms": 29860,
-    "end_ms": 30200
+    "end_ms": 30200,
+    "lemma": "bomb",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -377,12 +439,16 @@
   {
     "w": "very",
     "start_ms": 30700,
-    "end_ms": 30900
+    "end_ms": 30900,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "dangerous.",
     "start_ms": 30900,
-    "end_ms": 31360
+    "end_ms": 31360,
+    "lemma": "dangerous",
+    "pos": "ADJ"
   },
   {
     "w": "Since",
@@ -407,7 +473,9 @@
   {
     "w": "used",
     "start_ms": 32640,
-    "end_ms": 32860
+    "end_ms": 32860,
+    "lemma": "use",
+    "pos": "VERB"
   },
   {
     "w": "against",
@@ -432,12 +500,16 @@
   {
     "w": "get",
     "start_ms": 34240,
-    "end_ms": 34380
+    "end_ms": 34380,
+    "lemma": "get",
+    "pos": "VERB"
   },
   {
     "w": "ready",
     "start_ms": 34380,
-    "end_ms": 34640
+    "end_ms": 34640,
+    "lemma": "ready",
+    "pos": "ADJ"
   },
   {
     "w": "for",
@@ -452,7 +524,9 @@
   {
     "w": "just",
     "start_ms": 35180,
-    "end_ms": 35440
+    "end_ms": 35440,
+    "lemma": "just",
+    "pos": "ADV"
   },
   {
     "w": "as",
@@ -472,7 +546,9 @@
   {
     "w": "ready",
     "start_ms": 35860,
-    "end_ms": 36100
+    "end_ms": 36100,
+    "lemma": "ready",
+    "pos": "ADJ"
   },
   {
     "w": "for",
@@ -482,17 +558,23 @@
   {
     "w": "many",
     "start_ms": 36340,
-    "end_ms": 36520
+    "end_ms": 36520,
+    "lemma": "many",
+    "pos": "ADJ"
   },
   {
     "w": "other",
     "start_ms": 36520,
-    "end_ms": 36760
+    "end_ms": 36760,
+    "lemma": "other",
+    "pos": "ADJ"
   },
   {
     "w": "dangers",
     "start_ms": 36760,
-    "end_ms": 37100
+    "end_ms": 37100,
+    "lemma": "danger",
+    "pos": "NOUN"
   },
   {
     "w": "that",
@@ -527,12 +609,16 @@
   {
     "w": "time.",
     "start_ms": 38720,
-    "end_ms": 38980
+    "end_ms": 38980,
+    "lemma": "time",
+    "pos": "NOUN"
   },
   {
     "w": "Fire",
     "start_ms": 39680,
-    "end_ms": 40040
+    "end_ms": 40040,
+    "lemma": "fire",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -547,7 +633,9 @@
   {
     "w": "danger.",
     "start_ms": 40440,
-    "end_ms": 40680
+    "end_ms": 40680,
+    "lemma": "danger",
+    "pos": "NOUN"
   },
   {
     "w": "It",
@@ -562,17 +650,23 @@
   {
     "w": "burn",
     "start_ms": 41640,
-    "end_ms": 41840
+    "end_ms": 41840,
+    "lemma": "burn",
+    "pos": "VERB"
   },
   {
     "w": "whole",
     "start_ms": 41840,
-    "end_ms": 42120
+    "end_ms": 42120,
+    "lemma": "whole",
+    "pos": "ADJ"
   },
   {
     "w": "buildings",
     "start_ms": 42120,
-    "end_ms": 42600
+    "end_ms": 42600,
+    "lemma": "building",
+    "pos": "NOUN"
   },
   {
     "w": "if",
@@ -592,7 +686,9 @@
   {
     "w": "careless.",
     "start_ms": 43800,
-    "end_ms": 44120
+    "end_ms": 44120,
+    "lemma": "careless",
+    "pos": "ADJ"
   },
   {
     "w": "But",
@@ -612,7 +708,9 @@
   {
     "w": "ready",
     "start_ms": 45640,
-    "end_ms": 45840
+    "end_ms": 45840,
+    "lemma": "ready",
+    "pos": "ADJ"
   },
   {
     "w": "for",
@@ -622,7 +720,9 @@
   {
     "w": "fires.",
     "start_ms": 46100,
-    "end_ms": 46320
+    "end_ms": 46320,
+    "lemma": "fire",
+    "pos": "NOUN"
   },
   {
     "w": "We",
@@ -632,7 +732,9 @@
   {
     "w": "have",
     "start_ms": 47260,
-    "end_ms": 47360
+    "end_ms": 47360,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -642,17 +744,23 @@
   {
     "w": "fine",
     "start_ms": 47460,
-    "end_ms": 47760
+    "end_ms": 47760,
+    "lemma": "fine",
+    "pos": "ADJ"
   },
   {
     "w": "fire",
     "start_ms": 47760,
-    "end_ms": 48080
+    "end_ms": 48080,
+    "lemma": "fire",
+    "pos": "NOUN"
   },
   {
     "w": "department",
     "start_ms": 48080,
-    "end_ms": 48620
+    "end_ms": 48620,
+    "lemma": "department",
+    "pos": "NOUN"
   },
   {
     "w": "to",
@@ -662,7 +770,9 @@
   {
     "w": "put",
     "start_ms": 49000,
-    "end_ms": 49240
+    "end_ms": 49240,
+    "lemma": "put",
+    "pos": "VERB"
   },
   {
     "w": "out",
@@ -677,7 +787,9 @@
   {
     "w": "fire.",
     "start_ms": 49560,
-    "end_ms": 49820
+    "end_ms": 49820,
+    "lemma": "fire",
+    "pos": "NOUN"
   },
   {
     "w": "And",
@@ -692,17 +804,23 @@
   {
     "w": "have",
     "start_ms": 50600,
-    "end_ms": 50740
+    "end_ms": 50740,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "fire",
     "start_ms": 50740,
-    "end_ms": 51040
+    "end_ms": 51040,
+    "lemma": "fire",
+    "pos": "NOUN"
   },
   {
     "w": "drills",
     "start_ms": 51040,
-    "end_ms": 51420
+    "end_ms": 51420,
+    "lemma": "drill",
+    "pos": "NOUN"
   },
   {
     "w": "in",
@@ -717,12 +835,16 @@
   {
     "w": "school",
     "start_ms": 51860,
-    "end_ms": 52100
+    "end_ms": 52100,
+    "lemma": "school",
+    "pos": "NOUN"
   },
   {
     "w": "so",
     "start_ms": 52100,
-    "end_ms": 52680
+    "end_ms": 52680,
+    "lemma": "so",
+    "pos": "ADV"
   },
   {
     "w": "you",
@@ -732,7 +854,9 @@
   {
     "w": "know",
     "start_ms": 52820,
-    "end_ms": 53020
+    "end_ms": 53020,
+    "lemma": "know",
+    "pos": "VERB"
   },
   {
     "w": "what",
@@ -747,12 +871,16 @@
   {
     "w": "do.",
     "start_ms": 53380,
-    "end_ms": 53560
+    "end_ms": 53560,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "Automobiles",
     "start_ms": 54540,
-    "end_ms": 55060
+    "end_ms": 55060,
+    "lemma": "automobile",
+    "pos": "NOUN"
   },
   {
     "w": "can",
@@ -767,12 +895,16 @@
   {
     "w": "dangerous,",
     "start_ms": 55720,
-    "end_ms": 56020
+    "end_ms": 56020,
+    "lemma": "dangerous",
+    "pos": "ADJ"
   },
   {
     "w": "too.",
     "start_ms": 56280,
-    "end_ms": 56380
+    "end_ms": 56380,
+    "lemma": "too",
+    "pos": "ADV"
   },
   {
     "w": "They",
@@ -782,22 +914,30 @@
   {
     "w": "sometimes",
     "start_ms": 57080,
-    "end_ms": 57300
+    "end_ms": 57300,
+    "lemma": "sometimes",
+    "pos": "ADV"
   },
   {
     "w": "cause",
     "start_ms": 57300,
-    "end_ms": 57840
+    "end_ms": 57840,
+    "lemma": "cause",
+    "pos": "VERB"
   },
   {
     "w": "bad",
     "start_ms": 57840,
-    "end_ms": 58260
+    "end_ms": 58260,
+    "lemma": "bad",
+    "pos": "ADJ"
   },
   {
     "w": "accidents,",
     "start_ms": 58260,
-    "end_ms": 58660
+    "end_ms": 58660,
+    "lemma": "accident",
+    "pos": "NOUN"
   },
   {
     "w": "but",
@@ -817,7 +957,9 @@
   {
     "w": "ready.",
     "start_ms": 59580,
-    "end_ms": 59780
+    "end_ms": 59780,
+    "lemma": "ready",
+    "pos": "ADJ"
   },
   {
     "w": "We",
@@ -827,17 +969,23 @@
   {
     "w": "have",
     "start_ms": 60340,
-    "end_ms": 60460
+    "end_ms": 60460,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "safety",
     "start_ms": 60460,
-    "end_ms": 60620
+    "end_ms": 60620,
+    "lemma": "safety",
+    "pos": "NOUN"
   },
   {
     "w": "rules",
     "start_ms": 60620,
-    "end_ms": 61040
+    "end_ms": 61040,
+    "lemma": "rule",
+    "pos": "NOUN"
   },
   {
     "w": "that",
@@ -847,12 +995,16 @@
   {
     "w": "car",
     "start_ms": 61300,
-    "end_ms": 61500
+    "end_ms": 61500,
+    "lemma": "car",
+    "pos": "NOUN"
   },
   {
     "w": "drivers",
     "start_ms": 61500,
-    "end_ms": 61820
+    "end_ms": 61820,
+    "lemma": "driver",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -862,7 +1014,9 @@
   {
     "w": "people",
     "start_ms": 62180,
-    "end_ms": 62480
+    "end_ms": 62480,
+    "lemma": "people",
+    "pos": "NOUN"
   },
   {
     "w": "who",
@@ -877,7 +1031,9 @@
   {
     "w": "walking",
     "start_ms": 62760,
-    "end_ms": 63060
+    "end_ms": 63060,
+    "lemma": "walk",
+    "pos": "VERB"
   },
   {
     "w": "must",
@@ -887,12 +1043,16 @@
   {
     "w": "obey.",
     "start_ms": 63460,
-    "end_ms": 63740
+    "end_ms": 63740,
+    "lemma": "obey",
+    "pos": "VERB"
   },
   {
     "w": "Now,",
     "start_ms": 64580,
-    "end_ms": 65099
+    "end_ms": 65099,
+    "lemma": "now",
+    "pos": "ADV"
   },
   {
     "w": "we",
@@ -912,7 +1072,9 @@
   {
     "w": "ready",
     "start_ms": 66120,
-    "end_ms": 66340
+    "end_ms": 66340,
+    "lemma": "ready",
+    "pos": "ADJ"
   },
   {
     "w": "for",
@@ -927,12 +1089,16 @@
   {
     "w": "new",
     "start_ms": 66840,
-    "end_ms": 66980
+    "end_ms": 66980,
+    "lemma": "new",
+    "pos": "ADJ"
   },
   {
     "w": "danger,",
     "start_ms": 66980,
-    "end_ms": 67340
+    "end_ms": 67340,
+    "lemma": "danger",
+    "pos": "NOUN"
   },
   {
     "w": "the",
@@ -942,17 +1108,23 @@
   {
     "w": "atomic",
     "start_ms": 68160,
-    "end_ms": 68520
+    "end_ms": 68520,
+    "lemma": "atomic",
+    "pos": "ADJ"
   },
   {
     "w": "bomb.",
     "start_ms": 68520,
-    "end_ms": 68860
+    "end_ms": 68860,
+    "lemma": "bomb",
+    "pos": "NOUN"
   },
   {
     "w": "First,",
     "start_ms": 69960,
-    "end_ms": 70480
+    "end_ms": 70480,
+    "lemma": "first",
+    "pos": "ADV"
   },
   {
     "w": "you",
@@ -962,7 +1134,9 @@
   {
     "w": "have",
     "start_ms": 71000,
-    "end_ms": 71120
+    "end_ms": 71120,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -972,7 +1146,9 @@
   {
     "w": "know",
     "start_ms": 71240,
-    "end_ms": 71420
+    "end_ms": 71420,
+    "lemma": "know",
+    "pos": "VERB"
   },
   {
     "w": "what",
@@ -982,7 +1158,9 @@
   {
     "w": "happens",
     "start_ms": 71660,
-    "end_ms": 72000
+    "end_ms": 72000,
+    "lemma": "happen",
+    "pos": "VERB"
   },
   {
     "w": "when",
@@ -997,17 +1175,23 @@
   {
     "w": "atomic",
     "start_ms": 72440,
-    "end_ms": 72640
+    "end_ms": 72640,
+    "lemma": "atomic",
+    "pos": "ADJ"
   },
   {
     "w": "bomb",
     "start_ms": 72640,
-    "end_ms": 73040
+    "end_ms": 73040,
+    "lemma": "bomb",
+    "pos": "NOUN"
   },
   {
     "w": "explodes.",
     "start_ms": 73040,
-    "end_ms": 73420
+    "end_ms": 73420,
+    "lemma": "explode",
+    "pos": "NOUN"
   },
   {
     "w": "You",
@@ -1022,7 +1206,9 @@
   {
     "w": "know",
     "start_ms": 74700,
-    "end_ms": 74860
+    "end_ms": 74860,
+    "lemma": "know",
+    "pos": "VERB"
   },
   {
     "w": "when",
@@ -1037,7 +1223,9 @@
   {
     "w": "comes.",
     "start_ms": 75240,
-    "end_ms": 75480
+    "end_ms": 75480,
+    "lemma": "come",
+    "pos": "VERB"
   },
   {
     "w": "We",
@@ -1047,7 +1235,9 @@
   {
     "w": "hope",
     "start_ms": 76300,
-    "end_ms": 76460
+    "end_ms": 76460,
+    "lemma": "hope",
+    "pos": "VERB"
   },
   {
     "w": "it",
@@ -1057,12 +1247,16 @@
   {
     "w": "never",
     "start_ms": 76600,
-    "end_ms": 76740
+    "end_ms": 76740,
+    "lemma": "never",
+    "pos": "ADV"
   },
   {
     "w": "comes,",
     "start_ms": 76740,
-    "end_ms": 77080
+    "end_ms": 77080,
+    "lemma": "come",
+    "pos": "VERB"
   },
   {
     "w": "but",
@@ -1082,12 +1276,16 @@
   {
     "w": "get",
     "start_ms": 77880,
-    "end_ms": 78000
+    "end_ms": 78000,
+    "lemma": "get",
+    "pos": "VERB"
   },
   {
     "w": "ready.",
     "start_ms": 78000,
-    "end_ms": 78180
+    "end_ms": 78180,
+    "lemma": "ready",
+    "pos": "ADJ"
   },
   {
     "w": "It",
@@ -1097,7 +1295,9 @@
   {
     "w": "looks",
     "start_ms": 79120,
-    "end_ms": 79220
+    "end_ms": 79220,
+    "lemma": "look",
+    "pos": "VERB"
   },
   {
     "w": "something",
@@ -1122,7 +1322,9 @@
   {
     "w": "is",
     "start_ms": 80900,
-    "end_ms": 81040
+    "end_ms": 81040,
+    "lemma": "be",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -1132,17 +1334,23 @@
   {
     "w": "bright",
     "start_ms": 81080,
-    "end_ms": 81400
+    "end_ms": 81400,
+    "lemma": "bright",
+    "pos": "ADJ"
   },
   {
     "w": "flash,",
     "start_ms": 81400,
-    "end_ms": 81620
+    "end_ms": 81620,
+    "lemma": "flash",
+    "pos": "NOUN"
   },
   {
     "w": "brighter",
     "start_ms": 82120,
-    "end_ms": 82160
+    "end_ms": 82160,
+    "lemma": "bright",
+    "pos": "ADJ"
   },
   {
     "w": "than",
@@ -1157,12 +1365,16 @@
   {
     "w": "sun,",
     "start_ms": 82600,
-    "end_ms": 82820
+    "end_ms": 82820,
+    "lemma": "sun",
+    "pos": "NOUN"
   },
   {
     "w": "brighter",
     "start_ms": 83060,
-    "end_ms": 83180
+    "end_ms": 83180,
+    "lemma": "bright",
+    "pos": "ADJ"
   },
   {
     "w": "than",
@@ -1182,12 +1394,16 @@
   {
     "w": "ever",
     "start_ms": 84000,
-    "end_ms": 84160
+    "end_ms": 84160,
+    "lemma": "ever",
+    "pos": "ADV"
   },
   {
     "w": "seen.",
     "start_ms": 84160,
-    "end_ms": 84400
+    "end_ms": 84400,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "If",
@@ -1212,7 +1428,9 @@
   {
     "w": "ready",
     "start_ms": 86120,
-    "end_ms": 86480
+    "end_ms": 86480,
+    "lemma": "ready",
+    "pos": "ADJ"
   },
   {
     "w": "and",
@@ -1232,7 +1450,9 @@
   {
     "w": "know",
     "start_ms": 87260,
-    "end_ms": 87580
+    "end_ms": 87580,
+    "lemma": "know",
+    "pos": "VERB"
   },
   {
     "w": "what",
@@ -1247,7 +1467,9 @@
   {
     "w": "do,",
     "start_ms": 87940,
-    "end_ms": 88200
+    "end_ms": 88200,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "it",
@@ -1262,7 +1484,9 @@
   {
     "w": "hurt",
     "start_ms": 89220,
-    "end_ms": 89420
+    "end_ms": 89420,
+    "lemma": "hurt",
+    "pos": "VERB"
   },
   {
     "w": "you.",

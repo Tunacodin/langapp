@@ -1,0 +1,480 @@
+{
+  "originally": {
+    "pos": "adverb",
+    "cefr": "A2",
+    "senses": [
+      "aslen",
+      "baslangicta"
+    ]
+  },
+  "original": {
+    "pos": "adverb",
+    "cefr": "A2",
+    "senses": [
+      "aslen",
+      "baslangicta"
+    ]
+  },
+  "southwest": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "guneybati"
+    ]
+  },
+  "upstate": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "(eyaletin) kuzey/ic kesimi"
+    ]
+  },
+  "northwest": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "kuzeybati"
+    ]
+  },
+  "diverse": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "cesitli",
+      "farkli farkli"
+    ]
+  },
+  "completely": {
+    "pos": "adverb",
+    "cefr": "B1",
+    "senses": [
+      "tamamen",
+      "bambaska"
+    ]
+  },
+  "complete": {
+    "pos": "adverb",
+    "cefr": "B1",
+    "senses": [
+      "tamamen",
+      "bambaska"
+    ]
+  },
+  "similar": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "benzer"
+    ]
+  },
+  "varied": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "cesitli",
+      "degisken"
+    ]
+  },
+  "vary": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "cesitli",
+      "degisken"
+    ]
+  },
+  "shops": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "dukkanlar"
+    ]
+  },
+  "shop": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "dukkanlar"
+    ]
+  },
+  "museums": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "muzeler"
+    ]
+  },
+  "museum": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "muzeler"
+    ]
+  },
+  "capital": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "baskent"
+    ]
+  },
+  "interest": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "ilgili",
+      "meraklı",
+      "ilginc"
+    ]
+  },
+  "interested": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "ilgili",
+      "meraklı"
+    ]
+  },
+  "interesting": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "ilginc"
+    ]
+  },
+  "diversity": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "cesitlilik"
+    ]
+  },
+  "experience": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "yasamak",
+      "deneyimlemek"
+    ]
+  },
+  "experienced": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "yasamak",
+      "deneyimlemek"
+    ]
+  },
+  "racism": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "irkcilik"
+    ]
+  },
+  "constant": {
+    "pos": "adverb",
+    "cefr": "B2",
+    "senses": [
+      "surekli",
+      "durmadan"
+    ]
+  },
+  "constantly": {
+    "pos": "adverb",
+    "cefr": "B2",
+    "senses": [
+      "surekli",
+      "durmadan"
+    ]
+  },
+  "environment": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "ortam",
+      "cevre"
+    ]
+  },
+  "incredible": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "inanilmaz"
+    ]
+  },
+  "nowhere": {
+    "pos": "adverb",
+    "cefr": "B1",
+    "senses": [
+      "hicbir yer"
+    ]
+  },
+  "cosmopolitan": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "kozmopolit",
+      "cok kulturlu"
+    ]
+  },
+  "ethnic": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "etnik"
+    ]
+  },
+  "weather": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "hava (durumu)"
+    ]
+  },
+  "cultures": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "kulturler"
+    ]
+  },
+  "culture": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "kulturler"
+    ]
+  },
+  "recommend": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "onermek",
+      "tavsiye etmek"
+    ]
+  },
+  "massive": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "kocaman",
+      "devasa"
+    ]
+  },
+  "frightened": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "korkmus"
+    ]
+  },
+  "frighten": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "korkmus"
+    ]
+  },
+  "intimidate": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "gozu korkmus",
+      "urkmus"
+    ]
+  },
+  "intimidated": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "gozu korkmus",
+      "urkmus"
+    ]
+  },
+  "poor": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "kotu",
+      "yetersiz",
+      "fakir"
+    ]
+  },
+  "history": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "tarih"
+    ]
+  },
+  "area": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "bolgeler",
+      "alanlar"
+    ]
+  },
+  "areas": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "bolgeler",
+      "alanlar"
+    ]
+  },
+  "market": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "pazarlar"
+    ]
+  },
+  "markets": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "pazarlar"
+    ]
+  },
+  "touristy": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "turistik (bazen olumsuz)"
+    ]
+  },
+  "local": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "yerel"
+    ]
+  },
+  "awesome": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "harika",
+      "muhtesem"
+    ]
+  },
+  "anywhere": {
+    "pos": "adverb",
+    "cefr": "A2",
+    "senses": [
+      "herhangi bir yer",
+      "her yer"
+    ]
+  },
+  "describe": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "tanimlamak",
+      "tarif etmek"
+    ]
+  },
+  "rude": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "kaba",
+      "terbiyesiz"
+    ]
+  },
+  "friendly": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "cana yakin",
+      "arkadas canlisi"
+    ]
+  },
+  "hopeful": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "umutlu"
+    ]
+  },
+  "outgoing": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "disa donuk",
+      "sosyal"
+    ]
+  },
+  "multicultural": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "cok kulturlu"
+    ]
+  },
+  "welcoming": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "sicakkanli",
+      "misafirperver"
+    ]
+  },
+  "welcome": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "sicakkanli",
+      "misafirperver"
+    ]
+  },
+  "dynamic": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "dinamik",
+      "hareketli"
+    ]
+  },
+  "busy": {
+    "pos": "adjective",
+    "cefr": "A1",
+    "senses": [
+      "yogun",
+      "mesgul"
+    ]
+  },
+  "mistrust": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "guvenmeyen",
+      "supheci"
+    ]
+  },
+  "mistrusting": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "guvenmeyen",
+      "supheci"
+    ]
+  },
+  "fair": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "adil",
+      "hakkaniyetli"
+    ]
+  },
+  "cold": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "soguk (mesafeli)"
+    ]
+  }
+}

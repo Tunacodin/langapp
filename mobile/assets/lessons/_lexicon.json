@@ -1,0 +1,6267 @@
+[
+  {
+    "lemma": "ability",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kabiliyet"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yetenek"
+      }
+    ]
+  },
+  {
+    "lemma": "able",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "about",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "absolute",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "accident",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kazalar"
+      }
+    ]
+  },
+  {
+    "lemma": "accord",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "accuracy",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dogruluk"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "isabet"
+      }
+    ]
+  },
+  {
+    "lemma": "acquire",
+    "pos": "VERB",
+    "cefr": "C1",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "elde etmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "edinmek"
+      }
+    ]
+  },
+  {
+    "lemma": "actual",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "actually",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "add",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "additional",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "ilave"
+      }
+    ]
+  },
+  {
+    "lemma": "afraid",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "again",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "ago",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "air",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "algorithm",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "all",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hepsi, tüm"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "bütünüyle"
+      }
+    ]
+  },
+  {
+    "lemma": "already",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "also",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "always",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "amazing",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "american",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "animal",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "anymore",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "anywhere",
+    "pos": "ADV",
+    "cefr": "A2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "herhangi bir yer"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "her yer"
+      }
+    ]
+  },
+  {
+    "lemma": "appear",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "görünmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "çıkmak"
+      }
+    ]
+  },
+  {
+    "lemma": "appearance",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "görünüm"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "boy gösterme"
+      }
+    ]
+  },
+  {
+    "lemma": "approachable",
+    "pos": "ADJ",
+    "cefr": "C1",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ulasilabilir"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "anlasilir/erisilebilir"
+      }
+    ]
+  },
+  {
+    "lemma": "area",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bolgeler"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "alanlar"
+      }
+    ]
+  },
+  {
+    "lemma": "around",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "artificial",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "as",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "ask",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "assign",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "atamak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "vermek"
+      }
+    ]
+  },
+  {
+    "lemma": "atomic",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "atom(a ait)"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "atomik"
+      }
+    ]
+  },
+  {
+    "lemma": "attempt",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "attention",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dikkat"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "ilgi"
+      }
+    ]
+  },
+  {
+    "lemma": "automatically",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "automobile",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "otomobiller, arabalar"
+      }
+    ]
+  },
+  {
+    "lemma": "away",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "awesome",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "harika"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "muhtesem"
+      }
+    ]
+  },
+  {
+    "lemma": "back",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "bad",
+    "pos": "ADJ",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kotu"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "fena"
+      }
+    ]
+  },
+  {
+    "lemma": "base",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "basically",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "be",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "olmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "bulunmak"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "-dir (be fiilinin 3. tekil hali)"
+      }
+    ]
+  },
+  {
+    "lemma": "beautiful",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "become",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "benefit",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "fayda"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yarar"
+      }
+    ]
+  },
+  {
+    "lemma": "big",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "blame",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "suclamak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(isim) suc, kabahat"
+      }
+    ]
+  },
+  {
+    "lemma": "bomb",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bomba"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(fiil) bombalamak"
+      }
+    ]
+  },
+  {
+    "lemma": "bottom",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dip"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "sonuncu"
+      }
+    ]
+  },
+  {
+    "lemma": "bread",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "break",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "breath",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "bright",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "parlak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "aydınlık"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "zeki"
+      },
+      {
+        "sense_idx": 3,
+        "gloss_tr": "daha parlak"
+      },
+      {
+        "sense_idx": 4,
+        "gloss_tr": "daha aydınlık"
+      }
+    ]
+  },
+  {
+    "lemma": "broadcast",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "broadcaster",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yayıncılar"
+      }
+    ]
+  },
+  {
+    "lemma": "buddy",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "build",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "building",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "binalar"
+      }
+    ]
+  },
+  {
+    "lemma": "burn",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yakmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yanmak"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(yanık) yara"
+      }
+    ]
+  },
+  {
+    "lemma": "bustle",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "busy",
+    "pos": "ADJ",
+    "cefr": "A1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yogun"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "mesgul"
+      }
+    ]
+  },
+  {
+    "lemma": "call",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "cancer",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "capital",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "baskent"
+      }
+    ]
+  },
+  {
+    "lemma": "car",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "araba"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "otomobil"
+      }
+    ]
+  },
+  {
+    "lemma": "careful",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dikkatli"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "özenli"
+      }
+    ]
+  },
+  {
+    "lemma": "careless",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dikkatsiz"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "özensiz"
+      }
+    ]
+  },
+  {
+    "lemma": "cat",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "catch",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "cause",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "-e yol acmak, neden olmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(isim) neden, sebep"
+      }
+    ]
+  },
+  {
+    "lemma": "century",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "certainly",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "champion",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "SPORTS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "şampiyon"
+      }
+    ]
+  },
+  {
+    "lemma": "chance",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "change",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "channel",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "cheap",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "check",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "checker",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "cheer",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "child",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "çocuklar"
+      }
+    ]
+  },
+  {
+    "lemma": "choice",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "choose",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "circle",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "city",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "classification",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "siniflandirma"
+      }
+    ]
+  },
+  {
+    "lemma": "classify",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "siniflandirmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "siniflandirma"
+      }
+    ]
+  },
+  {
+    "lemma": "clean",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "cloud",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "club",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "coffee",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "coin",
+    "pos": "VERB",
+    "cefr": "C1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "(terim) turetmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "ortaya atmak"
+      }
+    ]
+  },
+  {
+    "lemma": "cold",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "soguk (mesafeli)"
+      }
+    ]
+  },
+  {
+    "lemma": "collect",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "toplamak"
+      }
+    ]
+  },
+  {
+    "lemma": "come",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gelmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "gelir (come fiilinin 3. tekil hali)"
+      }
+    ]
+  },
+  {
+    "lemma": "comment",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yorum"
+      }
+    ]
+  },
+  {
+    "lemma": "commit",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kendini adamak"
+      }
+    ]
+  },
+  {
+    "lemma": "compare",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "karsilastirmak"
+      }
+    ]
+  },
+  {
+    "lemma": "completely",
+    "pos": "ADV",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tamamen"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "bambaska"
+      }
+    ]
+  },
+  {
+    "lemma": "computer",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "condition",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "sart"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "kosul"
+      }
+    ]
+  },
+  {
+    "lemma": "confederation",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "connect",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "constantly",
+    "pos": "ADV",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "surekli"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "durmadan"
+      }
+    ]
+  },
+  {
+    "lemma": "contain",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "icermek"
+      }
+    ]
+  },
+  {
+    "lemma": "content",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "convolutional",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "cool",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "cool",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "cosmopolitan",
+    "pos": "ADJ",
+    "cefr": "C1",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kozmopolit"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "cok kulturlu"
+      }
+    ]
+  },
+  {
+    "lemma": "cost",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "couch",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "HOME",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kanepe"
+      }
+    ]
+  },
+  {
+    "lemma": "cover",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "örtmek, kapamak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "siper almak, kapanmak"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(isim) örtü, kapak"
+      }
+    ]
+  },
+  {
+    "lemma": "crazy",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "cream",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "create",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "uretici"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yaratici"
+      }
+    ]
+  },
+  {
+    "lemma": "creator",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "uretici"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yaratici"
+      }
+    ]
+  },
+  {
+    "lemma": "culture",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kulturler"
+      }
+    ]
+  },
+  {
+    "lemma": "cup",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "danger",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tehlike"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "tehlikeler"
+      }
+    ]
+  },
+  {
+    "lemma": "dangerous",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tehlikeli"
+      }
+    ]
+  },
+  {
+    "lemma": "data",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "dataset",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "day",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "deal",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "anlaşma"
+      }
+    ]
+  },
+  {
+    "lemma": "decide",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "decision",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "definitely",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "department",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bölüm, daire"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(fire department) itfaiye"
+      }
+    ]
+  },
+  {
+    "lemma": "depend",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "dependent",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bağlı"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "dayalı"
+      }
+    ]
+  },
+  {
+    "lemma": "deploy",
+    "pos": "VERB",
+    "cefr": "C1",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "konuslandirmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "devreye almak"
+      }
+    ]
+  },
+  {
+    "lemma": "describe",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "anlatmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "tarif etmek"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "tanimlamak"
+      }
+    ]
+  },
+  {
+    "lemma": "deserve",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hak etmek"
+      }
+    ]
+  },
+  {
+    "lemma": "develop",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gelistirmek"
+      }
+    ]
+  },
+  {
+    "lemma": "device",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "cihaz"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "aygit"
+      }
+    ]
+  },
+  {
+    "lemma": "different",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "difficult",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "dish",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "diverse",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "cesitli"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "farkli farkli"
+      }
+    ]
+  },
+  {
+    "lemma": "diversity",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "cesitlilik"
+      }
+    ]
+  },
+  {
+    "lemma": "divide",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bölmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "ayırmak"
+      }
+    ]
+  },
+  {
+    "lemma": "do",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yapmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(soru/olumsuz için) yardımcı fiil"
+      }
+    ]
+  },
+  {
+    "lemma": "dog",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "domestic",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yurt içi"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "iç"
+      }
+    ]
+  },
+  {
+    "lemma": "dominance",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "SPORTS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "üstünlük"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "hakimiyet"
+      }
+    ]
+  },
+  {
+    "lemma": "door",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "drill",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tatbikatlar"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "alıştırmalar"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "matkaplar"
+      }
+    ]
+  },
+  {
+    "lemma": "driver",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "sürücüler, şoförler"
+      }
+    ]
+  },
+  {
+    "lemma": "drop",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "duck",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "eğilmek, çömelmek (kaçınmak için)"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(isim) ördek"
+      }
+    ]
+  },
+  {
+    "lemma": "dude",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "dynamic",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dinamik"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "hareketli"
+      }
+    ]
+  },
+  {
+    "lemma": "early",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "earn",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kazanmak"
+      }
+    ]
+  },
+  {
+    "lemma": "easily",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "easy",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "effort",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "caba"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "emek"
+      }
+    ]
+  },
+  {
+    "lemma": "ego",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ego"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "benlik"
+      }
+    ]
+  },
+  {
+    "lemma": "else",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "embed",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gomulu"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yerlesik"
+      }
+    ]
+  },
+  {
+    "lemma": "end",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "engineer",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "engineering",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "enjoy",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "entire",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "environment",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "NATURE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ortam"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "cevre"
+      }
+    ]
+  },
+  {
+    "lemma": "equal",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "eşit"
+      }
+    ]
+  },
+  {
+    "lemma": "equally",
+    "pos": "ADV",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "eşit olarak"
+      }
+    ]
+  },
+  {
+    "lemma": "error",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "estimate",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tahmin etmek"
+      }
+    ]
+  },
+  {
+    "lemma": "ethnic",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "etnik"
+      }
+    ]
+  },
+  {
+    "lemma": "euro",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "even",
+    "pos": "ADV",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bile, hatta"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(sıfat) düz, eşit"
+      }
+    ]
+  },
+  {
+    "lemma": "ever",
+    "pos": "ADV",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hiç, şimdiye dek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "her zaman"
+      }
+    ]
+  },
+  {
+    "lemma": "everywhere",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "exactly",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "example",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "expect",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "beklemek"
+      }
+    ]
+  },
+  {
+    "lemma": "expectation",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "beklentiler"
+      }
+    ]
+  },
+  {
+    "lemma": "experience",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yasamak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "deneyimlemek"
+      }
+    ]
+  },
+  {
+    "lemma": "experience",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "experienced",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yasamak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "deneyimlemek"
+      }
+    ]
+  },
+  {
+    "lemma": "explicitly",
+    "pos": "ADV",
+    "cefr": "C1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "acikca"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "aciktan"
+      }
+    ]
+  },
+  {
+    "lemma": "explode",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "patlar (explode fiilinin 3. tekil hali)"
+      }
+    ]
+  },
+  {
+    "lemma": "extremely",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "eye",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "facility",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fact",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fair",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "adil"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "hakkaniyetli"
+      }
+    ]
+  },
+  {
+    "lemma": "fake",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "sahte"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yapay"
+      }
+    ]
+  },
+  {
+    "lemma": "fancy",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fantastic",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "favorite",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "feature",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fee",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ücretler"
+      }
+    ]
+  },
+  {
+    "lemma": "feed",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "FOOD",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "beslemek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "vermek"
+      }
+    ]
+  },
+  {
+    "lemma": "feel",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fellow",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "adam, kişi, herif"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(sıfat) hem-, arkadaş (fellow worker: iş arkadaşı)"
+      }
+    ]
+  },
+  {
+    "lemma": "few",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "file",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "final",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "finally",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "financial",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "finansal"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "mali"
+      }
+    ]
+  },
+  {
+    "lemma": "find",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fine",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "iyi, güzel"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "ince, kaliteli"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(isim) para cezası"
+      }
+    ]
+  },
+  {
+    "lemma": "finish",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fire",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ateş, yangın"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(fiil) ateş etmek"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(fiil) işten kovmak"
+      },
+      {
+        "sense_idx": 3,
+        "gloss_tr": "yanginlar, atesler"
+      }
+    ]
+  },
+  {
+    "lemma": "first",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "first",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "önce, ilk olarak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "birinci"
+      }
+    ]
+  },
+  {
+    "lemma": "flash",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "parlama, ışık patlaması"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "flaş"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(fiil) çakmak, parıldamak"
+      }
+    ]
+  },
+  {
+    "lemma": "fluctuate",
+    "pos": "VERB",
+    "cefr": "C1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dalgalanmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "değişmek"
+      }
+    ]
+  },
+  {
+    "lemma": "focus",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "follow",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "food",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "forever",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "forward",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "framework",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fresh",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "friend",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "friendly",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "cana yakin"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "arkadas canlisi"
+      }
+    ]
+  },
+  {
+    "lemma": "frightened",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "korkmus"
+      }
+    ]
+  },
+  {
+    "lemma": "full",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fun",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "function",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "fund",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "fonlar"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "kaynaklar"
+      }
+    ]
+  },
+  {
+    "lemma": "fundamental",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "temel"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "esas"
+      }
+    ]
+  },
+  {
+    "lemma": "further",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "daha fazla"
+      }
+    ]
+  },
+  {
+    "lemma": "future",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "garbage",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "HOME",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "cop"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "ise yaramaz sey"
+      }
+    ]
+  },
+  {
+    "lemma": "garbage",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "HOME",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "cop"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "ise yaramaz sey"
+      }
+    ]
+  },
+  {
+    "lemma": "generally",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "generation",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "genuinely",
+    "pos": "ADV",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "icten"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "samimi bir sekilde"
+      }
+    ]
+  },
+  {
+    "lemma": "get",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "almak, elde etmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "olmak, -leşmek"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "varmak, ulaşmak"
+      }
+    ]
+  },
+  {
+    "lemma": "give",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "glut",
+    "pos": "NOUN",
+    "cefr": "C2",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "aşırı bolluk"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "fazlalık"
+      }
+    ]
+  },
+  {
+    "lemma": "go",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "good",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "grab",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kapmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "almak"
+      }
+    ]
+  },
+  {
+    "lemma": "gradually",
+    "pos": "ADV",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "giderek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yavas yavas"
+      }
+    ]
+  },
+  {
+    "lemma": "grant",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "great",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "group",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "grow",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "guarantee",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "garanti etmek"
+      }
+    ]
+  },
+  {
+    "lemma": "guess",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "guy",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "half",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yarı"
+      }
+    ]
+  },
+  {
+    "lemma": "hang",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "happen",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "olur, gerçekleşir (happen fiilinin 3. tekil hali)"
+      }
+    ]
+  },
+  {
+    "lemma": "have",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "sahip olmak, -si olmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(have to) -mek zorunda olmak"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "yardımcı fiil (perfect)"
+      }
+    ]
+  },
+  {
+    "lemma": "hell",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "help",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "here",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "high",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "history",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "EDUCATION",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tarih"
+      }
+    ]
+  },
+  {
+    "lemma": "home",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "hope",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ummak, ümit etmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(isim) umut"
+      }
+    ]
+  },
+  {
+    "lemma": "hopeful",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "umutlu"
+      }
+    ]
+  },
+  {
+    "lemma": "hopefully",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "horrible",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "korkunc"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "berbat"
+      }
+    ]
+  },
+  {
+    "lemma": "hour",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "however",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "hurt",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "incitmek, canını yakmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "acımak"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "zarar vermek"
+      }
+    ]
+  },
+  {
+    "lemma": "hustle",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "idea",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "image",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "imagine",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "immediately",
+    "pos": "ADV",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hemen"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "aninda"
+      }
+    ]
+  },
+  {
+    "lemma": "impossible",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "impressive",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "etkileyici"
+      }
+    ]
+  },
+  {
+    "lemma": "improve",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "iyilestirmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "gelistirmek"
+      }
+    ]
+  },
+  {
+    "lemma": "in",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "inbox",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gelen kutusu"
+      }
+    ]
+  },
+  {
+    "lemma": "income",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gelirler"
+      }
+    ]
+  },
+  {
+    "lemma": "increase",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "artış"
+      }
+    ]
+  },
+  {
+    "lemma": "incredible",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "inanilmaz"
+      }
+    ]
+  },
+  {
+    "lemma": "incredibly",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "input",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "instead",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "intelligence",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "interact",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "interested",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ilgili"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "meraklı"
+      }
+    ]
+  },
+  {
+    "lemma": "interesting",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ilginc"
+      }
+    ]
+  },
+  {
+    "lemma": "intimidate",
+    "pos": "VERB",
+    "cefr": "C1",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gozu korkmus"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "urkmus"
+      }
+    ]
+  },
+  {
+    "lemma": "introduce",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": "GREETINGS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tanistirmak"
+      }
+    ]
+  },
+  {
+    "lemma": "invite",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": "GREETINGS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "davet etmek"
+      }
+    ]
+  },
+  {
+    "lemma": "job",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "journey",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yolculuk"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "surec"
+      }
+    ]
+  },
+  {
+    "lemma": "just",
+    "pos": "ADV",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "sadece, yalnizca"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "az once"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "tam"
+      }
+    ]
+  },
+  {
+    "lemma": "keep",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tutar, saklar"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(keep from) -mekten alıkoyar/korur"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "sürdürür"
+      }
+    ]
+  },
+  {
+    "lemma": "key",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "temel"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "anahtar"
+      }
+    ]
+  },
+  {
+    "lemma": "kick",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "kind",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "kind",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "know",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bilmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "tanımak"
+      }
+    ]
+  },
+  {
+    "lemma": "language",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "last",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "late",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "en son"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "en güncel"
+      }
+    ]
+  },
+  {
+    "lemma": "later",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "league",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "learn",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "learning",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "least",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "en az"
+      }
+    ]
+  },
+  {
+    "lemma": "leave",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "left",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "less",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "life",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hayat, yaşam"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "can"
+      }
+    ]
+  },
+  {
+    "lemma": "like",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "linear",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "lion",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "live",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "live",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "loaf",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "FOOD",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "somun"
+      }
+    ]
+  },
+  {
+    "lemma": "local",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yerel"
+      }
+    ]
+  },
+  {
+    "lemma": "logistic",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "londoner",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "long",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "look",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gorunur, bakar"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(look like) -e benzer"
+      }
+    ]
+  },
+  {
+    "lemma": "lose",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "lot",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "love",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "low",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "machine",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "make",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "man",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "manual",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "elle yapilan"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "el ile"
+      }
+    ]
+  },
+  {
+    "lemma": "many",
+    "pos": "ADJ",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bircok, cok"
+      }
+    ]
+  },
+  {
+    "lemma": "market",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "pazarlar"
+      }
+    ]
+  },
+  {
+    "lemma": "massive",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kocaman"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "devasa"
+      }
+    ]
+  },
+  {
+    "lemma": "maybe",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "mean",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "mean",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "meet",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tanismak, bulusmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "karsilamak"
+      }
+    ]
+  },
+  {
+    "lemma": "merit",
+    "pos": "NOUN",
+    "cefr": "C1",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "liyakat"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "başarı"
+      }
+    ]
+  },
+  {
+    "lemma": "message",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "milk",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "minded",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "minimize",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "en aza indirmek"
+      }
+    ]
+  },
+  {
+    "lemma": "minimum",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "asgari"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "en az"
+      }
+    ]
+  },
+  {
+    "lemma": "mistrust",
+    "pos": "VERB",
+    "cefr": "C1",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "guvenmeyen"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "supheci"
+      }
+    ]
+  },
+  {
+    "lemma": "mix",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "model",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "moment",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "money",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "month",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "moral",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "more",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "more",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "most",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "most",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "mostly",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "much",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "much",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "multicultural",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "cok kulturlu"
+      }
+    ]
+  },
+  {
+    "lemma": "museum",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "muzeler"
+      }
+    ]
+  },
+  {
+    "lemma": "music",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "name",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "natural",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "need",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "network",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "neural",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "never",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "asla, hiçbir zaman"
+      }
+    ]
+  },
+  {
+    "lemma": "new",
+    "pos": "ADJ",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yeni"
+      }
+    ]
+  },
+  {
+    "lemma": "next",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "next",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "nice",
+    "pos": "ADJ",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hos, iyi, guzel"
+      }
+    ]
+  },
+  {
+    "lemma": "night",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "northwest",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kuzeybati"
+      }
+    ]
+  },
+  {
+    "lemma": "now",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "simdi"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "artik"
+      }
+    ]
+  },
+  {
+    "lemma": "nowhere",
+    "pos": "ADV",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hicbir yer"
+      }
+    ]
+  },
+  {
+    "lemma": "number",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "obey",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "uymak, itaat etmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "boyun eğmek"
+      }
+    ]
+  },
+  {
+    "lemma": "obviously",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "of",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "often",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "old",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "once",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "one",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "online",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "only",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "open",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "optimize",
+    "pos": "VERB",
+    "cefr": "C1",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "en iyilenmis"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "optimize edilmis"
+      }
+    ]
+  },
+  {
+    "lemma": "option",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "secenekler"
+      }
+    ]
+  },
+  {
+    "lemma": "order",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": "FOOD",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "siparis etmek"
+      }
+    ]
+  },
+  {
+    "lemma": "organic",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "originally",
+    "pos": "ADV",
+    "cefr": "A2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "aslen"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "baslangicta"
+      }
+    ]
+  },
+  {
+    "lemma": "other",
+    "pos": "ADJ",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "diger, oteki, baska"
+      }
+    ]
+  },
+  {
+    "lemma": "out",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "outcome",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "sonuclar"
+      }
+    ]
+  },
+  {
+    "lemma": "outgoing",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "disa donuk"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "sosyal"
+      }
+    ]
+  },
+  {
+    "lemma": "overrated",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "abartilmis"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "fazla deger gormus"
+      }
+    ]
+  },
+  {
+    "lemma": "overseas",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yurt dışı"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "deniz aşırı"
+      }
+    ]
+  },
+  {
+    "lemma": "oyster",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "parameter",
+    "pos": "NOUN",
+    "cefr": "C1",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "parametreler"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "ölçütler"
+      }
+    ]
+  },
+  {
+    "lemma": "part",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "patient",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "HEALTH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hasta"
+      }
+    ]
+  },
+  {
+    "lemma": "pay",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "people",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "insanlar"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "halk"
+      }
+    ]
+  },
+  {
+    "lemma": "perform",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yapmak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yerine getirmek"
+      }
+    ]
+  },
+  {
+    "lemma": "period",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dönem"
+      }
+    ]
+  },
+  {
+    "lemma": "personally",
+    "pos": "ADV",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "sahsen"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "bizzat"
+      }
+    ]
+  },
+  {
+    "lemma": "piece",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "place",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "place",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "plan",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "play",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "plenty",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "poor",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kotu"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yetersiz"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "fakir"
+      }
+    ]
+  },
+  {
+    "lemma": "popular",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "position",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "sıra"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "konum"
+      }
+    ]
+  },
+  {
+    "lemma": "possible",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "possibly",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "pound",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "power",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "practice",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "pratik yapıyor, alıştırma yapıyor (practice -ing)"
+      }
+    ]
+  },
+  {
+    "lemma": "prediction",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tahminler"
+      }
+    ]
+  },
+  {
+    "lemma": "predictive",
+    "pos": "ADJ",
+    "cefr": "C1",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tahmine dayali"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "ongoren"
+      }
+    ]
+  },
+  {
+    "lemma": "previous",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "önceki"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "evvelki"
+      }
+    ]
+  },
+  {
+    "lemma": "problem",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "process",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "surec"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "islem"
+      }
+    ]
+  },
+  {
+    "lemma": "produce",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "uretildi/uretti (produce)"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yapimini ustlendi"
+      }
+    ]
+  },
+  {
+    "lemma": "product",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "program",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "promise",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "soz vermek"
+      }
+    ]
+  },
+  {
+    "lemma": "pull",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "put",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "koymak, yerleştirmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(put out) söndürmek"
+      }
+    ]
+  },
+  {
+    "lemma": "question",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "quickly",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "quite",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "racism",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "irkcilik"
+      }
+    ]
+  },
+  {
+    "lemma": "ratio",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "oran"
+      }
+    ]
+  },
+  {
+    "lemma": "raw",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "FOOD",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ham"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "islenmemis"
+      }
+    ]
+  },
+  {
+    "lemma": "reach",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "ready",
+    "pos": "ADJ",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hazır"
+      }
+    ]
+  },
+  {
+    "lemma": "real",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "really",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gercekten, cidden"
+      }
+    ]
+  },
+  {
+    "lemma": "reason",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "receive",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "almak"
+      }
+    ]
+  },
+  {
+    "lemma": "recommend",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "onermek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "tavsiye etmek"
+      }
+    ]
+  },
+  {
+    "lemma": "record",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "SPORTS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "rekorlar"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "kayıtlar"
+      }
+    ]
+  },
+  {
+    "lemma": "record",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "SPORTS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "rekorlar"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "kayıtlar"
+      }
+    ]
+  },
+  {
+    "lemma": "recover",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "HEALTH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "iyilesmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "toparlanmak"
+      }
+    ]
+  },
+  {
+    "lemma": "regression",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "reliance",
+    "pos": "NOUN",
+    "cefr": "C1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bağımlılık"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "güvenme"
+      }
+    ]
+  },
+  {
+    "lemma": "reliant",
+    "pos": "ADJ",
+    "cefr": "C1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bağımlı"
+      }
+    ]
+  },
+  {
+    "lemma": "remain",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kalan"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "geriye kalan"
+      }
+    ]
+  },
+  {
+    "lemma": "reminder",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hatirlatici"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "hatirlatma"
+      }
+    ]
+  },
+  {
+    "lemma": "renegotiation",
+    "pos": "NOUN",
+    "cefr": "C1",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yeniden müzakere"
+      }
+    ]
+  },
+  {
+    "lemma": "represent",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "temsil etmek"
+      }
+    ]
+  },
+  {
+    "lemma": "research",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "resource",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kaynak"
+      }
+    ]
+  },
+  {
+    "lemma": "respect",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "saygi duymak"
+      }
+    ]
+  },
+  {
+    "lemma": "result",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "revenue",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gelir"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "hasılat"
+      }
+    ]
+  },
+  {
+    "lemma": "ride",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "right",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "right",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dogru"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "sag"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(all right) peki, tamam"
+      }
+    ]
+  },
+  {
+    "lemma": "right",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "rival",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "SPORTS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "rakipler"
+      }
+    ]
+  },
+  {
+    "lemma": "road",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "roughly",
+    "pos": "ADV",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kabaca"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yaklaşık"
+      }
+    ]
+  },
+  {
+    "lemma": "round",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "SPORTS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tur"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "aşama"
+      }
+    ]
+  },
+  {
+    "lemma": "rude",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "SOCIAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kaba"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "terbiyesiz"
+      }
+    ]
+  },
+  {
+    "lemma": "rule",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kurallar"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(fiil) yönetir, hükmeder"
+      }
+    ]
+  },
+  {
+    "lemma": "safety",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "güvenlik"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "emniyet"
+      }
+    ]
+  },
+  {
+    "lemma": "same",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "save",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kurtarır"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "biriktirir, tasarruf eder"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(dosya) kaydeder"
+      }
+    ]
+  },
+  {
+    "lemma": "say",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "scholastically",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "school",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "okul"
+      }
+    ]
+  },
+  {
+    "lemma": "scientist",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "season",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "seat",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "second",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "see",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "görmek"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "anlamak"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(you see) bak, anlarsın ya"
+      },
+      {
+        "sense_idx": 3,
+        "gloss_tr": "görülmüş, görülen (see fiilinin 3. hali)"
+      }
+    ]
+  },
+  {
+    "lemma": "self",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "send",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "separate",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ayirmak"
+      }
+    ]
+  },
+  {
+    "lemma": "set",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "shape",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "share",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "pay"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "hisse"
+      }
+    ]
+  },
+  {
+    "lemma": "share",
+    "pos": "VERB",
+    "cefr": "B1",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "pay"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "hisse"
+      }
+    ]
+  },
+  {
+    "lemma": "shoot",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "shop",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": "HOME",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dukkanlar"
+      }
+    ]
+  },
+  {
+    "lemma": "short",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "shortage",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "signal",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "similar",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "benzer"
+      }
+    ]
+  },
+  {
+    "lemma": "simple",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "sit",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "so",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bu yüzden, öyleyse"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "çok, o kadar"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(so that) -sın diye"
+      }
+    ]
+  },
+  {
+    "lemma": "sometimes",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bazen, ara sıra"
+      }
+    ]
+  },
+  {
+    "lemma": "sort",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "sort",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "sound",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "southwest",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "guneybati"
+      }
+    ]
+  },
+  {
+    "lemma": "spending",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "harcama"
+      }
+    ]
+  },
+  {
+    "lemma": "spit",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "split",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "staggering",
+    "pos": "ADJ",
+    "cefr": "C1",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hayret verici"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "şaşırtıcı"
+      }
+    ]
+  },
+  {
+    "lemma": "start",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "state",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "statistical",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "step",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "stick",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "still",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "stock",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hisse senedi"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "stok"
+      }
+    ]
+  },
+  {
+    "lemma": "story",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "structure",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yapı"
+      }
+    ]
+  },
+  {
+    "lemma": "stuff",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "stupid",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "subscribe",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "abone olmak"
+      }
+    ]
+  },
+  {
+    "lemma": "subscriber",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "abone"
+      }
+    ]
+  },
+  {
+    "lemma": "subscription",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "suck",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "berbat olmak (argo)"
+      }
+    ]
+  },
+  {
+    "lemma": "summer",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "sun",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "güneş"
+      }
+    ]
+  },
+  {
+    "lemma": "support",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "suppose",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "sure",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "surgery",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "HEALTH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "ameliyat"
+      }
+    ]
+  },
+  {
+    "lemma": "surround",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "sweater",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "HOME",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kazak"
+      }
+    ]
+  },
+  {
+    "lemma": "switch",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "table",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "take",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "task",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "BUSINESS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "gorev"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "is"
+      }
+    ]
+  },
+  {
+    "lemma": "teach",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "team",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "tell",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "term",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "testing",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "text",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": "MEDIA",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "mesaj atmak"
+      }
+    ]
+  },
+  {
+    "lemma": "thank",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "thank",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "then",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "there",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "thing",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "think",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "thought",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "time",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "zaman"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "kez, defa"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(all the time) her zaman"
+      }
+    ]
+  },
+  {
+    "lemma": "title",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "SPORTS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "baslik"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "şampiyonluk"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "unvan"
+      }
+    ]
+  },
+  {
+    "lemma": "together",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "too",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "de/da, ayrica"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "cok, fazla"
+      }
+    ]
+  },
+  {
+    "lemma": "top",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "top",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "tough",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "touristy",
+    "pos": "NOUN",
+    "cefr": "B2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "turistik (bazen olumsuz)"
+      }
+    ]
+  },
+  {
+    "lemma": "tower",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "train",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": "EDUCATION",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "egitim"
+      }
+    ]
+  },
+  {
+    "lemma": "training",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "EDUCATION",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "egitim"
+      }
+    ]
+  },
+  {
+    "lemma": "transfer",
+    "pos": "NOUN",
+    "cefr": "B1",
+    "domain": "SPORTS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "transfer"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "geçiş"
+      }
+    ]
+  },
+  {
+    "lemma": "transform",
+    "pos": "VERB",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "donusturmek"
+      }
+    ]
+  },
+  {
+    "lemma": "tree",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "true",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "try",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "turtle",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "tv",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "underlie",
+    "pos": "VERB",
+    "cefr": "C1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "alttaki"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "temeldeki"
+      }
+    ]
+  },
+  {
+    "lemma": "understand",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "up",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "upstate",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "TRAVEL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "(eyaletin) kuzey/ic kesimi"
+      }
+    ]
+  },
+  {
+    "lemma": "use",
+    "pos": "VERB",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "kullanıldı/kullanılan (use)"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "(be used) kullanılmak"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(used to) eskiden -erdi"
+      }
+    ]
+  },
+  {
+    "lemma": "useful",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "validate",
+    "pos": "VERB",
+    "cefr": "C1",
+    "domain": "TECH",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "dogrulamak"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "gecerligini olcmek"
+      }
+    ]
+  },
+  {
+    "lemma": "valuable",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "degerli"
+      }
+    ]
+  },
+  {
+    "lemma": "varied",
+    "pos": "ADJ",
+    "cefr": "B2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "cesitli"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "degisken"
+      }
+    ]
+  },
+  {
+    "lemma": "very",
+    "pos": "ADV",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "çok"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "tam da"
+      }
+    ]
+  },
+  {
+    "lemma": "video",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "virtually",
+    "pos": "ADV",
+    "cefr": "C1",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "neredeyse"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "adeta"
+      }
+    ]
+  },
+  {
+    "lemma": "wait",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "walk",
+    "pos": "VERB",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yürüyor, yürüyen (walk -ing)"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yürüyüş"
+      }
+    ]
+  },
+  {
+    "lemma": "wandering",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "want",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "watch",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "way",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "yol"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "yöntem, biçim"
+      },
+      {
+        "sense_idx": 2,
+        "gloss_tr": "(this way) bu şekilde"
+      }
+    ]
+  },
+  {
+    "lemma": "wear",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "weather",
+    "pos": "NOUN",
+    "cefr": "A1",
+    "domain": "NATURE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "hava (durumu)"
+      }
+    ]
+  },
+  {
+    "lemma": "week",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "weight",
+    "pos": "NOUN",
+    "cefr": "A2",
+    "domain": "GENERAL",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "agirliklar"
+      }
+    ]
+  },
+  {
+    "lemma": "weird",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "EMOTIONS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "tuhaf"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "garip"
+      }
+    ]
+  },
+  {
+    "lemma": "welcoming",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "GREETINGS",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "sicakkanli"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "misafirperver"
+      }
+    ]
+  },
+  {
+    "lemma": "well",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "well",
+    "pos": "ADV",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "while",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "whole",
+    "pos": "ADJ",
+    "cefr": "A2",
+    "domain": null,
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "bütün, tüm"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "koca"
+      }
+    ]
+  },
+  {
+    "lemma": "wild",
+    "pos": "ADJ",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "win",
+    "pos": "VERB",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "windfall",
+    "pos": "NOUN",
+    "cefr": "C1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "beklenmedik gelir"
+      },
+      {
+        "sense_idx": 1,
+        "gloss_tr": "talih kuşu"
+      }
+    ]
+  },
+  {
+    "lemma": "work",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "world",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "worth",
+    "pos": "ADJ",
+    "cefr": "B1",
+    "domain": "FINANCE",
+    "senses": [
+      {
+        "sense_idx": 0,
+        "gloss_tr": "değerinde"
+      }
+    ]
+  },
+  {
+    "lemma": "year",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  },
+  {
+    "lemma": "youtube",
+    "pos": "NOUN",
+    "cefr": null,
+    "domain": null,
+    "senses": []
+  }
+]

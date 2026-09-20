@@ -1,0 +1,4678 @@
+{
+  "video_id": "ndrew_sleep",
+  "title": "Nathaniel Drew sleep experiment 30 days",
+  "topic": "daily",
+  "license": "",
+  "cefr": "B2",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 4920,
+      "text_en": "I think it's cool to study the lives of very successful people from throughout history.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 5240,
+      "end_ms": 6560,
+      "text_en": "I don't think that's very unique of me.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 7040,
+      "end_ms": 14860,
+      "text_en": "It seems like a very common thing actually for us to try and understand what made exceptional people exceptional.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "what made exceptional people exceptional",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 72,
+          "span_end": 112
+        },
+        {
+          "pattern": "made",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 77,
+          "span_end": 81
+        },
+        {
+          "pattern": "seems",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 15460,
+      "end_ms": 22800,
+      "text_en": "I think it's a deep -seeded human desire to want to leave an impact that far out lasts our time on this earth.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that far out lasts our time on this earth",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 68,
+          "span_end": 109
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "lasts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 81,
+          "span_end": 86
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 23220,
+      "end_ms": 31520,
+      "text_en": "However, this whole concept of studying people's lives and trying to emulate them can be a very slippery slope, but we will come back to that a little bit later.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 82,
+          "span_end": 88
+        },
+        {
+          "pattern": "will come",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 119,
+          "span_end": 128
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 144,
+          "span_end": 150
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 31860,
+      "end_ms": 42080,
+      "text_en": "I'm currently living in Milan right now, and this year marks 500 years since Leonardo da Vinci was doing his thing in Italy, and so I'm seeing his face and his name absolutely everywhere.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m currently living",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 20
+        },
+        {
+          "pattern": "was doing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 95,
+          "span_end": 104
+        },
+        {
+          "pattern": "'m seeing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 133,
+          "span_end": 142
+        },
+        {
+          "pattern": "marks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 55,
+          "span_end": 60
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 42460,
+      "end_ms": 47500,
+      "text_en": "And so it occurred to me it might be interesting to try his daily routine.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "might be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 28,
+          "span_end": 36
+        },
+        {
+          "pattern": "occurred",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 10,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 47960,
+      "end_ms": 49740,
+      "text_en": "I mean, the guy was a genius.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 50300,
+      "end_ms": 57160,
+      "text_en": "Clearly he was doing something right, so I think there's a good chance I'll learn something from this whole experience, but here's the thing.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was doing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 11,
+          "span_end": 20
+        },
+        {
+          "pattern": "'ll learn",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 72,
+          "span_end": 81
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 43,
+          "span_end": 48
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 54,
+          "span_end": 56
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 57400,
+      "end_ms": 64040,
+      "text_en": "I was doing some research about this, and it turns out his daily routine was ridiculous.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was doing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 2,
+          "span_end": 11
+        },
+        {
+          "pattern": "turns",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 45,
+          "span_end": 50
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 12,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 64819,
+      "end_ms": 73060,
+      "text_en": "And so I'm telling you right now I'm giving this a very low probability chance of actually being successful, and I think you're going to understand why in a second.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m telling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 8,
+          "span_end": 18
+        },
+        {
+          "pattern": "'m giving",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 34,
+          "span_end": 43
+        },
+        {
+          "pattern": "'re going to understand",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 124,
+          "span_end": 147
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 115,
+          "span_end": 120
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 73440,
+      "end_ms": 78200,
+      "text_en": "A lot of famous people throughout history have had kind of strange sleep habits.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have had",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 42,
+          "span_end": 50
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 12,
+      "start_ms": 78620,
+      "end_ms": 80640,
+      "text_en": "Charles Dickens was famous for",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 13,
+      "start_ms": 81420,
+      "end_ms": 90500,
+      "text_en": "always sleeping with his head facing north, because he believed that if he aligned himself with the Earth's magnetic fields, it would boost creativity.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would boost",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 128,
+          "span_end": 139
+        },
+        {
+          "pattern": "if he aligned himself with the Earth's magnetic fields",
+          "note_tr": "If Clause Type 2 (Unreal Present)",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 69,
+          "span_end": 123
+        },
+        {
+          "pattern": "believed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 55,
+          "span_end": 63
+        },
+        {
+          "pattern": "aligned",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 75,
+          "span_end": 82
+        },
+        {
+          "pattern": "always",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 0,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 14,
+      "start_ms": 91940,
+      "end_ms": 96040,
+      "text_en": "But what Leonardo da Vinci did was a lot more extreme than that.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 15,
+      "start_ms": 96260,
+      "end_ms": 107560,
+      "text_en": "He's well known for doing what is known as polytheic sleep, more specifically the Ubermen's sleep cycle, which is basically a 20 minute nap every four hours, which equates to a grand",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s well known",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 15
+        },
+        {
+          "pattern": "is known",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 31,
+          "span_end": 39
+        },
+        {
+          "pattern": "which is basically a 20 minute nap every four hours, which equates to a grand",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 105,
+          "span_end": 182
+        },
+        {
+          "pattern": "which equates to a grand",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 158,
+          "span_end": 182
+        },
+        {
+          "pattern": "what is known as polytheic sleep",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 26,
+          "span_end": 58
+        },
+        {
+          "pattern": "sleep",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 53,
+          "span_end": 58
+        },
+        {
+          "pattern": "equates",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 164,
+          "span_end": 171
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 16,
+      "start_ms": 107560,
+      "end_ms": 112360,
+      "text_en": "total of two hours per day, two hours of sleep per day.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 17,
+      "start_ms": 112680,
+      "end_ms": 114380,
+      "text_en": "This cannot possibly go well.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "cannot possibly go",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 5,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 18,
+      "start_ms": 114860,
+      "end_ms": 120020,
+      "text_en": "Okay, the main benefits to this seem to be that first of all, you have way more time awake.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 66,
+          "span_end": 70
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 19,
+      "start_ms": 120380,
+      "end_ms": 130000,
+      "text_en": "Let's say, for example, you live to the age of 72 and you sleep eight hours a night, that would turn out to be 24 years of your life sleeping.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would turn",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 90,
+          "span_end": 100
+        },
+        {
+          "pattern": "live",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 28,
+          "span_end": 32
+        },
+        {
+          "pattern": "sleep",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 58,
+          "span_end": 63
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 20,
+      "start_ms": 130539,
+      "end_ms": 141660,
+      "text_en": "But if you do this Ubermen's sleep cycle and only sleep two hours a day, you win back 18 of those years or three fourths of the time, assuming you started from the day",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "if you do this Ubermen's sleep cycle and only sleep two hours a day",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 4,
+          "span_end": 71
+        },
+        {
+          "pattern": "started",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 147,
+          "span_end": 154
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 13
+        },
+        {
+          "pattern": "win",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 77,
+          "span_end": 80
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 21,
+      "start_ms": 141660,
+      "end_ms": 143880,
+      "text_en": "you were born, which would not be the case.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "were born",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 4,
+          "span_end": 13
+        },
+        {
+          "pattern": "would not be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 21,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 22,
+      "start_ms": 144060,
+      "end_ms": 144780,
+      "text_en": "But anyway, you get the idea.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 23,
+      "start_ms": 144960,
+      "end_ms": 155660,
+      "text_en": "Another one of the major benefits that I was reading about is that human beings seem to go through a short, boosted phase after sleep of productivity and creativity and focus.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was reading",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 41,
+          "span_end": 52
+        },
+        {
+          "pattern": "that I was reading about",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 34,
+          "span_end": 58
+        },
+        {
+          "pattern": "seem",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 80,
+          "span_end": 84
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 24,
+      "start_ms": 155980,
+      "end_ms": 164500,
+      "text_en": "So, in theory, if you're taking six naps throughout the day, you're maximizing the amount of time that you're in this state, in theory.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re taking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 21,
+          "span_end": 31
+        },
+        {
+          "pattern": "'re maximizing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 64,
+          "span_end": 78
+        },
+        {
+          "pattern": "that you're in this state",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 98,
+          "span_end": 123
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 25,
+      "start_ms": 164900,
+      "end_ms": 171160,
+      "text_en": "Da Vinci is said to have done something very similar to this, about 15 or 20 minutes every four hours.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is said",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 9,
+          "span_end": 16
+        },
+        {
+          "pattern": "to have done",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 17,
+          "span_end": 29
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 26,
+      "start_ms": 171540,
+      "end_ms": 174500,
+      "text_en": "And he did this apparently for years of his life, believe it or not.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 27,
+      "start_ms": 174680,
+      "end_ms": 182820,
+      "text_en": "Let me be clear, there is really not a lot of research showing that polyphasic sleep is better than monophasic sleep, which is basically just sleeping at night.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is basically just sleeping",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 124,
+          "span_end": 150
+        },
+        {
+          "pattern": "which is basically just sleeping at night",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 118,
+          "span_end": 159
+        },
+        {
+          "pattern": "is",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 23,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 28,
+      "start_ms": 183080,
+      "end_ms": 184380,
+      "text_en": "So, do not try this at home.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 29,
+      "start_ms": 184660,
+      "end_ms": 186680,
+      "text_en": "Or if you do, do not blame me.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "if you do",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 3,
+          "span_end": 12
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 30,
+      "start_ms": 187040,
+      "end_ms": 195780,
+      "text_en": "Instead, allow yourself to be entertained by my this is my best attempt at Leonardo da Vinci's daily routine.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "to be entertained",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 24,
+          "span_end": 41
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 31,
+      "start_ms": 198680,
+      "end_ms": 200440,
+      "text_en": "Oh God, here we go.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 32,
+      "start_ms": 202590,
+      "end_ms": 205530,
+      "text_en": "Morning, it is 10 .35 AM.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 33,
+      "start_ms": 205990,
+      "end_ms": 210350,
+      "text_en": "I spent most of this morning so far doing boring morning stuff that nobody cares about.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that nobody cares about",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 63,
+          "span_end": 86
+        },
+        {
+          "pattern": "spent",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "cares",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 75,
+          "span_end": 80
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 34,
+      "start_ms": 210650,
+      "end_ms": 212750,
+      "text_en": "But I am going to do some journaling now.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "am going to do",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 6,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 35,
+      "start_ms": 213210,
+      "end_ms": 216770,
+      "text_en": "So, as many of us know, Leonardo da Vinci would write backwards.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would write",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 42,
+          "span_end": 53
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 18,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 36,
+      "start_ms": 217430,
+      "end_ms": 219930,
+      "text_en": "I think it's kind of funny that nobody really knows why he did it.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "why he did it",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 52,
+          "span_end": 65
+        },
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 59,
+          "span_end": 62
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "knows",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 46,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 37,
+      "start_ms": 220150,
+      "end_ms": 223430,
+      "text_en": "Some people think it was to keep his hand clean because he was left handed",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was left",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 59,
+          "span_end": 67
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 17
+        },
+        {
+          "pattern": "Some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 0,
+          "span_end": 4
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 38,
+      "start_ms": 224310,
+      "end_ms": 227130,
+      "text_en": "or to make it more difficult for other people to read what he was writing.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was writing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 62,
+          "span_end": 73
+        },
+        {
+          "pattern": "what he was writing",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 54,
+          "span_end": 73
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 39,
+      "start_ms": 228470,
+      "end_ms": 229270,
+      "text_en": "One of the case,",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 40,
+      "start_ms": 230110,
+      "end_ms": 230730,
+      "text_en": "he wrote backwards.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wrote",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 41,
+      "start_ms": 231090,
+      "end_ms": 231930,
+      "text_en": "So, I'm going to write backwards.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to write",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 5,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 42,
+      "start_ms": 232390,
+      "end_ms": 233210,
+      "text_en": "I am an idiot.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 43,
+      "start_ms": 233470,
+      "end_ms": 237150,
+      "text_en": "So, I had to look up how to do this because I don't know how to do this.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 6,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 44,
+      "start_ms": 237510,
+      "end_ms": 240150,
+      "text_en": "I'm going to do a couple of tests and see if I can get a hang of this.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to do",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 15
+        },
+        {
+          "pattern": "can get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 47,
+          "span_end": 54
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 45,
+      "start_ms": 240670,
+      "end_ms": 241030,
+      "text_en": "Jesus.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 46,
+      "start_ms": 241830,
+      "end_ms": 243890,
+      "text_en": "How the s's are so difficult.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 47,
+      "start_ms": 244330,
+      "end_ms": 244570,
+      "text_en": "Okay.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 48,
+      "start_ms": 245510,
+      "end_ms": 246310,
+      "text_en": "The first attempt,",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 49,
+      "start_ms": 248790,
+      "end_ms": 253390,
+      "text_en": "Leonardo da Vinci seemed to be a huge proponent of journaling, which I think is fantastic.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "which I think is fantastic",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 63,
+          "span_end": 89
+        },
+        {
+          "pattern": "which I think is fantastic",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 63,
+          "span_end": 89
+        },
+        {
+          "pattern": "seemed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 18,
+          "span_end": 24
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 71,
+          "span_end": 76
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 50,
+      "start_ms": 253950,
+      "end_ms": 261490,
+      "text_en": "I've spoken about how important it is for me to get my ideas out of my brain and on the paper or onto some other medium.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve spoken",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 1,
+          "span_end": 11
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 102,
+          "span_end": 106
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 51,
+      "start_ms": 261670,
+      "end_ms": 265650,
+      "text_en": "Doing this allowed his work to far outlast him.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "allowed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 11,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 52,
+      "start_ms": 265870,
+      "end_ms": 266490,
+      "text_en": "I mean, think about it.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 53,
+      "start_ms": 266590,
+      "end_ms": 269990,
+      "text_en": "If he didn't write down his thoughts, then we wouldn't even know about it.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wouldn't even know",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 46,
+          "span_end": 64
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 54,
+      "start_ms": 270250,
+      "end_ms": 276370,
+      "text_en": "I have spent like half an hour on this one damn sentence.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have spent",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 2,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 55,
+      "start_ms": 276770,
+      "end_ms": 278590,
+      "text_en": "Let's see how this looks in a mirror.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "how this looks in a mirror",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 10,
+          "span_end": 36
+        },
+        {
+          "pattern": "looks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 19,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 56,
+      "start_ms": 278590,
+      "end_ms": 280050,
+      "text_en": "But this is what it looks like.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "what it looks like",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 12,
+          "span_end": 30
+        },
+        {
+          "pattern": "looks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 57,
+      "start_ms": 280850,
+      "end_ms": 286130,
+      "text_en": "I had to use this website where I could type in my message and it would give it to me backwards.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could type",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 34,
+          "span_end": 44
+        },
+        {
+          "pattern": "would give",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 66,
+          "span_end": 76
+        },
+        {
+          "pattern": "where I could type in my message",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 26,
+          "span_end": 58
+        },
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 58,
+      "start_ms": 286770,
+      "end_ms": 288150,
+      "text_en": "That's what I just copied down.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "what I just copied down",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 7,
+          "span_end": 30
+        },
+        {
+          "pattern": "copied",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 19,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 59,
+      "start_ms": 288410,
+      "end_ms": 288950,
+      "text_en": "Oh my god.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 60,
+      "start_ms": 289010,
+      "end_ms": 294850,
+      "text_en": "It's kind of creepy actually to look back at it like this and it makes perfect sense and it looks normal -ish.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 65,
+          "span_end": 70
+        },
+        {
+          "pattern": "looks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 92,
+          "span_end": 97
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 61,
+      "start_ms": 295270,
+      "end_ms": 296570,
+      "text_en": "I'm going to do more journaling like this.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to do",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 62,
+      "start_ms": 297430,
+      "end_ms": 297830,
+      "text_en": "Wow.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 63,
+      "start_ms": 298310,
+      "end_ms": 304650,
+      "text_en": "I feel like another way I could journal is if I just write like this, but this is going to be very complicated.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 79,
+          "span_end": 93
+        },
+        {
+          "pattern": "could journal",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 26,
+          "span_end": 39
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "write",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 53,
+          "span_end": 58
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 64,
+      "start_ms": 305150,
+      "end_ms": 305670,
+      "text_en": "Oh, this is harder.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 65,
+      "start_ms": 306390,
+      "end_ms": 306630,
+      "text_en": "Oh no.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 66,
+      "start_ms": 307470,
+      "end_ms": 307870,
+      "text_en": "Okay.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 67,
+      "start_ms": 307870,
+      "end_ms": 308630,
+      "text_en": "That's worse.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 68,
+      "start_ms": 309030,
+      "end_ms": 310030,
+      "text_en": "That is considerably worse.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 69,
+      "start_ms": 310370,
+      "end_ms": 310570,
+      "text_en": "All right.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 70,
+      "start_ms": 310730,
+      "end_ms": 313530,
+      "text_en": "So let's talk for a second about what my schedule is going to look like.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is going to look",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 50,
+          "span_end": 66
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 71,
+      "start_ms": 314090,
+      "end_ms": 317290,
+      "text_en": "My focus here is to be as productive creatively as possible.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 72,
+      "start_ms": 317910,
+      "end_ms": 321070,
+      "text_en": "It seemed like art was a huge motivator for Leonardo da Vinci.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "seemed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 73,
+      "start_ms": 321410,
+      "end_ms": 329210,
+      "text_en": "So beyond my periodic naps, I'm going to be spending as much of the rest of my time as possible video editing, writing, reading, and painting.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 29,
+          "span_end": 43
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 74,
+      "start_ms": 330110,
+      "end_ms": 334490,
+      "text_en": "I'm going to pretend I'm working on masterpieces and that fart jokes don't still make me laugh.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to pretend",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 20
+        },
+        {
+          "pattern": "'m working",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 22,
+          "span_end": 32
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 75,
+      "start_ms": 335290,
+      "end_ms": 335910,
+      "text_en": "All right.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 76,
+      "start_ms": 336290,
+      "end_ms": 338310,
+      "text_en": "It is time for my first nap.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 77,
+      "start_ms": 338730,
+      "end_ms": 341350,
+      "text_en": "I'm not much of a napper, so we'll have to see how this goes.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll have",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 31,
+          "span_end": 39
+        },
+        {
+          "pattern": "how this goes",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 47,
+          "span_end": 60
+        },
+        {
+          "pattern": "goes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 56,
+          "span_end": 60
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 78,
+      "start_ms": 341830,
+      "end_ms": 343150,
+      "text_en": "The schedule just makes me laugh.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 18,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 79,
+      "start_ms": 343350,
+      "end_ms": 345050,
+      "text_en": "I just feel like I'm three years old again.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 80,
+      "start_ms": 345410,
+      "end_ms": 346910,
+      "text_en": "20 minutes is super quick.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 81,
+      "start_ms": 347090,
+      "end_ms": 351950,
+      "text_en": "I'm going to have to learn how to fall asleep super fast to just make it happen and take advantage of that time.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to have",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 82,
+      "start_ms": 352170,
+      "end_ms": 354690,
+      "text_en": "Otherwise you just miss those 20 minutes, you know?",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "miss",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 19,
+          "span_end": 23
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 46,
+          "span_end": 50
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 83,
+      "start_ms": 354990,
+      "end_ms": 356490,
+      "text_en": "It takes me a while to fall asleep.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "takes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 84,
+      "start_ms": 358130,
+      "end_ms": 362150,
+      "text_en": "So there is definitely a community of people out there that do this.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that do this",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 55,
+          "span_end": 67
+        },
+        {
+          "pattern": "is",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 11
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 60,
+          "span_end": 62
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 85,
+      "start_ms": 362470,
+      "end_ms": 370110,
+      "text_en": "I was doing some research on the adaptation period that is required to kind of incorporate this into your life, and it's pretty intense.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was doing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 2,
+          "span_end": 11
+        },
+        {
+          "pattern": "is required",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 56,
+          "span_end": 67
+        },
+        {
+          "pattern": "that is required to kind of incorporate this into your life",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 51,
+          "span_end": 110
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 12,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 86,
+      "start_ms": 372600,
+      "end_ms": 379340,
+      "text_en": "I was just, I feel like starting to fall asleep when the alarm went off, or maybe I slept for five or ten minutes.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "went",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 63,
+          "span_end": 67
+        },
+        {
+          "pattern": "slept",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 84,
+          "span_end": 89
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 87,
+      "start_ms": 379720,
+      "end_ms": 380440,
+      "text_en": "I actually feel good.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 88,
+      "start_ms": 380720,
+      "end_ms": 381800,
+      "text_en": "It was kind of rejuvenating.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 89,
+      "start_ms": 382200,
+      "end_ms": 382220,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 90,
+      "start_ms": 383560,
+      "end_ms": 394320,
+      "text_en": "I read that it can take weeks to fully adapt and that you have to pass through this kind of zombie phase, where your cognitive ability is just not optimal.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can take",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 15,
+          "span_end": 23
+        },
+        {
+          "pattern": "where your cognitive ability is just not optimal",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 106,
+          "span_end": 154
+        },
+        {
+          "pattern": "read",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 58,
+          "span_end": 62
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 91,
+      "start_ms": 394820,
+      "end_ms": 395220,
+      "text_en": "Okay.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 92,
+      "start_ms": 395880,
+      "end_ms": 403220,
+      "text_en": "I was not able to fall asleep this time, but it's still good to lie down for a bit, and I guess now it's back to work.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 90,
+          "span_end": 95
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 93,
+      "start_ms": 404400,
+      "end_ms": 412880,
+      "text_en": "Not only that, but it seems like the success of a system like this is very much based on being super strict and consistent with it.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "seems",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 27
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 94,
+      "start_ms": 413200,
+      "end_ms": 419900,
+      "text_en": "I'm feeling a little bit drowsy right now, so hopefully this nap will be the boost that I need to keep things gone.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m feeling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 11
+        },
+        {
+          "pattern": "will be",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 65,
+          "span_end": 72
+        },
+        {
+          "pattern": "that I need to keep things gone",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 83,
+          "span_end": 114
+        },
+        {
+          "pattern": "need",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 90,
+          "span_end": 94
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 14,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 95,
+      "start_ms": 420420,
+      "end_ms": 421320,
+      "text_en": "I couldn't fall asleep.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "couldn't fall",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 2,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 96,
+      "start_ms": 424630,
+      "end_ms": 432810,
+      "text_en": "A schedule that you create for yourself has to fit around the things that are most important to you, the things that you want to focus on.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that you create for yourself",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 11,
+          "span_end": 39
+        },
+        {
+          "pattern": "that are most important to you, the things that you want to focus on",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 69,
+          "span_end": 137
+        },
+        {
+          "pattern": "that you want to focus on",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 112,
+          "span_end": 137
+        },
+        {
+          "pattern": "create",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 26
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 40,
+          "span_end": 43
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 121,
+          "span_end": 125
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 97,
+      "start_ms": 432990,
+      "end_ms": 434310,
+      "text_en": "I mean, that's the whole point, right?",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 98,
+      "start_ms": 434590,
+      "end_ms": 440190,
+      "text_en": "And it's easy to get carried away by obligations or other things people impose on you.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "impose",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 72,
+          "span_end": 78
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 99,
+      "start_ms": 440870,
+      "end_ms": 447210,
+      "text_en": "And I think that's how many of us end up with kind of a schedule or a routine or a lifestyle that doesn't actually fit us.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "how many of us end up with kind of a schedule or a routine or a lifestyle",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 19,
+          "span_end": 92
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 100,
+      "start_ms": 449940,
+      "end_ms": 453440,
+      "text_en": "Each time I go to bed and they get back up, I'm a little bit more disoriented.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 14
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 31,
+          "span_end": 34
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 50,
+          "span_end": 56
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 101,
+      "start_ms": 454340,
+      "end_ms": 457640,
+      "text_en": "It's kind of like dunking your consciousness in and out of water.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 102,
+      "start_ms": 458140,
+      "end_ms": 461660,
+      "text_en": "I will say I am seeing the benefits of lying down for a little bit.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "am seeing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 13,
+          "span_end": 22
+        },
+        {
+          "pattern": "will say",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 10
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 56,
+          "span_end": 62
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 103,
+      "start_ms": 461860,
+      "end_ms": 471840,
+      "text_en": "It feels like it contributes to a bit of a boost of energy and creativity right afterwards, but I'm a little bit afraid that this is going to lead to diminishing returns.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is going to lead",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 130,
+          "span_end": 146
+        },
+        {
+          "pattern": "feels",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        },
+        {
+          "pattern": "contributes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 28
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 102,
+          "span_end": 108
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 104,
+      "start_ms": 472520,
+      "end_ms": 476360,
+      "text_en": "I got really hungry, so I'm eating a spinach frittata.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m eating",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 25,
+          "span_end": 34
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 105,
+      "start_ms": 477100,
+      "end_ms": 477540,
+      "text_en": "How",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 106,
+      "start_ms": 480610,
+      "end_ms": 482030,
+      "text_en": "did we end up at this point?",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 107,
+      "start_ms": 482410,
+      "end_ms": 489290,
+      "text_en": "My ability to get any meaningful work done and more than anything, stay focused, has greatly decreased over the last few hours.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has greatly decreased",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 81,
+          "span_end": 102
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 18,
+          "span_end": 21
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 117,
+          "span_end": 120
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 108,
+      "start_ms": 489770,
+      "end_ms": 492910,
+      "text_en": "So I'm going to switch tack and I'm going to paint.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to switch",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 4,
+          "span_end": 22
+        },
+        {
+          "pattern": "'m going to paint",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 33,
+          "span_end": 50
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 109,
+      "start_ms": 495030,
+      "end_ms": 496610,
+      "text_en": "He's pretty well known for doing that.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 110,
+      "start_ms": 496810,
+      "end_ms": 505570,
+      "text_en": "So a few days ago, I bought some art materials and I got a lot of time on my hands, so that's what I'm going to do now.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to do",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 100,
+          "span_end": 114
+        },
+        {
+          "pattern": "bought",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 21,
+          "span_end": 27
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 53,
+          "span_end": 56
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 5,
+          "span_end": 8
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 28,
+          "span_end": 32
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 111,
+      "start_ms": 505850,
+      "end_ms": 509010,
+      "text_en": "So I wanted to paint a photo that I took while I was in Florence.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that I took while I was in Florence",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 29,
+          "span_end": 64
+        },
+        {
+          "pattern": "wanted",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 5,
+          "span_end": 11
+        },
+        {
+          "pattern": "took",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 36,
+          "span_end": 40
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 112,
+      "start_ms": 509010,
+      "end_ms": 512710,
+      "text_en": "It's not anything special really, but I like it.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 40,
+          "span_end": 44
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 113,
+      "start_ms": 513030,
+      "end_ms": 516490,
+      "text_en": "Florence is in a region of Italy called Tuscany, which is where the bitches from.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "which is where the bitches from",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 49,
+          "span_end": 80
+        },
+        {
+          "pattern": "called",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 33,
+          "span_end": 39
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 114,
+      "start_ms": 516890,
+      "end_ms": 523929,
+      "text_en": "That's also where the Italian language is originally from, although, fun fact, the accent from there is very strange.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "where the Italian language is originally from",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 12,
+          "span_end": 57
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 115,
+      "start_ms": 524410,
+      "end_ms": 525810,
+      "text_en": "They don't pronounce C's.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 116,
+      "start_ms": 526270,
+      "end_ms": 529610,
+      "text_en": "So Coca -Cola is Ho -ha -hola, basically,",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 117,
+      "start_ms": 530410,
+      "end_ms": 532390,
+      "text_en": "with the local accent over there.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 118,
+      "start_ms": 532670,
+      "end_ms": 539430,
+      "text_en": "Not like you needed to know that, but I felt like sharing and look, you're choosing to be here with me at this odd hour of the day.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re choosing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 71,
+          "span_end": 83
+        },
+        {
+          "pattern": "needed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 13,
+          "span_end": 19
+        },
+        {
+          "pattern": "felt",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 40,
+          "span_end": 44
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 119,
+      "start_ms": 540130,
+      "end_ms": 540750,
+      "text_en": "Let's get cracking.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 120,
+      "start_ms": 541490,
+      "end_ms": 547830,
+      "text_en": "If you set aside how bizarre it would be to actually live like this, it was kind of cool to have all this extra time to work.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 32,
+          "span_end": 40
+        },
+        {
+          "pattern": "set",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 10
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 97,
+          "span_end": 100
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 121,
+      "start_ms": 548670,
+      "end_ms": 551130,
+      "text_en": "Then the sun came up and I realized it comes at a cost.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "came",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 13,
+          "span_end": 17
+        },
+        {
+          "pattern": "realized",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 27,
+          "span_end": 35
+        },
+        {
+          "pattern": "comes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 39,
+          "span_end": 44
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 122,
+      "start_ms": 551790,
+      "end_ms": 555470,
+      "text_en": "When I'm really tired, random stuff starts sounding a lot funnier, dude.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "starts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 36,
+          "span_end": 42
+        },
+        {
+          "pattern": "dude",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 67,
+          "span_end": 71
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 123,
+      "start_ms": 555830,
+      "end_ms": 556550,
+      "text_en": "I'll give you an example.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll give",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 1,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 124,
+      "start_ms": 557250,
+      "end_ms": 560330,
+      "text_en": "The human foot is a masterpiece of engineering and a work of art.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 125,
+      "start_ms": 560970,
+      "end_ms": 561930,
+      "text_en": "Leonardo da Vinci,",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 126,
+      "start_ms": 562910,
+      "end_ms": 564730,
+      "text_en": "genius with a thing for feet.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 127,
+      "start_ms": 565350,
+      "end_ms": 570530,
+      "text_en": "I'm feeling pretty brain dead right now, and just in general, super scattered.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m feeling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 128,
+      "start_ms": 571770,
+      "end_ms": 576870,
+      "text_en": "Usually I have a lot of motivation to do stuff and I'm not feeling any of it right now.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m not feeling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 52,
+          "span_end": 66
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 14
+        },
+        {
+          "pattern": "Usually",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 0,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 129,
+      "start_ms": 577190,
+      "end_ms": 580730,
+      "text_en": "I figured I'd go to the supermarket, get a few groceries,",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "figured",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 37,
+          "span_end": 40
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 43,
+          "span_end": 46
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 130,
+      "start_ms": 581670,
+      "end_ms": 583230,
+      "text_en": "get out of the apartment for a little bit.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 31,
+          "span_end": 37
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 131,
+      "start_ms": 583430,
+      "end_ms": 588570,
+      "text_en": "My ability to speak Italian right now is at like a 1 .5 out of 10.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 132,
+      "start_ms": 589910,
+      "end_ms": 594550,
+      "text_en": "I had just such a jumble of words come out of my mouth when I was at the register,",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 5
+        },
+        {
+          "pattern": "come",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 34,
+          "span_end": 38
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 133,
+      "start_ms": 595270,
+      "end_ms": 595810,
+      "text_en": "trying to pay.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 134,
+      "start_ms": 596110,
+      "end_ms": 600670,
+      "text_en": "I just feel sleep deprived, and honestly, that's exactly what's happening.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s happening",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 61,
+          "span_end": 73
+        },
+        {
+          "pattern": "what's happening",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 57,
+          "span_end": 73
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 135,
+      "start_ms": 600990,
+      "end_ms": 604030,
+      "text_en": "I mean, the naps are not doing much.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are not doing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 17,
+          "span_end": 30
+        },
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 136,
+      "start_ms": 604710,
+      "end_ms": 606210,
+      "text_en": "Who would want to live like this?",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would want",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 137,
+      "start_ms": 606510,
+      "end_ms": 609070,
+      "text_en": "Honestly, this is the opposite of productive.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 138,
+      "start_ms": 610730,
+      "end_ms": 612170,
+      "text_en": "This doesn't make any sense.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 18,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 139,
+      "start_ms": 612730,
+      "end_ms": 619510,
+      "text_en": "Fifteen minutes ago, I felt like crap, but I threw on a Mr. Bean movie and now all of a sudden, I feel all this motivation to paint.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "felt",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 23,
+          "span_end": 27
+        },
+        {
+          "pattern": "threw",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 45,
+          "span_end": 50
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 98,
+          "span_end": 102
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 103,
+          "span_end": 106
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 140,
+      "start_ms": 620110,
+      "end_ms": 623750,
+      "text_en": "So I'm on this sort of weird emotional roller coaster right now.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 141,
+      "start_ms": 624010,
+      "end_ms": 624030,
+      "text_en": "Okay.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 142,
+      "start_ms": 624570,
+      "end_ms": 632430,
+      "text_en": "It was becoming very apparent to me that I was no longer capable of any sort of high quality or deep work whatsoever.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was becoming",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 3,
+          "span_end": 15
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 68,
+          "span_end": 71
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 143,
+      "start_ms": 633190,
+      "end_ms": 637770,
+      "text_en": "And so as of night approached once again, I decided to bring things to a close.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "decided",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 44,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 144,
+      "start_ms": 638230,
+      "end_ms": 640690,
+      "text_en": "I'm not sure what Leonardo would say.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would say",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 27,
+          "span_end": 36
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 145,
+      "start_ms": 640690,
+      "end_ms": 641730,
+      "text_en": "My man Leo.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 146,
+      "start_ms": 643290,
+      "end_ms": 648210,
+      "text_en": "In total, I did this schedule for about 36 hours, you know, two days.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 12,
+          "span_end": 15
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 54,
+          "span_end": 58
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 147,
+      "start_ms": 648790,
+      "end_ms": 650050,
+      "text_en": "I would have liked to keep going.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would have liked",
+          "note_tr": "Would Have V3",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 2,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 148,
+      "start_ms": 650330,
+      "end_ms": 653150,
+      "text_en": "And I think I could have kept going, but at what cost?",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could have kept",
+          "note_tr": "Could Have V3",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 14,
+          "span_end": 29
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 149,
+      "start_ms": 653790,
+      "end_ms": 656510,
+      "text_en": "It's been a week, so I've had some time to kind of reflect on things.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s been",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "'ve had",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 22,
+          "span_end": 29
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 30,
+          "span_end": 34
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 150,
+      "start_ms": 656970,
+      "end_ms": 662230,
+      "text_en": "And I look back on those days that I dedicated to doing this as a little bit emotionally turbulent.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that I dedicated to doing this as a little bit emotionally turbulent",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 30,
+          "span_end": 98
+        },
+        {
+          "pattern": "dedicated",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 37,
+          "span_end": 46
+        },
+        {
+          "pattern": "look",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 10
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 66,
+          "span_end": 72
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 151,
+      "start_ms": 662770,
+      "end_ms": 668650,
+      "text_en": "And I read some of the stuff that I wrote and it just doesn't feel like it was written with clarity, you know.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was written",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 75,
+          "span_end": 86
+        },
+        {
+          "pattern": "that I wrote",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 29,
+          "span_end": 41
+        },
+        {
+          "pattern": "wrote",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 36,
+          "span_end": 41
+        },
+        {
+          "pattern": "read",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 10
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 105,
+          "span_end": 109
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 152,
+      "start_ms": 668950,
+      "end_ms": 675350,
+      "text_en": "If anything, this gave me a lot of appreciation for my very boring, very normal sleep cycle, sleep schedule.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "gave",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 18,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 153,
+      "start_ms": 675750,
+      "end_ms": 683670,
+      "text_en": "I slept like a walk for at least 10 hours and woke up a new man just enthusiastic and positive and basically just myself again.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "slept",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "woke",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 46,
+          "span_end": 50
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 154,
+      "start_ms": 683990,
+      "end_ms": 688170,
+      "text_en": "It felt like I was able to glimpse the value that da Vinci placed on time.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that da Vinci placed on time",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 45,
+          "span_end": 73
+        },
+        {
+          "pattern": "felt",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 7
+        },
+        {
+          "pattern": "placed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 59,
+          "span_end": 65
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 155,
+      "start_ms": 688550,
+      "end_ms": 697930,
+      "text_en": "His approach doesn't quite work for me, but I did see the power of napping and how useful a tool it can be for if you're going through kind of a dip in energy.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re going",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 117,
+          "span_end": 126
+        },
+        {
+          "pattern": "can be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 100,
+          "span_end": 106
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 156,
+      "start_ms": 698330,
+      "end_ms": 701310,
+      "text_en": "By the way, here is where I'm at with the painting I was working on.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was working",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 53,
+          "span_end": 64
+        },
+        {
+          "pattern": "where I'm at with the painting I was working on",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 20,
+          "span_end": 67
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 157,
+      "start_ms": 701630,
+      "end_ms": 702370,
+      "text_en": "It's not quite done yet.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s not quite done",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 158,
+      "start_ms": 702390,
+      "end_ms": 704850,
+      "text_en": "If you want to see the final results, I might post it on Instagram.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "might post",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 40,
+          "span_end": 50
+        },
+        {
+          "pattern": "If you want to see the final results",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 36
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 159,
+      "start_ms": 705350,
+      "end_ms": 707430,
+      "text_en": "Like I said at the beginning of this video, I think many of us",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 46,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 160,
+      "start_ms": 708150,
+      "end_ms": 712150,
+      "text_en": "idolize famous or powerful people either now or from throughout history.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 161,
+      "start_ms": 712550,
+      "end_ms": 713050,
+      "text_en": "And that's fine.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 162,
+      "start_ms": 713190,
+      "end_ms": 722970,
+      "text_en": "I think there's a lot we can all learn from these people, but no matter how hard you try, you'll just never get the same results because inevitably the circumstances are different.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can all learn",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 25,
+          "span_end": 38
+        },
+        {
+          "pattern": "'ll just never get",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 93,
+          "span_end": 111
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 15
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 85,
+          "span_end": 88
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 102,
+          "span_end": 107
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 163,
+      "start_ms": 723250,
+      "end_ms": 727190,
+      "text_en": "The cultural context, your access to resources, even things like your physiology.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 164,
+      "start_ms": 727570,
+      "end_ms": 734810,
+      "text_en": "Basically, what I'm trying to say here is that it's a beautiful thing to be curious and experiment with things, but just don't force it, you know?",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m trying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 17,
+          "span_end": 26
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 141,
+          "span_end": 145
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 165,
+      "start_ms": 735050,
+      "end_ms": 740890,
+      "text_en": "Okay, his sleep schedule doesn't work for me, but there's so many other things that we can all learn from this genius.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can all learn",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 87,
+          "span_end": 100
+        },
+        {
+          "pattern": "that we can all learn from this genius",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 79,
+          "span_end": 117
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 55,
+          "span_end": 57
+        },
+        {
+          "pattern": "many",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 61,
+          "span_end": 65
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 166,
+      "start_ms": 741390,
+      "end_ms": 745070,
+      "text_en": "I guess I'm advocating for cherry picking, you know, figuring out what works for you.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m advocating",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 9,
+          "span_end": 22
+        },
+        {
+          "pattern": "what works for you",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 66,
+          "span_end": 84
+        },
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 47,
+          "span_end": 51
+        },
+        {
+          "pattern": "works",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 71,
+          "span_end": 76
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 167,
+      "start_ms": 745330,
+      "end_ms": 749430,
+      "text_en": "He said learning never exhausts the mind and I absolutely love this mindset.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 7
+        },
+        {
+          "pattern": "exhausts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 23,
+          "span_end": 31
+        },
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 58,
+          "span_end": 62
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 17,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 168,
+      "start_ms": 749870,
+      "end_ms": 751410,
+      "text_en": "I think that it's just true.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 169,
+      "start_ms": 751690,
+      "end_ms": 754310,
+      "text_en": "I think learning things has given me so much energy.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has given",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 24,
+          "span_end": 33
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "much",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 40,
+          "span_end": 44
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 170,
+      "start_ms": 754790,
+      "end_ms": 759490,
+      "text_en": "Let's not forget that the internet and everything that it has to offer didn't exist in his day.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that it has to offer",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 50,
+          "span_end": 70
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 58,
+          "span_end": 61
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 171,
+      "start_ms": 760350,
+      "end_ms": 760710,
+      "text_en": "I think.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 172,
+      "start_ms": 760990,
+      "end_ms": 768010,
+      "text_en": "I'm happy to thank Skillshare for sponsoring this video and this channel and giving me the opportunity to do very strange experiments like this one.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 173,
+      "start_ms": 768350,
+      "end_ms": 769590,
+      "text_en": "I really like them as a company.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 174,
+      "start_ms": 769910,
+      "end_ms": 776930,
+      "text_en": "They offer tens of thousands of courses on a wide range of different topics and the Skillshare originals are really, really well made.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are really, really well made",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 105,
+          "span_end": 133
+        },
+        {
+          "pattern": "offer",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 175,
+      "start_ms": 777190,
+      "end_ms": 780770,
+      "text_en": "There's a link in the description below to get a two month free trial to any of those classes.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 176,
+      "start_ms": 781290,
+      "end_ms": 785030,
+      "text_en": "And if you decide to go beyond that trial, it costs less than $10 a month.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "if you decide to go beyond that trial",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 4,
+          "span_end": 41
+        },
+        {
+          "pattern": "decide",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 17
+        },
+        {
+          "pattern": "costs",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 46,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 177,
+      "start_ms": 785310,
+      "end_ms": 791090,
+      "text_en": "There are a few classes that I specifically wanted to mention that I personally enjoyed and I'll link to them down below as well.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll link",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 93,
+          "span_end": 101
+        },
+        {
+          "pattern": "that I specifically wanted to mention",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 24,
+          "span_end": 61
+        },
+        {
+          "pattern": "wanted",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 44,
+          "span_end": 50
+        },
+        {
+          "pattern": "enjoyed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 80,
+          "span_end": 87
+        },
+        {
+          "pattern": "are",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 9
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 12,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 178,
+      "start_ms": 791550,
+      "end_ms": 794550,
+      "text_en": "I like this class on developing skills in a pretty general sense.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 179,
+      "start_ms": 794990,
+      "end_ms": 800670,
+      "text_en": "I feel like there's value here for literally anybody and also this class on creative writing or journaling.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 180,
+      "start_ms": 800990,
+      "end_ms": 803810,
+      "text_en": "And this one I'm drawing if you're looking for an alternative to journaling.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m drawing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 14,
+          "span_end": 24
+        },
+        {
+          "pattern": "'re looking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 31,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 181,
+      "start_ms": 804130,
+      "end_ms": 806590,
+      "text_en": "So yeah, consider using the link in the description below.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 182,
+      "start_ms": 806850,
+      "end_ms": 810510,
+      "text_en": "Anyway, I'm thinking of making this into kind of like a little series.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m thinking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 9,
+          "span_end": 20
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 56,
+          "span_end": 62
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 183,
+      "start_ms": 811210,
+      "end_ms": 813710,
+      "text_en": "So let me know if you'd like to see more of this kind of video.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 184,
+      "start_ms": 814350,
+      "end_ms": 816290,
+      "text_en": "And yeah, thanks for watching.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 185,
+      "start_ms": 816570,
+      "end_ms": 816970,
+      "text_en": "I'll see you soon.",
+      "text_tr": "",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 1,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    }
+  ]
+}

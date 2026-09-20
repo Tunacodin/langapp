@@ -8,365 +8,3153 @@
     {
       "idx": 0,
       "start_ms": 4980,
-      "end_ms": 9900,
-      "text_en": "This summer has seen the financial power of the Premier League come into focus once again,",
-      "text_tr": "",
+      "end_ms": 16000,
+      "text_en": "This summer has seen the financial power of the Premier League come into focus once again, with a number of clubs breaking their previous transfer records during the months of June, July, and August.",
+      "text_tr": "Bu yaz Premier Lig'in finansal gücü bir kez daha gündeme geldi; birçok kulüp haziran, temmuz ve ağustos aylarında önceki transfer rekorlarını kırdı.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "come into focus",
+          "text_tr": "gündeme gelmek, dikkat çekmek",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "come into focus"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "has seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 12,
+          "span_end": 20
+        }
+      ],
+      "vocab": [
+        {
+          "word": "financial",
+          "lemma": "financial",
+          "text_tr": "finansal, mali",
+          "pos": "adjective",
+          "cefr": "B1"
+        },
+        {
+          "word": "transfer",
+          "lemma": "transfer",
+          "text_tr": "transfer, geçiş",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "previous",
+          "lemma": "previous",
+          "text_tr": "önceki, evvelki",
+          "pos": "adjective",
+          "cefr": "B1"
+        },
+        {
+          "word": "records",
+          "lemma": "record",
+          "text_tr": "rekorlar; kayıtlar",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "summer",
+          "lemma": "summer",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 5480,
+          "end_ms": 5740
+        },
+        {
+          "surface": "seen",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 6000,
+          "end_ms": 6200
+        },
+        {
+          "surface": "financial",
+          "lemma": "financial",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 6380,
+          "end_ms": 6740
+        },
+        {
+          "surface": "power",
+          "lemma": "power",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 6740,
+          "end_ms": 7360
+        },
+        {
+          "surface": "come",
+          "lemma": "come",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 8220,
+          "end_ms": 8580
+        },
+        {
+          "surface": "focus",
+          "lemma": "focus",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 8720,
+          "end_ms": 9140
+        },
+        {
+          "surface": "once",
+          "lemma": "once",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 9140,
+          "end_ms": 9500
+        },
+        {
+          "surface": "again",
+          "lemma": "again",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 9500,
+          "end_ms": 9900
+        },
+        {
+          "surface": "number",
+          "lemma": "number",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 10480,
+          "end_ms": 10720
+        },
+        {
+          "surface": "clubs",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 10900,
+          "end_ms": 11080
+        },
+        {
+          "surface": "breaking",
+          "lemma": "break",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 11080,
+          "end_ms": 11640
+        },
+        {
+          "surface": "previous",
+          "lemma": "previous",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 11980,
+          "end_ms": 12340
+        },
+        {
+          "surface": "transfer",
+          "lemma": "transfer",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 12340,
+          "end_ms": 12660
+        },
+        {
+          "surface": "records",
+          "lemma": "record",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 12660,
+          "end_ms": 13240
+        },
+        {
+          "surface": "months",
+          "lemma": "month",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 14040,
+          "end_ms": 14240
+        }
+      ]
     },
     {
       "idx": 1,
-      "start_ms": 10260,
-      "end_ms": 15420,
-      "text_en": "with a number of clubs breaking their previous transfer records during the months of June, July,",
-      "text_tr": "",
+      "start_ms": 17020,
+      "end_ms": 24140,
+      "text_en": "In attempting to understand the reasons behind England's financial dominance, one must look at the benefit of the TV rights deal.",
+      "text_tr": "İngiltere'nin finansal üstünlüğünün nedenlerini anlamaya çalışırken televizyon yayın haklarının getirdiği faydaya bakmak gerekir.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "TV rights deal",
+          "text_tr": "televizyon yayın hakları anlaşması",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "TV rights deal"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "must look",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 82,
+          "span_end": 91
+        }
+      ],
+      "vocab": [
+        {
+          "word": "dominance",
+          "lemma": "dominance",
+          "text_tr": "üstünlük, hakimiyet",
+          "pos": "noun",
+          "cefr": "B2"
+        },
+        {
+          "word": "benefit",
+          "lemma": "benefit",
+          "text_tr": "fayda, yarar",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "deal",
+          "lemma": "deal",
+          "text_tr": "anlaşma",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "attempting",
+          "lemma": "attempt",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 17240,
+          "end_ms": 17480
+        },
+        {
+          "surface": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 17820,
+          "end_ms": 18120
+        },
+        {
+          "surface": "reasons",
+          "lemma": "reason",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 18620,
+          "end_ms": 18940
+        },
+        {
+          "surface": "financial",
+          "lemma": "financial",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 20200,
+          "end_ms": 20340
+        },
+        {
+          "surface": "dominance",
+          "lemma": "dominance",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 20340,
+          "end_ms": 21100
+        },
+        {
+          "surface": "look",
+          "lemma": "look",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 21960,
+          "end_ms": 22220
+        },
+        {
+          "surface": "benefit",
+          "lemma": "benefit",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 22460,
+          "end_ms": 22780
+        },
+        {
+          "surface": "tv",
+          "lemma": "tv",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 23180,
+          "end_ms": 23420
+        },
+        {
+          "surface": "rights",
+          "lemma": "right",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 23420,
+          "end_ms": 23840
+        },
+        {
+          "surface": "deal",
+          "lemma": "deal",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 23840,
+          "end_ms": 24140
+        }
+      ]
     },
     {
       "idx": 2,
-      "start_ms": 15740,
-      "end_ms": 21100,
-      "text_en": "and August. In attempting to understand the reasons behind England's financial dominance,",
-      "text_tr": "",
+      "start_ms": 24940,
+      "end_ms": 34840,
+      "text_en": "The latest Premier League TV rights deal kicked in during the 2016 -17 season and saw clubs earn a record windfall of 5 .14 billion pounds.",
+      "text_tr": "En son Premier Lig televizyon hakları anlaşması 2016-17 sezonunda yürürlüğe girdi ve kulüpler rekor düzeyde 5,14 milyar poundluk beklenmedik bir gelir elde etti.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "kicked in",
+          "text_tr": "yürürlüğe girmek, devreye girmek",
+          "type": "phrasal_verb",
+          "cefr": "B2",
+          "norm_key": "kicked in"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "kicked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 41,
+          "span_end": 47
+        },
+        {
+          "pattern": "saw",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 82,
+          "span_end": 85
+        }
+      ],
+      "vocab": [
+        {
+          "word": "latest",
+          "lemma": "late",
+          "text_tr": "en son, en güncel",
+          "pos": "adjective",
+          "cefr": "A2"
+        },
+        {
+          "word": "earn",
+          "lemma": "earn",
+          "text_tr": "kazanmak",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "windfall",
+          "lemma": "windfall",
+          "text_tr": "beklenmedik gelir, talih kuşu",
+          "pos": "noun",
+          "cefr": "C1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "latest",
+          "lemma": "late",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 25040,
+          "end_ms": 25320
+        },
+        {
+          "surface": "rights",
+          "lemma": "right",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 26200,
+          "end_ms": 26560
+        },
+        {
+          "surface": "deal",
+          "lemma": "deal",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 26560,
+          "end_ms": 26980
+        },
+        {
+          "surface": "kicked",
+          "lemma": "kick",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 26980,
+          "end_ms": 27200
+        },
+        {
+          "surface": "season",
+          "lemma": "season",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 29400,
+          "end_ms": 29940
+        },
+        {
+          "surface": "saw",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 30400,
+          "end_ms": 30640
+        },
+        {
+          "surface": "clubs",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 30640,
+          "end_ms": 30960
+        },
+        {
+          "surface": "earn",
+          "lemma": "earn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 30960,
+          "end_ms": 31320
+        },
+        {
+          "surface": "record",
+          "lemma": "record",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 31560,
+          "end_ms": 31920
+        },
+        {
+          "surface": "windfall",
+          "lemma": "windfall",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 31920,
+          "end_ms": 32580
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 34420,
+          "end_ms": 34840
+        }
+      ]
     },
     {
       "idx": 3,
-      "start_ms": 21720,
-      "end_ms": 26980,
-      "text_en": "one must look at the benefit of the TV rights deal. The latest Premier League TV rights deal",
-      "text_tr": "",
+      "start_ms": 35400,
+      "end_ms": 42020,
+      "text_en": "Compared from the deal three years earlier, it represented a 71 % increase for broadcasters according to the BBC,",
+      "text_tr": "BBC'ye göre bu, üç yıl önceki anlaşmaya kıyasla yayıncılar için %71'lik bir artışı temsil ediyordu.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "according to",
+          "text_tr": "-e göre",
+          "type": "connector",
+          "cefr": "B1",
+          "norm_key": "according to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "represented",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 47,
+          "span_end": 58
+        }
+      ],
+      "vocab": [
+        {
+          "word": "increase",
+          "lemma": "increase",
+          "text_tr": "artış",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "broadcasters",
+          "lemma": "broadcaster",
+          "text_tr": "yayıncılar",
+          "pos": "noun",
+          "cefr": "B2"
+        },
+        {
+          "word": "represented",
+          "lemma": "represent",
+          "text_tr": "temsil etmek",
+          "pos": "verb",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "compared",
+          "lemma": "compare",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 35400,
+          "end_ms": 35920
+        },
+        {
+          "surface": "deal",
+          "lemma": "deal",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 36380,
+          "end_ms": 36520
+        },
+        {
+          "surface": "years",
+          "lemma": "year",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 36840,
+          "end_ms": 37100
+        },
+        {
+          "surface": "earlier",
+          "lemma": "early",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 37100,
+          "end_ms": 37500
+        },
+        {
+          "surface": "represented",
+          "lemma": "represent",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 37900,
+          "end_ms": 38280
+        },
+        {
+          "surface": "increase",
+          "lemma": "increase",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 39600,
+          "end_ms": 40040
+        },
+        {
+          "surface": "broadcasters",
+          "lemma": "broadcaster",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 40280,
+          "end_ms": 40760
+        },
+        {
+          "surface": "according",
+          "lemma": "accord",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 40760,
+          "end_ms": 41420
+        }
+      ]
     },
     {
       "idx": 4,
-      "start_ms": 26980,
-      "end_ms": 34840,
-      "text_en": "kicked in during the 2016-17 season and saw clubs earn a record windfall of 5.14 billion pounds.",
-      "text_tr": "",
+      "start_ms": 42680,
+      "end_ms": 47000,
+      "text_en": "with Sky paying 83 % more than it did the last round three years ago.",
+      "text_tr": "Sky, üç yıl önceki turda ödediğinden %83 daha fazla ödedi.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 34,
+          "span_end": 37
+        }
+      ],
+      "vocab": [
+        {
+          "word": "round",
+          "lemma": "round",
+          "text_tr": "tur, aşama",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "paying",
+          "lemma": "pay",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 43020,
+          "end_ms": 43480
+        },
+        {
+          "surface": "more",
+          "lemma": "more",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 44400,
+          "end_ms": 44680
+        },
+        {
+          "surface": "did",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 45060,
+          "end_ms": 45240
+        },
+        {
+          "surface": "last",
+          "lemma": "last",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 45580,
+          "end_ms": 45780
+        },
+        {
+          "surface": "round",
+          "lemma": "round",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 45780,
+          "end_ms": 46080
+        },
+        {
+          "surface": "years",
+          "lemma": "year",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 46500,
+          "end_ms": 46720
+        },
+        {
+          "surface": "ago",
+          "lemma": "ago",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 46720,
+          "end_ms": 47000
+        }
+      ]
     },
     {
       "idx": 5,
-      "start_ms": 35400,
-      "end_ms": 40760,
-      "text_en": "Compared from the deal three years earlier, it represented a 71% increase for broadcasters",
-      "text_tr": "",
+      "start_ms": 48420,
+      "end_ms": 50840,
+      "text_en": "The money is split up in three key ways.",
+      "text_tr": "Para üç temel şekilde bölüştürülüyor.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "split up",
+          "text_tr": "bölüşmek, paylaştırmak",
+          "type": "phrasal_verb",
+          "cefr": "B1",
+          "norm_key": "split up"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "is split",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 10,
+          "span_end": 18
+        }
+      ],
+      "vocab": [
+        {
+          "word": "key",
+          "lemma": "key",
+          "text_tr": "temel, anahtar",
+          "pos": "adjective",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "money",
+          "lemma": "money",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 48560,
+          "end_ms": 48740
+        },
+        {
+          "surface": "split",
+          "lemma": "split",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 49000,
+          "end_ms": 49220
+        },
+        {
+          "surface": "key",
+          "lemma": "key",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 50120,
+          "end_ms": 50480
+        },
+        {
+          "surface": "ways",
+          "lemma": "way",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 50480,
+          "end_ms": 50840
+        }
+      ]
     },
     {
       "idx": 6,
-      "start_ms": 40760,
-      "end_ms": 47000,
-      "text_en": "according to the BBC, with Sky paying 83% more than it did the last round three years ago.",
-      "text_tr": "",
+      "start_ms": 52100,
+      "end_ms": 56860,
+      "text_en": "Domestic TV money is estimated to be worth around 1 .7 billion pounds per season.",
+      "text_tr": "Yurt içi televizyon gelirinin sezon başına yaklaşık 1,7 milyar pound değerinde olduğu tahmin ediliyor.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "is estimated",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 18,
+          "span_end": 30
+        }
+      ],
+      "vocab": [
+        {
+          "word": "domestic",
+          "lemma": "domestic",
+          "text_tr": "yurt içi, iç",
+          "pos": "adjective",
+          "cefr": "B2"
+        },
+        {
+          "word": "estimated",
+          "lemma": "estimate",
+          "text_tr": "tahmin etmek",
+          "pos": "verb",
+          "cefr": "B2"
+        },
+        {
+          "word": "worth",
+          "lemma": "worth",
+          "text_tr": "değerinde",
+          "pos": "adjective",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "domestic",
+          "lemma": "domestic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 52100,
+          "end_ms": 52320
+        },
+        {
+          "surface": "tv",
+          "lemma": "tv",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 52320,
+          "end_ms": 52820
+        },
+        {
+          "surface": "money",
+          "lemma": "money",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 52820,
+          "end_ms": 53220
+        },
+        {
+          "surface": "estimated",
+          "lemma": "estimate",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 53420,
+          "end_ms": 53780
+        },
+        {
+          "surface": "worth",
+          "lemma": "worth",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 54320,
+          "end_ms": 54520
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 55980,
+          "end_ms": 56320
+        },
+        {
+          "surface": "season",
+          "lemma": "season",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 56560,
+          "end_ms": 56860
+        }
+      ]
     },
     {
       "idx": 7,
-      "start_ms": 48420,
-      "end_ms": 54520,
-      "text_en": "The money is split up in three key ways. Domestic TV money is estimated to be worth",
-      "text_tr": "",
+      "start_ms": 57560,
+      "end_ms": 64540,
+      "text_en": "50 % of this is divided equally and is worth roughly 35 million pounds per club, or one Alex Oxley Chamberlain.",
+      "text_tr": "Bunun %50'si eşit olarak bölünüyor ve kulüp başına kabaca 35 milyon pound, yani bir Alex Oxlade-Chamberlain değerinde.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "is divided",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 13,
+          "span_end": 23
+        }
+      ],
+      "vocab": [
+        {
+          "word": "divided",
+          "lemma": "divide",
+          "text_tr": "bölmek, ayırmak",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "equally",
+          "lemma": "equally",
+          "text_tr": "eşit olarak",
+          "pos": "adverb",
+          "cefr": "B1"
+        },
+        {
+          "word": "roughly",
+          "lemma": "roughly",
+          "text_tr": "kabaca, yaklaşık",
+          "pos": "adverb",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "divided",
+          "lemma": "divide",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 58800,
+          "end_ms": 59140
+        },
+        {
+          "surface": "equally",
+          "lemma": "equally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 59140,
+          "end_ms": 59580
+        },
+        {
+          "surface": "worth",
+          "lemma": "worth",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 60260,
+          "end_ms": 60480
+        },
+        {
+          "surface": "roughly",
+          "lemma": "roughly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 60480,
+          "end_ms": 60800
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 61920,
+          "end_ms": 62280
+        },
+        {
+          "surface": "club",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 62540,
+          "end_ms": 62800
+        }
+      ]
     },
     {
       "idx": 8,
-      "start_ms": 54520,
-      "end_ms": 61920,
-      "text_en": "around 1.7 billion pounds per season. 50% of this is divided equally and is worth roughly 35 million",
-      "text_tr": "",
+      "start_ms": 65340,
+      "end_ms": 70400,
+      "text_en": "A further 25 % is merit -based and earned dependent on a club's final league position.",
+      "text_tr": "Bir %25 daha başarıya dayalıdır ve kulübün ligdeki final sıralamasına göre kazanılır.",
       "cefr": "B2",
-      "chunks": [],
+      "chunks": [
+        {
+          "text_en": "merit-based",
+          "text_tr": "başarıya/liyakate dayalı",
+          "type": "collocation",
+          "cefr": "C1",
+          "norm_key": "merit-based"
+        }
+      ],
       "grammar": [],
-      "vocab": []
+      "vocab": [
+        {
+          "word": "further",
+          "lemma": "further",
+          "text_tr": "ek, daha fazla",
+          "pos": "adjective",
+          "cefr": "B2"
+        },
+        {
+          "word": "merit",
+          "lemma": "merit",
+          "text_tr": "liyakat, başarı",
+          "pos": "noun",
+          "cefr": "C1"
+        },
+        {
+          "word": "dependent",
+          "lemma": "dependent",
+          "text_tr": "bağlı, dayalı",
+          "pos": "adjective",
+          "cefr": "B2"
+        },
+        {
+          "word": "position",
+          "lemma": "position",
+          "text_tr": "sıra, konum",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "further",
+          "lemma": "further",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 65440,
+          "end_ms": 65680
+        },
+        {
+          "surface": "merit",
+          "lemma": "merit",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 67140,
+          "end_ms": 67360
+        },
+        {
+          "surface": "earned",
+          "lemma": "earn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 68060,
+          "end_ms": 68260
+        },
+        {
+          "surface": "dependent",
+          "lemma": "dependent",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 68260,
+          "end_ms": 68560
+        },
+        {
+          "surface": "club",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 65340,
+          "end_ms": 70400
+        },
+        {
+          "surface": "final",
+          "lemma": "final",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 69380,
+          "end_ms": 69620
+        },
+        {
+          "surface": "league",
+          "lemma": "league",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 69620,
+          "end_ms": 70040
+        },
+        {
+          "surface": "position",
+          "lemma": "position",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 70040,
+          "end_ms": 70400
+        }
+      ]
     },
     {
       "idx": 9,
-      "start_ms": 61920,
-      "end_ms": 68560,
-      "text_en": "pounds per club, or one Alex Oxley Chamberlain. A further 25% is merit-based and earned dependent",
-      "text_tr": "",
+      "start_ms": 71420,
+      "end_ms": 79560,
+      "text_en": "The team that finishes bottom of the Premier League will receive roughly 1 .9 million pounds with a further 1 .9 million pounds for each place above that.",
+      "text_tr": "Premier Lig'i sonuncu bitiren takım kabaca 1,9 milyon pound alacak; üstündeki her sıra için 1,9 milyon pound daha eklenecek.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "will receive",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 52,
+          "span_end": 64
+        },
+        {
+          "pattern": "that finishes bottom of the Premier League",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 9,
+          "span_end": 51
+        },
+        {
+          "pattern": "finishes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 22
+        }
+      ],
+      "vocab": [
+        {
+          "word": "bottom",
+          "lemma": "bottom",
+          "text_tr": "dip, sonuncu",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "receive",
+          "lemma": "receive",
+          "text_tr": "almak",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "team",
+          "lemma": "team",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 71720,
+          "end_ms": 71920
+        },
+        {
+          "surface": "finishes",
+          "lemma": "finish",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 72060,
+          "end_ms": 72360
+        },
+        {
+          "surface": "bottom",
+          "lemma": "bottom",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 72360,
+          "end_ms": 72660
+        },
+        {
+          "surface": "receive",
+          "lemma": "receive",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 73880,
+          "end_ms": 74260
+        },
+        {
+          "surface": "roughly",
+          "lemma": "roughly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 74260,
+          "end_ms": 74640
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 75640,
+          "end_ms": 76040
+        },
+        {
+          "surface": "further",
+          "lemma": "further",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 76620,
+          "end_ms": 76920
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 77740,
+          "end_ms": 78120
+        },
+        {
+          "surface": "place",
+          "lemma": "place",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 78480,
+          "end_ms": 78820
+        }
+      ]
     },
     {
       "idx": 10,
-      "start_ms": 68560,
-      "end_ms": 73880,
-      "text_en": "on a club's final league position. The team that finishes bottom of the Premier League will",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 11,
-      "start_ms": 73880,
-      "end_ms": 79560,
-      "text_en": "receive roughly 1.9 million pounds with a further 1.9 million pounds for each place above that.",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 12,
       "start_ms": 79560,
       "end_ms": 85740,
       "text_en": "For example, the champions earn roughly 38 million pounds and 10th placed earns 21 million pounds.",
-      "text_tr": "",
+      "text_tr": "Örneğin şampiyon kabaca 38 milyon pound, 10. sıradaki ise 21 milyon pound kazanıyor.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "earn",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 27,
+          "span_end": 31
+        },
+        {
+          "pattern": "earns",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 74,
+          "span_end": 79
+        }
+      ],
+      "vocab": [
+        {
+          "word": "champions",
+          "lemma": "champion",
+          "text_tr": "şampiyon",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 80120,
+          "end_ms": 80340
+        },
+        {
+          "surface": "champions",
+          "lemma": "champion",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 80680,
+          "end_ms": 81040
+        },
+        {
+          "surface": "earn",
+          "lemma": "earn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 81040,
+          "end_ms": 81560
+        },
+        {
+          "surface": "roughly",
+          "lemma": "roughly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 81560,
+          "end_ms": 81820
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 82600,
+          "end_ms": 82980
+        },
+        {
+          "surface": "placed",
+          "lemma": "place",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 84060,
+          "end_ms": 84220
+        },
+        {
+          "surface": "earns",
+          "lemma": "earn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 84220,
+          "end_ms": 84640
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 85440,
+          "end_ms": 85740
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "start_ms": 86500,
+      "end_ms": 95560,
+      "text_en": "The remaining 25 % is divided up among clubs depending on how often they appear on live TV broadcasts and is also known as facility fees.",
+      "text_tr": "Kalan %25, kulüplerin canlı televizyon yayınlarında ne sıklıkla göründüğüne göre paylaştırılıyor ve tesis ücretleri olarak da biliniyor.",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "depending on",
+          "text_tr": "-e bağlı olarak",
+          "type": "connector",
+          "cefr": "B2",
+          "norm_key": "depending on"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "is divided",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 19,
+          "span_end": 29
+        },
+        {
+          "pattern": "is also known",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 106,
+          "span_end": 119
+        },
+        {
+          "pattern": "appear",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 73,
+          "span_end": 79
+        },
+        {
+          "pattern": "often",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 62,
+          "span_end": 67
+        }
+      ],
+      "vocab": [
+        {
+          "word": "remaining",
+          "lemma": "remaining",
+          "text_tr": "kalan, geriye kalan",
+          "pos": "adjective",
+          "cefr": "B2"
+        },
+        {
+          "word": "appear",
+          "lemma": "appear",
+          "text_tr": "görünmek, çıkmak",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "fees",
+          "lemma": "fee",
+          "text_tr": "ücretler",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "remaining",
+          "lemma": "remain",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 87000,
+          "end_ms": 87200
+        },
+        {
+          "surface": "divided",
+          "lemma": "divide",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 88460,
+          "end_ms": 88840
+        },
+        {
+          "surface": "clubs",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 89400,
+          "end_ms": 89780
+        },
+        {
+          "surface": "depending",
+          "lemma": "depend",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 89780,
+          "end_ms": 90220
+        },
+        {
+          "surface": "often",
+          "lemma": "often",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 90640,
+          "end_ms": 90940
+        },
+        {
+          "surface": "appear",
+          "lemma": "appear",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 91080,
+          "end_ms": 91440
+        },
+        {
+          "surface": "live",
+          "lemma": "live",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 91640,
+          "end_ms": 91840
+        },
+        {
+          "surface": "tv",
+          "lemma": "tv",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 91840,
+          "end_ms": 92160
+        },
+        {
+          "surface": "broadcasts",
+          "lemma": "broadcast",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 92160,
+          "end_ms": 92580
+        },
+        {
+          "surface": "also",
+          "lemma": "also",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 93540,
+          "end_ms": 93660
+        },
+        {
+          "surface": "known",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 93660,
+          "end_ms": 94100
+        },
+        {
+          "surface": "facility",
+          "lemma": "facility",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 94520,
+          "end_ms": 94940
+        },
+        {
+          "surface": "fees",
+          "lemma": "fee",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 94940,
+          "end_ms": 95560
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "start_ms": 96400,
+      "end_ms": 105380,
+      "text_en": "Each team receives 1 million pounds per TV appearance and is guaranteed a minimum of 10 million per season even if they appear less than 10 times.",
+      "text_tr": "Her takım televizyondaki her görünüm için 1 milyon pound alıyor ve 10 kereden az görünse bile sezon başına en az 10 milyon garanti ediliyor.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is guaranteed",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 58,
+          "span_end": 71
+        },
+        {
+          "pattern": "even if they appear less than 10 times",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 107,
+          "span_end": 145
+        },
+        {
+          "pattern": "receives",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 18
+        },
+        {
+          "pattern": "appear",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 120,
+          "span_end": 126
+        }
+      ],
+      "vocab": [
+        {
+          "word": "appearance",
+          "lemma": "appearance",
+          "text_tr": "görünüm, boy gösterme",
+          "pos": "noun",
+          "cefr": "B2"
+        },
+        {
+          "word": "guaranteed",
+          "lemma": "guarantee",
+          "text_tr": "garanti etmek",
+          "pos": "verb",
+          "cefr": "B2"
+        },
+        {
+          "word": "minimum",
+          "lemma": "minimum",
+          "text_tr": "asgari, en az",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "team",
+          "lemma": "team",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 96700,
+          "end_ms": 97040
+        },
+        {
+          "surface": "receives",
+          "lemma": "receive",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 97040,
+          "end_ms": 97320
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 97940,
+          "end_ms": 98340
+        },
+        {
+          "surface": "tv",
+          "lemma": "tv",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 98800,
+          "end_ms": 99180
+        },
+        {
+          "surface": "appearance",
+          "lemma": "appearance",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 99180,
+          "end_ms": 99640
+        },
+        {
+          "surface": "guaranteed",
+          "lemma": "guarantee",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 100420,
+          "end_ms": 100800
+        },
+        {
+          "surface": "minimum",
+          "lemma": "minimum",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 101220,
+          "end_ms": 101560
+        },
+        {
+          "surface": "season",
+          "lemma": "season",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 102940,
+          "end_ms": 103240
+        },
+        {
+          "surface": "even",
+          "lemma": "even",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 103240,
+          "end_ms": 103820
+        },
+        {
+          "surface": "appear",
+          "lemma": "appear",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 104100,
+          "end_ms": 104200
+        },
+        {
+          "surface": "less",
+          "lemma": "less",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 104200,
+          "end_ms": 104620
+        },
+        {
+          "surface": "times",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 105060,
+          "end_ms": 105380
+        }
+      ]
     },
     {
       "idx": 13,
-      "start_ms": 86500,
-      "end_ms": 92160,
-      "text_en": "The remaining 25% is divided up among clubs depending on how often they appear on live TV",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 14,
-      "start_ms": 92160,
-      "end_ms": 99640,
-      "text_en": "broadcasts and is also known as facility fees. Each team receives 1 million pounds per TV appearance",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 15,
-      "start_ms": 99640,
-      "end_ms": 105380,
-      "text_en": "and is guaranteed a minimum of 10 million per season even if they appear less than 10 times.",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 16,
       "start_ms": 106440,
       "end_ms": 112960,
       "text_en": "Beyond that is the overseas rights which add a further 780 million pounds to the part per season.",
-      "text_tr": "",
+      "text_tr": "Bunun ötesinde, sezon başına 780 milyon pound daha ekleyen yurt dışı yayın hakları var.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "which add a further 780 million pounds to the part per season",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 35,
+          "span_end": 96
+        },
+        {
+          "pattern": "add",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 41,
+          "span_end": 44
+        }
+      ],
+      "vocab": [
+        {
+          "word": "beyond",
+          "lemma": "beyond",
+          "text_tr": "ötesinde",
+          "pos": "preposition",
+          "cefr": "B2"
+        },
+        {
+          "word": "overseas",
+          "lemma": "overseas",
+          "text_tr": "yurt dışı, deniz aşırı",
+          "pos": "adjective",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "overseas",
+          "lemma": "overseas",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 107960,
+          "end_ms": 108300
+        },
+        {
+          "surface": "rights",
+          "lemma": "right",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 108300,
+          "end_ms": 108800
+        },
+        {
+          "surface": "add",
+          "lemma": "add",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 109340,
+          "end_ms": 109560
+        },
+        {
+          "surface": "further",
+          "lemma": "further",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 109780,
+          "end_ms": 110080
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 111300,
+          "end_ms": 111680
+        },
+        {
+          "surface": "part",
+          "lemma": "part",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 112100,
+          "end_ms": 112320
+        },
+        {
+          "surface": "season",
+          "lemma": "season",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 112600,
+          "end_ms": 112960
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "start_ms": 113740,
+      "end_ms": 119380,
+      "text_en": "This is dished out equally to each Premier League club and earns them roughly 39 million pounds per season.",
+      "text_tr": "Bu, her Premier Lig kulübüne eşit olarak dağıtılıyor ve onlara sezon başına kabaca 39 milyon pound kazandırıyor.",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "dished out",
+          "text_tr": "dağıtmak, paylaştırmak",
+          "type": "phrasal_verb",
+          "cefr": "C1",
+          "norm_key": "dished out"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "is dished",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 5,
+          "span_end": 14
+        },
+        {
+          "pattern": "earns",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 59,
+          "span_end": 64
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "dished",
+          "lemma": "dish",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 114000,
+          "end_ms": 114380
+        },
+        {
+          "surface": "equally",
+          "lemma": "equally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 114520,
+          "end_ms": 114720
+        },
+        {
+          "surface": "club",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 115940,
+          "end_ms": 116240
+        },
+        {
+          "surface": "earns",
+          "lemma": "earn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 116660,
+          "end_ms": 116900
+        },
+        {
+          "surface": "roughly",
+          "lemma": "roughly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 117140,
+          "end_ms": 117360
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 118300,
+          "end_ms": 118700
+        },
+        {
+          "surface": "season",
+          "lemma": "season",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 119100,
+          "end_ms": 119380
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "start_ms": 120140,
+      "end_ms": 131400,
+      "text_en": "All in all, this helps produce some staggering incomes for Premier League clubs, taking last season as an example, champions Chelsea earned 150 .8 million pounds for winning the title.",
+      "text_tr": "Sonuç olarak bu, Premier Lig kulüpleri için hayret verici gelirler doğuruyor; geçen sezonu örnek alırsak şampiyon Chelsea şampiyonluk için 150,8 milyon pound kazandı.",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "all in all",
+          "text_tr": "sonuç olarak, her şey bir yana",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "all in all"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "earned",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 133,
+          "span_end": 139
+        },
+        {
+          "pattern": "helps",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 22
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 31,
+          "span_end": 35
+        }
+      ],
+      "vocab": [
+        {
+          "word": "staggering",
+          "lemma": "staggering",
+          "text_tr": "hayret verici, şaşırtıcı",
+          "pos": "adjective",
+          "cefr": "C1"
+        },
+        {
+          "word": "incomes",
+          "lemma": "income",
+          "text_tr": "gelirler",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "title",
+          "lemma": "title",
+          "text_tr": "şampiyonluk, unvan",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "all",
+          "lemma": "all",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 120140,
+          "end_ms": 120500
+        },
+        {
+          "surface": "in",
+          "lemma": "in",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 120500,
+          "end_ms": 120660
+        },
+        {
+          "surface": "helps",
+          "lemma": "help",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 121060,
+          "end_ms": 121300
+        },
+        {
+          "surface": "produce",
+          "lemma": "produce",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 121300,
+          "end_ms": 121700
+        },
+        {
+          "surface": "staggering",
+          "lemma": "staggering",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 121980,
+          "end_ms": 122480
+        },
+        {
+          "surface": "incomes",
+          "lemma": "income",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 122480,
+          "end_ms": 123020
+        },
+        {
+          "surface": "clubs",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 123900,
+          "end_ms": 124220
+        },
+        {
+          "surface": "taking",
+          "lemma": "take",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 124620,
+          "end_ms": 124960
+        },
+        {
+          "surface": "last",
+          "lemma": "last",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 124960,
+          "end_ms": 125180
+        },
+        {
+          "surface": "season",
+          "lemma": "season",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 125180,
+          "end_ms": 125600
+        },
+        {
+          "surface": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 125980,
+          "end_ms": 126380
+        },
+        {
+          "surface": "champions",
+          "lemma": "champion",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 126940,
+          "end_ms": 127280
+        },
+        {
+          "surface": "earned",
+          "lemma": "earn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 127600,
+          "end_ms": 128280
+        },
+        {
+          "surface": "pounds",
+          "lemma": "pound",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 129840,
+          "end_ms": 130300
+        },
+        {
+          "surface": "winning",
+          "lemma": "win",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 130740,
+          "end_ms": 130919
+        },
+        {
+          "surface": "title",
+          "lemma": "title",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 131100,
+          "end_ms": 131400
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "start_ms": 132440,
+      "end_ms": 137060,
+      "text_en": "Relegated Sunderland earned an equally impressive 93 .471 million.",
+      "text_tr": "Küme düşen Sunderland da aynı derecede etkileyici bir gelir, 93,471 milyon kazandı.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "earned",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 21,
+          "span_end": 27
+        }
+      ],
+      "vocab": [
+        {
+          "word": "relegated",
+          "lemma": "relegate",
+          "text_tr": "küme düşmek/düşürülmek",
+          "pos": "verb",
+          "cefr": "C1"
+        },
+        {
+          "word": "impressive",
+          "lemma": "impressive",
+          "text_tr": "etkileyici",
+          "pos": "adjective",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "earned",
+          "lemma": "earn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 133340,
+          "end_ms": 133860
+        },
+        {
+          "surface": "equally",
+          "lemma": "equally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 134020,
+          "end_ms": 134220
+        },
+        {
+          "surface": "impressive",
+          "lemma": "impressive",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 134220,
+          "end_ms": 134640
+        }
+      ]
     },
     {
       "idx": 17,
-      "start_ms": 113740,
-      "end_ms": 118700,
-      "text_en": "This is dished out equally to each Premier League club and earns them roughly 39 million pounds",
-      "text_tr": "",
+      "start_ms": 137680,
+      "end_ms": 149080,
+      "text_en": "The ratio between highest and lowest earning clubs last season was 1 .61 to 1, the lowest among Europe's top leagues, which means the Premier League is more equal when it comes to sharing revenue than",
+      "text_tr": "Geçen sezon en çok ve en az kazanan kulüpler arasındaki oran 1,61'e 1'di; bu, Avrupa'nın en üst liglerindeki en düşük oran ve Premier Lig'in gelir paylaşımında rakiplerine göre daha eşit olduğu anlamına geliyor.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "when it comes to",
+          "text_tr": "söz konusu olduğunda",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "when it comes to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "which means the Premier League is more equal when it comes to sharing revenue than",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 118,
+          "span_end": 200
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 124,
+          "span_end": 129
+        },
+        {
+          "pattern": "comes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 171,
+          "span_end": 176
+        }
+      ],
+      "vocab": [
+        {
+          "word": "ratio",
+          "lemma": "ratio",
+          "text_tr": "oran",
+          "pos": "noun",
+          "cefr": "B2"
+        },
+        {
+          "word": "revenue",
+          "lemma": "revenue",
+          "text_tr": "gelir, hasılat",
+          "pos": "noun",
+          "cefr": "B2"
+        },
+        {
+          "word": "equal",
+          "lemma": "equal",
+          "text_tr": "eşit",
+          "pos": "adjective",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "ratio",
+          "lemma": "ratio",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 137740,
+          "end_ms": 138040
+        },
+        {
+          "surface": "highest",
+          "lemma": "high",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 138460,
+          "end_ms": 138860
+        },
+        {
+          "surface": "lowest",
+          "lemma": "low",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 139140,
+          "end_ms": 139620
+        },
+        {
+          "surface": "earning",
+          "lemma": "earn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 139620,
+          "end_ms": 139800
+        },
+        {
+          "surface": "clubs",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 139800,
+          "end_ms": 140080
+        },
+        {
+          "surface": "last",
+          "lemma": "last",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 140080,
+          "end_ms": 140420
+        },
+        {
+          "surface": "season",
+          "lemma": "season",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 140420,
+          "end_ms": 140740
+        },
+        {
+          "surface": "lowest",
+          "lemma": "low",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 143200,
+          "end_ms": 143500
+        },
+        {
+          "surface": "top",
+          "lemma": "top",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 144440,
+          "end_ms": 144580
+        },
+        {
+          "surface": "leagues",
+          "lemma": "league",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 144580,
+          "end_ms": 144820
+        },
+        {
+          "surface": "means",
+          "lemma": "mean",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 145340,
+          "end_ms": 145540
+        },
+        {
+          "surface": "more",
+          "lemma": "more",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 146400,
+          "end_ms": 146600
+        },
+        {
+          "surface": "equal",
+          "lemma": "equal",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 146600,
+          "end_ms": 147020
+        },
+        {
+          "surface": "comes",
+          "lemma": "come",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 147500,
+          "end_ms": 147680
+        },
+        {
+          "surface": "sharing",
+          "lemma": "share",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 147880,
+          "end_ms": 148180
+        },
+        {
+          "surface": "revenue",
+          "lemma": "revenue",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 148180,
+          "end_ms": 148640
+        }
+      ]
     },
     {
       "idx": 18,
-      "start_ms": 118700,
-      "end_ms": 124220,
-      "text_en": "per season. All in all, this helps produce some staggering incomes for Premier League clubs,",
-      "text_tr": "",
+      "start_ms": 149080,
+      "end_ms": 149420,
+      "text_en": "its rivals.",
+      "text_tr": "rakiplerine göre.",
       "cefr": "B2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [
+        {
+          "word": "rivals",
+          "lemma": "rival",
+          "text_tr": "rakipler",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "rivals",
+          "lemma": "rival",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 149180,
+          "end_ms": 149420
+        }
+      ]
     },
     {
       "idx": 19,
-      "start_ms": 124620,
-      "end_ms": 131400,
-      "text_en": "taking last season as an example, champions Chelsea earned 150.8 million pounds for winning the title.",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 20,
-      "start_ms": 132440,
-      "end_ms": 139140,
-      "text_en": "Relegated Sunderland earned an equally impressive 93.471 million. The ratio between highest and",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 21,
-      "start_ms": 139140,
-      "end_ms": 144820,
-      "text_en": "lowest earning clubs last season was 1.61 to 1, the lowest among Europe's top leagues,",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 22,
-      "start_ms": 145240,
-      "end_ms": 149420,
-      "text_en": "which means the Premier League is more equal when it comes to sharing revenue than its rivals.",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 23,
       "start_ms": 150400,
       "end_ms": 156640,
       "text_en": "For example, Spain had at one time seen Barcelona and Real Madrid enjoy a lion's share of the funds.",
-      "text_tr": "",
+      "text_tr": "Örneğin İspanya'da bir zamanlar Barcelona ve Real Madrid gelirin aslan payını almıştı.",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "lion's share",
+          "text_tr": "aslan payı",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "lion's share"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "had at one time seen",
+          "note_tr": "Past Perfect vs. Simple Past",
+          "cefr": "B1",
+          "norm_pattern": "past_perfect_had_v3",
+          "span_start": 19,
+          "span_end": 39
+        },
+        {
+          "pattern": "enjoy",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 66,
+          "span_end": 71
+        }
+      ],
+      "vocab": [
+        {
+          "word": "funds",
+          "lemma": "fund",
+          "text_tr": "fonlar, kaynaklar",
+          "pos": "noun",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 150960,
+          "end_ms": 151220
+        },
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 152620,
+          "end_ms": 152940
+        },
+        {
+          "surface": "seen",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 152940,
+          "end_ms": 153180
+        },
+        {
+          "surface": "enjoy",
+          "lemma": "enjoy",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 154440,
+          "end_ms": 154980
+        },
+        {
+          "surface": "lion",
+          "lemma": "lion",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 150400,
+          "end_ms": 156640
+        },
+        {
+          "surface": "share",
+          "lemma": "share",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 155800,
+          "end_ms": 156080
+        },
+        {
+          "surface": "funds",
+          "lemma": "fund",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 156400,
+          "end_ms": 156640
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "start_ms": 157180,
+      "end_ms": 167260,
+      "text_en": "This season, Atlético Madrid won the league and they collected 42 million euros compared to 140 million euros for Real Madrid and Barcelona and 18 million for Almera.",
+      "text_tr": "Bu sezon Atlético Madrid ligi kazandı ve Real Madrid ile Barcelona'nın 140 milyon, Almería'nın 18 milyon eurosuna kıyasla 42 milyon euro topladı.",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "compared to",
+          "text_tr": "-e kıyasla",
+          "type": "connector",
+          "cefr": "B2",
+          "norm_key": "compared to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "won",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 29,
+          "span_end": 32
+        },
+        {
+          "pattern": "collected",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 53,
+          "span_end": 62
+        }
+      ],
+      "vocab": [
+        {
+          "word": "collected",
+          "lemma": "collect",
+          "text_tr": "toplamak",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "season",
+          "lemma": "season",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 157480,
+          "end_ms": 157900
+        },
+        {
+          "surface": "won",
+          "lemma": "win",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 158600,
+          "end_ms": 158900
+        },
+        {
+          "surface": "league",
+          "lemma": "league",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 159040,
+          "end_ms": 159200
+        },
+        {
+          "surface": "collected",
+          "lemma": "collect",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 159540,
+          "end_ms": 159780
+        },
+        {
+          "surface": "euros",
+          "lemma": "euro",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 160720,
+          "end_ms": 161200
+        },
+        {
+          "surface": "compared",
+          "lemma": "compare",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 161200,
+          "end_ms": 161740
+        },
+        {
+          "surface": "euros",
+          "lemma": "euro",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 163040,
+          "end_ms": 163560
+        }
+      ]
+    },
+    {
+      "idx": 21,
+      "start_ms": 168120,
+      "end_ms": 173940,
+      "text_en": "In 2016, however, a renegotiation saw the structure change to the following parameters.",
+      "text_tr": "Ancak 2016'da yapılan yeniden görüşme, yapının şu parametrelere dönüşmesini sağladı.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "saw",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 34,
+          "span_end": 37
+        }
+      ],
+      "vocab": [
+        {
+          "word": "renegotiation",
+          "lemma": "renegotiation",
+          "text_tr": "yeniden müzakere",
+          "pos": "noun",
+          "cefr": "C1"
+        },
+        {
+          "word": "structure",
+          "lemma": "structure",
+          "text_tr": "yapı",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "parameters",
+          "lemma": "parameter",
+          "text_tr": "parametreler, ölçütler",
+          "pos": "noun",
+          "cefr": "C1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "however",
+          "lemma": "however",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 169600,
+          "end_ms": 169980
+        },
+        {
+          "surface": "renegotiation",
+          "lemma": "renegotiation",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 170280,
+          "end_ms": 171100
+        },
+        {
+          "surface": "saw",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 171100,
+          "end_ms": 171820
+        },
+        {
+          "surface": "structure",
+          "lemma": "structure",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 172020,
+          "end_ms": 172280
+        },
+        {
+          "surface": "change",
+          "lemma": "change",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 172280,
+          "end_ms": 172680
+        },
+        {
+          "surface": "following",
+          "lemma": "follow",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 173300,
+          "end_ms": 173600
+        },
+        {
+          "surface": "parameters",
+          "lemma": "parameter",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 173600,
+          "end_ms": 173940
+        }
+      ]
+    },
+    {
+      "idx": 22,
+      "start_ms": 175060,
+      "end_ms": 186180,
+      "text_en": "A 50 % equal share for all 20 clubs in La Liga, 25 % merit based on how clubs finish in the table in the last three years and 25 % according to the resource generation ability",
+      "text_tr": "La Liga'daki 20 kulübün tümü için %50 eşit pay, son üç yılda kulüplerin ligi nasıl bitirdiğine dayalı %25 başarı payı ve kulüplerin kaynak yaratma kabiliyetine göre %25.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "finish",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 78,
+          "span_end": 84
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 23,
+          "span_end": 26
+        }
+      ],
+      "vocab": [
+        {
+          "word": "share",
+          "lemma": "share",
+          "text_tr": "pay, hisse",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "resource",
+          "lemma": "resource",
+          "text_tr": "kaynak",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "ability",
+          "lemma": "ability",
+          "text_tr": "kabiliyet, yetenek",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "equal",
+          "lemma": "equal",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 175680,
+          "end_ms": 176040
+        },
+        {
+          "surface": "share",
+          "lemma": "share",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 176040,
+          "end_ms": 176340
+        },
+        {
+          "surface": "clubs",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 177320,
+          "end_ms": 177640
+        },
+        {
+          "surface": "merit",
+          "lemma": "merit",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 179580,
+          "end_ms": 179860
+        },
+        {
+          "surface": "based",
+          "lemma": "base",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 179860,
+          "end_ms": 180220
+        },
+        {
+          "surface": "clubs",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 180840,
+          "end_ms": 181060
+        },
+        {
+          "surface": "finish",
+          "lemma": "finish",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 181060,
+          "end_ms": 181440
+        },
+        {
+          "surface": "table",
+          "lemma": "table",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 181720,
+          "end_ms": 181860
+        },
+        {
+          "surface": "last",
+          "lemma": "last",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 182200,
+          "end_ms": 182360
+        },
+        {
+          "surface": "years",
+          "lemma": "year",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 182640,
+          "end_ms": 182900
+        },
+        {
+          "surface": "according",
+          "lemma": "accord",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 184220,
+          "end_ms": 184540
+        },
+        {
+          "surface": "resource",
+          "lemma": "resource",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 184900,
+          "end_ms": 185220
+        },
+        {
+          "surface": "generation",
+          "lemma": "generation",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 185220,
+          "end_ms": 185560
+        },
+        {
+          "surface": "ability",
+          "lemma": "ability",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 185560,
+          "end_ms": 186180
+        }
+      ]
+    },
+    {
+      "idx": 23,
+      "start_ms": 186180,
+      "end_ms": 186760,
+      "text_en": "of clubs.",
+      "text_tr": "kulüplerin.",
       "cefr": "B2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "clubs",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 186540,
+          "end_ms": 186760
+        }
+      ]
     },
     {
       "idx": 24,
-      "start_ms": 157180,
-      "end_ms": 162240,
-      "text_en": "This season, Atlético Madrid won the league and they collected 42 million euros compared to 140",
-      "text_tr": "",
+      "start_ms": 187720,
+      "end_ms": 190660,
+      "text_en": "However, don't expect a glut of spending in Spain.",
+      "text_tr": "Ancak İspanya'da aşırı bir harcama bolluğu beklemeyin.",
       "cefr": "B2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [
+        {
+          "word": "glut",
+          "lemma": "glut",
+          "text_tr": "aşırı bolluk, fazlalık",
+          "pos": "noun",
+          "cefr": "C2"
+        },
+        {
+          "word": "spending",
+          "lemma": "spending",
+          "text_tr": "harcama",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "expect",
+          "lemma": "expect",
+          "text_tr": "beklemek",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "however",
+          "lemma": "however",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 187720,
+          "end_ms": 187960
+        },
+        {
+          "surface": "expect",
+          "lemma": "expect",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 188620,
+          "end_ms": 188900
+        },
+        {
+          "surface": "glut",
+          "lemma": "glut",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 189220,
+          "end_ms": 189380
+        },
+        {
+          "surface": "spending",
+          "lemma": "spending",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 189620,
+          "end_ms": 189960
+        }
+      ]
     },
     {
       "idx": 25,
-      "start_ms": 162740,
-      "end_ms": 169980,
-      "text_en": "million euros for Real Madrid and Barcelona and 18 million for Almera. In 2016, however,",
-      "text_tr": "",
+      "start_ms": 191400,
+      "end_ms": 196480,
+      "text_en": "Their three -year deal still represented half of what the Premier League collects during the same period for domestic rights.",
+      "text_tr": "Üç yıllık anlaşmaları yine de Premier Lig'in aynı dönemde yurt içi haklardan topladığının yarısı kadardı.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "grammar": [
+        {
+          "pattern": "represented",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 29,
+          "span_end": 40
+        },
+        {
+          "pattern": "collects",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 73,
+          "span_end": 81
+        }
+      ],
+      "vocab": [
+        {
+          "word": "period",
+          "lemma": "period",
+          "text_tr": "dönem",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "half",
+          "lemma": "half",
+          "text_tr": "yarı",
+          "pos": "noun",
+          "cefr": "A1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "deal",
+          "lemma": "deal",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 191940,
+          "end_ms": 192160
+        },
+        {
+          "surface": "still",
+          "lemma": "still",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 192160,
+          "end_ms": 192460
+        },
+        {
+          "surface": "represented",
+          "lemma": "represent",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 192460,
+          "end_ms": 192860
+        },
+        {
+          "surface": "half",
+          "lemma": "half",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 192860,
+          "end_ms": 193360
+        },
+        {
+          "surface": "collects",
+          "lemma": "collect",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 194340,
+          "end_ms": 194620
+        },
+        {
+          "surface": "same",
+          "lemma": "same",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 195140,
+          "end_ms": 195340
+        },
+        {
+          "surface": "period",
+          "lemma": "period",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 195340,
+          "end_ms": 195700
+        },
+        {
+          "surface": "domestic",
+          "lemma": "domestic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 195900,
+          "end_ms": 196080
+        },
+        {
+          "surface": "rights",
+          "lemma": "right",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 196080,
+          "end_ms": 196480
+        }
+      ]
     },
     {
       "idx": 26,
-      "start_ms": 170120,
-      "end_ms": 176960,
-      "text_en": "a renegotiation saw the structure change to the following parameters. A 50% equal share for all",
-      "text_tr": "",
+      "start_ms": 197640,
+      "end_ms": 208820,
+      "text_en": "While reliance on the money fluctuates from club to club, a piece in the Daily Express estimated Bournemouth, Watford and Swansea as the three clubs most reliant on TV money and Manchester United",
+      "text_tr": "Bu paraya bağımlılık kulüpten kulübe değişse de, Daily Express'teki bir yazı Bournemouth, Watford ve Swansea'yı televizyon gelirine en bağımlı üç kulüp, Manchester United'ı ise",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "reliant on",
+          "text_tr": "-e bağımlı",
+          "type": "collocation",
+          "cefr": "C1",
+          "norm_key": "reliant on"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "estimated",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 87,
+          "span_end": 96
+        },
+        {
+          "pattern": "fluctuates",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 28,
+          "span_end": 38
+        }
+      ],
+      "vocab": [
+        {
+          "word": "reliance",
+          "lemma": "reliance",
+          "text_tr": "bağımlılık, güvenme",
+          "pos": "noun",
+          "cefr": "C1"
+        },
+        {
+          "word": "fluctuates",
+          "lemma": "fluctuate",
+          "text_tr": "dalgalanmak, değişmek",
+          "pos": "verb",
+          "cefr": "C1"
+        },
+        {
+          "word": "reliant",
+          "lemma": "reliant",
+          "text_tr": "bağımlı",
+          "pos": "adjective",
+          "cefr": "C1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "reliance",
+          "lemma": "reliance",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 197880,
+          "end_ms": 198160
+        },
+        {
+          "surface": "money",
+          "lemma": "money",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 198560,
+          "end_ms": 198740
+        },
+        {
+          "surface": "fluctuates",
+          "lemma": "fluctuate",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 198740,
+          "end_ms": 199200
+        },
+        {
+          "surface": "club",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 199520,
+          "end_ms": 199720
+        },
+        {
+          "surface": "club",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 199900,
+          "end_ms": 200140
+        },
+        {
+          "surface": "piece",
+          "lemma": "piece",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 200680,
+          "end_ms": 200860
+        },
+        {
+          "surface": "estimated",
+          "lemma": "estimate",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 201820,
+          "end_ms": 202160
+        },
+        {
+          "surface": "clubs",
+          "lemma": "club",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 205480,
+          "end_ms": 205740
+        },
+        {
+          "surface": "most",
+          "lemma": "most",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 205740,
+          "end_ms": 206160
+        },
+        {
+          "surface": "reliant",
+          "lemma": "reliant",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 206160,
+          "end_ms": 206520
+        },
+        {
+          "surface": "tv",
+          "lemma": "tv",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 206960,
+          "end_ms": 207200
+        },
+        {
+          "surface": "money",
+          "lemma": "money",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 207200,
+          "end_ms": 207620
+        }
+      ]
     },
     {
       "idx": 27,
-      "start_ms": 176960,
-      "end_ms": 182900,
-      "text_en": "20 clubs in La Liga, 25% merit based on how clubs finish in the table in the last three years",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 28,
-      "start_ms": 182900,
-      "end_ms": 187960,
-      "text_en": "and 25% according to the resource generation ability of clubs. However,",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 29,
-      "start_ms": 188320,
-      "end_ms": 193800,
-      "text_en": "don't expect a glut of spending in Spain. Their three-year deal still represented half of what",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 30,
-      "start_ms": 193800,
-      "end_ms": 198740,
-      "text_en": "the Premier League collects during the same period for domestic rights. While reliance on the money",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 31,
-      "start_ms": 198740,
-      "end_ms": 204420,
-      "text_en": "fluctuates from club to club, a piece in the Daily Express estimated Bournemouth, Watford and Swansea",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 32,
-      "start_ms": 204420,
+      "start_ms": 208820,
       "end_ms": 209660,
-      "text_en": "as the three clubs most reliant on TV money and Manchester United the least reliant.",
-      "text_tr": "",
+      "text_en": "the least reliant.",
+      "text_tr": "en az bağımlı olarak değerlendirdi.",
       "cefr": "B2",
       "chunks": [],
       "grammar": [],
-      "vocab": []
+      "vocab": [
+        {
+          "word": "least",
+          "lemma": "least",
+          "text_tr": "en az",
+          "pos": "adjective",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "least",
+          "lemma": "least",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 209280,
+          "end_ms": 209420
+        },
+        {
+          "surface": "reliant",
+          "lemma": "reliant",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 209420,
+          "end_ms": 209660
+        }
+      ]
     }
   ]
 }

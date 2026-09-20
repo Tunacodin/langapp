@@ -1,0 +1,5367 @@
+[
+  {
+    "w": "Hi,",
+    "start_ms": 1940,
+    "end_ms": 2440,
+    "lemma": "hi",
+    "pos": "INTJ"
+  },
+  {
+    "w": "the",
+    "start_ms": 2580,
+    "end_ms": 2720,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "last",
+    "start_ms": 2720,
+    "end_ms": 4300,
+    "lemma": "last",
+    "pos": "ADJ"
+  },
+  {
+    "w": "few",
+    "start_ms": 4300,
+    "end_ms": 4500,
+    "lemma": "few",
+    "pos": "ADJ"
+  },
+  {
+    "w": "weeks",
+    "start_ms": 4500,
+    "end_ms": 4700,
+    "lemma": "week",
+    "pos": "NOUN"
+  },
+  {
+    "w": "have",
+    "start_ms": 4700,
+    "end_ms": 4860,
+    "lemma": "have",
+    "pos": "AUX"
+  },
+  {
+    "w": "definitely",
+    "start_ms": 4860,
+    "end_ms": 5180,
+    "lemma": "definitely",
+    "pos": "ADV"
+  },
+  {
+    "w": "sucked",
+    "start_ms": 5180,
+    "end_ms": 5560,
+    "lemma": "suck",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 5560,
+    "end_ms": 5880,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "lot,",
+    "start_ms": 5880,
+    "end_ms": 6080,
+    "lemma": "lot",
+    "pos": "NOUN"
+  },
+  {
+    "w": "but",
+    "start_ms": 6100,
+    "end_ms": 6480,
+    "lemma": "but",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 6480,
+    "end_ms": 6620,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "want",
+    "start_ms": 6620,
+    "end_ms": 6720,
+    "lemma": "want",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 6720,
+    "end_ms": 6800,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "say",
+    "start_ms": 6800,
+    "end_ms": 6920,
+    "lemma": "say",
+    "pos": "VERB"
+  },
+  {
+    "w": "thank",
+    "start_ms": 6920,
+    "end_ms": 7120,
+    "lemma": "thank",
+    "pos": "VERB"
+  },
+  {
+    "w": "you",
+    "start_ms": 7120,
+    "end_ms": 7320,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "to",
+    "start_ms": 7320,
+    "end_ms": 7440,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "everyone",
+    "start_ms": 7440,
+    "end_ms": 7700,
+    "lemma": "everyone",
+    "pos": "PRON"
+  },
+  {
+    "w": "who",
+    "start_ms": 7700,
+    "end_ms": 8000,
+    "lemma": "who",
+    "pos": "PRON"
+  },
+  {
+    "w": "reached",
+    "start_ms": 8000,
+    "end_ms": 8180,
+    "lemma": "reach",
+    "pos": "VERB"
+  },
+  {
+    "w": "out",
+    "start_ms": 8180,
+    "end_ms": 8480,
+    "lemma": "out",
+    "pos": "ADP"
+  },
+  {
+    "w": "I",
+    "start_ms": 8480,
+    "end_ms": 9080,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "am",
+    "start_ms": 9080,
+    "end_ms": 9220,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "still",
+    "start_ms": 9220,
+    "end_ms": 9460,
+    "lemma": "still",
+    "pos": "ADV"
+  },
+  {
+    "w": "recovering",
+    "start_ms": 9460,
+    "end_ms": 9740,
+    "lemma": "recover",
+    "pos": "VERB"
+  },
+  {
+    "w": "from",
+    "start_ms": 9740,
+    "end_ms": 10140,
+    "lemma": "from",
+    "pos": "ADP"
+  },
+  {
+    "w": "surgery,",
+    "start_ms": 10140,
+    "end_ms": 10360,
+    "lemma": "surgery",
+    "pos": "NOUN"
+  },
+  {
+    "w": "but",
+    "start_ms": 10360,
+    "end_ms": 10700,
+    "lemma": "but",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "I'm",
+    "start_ms": 10700,
+    "end_ms": 10760
+  },
+  {
+    "w": "doing",
+    "start_ms": 10760,
+    "end_ms": 10920,
+    "lemma": "do",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 10920,
+    "end_ms": 11040,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "whole",
+    "start_ms": 11040,
+    "end_ms": 11280,
+    "lemma": "whole",
+    "pos": "ADJ"
+  },
+  {
+    "w": "lot",
+    "start_ms": 11280,
+    "end_ms": 11460,
+    "lemma": "lot",
+    "pos": "NOUN"
+  },
+  {
+    "w": "better",
+    "start_ms": 11460,
+    "end_ms": 11660,
+    "lemma": "well",
+    "pos": "ADJ"
+  },
+  {
+    "w": "I'm",
+    "start_ms": 12120,
+    "end_ms": 12520
+  },
+  {
+    "w": "back",
+    "start_ms": 12520,
+    "end_ms": 12680,
+    "lemma": "back",
+    "pos": "ADV"
+  },
+  {
+    "w": "in",
+    "start_ms": 12680,
+    "end_ms": 12820,
+    "lemma": "in",
+    "pos": "ADP"
+  },
+  {
+    "w": "America",
+    "start_ms": 12820,
+    "end_ms": 13000,
+    "lemma": "america",
+    "pos": "PROPN"
+  },
+  {
+    "w": "and",
+    "start_ms": 13000,
+    "end_ms": 13520,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "just",
+    "start_ms": 13520,
+    "end_ms": 13700,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "taking",
+    "start_ms": 13700,
+    "end_ms": 13960,
+    "lemma": "take",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 13960,
+    "end_ms": 14180,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "easy",
+    "start_ms": 14180,
+    "end_ms": 14300,
+    "lemma": "easy",
+    "pos": "ADJ"
+  },
+  {
+    "w": "for",
+    "start_ms": 14300,
+    "end_ms": 14580,
+    "lemma": "for",
+    "pos": "ADP"
+  },
+  {
+    "w": "the",
+    "start_ms": 14580,
+    "end_ms": 14680,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "time",
+    "start_ms": 14680,
+    "end_ms": 14840,
+    "lemma": "time",
+    "pos": "NOUN"
+  },
+  {
+    "w": "being",
+    "start_ms": 14840,
+    "end_ms": 15080,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "the",
+    "start_ms": 15080,
+    "end_ms": 15640,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "title",
+    "start_ms": 15640,
+    "end_ms": 15860,
+    "lemma": "title",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 15860,
+    "end_ms": 16059,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "this",
+    "start_ms": 16059,
+    "end_ms": 16140,
+    "lemma": "this",
+    "pos": "DET"
+  },
+  {
+    "w": "video",
+    "start_ms": 16140,
+    "end_ms": 16300,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 16300,
+    "end_ms": 16440,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "true",
+    "start_ms": 16440,
+    "end_ms": 16620,
+    "lemma": "true",
+    "pos": "ADJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 16620,
+    "end_ms": 17080,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "finally",
+    "start_ms": 17080,
+    "end_ms": 17280,
+    "lemma": "finally",
+    "pos": "ADV"
+  },
+  {
+    "w": "met",
+    "start_ms": 17280,
+    "end_ms": 17580,
+    "lemma": "meet",
+    "pos": "VERB"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 17580,
+    "end_ms": 17820,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "this",
+    "start_ms": 17820,
+    "end_ms": 18320,
+    "lemma": "this",
+    "pos": "PRON"
+  },
+  {
+    "w": "happened",
+    "start_ms": 18320,
+    "end_ms": 18560,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 18560,
+    "end_ms": 18860,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "few",
+    "start_ms": 18860,
+    "end_ms": 19040,
+    "lemma": "few",
+    "pos": "ADJ"
+  },
+  {
+    "w": "months",
+    "start_ms": 19040,
+    "end_ms": 19240,
+    "lemma": "month",
+    "pos": "NOUN"
+  },
+  {
+    "w": "back,",
+    "start_ms": 19240,
+    "end_ms": 19520,
+    "lemma": "back",
+    "pos": "ADV"
+  },
+  {
+    "w": "but",
+    "start_ms": 19800,
+    "end_ms": 20000,
+    "lemma": "but",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 20000,
+    "end_ms": 20140,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "wanted",
+    "start_ms": 20140,
+    "end_ms": 20260,
+    "lemma": "want",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 20260,
+    "end_ms": 20420,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "take",
+    "start_ms": 20420,
+    "end_ms": 20560,
+    "lemma": "take",
+    "pos": "VERB"
+  },
+  {
+    "w": "my",
+    "start_ms": 20560,
+    "end_ms": 20680,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "time",
+    "start_ms": 20680,
+    "end_ms": 20920,
+    "lemma": "time",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 20920,
+    "end_ms": 21140,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "tell",
+    "start_ms": 21140,
+    "end_ms": 21400,
+    "lemma": "tell",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 21400,
+    "end_ms": 21540,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "story",
+    "start_ms": 21540,
+    "end_ms": 21920,
+    "lemma": "story",
+    "pos": "NOUN"
+  },
+  {
+    "w": "The",
+    "start_ms": 22360,
+    "end_ms": 22760,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "right",
+    "start_ms": 22760,
+    "end_ms": 22920,
+    "lemma": "right",
+    "pos": "ADJ"
+  },
+  {
+    "w": "way",
+    "start_ms": 22920,
+    "end_ms": 23120,
+    "lemma": "way",
+    "pos": "NOUN"
+  },
+  {
+    "w": "it",
+    "start_ms": 23120,
+    "end_ms": 23400,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "means",
+    "start_ms": 23400,
+    "end_ms": 23560,
+    "lemma": "mean",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 23560,
+    "end_ms": 23680,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "lot",
+    "start_ms": 23680,
+    "end_ms": 23840,
+    "lemma": "lot",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 23840,
+    "end_ms": 23980,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "me",
+    "start_ms": 23980,
+    "end_ms": 24160,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "in",
+    "start_ms": 24160,
+    "end_ms": 24380,
+    "lemma": "in",
+    "pos": "ADP"
+  },
+  {
+    "w": "terms",
+    "start_ms": 24380,
+    "end_ms": 24580,
+    "lemma": "term",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 24580,
+    "end_ms": 24780,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "being",
+    "start_ms": 24780,
+    "end_ms": 25020,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "a",
+    "start_ms": 25020,
+    "end_ms": 25680,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "full",
+    "start_ms": 25680,
+    "end_ms": 25900,
+    "lemma": "full",
+    "pos": "ADJ"
+  },
+  {
+    "w": "circle",
+    "start_ms": 25900,
+    "end_ms": 26220,
+    "lemma": "circle",
+    "pos": "NOUN"
+  },
+  {
+    "w": "part",
+    "start_ms": 26220,
+    "end_ms": 26560,
+    "lemma": "part",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 26560,
+    "end_ms": 26700,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "my",
+    "start_ms": 26700,
+    "end_ms": 26800,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "journey",
+    "start_ms": 26800,
+    "end_ms": 27080,
+    "lemma": "journey",
+    "pos": "NOUN"
+  },
+  {
+    "w": "going",
+    "start_ms": 27080,
+    "end_ms": 27340,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "from",
+    "start_ms": 27340,
+    "end_ms": 27600,
+    "lemma": "from",
+    "pos": "ADP"
+  },
+  {
+    "w": "seeing",
+    "start_ms": 27600,
+    "end_ms": 27800,
+    "lemma": "see",
+    "pos": "VERB"
+  },
+  {
+    "w": "someone",
+    "start_ms": 27800,
+    "end_ms": 28080,
+    "lemma": "someone",
+    "pos": "PRON"
+  },
+  {
+    "w": "online",
+    "start_ms": 28080,
+    "end_ms": 28360,
+    "lemma": "online",
+    "pos": "ADV"
+  },
+  {
+    "w": "That",
+    "start_ms": 28360,
+    "end_ms": 28640,
+    "lemma": "that",
+    "pos": "PRON"
+  },
+  {
+    "w": "I",
+    "start_ms": 28640,
+    "end_ms": 28700,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "really",
+    "start_ms": 28700,
+    "end_ms": 28840,
+    "lemma": "really",
+    "pos": "ADV"
+  },
+  {
+    "w": "looked",
+    "start_ms": 28840,
+    "end_ms": 29100,
+    "lemma": "look",
+    "pos": "VERB"
+  },
+  {
+    "w": "up",
+    "start_ms": 29100,
+    "end_ms": 29200,
+    "lemma": "up",
+    "pos": "ADP"
+  },
+  {
+    "w": "to",
+    "start_ms": 29200,
+    "end_ms": 29420,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "to",
+    "start_ms": 29420,
+    "end_ms": 29760,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "being",
+    "start_ms": 29760,
+    "end_ms": 30360,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "a",
+    "start_ms": 30360,
+    "end_ms": 30460,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "friend",
+    "start_ms": 30460,
+    "end_ms": 30620,
+    "lemma": "friend",
+    "pos": "NOUN"
+  },
+  {
+    "w": "with",
+    "start_ms": 30620,
+    "end_ms": 30740,
+    "lemma": "with",
+    "pos": "ADP"
+  },
+  {
+    "w": "them",
+    "start_ms": 30740,
+    "end_ms": 30920,
+    "lemma": "they",
+    "pos": "PRON"
+  },
+  {
+    "w": "and",
+    "start_ms": 30920,
+    "end_ms": 31080,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "being",
+    "start_ms": 31080,
+    "end_ms": 31200,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "able",
+    "start_ms": 31200,
+    "end_ms": 31420,
+    "lemma": "able",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 31420,
+    "end_ms": 31540,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "just",
+    "start_ms": 31540,
+    "end_ms": 31700,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "text",
+    "start_ms": 31700,
+    "end_ms": 31880,
+    "lemma": "text",
+    "pos": "VERB"
+  },
+  {
+    "w": "him",
+    "start_ms": 31880,
+    "end_ms": 32220,
+    "lemma": "he",
+    "pos": "PRON"
+  },
+  {
+    "w": "I",
+    "start_ms": 32220,
+    "end_ms": 32700,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "don't",
+    "start_ms": 32700,
+    "end_ms": 32800
+  },
+  {
+    "w": "know.",
+    "start_ms": 32800,
+    "end_ms": 32900,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "I",
+    "start_ms": 33160,
+    "end_ms": 33300,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "think",
+    "start_ms": 33300,
+    "end_ms": 33400,
+    "lemma": "think",
+    "pos": "VERB"
+  },
+  {
+    "w": "it's",
+    "start_ms": 33400,
+    "end_ms": 33480
+  },
+  {
+    "w": "really",
+    "start_ms": 33480,
+    "end_ms": 33640
+  },
+  {
+    "w": "cool",
+    "start_ms": 33640,
+    "end_ms": 33880
+  },
+  {
+    "w": "and",
+    "start_ms": 33880,
+    "end_ms": 34180
+  },
+  {
+    "w": "hopefully",
+    "start_ms": 34180,
+    "end_ms": 34440
+  },
+  {
+    "w": "some",
+    "start_ms": 34440,
+    "end_ms": 34740
+  },
+  {
+    "w": "of",
+    "start_ms": 34740,
+    "end_ms": 34900
+  },
+  {
+    "w": "you",
+    "start_ms": 34900,
+    "end_ms": 35040
+  },
+  {
+    "w": "can",
+    "start_ms": 35040,
+    "end_ms": 35220
+  },
+  {
+    "w": "take",
+    "start_ms": 35220,
+    "end_ms": 35420
+  },
+  {
+    "w": "something",
+    "start_ms": 35420,
+    "end_ms": 35640
+  },
+  {
+    "w": "away",
+    "start_ms": 35640,
+    "end_ms": 35900
+  },
+  {
+    "w": "from",
+    "start_ms": 35900,
+    "end_ms": 36060
+  },
+  {
+    "w": "this",
+    "start_ms": 36060,
+    "end_ms": 36260
+  },
+  {
+    "w": "and",
+    "start_ms": 36260,
+    "end_ms": 36960
+  },
+  {
+    "w": "that's",
+    "start_ms": 36960,
+    "end_ms": 37780
+  },
+  {
+    "w": "it.",
+    "start_ms": 37780,
+    "end_ms": 37920,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "Okay",
+    "start_ms": 38240,
+    "end_ms": 38660,
+    "lemma": "okay",
+    "pos": "INTJ"
+  },
+  {
+    "w": "Enjoy",
+    "start_ms": 39480,
+    "end_ms": 39920,
+    "lemma": "enjoy",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 39920,
+    "end_ms": 40200,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "video",
+    "start_ms": 40200,
+    "end_ms": 40500,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "About",
+    "start_ms": 43280,
+    "end_ms": 43720,
+    "lemma": "about",
+    "pos": "ADV"
+  },
+  {
+    "w": "two",
+    "start_ms": 43720,
+    "end_ms": 44160,
+    "lemma": "two",
+    "pos": "NUM"
+  },
+  {
+    "w": "years",
+    "start_ms": 44160,
+    "end_ms": 44340,
+    "lemma": "year",
+    "pos": "NOUN"
+  },
+  {
+    "w": "ago",
+    "start_ms": 44340,
+    "end_ms": 44540,
+    "lemma": "ago",
+    "pos": "ADV"
+  },
+  {
+    "w": "I",
+    "start_ms": 44540,
+    "end_ms": 44720,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "was",
+    "start_ms": 44720,
+    "end_ms": 44780,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "sitting",
+    "start_ms": 44780,
+    "end_ms": 44940,
+    "lemma": "sit",
+    "pos": "VERB"
+  },
+  {
+    "w": "on",
+    "start_ms": 44940,
+    "end_ms": 45100,
+    "lemma": "on",
+    "pos": "ADP"
+  },
+  {
+    "w": "a",
+    "start_ms": 45100,
+    "end_ms": 45180,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "couch",
+    "start_ms": 45180,
+    "end_ms": 45420,
+    "lemma": "couch",
+    "pos": "NOUN"
+  },
+  {
+    "w": "with",
+    "start_ms": 45420,
+    "end_ms": 45760,
+    "lemma": "with",
+    "pos": "ADP"
+  },
+  {
+    "w": "my",
+    "start_ms": 45760,
+    "end_ms": 45940,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "buddy",
+    "start_ms": 45940,
+    "end_ms": 46120,
+    "lemma": "buddy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Chase",
+    "start_ms": 46120,
+    "end_ms": 46420,
+    "lemma": "chase",
+    "pos": "PROPN"
+  },
+  {
+    "w": "when",
+    "start_ms": 46420,
+    "end_ms": 46820,
+    "lemma": "when",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "he",
+    "start_ms": 46820,
+    "end_ms": 46980,
+    "lemma": "he",
+    "pos": "PRON"
+  },
+  {
+    "w": "pulled",
+    "start_ms": 46980,
+    "end_ms": 47120,
+    "lemma": "pull",
+    "pos": "VERB"
+  },
+  {
+    "w": "up",
+    "start_ms": 47120,
+    "end_ms": 47320,
+    "lemma": "up",
+    "pos": "ADP"
+  },
+  {
+    "w": "a",
+    "start_ms": 47320,
+    "end_ms": 47360,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "video",
+    "start_ms": 47360,
+    "end_ms": 47620,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "by",
+    "start_ms": 47620,
+    "end_ms": 47900,
+    "lemma": "by",
+    "pos": "ADP"
+  },
+  {
+    "w": "a",
+    "start_ms": 47900,
+    "end_ms": 47980,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "guy",
+    "start_ms": 47980,
+    "end_ms": 48180,
+    "lemma": "guy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "named",
+    "start_ms": 48180,
+    "end_ms": 48320,
+    "lemma": "name",
+    "pos": "VERB"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 48320,
+    "end_ms": 48580,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "McKinnon",
+    "start_ms": 48580,
+    "end_ms": 49020,
+    "lemma": "mckinnon",
+    "pos": "PROPN"
+  },
+  {
+    "w": "Now",
+    "start_ms": 49020,
+    "end_ms": 49600,
+    "lemma": "now",
+    "pos": "ADV"
+  },
+  {
+    "w": "what",
+    "start_ms": 49600,
+    "end_ms": 49820,
+    "lemma": "what",
+    "pos": "PRON"
+  },
+  {
+    "w": "immediately",
+    "start_ms": 49820,
+    "end_ms": 50140,
+    "lemma": "immediately",
+    "pos": "ADV"
+  },
+  {
+    "w": "caught",
+    "start_ms": 50140,
+    "end_ms": 50480,
+    "lemma": "catch",
+    "pos": "VERB"
+  },
+  {
+    "w": "my",
+    "start_ms": 50480,
+    "end_ms": 50660,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "eye",
+    "start_ms": 50660,
+    "end_ms": 50920,
+    "lemma": "eye",
+    "pos": "NOUN"
+  },
+  {
+    "w": "was",
+    "start_ms": 50920,
+    "end_ms": 51140,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "not",
+    "start_ms": 51140,
+    "end_ms": 51340,
+    "lemma": "not",
+    "pos": "PART"
+  },
+  {
+    "w": "only",
+    "start_ms": 51340,
+    "end_ms": 51540,
+    "lemma": "only",
+    "pos": "ADV"
+  },
+  {
+    "w": "how",
+    "start_ms": 51540,
+    "end_ms": 51800,
+    "lemma": "how",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "good",
+    "start_ms": 51800,
+    "end_ms": 52000,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "he",
+    "start_ms": 52000,
+    "end_ms": 52180,
+    "lemma": "he",
+    "pos": "PRON"
+  },
+  {
+    "w": "was",
+    "start_ms": 52180,
+    "end_ms": 52420,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "at",
+    "start_ms": 52420,
+    "end_ms": 52600,
+    "lemma": "at",
+    "pos": "ADP"
+  },
+  {
+    "w": "making",
+    "start_ms": 52600,
+    "end_ms": 52800,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "videos",
+    "start_ms": 52800,
+    "end_ms": 53180,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "But",
+    "start_ms": 53180,
+    "end_ms": 53900,
+    "lemma": "but",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "mostly",
+    "start_ms": 53900,
+    "end_ms": 54120,
+    "lemma": "mostly",
+    "pos": "ADV"
+  },
+  {
+    "w": "how",
+    "start_ms": 54120,
+    "end_ms": 54540,
+    "lemma": "how",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "good",
+    "start_ms": 54540,
+    "end_ms": 54740,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "he",
+    "start_ms": 54740,
+    "end_ms": 54920,
+    "lemma": "he",
+    "pos": "PRON"
+  },
+  {
+    "w": "was",
+    "start_ms": 54920,
+    "end_ms": 55160,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "at",
+    "start_ms": 55160,
+    "end_ms": 55460,
+    "lemma": "at",
+    "pos": "ADP"
+  },
+  {
+    "w": "connecting",
+    "start_ms": 55460,
+    "end_ms": 55680,
+    "lemma": "connect",
+    "pos": "VERB"
+  },
+  {
+    "w": "with",
+    "start_ms": 55680,
+    "end_ms": 56200,
+    "lemma": "with",
+    "pos": "ADP"
+  },
+  {
+    "w": "people",
+    "start_ms": 56200,
+    "end_ms": 56740,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 56740,
+    "end_ms": 57360,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "quickly",
+    "start_ms": 57360,
+    "end_ms": 57640,
+    "lemma": "quickly",
+    "pos": "ADV"
+  },
+  {
+    "w": "became",
+    "start_ms": 57640,
+    "end_ms": 58060,
+    "lemma": "become",
+    "pos": "VERB"
+  },
+  {
+    "w": "one",
+    "start_ms": 58060,
+    "end_ms": 58300,
+    "lemma": "one",
+    "pos": "NUM"
+  },
+  {
+    "w": "of",
+    "start_ms": 58300,
+    "end_ms": 58360,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "my",
+    "start_ms": 58360,
+    "end_ms": 58460,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "favorite",
+    "start_ms": 58460,
+    "end_ms": 58700,
+    "lemma": "favorite",
+    "pos": "ADJ"
+  },
+  {
+    "w": "people",
+    "start_ms": 58700,
+    "end_ms": 58980,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 58980,
+    "end_ms": 59120,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "watch",
+    "start_ms": 59120,
+    "end_ms": 59320,
+    "lemma": "watch",
+    "pos": "VERB"
+  },
+  {
+    "w": "online",
+    "start_ms": 59320,
+    "end_ms": 59940,
+    "lemma": "online",
+    "pos": "ADV"
+  },
+  {
+    "w": "and",
+    "start_ms": 59940,
+    "end_ms": 60280,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "this",
+    "start_ms": 60280,
+    "end_ms": 60480,
+    "lemma": "this",
+    "pos": "PRON"
+  },
+  {
+    "w": "is",
+    "start_ms": 60480,
+    "end_ms": 60740,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "a",
+    "start_ms": 60740,
+    "end_ms": 60800,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "story",
+    "start_ms": 60800,
+    "end_ms": 61140,
+    "lemma": "story",
+    "pos": "NOUN"
+  },
+  {
+    "w": "about",
+    "start_ms": 61140,
+    "end_ms": 61480,
+    "lemma": "about",
+    "pos": "ADP"
+  },
+  {
+    "w": "how",
+    "start_ms": 61480,
+    "end_ms": 61680,
+    "lemma": "how",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 61680,
+    "end_ms": 61840,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "went",
+    "start_ms": 61840,
+    "end_ms": 62020,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "from",
+    "start_ms": 62020,
+    "end_ms": 62460,
+    "lemma": "from",
+    "pos": "ADP"
+  },
+  {
+    "w": "being",
+    "start_ms": 62460,
+    "end_ms": 62660,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "a",
+    "start_ms": 62660,
+    "end_ms": 62780,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "subscriber",
+    "start_ms": 62780,
+    "end_ms": 63100,
+    "lemma": "subscriber",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Watching",
+    "start_ms": 63100,
+    "end_ms": 63840,
+    "lemma": "watch",
+    "pos": "VERB"
+  },
+  {
+    "w": "him",
+    "start_ms": 63840,
+    "end_ms": 64220,
+    "lemma": "he",
+    "pos": "PRON"
+  },
+  {
+    "w": "on",
+    "start_ms": 64220,
+    "end_ms": 64480,
+    "lemma": "on",
+    "pos": "ADP"
+  },
+  {
+    "w": "my",
+    "start_ms": 64480,
+    "end_ms": 64640,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "couch",
+    "start_ms": 64640,
+    "end_ms": 64920,
+    "lemma": "couch",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 64920,
+    "end_ms": 65580,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "being",
+    "start_ms": 65580,
+    "end_ms": 65900,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "a",
+    "start_ms": 65900,
+    "end_ms": 66100,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "friend",
+    "start_ms": 66100,
+    "end_ms": 66380,
+    "lemma": "friend",
+    "pos": "NOUN"
+  },
+  {
+    "w": "grabbing",
+    "start_ms": 66380,
+    "end_ms": 66860,
+    "lemma": "grab",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 66860,
+    "end_ms": 67080,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "cup",
+    "start_ms": 67080,
+    "end_ms": 67220,
+    "lemma": "cup",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 67220,
+    "end_ms": 67340,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "coffee",
+    "start_ms": 67340,
+    "end_ms": 67660,
+    "lemma": "coffee",
+    "pos": "NOUN"
+  },
+  {
+    "w": "with",
+    "start_ms": 67660,
+    "end_ms": 67860,
+    "lemma": "with",
+    "pos": "ADP"
+  },
+  {
+    "w": "him",
+    "start_ms": 67860,
+    "end_ms": 68080,
+    "lemma": "he",
+    "pos": "PRON"
+  },
+  {
+    "w": "in",
+    "start_ms": 68080,
+    "end_ms": 68400,
+    "lemma": "in",
+    "pos": "ADP"
+  },
+  {
+    "w": "real",
+    "start_ms": 68400,
+    "end_ms": 68660,
+    "lemma": "real",
+    "pos": "ADJ"
+  },
+  {
+    "w": "life",
+    "start_ms": 68660,
+    "end_ms": 68940,
+    "lemma": "life",
+    "pos": "NOUN"
+  },
+  {
+    "w": "So",
+    "start_ms": 69720,
+    "end_ms": 70240,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "there's",
+    "start_ms": 70240,
+    "end_ms": 70540
+  },
+  {
+    "w": "a",
+    "start_ms": 70540,
+    "end_ms": 70600,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "good",
+    "start_ms": 70600,
+    "end_ms": 70700,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "chance",
+    "start_ms": 70700,
+    "end_ms": 70980,
+    "lemma": "chance",
+    "pos": "NOUN"
+  },
+  {
+    "w": "by",
+    "start_ms": 70980,
+    "end_ms": 71280,
+    "lemma": "by",
+    "pos": "ADP"
+  },
+  {
+    "w": "now.",
+    "start_ms": 71280,
+    "end_ms": 71540,
+    "lemma": "now",
+    "pos": "ADV"
+  },
+  {
+    "w": "You",
+    "start_ms": 71540,
+    "end_ms": 71780,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "already",
+    "start_ms": 71780,
+    "end_ms": 72060,
+    "lemma": "already",
+    "pos": "ADV"
+  },
+  {
+    "w": "know",
+    "start_ms": 72060,
+    "end_ms": 72400,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 72400,
+    "end_ms": 72580,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "first",
+    "start_ms": 72580,
+    "end_ms": 72800,
+    "lemma": "first",
+    "pos": "ADJ"
+  },
+  {
+    "w": "part",
+    "start_ms": 72800,
+    "end_ms": 73120,
+    "lemma": "part",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 73120,
+    "end_ms": 73420,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "this",
+    "start_ms": 73420,
+    "end_ms": 73600,
+    "lemma": "this",
+    "pos": "DET"
+  },
+  {
+    "w": "story",
+    "start_ms": 73600,
+    "end_ms": 73940,
+    "lemma": "story",
+    "pos": "NOUN"
+  },
+  {
+    "w": "My",
+    "start_ms": 73940,
+    "end_ms": 74840,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "friends",
+    "start_ms": 74840,
+    "end_ms": 75040,
+    "lemma": "friend",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 75040,
+    "end_ms": 75200,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 75200,
+    "end_ms": 75320,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "got",
+    "start_ms": 75320,
+    "end_ms": 75480,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "together",
+    "start_ms": 75480,
+    "end_ms": 75720,
+    "lemma": "together",
+    "pos": "ADV"
+  },
+  {
+    "w": "to",
+    "start_ms": 75720,
+    "end_ms": 76140,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "make",
+    "start_ms": 76140,
+    "end_ms": 76460,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 76460,
+    "end_ms": 76660,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "music",
+    "start_ms": 76660,
+    "end_ms": 76960,
+    "lemma": "music",
+    "pos": "NOUN"
+  },
+  {
+    "w": "video",
+    "start_ms": 76960,
+    "end_ms": 77340,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "about",
+    "start_ms": 77340,
+    "end_ms": 77820,
+    "lemma": "about",
+    "pos": "ADP"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 77820,
+    "end_ms": 78080,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "to",
+    "start_ms": 78080,
+    "end_ms": 78500,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "get",
+    "start_ms": 78500,
+    "end_ms": 78760,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "his",
+    "start_ms": 78760,
+    "end_ms": 78920,
+    "lemma": "his",
+    "pos": "PRON"
+  },
+  {
+    "w": "attention",
+    "start_ms": 78920,
+    "end_ms": 79200,
+    "lemma": "attention",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We",
+    "start_ms": 79200,
+    "end_ms": 80120,
+    "lemma": "we",
+    "pos": "PRON"
+  },
+  {
+    "w": "had",
+    "start_ms": 80120,
+    "end_ms": 80240,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 80240,
+    "end_ms": 80360,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "hell",
+    "start_ms": 80360,
+    "end_ms": 80500,
+    "lemma": "hell",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 80500,
+    "end_ms": 80600,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "a",
+    "start_ms": 80600,
+    "end_ms": 80660,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "time",
+    "start_ms": 80660,
+    "end_ms": 80900,
+    "lemma": "time",
+    "pos": "NOUN"
+  },
+  {
+    "w": "doing",
+    "start_ms": 80900,
+    "end_ms": 81140,
+    "lemma": "do",
+    "pos": "VERB"
+  },
+  {
+    "w": "what",
+    "start_ms": 81140,
+    "end_ms": 81520,
+    "lemma": "what",
+    "pos": "PRON"
+  },
+  {
+    "w": "we",
+    "start_ms": 81520,
+    "end_ms": 81680,
+    "lemma": "we",
+    "pos": "PRON"
+  },
+  {
+    "w": "do",
+    "start_ms": 81680,
+    "end_ms": 81840,
+    "lemma": "do",
+    "pos": "VERB"
+  },
+  {
+    "w": "best,",
+    "start_ms": 81840,
+    "end_ms": 82120,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "which",
+    "start_ms": 82360,
+    "end_ms": 82600,
+    "lemma": "which",
+    "pos": "PRON"
+  },
+  {
+    "w": "is",
+    "start_ms": 82600,
+    "end_ms": 82780,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "basically",
+    "start_ms": 82780,
+    "end_ms": 83200,
+    "lemma": "basically",
+    "pos": "ADV"
+  },
+  {
+    "w": "just",
+    "start_ms": 83200,
+    "end_ms": 83600,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "putting",
+    "start_ms": 83600,
+    "end_ms": 84020,
+    "lemma": "put",
+    "pos": "VERB"
+  },
+  {
+    "w": "So",
+    "start_ms": 84020,
+    "end_ms": 84900,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "much",
+    "start_ms": 84900,
+    "end_ms": 85120,
+    "lemma": "much",
+    "pos": "ADJ"
+  },
+  {
+    "w": "time",
+    "start_ms": 85120,
+    "end_ms": 85460,
+    "lemma": "time",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 85460,
+    "end_ms": 85640,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "effort",
+    "start_ms": 85640,
+    "end_ms": 85940,
+    "lemma": "effort",
+    "pos": "NOUN"
+  },
+  {
+    "w": "into",
+    "start_ms": 85940,
+    "end_ms": 86340,
+    "lemma": "into",
+    "pos": "ADP"
+  },
+  {
+    "w": "something",
+    "start_ms": 86340,
+    "end_ms": 86680,
+    "lemma": "something",
+    "pos": "PRON"
+  },
+  {
+    "w": "incredibly",
+    "start_ms": 86680,
+    "end_ms": 87220,
+    "lemma": "incredibly",
+    "pos": "ADV"
+  },
+  {
+    "w": "stupid",
+    "start_ms": 87220,
+    "end_ms": 87920,
+    "lemma": "stupid",
+    "pos": "ADJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 89100,
+    "end_ms": 89580,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "dropped",
+    "start_ms": 89580,
+    "end_ms": 89740,
+    "lemma": "drop",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 89740,
+    "end_ms": 89960,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "video",
+    "start_ms": 89960,
+    "end_ms": 90220,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "with",
+    "start_ms": 90220,
+    "end_ms": 90400,
+    "lemma": "with",
+    "pos": "ADP"
+  },
+  {
+    "w": "no",
+    "start_ms": 90400,
+    "end_ms": 90560,
+    "lemma": "no",
+    "pos": "DET"
+  },
+  {
+    "w": "real",
+    "start_ms": 90560,
+    "end_ms": 90760,
+    "lemma": "real",
+    "pos": "ADJ"
+  },
+  {
+    "w": "expectations",
+    "start_ms": 90760,
+    "end_ms": 91140,
+    "lemma": "expectation",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 91140,
+    "end_ms": 91920,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "within",
+    "start_ms": 91920,
+    "end_ms": 92140,
+    "lemma": "within",
+    "pos": "ADP"
+  },
+  {
+    "w": "two",
+    "start_ms": 92140,
+    "end_ms": 92440,
+    "lemma": "two",
+    "pos": "NUM"
+  },
+  {
+    "w": "hours",
+    "start_ms": 92440,
+    "end_ms": 92780,
+    "lemma": "hour",
+    "pos": "NOUN"
+  },
+  {
+    "w": "There",
+    "start_ms": 92780,
+    "end_ms": 93020,
+    "lemma": "there",
+    "pos": "PRON"
+  },
+  {
+    "w": "was",
+    "start_ms": 93020,
+    "end_ms": 93120,
+    "lemma": "be",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 93120,
+    "end_ms": 93200,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "message",
+    "start_ms": 93200,
+    "end_ms": 93440,
+    "lemma": "message",
+    "pos": "NOUN"
+  },
+  {
+    "w": "in",
+    "start_ms": 93440,
+    "end_ms": 93640,
+    "lemma": "in",
+    "pos": "ADP"
+  },
+  {
+    "w": "my",
+    "start_ms": 93640,
+    "end_ms": 93760,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "inbox",
+    "start_ms": 93760,
+    "end_ms": 94040,
+    "lemma": "inbox",
+    "pos": "NOUN"
+  },
+  {
+    "w": "from",
+    "start_ms": 94040,
+    "end_ms": 94380,
+    "lemma": "from",
+    "pos": "ADP"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 94380,
+    "end_ms": 94600,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "himself",
+    "start_ms": 94600,
+    "end_ms": 95100,
+    "lemma": "himself",
+    "pos": "PRON"
+  },
+  {
+    "w": "Imagine",
+    "start_ms": 95680,
+    "end_ms": 95920,
+    "lemma": "imagine",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 95920,
+    "end_ms": 96340,
+    "lemma": "that",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "the",
+    "start_ms": 96340,
+    "end_ms": 96780,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "guy",
+    "start_ms": 96780,
+    "end_ms": 96960,
+    "lemma": "guy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "who",
+    "start_ms": 96960,
+    "end_ms": 97120,
+    "lemma": "who",
+    "pos": "PRON"
+  },
+  {
+    "w": "I",
+    "start_ms": 97120,
+    "end_ms": 97240,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "had",
+    "start_ms": 97240,
+    "end_ms": 97300,
+    "lemma": "have",
+    "pos": "AUX"
+  },
+  {
+    "w": "looked",
+    "start_ms": 97300,
+    "end_ms": 97420,
+    "lemma": "look",
+    "pos": "VERB"
+  },
+  {
+    "w": "up",
+    "start_ms": 97420,
+    "end_ms": 97600,
+    "lemma": "up",
+    "pos": "ADP"
+  },
+  {
+    "w": "to",
+    "start_ms": 97600,
+    "end_ms": 97780,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "for",
+    "start_ms": 97780,
+    "end_ms": 97940,
+    "lemma": "for",
+    "pos": "ADP"
+  },
+  {
+    "w": "so",
+    "start_ms": 97940,
+    "end_ms": 98100,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "long",
+    "start_ms": 98100,
+    "end_ms": 98400,
+    "lemma": "long",
+    "pos": "ADV"
+  },
+  {
+    "w": "reaching",
+    "start_ms": 98400,
+    "end_ms": 98860,
+    "lemma": "reach",
+    "pos": "VERB"
+  },
+  {
+    "w": "out",
+    "start_ms": 98860,
+    "end_ms": 99200,
+    "lemma": "out",
+    "pos": "ADP"
+  },
+  {
+    "w": "to",
+    "start_ms": 99200,
+    "end_ms": 99360,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "me",
+    "start_ms": 99360,
+    "end_ms": 99480,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "personally",
+    "start_ms": 99480,
+    "end_ms": 99820,
+    "lemma": "personally",
+    "pos": "ADV"
+  },
+  {
+    "w": "But",
+    "start_ms": 99820,
+    "end_ms": 100520,
+    "lemma": "but",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "what",
+    "start_ms": 100520,
+    "end_ms": 100620,
+    "lemma": "what",
+    "pos": "PRON"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 100620,
+    "end_ms": 100820,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "did",
+    "start_ms": 100820,
+    "end_ms": 101100,
+    "lemma": "do",
+    "pos": "AUX"
+  },
+  {
+    "w": "next",
+    "start_ms": 101100,
+    "end_ms": 101460,
+    "lemma": "next",
+    "pos": "ADV"
+  },
+  {
+    "w": "would",
+    "start_ms": 101460,
+    "end_ms": 102140,
+    "lemma": "would",
+    "pos": "AUX"
+  },
+  {
+    "w": "change",
+    "start_ms": 102140,
+    "end_ms": 102320,
+    "lemma": "change",
+    "pos": "VERB"
+  },
+  {
+    "w": "my",
+    "start_ms": 102320,
+    "end_ms": 102620,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "life",
+    "start_ms": 102620,
+    "end_ms": 102820,
+    "lemma": "life",
+    "pos": "NOUN"
+  },
+  {
+    "w": "forever",
+    "start_ms": 102820,
+    "end_ms": 103380,
+    "lemma": "forever",
+    "pos": "ADV"
+  },
+  {
+    "w": "Wait,",
+    "start_ms": 104200,
+    "end_ms": 104680,
+    "lemma": "wait",
+    "pos": "VERB"
+  },
+  {
+    "w": "wait,",
+    "start_ms": 104920,
+    "end_ms": 104920,
+    "lemma": "wait",
+    "pos": "VERB"
+  },
+  {
+    "w": "wait,",
+    "start_ms": 105120,
+    "end_ms": 105220,
+    "lemma": "wait",
+    "pos": "VERB"
+  },
+  {
+    "w": "wait,",
+    "start_ms": 105320,
+    "end_ms": 105340,
+    "lemma": "wait",
+    "pos": "VERB"
+  },
+  {
+    "w": "wait",
+    "start_ms": 105340,
+    "end_ms": 105420,
+    "lemma": "wait",
+    "pos": "VERB"
+  },
+  {
+    "w": "go",
+    "start_ms": 105420,
+    "end_ms": 105900,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "follow",
+    "start_ms": 105900,
+    "end_ms": 106160,
+    "lemma": "follow",
+    "pos": "VERB"
+  },
+  {
+    "w": "Sam",
+    "start_ms": 106160,
+    "end_ms": 106620,
+    "lemma": "sam",
+    "pos": "PROPN"
+  },
+  {
+    "w": "Newton",
+    "start_ms": 106620,
+    "end_ms": 106840,
+    "lemma": "newton",
+    "pos": "PROPN"
+  },
+  {
+    "w": "that",
+    "start_ms": 106840,
+    "end_ms": 107620,
+    "lemma": "that",
+    "pos": "PRON"
+  },
+  {
+    "w": "dude",
+    "start_ms": 107620,
+    "end_ms": 107900,
+    "lemma": "dude",
+    "pos": "VERB"
+  },
+  {
+    "w": "deserves",
+    "start_ms": 107900,
+    "end_ms": 108440,
+    "lemma": "deserve",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 108440,
+    "end_ms": 108700,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "subscription",
+    "start_ms": 108700,
+    "end_ms": 109380,
+    "lemma": "subscription",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Incredible",
+    "start_ms": 109960,
+    "end_ms": 110200,
+    "lemma": "incredible",
+    "pos": "ADJ"
+  },
+  {
+    "w": "video.",
+    "start_ms": 110200,
+    "end_ms": 110760,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "He's",
+    "start_ms": 111000,
+    "end_ms": 111160
+  },
+  {
+    "w": "going",
+    "start_ms": 111160,
+    "end_ms": 111280,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "about",
+    "start_ms": 111280,
+    "end_ms": 111460,
+    "lemma": "about",
+    "pos": "ADP"
+  },
+  {
+    "w": "things",
+    "start_ms": 111460,
+    "end_ms": 111720,
+    "lemma": "thing",
+    "pos": "NOUN"
+  },
+  {
+    "w": "different.",
+    "start_ms": 111720,
+    "end_ms": 112100,
+    "lemma": "different",
+    "pos": "ADJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 112540,
+    "end_ms": 112680,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "like",
+    "start_ms": 112680,
+    "end_ms": 112820,
+    "lemma": "like",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 112820,
+    "end_ms": 113060,
+    "lemma": "that",
+    "pos": "PRON"
+  },
+  {
+    "w": "I",
+    "start_ms": 113060,
+    "end_ms": 113480,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "respect",
+    "start_ms": 113480,
+    "end_ms": 113780,
+    "lemma": "respect",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 113780,
+    "end_ms": 114080,
+    "lemma": "that",
+    "pos": "PRON"
+  },
+  {
+    "w": "and",
+    "start_ms": 114080,
+    "end_ms": 114300,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 114300,
+    "end_ms": 114380,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "hope",
+    "start_ms": 114380,
+    "end_ms": 114460,
+    "lemma": "hope",
+    "pos": "VERB"
+  },
+  {
+    "w": "you",
+    "start_ms": 114460,
+    "end_ms": 114580,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "guys",
+    "start_ms": 114580,
+    "end_ms": 114720,
+    "lemma": "guy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "give",
+    "start_ms": 114720,
+    "end_ms": 114960,
+    "lemma": "give",
+    "pos": "VERB"
+  },
+  {
+    "w": "him",
+    "start_ms": 114960,
+    "end_ms": 115080,
+    "lemma": "he",
+    "pos": "PRON"
+  },
+  {
+    "w": "the",
+    "start_ms": 115080,
+    "end_ms": 115180,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "chance",
+    "start_ms": 115180,
+    "end_ms": 115400,
+    "lemma": "chance",
+    "pos": "NOUN"
+  },
+  {
+    "w": "check",
+    "start_ms": 115400,
+    "end_ms": 116080,
+    "lemma": "check",
+    "pos": "VERB"
+  },
+  {
+    "w": "out",
+    "start_ms": 116080,
+    "end_ms": 116240,
+    "lemma": "out",
+    "pos": "ADP"
+  },
+  {
+    "w": "his",
+    "start_ms": 116240,
+    "end_ms": 116340,
+    "lemma": "his",
+    "pos": "PRON"
+  },
+  {
+    "w": "work",
+    "start_ms": 116340,
+    "end_ms": 116620,
+    "lemma": "work",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Tell",
+    "start_ms": 116620,
+    "end_ms": 117260,
+    "lemma": "tell",
+    "pos": "VERB"
+  },
+  {
+    "w": "him",
+    "start_ms": 117260,
+    "end_ms": 117400,
+    "lemma": "he",
+    "pos": "PRON"
+  },
+  {
+    "w": "I",
+    "start_ms": 117400,
+    "end_ms": 117460,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "sent",
+    "start_ms": 117460,
+    "end_ms": 117680,
+    "lemma": "send",
+    "pos": "VERB"
+  },
+  {
+    "w": "you",
+    "start_ms": 117680,
+    "end_ms": 117880,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "so",
+    "start_ms": 117880,
+    "end_ms": 118340,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "Sam.",
+    "start_ms": 118340,
+    "end_ms": 118560,
+    "lemma": "sam",
+    "pos": "PROPN"
+  },
+  {
+    "w": "Thanks",
+    "start_ms": 118800,
+    "end_ms": 119080,
+    "lemma": "thank",
+    "pos": "NOUN"
+  },
+  {
+    "w": "so",
+    "start_ms": 119080,
+    "end_ms": 119260,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "much",
+    "start_ms": 119260,
+    "end_ms": 119440,
+    "lemma": "much",
+    "pos": "ADV"
+  },
+  {
+    "w": "incredible",
+    "start_ms": 119440,
+    "end_ms": 119960,
+    "lemma": "incredible",
+    "pos": "ADJ"
+  },
+  {
+    "w": "video",
+    "start_ms": 119960,
+    "end_ms": 120500,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "You",
+    "start_ms": 120500,
+    "end_ms": 120780,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "and",
+    "start_ms": 120780,
+    "end_ms": 120900,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 120900,
+    "end_ms": 121000,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "are",
+    "start_ms": 121000,
+    "end_ms": 121080,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "most",
+    "start_ms": 121080,
+    "end_ms": 121240,
+    "lemma": "most",
+    "pos": "ADV"
+  },
+  {
+    "w": "certainly",
+    "start_ms": 121240,
+    "end_ms": 121720,
+    "lemma": "certainly",
+    "pos": "ADV"
+  },
+  {
+    "w": "getting",
+    "start_ms": 121720,
+    "end_ms": 121980,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 121980,
+    "end_ms": 122120,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "coffee",
+    "start_ms": 122120,
+    "end_ms": 122480,
+    "lemma": "coffee",
+    "pos": "NOUN"
+  },
+  {
+    "w": "under",
+    "start_ms": 122480,
+    "end_ms": 122720,
+    "lemma": "under",
+    "pos": "ADP"
+  },
+  {
+    "w": "one",
+    "start_ms": 122720,
+    "end_ms": 122900,
+    "lemma": "one",
+    "pos": "NUM"
+  },
+  {
+    "w": "condition.",
+    "start_ms": 122900,
+    "end_ms": 123200,
+    "lemma": "condition",
+    "pos": "NOUN"
+  },
+  {
+    "w": "You",
+    "start_ms": 123620,
+    "end_ms": 124120,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "need",
+    "start_ms": 124120,
+    "end_ms": 124320,
+    "lemma": "need",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 124320,
+    "end_ms": 124520,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "wear",
+    "start_ms": 124520,
+    "end_ms": 124720,
+    "lemma": "wear",
+    "pos": "VERB"
+  },
+  {
+    "w": "your",
+    "start_ms": 124720,
+    "end_ms": 124920,
+    "lemma": "your",
+    "pos": "PRON"
+  },
+  {
+    "w": "turtle",
+    "start_ms": 124920,
+    "end_ms": 125260,
+    "lemma": "turtle",
+    "pos": "NOUN"
+  },
+  {
+    "w": "next",
+    "start_ms": 125260,
+    "end_ms": 125440,
+    "lemma": "next",
+    "pos": "ADJ"
+  },
+  {
+    "w": "sweater",
+    "start_ms": 125440,
+    "end_ms": 125780,
+    "lemma": "sweater",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that",
+    "start_ms": 128820,
+    "end_ms": 129320,
+    "lemma": "that",
+    "pos": "PRON"
+  },
+  {
+    "w": "happened",
+    "start_ms": 129320,
+    "end_ms": 129680,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 129680,
+    "end_ms": 130259,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "personally",
+    "start_ms": 130259,
+    "end_ms": 130860,
+    "lemma": "personally",
+    "pos": "ADV"
+  },
+  {
+    "w": "reaching",
+    "start_ms": 130860,
+    "end_ms": 131320,
+    "lemma": "reach",
+    "pos": "VERB"
+  },
+  {
+    "w": "out",
+    "start_ms": 131320,
+    "end_ms": 131580,
+    "lemma": "out",
+    "pos": "ADP"
+  },
+  {
+    "w": "and",
+    "start_ms": 131580,
+    "end_ms": 131780,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "inviting",
+    "start_ms": 131780,
+    "end_ms": 132020,
+    "lemma": "invite",
+    "pos": "VERB"
+  },
+  {
+    "w": "me",
+    "start_ms": 132020,
+    "end_ms": 132340,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "to",
+    "start_ms": 132340,
+    "end_ms": 132640,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "grab",
+    "start_ms": 132640,
+    "end_ms": 132960,
+    "lemma": "grab",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 132960,
+    "end_ms": 133160,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "cup",
+    "start_ms": 133160,
+    "end_ms": 133320,
+    "lemma": "cup",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 133320,
+    "end_ms": 133500,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "coffee",
+    "start_ms": 133500,
+    "end_ms": 133840,
+    "lemma": "coffee",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 133840,
+    "end_ms": 134600,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "Since",
+    "start_ms": 134600,
+    "end_ms": 135140,
+    "lemma": "since",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "Peter's",
+    "start_ms": 135140,
+    "end_ms": 135640
+  },
+  {
+    "w": "Canadian",
+    "start_ms": 135640,
+    "end_ms": 135840,
+    "lemma": "canadian",
+    "pos": "PROPN"
+  },
+  {
+    "w": "and",
+    "start_ms": 135840,
+    "end_ms": 136560,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "I'm",
+    "start_ms": 136560,
+    "end_ms": 136740
+  },
+  {
+    "w": "American",
+    "start_ms": 136740,
+    "end_ms": 137000,
+    "lemma": "american",
+    "pos": "ADJ"
+  },
+  {
+    "w": "the",
+    "start_ms": 137000,
+    "end_ms": 137760,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "good",
+    "start_ms": 137760,
+    "end_ms": 137900,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "old",
+    "start_ms": 137900,
+    "end_ms": 138040,
+    "lemma": "old",
+    "pos": "ADJ"
+  },
+  {
+    "w": "Rona",
+    "start_ms": 138040,
+    "end_ms": 138360,
+    "lemma": "rona",
+    "pos": "PROPN"
+  },
+  {
+    "w": "kept",
+    "start_ms": 138360,
+    "end_ms": 138680,
+    "lemma": "keep",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 138680,
+    "end_ms": 138980,
+    "lemma": "that",
+    "pos": "PRON"
+  },
+  {
+    "w": "from",
+    "start_ms": 138980,
+    "end_ms": 139160,
+    "lemma": "from",
+    "pos": "ADP"
+  },
+  {
+    "w": "happening",
+    "start_ms": 139160,
+    "end_ms": 139540,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "for",
+    "start_ms": 139540,
+    "end_ms": 139820,
+    "lemma": "for",
+    "pos": "ADP"
+  },
+  {
+    "w": "quite",
+    "start_ms": 139820,
+    "end_ms": 140120,
+    "lemma": "quite",
+    "pos": "DET"
+  },
+  {
+    "w": "a",
+    "start_ms": 140120,
+    "end_ms": 140460,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "while",
+    "start_ms": 140460,
+    "end_ms": 140720,
+    "lemma": "while",
+    "pos": "NOUN"
+  },
+  {
+    "w": "However,",
+    "start_ms": 140720,
+    "end_ms": 141200,
+    "lemma": "however",
+    "pos": "ADV"
+  },
+  {
+    "w": "about",
+    "start_ms": 141420,
+    "end_ms": 141680,
+    "lemma": "about",
+    "pos": "ADV"
+  },
+  {
+    "w": "eight",
+    "start_ms": 141680,
+    "end_ms": 141920,
+    "lemma": "eight",
+    "pos": "NUM"
+  },
+  {
+    "w": "months",
+    "start_ms": 141920,
+    "end_ms": 142140,
+    "lemma": "month",
+    "pos": "NOUN"
+  },
+  {
+    "w": "later.",
+    "start_ms": 142140,
+    "end_ms": 142560,
+    "lemma": "later",
+    "pos": "ADV"
+  },
+  {
+    "w": "Well,",
+    "start_ms": 142640,
+    "end_ms": 143140,
+    "lemma": "well",
+    "pos": "INTJ"
+  },
+  {
+    "w": "this",
+    "start_ms": 143320,
+    "end_ms": 143340,
+    "lemma": "this",
+    "pos": "PRON"
+  },
+  {
+    "w": "happened",
+    "start_ms": 143340,
+    "end_ms": 143620,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "Just",
+    "start_ms": 148540,
+    "end_ms": 149020,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "take",
+    "start_ms": 149020,
+    "end_ms": 149200,
+    "lemma": "take",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 149200,
+    "end_ms": 149480,
+    "lemma": "that",
+    "pos": "PRON"
+  },
+  {
+    "w": "I",
+    "start_ms": 149480,
+    "end_ms": 150520,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "got",
+    "start_ms": 150520,
+    "end_ms": 150780,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "I",
+    "start_ms": 150780,
+    "end_ms": 150920,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "got",
+    "start_ms": 150920,
+    "end_ms": 151100,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "mine",
+    "start_ms": 151100,
+    "end_ms": 151220,
+    "lemma": "mine",
+    "pos": "PRON"
+  },
+  {
+    "w": "here",
+    "start_ms": 151220,
+    "end_ms": 151500,
+    "lemma": "here",
+    "pos": "ADV"
+  },
+  {
+    "w": "cheers.",
+    "start_ms": 151500,
+    "end_ms": 151720,
+    "lemma": "cheer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "All",
+    "start_ms": 152660,
+    "end_ms": 153140,
+    "lemma": "all",
+    "pos": "ADV"
+  },
+  {
+    "w": "right.",
+    "start_ms": 153140,
+    "end_ms": 153300,
+    "lemma": "right",
+    "pos": "ADV"
+  },
+  {
+    "w": "Yeah",
+    "start_ms": 153520,
+    "end_ms": 153640,
+    "lemma": "yeah",
+    "pos": "INTJ"
+  },
+  {
+    "w": "It",
+    "start_ms": 154920,
+    "end_ms": 155400,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "finally",
+    "start_ms": 155400,
+    "end_ms": 155760,
+    "lemma": "finally",
+    "pos": "ADV"
+  },
+  {
+    "w": "happened",
+    "start_ms": 155760,
+    "end_ms": 156180,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "I",
+    "start_ms": 156180,
+    "end_ms": 156520,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "got",
+    "start_ms": 156520,
+    "end_ms": 156680,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 156680,
+    "end_ms": 156900,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "meet",
+    "start_ms": 156900,
+    "end_ms": 157100,
+    "lemma": "meet",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 157100,
+    "end_ms": 157320,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "man",
+    "start_ms": 157320,
+    "end_ms": 157520,
+    "lemma": "man",
+    "pos": "NOUN"
+  },
+  {
+    "w": "himself",
+    "start_ms": 157520,
+    "end_ms": 157840,
+    "lemma": "himself",
+    "pos": "PRON"
+  },
+  {
+    "w": "and",
+    "start_ms": 157840,
+    "end_ms": 158480,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "it",
+    "start_ms": 158480,
+    "end_ms": 159000,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "might",
+    "start_ms": 159000,
+    "end_ms": 159140,
+    "lemma": "might",
+    "pos": "AUX"
+  },
+  {
+    "w": "sound",
+    "start_ms": 159140,
+    "end_ms": 159360,
+    "lemma": "sound",
+    "pos": "VERB"
+  },
+  {
+    "w": "weird",
+    "start_ms": 159360,
+    "end_ms": 159600,
+    "lemma": "weird",
+    "pos": "ADJ"
+  },
+  {
+    "w": "But",
+    "start_ms": 159600,
+    "end_ms": 159880,
+    "lemma": "but",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "it's",
+    "start_ms": 159880,
+    "end_ms": 159980
+  },
+  {
+    "w": "kind",
+    "start_ms": 159980,
+    "end_ms": 160120
+  },
+  {
+    "w": "of",
+    "start_ms": 160120,
+    "end_ms": 160240
+  },
+  {
+    "w": "tough",
+    "start_ms": 160240,
+    "end_ms": 160440
+  },
+  {
+    "w": "to",
+    "start_ms": 160440,
+    "end_ms": 160640,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "describe",
+    "start_ms": 160640,
+    "end_ms": 160940
+  },
+  {
+    "w": "what",
+    "start_ms": 160940,
+    "end_ms": 161880
+  },
+  {
+    "w": "exactly",
+    "start_ms": 161880,
+    "end_ms": 162120
+  },
+  {
+    "w": "that",
+    "start_ms": 162120,
+    "end_ms": 162640
+  },
+  {
+    "w": "day",
+    "start_ms": 162640,
+    "end_ms": 162880
+  },
+  {
+    "w": "meant",
+    "start_ms": 162880,
+    "end_ms": 163120
+  },
+  {
+    "w": "to",
+    "start_ms": 163120,
+    "end_ms": 163340
+  },
+  {
+    "w": "me",
+    "start_ms": 163340,
+    "end_ms": 163500
+  },
+  {
+    "w": "because",
+    "start_ms": 163500,
+    "end_ms": 164260
+  },
+  {
+    "w": "obviously",
+    "start_ms": 164260,
+    "end_ms": 164580
+  },
+  {
+    "w": "it",
+    "start_ms": 164580,
+    "end_ms": 164940,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "was",
+    "start_ms": 164940,
+    "end_ms": 165040
+  },
+  {
+    "w": "amazing",
+    "start_ms": 165040,
+    "end_ms": 165220
+  },
+  {
+    "w": "to",
+    "start_ms": 165220,
+    "end_ms": 165640
+  },
+  {
+    "w": "meet",
+    "start_ms": 165640,
+    "end_ms": 165840,
+    "lemma": "meet",
+    "pos": "VERB"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 165840,
+    "end_ms": 166120,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "But",
+    "start_ms": 166120,
+    "end_ms": 166540,
+    "lemma": "but",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "mostly",
+    "start_ms": 166540,
+    "end_ms": 166920,
+    "lemma": "mostly",
+    "pos": "ADV"
+  },
+  {
+    "w": "it",
+    "start_ms": 166920,
+    "end_ms": 167260,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "was",
+    "start_ms": 167260,
+    "end_ms": 167380,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "this",
+    "start_ms": 167380,
+    "end_ms": 167560,
+    "lemma": "this",
+    "pos": "DET"
+  },
+  {
+    "w": "crazy",
+    "start_ms": 167560,
+    "end_ms": 167820,
+    "lemma": "crazy",
+    "pos": "ADJ"
+  },
+  {
+    "w": "reminder",
+    "start_ms": 167820,
+    "end_ms": 168300,
+    "lemma": "reminder",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 168300,
+    "end_ms": 168720,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "that",
+    "start_ms": 168720,
+    "end_ms": 168840,
+    "lemma": "that",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "we",
+    "start_ms": 168840,
+    "end_ms": 169060,
+    "lemma": "we",
+    "pos": "PRON"
+  },
+  {
+    "w": "can",
+    "start_ms": 169060,
+    "end_ms": 169280,
+    "lemma": "can",
+    "pos": "AUX"
+  },
+  {
+    "w": "really",
+    "start_ms": 169280,
+    "end_ms": 169780,
+    "lemma": "really",
+    "pos": "ADV"
+  },
+  {
+    "w": "make",
+    "start_ms": 169780,
+    "end_ms": 170120,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "anything",
+    "start_ms": 170120,
+    "end_ms": 170360,
+    "lemma": "anything",
+    "pos": "PRON"
+  },
+  {
+    "w": "we",
+    "start_ms": 170360,
+    "end_ms": 170880,
+    "lemma": "we",
+    "pos": "PRON"
+  },
+  {
+    "w": "want",
+    "start_ms": 170880,
+    "end_ms": 171140,
+    "lemma": "want",
+    "pos": "VERB"
+  },
+  {
+    "w": "happen",
+    "start_ms": 171140,
+    "end_ms": 171580,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "if",
+    "start_ms": 171580,
+    "end_ms": 171920,
+    "lemma": "if",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "we",
+    "start_ms": 171920,
+    "end_ms": 172080,
+    "lemma": "we",
+    "pos": "PRON"
+  },
+  {
+    "w": "commit",
+    "start_ms": 172080,
+    "end_ms": 172360,
+    "lemma": "commit",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 172360,
+    "end_ms": 172600,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "that",
+    "start_ms": 172600,
+    "end_ms": 172760,
+    "lemma": "that",
+    "pos": "DET"
+  },
+  {
+    "w": "big",
+    "start_ms": 172760,
+    "end_ms": 172940,
+    "lemma": "big",
+    "pos": "ADJ"
+  },
+  {
+    "w": "idea",
+    "start_ms": 172940,
+    "end_ms": 173280,
+    "lemma": "idea",
+    "pos": "NOUN"
+  },
+  {
+    "w": "25",
+    "start_ms": 180290,
+    "end_ms": 180510
+  },
+  {
+    "w": "years",
+    "start_ms": 180510,
+    "end_ms": 180810,
+    "lemma": "year",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Milk",
+    "start_ms": 183310,
+    "end_ms": 183790,
+    "lemma": "milk",
+    "pos": "NOUN"
+  },
+  {
+    "w": "was",
+    "start_ms": 183790,
+    "end_ms": 184010,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "off",
+    "start_ms": 184010,
+    "end_ms": 184270,
+    "lemma": "off",
+    "pos": "ADP"
+  },
+  {
+    "w": "milk",
+    "start_ms": 184270,
+    "end_ms": 184750,
+    "lemma": "milk",
+    "pos": "NOUN"
+  },
+  {
+    "w": "was",
+    "start_ms": 184750,
+    "end_ms": 184950,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "a",
+    "start_ms": 184950,
+    "end_ms": 185070,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "horrible",
+    "start_ms": 185070,
+    "end_ms": 185350,
+    "lemma": "horrible",
+    "pos": "ADJ"
+  },
+  {
+    "w": "choice.",
+    "start_ms": 185350,
+    "end_ms": 185730,
+    "lemma": "choice",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We're",
+    "start_ms": 185870,
+    "end_ms": 186070
+  },
+  {
+    "w": "supposed",
+    "start_ms": 186070,
+    "end_ms": 186250,
+    "lemma": "suppose",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 186250,
+    "end_ms": 186510,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "get",
+    "start_ms": 186510,
+    "end_ms": 186570,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "coffee,",
+    "start_ms": 186570,
+    "end_ms": 186830,
+    "lemma": "coffee",
+    "pos": "NOUN"
+  },
+  {
+    "w": "but",
+    "start_ms": 187130,
+    "end_ms": 187270,
+    "lemma": "but",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 187270,
+    "end_ms": 188070,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "just",
+    "start_ms": 188070,
+    "end_ms": 188530,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "ordered",
+    "start_ms": 188530,
+    "end_ms": 188690,
+    "lemma": "order",
+    "pos": "VERB"
+  },
+  {
+    "w": "cream",
+    "start_ms": 188690,
+    "end_ms": 188990,
+    "lemma": "cream",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Just",
+    "start_ms": 190490,
+    "end_ms": 190970,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "hanging",
+    "start_ms": 190970,
+    "end_ms": 191450,
+    "lemma": "hang",
+    "pos": "VERB"
+  },
+  {
+    "w": "out",
+    "start_ms": 191450,
+    "end_ms": 191690,
+    "lemma": "out",
+    "pos": "ADP"
+  },
+  {
+    "w": "and",
+    "start_ms": 191690,
+    "end_ms": 191930,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "shooting",
+    "start_ms": 191930,
+    "end_ms": 192150,
+    "lemma": "shoot",
+    "pos": "VERB"
+  },
+  {
+    "w": "video",
+    "start_ms": 192150,
+    "end_ms": 192570,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "with",
+    "start_ms": 192570,
+    "end_ms": 192930,
+    "lemma": "with",
+    "pos": "ADP"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 192930,
+    "end_ms": 193170,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "McKinnon",
+    "start_ms": 193170,
+    "end_ms": 193690,
+    "lemma": "mckinnon",
+    "pos": "PROPN"
+  },
+  {
+    "w": "in",
+    "start_ms": 193690,
+    "end_ms": 193990,
+    "lemma": "in",
+    "pos": "ADP"
+  },
+  {
+    "w": "one",
+    "start_ms": 193990,
+    "end_ms": 194170,
+    "lemma": "one",
+    "pos": "NUM"
+  },
+  {
+    "w": "of",
+    "start_ms": 194170,
+    "end_ms": 194310,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "my",
+    "start_ms": 194310,
+    "end_ms": 194490,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "turtle",
+    "start_ms": 194490,
+    "end_ms": 194690,
+    "lemma": "turtle",
+    "pos": "NOUN"
+  },
+  {
+    "w": "necks",
+    "start_ms": 194690,
+    "end_ms": 194970,
+    "lemma": "necks",
+    "pos": "AUX"
+  },
+  {
+    "w": "Something",
+    "start_ms": 195610,
+    "end_ms": 195910,
+    "lemma": "something",
+    "pos": "PRON"
+  },
+  {
+    "w": "I",
+    "start_ms": 195910,
+    "end_ms": 196150,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "would",
+    "start_ms": 196150,
+    "end_ms": 196270,
+    "lemma": "would",
+    "pos": "AUX"
+  },
+  {
+    "w": "have",
+    "start_ms": 196270,
+    "end_ms": 196350,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "never",
+    "start_ms": 196350,
+    "end_ms": 196590,
+    "lemma": "never",
+    "pos": "ADV"
+  },
+  {
+    "w": "in",
+    "start_ms": 196590,
+    "end_ms": 196730,
+    "lemma": "in",
+    "pos": "ADP"
+  },
+  {
+    "w": "a",
+    "start_ms": 196730,
+    "end_ms": 196810,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "million",
+    "start_ms": 196810,
+    "end_ms": 196950,
+    "lemma": "million",
+    "pos": "NUM"
+  },
+  {
+    "w": "years",
+    "start_ms": 196950,
+    "end_ms": 197330,
+    "lemma": "year",
+    "pos": "NOUN"
+  },
+  {
+    "w": "thought",
+    "start_ms": 197330,
+    "end_ms": 197610,
+    "lemma": "thought",
+    "pos": "NOUN"
+  },
+  {
+    "w": "would",
+    "start_ms": 197610,
+    "end_ms": 197790,
+    "lemma": "would",
+    "pos": "AUX"
+  },
+  {
+    "w": "happen",
+    "start_ms": 197790,
+    "end_ms": 198150,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "and",
+    "start_ms": 198150,
+    "end_ms": 198510,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "best",
+    "start_ms": 198510,
+    "end_ms": 199190,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "of",
+    "start_ms": 199190,
+    "end_ms": 199390,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "all",
+    "start_ms": 199390,
+    "end_ms": 199530,
+    "lemma": "all",
+    "pos": "DET"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 199530,
+    "end_ms": 199770,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "was",
+    "start_ms": 199770,
+    "end_ms": 200090,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "so",
+    "start_ms": 200090,
+    "end_ms": 200330,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "genuinely",
+    "start_ms": 200330,
+    "end_ms": 200770,
+    "lemma": "genuinely",
+    "pos": "ADV"
+  },
+  {
+    "w": "Interested",
+    "start_ms": 200770,
+    "end_ms": 201730,
+    "lemma": "interested",
+    "pos": "ADJ"
+  },
+  {
+    "w": "in",
+    "start_ms": 201730,
+    "end_ms": 202030,
+    "lemma": "in",
+    "pos": "ADP"
+  },
+  {
+    "w": "my",
+    "start_ms": 202030,
+    "end_ms": 202210,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "life",
+    "start_ms": 202210,
+    "end_ms": 202470,
+    "lemma": "life",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 202470,
+    "end_ms": 202810,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "my",
+    "start_ms": 202810,
+    "end_ms": 202950,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "plans",
+    "start_ms": 202950,
+    "end_ms": 203270,
+    "lemma": "plan",
+    "pos": "NOUN"
+  },
+  {
+    "w": "going",
+    "start_ms": 203270,
+    "end_ms": 203570,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "forward.",
+    "start_ms": 203570,
+    "end_ms": 204070,
+    "lemma": "forward",
+    "pos": "ADV"
+  },
+  {
+    "w": "No",
+    "start_ms": 204310,
+    "end_ms": 204790,
+    "lemma": "no",
+    "pos": "DET"
+  },
+  {
+    "w": "ego.",
+    "start_ms": 204790,
+    "end_ms": 204990,
+    "lemma": "ego",
+    "pos": "NOUN"
+  },
+  {
+    "w": "No",
+    "start_ms": 205430,
+    "end_ms": 205470,
+    "lemma": "no",
+    "pos": "DET"
+  },
+  {
+    "w": "fake",
+    "start_ms": 205470,
+    "end_ms": 205670,
+    "lemma": "fake",
+    "pos": "ADJ"
+  },
+  {
+    "w": "moments.",
+    "start_ms": 205670,
+    "end_ms": 206050,
+    "lemma": "moment",
+    "pos": "NOUN"
+  },
+  {
+    "w": "It",
+    "start_ms": 206590,
+    "end_ms": 206630,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "was",
+    "start_ms": 206630,
+    "end_ms": 206830,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "a",
+    "start_ms": 206830,
+    "end_ms": 207010,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "breath",
+    "start_ms": 207010,
+    "end_ms": 207190,
+    "lemma": "breath",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 207190,
+    "end_ms": 207350,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "fresh",
+    "start_ms": 207350,
+    "end_ms": 207510,
+    "lemma": "fresh",
+    "pos": "ADJ"
+  },
+  {
+    "w": "air",
+    "start_ms": 207510,
+    "end_ms": 207810,
+    "lemma": "air",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 207810,
+    "end_ms": 208490,
+    "lemma": "oh",
+    "pos": "INTJ"
+  },
+  {
+    "w": "and",
+    "start_ms": 208770,
+    "end_ms": 208870,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 208870,
+    "end_ms": 209010,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "got",
+    "start_ms": 209010,
+    "end_ms": 209170,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 209170,
+    "end_ms": 209350,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "experience",
+    "start_ms": 209350,
+    "end_ms": 209830,
+    "lemma": "experience",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 209830,
+    "end_ms": 210170,
+    "lemma": "that",
+    "pos": "DET"
+  },
+  {
+    "w": "entire",
+    "start_ms": 210170,
+    "end_ms": 210330,
+    "lemma": "entire",
+    "pos": "ADJ"
+  },
+  {
+    "w": "day",
+    "start_ms": 210330,
+    "end_ms": 210870,
+    "lemma": "day",
+    "pos": "NOUN"
+  },
+  {
+    "w": "with",
+    "start_ms": 210870,
+    "end_ms": 211370,
+    "lemma": "with",
+    "pos": "ADP"
+  },
+  {
+    "w": "my",
+    "start_ms": 211370,
+    "end_ms": 211510,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "buddy",
+    "start_ms": 211510,
+    "end_ms": 211710,
+    "lemma": "buddy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Chase",
+    "start_ms": 211710,
+    "end_ms": 211930,
+    "lemma": "chase",
+    "pos": "PROPN"
+  },
+  {
+    "w": "one",
+    "start_ms": 211930,
+    "end_ms": 212510,
+    "lemma": "one",
+    "pos": "NUM"
+  },
+  {
+    "w": "of",
+    "start_ms": 212510,
+    "end_ms": 212590,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "my",
+    "start_ms": 212590,
+    "end_ms": 212690,
+    "lemma": "my",
+    "pos": "PRON"
+  },
+  {
+    "w": "best",
+    "start_ms": 212690,
+    "end_ms": 212810,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "friends",
+    "start_ms": 212810,
+    "end_ms": 213110,
+    "lemma": "friend",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 213110,
+    "end_ms": 213410,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "the",
+    "start_ms": 213410,
+    "end_ms": 213490,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "guy",
+    "start_ms": 213490,
+    "end_ms": 213670,
+    "lemma": "guy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "who",
+    "start_ms": 213670,
+    "end_ms": 213870,
+    "lemma": "who",
+    "pos": "PRON"
+  },
+  {
+    "w": "introduced",
+    "start_ms": 213870,
+    "end_ms": 214050,
+    "lemma": "introduce",
+    "pos": "VERB"
+  },
+  {
+    "w": "me",
+    "start_ms": 214050,
+    "end_ms": 214470,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "to",
+    "start_ms": 214470,
+    "end_ms": 214570,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "Peter",
+    "start_ms": 214570,
+    "end_ms": 214750,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "in",
+    "start_ms": 214750,
+    "end_ms": 215110,
+    "lemma": "in",
+    "pos": "ADP"
+  },
+  {
+    "w": "The",
+    "start_ms": 215110,
+    "end_ms": 215270,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "first",
+    "start_ms": 215270,
+    "end_ms": 215430,
+    "lemma": "first",
+    "pos": "ADJ"
+  },
+  {
+    "w": "place",
+    "start_ms": 215430,
+    "end_ms": 215750,
+    "lemma": "place",
+    "pos": "NOUN"
+  },
+  {
+    "w": "so",
+    "start_ms": 215750,
+    "end_ms": 216310,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "I",
+    "start_ms": 216310,
+    "end_ms": 216390,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "guess",
+    "start_ms": 216390,
+    "end_ms": 216530,
+    "lemma": "guess",
+    "pos": "VERB"
+  },
+  {
+    "w": "if",
+    "start_ms": 216530,
+    "end_ms": 216730,
+    "lemma": "if",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "there's",
+    "start_ms": 216730,
+    "end_ms": 216990
+  },
+  {
+    "w": "a",
+    "start_ms": 216990,
+    "end_ms": 217030,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "moral",
+    "start_ms": 217030,
+    "end_ms": 217270,
+    "lemma": "moral",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 217270,
+    "end_ms": 217530,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "this",
+    "start_ms": 217530,
+    "end_ms": 217650,
+    "lemma": "this",
+    "pos": "PRON"
+  },
+  {
+    "w": "story",
+    "start_ms": 217650,
+    "end_ms": 217950,
+    "lemma": "story",
+    "pos": "NOUN"
+  },
+  {
+    "w": "It's",
+    "start_ms": 217950,
+    "end_ms": 218490
+  },
+  {
+    "w": "that",
+    "start_ms": 218490,
+    "end_ms": 218650,
+    "lemma": "that",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "sometimes",
+    "start_ms": 218650,
+    "end_ms": 219090,
+    "lemma": "sometimes",
+    "pos": "ADV"
+  },
+  {
+    "w": "it's",
+    "start_ms": 219090,
+    "end_ms": 219750
+  },
+  {
+    "w": "those",
+    "start_ms": 219750,
+    "end_ms": 219890,
+    "lemma": "those",
+    "pos": "DET"
+  },
+  {
+    "w": "weird",
+    "start_ms": 219890,
+    "end_ms": 220230,
+    "lemma": "weird",
+    "pos": "ADJ"
+  },
+  {
+    "w": "stupid",
+    "start_ms": 220230,
+    "end_ms": 221070,
+    "lemma": "stupid",
+    "pos": "ADJ"
+  },
+  {
+    "w": "ideas.",
+    "start_ms": 221070,
+    "end_ms": 221830,
+    "lemma": "idea",
+    "pos": "NOUN"
+  },
+  {
+    "w": "They're",
+    "start_ms": 222070,
+    "end_ms": 222510
+  },
+  {
+    "w": "the",
+    "start_ms": 222510,
+    "end_ms": 222610,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "ones",
+    "start_ms": 222610,
+    "end_ms": 222890,
+    "lemma": "one",
+    "pos": "NOUN"
+  },
+  {
+    "w": "worth",
+    "start_ms": 222890,
+    "end_ms": 223230,
+    "lemma": "worth",
+    "pos": "ADJ"
+  },
+  {
+    "w": "following",
+    "start_ms": 223230,
+    "end_ms": 223650,
+    "lemma": "follow",
+    "pos": "VERB"
+  },
+  {
+    "w": "through",
+    "start_ms": 223650,
+    "end_ms": 223890,
+    "lemma": "through",
+    "pos": "ADP"
+  },
+  {
+    "w": "on",
+    "start_ms": 223890,
+    "end_ms": 224150,
+    "lemma": "on",
+    "pos": "ADP"
+  },
+  {
+    "w": "For",
+    "start_ms": 224150,
+    "end_ms": 224990,
+    "lemma": "for",
+    "pos": "ADP"
+  },
+  {
+    "w": "me",
+    "start_ms": 224990,
+    "end_ms": 225150,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "the",
+    "start_ms": 225150,
+    "end_ms": 225310,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "best",
+    "start_ms": 225310,
+    "end_ms": 225470,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "thing",
+    "start_ms": 225470,
+    "end_ms": 225690,
+    "lemma": "thing",
+    "pos": "NOUN"
+  },
+  {
+    "w": "about",
+    "start_ms": 225690,
+    "end_ms": 225890,
+    "lemma": "about",
+    "pos": "ADP"
+  },
+  {
+    "w": "being",
+    "start_ms": 225890,
+    "end_ms": 226110,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "a",
+    "start_ms": 226110,
+    "end_ms": 226330,
+    "lemma": "a",
+    "pos": "DET"
+  },
+  {
+    "w": "creator",
+    "start_ms": 226330,
+    "end_ms": 226590,
+    "lemma": "creator",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 226590,
+    "end_ms": 227130,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "that",
+    "start_ms": 227130,
+    "end_ms": 227290,
+    "lemma": "that",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "we",
+    "start_ms": 227290,
+    "end_ms": 227550,
+    "lemma": "we",
+    "pos": "PRON"
+  },
+  {
+    "w": "get",
+    "start_ms": 227550,
+    "end_ms": 227810,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 227810,
+    "end_ms": 227950,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "decide",
+    "start_ms": 227950,
+    "end_ms": 228190,
+    "lemma": "decide",
+    "pos": "VERB"
+  },
+  {
+    "w": "what",
+    "start_ms": 228190,
+    "end_ms": 228630,
+    "lemma": "what",
+    "pos": "PRON"
+  },
+  {
+    "w": "we",
+    "start_ms": 228630,
+    "end_ms": 228850,
+    "lemma": "we",
+    "pos": "PRON"
+  },
+  {
+    "w": "create",
+    "start_ms": 228850,
+    "end_ms": 229130,
+    "lemma": "create",
+    "pos": "VERB"
+  },
+  {
+    "w": "So",
+    "start_ms": 229130,
+    "end_ms": 229870,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "if",
+    "start_ms": 229870,
+    "end_ms": 230050,
+    "lemma": "if",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "you",
+    "start_ms": 230050,
+    "end_ms": 230110,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "get",
+    "start_ms": 230110,
+    "end_ms": 230250,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "anything",
+    "start_ms": 230250,
+    "end_ms": 230370,
+    "lemma": "anything",
+    "pos": "PRON"
+  },
+  {
+    "w": "out",
+    "start_ms": 230370,
+    "end_ms": 230750,
+    "lemma": "out",
+    "pos": "ADP"
+  },
+  {
+    "w": "of",
+    "start_ms": 230750,
+    "end_ms": 230870,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "this",
+    "start_ms": 230870,
+    "end_ms": 231010,
+    "lemma": "this",
+    "pos": "DET"
+  },
+  {
+    "w": "video,",
+    "start_ms": 231010,
+    "end_ms": 231230,
+    "lemma": "video",
+    "pos": "NOUN"
+  },
+  {
+    "w": "maybe",
+    "start_ms": 231450,
+    "end_ms": 231710,
+    "lemma": "maybe",
+    "pos": "ADV"
+  },
+  {
+    "w": "it's",
+    "start_ms": 231710,
+    "end_ms": 232250
+  },
+  {
+    "w": "that",
+    "start_ms": 232250,
+    "end_ms": 232430,
+    "lemma": "that",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "now",
+    "start_ms": 232430,
+    "end_ms": 232890,
+    "lemma": "now",
+    "pos": "ADV"
+  },
+  {
+    "w": "is",
+    "start_ms": 232890,
+    "end_ms": 233110,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "your",
+    "start_ms": 233110,
+    "end_ms": 233230,
+    "lemma": "your",
+    "pos": "PRON"
+  },
+  {
+    "w": "time",
+    "start_ms": 233230,
+    "end_ms": 233510,
+    "lemma": "time",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 233510,
+    "end_ms": 233750,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "make",
+    "start_ms": 233750,
+    "end_ms": 233910,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "your",
+    "start_ms": 233910,
+    "end_ms": 234130,
+    "lemma": "your",
+    "pos": "PRON"
+  },
+  {
+    "w": "next",
+    "start_ms": 234130,
+    "end_ms": 234310,
+    "lemma": "next",
+    "pos": "ADJ"
+  },
+  {
+    "w": "big",
+    "start_ms": 234310,
+    "end_ms": 234550,
+    "lemma": "big",
+    "pos": "ADJ"
+  },
+  {
+    "w": "idea",
+    "start_ms": 234550,
+    "end_ms": 234730,
+    "lemma": "idea",
+    "pos": "NOUN"
+  },
+  {
+    "w": "happen",
+    "start_ms": 234730,
+    "end_ms": 235290,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "Don't",
+    "start_ms": 235290,
+    "end_ms": 236110
+  },
+  {
+    "w": "be",
+    "start_ms": 236110,
+    "end_ms": 236190,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "afraid",
+    "start_ms": 236190,
+    "end_ms": 236450,
+    "lemma": "afraid",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 236450,
+    "end_ms": 236770,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "be",
+    "start_ms": 236770,
+    "end_ms": 237070,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "too",
+    "start_ms": 237070,
+    "end_ms": 237330,
+    "lemma": "too",
+    "pos": "ADV"
+  },
+  {
+    "w": "weird.",
+    "start_ms": 237330,
+    "end_ms": 237590,
+    "lemma": "weird",
+    "pos": "ADJ"
+  },
+  {
+    "w": "Don't",
+    "start_ms": 237950,
+    "end_ms": 238050
+  },
+  {
+    "w": "be",
+    "start_ms": 238050,
+    "end_ms": 238150,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "afraid",
+    "start_ms": 238150,
+    "end_ms": 238430,
+    "lemma": "afraid",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 238430,
+    "end_ms": 238750,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "be",
+    "start_ms": 238750,
+    "end_ms": 238990,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "too",
+    "start_ms": 238990,
+    "end_ms": 239270,
+    "lemma": "too",
+    "pos": "ADV"
+  },
+  {
+    "w": "over",
+    "start_ms": 239270,
+    "end_ms": 239490,
+    "lemma": "over",
+    "pos": "ADP"
+  },
+  {
+    "w": "the",
+    "start_ms": 239490,
+    "end_ms": 239690,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "top",
+    "start_ms": 239690,
+    "end_ms": 239970,
+    "lemma": "top",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Make",
+    "start_ms": 239970,
+    "end_ms": 240730,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 240730,
+    "end_ms": 240930,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "however",
+    "start_ms": 240930,
+    "end_ms": 241110,
+    "lemma": "however",
+    "pos": "ADV"
+  },
+  {
+    "w": "you",
+    "start_ms": 241110,
+    "end_ms": 241470,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "want",
+    "start_ms": 241470,
+    "end_ms": 241610,
+    "lemma": "want",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 241610,
+    "end_ms": 241690,
+    "lemma": "to",
+    "pos": "PART"
+  },
+  {
+    "w": "make",
+    "start_ms": 241690,
+    "end_ms": 241890,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 241890,
+    "end_ms": 242070,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "because",
+    "start_ms": 242070,
+    "end_ms": 242570,
+    "lemma": "because",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 242570,
+    "end_ms": 242690,
+    "lemma": "i",
+    "pos": "PRON"
+  },
+  {
+    "w": "promise",
+    "start_ms": 242690,
+    "end_ms": 242910,
+    "lemma": "promise",
+    "pos": "VERB"
+  },
+  {
+    "w": "you",
+    "start_ms": 242910,
+    "end_ms": 243210,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "it",
+    "start_ms": 243210,
+    "end_ms": 243750,
+    "lemma": "it",
+    "pos": "PRON"
+  },
+  {
+    "w": "could",
+    "start_ms": 243750,
+    "end_ms": 243910,
+    "lemma": "could",
+    "pos": "AUX"
+  },
+  {
+    "w": "be",
+    "start_ms": 243910,
+    "end_ms": 244050,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "the",
+    "start_ms": 244050,
+    "end_ms": 244150,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "idea",
+    "start_ms": 244150,
+    "end_ms": 244450,
+    "lemma": "idea",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that",
+    "start_ms": 244450,
+    "end_ms": 244670,
+    "lemma": "that",
+    "pos": "PRON"
+  },
+  {
+    "w": "changes",
+    "start_ms": 244670,
+    "end_ms": 244890,
+    "lemma": "change",
+    "pos": "VERB"
+  },
+  {
+    "w": "your",
+    "start_ms": 244890,
+    "end_ms": 245190,
+    "lemma": "your",
+    "pos": "PRON"
+  },
+  {
+    "w": "life",
+    "start_ms": 245190,
+    "end_ms": 245390,
+    "lemma": "life",
+    "pos": "NOUN"
+  },
+  {
+    "w": "forever.",
+    "start_ms": 245390,
+    "end_ms": 245970,
+    "lemma": "forever",
+    "pos": "ADV"
+  },
+  {
+    "w": "Oh",
+    "start_ms": 246690,
+    "end_ms": 247170,
+    "lemma": "oh",
+    "pos": "INTJ"
+  },
+  {
+    "w": "And",
+    "start_ms": 247170,
+    "end_ms": 247510,
+    "lemma": "and",
+    "pos": "CCONJ"
+  },
+  {
+    "w": "Peter,",
+    "start_ms": 247510,
+    "end_ms": 247730,
+    "lemma": "peter",
+    "pos": "PROPN"
+  },
+  {
+    "w": "thank",
+    "start_ms": 247970,
+    "end_ms": 248270,
+    "lemma": "thank",
+    "pos": "VERB"
+  },
+  {
+    "w": "you",
+    "start_ms": 248270,
+    "end_ms": 248470,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "again",
+    "start_ms": 248470,
+    "end_ms": 248750,
+    "lemma": "again",
+    "pos": "ADV"
+  },
+  {
+    "w": "for",
+    "start_ms": 248750,
+    "end_ms": 248990,
+    "lemma": "for",
+    "pos": "ADP"
+  },
+  {
+    "w": "the",
+    "start_ms": 248990,
+    "end_ms": 249130,
+    "lemma": "the",
+    "pos": "DET"
+  },
+  {
+    "w": "wild",
+    "start_ms": 249130,
+    "end_ms": 249350,
+    "lemma": "wild",
+    "pos": "ADJ"
+  },
+  {
+    "w": "ride.",
+    "start_ms": 249350,
+    "end_ms": 249650,
+    "lemma": "ride",
+    "pos": "NOUN"
+  },
+  {
+    "w": "I'm",
+    "start_ms": 250230,
+    "end_ms": 250390
+  },
+  {
+    "w": "already",
+    "start_ms": 250390,
+    "end_ms": 250530,
+    "lemma": "already",
+    "pos": "ADV"
+  },
+  {
+    "w": "looking",
+    "start_ms": 250530,
+    "end_ms": 250770,
+    "lemma": "look",
+    "pos": "VERB"
+  },
+  {
+    "w": "forward",
+    "start_ms": 250770,
+    "end_ms": 251110,
+    "lemma": "forward",
+    "pos": "ADV"
+  },
+  {
+    "w": "to",
+    "start_ms": 251110,
+    "end_ms": 251330,
+    "lemma": "to",
+    "pos": "ADP"
+  },
+  {
+    "w": "our",
+    "start_ms": 251330,
+    "end_ms": 251430,
+    "lemma": "our",
+    "pos": "PRON"
+  },
+  {
+    "w": "next",
+    "start_ms": 251430,
+    "end_ms": 251550,
+    "lemma": "next",
+    "pos": "ADJ"
+  },
+  {
+    "w": "cup",
+    "start_ms": 251550,
+    "end_ms": 251790,
+    "lemma": "cup",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 251790,
+    "end_ms": 251930,
+    "lemma": "of",
+    "pos": "ADP"
+  },
+  {
+    "w": "coffee",
+    "start_ms": 251930,
+    "end_ms": 252150,
+    "lemma": "coffee",
+    "pos": "NOUN"
+  },
+  {
+    "w": "That",
+    "start_ms": 252150,
+    "end_ms": 252810,
+    "lemma": "that",
+    "pos": "PRON"
+  },
+  {
+    "w": "is",
+    "start_ms": 252810,
+    "end_ms": 252970,
+    "lemma": "be",
+    "pos": "AUX"
+  },
+  {
+    "w": "if",
+    "start_ms": 252970,
+    "end_ms": 253290,
+    "lemma": "if",
+    "pos": "SCONJ"
+  },
+  {
+    "w": "you",
+    "start_ms": 253290,
+    "end_ms": 253850,
+    "lemma": "you",
+    "pos": "PRON"
+  },
+  {
+    "w": "even",
+    "start_ms": 253850,
+    "end_ms": 254050,
+    "lemma": "even",
+    "pos": "ADV"
+  },
+  {
+    "w": "like",
+    "start_ms": 254050,
+    "end_ms": 254250,
+    "lemma": "like",
+    "pos": "VERB"
+  },
+  {
+    "w": "coffee",
+    "start_ms": 254250,
+    "end_ms": 254530,
+    "lemma": "coffee",
+    "pos": "NOUN"
+  },
+  {
+    "w": "anymore",
+    "start_ms": 254530,
+    "end_ms": 254990,
+    "lemma": "anymore",
+    "pos": "ADV"
+  },
+  {
+    "w": "Coffee's",
+    "start_ms": 255770,
+    "end_ms": 256250
+  },
+  {
+    "w": "overrated",
+    "start_ms": 256250,
+    "end_ms": 256649,
+    "lemma": "overrated",
+    "pos": "ADJ"
+  },
+  {
+    "w": "man",
+    "start_ms": 256649,
+    "end_ms": 257730,
+    "lemma": "man",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Cream",
+    "start_ms": 258589,
+    "end_ms": 258589,
+    "lemma": "cream",
+    "pos": "PROPN"
+  },
+  {
+    "w": "only",
+    "start_ms": 258589,
+    "end_ms": 259390,
+    "lemma": "only",
+    "pos": "ADV"
+  }
+]

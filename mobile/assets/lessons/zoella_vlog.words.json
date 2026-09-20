@@ -1,0 +1,6492 @@
+[
+  {
+    "w": "Hi",
+    "start_ms": 80,
+    "end_ms": 320
+  },
+  {
+    "w": "everyone!",
+    "start_ms": 320,
+    "end_ms": 520
+  },
+  {
+    "w": "I",
+    "start_ms": 1340,
+    "end_ms": 1820
+  },
+  {
+    "w": "am",
+    "start_ms": 1820,
+    "end_ms": 2280
+  },
+  {
+    "w": "in",
+    "start_ms": 2280,
+    "end_ms": 2520
+  },
+  {
+    "w": "London",
+    "start_ms": 2520,
+    "end_ms": 2700
+  },
+  {
+    "w": "at",
+    "start_ms": 2700,
+    "end_ms": 2960
+  },
+  {
+    "w": "the",
+    "start_ms": 2960,
+    "end_ms": 3040
+  },
+  {
+    "w": "moment,",
+    "start_ms": 3040,
+    "end_ms": 3320
+  },
+  {
+    "w": "staying",
+    "start_ms": 3620,
+    "end_ms": 4500
+  },
+  {
+    "w": "with",
+    "start_ms": 4500,
+    "end_ms": 4680
+  },
+  {
+    "w": "my",
+    "start_ms": 4680,
+    "end_ms": 4800
+  },
+  {
+    "w": "boyfriend",
+    "start_ms": 4800,
+    "end_ms": 5060
+  },
+  {
+    "w": "and",
+    "start_ms": 5060,
+    "end_ms": 5500
+  },
+  {
+    "w": "I",
+    "start_ms": 5500,
+    "end_ms": 5600
+  },
+  {
+    "w": "just",
+    "start_ms": 5600,
+    "end_ms": 5720
+  },
+  {
+    "w": "thought",
+    "start_ms": 5720,
+    "end_ms": 5880
+  },
+  {
+    "w": "I",
+    "start_ms": 5880,
+    "end_ms": 5980
+  },
+  {
+    "w": "would",
+    "start_ms": 5980,
+    "end_ms": 6040
+  },
+  {
+    "w": "do",
+    "start_ms": 6040,
+    "end_ms": 6160
+  },
+  {
+    "w": "a",
+    "start_ms": 6160,
+    "end_ms": 6240
+  },
+  {
+    "w": "little",
+    "start_ms": 6240,
+    "end_ms": 6360
+  },
+  {
+    "w": "vlog",
+    "start_ms": 6360,
+    "end_ms": 6860
+  },
+  {
+    "w": "today",
+    "start_ms": 6860,
+    "end_ms": 7120
+  },
+  {
+    "w": "because",
+    "start_ms": 7120,
+    "end_ms": 7880
+  },
+  {
+    "w": "I",
+    "start_ms": 7880,
+    "end_ms": 10180
+  },
+  {
+    "w": "am",
+    "start_ms": 10180,
+    "end_ms": 10440
+  },
+  {
+    "w": "shortly",
+    "start_ms": 10440,
+    "end_ms": 10840
+  },
+  {
+    "w": "meeting",
+    "start_ms": 10840,
+    "end_ms": 11420
+  },
+  {
+    "w": "Louise",
+    "start_ms": 11420,
+    "end_ms": 11640
+  },
+  {
+    "w": "in",
+    "start_ms": 11640,
+    "end_ms": 12020
+  },
+  {
+    "w": "Euston",
+    "start_ms": 12020,
+    "end_ms": 12560
+  },
+  {
+    "w": "and",
+    "start_ms": 12560,
+    "end_ms": 13380
+  },
+  {
+    "w": "we",
+    "start_ms": 13380,
+    "end_ms": 13600
+  },
+  {
+    "w": "are",
+    "start_ms": 13600,
+    "end_ms": 13700
+  },
+  {
+    "w": "going",
+    "start_ms": 13700,
+    "end_ms": 13880
+  },
+  {
+    "w": "to",
+    "start_ms": 13880,
+    "end_ms": 14060
+  },
+  {
+    "w": "an",
+    "start_ms": 14060,
+    "end_ms": 14200
+  },
+  {
+    "w": "event.",
+    "start_ms": 14200,
+    "end_ms": 14460
+  },
+  {
+    "w": "It's",
+    "start_ms": 14700,
+    "end_ms": 15020
+  },
+  {
+    "w": "the",
+    "start_ms": 15020,
+    "end_ms": 15180
+  },
+  {
+    "w": "Look",
+    "start_ms": 15180,
+    "end_ms": 15440
+  },
+  {
+    "w": "Beauty",
+    "start_ms": 15440,
+    "end_ms": 15760
+  },
+  {
+    "w": "launch",
+    "start_ms": 15760,
+    "end_ms": 17280
+  },
+  {
+    "w": "event",
+    "start_ms": 17280,
+    "end_ms": 17600
+  },
+  {
+    "w": "I",
+    "start_ms": 17600,
+    "end_ms": 17780
+  },
+  {
+    "w": "think",
+    "start_ms": 17780,
+    "end_ms": 17960
+  },
+  {
+    "w": "which",
+    "start_ms": 17960,
+    "end_ms": 18960
+  },
+  {
+    "w": "is",
+    "start_ms": 18960,
+    "end_ms": 19120
+  },
+  {
+    "w": "in",
+    "start_ms": 19120,
+    "end_ms": 19200
+  },
+  {
+    "w": "central",
+    "start_ms": 19200,
+    "end_ms": 19440
+  },
+  {
+    "w": "London",
+    "start_ms": 19440,
+    "end_ms": 19720
+  },
+  {
+    "w": "so",
+    "start_ms": 19720,
+    "end_ms": 20220
+  },
+  {
+    "w": "I'm",
+    "start_ms": 20220,
+    "end_ms": 21220
+  },
+  {
+    "w": "going",
+    "start_ms": 21220,
+    "end_ms": 21340
+  },
+  {
+    "w": "to",
+    "start_ms": 21340,
+    "end_ms": 21420
+  },
+  {
+    "w": "go",
+    "start_ms": 21420,
+    "end_ms": 21540
+  },
+  {
+    "w": "and",
+    "start_ms": 21540,
+    "end_ms": 21660
+  },
+  {
+    "w": "get",
+    "start_ms": 21660,
+    "end_ms": 21780
+  },
+  {
+    "w": "Louise",
+    "start_ms": 21780,
+    "end_ms": 22000
+  },
+  {
+    "w": "and",
+    "start_ms": 22000,
+    "end_ms": 22680
+  },
+  {
+    "w": "then",
+    "start_ms": 22680,
+    "end_ms": 22820
+  },
+  {
+    "w": "we're",
+    "start_ms": 22820,
+    "end_ms": 22960
+  },
+  {
+    "w": "going",
+    "start_ms": 22960,
+    "end_ms": 23080
+  },
+  {
+    "w": "to",
+    "start_ms": 23080,
+    "end_ms": 23180
+  },
+  {
+    "w": "go",
+    "start_ms": 23180,
+    "end_ms": 23820
+  },
+  {
+    "w": "to",
+    "start_ms": 23820,
+    "end_ms": 24240
+  },
+  {
+    "w": "my",
+    "start_ms": 24240,
+    "end_ms": 24800
+  },
+  {
+    "w": "lodge.",
+    "start_ms": 24800,
+    "end_ms": 24980
+  },
+  {
+    "w": "Last",
+    "start_ms": 25820,
+    "end_ms": 26040
+  },
+  {
+    "w": "time",
+    "start_ms": 26040,
+    "end_ms": 26300
+  },
+  {
+    "w": "Louise",
+    "start_ms": 26300,
+    "end_ms": 26460
+  },
+  {
+    "w": "came",
+    "start_ms": 26460,
+    "end_ms": 26660
+  },
+  {
+    "w": "to",
+    "start_ms": 26660,
+    "end_ms": 26820
+  },
+  {
+    "w": "London",
+    "start_ms": 26820,
+    "end_ms": 27020
+  },
+  {
+    "w": "for",
+    "start_ms": 27020,
+    "end_ms": 27940
+  },
+  {
+    "w": "an",
+    "start_ms": 27940,
+    "end_ms": 28100
+  },
+  {
+    "w": "event.",
+    "start_ms": 28100,
+    "end_ms": 28220
+  },
+  {
+    "w": "I",
+    "start_ms": 29240,
+    "end_ms": 29720
+  },
+  {
+    "w": "was",
+    "start_ms": 29720,
+    "end_ms": 30200
+  },
+  {
+    "w": "supposed",
+    "start_ms": 30200,
+    "end_ms": 30360
+  },
+  {
+    "w": "to",
+    "start_ms": 30360,
+    "end_ms": 30620
+  },
+  {
+    "w": "go",
+    "start_ms": 30620,
+    "end_ms": 30620
+  },
+  {
+    "w": "meet",
+    "start_ms": 30620,
+    "end_ms": 30780
+  },
+  {
+    "w": "here",
+    "start_ms": 30780,
+    "end_ms": 30900
+  },
+  {
+    "w": "in",
+    "start_ms": 30900,
+    "end_ms": 31020
+  },
+  {
+    "w": "Euston",
+    "start_ms": 31020,
+    "end_ms": 31340
+  },
+  {
+    "w": "but",
+    "start_ms": 31340,
+    "end_ms": 31480
+  },
+  {
+    "w": "I",
+    "start_ms": 31480,
+    "end_ms": 31580
+  },
+  {
+    "w": "was",
+    "start_ms": 31580,
+    "end_ms": 31680
+  },
+  {
+    "w": "locked",
+    "start_ms": 31680,
+    "end_ms": 31880
+  },
+  {
+    "w": "in",
+    "start_ms": 31880,
+    "end_ms": 32420
+  },
+  {
+    "w": "my",
+    "start_ms": 32420,
+    "end_ms": 33000
+  },
+  {
+    "w": "boyfriend's",
+    "start_ms": 33000,
+    "end_ms": 33520
+  },
+  {
+    "w": "flat",
+    "start_ms": 33520,
+    "end_ms": 33720
+  },
+  {
+    "w": "which",
+    "start_ms": 33720,
+    "end_ms": 34480
+  },
+  {
+    "w": "was",
+    "start_ms": 34480,
+    "end_ms": 34840
+  },
+  {
+    "w": "extremely",
+    "start_ms": 34840,
+    "end_ms": 35500
+  },
+  {
+    "w": "amusing",
+    "start_ms": 35500,
+    "end_ms": 36120
+  },
+  {
+    "w": "and",
+    "start_ms": 36120,
+    "end_ms": 36360
+  },
+  {
+    "w": "Louise",
+    "start_ms": 36360,
+    "end_ms": 36540
+  },
+  {
+    "w": "had",
+    "start_ms": 36540,
+    "end_ms": 36860
+  },
+  {
+    "w": "to",
+    "start_ms": 36860,
+    "end_ms": 37260
+  },
+  {
+    "w": "go",
+    "start_ms": 37260,
+    "end_ms": 38320
+  },
+  {
+    "w": "get",
+    "start_ms": 38320,
+    "end_ms": 38460
+  },
+  {
+    "w": "the",
+    "start_ms": 38460,
+    "end_ms": 38580
+  },
+  {
+    "w": "key",
+    "start_ms": 38580,
+    "end_ms": 38740
+  },
+  {
+    "w": "and",
+    "start_ms": 38740,
+    "end_ms": 38960
+  },
+  {
+    "w": "rescue",
+    "start_ms": 38960,
+    "end_ms": 39220
+  },
+  {
+    "w": "me.",
+    "start_ms": 39220,
+    "end_ms": 39620
+  },
+  {
+    "w": "I",
+    "start_ms": 40020,
+    "end_ms": 40220
+  },
+  {
+    "w": "did",
+    "start_ms": 40220,
+    "end_ms": 40340
+  },
+  {
+    "w": "actually",
+    "start_ms": 40340,
+    "end_ms": 40500
+  },
+  {
+    "w": "film",
+    "start_ms": 40500,
+    "end_ms": 40980
+  },
+  {
+    "w": "some",
+    "start_ms": 40980,
+    "end_ms": 41320
+  },
+  {
+    "w": "random",
+    "start_ms": 41320,
+    "end_ms": 41560
+  },
+  {
+    "w": "vlog",
+    "start_ms": 41560,
+    "end_ms": 42020
+  },
+  {
+    "w": "footage",
+    "start_ms": 42020,
+    "end_ms": 42360
+  },
+  {
+    "w": "of",
+    "start_ms": 42360,
+    "end_ms": 42640
+  },
+  {
+    "w": "that",
+    "start_ms": 42640,
+    "end_ms": 42860
+  },
+  {
+    "w": "day",
+    "start_ms": 42860,
+    "end_ms": 43260
+  },
+  {
+    "w": "which",
+    "start_ms": 43260,
+    "end_ms": 44020
+  },
+  {
+    "w": "I",
+    "start_ms": 44020,
+    "end_ms": 44160
+  },
+  {
+    "w": "might",
+    "start_ms": 44160,
+    "end_ms": 44300
+  },
+  {
+    "w": "insert",
+    "start_ms": 44300,
+    "end_ms": 45020
+  },
+  {
+    "w": "here.",
+    "start_ms": 45020,
+    "end_ms": 45760
+  },
+  {
+    "w": "I'm",
+    "start_ms": 47840,
+    "end_ms": 48320
+  },
+  {
+    "w": "meeting",
+    "start_ms": 48320,
+    "end_ms": 48680
+  },
+  {
+    "w": "up",
+    "start_ms": 48680,
+    "end_ms": 48920
+  },
+  {
+    "w": "with",
+    "start_ms": 48920,
+    "end_ms": 49120
+  },
+  {
+    "w": "Louise",
+    "start_ms": 49120,
+    "end_ms": 49560
+  },
+  {
+    "w": "as",
+    "start_ms": 49560,
+    "end_ms": 49920
+  },
+  {
+    "w": "you",
+    "start_ms": 49920,
+    "end_ms": 50040
+  },
+  {
+    "w": "will",
+    "start_ms": 50040,
+    "end_ms": 50160
+  },
+  {
+    "w": "know,",
+    "start_ms": 50160,
+    "end_ms": 50360
+  },
+  {
+    "w": "spring",
+    "start_ms": 50360,
+    "end_ms": 50820
+  },
+  {
+    "w": "and",
+    "start_ms": 50820,
+    "end_ms": 50980
+  },
+  {
+    "w": "glitter",
+    "start_ms": 50980,
+    "end_ms": 51180
+  },
+  {
+    "w": "and",
+    "start_ms": 51180,
+    "end_ms": 51560
+  },
+  {
+    "w": "Barbara,",
+    "start_ms": 51560,
+    "end_ms": 52180
+  },
+  {
+    "w": "the",
+    "start_ms": 52200,
+    "end_ms": 52600
+  },
+  {
+    "w": "Persian",
+    "start_ms": 52600,
+    "end_ms": 52740
+  },
+  {
+    "w": "babe.",
+    "start_ms": 52740,
+    "end_ms": 53080
+  },
+  {
+    "w": "I",
+    "start_ms": 54980,
+    "end_ms": 55140
+  },
+  {
+    "w": "was",
+    "start_ms": 55140,
+    "end_ms": 55300
+  },
+  {
+    "w": "going",
+    "start_ms": 55300,
+    "end_ms": 55400
+  },
+  {
+    "w": "to",
+    "start_ms": 55400,
+    "end_ms": 55460
+  },
+  {
+    "w": "meet",
+    "start_ms": 55460,
+    "end_ms": 55580
+  },
+  {
+    "w": "Louise",
+    "start_ms": 55580,
+    "end_ms": 55720
+  },
+  {
+    "w": "at",
+    "start_ms": 55720,
+    "end_ms": 56160
+  },
+  {
+    "w": "12",
+    "start_ms": 56160,
+    "end_ms": 56460
+  },
+  {
+    "w": "at",
+    "start_ms": 56460,
+    "end_ms": 56860
+  },
+  {
+    "w": "Euston",
+    "start_ms": 56860,
+    "end_ms": 57280
+  },
+  {
+    "w": "and",
+    "start_ms": 57280,
+    "end_ms": 57660
+  },
+  {
+    "w": "this",
+    "start_ms": 57660,
+    "end_ms": 57800
+  },
+  {
+    "w": "morning",
+    "start_ms": 57800,
+    "end_ms": 58020
+  },
+  {
+    "w": "everything",
+    "start_ms": 58020,
+    "end_ms": 58600
+  },
+  {
+    "w": "was",
+    "start_ms": 58600,
+    "end_ms": 58860
+  },
+  {
+    "w": "going",
+    "start_ms": 58860,
+    "end_ms": 58980
+  },
+  {
+    "w": "wrong,",
+    "start_ms": 58980,
+    "end_ms": 59260
+  },
+  {
+    "w": "literally",
+    "start_ms": 59400,
+    "end_ms": 59580
+  },
+  {
+    "w": "everything",
+    "start_ms": 59580,
+    "end_ms": 60600
+  },
+  {
+    "w": "is",
+    "start_ms": 60600,
+    "end_ms": 60920
+  },
+  {
+    "w": "going",
+    "start_ms": 60920,
+    "end_ms": 61080
+  },
+  {
+    "w": "wrong.",
+    "start_ms": 61080,
+    "end_ms": 61420
+  },
+  {
+    "w": "My",
+    "start_ms": 62180,
+    "end_ms": 62640
+  },
+  {
+    "w": "boyfriend",
+    "start_ms": 62640,
+    "end_ms": 62900
+  },
+  {
+    "w": "has",
+    "start_ms": 62900,
+    "end_ms": 63080
+  },
+  {
+    "w": "literally",
+    "start_ms": 63080,
+    "end_ms": 63220
+  },
+  {
+    "w": "just",
+    "start_ms": 63220,
+    "end_ms": 63780
+  },
+  {
+    "w": "moved",
+    "start_ms": 63780,
+    "end_ms": 64239
+  },
+  {
+    "w": "to",
+    "start_ms": 64239,
+    "end_ms": 64500
+  },
+  {
+    "w": "a",
+    "start_ms": 64500,
+    "end_ms": 64580
+  },
+  {
+    "w": "new",
+    "start_ms": 64580,
+    "end_ms": 64680
+  },
+  {
+    "w": "flat.",
+    "start_ms": 64680,
+    "end_ms": 64920
+  },
+  {
+    "w": "I've",
+    "start_ms": 65280,
+    "end_ms": 65600
+  },
+  {
+    "w": "only",
+    "start_ms": 65600,
+    "end_ms": 66660
+  },
+  {
+    "w": "done",
+    "start_ms": 66660,
+    "end_ms": 66840
+  },
+  {
+    "w": "the",
+    "start_ms": 66840,
+    "end_ms": 66980
+  },
+  {
+    "w": "route",
+    "start_ms": 66980,
+    "end_ms": 67160
+  },
+  {
+    "w": "to",
+    "start_ms": 67160,
+    "end_ms": 67280
+  },
+  {
+    "w": "his",
+    "start_ms": 67280,
+    "end_ms": 67400
+  },
+  {
+    "w": "flat",
+    "start_ms": 67400,
+    "end_ms": 67580
+  },
+  {
+    "w": "once",
+    "start_ms": 67580,
+    "end_ms": 67960
+  },
+  {
+    "w": "and",
+    "start_ms": 67960,
+    "end_ms": 69180
+  },
+  {
+    "w": "he's",
+    "start_ms": 69180,
+    "end_ms": 70260
+  },
+  {
+    "w": "got",
+    "start_ms": 70260,
+    "end_ms": 70320
+  },
+  {
+    "w": "these",
+    "start_ms": 70320,
+    "end_ms": 70500
+  },
+  {
+    "w": "new",
+    "start_ms": 70500,
+    "end_ms": 70660
+  },
+  {
+    "w": "keys",
+    "start_ms": 70660,
+    "end_ms": 70940
+  },
+  {
+    "w": "which",
+    "start_ms": 70940,
+    "end_ms": 71100
+  },
+  {
+    "w": "obviously",
+    "start_ms": 71100,
+    "end_ms": 71220
+  },
+  {
+    "w": "I",
+    "start_ms": 71220,
+    "end_ms": 71440
+  },
+  {
+    "w": "need",
+    "start_ms": 71440,
+    "end_ms": 71700
+  },
+  {
+    "w": "to",
+    "start_ms": 71700,
+    "end_ms": 71780
+  },
+  {
+    "w": "get",
+    "start_ms": 71780,
+    "end_ms": 71900
+  },
+  {
+    "w": "a",
+    "start_ms": 71900,
+    "end_ms": 71960
+  },
+  {
+    "w": "set",
+    "start_ms": 71960,
+    "end_ms": 72380
+  },
+  {
+    "w": "cut",
+    "start_ms": 72380,
+    "end_ms": 72620
+  },
+  {
+    "w": "so",
+    "start_ms": 72620,
+    "end_ms": 72880
+  },
+  {
+    "w": "I",
+    "start_ms": 72880,
+    "end_ms": 72940
+  },
+  {
+    "w": "can",
+    "start_ms": 72940,
+    "end_ms": 73040
+  },
+  {
+    "w": "let",
+    "start_ms": 73040,
+    "end_ms": 73140
+  },
+  {
+    "w": "myself",
+    "start_ms": 73140,
+    "end_ms": 73440
+  },
+  {
+    "w": "in",
+    "start_ms": 73440,
+    "end_ms": 73580
+  },
+  {
+    "w": "and",
+    "start_ms": 73580,
+    "end_ms": 73720
+  },
+  {
+    "w": "out",
+    "start_ms": 73720,
+    "end_ms": 73880
+  },
+  {
+    "w": "and",
+    "start_ms": 73880,
+    "end_ms": 76500
+  },
+  {
+    "w": "he",
+    "start_ms": 76500,
+    "end_ms": 77700
+  },
+  {
+    "w": "had",
+    "start_ms": 77700,
+    "end_ms": 77940
+  },
+  {
+    "w": "two",
+    "start_ms": 77940,
+    "end_ms": 78940
+  },
+  {
+    "w": "keys",
+    "start_ms": 78940,
+    "end_ms": 79200
+  },
+  {
+    "w": "left",
+    "start_ms": 79200,
+    "end_ms": 79420
+  },
+  {
+    "w": "on",
+    "start_ms": 79420,
+    "end_ms": 79660
+  },
+  {
+    "w": "the",
+    "start_ms": 79660,
+    "end_ms": 79740
+  },
+  {
+    "w": "side",
+    "start_ms": 79740,
+    "end_ms": 80080
+  },
+  {
+    "w": "which",
+    "start_ms": 80080,
+    "end_ms": 80380
+  },
+  {
+    "w": "were",
+    "start_ms": 80380,
+    "end_ms": 80580
+  },
+  {
+    "w": "for",
+    "start_ms": 80580,
+    "end_ms": 80740
+  },
+  {
+    "w": "his",
+    "start_ms": 80740,
+    "end_ms": 80900
+  },
+  {
+    "w": "neighbour",
+    "start_ms": 80900,
+    "end_ms": 81100
+  },
+  {
+    "w": "which",
+    "start_ms": 81100,
+    "end_ms": 81400
+  },
+  {
+    "w": "we",
+    "start_ms": 81400,
+    "end_ms": 81600
+  },
+  {
+    "w": "did",
+    "start_ms": 81600,
+    "end_ms": 81760
+  },
+  {
+    "w": "think",
+    "start_ms": 81760,
+    "end_ms": 82080
+  },
+  {
+    "w": "might",
+    "start_ms": 82080,
+    "end_ms": 82560
+  },
+  {
+    "w": "be",
+    "start_ms": 82560,
+    "end_ms": 82860
+  },
+  {
+    "w": "to",
+    "start_ms": 82860,
+    "end_ms": 83300
+  },
+  {
+    "w": "his",
+    "start_ms": 83300,
+    "end_ms": 83480
+  },
+  {
+    "w": "flat",
+    "start_ms": 83480,
+    "end_ms": 83680
+  },
+  {
+    "w": "so",
+    "start_ms": 83680,
+    "end_ms": 84000
+  },
+  {
+    "w": "she's",
+    "start_ms": 84000,
+    "end_ms": 84280
+  },
+  {
+    "w": "got",
+    "start_ms": 84280,
+    "end_ms": 84420
+  },
+  {
+    "w": "a",
+    "start_ms": 84420,
+    "end_ms": 84580
+  },
+  {
+    "w": "key",
+    "start_ms": 84580,
+    "end_ms": 84760
+  },
+  {
+    "w": "so",
+    "start_ms": 84760,
+    "end_ms": 85140
+  },
+  {
+    "w": "she",
+    "start_ms": 85140,
+    "end_ms": 85400
+  },
+  {
+    "w": "can",
+    "start_ms": 85400,
+    "end_ms": 85540
+  },
+  {
+    "w": "let",
+    "start_ms": 85540,
+    "end_ms": 86420
+  },
+  {
+    "w": "herself",
+    "start_ms": 86420,
+    "end_ms": 86720
+  },
+  {
+    "w": "in.",
+    "start_ms": 86720,
+    "end_ms": 86880
+  },
+  {
+    "w": "I",
+    "start_ms": 87060,
+    "end_ms": 87060
+  },
+  {
+    "w": "don't",
+    "start_ms": 87060,
+    "end_ms": 87160
+  },
+  {
+    "w": "really",
+    "start_ms": 87160,
+    "end_ms": 87580
+  },
+  {
+    "w": "know",
+    "start_ms": 87580,
+    "end_ms": 87800
+  },
+  {
+    "w": "the",
+    "start_ms": 87800,
+    "end_ms": 88160
+  },
+  {
+    "w": "security",
+    "start_ms": 88160,
+    "end_ms": 88420
+  },
+  {
+    "w": "reasons",
+    "start_ms": 88420,
+    "end_ms": 88940
+  },
+  {
+    "w": "are",
+    "start_ms": 88940,
+    "end_ms": 89120
+  },
+  {
+    "w": "something",
+    "start_ms": 89120,
+    "end_ms": 89380
+  },
+  {
+    "w": "weird.",
+    "start_ms": 89380,
+    "end_ms": 89660
+  },
+  {
+    "w": "Anyway",
+    "start_ms": 90200,
+    "end_ms": 90360
+  },
+  {
+    "w": "we",
+    "start_ms": 90360,
+    "end_ms": 91800
+  },
+  {
+    "w": "thought",
+    "start_ms": 91800,
+    "end_ms": 92040
+  },
+  {
+    "w": "oh",
+    "start_ms": 92040,
+    "end_ms": 92180
+  },
+  {
+    "w": "that's",
+    "start_ms": 92180,
+    "end_ms": 92420
+  },
+  {
+    "w": "okay",
+    "start_ms": 92420,
+    "end_ms": 92620
+  },
+  {
+    "w": "I'll",
+    "start_ms": 92620,
+    "end_ms": 93140
+  },
+  {
+    "w": "use",
+    "start_ms": 93140,
+    "end_ms": 93300
+  },
+  {
+    "w": "these",
+    "start_ms": 93300,
+    "end_ms": 93500
+  },
+  {
+    "w": "keys",
+    "start_ms": 93500,
+    "end_ms": 93700
+  },
+  {
+    "w": "and",
+    "start_ms": 93700,
+    "end_ms": 93900
+  },
+  {
+    "w": "I'll",
+    "start_ms": 93900,
+    "end_ms": 93980
+  },
+  {
+    "w": "post",
+    "start_ms": 93980,
+    "end_ms": 94120
+  },
+  {
+    "w": "them",
+    "start_ms": 94120,
+    "end_ms": 94280
+  },
+  {
+    "w": "back",
+    "start_ms": 94280,
+    "end_ms": 94420
+  },
+  {
+    "w": "through",
+    "start_ms": 94420,
+    "end_ms": 94560
+  },
+  {
+    "w": "the",
+    "start_ms": 94560,
+    "end_ms": 94660
+  },
+  {
+    "w": "letterbox",
+    "start_ms": 94660,
+    "end_ms": 95000
+  },
+  {
+    "w": "after",
+    "start_ms": 95000,
+    "end_ms": 95340
+  },
+  {
+    "w": "I've",
+    "start_ms": 95340,
+    "end_ms": 95400
+  },
+  {
+    "w": "got",
+    "start_ms": 95400,
+    "end_ms": 95660
+  },
+  {
+    "w": "the",
+    "start_ms": 95660,
+    "end_ms": 95800
+  },
+  {
+    "w": "door",
+    "start_ms": 95800,
+    "end_ms": 95980
+  },
+  {
+    "w": "out",
+    "start_ms": 95980,
+    "end_ms": 96120
+  },
+  {
+    "w": "so",
+    "start_ms": 96120,
+    "end_ms": 96700
+  },
+  {
+    "w": "I'm",
+    "start_ms": 96700,
+    "end_ms": 96900
+  },
+  {
+    "w": "ready",
+    "start_ms": 96900,
+    "end_ms": 97040
+  },
+  {
+    "w": "to",
+    "start_ms": 97040,
+    "end_ms": 97320
+  },
+  {
+    "w": "go",
+    "start_ms": 97320,
+    "end_ms": 97540
+  },
+  {
+    "w": "and",
+    "start_ms": 97540,
+    "end_ms": 98000
+  },
+  {
+    "w": "I'm",
+    "start_ms": 98000,
+    "end_ms": 98180
+  },
+  {
+    "w": "going",
+    "start_ms": 98180,
+    "end_ms": 98320
+  },
+  {
+    "w": "to",
+    "start_ms": 98320,
+    "end_ms": 98440
+  },
+  {
+    "w": "put",
+    "start_ms": 98440,
+    "end_ms": 98540
+  },
+  {
+    "w": "the",
+    "start_ms": 98540,
+    "end_ms": 98600
+  },
+  {
+    "w": "key",
+    "start_ms": 98600,
+    "end_ms": 98740
+  },
+  {
+    "w": "in",
+    "start_ms": 98740,
+    "end_ms": 98840
+  },
+  {
+    "w": "the",
+    "start_ms": 98840,
+    "end_ms": 98920
+  },
+  {
+    "w": "door",
+    "start_ms": 98920,
+    "end_ms": 99140
+  },
+  {
+    "w": "and",
+    "start_ms": 99140,
+    "end_ms": 99560
+  },
+  {
+    "w": "it",
+    "start_ms": 99560,
+    "end_ms": 99980
+  },
+  {
+    "w": "doesn't",
+    "start_ms": 99980,
+    "end_ms": 100220
+  },
+  {
+    "w": "fit.",
+    "start_ms": 100220,
+    "end_ms": 100360
+  },
+  {
+    "w": "Wilf",
+    "start_ms": 101660,
+    "end_ms": 102100
+  },
+  {
+    "w": "works",
+    "start_ms": 102100,
+    "end_ms": 102300
+  },
+  {
+    "w": "in",
+    "start_ms": 102300,
+    "end_ms": 102620
+  },
+  {
+    "w": "central",
+    "start_ms": 102620,
+    "end_ms": 102920
+  },
+  {
+    "w": "London",
+    "start_ms": 102920,
+    "end_ms": 103240
+  },
+  {
+    "w": "this",
+    "start_ms": 103240,
+    "end_ms": 103520
+  },
+  {
+    "w": "isn't",
+    "start_ms": 103520,
+    "end_ms": 103760
+  },
+  {
+    "w": "quite",
+    "start_ms": 103760,
+    "end_ms": 103900
+  },
+  {
+    "w": "central",
+    "start_ms": 103900,
+    "end_ms": 104140
+  },
+  {
+    "w": "London",
+    "start_ms": 104140,
+    "end_ms": 104480
+  },
+  {
+    "w": "it's",
+    "start_ms": 104480,
+    "end_ms": 104780
+  },
+  {
+    "w": "probably",
+    "start_ms": 104780,
+    "end_ms": 104980
+  },
+  {
+    "w": "about",
+    "start_ms": 104980,
+    "end_ms": 105320
+  },
+  {
+    "w": "35",
+    "start_ms": 105320,
+    "end_ms": 106080
+  },
+  {
+    "w": "minutes",
+    "start_ms": 106080,
+    "end_ms": 106540
+  },
+  {
+    "w": "out",
+    "start_ms": 106540,
+    "end_ms": 106820
+  },
+  {
+    "w": "so",
+    "start_ms": 107860,
+    "end_ms": 108300
+  },
+  {
+    "w": "he",
+    "start_ms": 108300,
+    "end_ms": 108740
+  },
+  {
+    "w": "couldn't",
+    "start_ms": 108740,
+    "end_ms": 109040
+  },
+  {
+    "w": "just",
+    "start_ms": 109040,
+    "end_ms": 109120
+  },
+  {
+    "w": "leave",
+    "start_ms": 109120,
+    "end_ms": 109400
+  },
+  {
+    "w": "his",
+    "start_ms": 109400,
+    "end_ms": 109620
+  },
+  {
+    "w": "office",
+    "start_ms": 109620,
+    "end_ms": 109920
+  },
+  {
+    "w": "to",
+    "start_ms": 109920,
+    "end_ms": 110500
+  },
+  {
+    "w": "come",
+    "start_ms": 110500,
+    "end_ms": 110620
+  },
+  {
+    "w": "lock",
+    "start_ms": 110620,
+    "end_ms": 111160
+  },
+  {
+    "w": "his",
+    "start_ms": 111160,
+    "end_ms": 111440
+  },
+  {
+    "w": "door",
+    "start_ms": 111440,
+    "end_ms": 112020
+  },
+  {
+    "w": "so",
+    "start_ms": 112020,
+    "end_ms": 112380
+  },
+  {
+    "w": "I",
+    "start_ms": 112380,
+    "end_ms": 112460
+  },
+  {
+    "w": "could",
+    "start_ms": 112460,
+    "end_ms": 112580
+  },
+  {
+    "w": "go",
+    "start_ms": 112580,
+    "end_ms": 112800
+  },
+  {
+    "w": "out",
+    "start_ms": 112800,
+    "end_ms": 112940
+  },
+  {
+    "w": "so",
+    "start_ms": 112940,
+    "end_ms": 113860
+  },
+  {
+    "w": "we",
+    "start_ms": 113860,
+    "end_ms": 115160
+  },
+  {
+    "w": "come",
+    "start_ms": 115160,
+    "end_ms": 115400
+  },
+  {
+    "w": "up",
+    "start_ms": 115400,
+    "end_ms": 115520
+  },
+  {
+    "w": "with",
+    "start_ms": 115520,
+    "end_ms": 115660
+  },
+  {
+    "w": "the",
+    "start_ms": 115660,
+    "end_ms": 115740
+  },
+  {
+    "w": "solution",
+    "start_ms": 115740,
+    "end_ms": 116180
+  },
+  {
+    "w": "that",
+    "start_ms": 116180,
+    "end_ms": 116460
+  },
+  {
+    "w": "Louise",
+    "start_ms": 116460,
+    "end_ms": 116960
+  },
+  {
+    "w": "would",
+    "start_ms": 116960,
+    "end_ms": 117420
+  },
+  {
+    "w": "go",
+    "start_ms": 117420,
+    "end_ms": 117560
+  },
+  {
+    "w": "from",
+    "start_ms": 117560,
+    "end_ms": 117720
+  },
+  {
+    "w": "Houston",
+    "start_ms": 117720,
+    "end_ms": 118140
+  },
+  {
+    "w": "to",
+    "start_ms": 118140,
+    "end_ms": 119740
+  },
+  {
+    "w": "where",
+    "start_ms": 119740,
+    "end_ms": 120540
+  },
+  {
+    "w": "Wilf",
+    "start_ms": 120540,
+    "end_ms": 121420
+  },
+  {
+    "w": "works",
+    "start_ms": 121420,
+    "end_ms": 121660
+  },
+  {
+    "w": "in",
+    "start_ms": 121660,
+    "end_ms": 121780
+  },
+  {
+    "w": "central",
+    "start_ms": 121780,
+    "end_ms": 122060
+  },
+  {
+    "w": "London",
+    "start_ms": 122060,
+    "end_ms": 122380
+  },
+  {
+    "w": "which",
+    "start_ms": 122380,
+    "end_ms": 122740
+  },
+  {
+    "w": "obviously",
+    "start_ms": 122740,
+    "end_ms": 123040
+  },
+  {
+    "w": "I",
+    "start_ms": 123040,
+    "end_ms": 123120
+  },
+  {
+    "w": "had",
+    "start_ms": 123120,
+    "end_ms": 123240
+  },
+  {
+    "w": "to",
+    "start_ms": 123240,
+    "end_ms": 123340
+  },
+  {
+    "w": "direct",
+    "start_ms": 123340,
+    "end_ms": 123520
+  },
+  {
+    "w": "her",
+    "start_ms": 123520,
+    "end_ms": 123700
+  },
+  {
+    "w": "on",
+    "start_ms": 123700,
+    "end_ms": 123760
+  },
+  {
+    "w": "the",
+    "start_ms": 123760,
+    "end_ms": 123840
+  },
+  {
+    "w": "phone",
+    "start_ms": 123840,
+    "end_ms": 123980
+  },
+  {
+    "w": "which",
+    "start_ms": 123980,
+    "end_ms": 124180
+  },
+  {
+    "w": "was",
+    "start_ms": 124180,
+    "end_ms": 124300
+  },
+  {
+    "w": "quite",
+    "start_ms": 124300,
+    "end_ms": 124540
+  },
+  {
+    "w": "amusing",
+    "start_ms": 124540,
+    "end_ms": 124740
+  },
+  {
+    "w": "to",
+    "start_ms": 124740,
+    "end_ms": 126080
+  },
+  {
+    "w": "then",
+    "start_ms": 126080,
+    "end_ms": 126280
+  },
+  {
+    "w": "pick",
+    "start_ms": 126280,
+    "end_ms": 127000
+  },
+  {
+    "w": "up",
+    "start_ms": 127000,
+    "end_ms": 127540
+  },
+  {
+    "w": "the",
+    "start_ms": 127540,
+    "end_ms": 127680
+  },
+  {
+    "w": "key",
+    "start_ms": 127680,
+    "end_ms": 127800
+  },
+  {
+    "w": "from",
+    "start_ms": 127800,
+    "end_ms": 128000
+  },
+  {
+    "w": "Wilf",
+    "start_ms": 128000,
+    "end_ms": 128440
+  },
+  {
+    "w": "and",
+    "start_ms": 128440,
+    "end_ms": 129160
+  },
+  {
+    "w": "come",
+    "start_ms": 129160,
+    "end_ms": 129780
+  },
+  {
+    "w": "all",
+    "start_ms": 129780,
+    "end_ms": 130120
+  },
+  {
+    "w": "the",
+    "start_ms": 130120,
+    "end_ms": 130240
+  },
+  {
+    "w": "way",
+    "start_ms": 130240,
+    "end_ms": 130360
+  },
+  {
+    "w": "back",
+    "start_ms": 130360,
+    "end_ms": 130580
+  },
+  {
+    "w": "to",
+    "start_ms": 130580,
+    "end_ms": 131100
+  },
+  {
+    "w": "where",
+    "start_ms": 131100,
+    "end_ms": 131500
+  },
+  {
+    "w": "I",
+    "start_ms": 131500,
+    "end_ms": 131700
+  },
+  {
+    "w": "am.",
+    "start_ms": 131700,
+    "end_ms": 131900
+  },
+  {
+    "w": "So",
+    "start_ms": 132160,
+    "end_ms": 132160
+  },
+  {
+    "w": "I'm",
+    "start_ms": 132160,
+    "end_ms": 132260
+  },
+  {
+    "w": "now",
+    "start_ms": 132260,
+    "end_ms": 132360
+  },
+  {
+    "w": "sat",
+    "start_ms": 132360,
+    "end_ms": 132480
+  },
+  {
+    "w": "here",
+    "start_ms": 132480,
+    "end_ms": 132680
+  },
+  {
+    "w": "waiting",
+    "start_ms": 132680,
+    "end_ms": 132840
+  },
+  {
+    "w": "for",
+    "start_ms": 132840,
+    "end_ms": 133100
+  },
+  {
+    "w": "Barbara",
+    "start_ms": 133100,
+    "end_ms": 133260
+  },
+  {
+    "w": "and",
+    "start_ms": 133260,
+    "end_ms": 133540
+  },
+  {
+    "w": "Louise",
+    "start_ms": 133540,
+    "end_ms": 133780
+  },
+  {
+    "w": "to",
+    "start_ms": 133780,
+    "end_ms": 134540
+  },
+  {
+    "w": "give",
+    "start_ms": 134540,
+    "end_ms": 134680
+  },
+  {
+    "w": "me",
+    "start_ms": 134680,
+    "end_ms": 134820
+  },
+  {
+    "w": "a",
+    "start_ms": 134820,
+    "end_ms": 134860
+  },
+  {
+    "w": "ring",
+    "start_ms": 134860,
+    "end_ms": 135060
+  },
+  {
+    "w": "to",
+    "start_ms": 135060,
+    "end_ms": 135340
+  },
+  {
+    "w": "let",
+    "start_ms": 135340,
+    "end_ms": 135420
+  },
+  {
+    "w": "them",
+    "start_ms": 135420,
+    "end_ms": 135560
+  },
+  {
+    "w": "know",
+    "start_ms": 135560,
+    "end_ms": 135740
+  },
+  {
+    "w": "that",
+    "start_ms": 135740,
+    "end_ms": 135840
+  },
+  {
+    "w": "they're",
+    "start_ms": 135840,
+    "end_ms": 136000
+  },
+  {
+    "w": "at",
+    "start_ms": 136000,
+    "end_ms": 136140
+  },
+  {
+    "w": "the",
+    "start_ms": 136140,
+    "end_ms": 136420
+  },
+  {
+    "w": "tube",
+    "start_ms": 136420,
+    "end_ms": 136860
+  },
+  {
+    "w": "station",
+    "start_ms": 136860,
+    "end_ms": 137120
+  },
+  {
+    "w": "so",
+    "start_ms": 137120,
+    "end_ms": 138340
+  },
+  {
+    "w": "I",
+    "start_ms": 138340,
+    "end_ms": 138460
+  },
+  {
+    "w": "can",
+    "start_ms": 138460,
+    "end_ms": 138540
+  },
+  {
+    "w": "direct",
+    "start_ms": 138540,
+    "end_ms": 138720
+  },
+  {
+    "w": "them",
+    "start_ms": 138720,
+    "end_ms": 138920
+  },
+  {
+    "w": "from",
+    "start_ms": 138920,
+    "end_ms": 139060
+  },
+  {
+    "w": "the",
+    "start_ms": 139060,
+    "end_ms": 139160
+  },
+  {
+    "w": "tube",
+    "start_ms": 139160,
+    "end_ms": 139340
+  },
+  {
+    "w": "station",
+    "start_ms": 139340,
+    "end_ms": 139620
+  },
+  {
+    "w": "to",
+    "start_ms": 139620,
+    "end_ms": 139880
+  },
+  {
+    "w": "the",
+    "start_ms": 139880,
+    "end_ms": 140020
+  },
+  {
+    "w": "flat",
+    "start_ms": 140020,
+    "end_ms": 140280
+  },
+  {
+    "w": "with",
+    "start_ms": 140280,
+    "end_ms": 140960
+  },
+  {
+    "w": "the",
+    "start_ms": 140960,
+    "end_ms": 141160
+  },
+  {
+    "w": "key",
+    "start_ms": 141160,
+    "end_ms": 141380
+  },
+  {
+    "w": "so",
+    "start_ms": 141380,
+    "end_ms": 141980
+  },
+  {
+    "w": "I",
+    "start_ms": 141980,
+    "end_ms": 142060
+  },
+  {
+    "w": "can",
+    "start_ms": 142060,
+    "end_ms": 142160
+  },
+  {
+    "w": "lock",
+    "start_ms": 142160,
+    "end_ms": 142320
+  },
+  {
+    "w": "the",
+    "start_ms": 142320,
+    "end_ms": 142520
+  },
+  {
+    "w": "door",
+    "start_ms": 142520,
+    "end_ms": 142660
+  },
+  {
+    "w": "and",
+    "start_ms": 142660,
+    "end_ms": 142860
+  },
+  {
+    "w": "I",
+    "start_ms": 142860,
+    "end_ms": 142940
+  },
+  {
+    "w": "can",
+    "start_ms": 142940,
+    "end_ms": 143060
+  },
+  {
+    "w": "leave",
+    "start_ms": 143060,
+    "end_ms": 143320
+  },
+  {
+    "w": "and",
+    "start_ms": 143320,
+    "end_ms": 143540
+  },
+  {
+    "w": "I",
+    "start_ms": 143540,
+    "end_ms": 143600
+  },
+  {
+    "w": "can",
+    "start_ms": 143600,
+    "end_ms": 143720
+  },
+  {
+    "w": "go",
+    "start_ms": 143720,
+    "end_ms": 143860
+  },
+  {
+    "w": "and",
+    "start_ms": 143860,
+    "end_ms": 143960
+  },
+  {
+    "w": "have",
+    "start_ms": 143960,
+    "end_ms": 144060
+  },
+  {
+    "w": "fun",
+    "start_ms": 144060,
+    "end_ms": 144300
+  },
+  {
+    "w": "because",
+    "start_ms": 144300,
+    "end_ms": 144960
+  },
+  {
+    "w": "so",
+    "start_ms": 144960,
+    "end_ms": 145520
+  },
+  {
+    "w": "far",
+    "start_ms": 145520,
+    "end_ms": 145640
+  },
+  {
+    "w": "this",
+    "start_ms": 145640,
+    "end_ms": 145820
+  },
+  {
+    "w": "morning",
+    "start_ms": 145820,
+    "end_ms": 146000
+  },
+  {
+    "w": "all",
+    "start_ms": 146000,
+    "end_ms": 146200
+  },
+  {
+    "w": "I've",
+    "start_ms": 146200,
+    "end_ms": 146300
+  },
+  {
+    "w": "pretty",
+    "start_ms": 146300,
+    "end_ms": 146400
+  },
+  {
+    "w": "much",
+    "start_ms": 146400,
+    "end_ms": 146560
+  },
+  {
+    "w": "done",
+    "start_ms": 146560,
+    "end_ms": 146700
+  },
+  {
+    "w": "is",
+    "start_ms": 146700,
+    "end_ms": 146820
+  },
+  {
+    "w": "tidied",
+    "start_ms": 146820,
+    "end_ms": 147080
+  },
+  {
+    "w": "up",
+    "start_ms": 147080,
+    "end_ms": 147180
+  },
+  {
+    "w": "this",
+    "start_ms": 147180,
+    "end_ms": 147320
+  },
+  {
+    "w": "flat",
+    "start_ms": 147320,
+    "end_ms": 147540
+  },
+  {
+    "w": "so",
+    "start_ms": 147540,
+    "end_ms": 148040
+  },
+  {
+    "w": "that",
+    "start_ms": 148040,
+    "end_ms": 148260
+  },
+  {
+    "w": "doesn't",
+    "start_ms": 148260,
+    "end_ms": 148520
+  },
+  {
+    "w": "make",
+    "start_ms": 148520,
+    "end_ms": 148620
+  },
+  {
+    "w": "me",
+    "start_ms": 148620,
+    "end_ms": 148840
+  },
+  {
+    "w": "a",
+    "start_ms": 148840,
+    "end_ms": 149160
+  },
+  {
+    "w": "great",
+    "start_ms": 149160,
+    "end_ms": 149400
+  },
+  {
+    "w": "girlfriend",
+    "start_ms": 149400,
+    "end_ms": 149760
+  },
+  {
+    "w": "but",
+    "start_ms": 149760,
+    "end_ms": 150420
+  },
+  {
+    "w": "I",
+    "start_ms": 150420,
+    "end_ms": 150780
+  },
+  {
+    "w": "wanted",
+    "start_ms": 150780,
+    "end_ms": 150920
+  },
+  {
+    "w": "to",
+    "start_ms": 150920,
+    "end_ms": 151100
+  },
+  {
+    "w": "go",
+    "start_ms": 151100,
+    "end_ms": 151240
+  },
+  {
+    "w": "out",
+    "start_ms": 151240,
+    "end_ms": 151320
+  },
+  {
+    "w": "and",
+    "start_ms": 151320,
+    "end_ms": 151440
+  },
+  {
+    "w": "play",
+    "start_ms": 151440,
+    "end_ms": 151700
+  },
+  {
+    "w": "about",
+    "start_ms": 151700,
+    "end_ms": 153960
+  },
+  {
+    "w": "two",
+    "start_ms": 153960,
+    "end_ms": 154260
+  },
+  {
+    "w": "hours",
+    "start_ms": 154260,
+    "end_ms": 154560
+  },
+  {
+    "w": "ago",
+    "start_ms": 154560,
+    "end_ms": 154840
+  },
+  {
+    "w": "oh",
+    "start_ms": 154840,
+    "end_ms": 155580
+  },
+  {
+    "w": "yeah",
+    "start_ms": 155580,
+    "end_ms": 155900
+  },
+  {
+    "w": "I",
+    "start_ms": 155900,
+    "end_ms": 156220
+  },
+  {
+    "w": "think",
+    "start_ms": 156220,
+    "end_ms": 156360
+  },
+  {
+    "w": "they're",
+    "start_ms": 156360,
+    "end_ms": 156520
+  },
+  {
+    "w": "absolute",
+    "start_ms": 156520,
+    "end_ms": 156840
+  },
+  {
+    "w": "troopers",
+    "start_ms": 156840,
+    "end_ms": 157240
+  },
+  {
+    "w": "especially",
+    "start_ms": 157240,
+    "end_ms": 158740
+  },
+  {
+    "w": "Louise",
+    "start_ms": 158740,
+    "end_ms": 159100
+  },
+  {
+    "w": "because",
+    "start_ms": 159100,
+    "end_ms": 159540
+  },
+  {
+    "w": "let's",
+    "start_ms": 159540,
+    "end_ms": 160300
+  },
+  {
+    "w": "face",
+    "start_ms": 160300,
+    "end_ms": 160500
+  },
+  {
+    "w": "it",
+    "start_ms": 160500,
+    "end_ms": 160780
+  },
+  {
+    "w": "she",
+    "start_ms": 160780,
+    "end_ms": 161400
+  },
+  {
+    "w": "she",
+    "start_ms": 161400,
+    "end_ms": 162900
+  },
+  {
+    "w": "gets",
+    "start_ms": 162900,
+    "end_ms": 163640
+  },
+  {
+    "w": "quite",
+    "start_ms": 163640,
+    "end_ms": 163880
+  },
+  {
+    "w": "panicky",
+    "start_ms": 163880,
+    "end_ms": 164320
+  },
+  {
+    "w": "about",
+    "start_ms": 164320,
+    "end_ms": 164620
+  },
+  {
+    "w": "tubes",
+    "start_ms": 164620,
+    "end_ms": 164920
+  },
+  {
+    "w": "like",
+    "start_ms": 164920,
+    "end_ms": 165280
+  },
+  {
+    "w": "I",
+    "start_ms": 165280,
+    "end_ms": 165520
+  },
+  {
+    "w": "was",
+    "start_ms": 165520,
+    "end_ms": 165640
+  },
+  {
+    "w": "going",
+    "start_ms": 165640,
+    "end_ms": 165740
+  },
+  {
+    "w": "to",
+    "start_ms": 165740,
+    "end_ms": 165840
+  },
+  {
+    "w": "go",
+    "start_ms": 165840,
+    "end_ms": 165940
+  },
+  {
+    "w": "meet",
+    "start_ms": 165940,
+    "end_ms": 166100
+  },
+  {
+    "w": "her",
+    "start_ms": 166100,
+    "end_ms": 166240
+  },
+  {
+    "w": "at",
+    "start_ms": 166240,
+    "end_ms": 166360
+  },
+  {
+    "w": "Houston",
+    "start_ms": 166360,
+    "end_ms": 166540
+  },
+  {
+    "w": "because",
+    "start_ms": 166540,
+    "end_ms": 166920
+  },
+  {
+    "w": "she",
+    "start_ms": 166920,
+    "end_ms": 167120
+  },
+  {
+    "w": "doesn't",
+    "start_ms": 167120,
+    "end_ms": 167340
+  },
+  {
+    "w": "really",
+    "start_ms": 167340,
+    "end_ms": 167480
+  },
+  {
+    "w": "like",
+    "start_ms": 167480,
+    "end_ms": 167680
+  },
+  {
+    "w": "the",
+    "start_ms": 167680,
+    "end_ms": 167760
+  },
+  {
+    "w": "tubes",
+    "start_ms": 167760,
+    "end_ms": 167980
+  },
+  {
+    "w": "I",
+    "start_ms": 167980,
+    "end_ms": 168500
+  },
+  {
+    "w": "mean",
+    "start_ms": 168500,
+    "end_ms": 168600
+  },
+  {
+    "w": "they",
+    "start_ms": 168600,
+    "end_ms": 168760
+  },
+  {
+    "w": "are",
+    "start_ms": 168760,
+    "end_ms": 168860
+  },
+  {
+    "w": "quite",
+    "start_ms": 168860,
+    "end_ms": 169000
+  },
+  {
+    "w": "scary",
+    "start_ms": 169000,
+    "end_ms": 169220
+  },
+  {
+    "w": "if",
+    "start_ms": 169220,
+    "end_ms": 169480
+  },
+  {
+    "w": "you",
+    "start_ms": 169480,
+    "end_ms": 169540
+  },
+  {
+    "w": "don't",
+    "start_ms": 169540,
+    "end_ms": 169680
+  },
+  {
+    "w": "do",
+    "start_ms": 169680,
+    "end_ms": 169780
+  },
+  {
+    "w": "them",
+    "start_ms": 169780,
+    "end_ms": 169900
+  },
+  {
+    "w": "a",
+    "start_ms": 169900,
+    "end_ms": 169920
+  },
+  {
+    "w": "lot",
+    "start_ms": 169920,
+    "end_ms": 170080
+  },
+  {
+    "w": "and",
+    "start_ms": 170080,
+    "end_ms": 170960
+  },
+  {
+    "w": "she",
+    "start_ms": 170960,
+    "end_ms": 171160
+  },
+  {
+    "w": "did",
+    "start_ms": 171160,
+    "end_ms": 171320
+  },
+  {
+    "w": "it",
+    "start_ms": 171320,
+    "end_ms": 171460
+  },
+  {
+    "w": "on",
+    "start_ms": 171460,
+    "end_ms": 171660
+  },
+  {
+    "w": "her",
+    "start_ms": 171660,
+    "end_ms": 171900
+  },
+  {
+    "w": "own",
+    "start_ms": 171900,
+    "end_ms": 172220
+  },
+  {
+    "w": "so",
+    "start_ms": 172220,
+    "end_ms": 172520
+  },
+  {
+    "w": "I",
+    "start_ms": 172520,
+    "end_ms": 172620
+  },
+  {
+    "w": "think",
+    "start_ms": 172620,
+    "end_ms": 172780
+  },
+  {
+    "w": "big",
+    "start_ms": 172780,
+    "end_ms": 172960
+  },
+  {
+    "w": "props",
+    "start_ms": 172960,
+    "end_ms": 173160
+  },
+  {
+    "w": "to",
+    "start_ms": 173160,
+    "end_ms": 173360
+  },
+  {
+    "w": "Louise",
+    "start_ms": 173360,
+    "end_ms": 173540
+  },
+  {
+    "w": "because",
+    "start_ms": 173540,
+    "end_ms": 174820
+  },
+  {
+    "w": "I",
+    "start_ms": 174820,
+    "end_ms": 175880
+  },
+  {
+    "w": "know",
+    "start_ms": 175880,
+    "end_ms": 176020
+  },
+  {
+    "w": "that",
+    "start_ms": 176020,
+    "end_ms": 176160
+  },
+  {
+    "w": "she",
+    "start_ms": 176160,
+    "end_ms": 176260
+  },
+  {
+    "w": "was",
+    "start_ms": 176260,
+    "end_ms": 176380
+  },
+  {
+    "w": "really",
+    "start_ms": 176380,
+    "end_ms": 176620
+  },
+  {
+    "w": "panicking",
+    "start_ms": 176620,
+    "end_ms": 176940
+  },
+  {
+    "w": "about",
+    "start_ms": 176940,
+    "end_ms": 177200
+  },
+  {
+    "w": "it",
+    "start_ms": 177200,
+    "end_ms": 177480
+  },
+  {
+    "w": "and",
+    "start_ms": 177480,
+    "end_ms": 177640
+  },
+  {
+    "w": "she'd",
+    "start_ms": 177640,
+    "end_ms": 177840
+  },
+  {
+    "w": "never",
+    "start_ms": 177840,
+    "end_ms": 178000
+  },
+  {
+    "w": "actually",
+    "start_ms": 178000,
+    "end_ms": 178280
+  },
+  {
+    "w": "met",
+    "start_ms": 178280,
+    "end_ms": 178480
+  },
+  {
+    "w": "Wilf",
+    "start_ms": 178480,
+    "end_ms": 178820
+  },
+  {
+    "w": "before",
+    "start_ms": 178820,
+    "end_ms": 179140
+  },
+  {
+    "w": "so",
+    "start_ms": 179140,
+    "end_ms": 179560
+  },
+  {
+    "w": "the",
+    "start_ms": 179560,
+    "end_ms": 179640
+  },
+  {
+    "w": "first",
+    "start_ms": 179640,
+    "end_ms": 179840
+  },
+  {
+    "w": "time",
+    "start_ms": 179840,
+    "end_ms": 180020
+  },
+  {
+    "w": "she",
+    "start_ms": 180020,
+    "end_ms": 180160
+  },
+  {
+    "w": "meets",
+    "start_ms": 180160,
+    "end_ms": 180300
+  },
+  {
+    "w": "him",
+    "start_ms": 180300,
+    "end_ms": 180500
+  },
+  {
+    "w": "I'm",
+    "start_ms": 180500,
+    "end_ms": 180640
+  },
+  {
+    "w": "not",
+    "start_ms": 180640,
+    "end_ms": 180800
+  },
+  {
+    "w": "even",
+    "start_ms": 180800,
+    "end_ms": 180920
+  },
+  {
+    "w": "there",
+    "start_ms": 180920,
+    "end_ms": 181220
+  },
+  {
+    "w": "and",
+    "start_ms": 181220,
+    "end_ms": 182100
+  },
+  {
+    "w": "it's",
+    "start_ms": 182100,
+    "end_ms": 182800
+  },
+  {
+    "w": "a",
+    "start_ms": 182800,
+    "end_ms": 182840
+  },
+  {
+    "w": "very",
+    "start_ms": 182840,
+    "end_ms": 183200
+  },
+  {
+    "w": "strange",
+    "start_ms": 183200,
+    "end_ms": 183600
+  },
+  {
+    "w": "circumstance",
+    "start_ms": 183600,
+    "end_ms": 183960
+  },
+  {
+    "w": "it's",
+    "start_ms": 183960,
+    "end_ms": 184220
+  },
+  {
+    "w": "like",
+    "start_ms": 184220,
+    "end_ms": 184380
+  },
+  {
+    "w": "hi",
+    "start_ms": 184380,
+    "end_ms": 184860
+  },
+  {
+    "w": "can",
+    "start_ms": 184860,
+    "end_ms": 185480
+  },
+  {
+    "w": "I",
+    "start_ms": 185480,
+    "end_ms": 185600
+  },
+  {
+    "w": "have",
+    "start_ms": 185600,
+    "end_ms": 185740
+  },
+  {
+    "w": "your",
+    "start_ms": 185740,
+    "end_ms": 185920
+  },
+  {
+    "w": "house",
+    "start_ms": 185920,
+    "end_ms": 186640
+  },
+  {
+    "w": "key",
+    "start_ms": 186640,
+    "end_ms": 186860
+  },
+  {
+    "w": "I",
+    "start_ms": 186860,
+    "end_ms": 187480
+  },
+  {
+    "w": "thought",
+    "start_ms": 187480,
+    "end_ms": 187860
+  },
+  {
+    "w": "I",
+    "start_ms": 187860,
+    "end_ms": 187960
+  },
+  {
+    "w": "should",
+    "start_ms": 187960,
+    "end_ms": 188060
+  },
+  {
+    "w": "let",
+    "start_ms": 188060,
+    "end_ms": 188220
+  },
+  {
+    "w": "you",
+    "start_ms": 188220,
+    "end_ms": 188300
+  },
+  {
+    "w": "know",
+    "start_ms": 188300,
+    "end_ms": 188440
+  },
+  {
+    "w": "that",
+    "start_ms": 188440,
+    "end_ms": 188580
+  },
+  {
+    "w": "because",
+    "start_ms": 188580,
+    "end_ms": 188900
+  },
+  {
+    "w": "that",
+    "start_ms": 188900,
+    "end_ms": 190280
+  },
+  {
+    "w": "doesn't",
+    "start_ms": 190280,
+    "end_ms": 190560
+  },
+  {
+    "w": "happen",
+    "start_ms": 190560,
+    "end_ms": 190760
+  },
+  {
+    "w": "every",
+    "start_ms": 190760,
+    "end_ms": 191000
+  },
+  {
+    "w": "day",
+    "start_ms": 191000,
+    "end_ms": 191220
+  },
+  {
+    "w": "that",
+    "start_ms": 191220,
+    "end_ms": 191620
+  },
+  {
+    "w": "you",
+    "start_ms": 191620,
+    "end_ms": 191760
+  },
+  {
+    "w": "get",
+    "start_ms": 191760,
+    "end_ms": 191880
+  },
+  {
+    "w": "stuck",
+    "start_ms": 191880,
+    "end_ms": 192180
+  },
+  {
+    "w": "and",
+    "start_ms": 192180,
+    "end_ms": 192640
+  },
+  {
+    "w": "purging",
+    "start_ms": 192640,
+    "end_ms": 193180
+  },
+  {
+    "w": "babe",
+    "start_ms": 193180,
+    "end_ms": 193320
+  },
+  {
+    "w": "and",
+    "start_ms": 193320,
+    "end_ms": 193640
+  },
+  {
+    "w": "spring",
+    "start_ms": 193640,
+    "end_ms": 193840
+  },
+  {
+    "w": "completely",
+    "start_ms": 193840,
+    "end_ms": 194080
+  },
+  {
+    "w": "come",
+    "start_ms": 194080,
+    "end_ms": 194420
+  },
+  {
+    "w": "to",
+    "start_ms": 194420,
+    "end_ms": 194560
+  },
+  {
+    "w": "rescue",
+    "start_ms": 194560,
+    "end_ms": 194720
+  },
+  {
+    "w": "you",
+    "start_ms": 194720,
+    "end_ms": 195040
+  },
+  {
+    "w": "so",
+    "start_ms": 195040,
+    "end_ms": 195680
+  },
+  {
+    "w": "well",
+    "start_ms": 195680,
+    "end_ms": 196540
+  },
+  {
+    "w": "the",
+    "start_ms": 196540,
+    "end_ms": 197680
+  },
+  {
+    "w": "spiel",
+    "start_ms": 197680,
+    "end_ms": 198120
+  },
+  {
+    "w": "that",
+    "start_ms": 198120,
+    "end_ms": 198300
+  },
+  {
+    "w": "I",
+    "start_ms": 198300,
+    "end_ms": 198380
+  },
+  {
+    "w": "just",
+    "start_ms": 198380,
+    "end_ms": 198620
+  },
+  {
+    "w": "explained",
+    "start_ms": 198620,
+    "end_ms": 199780
+  },
+  {
+    "w": "to",
+    "start_ms": 199780,
+    "end_ms": 200460
+  },
+  {
+    "w": "you",
+    "start_ms": 200460,
+    "end_ms": 200700
+  },
+  {
+    "w": "I",
+    "start_ms": 200700,
+    "end_ms": 201160
+  },
+  {
+    "w": "did",
+    "start_ms": 201160,
+    "end_ms": 201380
+  },
+  {
+    "w": "have",
+    "start_ms": 201380,
+    "end_ms": 201760
+  },
+  {
+    "w": "a",
+    "start_ms": 201760,
+    "end_ms": 202260
+  },
+  {
+    "w": "mere",
+    "start_ms": 202260,
+    "end_ms": 202500
+  },
+  {
+    "w": "cats",
+    "start_ms": 202500,
+    "end_ms": 202740
+  },
+  {
+    "w": "program",
+    "start_ms": 202740,
+    "end_ms": 203180
+  },
+  {
+    "w": "on",
+    "start_ms": 203180,
+    "end_ms": 203500
+  },
+  {
+    "w": "extremely",
+    "start_ms": 203500,
+    "end_ms": 203800
+  },
+  {
+    "w": "loud",
+    "start_ms": 203800,
+    "end_ms": 204100
+  },
+  {
+    "w": "in",
+    "start_ms": 204100,
+    "end_ms": 204240
+  },
+  {
+    "w": "the",
+    "start_ms": 204240,
+    "end_ms": 204300
+  },
+  {
+    "w": "background",
+    "start_ms": 204300,
+    "end_ms": 204440
+  },
+  {
+    "w": "so",
+    "start_ms": 204440,
+    "end_ms": 205000
+  },
+  {
+    "w": "that",
+    "start_ms": 205000,
+    "end_ms": 205840
+  },
+  {
+    "w": "may",
+    "start_ms": 205840,
+    "end_ms": 206020
+  },
+  {
+    "w": "have",
+    "start_ms": 206020,
+    "end_ms": 206220
+  },
+  {
+    "w": "been",
+    "start_ms": 206220,
+    "end_ms": 206280
+  },
+  {
+    "w": "slightly",
+    "start_ms": 206280,
+    "end_ms": 206580
+  },
+  {
+    "w": "distracting",
+    "start_ms": 206580,
+    "end_ms": 207140
+  },
+  {
+    "w": "hi",
+    "start_ms": 207140,
+    "end_ms": 207980
+  },
+  {
+    "w": "Zoey's",
+    "start_ms": 209610,
+    "end_ms": 210250
+  },
+  {
+    "w": "balls",
+    "start_ms": 210250,
+    "end_ms": 210550
+  },
+  {
+    "w": "we",
+    "start_ms": 210550,
+    "end_ms": 211650
+  },
+  {
+    "w": "just",
+    "start_ms": 211650,
+    "end_ms": 211830
+  },
+  {
+    "w": "had",
+    "start_ms": 211830,
+    "end_ms": 212010
+  },
+  {
+    "w": "to",
+    "start_ms": 212010,
+    "end_ms": 212190
+  },
+  {
+    "w": "go",
+    "start_ms": 212190,
+    "end_ms": 212350
+  },
+  {
+    "w": "on",
+    "start_ms": 212350,
+    "end_ms": 212710
+  },
+  {
+    "w": "a",
+    "start_ms": 212710,
+    "end_ms": 212990
+  },
+  {
+    "w": "great",
+    "start_ms": 212990,
+    "end_ms": 213270
+  },
+  {
+    "w": "tour",
+    "start_ms": 213270,
+    "end_ms": 213570
+  },
+  {
+    "w": "of",
+    "start_ms": 213570,
+    "end_ms": 213770
+  },
+  {
+    "w": "London",
+    "start_ms": 213770,
+    "end_ms": 213970
+  },
+  {
+    "w": "to",
+    "start_ms": 213970,
+    "end_ms": 214390
+  },
+  {
+    "w": "get",
+    "start_ms": 214390,
+    "end_ms": 214550
+  },
+  {
+    "w": "Wilf's",
+    "start_ms": 214550,
+    "end_ms": 215470
+  },
+  {
+    "w": "key",
+    "start_ms": 215470,
+    "end_ms": 215630
+  },
+  {
+    "w": "and",
+    "start_ms": 215630,
+    "end_ms": 215950
+  },
+  {
+    "w": "I'm",
+    "start_ms": 215950,
+    "end_ms": 216150
+  },
+  {
+    "w": "hot",
+    "start_ms": 216150,
+    "end_ms": 216390
+  },
+  {
+    "w": "and",
+    "start_ms": 216390,
+    "end_ms": 216970
+  },
+  {
+    "w": "I",
+    "start_ms": 216970,
+    "end_ms": 217030
+  },
+  {
+    "w": "don't",
+    "start_ms": 217030,
+    "end_ms": 217210
+  },
+  {
+    "w": "like",
+    "start_ms": 217210,
+    "end_ms": 217310
+  },
+  {
+    "w": "the",
+    "start_ms": 217310,
+    "end_ms": 217430
+  },
+  {
+    "w": "shoes",
+    "start_ms": 217430,
+    "end_ms": 217570
+  },
+  {
+    "w": "but",
+    "start_ms": 217570,
+    "end_ms": 217770
+  },
+  {
+    "w": "lovely",
+    "start_ms": 217770,
+    "end_ms": 217890
+  },
+  {
+    "w": "you",
+    "start_ms": 217890,
+    "end_ms": 218030
+  },
+  {
+    "w": "have",
+    "start_ms": 218030,
+    "end_ms": 218150
+  },
+  {
+    "w": "Barbara",
+    "start_ms": 218150,
+    "end_ms": 218370
+  },
+  {
+    "w": "who",
+    "start_ms": 218370,
+    "end_ms": 218610
+  },
+  {
+    "w": "doesn't",
+    "start_ms": 218610,
+    "end_ms": 218790
+  },
+  {
+    "w": "want",
+    "start_ms": 218790,
+    "end_ms": 218870
+  },
+  {
+    "w": "you",
+    "start_ms": 218870,
+    "end_ms": 218950
+  },
+  {
+    "w": "to",
+    "start_ms": 218950,
+    "end_ms": 219050
+  },
+  {
+    "w": "film",
+    "start_ms": 219050,
+    "end_ms": 219210
+  },
+  {
+    "w": "she's",
+    "start_ms": 219210,
+    "end_ms": 219550
+  },
+  {
+    "w": "the",
+    "start_ms": 219550,
+    "end_ms": 219630
+  },
+  {
+    "w": "Persian",
+    "start_ms": 219630,
+    "end_ms": 219850
+  },
+  {
+    "w": "baby",
+    "start_ms": 219850,
+    "end_ms": 220150
+  },
+  {
+    "w": "you",
+    "start_ms": 220150,
+    "end_ms": 220290
+  },
+  {
+    "w": "feel",
+    "start_ms": 220290,
+    "end_ms": 220810
+  },
+  {
+    "w": "like",
+    "start_ms": 220810,
+    "end_ms": 220970
+  },
+  {
+    "w": "here",
+    "start_ms": 220970,
+    "end_ms": 221310
+  },
+  {
+    "w": "she",
+    "start_ms": 221310,
+    "end_ms": 221630
+  },
+  {
+    "w": "likes",
+    "start_ms": 221630,
+    "end_ms": 221830
+  },
+  {
+    "w": "triangles",
+    "start_ms": 221830,
+    "end_ms": 222190
+  },
+  {
+    "w": "I've",
+    "start_ms": 222190,
+    "end_ms": 223250
+  },
+  {
+    "w": "just",
+    "start_ms": 223250,
+    "end_ms": 223370
+  },
+  {
+    "w": "got",
+    "start_ms": 223370,
+    "end_ms": 223490
+  },
+  {
+    "w": "your",
+    "start_ms": 223490,
+    "end_ms": 223610
+  },
+  {
+    "w": "breasts",
+    "start_ms": 223610,
+    "end_ms": 223910
+  },
+  {
+    "w": "in",
+    "start_ms": 223910,
+    "end_ms": 224230
+  },
+  {
+    "w": "short",
+    "start_ms": 224230,
+    "end_ms": 224490
+  },
+  {
+    "w": "there's",
+    "start_ms": 224490,
+    "end_ms": 225430
+  },
+  {
+    "w": "excellent",
+    "start_ms": 225430,
+    "end_ms": 225750
+  },
+  {
+    "w": "breasts",
+    "start_ms": 225750,
+    "end_ms": 226090
+  },
+  {
+    "w": "okay",
+    "start_ms": 226090,
+    "end_ms": 226950
+  },
+  {
+    "w": "are",
+    "start_ms": 226950,
+    "end_ms": 227130
+  },
+  {
+    "w": "we",
+    "start_ms": 227130,
+    "end_ms": 227230
+  },
+  {
+    "w": "ready",
+    "start_ms": 227230,
+    "end_ms": 227390
+  },
+  {
+    "w": "to",
+    "start_ms": 227390,
+    "end_ms": 227510
+  },
+  {
+    "w": "know",
+    "start_ms": 227510,
+    "end_ms": 227610
+  },
+  {
+    "w": "if",
+    "start_ms": 227610,
+    "end_ms": 227690
+  },
+  {
+    "w": "you're",
+    "start_ms": 227690,
+    "end_ms": 227770
+  },
+  {
+    "w": "ready",
+    "start_ms": 227770,
+    "end_ms": 227910
+  },
+  {
+    "w": "to",
+    "start_ms": 227910,
+    "end_ms": 228030
+  },
+  {
+    "w": "go",
+    "start_ms": 228030,
+    "end_ms": 228210
+  },
+  {
+    "w": "to",
+    "start_ms": 228210,
+    "end_ms": 228510
+  },
+  {
+    "w": "get",
+    "start_ms": 228510,
+    "end_ms": 228610
+  },
+  {
+    "w": "a",
+    "start_ms": 228610,
+    "end_ms": 228750
+  },
+  {
+    "w": "taxi",
+    "start_ms": 228750,
+    "end_ms": 228990
+  },
+  {
+    "w": "to",
+    "start_ms": 228990,
+    "end_ms": 229230
+  },
+  {
+    "w": "the",
+    "start_ms": 229230,
+    "end_ms": 229330
+  },
+  {
+    "w": "station",
+    "start_ms": 229330,
+    "end_ms": 229530
+  },
+  {
+    "w": "I'm",
+    "start_ms": 229530,
+    "end_ms": 229810
+  },
+  {
+    "w": "not",
+    "start_ms": 229810,
+    "end_ms": 229970
+  },
+  {
+    "w": "doing",
+    "start_ms": 229970,
+    "end_ms": 230090
+  },
+  {
+    "w": "that",
+    "start_ms": 230090,
+    "end_ms": 230270
+  },
+  {
+    "w": "walk",
+    "start_ms": 230270,
+    "end_ms": 230370
+  },
+  {
+    "w": "again",
+    "start_ms": 230370,
+    "end_ms": 230710
+  },
+  {
+    "w": "okay",
+    "start_ms": 230710,
+    "end_ms": 231230
+  },
+  {
+    "w": "I'm",
+    "start_ms": 231230,
+    "end_ms": 231390
+  },
+  {
+    "w": "not",
+    "start_ms": 231390,
+    "end_ms": 232110
+  },
+  {
+    "w": "being",
+    "start_ms": 232110,
+    "end_ms": 232250
+  },
+  {
+    "w": "born",
+    "start_ms": 232250,
+    "end_ms": 232430
+  },
+  {
+    "w": "in",
+    "start_ms": 232430,
+    "end_ms": 232610
+  },
+  {
+    "w": "fact",
+    "start_ms": 232610,
+    "end_ms": 232930
+  },
+  {
+    "w": "and",
+    "start_ms": 232930,
+    "end_ms": 233150
+  },
+  {
+    "w": "it's",
+    "start_ms": 233150,
+    "end_ms": 233290
+  },
+  {
+    "w": "hard",
+    "start_ms": 233290,
+    "end_ms": 233450
+  },
+  {
+    "w": "to",
+    "start_ms": 233450,
+    "end_ms": 233610
+  },
+  {
+    "w": "walk",
+    "start_ms": 233610,
+    "end_ms": 233830
+  },
+  {
+    "w": "that",
+    "start_ms": 233830,
+    "end_ms": 234010
+  },
+  {
+    "w": "far",
+    "start_ms": 234010,
+    "end_ms": 234250
+  },
+  {
+    "w": "okay",
+    "start_ms": 234250,
+    "end_ms": 234870
+  },
+  {
+    "w": "I'm",
+    "start_ms": 234870,
+    "end_ms": 236010
+  },
+  {
+    "w": "deadly",
+    "start_ms": 236010,
+    "end_ms": 236230
+  },
+  {
+    "w": "serious",
+    "start_ms": 236230,
+    "end_ms": 236510
+  },
+  {
+    "w": "yeah",
+    "start_ms": 236510,
+    "end_ms": 237330
+  },
+  {
+    "w": "so",
+    "start_ms": 237330,
+    "end_ms": 238450
+  },
+  {
+    "w": "yeah",
+    "start_ms": 238450,
+    "end_ms": 238750
+  },
+  {
+    "w": "uh",
+    "start_ms": 238750,
+    "end_ms": 239210
+  },
+  {
+    "w": "do",
+    "start_ms": 239210,
+    "end_ms": 240550
+  },
+  {
+    "w": "you",
+    "start_ms": 240550,
+    "end_ms": 240650
+  },
+  {
+    "w": "like",
+    "start_ms": 240650,
+    "end_ms": 240770
+  },
+  {
+    "w": "my",
+    "start_ms": 240770,
+    "end_ms": 240910
+  },
+  {
+    "w": "lipstick",
+    "start_ms": 240910,
+    "end_ms": 241070
+  },
+  {
+    "w": "it's",
+    "start_ms": 241070,
+    "end_ms": 241750
+  },
+  {
+    "w": "quite",
+    "start_ms": 241750,
+    "end_ms": 241890
+  },
+  {
+    "w": "dark",
+    "start_ms": 241890,
+    "end_ms": 242170
+  },
+  {
+    "w": "I'm",
+    "start_ms": 242170,
+    "end_ms": 242550
+  },
+  {
+    "w": "not",
+    "start_ms": 242550,
+    "end_ms": 242650
+  },
+  {
+    "w": "sure",
+    "start_ms": 242650,
+    "end_ms": 242790
+  },
+  {
+    "w": "if",
+    "start_ms": 242790,
+    "end_ms": 242930
+  },
+  {
+    "w": "I",
+    "start_ms": 242930,
+    "end_ms": 243010
+  },
+  {
+    "w": "like",
+    "start_ms": 243010,
+    "end_ms": 243150
+  },
+  {
+    "w": "it",
+    "start_ms": 243150,
+    "end_ms": 243370
+  },
+  {
+    "w": "it's",
+    "start_ms": 243370,
+    "end_ms": 243650
+  },
+  {
+    "w": "a",
+    "start_ms": 243650,
+    "end_ms": 243710
+  },
+  {
+    "w": "bit",
+    "start_ms": 243710,
+    "end_ms": 243790
+  },
+  {
+    "w": "daring",
+    "start_ms": 243790,
+    "end_ms": 244350
+  },
+  {
+    "w": "but",
+    "start_ms": 244350,
+    "end_ms": 244750
+  },
+  {
+    "w": "it",
+    "start_ms": 244750,
+    "end_ms": 244830
+  },
+  {
+    "w": "goes",
+    "start_ms": 244830,
+    "end_ms": 244950
+  },
+  {
+    "w": "with",
+    "start_ms": 244950,
+    "end_ms": 245110
+  },
+  {
+    "w": "my",
+    "start_ms": 245110,
+    "end_ms": 245290
+  },
+  {
+    "w": "nails",
+    "start_ms": 245870,
+    "end_ms": 246310
+  },
+  {
+    "w": "which",
+    "start_ms": 246310,
+    "end_ms": 246590
+  },
+  {
+    "w": "is",
+    "start_ms": 246590,
+    "end_ms": 246910
+  },
+  {
+    "w": "berry",
+    "start_ms": 246910,
+    "end_ms": 247230
+  },
+  {
+    "w": "m",
+    "start_ms": 247230,
+    "end_ms": 247410
+  },
+  {
+    "w": "red",
+    "start_ms": 247410,
+    "end_ms": 247610
+  },
+  {
+    "w": "black",
+    "start_ms": 247610,
+    "end_ms": 247830
+  },
+  {
+    "w": "um",
+    "start_ms": 247830,
+    "end_ms": 248390
+  },
+  {
+    "w": "and",
+    "start_ms": 248390,
+    "end_ms": 249550
+  },
+  {
+    "w": "I'm",
+    "start_ms": 249550,
+    "end_ms": 249750
+  },
+  {
+    "w": "just",
+    "start_ms": 249750,
+    "end_ms": 249910
+  },
+  {
+    "w": "wearing",
+    "start_ms": 249910,
+    "end_ms": 250170
+  },
+  {
+    "w": "a",
+    "start_ms": 250170,
+    "end_ms": 250710
+  },
+  {
+    "w": "top",
+    "start_ms": 250710,
+    "end_ms": 251050
+  },
+  {
+    "w": "shop",
+    "start_ms": 251050,
+    "end_ms": 251250
+  },
+  {
+    "w": "dress",
+    "start_ms": 251250,
+    "end_ms": 251630
+  },
+  {
+    "w": "right",
+    "start_ms": 251630,
+    "end_ms": 252530
+  },
+  {
+    "w": "I",
+    "start_ms": 252530,
+    "end_ms": 252850
+  },
+  {
+    "w": "am",
+    "start_ms": 252850,
+    "end_ms": 253090
+  },
+  {
+    "w": "going",
+    "start_ms": 253090,
+    "end_ms": 253650
+  },
+  {
+    "w": "to",
+    "start_ms": 253650,
+    "end_ms": 253870
+  },
+  {
+    "w": "go",
+    "start_ms": 253870,
+    "end_ms": 254010
+  },
+  {
+    "w": "and",
+    "start_ms": 254010,
+    "end_ms": 254510
+  },
+  {
+    "w": "get",
+    "start_ms": 254510,
+    "end_ms": 254650
+  },
+  {
+    "w": "Louise",
+    "start_ms": 254650,
+    "end_ms": 254770
+  },
+  {
+    "w": "now",
+    "start_ms": 254770,
+    "end_ms": 255130
+  },
+  {
+    "w": "the",
+    "start_ms": 255130,
+    "end_ms": 255470
+  },
+  {
+    "w": "time",
+    "start_ms": 255470,
+    "end_ms": 255690
+  },
+  {
+    "w": "is",
+    "start_ms": 255690,
+    "end_ms": 256010
+  },
+  {
+    "w": "23",
+    "start_ms": 256010,
+    "end_ms": 256829
+  },
+  {
+    "w": "minutes",
+    "start_ms": 256829,
+    "end_ms": 257190
+  },
+  {
+    "w": "past",
+    "start_ms": 257190,
+    "end_ms": 257430
+  },
+  {
+    "w": "so",
+    "start_ms": 257430,
+    "end_ms": 257630
+  },
+  {
+    "w": "I",
+    "start_ms": 257630,
+    "end_ms": 257769
+  },
+  {
+    "w": "am",
+    "start_ms": 257769,
+    "end_ms": 258149
+  },
+  {
+    "w": "going",
+    "start_ms": 258149,
+    "end_ms": 258350
+  },
+  {
+    "w": "to",
+    "start_ms": 258350,
+    "end_ms": 258529
+  },
+  {
+    "w": "be",
+    "start_ms": 258529,
+    "end_ms": 258610
+  },
+  {
+    "w": "a",
+    "start_ms": 258610,
+    "end_ms": 258610
+  },
+  {
+    "w": "bit",
+    "start_ms": 258610,
+    "end_ms": 258750
+  },
+  {
+    "w": "late",
+    "start_ms": 258750,
+    "end_ms": 258890
+  },
+  {
+    "w": "so",
+    "start_ms": 258890,
+    "end_ms": 259170
+  },
+  {
+    "w": "I'm",
+    "start_ms": 259170,
+    "end_ms": 259269
+  },
+  {
+    "w": "really",
+    "start_ms": 259269,
+    "end_ms": 259410
+  },
+  {
+    "w": "sorry",
+    "start_ms": 259410,
+    "end_ms": 259589
+  },
+  {
+    "w": "Louise",
+    "start_ms": 259589,
+    "end_ms": 259870
+  },
+  {
+    "w": "but",
+    "start_ms": 260490,
+    "end_ms": 260709
+  },
+  {
+    "w": "my",
+    "start_ms": 260709,
+    "end_ms": 260890
+  },
+  {
+    "w": "nail",
+    "start_ms": 260890,
+    "end_ms": 261029
+  },
+  {
+    "w": "polish",
+    "start_ms": 261029,
+    "end_ms": 261209
+  },
+  {
+    "w": "isn't",
+    "start_ms": 261209,
+    "end_ms": 261430
+  },
+  {
+    "w": "dry",
+    "start_ms": 261430,
+    "end_ms": 261670
+  },
+  {
+    "w": "and",
+    "start_ms": 261670,
+    "end_ms": 261970
+  },
+  {
+    "w": "I",
+    "start_ms": 261970,
+    "end_ms": 262070
+  },
+  {
+    "w": "always",
+    "start_ms": 262070,
+    "end_ms": 262210
+  },
+  {
+    "w": "leave",
+    "start_ms": 262210,
+    "end_ms": 262450
+  },
+  {
+    "w": "everything",
+    "start_ms": 262450,
+    "end_ms": 262630
+  },
+  {
+    "w": "to",
+    "start_ms": 262630,
+    "end_ms": 262870
+  },
+  {
+    "w": "the",
+    "start_ms": 262870,
+    "end_ms": 262910
+  },
+  {
+    "w": "last",
+    "start_ms": 262910,
+    "end_ms": 263050
+  },
+  {
+    "w": "minute",
+    "start_ms": 263050,
+    "end_ms": 263250
+  },
+  {
+    "w": "and",
+    "start_ms": 263250,
+    "end_ms": 263470
+  },
+  {
+    "w": "I'm",
+    "start_ms": 263470,
+    "end_ms": 263570
+  },
+  {
+    "w": "just",
+    "start_ms": 263570,
+    "end_ms": 263730
+  },
+  {
+    "w": "one",
+    "start_ms": 263730,
+    "end_ms": 263850
+  },
+  {
+    "w": "of",
+    "start_ms": 263850,
+    "end_ms": 263930
+  },
+  {
+    "w": "these",
+    "start_ms": 263930,
+    "end_ms": 264030
+  },
+  {
+    "w": "people",
+    "start_ms": 264030,
+    "end_ms": 264370
+  },
+  {
+    "w": "who",
+    "start_ms": 264370,
+    "end_ms": 264670
+  },
+  {
+    "w": "could",
+    "start_ms": 264670,
+    "end_ms": 265370
+  },
+  {
+    "w": "be",
+    "start_ms": 265370,
+    "end_ms": 265530
+  },
+  {
+    "w": "getting",
+    "start_ms": 265530,
+    "end_ms": 265670
+  },
+  {
+    "w": "ready",
+    "start_ms": 265670,
+    "end_ms": 265810
+  },
+  {
+    "w": "all",
+    "start_ms": 265810,
+    "end_ms": 266110
+  },
+  {
+    "w": "day",
+    "start_ms": 266110,
+    "end_ms": 266410
+  },
+  {
+    "w": "but",
+    "start_ms": 266410,
+    "end_ms": 266690
+  },
+  {
+    "w": "I'd",
+    "start_ms": 266690,
+    "end_ms": 266830
+  },
+  {
+    "w": "still",
+    "start_ms": 266830,
+    "end_ms": 267050
+  },
+  {
+    "w": "be",
+    "start_ms": 267050,
+    "end_ms": 267210
+  },
+  {
+    "w": "late",
+    "start_ms": 267210,
+    "end_ms": 267390
+  },
+  {
+    "w": "and",
+    "start_ms": 267390,
+    "end_ms": 268010
+  },
+  {
+    "w": "that's",
+    "start_ms": 268010,
+    "end_ms": 268230
+  },
+  {
+    "w": "really",
+    "start_ms": 268230,
+    "end_ms": 268470
+  },
+  {
+    "w": "irritating",
+    "start_ms": 268470,
+    "end_ms": 268750
+  },
+  {
+    "w": "I",
+    "start_ms": 273830,
+    "end_ms": 274230
+  },
+  {
+    "w": "apologize",
+    "start_ms": 274230,
+    "end_ms": 274230
+  },
+  {
+    "w": "this",
+    "start_ms": 277420,
+    "end_ms": 277820
+  },
+  {
+    "w": "is",
+    "start_ms": 280030,
+    "end_ms": 280430
+  },
+  {
+    "w": "Louise's",
+    "start_ms": 280430,
+    "end_ms": 280850
+  },
+  {
+    "w": "nice",
+    "start_ms": 280850,
+    "end_ms": 281050
+  },
+  {
+    "w": "stretch",
+    "start_ms": 281050,
+    "end_ms": 281390
+  },
+  {
+    "w": "thought",
+    "start_ms": 281390,
+    "end_ms": 282210
+  },
+  {
+    "w": "you'd",
+    "start_ms": 286280,
+    "end_ms": 286460
+  },
+  {
+    "w": "be",
+    "start_ms": 286460,
+    "end_ms": 286560
+  },
+  {
+    "w": "like",
+    "start_ms": 286560,
+    "end_ms": 286740
+  },
+  {
+    "w": "on",
+    "start_ms": 286740,
+    "end_ms": 286940
+  },
+  {
+    "w": "head",
+    "start_ms": 286940,
+    "end_ms": 287080
+  },
+  {
+    "w": "drunk",
+    "start_ms": 287080,
+    "end_ms": 287400
+  },
+  {
+    "w": "what",
+    "start_ms": 293000,
+    "end_ms": 293400
+  },
+  {
+    "w": "did",
+    "start_ms": 293400,
+    "end_ms": 293540
+  },
+  {
+    "w": "we",
+    "start_ms": 293540,
+    "end_ms": 293700
+  },
+  {
+    "w": "see",
+    "start_ms": 293700,
+    "end_ms": 293860
+  },
+  {
+    "w": "on",
+    "start_ms": 293860,
+    "end_ms": 294020
+  },
+  {
+    "w": "the",
+    "start_ms": 294020,
+    "end_ms": 294120
+  },
+  {
+    "w": "floor",
+    "start_ms": 294120,
+    "end_ms": 294400
+  },
+  {
+    "w": "mouse",
+    "start_ms": 294400,
+    "end_ms": 295600
+  },
+  {
+    "w": "stamping",
+    "start_ms": 295600,
+    "end_ms": 298140
+  },
+  {
+    "w": "around",
+    "start_ms": 298140,
+    "end_ms": 298380
+  },
+  {
+    "w": "like",
+    "start_ms": 298380,
+    "end_ms": 298700
+  },
+  {
+    "w": "a",
+    "start_ms": 298700,
+    "end_ms": 298880
+  },
+  {
+    "w": "small",
+    "start_ms": 298880,
+    "end_ms": 299200
+  },
+  {
+    "w": "rodent",
+    "start_ms": 300420,
+    "end_ms": 300820
+  },
+  {
+    "w": "I'll",
+    "start_ms": 300820,
+    "end_ms": 301220
+  },
+  {
+    "w": "tell",
+    "start_ms": 301220,
+    "end_ms": 301360
+  },
+  {
+    "w": "you",
+    "start_ms": 301360,
+    "end_ms": 301820
+  },
+  {
+    "w": "and",
+    "start_ms": 301820,
+    "end_ms": 301820
+  },
+  {
+    "w": "then",
+    "start_ms": 301820,
+    "end_ms": 302400
+  },
+  {
+    "w": "I",
+    "start_ms": 302400,
+    "end_ms": 302500
+  },
+  {
+    "w": "stopped",
+    "start_ms": 302500,
+    "end_ms": 302780
+  },
+  {
+    "w": "and",
+    "start_ms": 302780,
+    "end_ms": 303100
+  },
+  {
+    "w": "then",
+    "start_ms": 303100,
+    "end_ms": 303220
+  },
+  {
+    "w": "when",
+    "start_ms": 303220,
+    "end_ms": 303360
+  },
+  {
+    "w": "I",
+    "start_ms": 303360,
+    "end_ms": 303460
+  },
+  {
+    "w": "was",
+    "start_ms": 303460,
+    "end_ms": 303580
+  },
+  {
+    "w": "behind",
+    "start_ms": 303580,
+    "end_ms": 303760
+  },
+  {
+    "w": "I",
+    "start_ms": 303760,
+    "end_ms": 303760
+  },
+  {
+    "w": "stopped",
+    "start_ms": 303760,
+    "end_ms": 304040
+  },
+  {
+    "w": "but",
+    "start_ms": 304040,
+    "end_ms": 304220
+  },
+  {
+    "w": "I",
+    "start_ms": 304220,
+    "end_ms": 304320
+  },
+  {
+    "w": "only",
+    "start_ms": 304320,
+    "end_ms": 304420
+  },
+  {
+    "w": "fell",
+    "start_ms": 304420,
+    "end_ms": 304620
+  },
+  {
+    "w": "out",
+    "start_ms": 304620,
+    "end_ms": 304660
+  },
+  {
+    "w": "of",
+    "start_ms": 304660,
+    "end_ms": 304760
+  },
+  {
+    "w": "the",
+    "start_ms": 304760,
+    "end_ms": 304840
+  },
+  {
+    "w": "train",
+    "start_ms": 304840,
+    "end_ms": 304980
+  },
+  {
+    "w": "it's",
+    "start_ms": 304980,
+    "end_ms": 305300
+  },
+  {
+    "w": "a",
+    "start_ms": 305300,
+    "end_ms": 305340
+  },
+  {
+    "w": "very",
+    "start_ms": 305340,
+    "end_ms": 305540
+  },
+  {
+    "w": "hot",
+    "start_ms": 305540,
+    "end_ms": 305780
+  },
+  {
+    "w": "boy",
+    "start_ms": 305780,
+    "end_ms": 306080
+  },
+  {
+    "w": "I'm",
+    "start_ms": 306080,
+    "end_ms": 307300
+  },
+  {
+    "w": "sorry",
+    "start_ms": 307300,
+    "end_ms": 307520
+  },
+  {
+    "w": "I'm",
+    "start_ms": 307520,
+    "end_ms": 307860
+  },
+  {
+    "w": "sorry",
+    "start_ms": 307860,
+    "end_ms": 307960
+  },
+  {
+    "w": "I'm",
+    "start_ms": 307960,
+    "end_ms": 308380
+  },
+  {
+    "w": "sorry",
+    "start_ms": 308380,
+    "end_ms": 308380
+  },
+  {
+    "w": "I'm",
+    "start_ms": 308380,
+    "end_ms": 309120
+  },
+  {
+    "w": "sorry",
+    "start_ms": 309120,
+    "end_ms": 309120
+  },
+  {
+    "w": "I'm",
+    "start_ms": 309120,
+    "end_ms": 309120
+  },
+  {
+    "w": "sorry",
+    "start_ms": 309120,
+    "end_ms": 309120
+  },
+  {
+    "w": "but",
+    "start_ms": 309120,
+    "end_ms": 309120
+  },
+  {
+    "w": "it's",
+    "start_ms": 309120,
+    "end_ms": 310020
+  },
+  {
+    "w": "so",
+    "start_ms": 310020,
+    "end_ms": 310100
+  },
+  {
+    "w": "amazing",
+    "start_ms": 310100,
+    "end_ms": 310580
+  },
+  {
+    "w": "just",
+    "start_ms": 313120,
+    "end_ms": 313560
+  },
+  {
+    "w": "check",
+    "start_ms": 313560,
+    "end_ms": 313820
+  },
+  {
+    "w": "it",
+    "start_ms": 313820,
+    "end_ms": 313940
+  },
+  {
+    "w": "where",
+    "start_ms": 313940,
+    "end_ms": 314080
+  },
+  {
+    "w": "are",
+    "start_ms": 314080,
+    "end_ms": 314200
+  },
+  {
+    "w": "we",
+    "start_ms": 314200,
+    "end_ms": 314240
+  },
+  {
+    "w": "where",
+    "start_ms": 314240,
+    "end_ms": 314420
+  },
+  {
+    "w": "are",
+    "start_ms": 314420,
+    "end_ms": 315020
+  },
+  {
+    "w": "we",
+    "start_ms": 315020,
+    "end_ms": 315100
+  },
+  {
+    "w": "now",
+    "start_ms": 315100,
+    "end_ms": 315280
+  },
+  {
+    "w": "uh",
+    "start_ms": 315280,
+    "end_ms": 315660
+  },
+  {
+    "w": "Amelia",
+    "start_ms": 315660,
+    "end_ms": 316360
+  },
+  {
+    "w": "the",
+    "start_ms": 316360,
+    "end_ms": 316660
+  },
+  {
+    "w": "top",
+    "start_ms": 316660,
+    "end_ms": 316840
+  },
+  {
+    "w": "of",
+    "start_ms": 316840,
+    "end_ms": 317480
+  },
+  {
+    "w": "where",
+    "start_ms": 317480,
+    "end_ms": 317700
+  },
+  {
+    "w": "marmalage",
+    "start_ms": 317700,
+    "end_ms": 318420
+  },
+  {
+    "w": "and",
+    "start_ms": 318420,
+    "end_ms": 318420
+  },
+  {
+    "w": "then",
+    "start_ms": 318420,
+    "end_ms": 318580
+  },
+  {
+    "w": "she",
+    "start_ms": 318580,
+    "end_ms": 318600
+  },
+  {
+    "w": "went",
+    "start_ms": 318600,
+    "end_ms": 318800
+  },
+  {
+    "w": "there",
+    "start_ms": 318800,
+    "end_ms": 319060
+  },
+  {
+    "w": "to",
+    "start_ms": 319060,
+    "end_ms": 319260
+  },
+  {
+    "w": "do",
+    "start_ms": 319260,
+    "end_ms": 319460
+  },
+  {
+    "w": "it.",
+    "start_ms": 319460,
+    "end_ms": 320040
+  },
+  {
+    "w": "Where",
+    "start_ms": 323100,
+    "end_ms": 323520
+  },
+  {
+    "w": "is",
+    "start_ms": 323520,
+    "end_ms": 323740
+  },
+  {
+    "w": "he?",
+    "start_ms": 323740,
+    "end_ms": 323800
+  },
+  {
+    "w": "He's",
+    "start_ms": 324520,
+    "end_ms": 324580
+  },
+  {
+    "w": "getting",
+    "start_ms": 324580,
+    "end_ms": 324680
+  },
+  {
+    "w": "lost.",
+    "start_ms": 324680,
+    "end_ms": 324920
+  },
+  {
+    "w": "Does?",
+    "start_ms": 325320,
+    "end_ms": 325740
+  },
+  {
+    "w": "That",
+    "start_ms": 328540,
+    "end_ms": 328960
+  },
+  {
+    "w": "might",
+    "start_ms": 328960,
+    "end_ms": 329140
+  },
+  {
+    "w": "be",
+    "start_ms": 329140,
+    "end_ms": 329380
+  },
+  {
+    "w": "good.",
+    "start_ms": 329380,
+    "end_ms": 329620
+  },
+  {
+    "w": "I",
+    "start_ms": 331200,
+    "end_ms": 331200
+  },
+  {
+    "w": "just",
+    "start_ms": 333340,
+    "end_ms": 333920
+  },
+  {
+    "w": "went",
+    "start_ms": 333920,
+    "end_ms": 334120
+  },
+  {
+    "w": "in",
+    "start_ms": 334120,
+    "end_ms": 334320
+  },
+  {
+    "w": "the",
+    "start_ms": 334320,
+    "end_ms": 334560
+  },
+  {
+    "w": "warmers.",
+    "start_ms": 334560,
+    "end_ms": 335380
+  },
+  {
+    "w": "I",
+    "start_ms": 335660,
+    "end_ms": 335740
+  },
+  {
+    "w": "stopped",
+    "start_ms": 335740,
+    "end_ms": 336000
+  },
+  {
+    "w": "by",
+    "start_ms": 339650,
+    "end_ms": 339990
+  },
+  {
+    "w": "two",
+    "start_ms": 339990,
+    "end_ms": 340190
+  },
+  {
+    "w": "men.",
+    "start_ms": 340190,
+    "end_ms": 340490
+  },
+  {
+    "w": "He",
+    "start_ms": 341030,
+    "end_ms": 341030
+  },
+  {
+    "w": "said",
+    "start_ms": 341030,
+    "end_ms": 341230
+  },
+  {
+    "w": "that",
+    "start_ms": 341230,
+    "end_ms": 341410
+  },
+  {
+    "w": "he",
+    "start_ms": 341410,
+    "end_ms": 341570
+  },
+  {
+    "w": "looks",
+    "start_ms": 341570,
+    "end_ms": 341750
+  },
+  {
+    "w": "21",
+    "start_ms": 341750,
+    "end_ms": 342050
+  },
+  {
+    "w": "and",
+    "start_ms": 342050,
+    "end_ms": 342370
+  },
+  {
+    "w": "likes",
+    "start_ms": 342370,
+    "end_ms": 342490
+  },
+  {
+    "w": "to",
+    "start_ms": 342490,
+    "end_ms": 342670
+  },
+  {
+    "w": "see",
+    "start_ms": 342670,
+    "end_ms": 342810
+  },
+  {
+    "w": "his",
+    "start_ms": 342810,
+    "end_ms": 343010
+  },
+  {
+    "w": "feet.",
+    "start_ms": 343010,
+    "end_ms": 343110
+  },
+  {
+    "w": "Yes!",
+    "start_ms": 343570,
+    "end_ms": 343710
+  },
+  {
+    "w": "It's",
+    "start_ms": 344150,
+    "end_ms": 344450
+  },
+  {
+    "w": "not",
+    "start_ms": 344450,
+    "end_ms": 344550
+  },
+  {
+    "w": "a",
+    "start_ms": 344550,
+    "end_ms": 344710
+  },
+  {
+    "w": "compliment.",
+    "start_ms": 344710,
+    "end_ms": 344870
+  },
+  {
+    "w": "Great.",
+    "start_ms": 346110,
+    "end_ms": 346530
+  },
+  {
+    "w": "That",
+    "start_ms": 347150,
+    "end_ms": 347210
+  },
+  {
+    "w": "was",
+    "start_ms": 347210,
+    "end_ms": 347330
+  },
+  {
+    "w": "right.",
+    "start_ms": 347330,
+    "end_ms": 347510
+  },
+  {
+    "w": "He",
+    "start_ms": 348250,
+    "end_ms": 348330
+  },
+  {
+    "w": "was",
+    "start_ms": 348330,
+    "end_ms": 348510
+  },
+  {
+    "w": "like",
+    "start_ms": 348510,
+    "end_ms": 348650
+  },
+  {
+    "w": "seductively",
+    "start_ms": 348650,
+    "end_ms": 349770
+  },
+  {
+    "w": "touching",
+    "start_ms": 349770,
+    "end_ms": 350090
+  },
+  {
+    "w": "my",
+    "start_ms": 350090,
+    "end_ms": 350410
+  },
+  {
+    "w": "hand",
+    "start_ms": 350410,
+    "end_ms": 350530
+  },
+  {
+    "w": "with",
+    "start_ms": 350530,
+    "end_ms": 350710
+  },
+  {
+    "w": "his",
+    "start_ms": 350710,
+    "end_ms": 350830
+  },
+  {
+    "w": "brush.",
+    "start_ms": 350830,
+    "end_ms": 351070
+  },
+  {
+    "w": "She",
+    "start_ms": 351190,
+    "end_ms": 351430
+  },
+  {
+    "w": "was",
+    "start_ms": 351430,
+    "end_ms": 351530
+  },
+  {
+    "w": "selling",
+    "start_ms": 351530,
+    "end_ms": 351690
+  },
+  {
+    "w": "things",
+    "start_ms": 351690,
+    "end_ms": 352010
+  },
+  {
+    "w": "for",
+    "start_ms": 352010,
+    "end_ms": 352270
+  },
+  {
+    "w": "brushes.",
+    "start_ms": 352270,
+    "end_ms": 352530
+  },
+  {
+    "w": "And",
+    "start_ms": 353250,
+    "end_ms": 353270
+  },
+  {
+    "w": "I",
+    "start_ms": 353270,
+    "end_ms": 353350
+  },
+  {
+    "w": "was",
+    "start_ms": 353350,
+    "end_ms": 353430
+  },
+  {
+    "w": "like",
+    "start_ms": 353430,
+    "end_ms": 353510
+  },
+  {
+    "w": "a",
+    "start_ms": 353510,
+    "end_ms": 353650
+  },
+  {
+    "w": "married",
+    "start_ms": 353650,
+    "end_ms": 354010
+  },
+  {
+    "w": "woman.",
+    "start_ms": 354010,
+    "end_ms": 354250
+  },
+  {
+    "w": "And",
+    "start_ms": 354250,
+    "end_ms": 354530
+  },
+  {
+    "w": "he",
+    "start_ms": 354530,
+    "end_ms": 354650
+  },
+  {
+    "w": "was",
+    "start_ms": 354650,
+    "end_ms": 354770
+  },
+  {
+    "w": "like,",
+    "start_ms": 354770,
+    "end_ms": 354950
+  },
+  {
+    "w": "what?",
+    "start_ms": 355250,
+    "end_ms": 355710
+  },
+  {
+    "w": "Is",
+    "start_ms": 356270,
+    "end_ms": 356350
+  },
+  {
+    "w": "it",
+    "start_ms": 356350,
+    "end_ms": 356490
+  },
+  {
+    "w": "for",
+    "start_ms": 356490,
+    "end_ms": 356710
+  },
+  {
+    "w": "real?",
+    "start_ms": 356710,
+    "end_ms": 357070
+  },
+  {
+    "w": "Yeah,",
+    "start_ms": 357290,
+    "end_ms": 357590
+  },
+  {
+    "w": "it",
+    "start_ms": 357750,
+    "end_ms": 358030
+  },
+  {
+    "w": "means",
+    "start_ms": 358030,
+    "end_ms": 358210
+  },
+  {
+    "w": "for",
+    "start_ms": 358210,
+    "end_ms": 358490
+  },
+  {
+    "w": "real.",
+    "start_ms": 358490,
+    "end_ms": 358790
+  },
+  {
+    "w": "It",
+    "start_ms": 359450,
+    "end_ms": 359630
+  },
+  {
+    "w": "is",
+    "start_ms": 359630,
+    "end_ms": 359730
+  },
+  {
+    "w": "for",
+    "start_ms": 359730,
+    "end_ms": 359930
+  },
+  {
+    "w": "real,",
+    "start_ms": 359930,
+    "end_ms": 360350
+  },
+  {
+    "w": "but",
+    "start_ms": 360350,
+    "end_ms": 360570
+  },
+  {
+    "w": "I",
+    "start_ms": 360570,
+    "end_ms": 360750
+  },
+  {
+    "w": "am",
+    "start_ms": 360750,
+    "end_ms": 360890
+  },
+  {
+    "w": "mad.",
+    "start_ms": 360890,
+    "end_ms": 361030
+  },
+  {
+    "w": "I",
+    "start_ms": 361110,
+    "end_ms": 361150
+  },
+  {
+    "w": "love",
+    "start_ms": 361150,
+    "end_ms": 361330
+  },
+  {
+    "w": "it.",
+    "start_ms": 361330,
+    "end_ms": 361510
+  },
+  {
+    "w": "I",
+    "start_ms": 361510,
+    "end_ms": 361550
+  },
+  {
+    "w": "love",
+    "start_ms": 361550,
+    "end_ms": 361830
+  },
+  {
+    "w": "it.",
+    "start_ms": 361830,
+    "end_ms": 362090
+  },
+  {
+    "w": "It",
+    "start_ms": 362370,
+    "end_ms": 362510
+  },
+  {
+    "w": "is",
+    "start_ms": 362510,
+    "end_ms": 363110
+  },
+  {
+    "w": "not",
+    "start_ms": 363110,
+    "end_ms": 363270
+  },
+  {
+    "w": "a",
+    "start_ms": 363270,
+    "end_ms": 363450
+  },
+  {
+    "w": "fable.",
+    "start_ms": 363450,
+    "end_ms": 363750
+  },
+  {
+    "w": "It",
+    "start_ms": 364390,
+    "end_ms": 364530
+  },
+  {
+    "w": "is",
+    "start_ms": 364530,
+    "end_ms": 364710
+  },
+  {
+    "w": "real.",
+    "start_ms": 364710,
+    "end_ms": 365090
+  },
+  {
+    "w": "How",
+    "start_ms": 367230,
+    "end_ms": 367670
+  },
+  {
+    "w": "dramatic",
+    "start_ms": 367670,
+    "end_ms": 368110
+  },
+  {
+    "w": "can",
+    "start_ms": 368110,
+    "end_ms": 368550
+  },
+  {
+    "w": "you",
+    "start_ms": 368550,
+    "end_ms": 368670
+  },
+  {
+    "w": "get?",
+    "start_ms": 368670,
+    "end_ms": 368910
+  },
+  {
+    "w": "No.",
+    "start_ms": 371060,
+    "end_ms": 371500
+  },
+  {
+    "w": "Oh.",
+    "start_ms": 372580,
+    "end_ms": 372640
+  },
+  {
+    "w": "Real.",
+    "start_ms": 374930,
+    "end_ms": 375370
+  },
+  {
+    "w": "Did",
+    "start_ms": 376830,
+    "end_ms": 377270
+  },
+  {
+    "w": "he",
+    "start_ms": 377270,
+    "end_ms": 377390
+  },
+  {
+    "w": "film",
+    "start_ms": 377390,
+    "end_ms": 377570
+  },
+  {
+    "w": "that",
+    "start_ms": 377570,
+    "end_ms": 377790
+  },
+  {
+    "w": "thing?",
+    "start_ms": 377790,
+    "end_ms": 378010
+  },
+  {
+    "w": "Does",
+    "start_ms": 378830,
+    "end_ms": 378830
+  },
+  {
+    "w": "anybody",
+    "start_ms": 378830,
+    "end_ms": 380370
+  },
+  {
+    "w": "that",
+    "start_ms": 380370,
+    "end_ms": 380810
+  },
+  {
+    "w": "is",
+    "start_ms": 380810,
+    "end_ms": 380970
+  },
+  {
+    "w": "a",
+    "start_ms": 380970,
+    "end_ms": 381050
+  },
+  {
+    "w": "Doctor",
+    "start_ms": 381050,
+    "end_ms": 381210
+  },
+  {
+    "w": "Who",
+    "start_ms": 381210,
+    "end_ms": 381650
+  },
+  {
+    "w": "fan,",
+    "start_ms": 381650,
+    "end_ms": 382030
+  },
+  {
+    "w": "you",
+    "start_ms": 382370,
+    "end_ms": 382390
+  },
+  {
+    "w": "obviously",
+    "start_ms": 382390,
+    "end_ms": 382630
+  },
+  {
+    "w": "geek",
+    "start_ms": 382630,
+    "end_ms": 382930
+  },
+  {
+    "w": "if",
+    "start_ms": 382930,
+    "end_ms": 383150
+  },
+  {
+    "w": "you",
+    "start_ms": 383150,
+    "end_ms": 383270
+  },
+  {
+    "w": "are",
+    "start_ms": 383270,
+    "end_ms": 383390
+  },
+  {
+    "w": "like",
+    "start_ms": 383390,
+    "end_ms": 383530
+  },
+  {
+    "w": "me.",
+    "start_ms": 383530,
+    "end_ms": 383670
+  },
+  {
+    "w": "Does",
+    "start_ms": 384050,
+    "end_ms": 384110
+  },
+  {
+    "w": "it",
+    "start_ms": 384110,
+    "end_ms": 384190
+  },
+  {
+    "w": "remind",
+    "start_ms": 384190,
+    "end_ms": 384330
+  },
+  {
+    "w": "you",
+    "start_ms": 384330,
+    "end_ms": 384590
+  },
+  {
+    "w": "of",
+    "start_ms": 384590,
+    "end_ms": 384670
+  },
+  {
+    "w": "the",
+    "start_ms": 384670,
+    "end_ms": 384750
+  },
+  {
+    "w": "Christmas",
+    "start_ms": 384750,
+    "end_ms": 384970
+  },
+  {
+    "w": "special",
+    "start_ms": 384970,
+    "end_ms": 385330
+  },
+  {
+    "w": "a",
+    "start_ms": 385330,
+    "end_ms": 385550
+  },
+  {
+    "w": "while",
+    "start_ms": 385550,
+    "end_ms": 385730
+  },
+  {
+    "w": "ago",
+    "start_ms": 385730,
+    "end_ms": 386070
+  },
+  {
+    "w": "with",
+    "start_ms": 386070,
+    "end_ms": 386170
+  },
+  {
+    "w": "the",
+    "start_ms": 386170,
+    "end_ms": 386230
+  },
+  {
+    "w": "arachnids",
+    "start_ms": 386230,
+    "end_ms": 386870
+  },
+  {
+    "w": "of",
+    "start_ms": 386870,
+    "end_ms": 387050
+  },
+  {
+    "w": "the",
+    "start_ms": 387050,
+    "end_ms": 387110
+  },
+  {
+    "w": "local",
+    "start_ms": 387110,
+    "end_ms": 387710
+  },
+  {
+    "w": "round?",
+    "start_ms": 387710,
+    "end_ms": 388170
+  },
+  {
+    "w": "The",
+    "start_ms": 388210,
+    "end_ms": 388210
+  },
+  {
+    "w": "scary,",
+    "start_ms": 388210,
+    "end_ms": 388650
+  },
+  {
+    "w": "spidery",
+    "start_ms": 388810,
+    "end_ms": 389370
+  },
+  {
+    "w": "thing.",
+    "start_ms": 389370,
+    "end_ms": 389510
+  },
+  {
+    "w": "Yeah.",
+    "start_ms": 389730,
+    "end_ms": 389950
+  },
+  {
+    "w": "Always.",
+    "start_ms": 391170,
+    "end_ms": 391610
+  },
+  {
+    "w": "Coco.",
+    "start_ms": 392030,
+    "end_ms": 392150
+  },
+  {
+    "w": "Oh.",
+    "start_ms": 392530,
+    "end_ms": 392970
+  },
+  {
+    "w": "Always.",
+    "start_ms": 394530,
+    "end_ms": 394970
+  },
+  {
+    "w": "Coco.",
+    "start_ms": 395370,
+    "end_ms": 395470
+  },
+  {
+    "w": "Stop.",
+    "start_ms": 397490,
+    "end_ms": 397930
+  },
+  {
+    "w": "Stop.",
+    "start_ms": 398070,
+    "end_ms": 398150
+  },
+  {
+    "w": "Stop.",
+    "start_ms": 398250,
+    "end_ms": 398450
+  },
+  {
+    "w": "Stop.",
+    "start_ms": 398810,
+    "end_ms": 399190
+  },
+  {
+    "w": "Stop.",
+    "start_ms": 399310,
+    "end_ms": 399470
+  },
+  {
+    "w": "Stop.",
+    "start_ms": 399550,
+    "end_ms": 399630
+  },
+  {
+    "w": "Stop.",
+    "start_ms": 403240,
+    "end_ms": 403680
+  },
+  {
+    "w": "Stop.",
+    "start_ms": 416500,
+    "end_ms": 416940
+  },
+  {
+    "w": "Are",
+    "start_ms": 416940,
+    "end_ms": 416960
+  },
+  {
+    "w": "you",
+    "start_ms": 416960,
+    "end_ms": 416960
+  },
+  {
+    "w": "going",
+    "start_ms": 416960,
+    "end_ms": 416960
+  },
+  {
+    "w": "to",
+    "start_ms": 416960,
+    "end_ms": 416960
+  },
+  {
+    "w": "do",
+    "start_ms": 416960,
+    "end_ms": 416960
+  },
+  {
+    "w": "a",
+    "start_ms": 416960,
+    "end_ms": 416960
+  },
+  {
+    "w": "dance?",
+    "start_ms": 416960,
+    "end_ms": 416960
+  },
+  {
+    "w": "And",
+    "start_ms": 417700,
+    "end_ms": 418020
+  },
+  {
+    "w": "then",
+    "start_ms": 418020,
+    "end_ms": 418140
+  },
+  {
+    "w": "he",
+    "start_ms": 418140,
+    "end_ms": 418280
+  },
+  {
+    "w": "looked",
+    "start_ms": 418280,
+    "end_ms": 418400
+  },
+  {
+    "w": "to",
+    "start_ms": 418400,
+    "end_ms": 419760
+  },
+  {
+    "w": "the",
+    "start_ms": 419760,
+    "end_ms": 419860
+  },
+  {
+    "w": "speaker",
+    "start_ms": 419860,
+    "end_ms": 420260
+  },
+  {
+    "w": "top.",
+    "start_ms": 420260,
+    "end_ms": 420480
+  },
+  {
+    "w": "But",
+    "start_ms": 420980,
+    "end_ms": 421120
+  },
+  {
+    "w": "at",
+    "start_ms": 421120,
+    "end_ms": 421220
+  },
+  {
+    "w": "the",
+    "start_ms": 421220,
+    "end_ms": 421400
+  },
+  {
+    "w": "time",
+    "start_ms": 421400,
+    "end_ms": 421460
+  },
+  {
+    "w": "we",
+    "start_ms": 421460,
+    "end_ms": 421540
+  },
+  {
+    "w": "did",
+    "start_ms": 421540,
+    "end_ms": 421600
+  },
+  {
+    "w": "at",
+    "start_ms": 421600,
+    "end_ms": 421660
+  },
+  {
+    "w": "what",
+    "start_ms": 421660,
+    "end_ms": 421800
+  },
+  {
+    "w": "time",
+    "start_ms": 421800,
+    "end_ms": 422580
+  },
+  {
+    "w": "did",
+    "start_ms": 422580,
+    "end_ms": 422660
+  },
+  {
+    "w": "you",
+    "start_ms": 422660,
+    "end_ms": 422780
+  },
+  {
+    "w": "film?",
+    "start_ms": 422780,
+    "end_ms": 422960
+  },
+  {
+    "w": "So",
+    "start_ms": 423300,
+    "end_ms": 423320
+  },
+  {
+    "w": "I",
+    "start_ms": 423320,
+    "end_ms": 423400
+  },
+  {
+    "w": "decided",
+    "start_ms": 423400,
+    "end_ms": 423520
+  },
+  {
+    "w": "to",
+    "start_ms": 423520,
+    "end_ms": 423600
+  },
+  {
+    "w": "film",
+    "start_ms": 423600,
+    "end_ms": 423600
+  },
+  {
+    "w": "on",
+    "start_ms": 423600,
+    "end_ms": 423600
+  },
+  {
+    "w": "the",
+    "start_ms": 423600,
+    "end_ms": 423600
+  },
+  {
+    "w": "walk.",
+    "start_ms": 423600,
+    "end_ms": 423600
+  },
+  {
+    "w": "At",
+    "start_ms": 423600,
+    "end_ms": 423680
+  },
+  {
+    "w": "the",
+    "start_ms": 423680,
+    "end_ms": 423800
+  },
+  {
+    "w": "time",
+    "start_ms": 423800,
+    "end_ms": 423960
+  },
+  {
+    "w": "we",
+    "start_ms": 423960,
+    "end_ms": 424060
+  },
+  {
+    "w": "don't",
+    "start_ms": 424060,
+    "end_ms": 424180
+  },
+  {
+    "w": "have",
+    "start_ms": 424180,
+    "end_ms": 424320
+  },
+  {
+    "w": "sexy",
+    "start_ms": 424320,
+    "end_ms": 424580
+  },
+  {
+    "w": "old",
+    "start_ms": 424580,
+    "end_ms": 424780
+  },
+  {
+    "w": "man",
+    "start_ms": 424780,
+    "end_ms": 425000
+  },
+  {
+    "w": "coming",
+    "start_ms": 425000,
+    "end_ms": 425600
+  },
+  {
+    "w": "onto",
+    "start_ms": 425600,
+    "end_ms": 425860
+  },
+  {
+    "w": "the",
+    "start_ms": 425860,
+    "end_ms": 425960
+  },
+  {
+    "w": "tune.",
+    "start_ms": 425960,
+    "end_ms": 426120
+  },
+  {
+    "w": "We",
+    "start_ms": 426340,
+    "end_ms": 426340
+  },
+  {
+    "w": "both",
+    "start_ms": 426340,
+    "end_ms": 426580
+  },
+  {
+    "w": "went.",
+    "start_ms": 426580,
+    "end_ms": 426720
+  },
+  {
+    "w": "12",
+    "start_ms": 426880,
+    "end_ms": 426980
+  },
+  {
+    "w": "o",
+    "start_ms": 426980,
+    "end_ms": 427120
+  },
+  {
+    "w": "'clock.",
+    "start_ms": 427120,
+    "end_ms": 427420
+  },
+  {
+    "w": "If",
+    "start_ms": 427800,
+    "end_ms": 428120
+  },
+  {
+    "w": "we",
+    "start_ms": 428120,
+    "end_ms": 428260
+  },
+  {
+    "w": "were",
+    "start_ms": 428260,
+    "end_ms": 428280
+  },
+  {
+    "w": "to",
+    "start_ms": 428280,
+    "end_ms": 428340
+  },
+  {
+    "w": "do",
+    "start_ms": 428340,
+    "end_ms": 428560
+  },
+  {
+    "w": "my",
+    "start_ms": 428560,
+    "end_ms": 428660
+  },
+  {
+    "w": "lips.",
+    "start_ms": 428660,
+    "end_ms": 428860
+  },
+  {
+    "w": "Yeah?",
+    "start_ms": 429120,
+    "end_ms": 429320
+  },
+  {
+    "w": "You",
+    "start_ms": 429800,
+    "end_ms": 429800
+  },
+  {
+    "w": "have",
+    "start_ms": 429800,
+    "end_ms": 429860
+  },
+  {
+    "w": "got",
+    "start_ms": 429860,
+    "end_ms": 430000
+  },
+  {
+    "w": "loads",
+    "start_ms": 430000,
+    "end_ms": 430140
+  },
+  {
+    "w": "of",
+    "start_ms": 430140,
+    "end_ms": 430340
+  },
+  {
+    "w": "licks",
+    "start_ms": 430340,
+    "end_ms": 432100
+  },
+  {
+    "w": "on",
+    "start_ms": 432100,
+    "end_ms": 432260
+  },
+  {
+    "w": "your",
+    "start_ms": 432260,
+    "end_ms": 432440
+  },
+  {
+    "w": "bottom",
+    "start_ms": 432440,
+    "end_ms": 432620
+  },
+  {
+    "w": "too.",
+    "start_ms": 432620,
+    "end_ms": 432860
+  },
+  {
+    "w": "Oh.",
+    "start_ms": 433140,
+    "end_ms": 433280
+  },
+  {
+    "w": "Chummy.",
+    "start_ms": 434180,
+    "end_ms": 434500
+  },
+  {
+    "w": "Why",
+    "start_ms": 434840,
+    "end_ms": 434940
+  },
+  {
+    "w": "is",
+    "start_ms": 434940,
+    "end_ms": 435000
+  },
+  {
+    "w": "everyone",
+    "start_ms": 435000,
+    "end_ms": 435220
+  },
+  {
+    "w": "smoking?",
+    "start_ms": 435220,
+    "end_ms": 435600
+  },
+  {
+    "w": "Because",
+    "start_ms": 436640,
+    "end_ms": 436760
+  },
+  {
+    "w": "they",
+    "start_ms": 436760,
+    "end_ms": 436840
+  },
+  {
+    "w": "are",
+    "start_ms": 436840,
+    "end_ms": 436900
+  },
+  {
+    "w": "filthy",
+    "start_ms": 436900,
+    "end_ms": 437280
+  },
+  {
+    "w": "dirty",
+    "start_ms": 437280,
+    "end_ms": 437640
+  },
+  {
+    "w": "buggers.",
+    "start_ms": 437640,
+    "end_ms": 438320
+  },
+  {
+    "w": "I",
+    "start_ms": 443750,
+    "end_ms": 444390
+  },
+  {
+    "w": "wonder",
+    "start_ms": 444390,
+    "end_ms": 445030
+  },
+  {
+    "w": "if",
+    "start_ms": 445030,
+    "end_ms": 447210
+  },
+  {
+    "w": "he's",
+    "start_ms": 447210,
+    "end_ms": 447310
+  },
+  {
+    "w": "going",
+    "start_ms": 447310,
+    "end_ms": 447410
+  },
+  {
+    "w": "to",
+    "start_ms": 447410,
+    "end_ms": 447510
+  },
+  {
+    "w": "play",
+    "start_ms": 447510,
+    "end_ms": 447770
+  },
+  {
+    "w": "it.",
+    "start_ms": 447770,
+    "end_ms": 447990
+  },
+  {
+    "w": "Is",
+    "start_ms": 449870,
+    "end_ms": 450510
+  },
+  {
+    "w": "that",
+    "start_ms": 450510,
+    "end_ms": 450810
+  },
+  {
+    "w": "a",
+    "start_ms": 450810,
+    "end_ms": 450930
+  },
+  {
+    "w": "circus",
+    "start_ms": 450930,
+    "end_ms": 451330
+  },
+  {
+    "w": "theme?",
+    "start_ms": 451330,
+    "end_ms": 451670
+  },
+  {
+    "w": "I",
+    "start_ms": 452830,
+    "end_ms": 452830
+  },
+  {
+    "w": "think",
+    "start_ms": 452830,
+    "end_ms": 453250
+  },
+  {
+    "w": "he",
+    "start_ms": 453250,
+    "end_ms": 453390
+  },
+  {
+    "w": "wants",
+    "start_ms": 453390,
+    "end_ms": 453490
+  },
+  {
+    "w": "money.",
+    "start_ms": 453490,
+    "end_ms": 453750
+  },
+  {
+    "w": "I",
+    "start_ms": 454110,
+    "end_ms": 454110
+  },
+  {
+    "w": "have",
+    "start_ms": 454110,
+    "end_ms": 455870
+  },
+  {
+    "w": "no",
+    "start_ms": 458840,
+    "end_ms": 459040
+  },
+  {
+    "w": "coins.",
+    "start_ms": 459040,
+    "end_ms": 459360
+  },
+  {
+    "w": "What",
+    "start_ms": 460280,
+    "end_ms": 460460
+  },
+  {
+    "w": "a",
+    "start_ms": 460460,
+    "end_ms": 460580
+  },
+  {
+    "w": "London",
+    "start_ms": 460580,
+    "end_ms": 460800
+  },
+  {
+    "w": "race.",
+    "start_ms": 460800,
+    "end_ms": 461160
+  },
+  {
+    "w": "I",
+    "start_ms": 462580,
+    "end_ms": 463220
+  },
+  {
+    "w": "don't",
+    "start_ms": 463220,
+    "end_ms": 463860
+  },
+  {
+    "w": "really",
+    "start_ms": 465180,
+    "end_ms": 465460
+  },
+  {
+    "w": "know.",
+    "start_ms": 465460,
+    "end_ms": 465800
+  },
+  {
+    "w": "You're",
+    "start_ms": 469940,
+    "end_ms": 470580
+  },
+  {
+    "w": "the",
+    "start_ms": 470580,
+    "end_ms": 471220
+  },
+  {
+    "w": "first",
+    "start_ms": 495700,
+    "end_ms": 495920
+  },
+  {
+    "w": "person",
+    "start_ms": 495920,
+    "end_ms": 496140
+  },
+  {
+    "w": "to",
+    "start_ms": 496140,
+    "end_ms": 496280
+  },
+  {
+    "w": "play?",
+    "start_ms": 496280,
+    "end_ms": 496780
+  },
+  {
+    "w": "This",
+    "start_ms": 496780,
+    "end_ms": 496780
+  },
+  {
+    "w": "is",
+    "start_ms": 496780,
+    "end_ms": 497040
+  },
+  {
+    "w": "not",
+    "start_ms": 497040,
+    "end_ms": 497340
+  },
+  {
+    "w": "turkey.",
+    "start_ms": 497340,
+    "end_ms": 498020
+  },
+  {
+    "w": "I",
+    "start_ms": 499780,
+    "end_ms": 500300
+  },
+  {
+    "w": "didn't",
+    "start_ms": 500300,
+    "end_ms": 500820
+  },
+  {
+    "w": "ask",
+    "start_ms": 500820,
+    "end_ms": 501020
+  },
+  {
+    "w": "you",
+    "start_ms": 501020,
+    "end_ms": 501160
+  },
+  {
+    "w": "to",
+    "start_ms": 501160,
+    "end_ms": 501240
+  },
+  {
+    "w": "play",
+    "start_ms": 501240,
+    "end_ms": 501360
+  },
+  {
+    "w": "the",
+    "start_ms": 501360,
+    "end_ms": 501460
+  },
+  {
+    "w": "accordion",
+    "start_ms": 501460,
+    "end_ms": 501940
+  },
+  {
+    "w": "in",
+    "start_ms": 501940,
+    "end_ms": 502060
+  },
+  {
+    "w": "my",
+    "start_ms": 502060,
+    "end_ms": 502180
+  },
+  {
+    "w": "face.",
+    "start_ms": 502180,
+    "end_ms": 502500
+  },
+  {
+    "w": "No,",
+    "start_ms": 502660,
+    "end_ms": 502860
+  },
+  {
+    "w": "it's",
+    "start_ms": 503380,
+    "end_ms": 504280
+  },
+  {
+    "w": "not.",
+    "start_ms": 504280,
+    "end_ms": 504440
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 504800,
+    "end_ms": 504800
+  },
+  {
+    "w": "don't",
+    "start_ms": 504800,
+    "end_ms": 506160
+  },
+  {
+    "w": "you",
+    "start_ms": 506160,
+    "end_ms": 506240
+  },
+  {
+    "w": "start.",
+    "start_ms": 506240,
+    "end_ms": 506540
+  },
+  {
+    "w": "Let",
+    "start_ms": 506880,
+    "end_ms": 507320
+  },
+  {
+    "w": "me",
+    "start_ms": 507320,
+    "end_ms": 507320
+  },
+  {
+    "w": "check",
+    "start_ms": 507320,
+    "end_ms": 509140
+  },
+  {
+    "w": "my",
+    "start_ms": 509140,
+    "end_ms": 509380
+  },
+  {
+    "w": "checklist.",
+    "start_ms": 509380,
+    "end_ms": 509820
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 511780,
+    "end_ms": 511980
+  },
+  {
+    "w": "I",
+    "start_ms": 512140,
+    "end_ms": 512240
+  },
+  {
+    "w": "want",
+    "start_ms": 512240,
+    "end_ms": 512340
+  },
+  {
+    "w": "you",
+    "start_ms": 512340,
+    "end_ms": 512440
+  },
+  {
+    "w": "to",
+    "start_ms": 512440,
+    "end_ms": 512559
+  },
+  {
+    "w": "do",
+    "start_ms": 512559,
+    "end_ms": 512700
+  },
+  {
+    "w": "it.",
+    "start_ms": 512700,
+    "end_ms": 512860
+  },
+  {
+    "w": "It's",
+    "start_ms": 517600,
+    "end_ms": 518120
+  },
+  {
+    "w": "a",
+    "start_ms": 518120,
+    "end_ms": 518159
+  },
+  {
+    "w": "miniature",
+    "start_ms": 518159,
+    "end_ms": 518559
+  },
+  {
+    "w": "milli",
+    "start_ms": 518559,
+    "end_ms": 519659
+  },
+  {
+    "w": "-wave.",
+    "start_ms": 519659,
+    "end_ms": 520520
+  },
+  {
+    "w": "We",
+    "start_ms": 521580,
+    "end_ms": 521840
+  },
+  {
+    "w": "are",
+    "start_ms": 521840,
+    "end_ms": 522020
+  },
+  {
+    "w": "all...",
+    "start_ms": 522020,
+    "end_ms": 525260
+  },
+  {
+    "w": "I",
+    "start_ms": 525260,
+    "end_ms": 525540
+  },
+  {
+    "w": "love",
+    "start_ms": 525540,
+    "end_ms": 525660
+  },
+  {
+    "w": "you.",
+    "start_ms": 525660,
+    "end_ms": 525880
+  },
+  {
+    "w": "You're",
+    "start_ms": 530390,
+    "end_ms": 530890
+  },
+  {
+    "w": "not",
+    "start_ms": 530890,
+    "end_ms": 530910
+  },
+  {
+    "w": "your",
+    "start_ms": 530910,
+    "end_ms": 531090
+  },
+  {
+    "w": "own",
+    "start_ms": 531090,
+    "end_ms": 531210
+  },
+  {
+    "w": "service",
+    "start_ms": 531210,
+    "end_ms": 531430
+  },
+  {
+    "w": "channel.",
+    "start_ms": 531430,
+    "end_ms": 531870
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 532730,
+    "end_ms": 533230
+  },
+  {
+    "w": "that's",
+    "start_ms": 534690,
+    "end_ms": 534910
+  },
+  {
+    "w": "so",
+    "start_ms": 534910,
+    "end_ms": 535010
+  },
+  {
+    "w": "pretty.",
+    "start_ms": 535010,
+    "end_ms": 535210
+  },
+  {
+    "w": "I",
+    "start_ms": 536730,
+    "end_ms": 537230
+  },
+  {
+    "w": "can't",
+    "start_ms": 537230,
+    "end_ms": 537610
+  },
+  {
+    "w": "play",
+    "start_ms": 537610,
+    "end_ms": 537770
+  },
+  {
+    "w": "like",
+    "start_ms": 537770,
+    "end_ms": 537910
+  },
+  {
+    "w": "this.",
+    "start_ms": 537910,
+    "end_ms": 538050
+  },
+  {
+    "w": "You're",
+    "start_ms": 538610,
+    "end_ms": 538730
+  },
+  {
+    "w": "a",
+    "start_ms": 538730,
+    "end_ms": 538870
+  },
+  {
+    "w": "Dorothy.",
+    "start_ms": 538870,
+    "end_ms": 539210
+  },
+  {
+    "w": "You",
+    "start_ms": 539770,
+    "end_ms": 540070
+  },
+  {
+    "w": "look",
+    "start_ms": 540070,
+    "end_ms": 541210
+  },
+  {
+    "w": "so",
+    "start_ms": 541210,
+    "end_ms": 541430
+  },
+  {
+    "w": "beautiful.",
+    "start_ms": 541430,
+    "end_ms": 541810
+  }
+]

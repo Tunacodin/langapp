@@ -1,0 +1,4802 @@
+{
+  "video_id": "learneng_tv",
+  "title": "Learn English with TV Series real conversations",
+  "topic": "daily",
+  "license": "",
+  "cefr": "B1",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 4680,
+      "text_en": "Let's learn English with the incredibly creative YouTuber and vlogger, Rudy Ohama.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 6000,
+      "end_ms": 6560,
+      "text_en": "If",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 9220,
+      "end_ms": 14480,
+      "text_en": "you are new here, then I'm excited to welcome you to the most fun place to learn English on YouTube.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 15340,
+      "end_ms": 26460,
+      "text_en": "So hit that subscribe button and the bell down below so that you don't miss our new lessons every week that will help you to understand fluent English without getting lost, without missing the",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "will help",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 108,
+          "span_end": 117
+        },
+        {
+          "pattern": "subscribe",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 26460,
+      "end_ms": 28880,
+      "text_en": "jokes, and without subtitles.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 34900,
+      "end_ms": 43520,
+      "text_en": "I was actually going to ask because you're you're a big fan of anime and so as curious if you've used anime like the dubs of anime at all to learn other languages.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was actually going to ask",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 2,
+          "span_end": 27
+        },
+        {
+          "pattern": "'ve used",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 93,
+          "span_end": 101
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 44040,
+      "end_ms": 46680,
+      "text_en": "Please, please, please don't do dubs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 46980,
+      "end_ms": 49180,
+      "text_en": "I talked about this so much on my channel.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "talked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 49840,
+      "end_ms": 50520,
+      "text_en": "Don't do dubs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 50900,
+      "end_ms": 62060,
+      "text_en": "It's so unrespectful for anime in my opinion because the voice actors in Japan go through like a very hard process when making the anime and I have a huge respect for",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 79,
+          "span_end": 81
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 143,
+          "span_end": 147
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 62060,
+      "end_ms": 65360,
+      "text_en": "them and I think we have the best voice actors in the world.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 16
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 65880,
+      "end_ms": 77160,
+      "text_en": "So I would want you to listen that in Japanese and feel that even though you don't understand Japanese, I think you can feel it, you know, the angered sadness, the",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would want",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 5,
+          "span_end": 15
+        },
+        {
+          "pattern": "can feel",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 116,
+          "span_end": 124
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 106,
+          "span_end": 111
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 133,
+          "span_end": 137
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 12,
+      "start_ms": 77160,
+      "end_ms": 79380,
+      "text_en": "happiness because they do it so well.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 23,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 13,
+      "start_ms": 88160,
+      "end_ms": 93060,
+      "text_en": "I guess you could watch the American Dragon Ball Z.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could watch",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 12,
+          "span_end": 23
+        },
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 14,
+      "start_ms": 93980,
+      "end_ms": 94620,
+      "text_en": "I've never seen it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve never seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 1,
+          "span_end": 15
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 5,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 15,
+      "start_ms": 95120,
+      "end_ms": 99820,
+      "text_en": "I don't think in Japanese, but actually I saw it when I was growing up and I don't really like in English.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was growing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 56,
+          "span_end": 67
+        },
+        {
+          "pattern": "saw",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 42,
+          "span_end": 45
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 16,
+      "start_ms": 99860,
+      "end_ms": 109980,
+      "text_en": "I don't really remember it so much, but then a few years ago I watched all of Dragon Ball and all of Dragon Ball Z in Katsalun, a language spoken here in Barcelona, but I totally agree with you with most things.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "watched",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 63,
+          "span_end": 70
+        },
+        {
+          "pattern": "agree",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 179,
+          "span_end": 184
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 47,
+          "span_end": 50
+        },
+        {
+          "pattern": "most",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 199,
+          "span_end": 203
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 17,
+      "start_ms": 110560,
+      "end_ms": 117840,
+      "text_en": "I watched recently some different movies and everything I watched in Japanese with English subtitles.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "watched",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "watched",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 58,
+          "span_end": 65
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 19,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 18,
+      "start_ms": 118280,
+      "end_ms": 122840,
+      "text_en": "So I do like really love the sound and everything, even though I don't understand hardly anything.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 82,
+          "span_end": 88
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 19,
+      "start_ms": 123500,
+      "end_ms": 126460,
+      "text_en": "Do you have any anime series that you would recommend?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would recommend",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 38,
+          "span_end": 53
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 12,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 20,
+      "start_ms": 127280,
+      "end_ms": 128620,
+      "text_en": "I think it depends on that person.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 21,
+      "start_ms": 129000,
+      "end_ms": 136100,
+      "text_en": "If they're new to anime, I think I would recommend something I attack on Thailand or Boku no Hirakademia, my Hirakademia.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would recommend",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 35,
+          "span_end": 50
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 27,
+          "span_end": 32
+        },
+        {
+          "pattern": "attack",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 63,
+          "span_end": 69
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 22,
+      "start_ms": 136780,
+      "end_ms": 140800,
+      "text_en": "But if they're advanced, I would recommend Jojo, Jojo's Bizarre Adventure.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would recommend",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 27,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 23,
+      "start_ms": 141220,
+      "end_ms": 150380,
+      "text_en": "But in order to understand Jojo and love Jojo, I think you have to have a background of anime because then you don't realize how good Jojo is.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "how good Jojo is",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 125,
+          "span_end": 141
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 49,
+          "span_end": 54
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 59,
+          "span_end": 63
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 24,
+      "start_ms": 150460,
+      "end_ms": 152960,
+      "text_en": "I'm a big Jojo fan buddy, by the way, if you don't notice.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "if you don't notice",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 38,
+          "span_end": 57
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 25,
+      "start_ms": 154280,
+      "end_ms": 161620,
+      "text_en": "I think yeah, starting with these two and then switching to Jojo would make you fall in love with anime in my opinion.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would make",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 65,
+          "span_end": 75
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 26,
+      "start_ms": 161760,
+      "end_ms": 162280,
+      "text_en": "And that's note.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 27,
+      "start_ms": 162500,
+      "end_ms": 165200,
+      "text_en": "I think that note can everybody watch it and love it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can everybody watch",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 18,
+          "span_end": 37
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 28,
+      "start_ms": 165720,
+      "end_ms": 173680,
+      "text_en": "I think the concept is not that hard to understand, to love, and the characters are not that weird as Jojo.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 29,
+      "start_ms": 173940,
+      "end_ms": 178460,
+      "text_en": "So that note, I took on Thailand, my Hirakademia, and then Jojo.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "took",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 16,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 30,
+      "start_ms": 185190,
+      "end_ms": 188890,
+      "text_en": "I was actually gonna ask because you're a big fan of anime.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was actually gon",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 2,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 31,
+      "start_ms": 189630,
+      "end_ms": 193470,
+      "text_en": "Let's start off by breaking down the beginning of this sentence, which I spoke quite fast.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "which I spoke quite fast",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 65,
+          "span_end": 89
+        },
+        {
+          "pattern": "spoke",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 73,
+          "span_end": 78
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 32,
+      "start_ms": 194150,
+      "end_ms": 197470,
+      "text_en": "If I slow it down, it would be, I was actually going to ask.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was actually going to ask",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 34,
+          "span_end": 59
+        },
+        {
+          "pattern": "would be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 22,
+          "span_end": 30
+        },
+        {
+          "pattern": "slow",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 33,
+      "start_ms": 198390,
+      "end_ms": 207510,
+      "text_en": "If you can't catch it when I say it fast, without looking at the subtitles, what you're probably missing is the notion that not all words and syllables are said in the same way.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re probably missing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 84,
+          "span_end": 104
+        },
+        {
+          "pattern": "are said",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 152,
+          "span_end": 160
+        },
+        {
+          "pattern": "If you can't catch it when I say it fast,",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 41
+        },
+        {
+          "pattern": "say",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 29,
+          "span_end": 32
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 128,
+          "span_end": 131
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 34,
+      "start_ms": 208110,
+      "end_ms": 213230,
+      "text_en": "By that, I mean, I only stress one syllable in the three most important words of this sentence.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 15
+        },
+        {
+          "pattern": "stress",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 24,
+          "span_end": 30
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 35,
+      "start_ms": 214110,
+      "end_ms": 218230,
+      "text_en": "I was actually going to ask because you're all the other syllables are pronounced more weekly.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was actually going to ask",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 2,
+          "span_end": 27
+        },
+        {
+          "pattern": "are pronounced",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 67,
+          "span_end": 81
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 36,
+      "start_ms": 219270,
+      "end_ms": 221570,
+      "text_en": "It's not was, it's was,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 37,
+      "start_ms": 222370,
+      "end_ms": 227490,
+      "text_en": "and going to becomes gonna say it after me, first slow, and then fast.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 38,
+      "start_ms": 228450,
+      "end_ms": 232630,
+      "text_en": "I was actually gonna ask because you're, I was actually gonna ask because you're,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was actually gon",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 2,
+          "span_end": 18
+        },
+        {
+          "pattern": "was actually gon",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 43,
+          "span_end": 59
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 39,
+      "start_ms": 240870,
+      "end_ms": 245950,
+      "text_en": "and so I was curious if you've used anime, like the, the dubs of anime at all to learn other languages.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve used",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 27,
+          "span_end": 35
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 40,
+      "start_ms": 246590,
+      "end_ms": 254950,
+      "text_en": "When we say that, for example, a Japanese anime is dubbed in English or another language, we mean that the original language has been changed into one of those languages.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is dubbed",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 48,
+          "span_end": 57
+        },
+        {
+          "pattern": "has been changed",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 125,
+          "span_end": 141
+        },
+        {
+          "pattern": "say",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 11
+        },
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 93,
+          "span_end": 97
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 41,
+      "start_ms": 255610,
+      "end_ms": 257610,
+      "text_en": "We also say those are dubs or dubbed versions.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "say",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 42,
+      "start_ms": 258490,
+      "end_ms": 269810,
+      "text_en": "Don't do dubs, it's, it's so unrespectful for anime, in my opinion, because the voice actors in Japan go through like a very hard process when making anime, and",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 102,
+          "span_end": 104
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 43,
+      "start_ms": 269810,
+      "end_ms": 271230,
+      "text_en": "I have a huge respect for them.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 44,
+      "start_ms": 271570,
+      "end_ms": 276950,
+      "text_en": "You're probably familiar with the word respect, but do you know how to change this word using different suffixes?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 45,
+      "start_ms": 277530,
+      "end_ms": 278870,
+      "text_en": "Let's take the noun respect.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 46,
+      "start_ms": 279750,
+      "end_ms": 282270,
+      "text_en": "Now, choose an ending so that it becomes an adjective.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "becomes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 33,
+          "span_end": 40
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 47,
+      "start_ms": 294200,
+      "end_ms": 296580,
+      "text_en": "That's right, now you have the adjective respectful.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 26
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 48,
+      "start_ms": 297620,
+      "end_ms": 302240,
+      "text_en": "You can say someone is a respectful person or that someone is respectful of someone or something.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can say",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 49,
+      "start_ms": 303060,
+      "end_ms": 305880,
+      "text_en": "Especially to you, because he's very respectful of women.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 50,
+      "start_ms": 306180,
+      "end_ms": 306740,
+      "text_en": "Is he really?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 51,
+      "start_ms": 307040,
+      "end_ms": 310160,
+      "text_en": "Now, how do you turn respectful into the opposite meaning?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 52,
+      "start_ms": 311240,
+      "end_ms": 315400,
+      "text_en": "You now need to add the prefix dis to the beginning, so it's disrespectful.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 53,
+      "start_ms": 316720,
+      "end_ms": 319720,
+      "text_en": "Don't feel bad if you say unrespectful as it's a very common mistake.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "if you say unrespectful as it's a very common mistake",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 15,
+          "span_end": 68
+        },
+        {
+          "pattern": "say",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 54,
+      "start_ms": 320500,
+      "end_ms": 321960,
+      "text_en": "I don't mean to be disrespectful,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 55,
+      "start_ms": 322680,
+      "end_ms": 325520,
+      "text_en": "but what the hell are you talking about?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are you talking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 18,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 56,
+      "start_ms": 326660,
+      "end_ms": 329280,
+      "text_en": "If you take off fool, it becomes a verb.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If you take off fool",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 20
+        },
+        {
+          "pattern": "take",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
+          "pattern": "becomes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 25,
+          "span_end": 32
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 57,
+      "start_ms": 330200,
+      "end_ms": 335360,
+      "text_en": "Last night, I try to welcome you into my family.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 58,
+      "start_ms": 338360,
+      "end_ms": 341080,
+      "text_en": "Instead, you disrespect me.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "disrespect",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 59,
+      "start_ms": 342400,
+      "end_ms": 343380,
+      "text_en": "I cannot allow this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "cannot allow",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 2,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 60,
+      "start_ms": 344000,
+      "end_ms": 345420,
+      "text_en": "Are you a friends fan?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 61,
+      "start_ms": 346220,
+      "end_ms": 352260,
+      "text_en": "It was only considered one of the best series of all time, not only for entertainment, but also for learning English.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was only considered",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 3,
+          "span_end": 22
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 49,
+          "span_end": 52
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 62,
+      "start_ms": 352740,
+      "end_ms": 364260,
+      "text_en": "That is why we used it to create an entire course that will help you to understand nados at any speed by mastering the principles of connected speech, the vocabulary that we really use, and",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "will help",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 55,
+          "span_end": 64
+        },
+        {
+          "pattern": "that will help you to understand nados at any speed by mastering the principles of connected speech, the vocabulary that we really use,",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 50,
+          "span_end": 185
+        },
+        {
+          "pattern": "that we really use",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 166,
+          "span_end": 184
+        },
+        {
+          "pattern": "used",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 15,
+          "span_end": 19
+        },
+        {
+          "pattern": "use",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 181,
+          "span_end": 184
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 92,
+          "span_end": 95
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 63,
+      "start_ms": 364260,
+      "end_ms": 369420,
+      "text_en": "the cultural context so that you can understand all the jokes and laugh along.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can understand",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 33,
+          "span_end": 47
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 48,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 64,
+      "start_ms": 370340,
+      "end_ms": 372540,
+      "text_en": "You can give it a try for free right now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can give",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 65,
+      "start_ms": 373060,
+      "end_ms": 377400,
+      "text_en": "Join our three part master class by clicking here or in the description down below.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 66,
+      "start_ms": 378640,
+      "end_ms": 383160,
+      "text_en": "Because the voice actors in Japan go through like a very hard process.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 34,
+          "span_end": 36
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 67,
+      "start_ms": 384180,
+      "end_ms": 387240,
+      "text_en": "To go through means to experience something bad or challenging.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 68,
+      "start_ms": 387860,
+      "end_ms": 391060,
+      "text_en": "Example, we can't really imagine what they're going through.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re going",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 42,
+          "span_end": 51
+        },
+        {
+          "pattern": "what they're going through",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 33,
+          "span_end": 59
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 69,
+      "start_ms": 391820,
+      "end_ms": 393600,
+      "text_en": "I guess you could watch the American attempts, right?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could watch",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 12,
+          "span_end": 23
+        },
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 70,
+      "start_ms": 393880,
+      "end_ms": 396300,
+      "text_en": "The last airbender, for example.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 71,
+      "start_ms": 397260,
+      "end_ms": 404180,
+      "text_en": "By this, I mean that although traditionally anime is considered a Japanese art form, some American series have mimicked the style of Japanese anime.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is considered",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 50,
+          "span_end": 63
+        },
+        {
+          "pattern": "have mimicked",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 106,
+          "span_end": 119
+        },
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 15
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 85,
+          "span_end": 89
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 72,
+      "start_ms": 405160,
+      "end_ms": 408580,
+      "text_en": "Avatar the Last Airbender is probably the most well -known one of these.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 73,
+      "start_ms": 409300,
+      "end_ms": 414560,
+      "text_en": "I said American attempts, because they're an effort to be similar and as good as the Japanese ones.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 74,
+      "start_ms": 415200,
+      "end_ms": 417520,
+      "text_en": "That said, Avatar has been received quite positively.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has been received",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 18,
+          "span_end": 35
+        },
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 5,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 75,
+      "start_ms": 418260,
+      "end_ms": 418960,
+      "text_en": "I've never seen it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve never seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 1,
+          "span_end": 15
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 5,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 76,
+      "start_ms": 419420,
+      "end_ms": 424160,
+      "text_en": "I don't think in Japanese, but actually I saw it when I was growing up and I don't really like in English.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was growing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 56,
+          "span_end": 67
+        },
+        {
+          "pattern": "saw",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 42,
+          "span_end": 45
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 77,
+      "start_ms": 424260,
+      "end_ms": 425280,
+      "text_en": "I don't really remember it so much.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 78,
+      "start_ms": 425500,
+      "end_ms": 431600,
+      "text_en": "When we talk about something we did when we were kids, we often use the expression when I was growing up, or something similar.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was growing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 90,
+          "span_end": 101
+        },
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 32,
+          "span_end": 35
+        },
+        {
+          "pattern": "talk",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 12
+        },
+        {
+          "pattern": "use",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 64,
+          "span_end": 67
+        },
+        {
+          "pattern": "often",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 58,
+          "span_end": 63
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 79,
+      "start_ms": 432040,
+      "end_ms": 434120,
+      "text_en": "Take a look at how it's used in these examples.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s used",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 21,
+          "span_end": 28
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 80,
+      "start_ms": 435260,
+      "end_ms": 441900,
+      "text_en": "When I was growing up, I didn't have a normal mom and dad or a regular family like everybody else.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was growing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 7,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 81,
+      "start_ms": 443080,
+      "end_ms": 446400,
+      "text_en": "When I was growing up, I played the one on the far left.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was growing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 7,
+          "span_end": 18
+        },
+        {
+          "pattern": "played",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 25,
+          "span_end": 31
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 82,
+      "start_ms": 448360,
+      "end_ms": 449660,
+      "text_en": "Wait, wait, wait, wait, wait.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 83,
+      "start_ms": 449660,
+      "end_ms": 452360,
+      "text_en": "Monica said that when you guys were growing up, you really liked your doctor.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "were growing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 31,
+          "span_end": 43
+        },
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
+          "pattern": "liked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 59,
+          "span_end": 64
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 84,
+      "start_ms": 452500,
+      "end_ms": 453040,
+      "text_en": "What was his name?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 85,
+      "start_ms": 453940,
+      "end_ms": 465180,
+      "text_en": "I watched recently some different movies and everything I watched in Japanese with English subtitles, so I do like really love the sound and everything, even though I don't",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "watched",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "watched",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 58,
+          "span_end": 65
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 167,
+          "span_end": 169
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 19,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 86,
+      "start_ms": 465180,
+      "end_ms": 466480,
+      "text_en": "understand hardly anything.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 11,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 87,
+      "start_ms": 466960,
+      "end_ms": 468940,
+      "text_en": "Do you know how to use the word hardly?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 32,
+          "span_end": 38
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 88,
+      "start_ms": 469440,
+      "end_ms": 475660,
+      "text_en": "If you do, then you might have noticed that I made a common small mistake there, because I'm using a double negative.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "might have noticed",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 20,
+          "span_end": 38
+        },
+        {
+          "pattern": "'m using",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 90,
+          "span_end": 98
+        },
+        {
+          "pattern": "If you do",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 9
+        },
+        {
+          "pattern": "made",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 46,
+          "span_end": 50
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 89,
+      "start_ms": 476400,
+      "end_ms": 479740,
+      "text_en": "It would have been correct if I had said I hardly understand anything.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would have been",
+          "note_tr": "Would Have V3",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 3,
+          "span_end": 18
+        },
+        {
+          "pattern": "had said",
+          "note_tr": "Past Perfect vs. Simple Past",
+          "cefr": "B1",
+          "norm_pattern": "past_perfect_had_v3",
+          "span_start": 32,
+          "span_end": 40
+        },
+        {
+          "pattern": "if I had said I hardly understand anything",
+          "note_tr": "If Clause Type 3 (Unreal Past)",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 27,
+          "span_end": 69
+        },
+        {
+          "pattern": "understand",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 50,
+          "span_end": 60
+        },
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 43,
+          "span_end": 49
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 90,
+      "start_ms": 480480,
+      "end_ms": 483740,
+      "text_en": "Hardly means almost not, and we use it all the time.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "means",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 12
+        },
+        {
+          "pattern": "use",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 32,
+          "span_end": 35
+        },
+        {
+          "pattern": "Hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 0,
+          "span_end": 6
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 39,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 91,
+      "start_ms": 484300,
+      "end_ms": 489080,
+      "text_en": "We might say he hardly ate anything, instead of he ate very little, or he didn't eat much.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "might say",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 3,
+          "span_end": 12
+        },
+        {
+          "pattern": "ate",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 23,
+          "span_end": 26
+        },
+        {
+          "pattern": "ate",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 51,
+          "span_end": 54
+        },
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 16,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 92,
+      "start_ms": 489800,
+      "end_ms": 492020,
+      "text_en": "Take a look at how it's used in these other examples.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s used",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 21,
+          "span_end": 28
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 93,
+      "start_ms": 492580,
+      "end_ms": 494340,
+      "text_en": "But he travels a lot, so he's hardly over there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "travels",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 14
+        },
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 30,
+          "span_end": 36
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 94,
+      "start_ms": 495560,
+      "end_ms": 498120,
+      "text_en": "Well, you know, it's so beautiful out there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 95,
+      "start_ms": 498440,
+      "end_ms": 499880,
+      "text_en": "You always wanted to get married outside.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wanted",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 11,
+          "span_end": 17
+        },
+        {
+          "pattern": "always",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 4,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 96,
+      "start_ms": 500320,
+      "end_ms": 501680,
+      "text_en": "Why don't you guys just do it on the street?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 24,
+          "span_end": 26
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 97,
+      "start_ms": 502320,
+      "end_ms": 502500,
+      "text_en": "What?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 98,
+      "start_ms": 503120,
+      "end_ms": 504760,
+      "text_en": "Well, look, it's hardly snowing anymore.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s hardly snowing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 14,
+          "span_end": 31
+        },
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 17,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 99,
+      "start_ms": 505600,
+      "end_ms": 508040,
+      "text_en": "It's so wonderful to see you again, my dear.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 100,
+      "start_ms": 508260,
+      "end_ms": 510700,
+      "text_en": "In fact, I hardly expected to see so much.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "expected",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 18,
+          "span_end": 26
+        },
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 11,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 101,
+      "start_ms": 512539,
+      "end_ms": 515840,
+      "text_en": "Do you have any anime series that you would recommend?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would recommend",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 38,
+          "span_end": 53
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 12,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 102,
+      "start_ms": 516659,
+      "end_ms": 518039,
+      "text_en": "I think it depends on that person.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 103,
+      "start_ms": 518659,
+      "end_ms": 523460,
+      "text_en": "If something depends on something else, it is directly affected or decided by that thing.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is directly affected",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 43,
+          "span_end": 63
+        },
+        {
+          "pattern": "If something depends on something else",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 38
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 104,
+      "start_ms": 524140,
+      "end_ms": 524300,
+      "text_en": "Example,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 105,
+      "start_ms": 525140,
+      "end_ms": 527180,
+      "text_en": "choosing the right bike depends on what you want to use it for.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "depends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 24,
+          "span_end": 31
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 44,
+          "span_end": 48
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 106,
+      "start_ms": 528060,
+      "end_ms": 529140,
+      "text_en": "Here's another example.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 107,
+      "start_ms": 529980,
+      "end_ms": 531460,
+      "text_en": "The cost depends on the time of year.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "depends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 108,
+      "start_ms": 532360,
+      "end_ms": 534000,
+      "text_en": "You can also use the adjective form dependent.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can also use",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 109,
+      "start_ms": 535020,
+      "end_ms": 536600,
+      "text_en": "The cost is dependent on the time of year.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 110,
+      "start_ms": 537540,
+      "end_ms": 539620,
+      "text_en": "However, don't make this frequent mistake.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 111,
+      "start_ms": 540220,
+      "end_ms": 541820,
+      "text_en": "The cost is depend on the time of year.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 112,
+      "start_ms": 542820,
+      "end_ms": 547880,
+      "text_en": "Another common mistake I noticed my students make is using the preposition of or in with depend.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is using",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 50,
+          "span_end": 58
+        },
+        {
+          "pattern": "noticed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 25,
+          "span_end": 32
+        },
+        {
+          "pattern": "make",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 45,
+          "span_end": 49
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 113,
+      "start_ms": 548600,
+      "end_ms": 550860,
+      "text_en": "Remember, you should say depends on.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should say",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 14,
+          "span_end": 24
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 25,
+          "span_end": 32
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 114,
+      "start_ms": 552040,
+      "end_ms": 555080,
+      "text_en": "But if they're advanced, I would recommend JoJo.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would recommend",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 27,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 115,
+      "start_ms": 555480,
+      "end_ms": 556440,
+      "text_en": "JoJo's bizarre adventure.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 116,
+      "start_ms": 556820,
+      "end_ms": 563540,
+      "text_en": "But in order to understand JoJo and love JoJo, in order to means so that someone can do something or something can happen.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can do",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 81,
+          "span_end": 87
+        },
+        {
+          "pattern": "can happen",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 111,
+          "span_end": 121
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 117,
+      "start_ms": 564380,
+      "end_ms": 566080,
+      "text_en": "It's often used at the beginning of a sentence.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s often used",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 15
+        },
+        {
+          "pattern": "often",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 5,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 118,
+      "start_ms": 566080,
+      "end_ms": 568180,
+      "text_en": "In order to win, sometimes you have to lose.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 31,
+          "span_end": 35
+        },
+        {
+          "pattern": "sometimes",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 17,
+          "span_end": 26
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 119,
+      "start_ms": 569140,
+      "end_ms": 570760,
+      "text_en": "Sometimes we use the preposition for.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "use",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 16
+        },
+        {
+          "pattern": "Sometimes",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 0,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 120,
+      "start_ms": 577100,
+      "end_ms": 582520,
+      "text_en": "In order to understand JoJo and love JoJo, I think you have to have a background of anime.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 45,
+          "span_end": 50
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 55,
+          "span_end": 59
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 121,
+      "start_ms": 583360,
+      "end_ms": 591060,
+      "text_en": "If you have an anime background or if you have a background in watching anime, it means that you know about or understand anime because you have watched it a lot.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have watched",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 140,
+          "span_end": 152
+        },
+        {
+          "pattern": "If you have an anime background or if you have a background in watching anime",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 77
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 42,
+          "span_end": 46
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 82,
+          "span_end": 87
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 97,
+          "span_end": 101
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 122,
+      "start_ms": 598720,
+      "end_ms": 603340,
+      "text_en": "A mistake people make when writing their resumes is that they lie about their background.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "people make when writing their resumes",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 10,
+          "span_end": 48
+        },
+        {
+          "pattern": "make",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 21
+        },
+        {
+          "pattern": "lie",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 62,
+          "span_end": 65
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 123,
+      "start_ms": 603960,
+      "end_ms": 606880,
+      "text_en": "That happened to Joey here when he said that he had a dancing background.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "happened",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 5,
+          "span_end": 13
+        },
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 35,
+          "span_end": 39
+        },
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 48,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 124,
+      "start_ms": 607580,
+      "end_ms": 609800,
+      "text_en": "Oh, Joey, all the roles gotta dance a little.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 24,
+          "span_end": 27
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 10,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 125,
+      "start_ms": 610440,
+      "end_ms": 613460,
+      "text_en": "But believe me, with your dance background, it'll be a piece of cake.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll be",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 46,
+          "span_end": 52
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 126,
+      "start_ms": 613940,
+      "end_ms": 616020,
+      "text_en": "Three years of modern dance with Twyla Tharp?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 127,
+      "start_ms": 618080,
+      "end_ms": 623060,
+      "text_en": "If you are considering getting a job where you have to interview in English, then you might want to check out this lesson that we made.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are considering",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 7,
+          "span_end": 22
+        },
+        {
+          "pattern": "might want",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 86,
+          "span_end": 96
+        },
+        {
+          "pattern": "where you have to interview in English",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 37,
+          "span_end": 75
+        },
+        {
+          "pattern": "that we made",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 122,
+          "span_end": 134
+        },
+        {
+          "pattern": "made",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 130,
+          "span_end": 134
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 47,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 128,
+      "start_ms": 623400,
+      "end_ms": 624740,
+      "text_en": "It could just help you to shine.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could just help",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 3,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 129,
+      "start_ms": 625380,
+      "end_ms": 626540,
+      "text_en": "It's linked down in the description.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s linked",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 130,
+      "start_ms": 627320,
+      "end_ms": 630600,
+      "text_en": "Because then you don't realize how good JoJo is.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "how good JoJo is",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 31,
+          "span_end": 47
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 131,
+      "start_ms": 630680,
+      "end_ms": 633160,
+      "text_en": "I'm a big JoJo fan, by the way, if you don't notice.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 132,
+      "start_ms": 634440,
+      "end_ms": 639060,
+      "text_en": "I think yeah, starting with these two and then switching to JoJo would.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 133,
+      "start_ms": 639840,
+      "end_ms": 643980,
+      "text_en": "To switch means to chain from doing or using one thing to doing or using another.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 134,
+      "start_ms": 644620,
+      "end_ms": 647400,
+      "text_en": "Example, she worked as a librarian who are switching to journalism.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are switching",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 39,
+          "span_end": 52
+        },
+        {
+          "pattern": "who are switching to journalism",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 35,
+          "span_end": 66
+        },
+        {
+          "pattern": "worked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 13,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 135,
+      "start_ms": 648440,
+      "end_ms": 648880,
+      "text_en": "Hello.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 136,
+      "start_ms": 649580,
+      "end_ms": 649720,
+      "text_en": "Hi.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 137,
+      "start_ms": 650400,
+      "end_ms": 651300,
+      "text_en": "It's been an hour.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s been",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 138,
+      "start_ms": 652760,
+      "end_ms": 656400,
+      "text_en": "The major D is asked if you'd be willing to reconsider switching to a smaller table.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is asked",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 12,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 139,
+      "start_ms": 657040,
+      "end_ms": 658180,
+      "text_en": "Maybe we should just eat now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should just eat",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 9,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 140,
+      "start_ms": 658780,
+      "end_ms": 660820,
+      "text_en": "Make you fall in love with anime, in my opinion.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 141,
+      "start_ms": 661040,
+      "end_ms": 661500,
+      "text_en": "And Death Note.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 142,
+      "start_ms": 661720,
+      "end_ms": 664440,
+      "text_en": "I think Death Note can everybody watch it and love it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can everybody watch",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 19,
+          "span_end": 38
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 143,
+      "start_ms": 665440,
+      "end_ms": 673680,
+      "text_en": "I think the concept is not that hard to understand, to love, and the characters are not that weird as JoJo.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 144,
+      "start_ms": 673980,
+      "end_ms": 679180,
+      "text_en": "A secondary use of that is as you see it in this sentence, where that is before an adjective.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "see",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 34,
+          "span_end": 37
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 145,
+      "start_ms": 680280,
+      "end_ms": 681520,
+      "text_en": "It wasn't that expensive.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 146,
+      "start_ms": 682600,
+      "end_ms": 687540,
+      "text_en": "This means it wasn't as expensive as one might have thought, expected, or as it might have been suggested.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "might have thought",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 41,
+          "span_end": 59
+        },
+        {
+          "pattern": "might have been suggested",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 80,
+          "span_end": 105
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 147,
+      "start_ms": 688460,
+      "end_ms": 691740,
+      "text_en": "You can use that in this case with a variety of different adjectives.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can use",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 148,
+      "start_ms": 692540,
+      "end_ms": 694920,
+      "text_en": "How's the baby styling business going?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s the baby styling business going",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 3,
+          "span_end": 37
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 149,
+      "start_ms": 695820,
+      "end_ms": 696980,
+      "text_en": "Not that great.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 150,
+      "start_ms": 697920,
+      "end_ms": 701720,
+      "text_en": "No, it turns out the one from uptown was making a joke.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was making",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 37,
+          "span_end": 47
+        },
+        {
+          "pattern": "turns",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 151,
+      "start_ms": 702740,
+      "end_ms": 705180,
+      "text_en": "But it was a different joke than I thought it wasn't that funny.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "thought",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 35,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 152,
+      "start_ms": 706620,
+      "end_ms": 710900,
+      "text_en": "Death Note, I took on Tylen, my hero academia, and then JoJo.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "took",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 14,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 153,
+      "start_ms": 720380,
+      "end_ms": 728900,
+      "text_en": "I was actually going to ask because you're a big fan of anime, and so I was curious if you've used anime, like the dubs of anime at all, to learn other languages.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was actually going to ask",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 2,
+          "span_end": 27
+        },
+        {
+          "pattern": "'ve used",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 90,
+          "span_end": 98
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 154,
+      "start_ms": 729460,
+      "end_ms": 732020,
+      "text_en": "Please, please, please, please don't do dubs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 155,
+      "start_ms": 732340,
+      "end_ms": 734540,
+      "text_en": "I talked about this so much on my channel.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "talked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 156,
+      "start_ms": 735200,
+      "end_ms": 735880,
+      "text_en": "Don't do dubs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 157,
+      "start_ms": 736040,
+      "end_ms": 747140,
+      "text_en": "It's so unrespectful for anime, in my opinion, because the voice actors in Japan go through like a very hard process when making the anime, and I have a huge respect",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 81,
+          "span_end": 83
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 146,
+          "span_end": 150
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 158,
+      "start_ms": 747140,
+      "end_ms": 747640,
+      "text_en": "for them.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 159,
+      "start_ms": 747880,
+      "end_ms": 750740,
+      "text_en": "And I think we have the best voice actors in the world.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 15,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 160,
+      "start_ms": 751200,
+      "end_ms": 762520,
+      "text_en": "So I would want you to listen that in Japanese and feel that, even though you don't understand Japanese, I think you can feel it, you know, the anger, the sadness, the",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would want",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 5,
+          "span_end": 15
+        },
+        {
+          "pattern": "can feel",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 117,
+          "span_end": 125
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 51,
+          "span_end": 55
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 107,
+          "span_end": 112
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 134,
+          "span_end": 138
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 161,
+      "start_ms": 762520,
+      "end_ms": 764720,
+      "text_en": "happiness, because they do it so well.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 24,
+          "span_end": 26
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 162,
+      "start_ms": 764720,
+      "end_ms": 766960,
+      "text_en": "I guess you could watch the American attempts, right?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could watch",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 12,
+          "span_end": 23
+        },
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 163,
+      "start_ms": 767220,
+      "end_ms": 769660,
+      "text_en": "The last airbender, for example.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 164,
+      "start_ms": 770760,
+      "end_ms": 771660,
+      "text_en": "Please, no.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 165,
+      "start_ms": 773640,
+      "end_ms": 779960,
+      "text_en": "I asked because a really popular series around the world is Dragon Ball Z. I've never seen it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve never seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 76,
+          "span_end": 90
+        },
+        {
+          "pattern": "asked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 80,
+          "span_end": 85
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 166,
+      "start_ms": 780480,
+      "end_ms": 785160,
+      "text_en": "I don't think in Japanese, but actually, I saw it when I was growing up, and I don't really like in English.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was growing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 57,
+          "span_end": 68
+        },
+        {
+          "pattern": "saw",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 43,
+          "span_end": 46
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 167,
+      "start_ms": 785280,
+      "end_ms": 786280,
+      "text_en": "I don't really remember it so much.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 168,
+      "start_ms": 786420,
+      "end_ms": 793240,
+      "text_en": "But then a few years ago, I watched all of Dragon Ball and all of Dragon Ball Z in Catalan, a language spoken here in Barcelona.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "watched",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 28,
+          "span_end": 35
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 11,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 169,
+      "start_ms": 793760,
+      "end_ms": 795360,
+      "text_en": "But I totally agree with you with most things.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "agree",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 19
+        },
+        {
+          "pattern": "most",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 34,
+          "span_end": 38
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 170,
+      "start_ms": 795900,
+      "end_ms": 800760,
+      "text_en": "I watched recently some different movies and everything.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "watched",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 19,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 171,
+      "start_ms": 800980,
+      "end_ms": 808200,
+      "text_en": "I watched in Japanese with English subtitles, so I do like really love the sound and everything, even though I don't understand hardly anything.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "watched",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 128,
+          "span_end": 134
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 172,
+      "start_ms": 809140,
+      "end_ms": 811180,
+      "text_en": "In which option is Harley used right?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is Harley used",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 16,
+          "span_end": 30
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 173,
+      "start_ms": 812000,
+      "end_ms": 812700,
+      "text_en": "I hardly know him.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 13
+        },
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 2,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 174,
+      "start_ms": 813260,
+      "end_ms": 814020,
+      "text_en": "I don't hardly know him.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "hardly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 8,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 175,
+      "start_ms": 826080,
+      "end_ms": 829040,
+      "text_en": "Do you have any anime series that you would recommend?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would recommend",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 38,
+          "span_end": 53
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 12,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 176,
+      "start_ms": 830160,
+      "end_ms": 831800,
+      "text_en": "Choose the appropriate preposition.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 177,
+      "start_ms": 832580,
+      "end_ms": 836620,
+      "text_en": "I think it depends of that person, on that person, in that person.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 178,
+      "start_ms": 849800,
+      "end_ms": 851160,
+      "text_en": "I think it depends on that person.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 179,
+      "start_ms": 851520,
+      "end_ms": 859100,
+      "text_en": "If they're new to anime, I think I would recommend something like Atekuntaylan, or Boku no Hirakademia, my Hirakademia.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would recommend",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 35,
+          "span_end": 50
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 27,
+          "span_end": 32
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 180,
+      "start_ms": 859720,
+      "end_ms": 860640,
+      "text_en": "But if they're advanced,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "if they're advanced",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 4,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 181,
+      "start_ms": 861360,
+      "end_ms": 863820,
+      "text_en": "I would recommend Jojo, Jojo's Bizarre Adventure.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would recommend",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 2,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 182,
+      "start_ms": 864240,
+      "end_ms": 873380,
+      "text_en": "But in order to understand Jojo and love Jojo, I think you have to have a background of anime, because then you don't realize how good Jojo is.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "how good Jojo is",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 126,
+          "span_end": 142
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 49,
+          "span_end": 54
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 59,
+          "span_end": 63
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 183,
+      "start_ms": 873440,
+      "end_ms": 875960,
+      "text_en": "I'm a big Jojo fan, by the way, if you don't notice.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 184,
+      "start_ms": 876600,
+      "end_ms": 884600,
+      "text_en": "I think yeah, starting with these two, and then switching to Jojo would make you fall in love with anime, in my opinion.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would make",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 66,
+          "span_end": 76
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 185,
+      "start_ms": 884760,
+      "end_ms": 885260,
+      "text_en": "And that's note.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 186,
+      "start_ms": 885540,
+      "end_ms": 888200,
+      "text_en": "I think that note can everybody watch it and love it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can everybody watch",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 18,
+          "span_end": 37
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 187,
+      "start_ms": 888680,
+      "end_ms": 892180,
+      "text_en": "I think the concept is not that hard to understand,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 188,
+      "start_ms": 892860,
+      "end_ms": 897040,
+      "text_en": "to love, and the characters are not that weird as Jojo, so.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 189,
+      "start_ms": 898120,
+      "end_ms": 900980,
+      "text_en": "In which option is that used as an emphasiser?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 190,
+      "start_ms": 902020,
+      "end_ms": 902800,
+      "text_en": "It's not that bad.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 191,
+      "start_ms": 903420,
+      "end_ms": 904120,
+      "text_en": "I don't know that man.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 192,
+      "start_ms": 904760,
+      "end_ms": 905420,
+      "text_en": "I think that you're right.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 193,
+      "start_ms": 917060,
+      "end_ms": 921060,
+      "text_en": "That note, Atekuntaylan, my Hirakademia, and then Jojo.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 194,
+      "start_ms": 922240,
+      "end_ms": 925660,
+      "text_en": "If you've enjoyed learning English with Haruri, then don't stop now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve enjoyed",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 6,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 195,
+      "start_ms": 926280,
+      "end_ms": 928180,
+      "text_en": "I've linked her channel down in the description below.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve linked",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 1,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 196,
+      "start_ms": 928920,
+      "end_ms": 940120,
+      "text_en": "And you can check out this other lesson that we made together, which is super inspiring, and it will help you to be as successful as she has been in getting fluent and natural English.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has been",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 137,
+          "span_end": 145
+        },
+        {
+          "pattern": "can check",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 8,
+          "span_end": 17
+        },
+        {
+          "pattern": "will help",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 96,
+          "span_end": 105
+        },
+        {
+          "pattern": "that we made together",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 40,
+          "span_end": 61
+        },
+        {
+          "pattern": "which is super inspiring",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 63,
+          "span_end": 87
+        },
+        {
+          "pattern": "made",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 48,
+          "span_end": 52
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 197,
+      "start_ms": 940740,
+      "end_ms": 941720,
+      "text_en": "Let's check out a clip from that.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 198,
+      "start_ms": 942260,
+      "end_ms": 947480,
+      "text_en": "I think even when I started my channel back in the day, I think it was not a year.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "started",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 20,
+          "span_end": 27
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 58,
+          "span_end": 63
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 199,
+      "start_ms": 948000,
+      "end_ms": 950480,
+      "text_en": "I think it was around 11 months ago or something.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 200,
+      "start_ms": 950680,
+      "end_ms": 956780,
+      "text_en": "I started to pause regularly, and at that time I wasn't really comfortable talking in English, and I wasn't smiling at all.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wasn't smiling",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 101,
+          "span_end": 115
+        },
+        {
+          "pattern": "started",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "regularly",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 19,
+          "span_end": 28
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 201,
+      "start_ms": 957240,
+      "end_ms": 959860,
+      "text_en": "I wrote script, and I was reading that only.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was reading",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 22,
+          "span_end": 33
+        },
+        {
+          "pattern": "wrote",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 202,
+      "start_ms": 960300,
+      "end_ms": 963460,
+      "text_en": "I just like pausing the camera and reading that and pausing it again.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 203,
+      "start_ms": 964020,
+      "end_ms": 966820,
+      "text_en": "And a lot of people are saying that you have no emotions at all.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are saying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 20,
+          "span_end": 30
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 40,
+          "span_end": 44
+        }
+      ],
+      "vocab": []
+    }
+  ]
+}

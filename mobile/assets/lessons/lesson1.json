@@ -4,32 +4,2121 @@
   "license": "Public Domain (archive.org)",
   "cefr": "B1",
   "sentences": [
-    { "idx": 0, "start_ms": 180, "end_ms": 3980, "text_en": "Produced by Archer Productions, Incorporated.", "text_tr": "Archer Productions, Incorporated yapımı.", "cefr": "B1", "chunks": [], "grammar": [], "vocab": [] },
-    { "idx": 1, "start_ms": 4080, "end_ms": 8380, "text_en": "Hey, Bert, come on out and meet all these nice people, please.", "text_tr": "Hey Bert, çık gel de bu iyi insanlarla tanış, hadi.", "cefr": "A2", "chunks": [{ "text_en": "come on out", "text_tr": "hadi çık gel", "type": "phrasal_verb", "cefr": "A2" }], "grammar": [], "vocab": [{ "word": "meet", "text_tr": "tanışmak, buluşmak", "pos": "verb", "cefr": "A1" }] },
-    { "idx": 2, "start_ms": 8480, "end_ms": 11480, "text_en": "All right, we really can't blame you.", "text_tr": "Peki, seni gerçekten suçlayamayız.", "cefr": "B1", "chunks": [{ "text_en": "can't blame you", "text_tr": "seni suçlayamayız", "type": "expression", "cefr": "B1" }], "grammar": [], "vocab": [{ "word": "blame", "text_tr": "suçlamak", "pos": "verb", "cefr": "B1" }] },
-    { "idx": 3, "start_ms": 11580, "end_ms": 14780, "text_en": "You see, Bert is a very, very careful fellow.", "text_tr": "Bak, Bert çok ama çok dikkatli biridir.", "cefr": "B1", "chunks": [{ "text_en": "you see", "text_tr": "bak, anlarsın ya", "type": "expression", "cefr": "A2" }, { "text_en": "a careful fellow", "text_tr": "dikkatli biri", "type": "collocation", "cefr": "B1" }], "grammar": [{ "pattern": "very, very + sıfat", "note_tr": "Sıfatı tekrarla güçlendirme.", "cefr": "A2" }], "vocab": [{ "word": "careful", "text_tr": "dikkatli", "pos": "adjective", "cefr": "A2" }, { "word": "fellow", "text_tr": "adam, kişi", "pos": "noun", "cefr": "B2" }] },
-    { "idx": 4, "start_ms": 14880, "end_ms": 18780, "text_en": "When there's danger, this is the way he keeps from being hurt.", "text_tr": "Tehlike olduğunda, incinmekten işte böyle korunur.", "cefr": "B2", "chunks": [{ "text_en": "keep from doing", "text_tr": "yapmaktan kaçınmak/korunmak", "type": "pattern", "cefr": "B2" }, { "text_en": "this is the way", "text_tr": "işte bu şekilde", "type": "pattern", "cefr": "A2" }], "grammar": [{ "pattern": "keep from being + V3", "note_tr": "Edilgen: bir şeye maruz kalmaktan kaçınmak.", "cefr": "B2" }], "vocab": [{ "word": "danger", "text_tr": "tehlike", "pos": "noun", "cefr": "A2" }, { "word": "hurt", "text_tr": "incitmek, zarar vermek", "pos": "verb", "cefr": "A2" }] },
-    { "idx": 5, "start_ms": 18880, "end_ms": 22580, "text_en": "Sometimes it even saves his life.", "text_tr": "Bazen hayatını bile kurtarır.", "cefr": "A2", "chunks": [{ "text_en": "save one's life", "text_tr": "hayatını kurtarmak", "type": "collocation", "cefr": "A2" }], "grammar": [{ "pattern": "even (vurgu)", "note_tr": "Beklenmedik/uç durumu vurgular: ... bile.", "cefr": "A2" }], "vocab": [{ "word": "save", "text_tr": "kurtarmak", "pos": "verb", "cefr": "A1" }] },
-    { "idx": 6, "start_ms": 22680, "end_ms": 26080, "text_en": "That's why these children are practicing to duck and cover", "text_tr": "İşte bu yüzden bu çocuklar eğilip siper alma pratiği yapıyor,", "cefr": "B1", "chunks": [{ "text_en": "that's why", "text_tr": "işte bu yüzden", "type": "connector", "cefr": "A2" }, { "text_en": "duck and cover", "text_tr": "eğil ve kapan/siper al", "type": "expression", "cefr": "B1" }], "grammar": [{ "pattern": "are + Ving", "note_tr": "Şimdiki zaman: şu sıralar olan eylem.", "cefr": "A2" }], "vocab": [{ "word": "practice", "text_tr": "pratik yapmak", "pos": "verb", "cefr": "A2" }, { "word": "duck", "text_tr": "eğilmek, çömelmek", "pos": "verb", "cefr": "B1" }] },
-    { "idx": 7, "start_ms": 26180, "end_ms": 28580, "text_en": "just as you do in your school.", "text_tr": "tıpkı okulunuzda yaptığınız gibi.", "cefr": "A2", "chunks": [{ "text_en": "just as", "text_tr": "tıpkı ... gibi", "type": "connector", "cefr": "B1" }], "grammar": [], "vocab": [] },
-    { "idx": 8, "start_ms": 28580, "end_ms": 31980, "text_en": "We all know the atomic bomb is very dangerous.", "text_tr": "Hepimiz atom bombasının çok tehlikeli olduğunu biliyoruz.", "cefr": "B1", "chunks": [{ "text_en": "we all know", "text_tr": "hepimiz biliriz", "type": "expression", "cefr": "A2" }], "grammar": [{ "pattern": "know (that) + cümle", "note_tr": "Bildirme yan cümlesi: ... olduğunu bilmek.", "cefr": "B1" }], "vocab": [{ "word": "bomb", "text_tr": "bomba", "pos": "noun", "cefr": "A2" }, { "word": "dangerous", "text_tr": "tehlikeli", "pos": "adjective", "cefr": "A2" }] },
-    { "idx": 9, "start_ms": 32080, "end_ms": 35080, "text_en": "Since it may be used against us, we must get ready for it,", "text_tr": "Bize karşı kullanılabileceği için ona hazırlanmalıyız,", "cefr": "B2", "chunks": [{ "text_en": "get ready for", "text_tr": "bir şeye hazırlanmak", "type": "collocation", "cefr": "A2" }, { "text_en": "be used against", "text_tr": "aleyhine kullanılmak", "type": "collocation", "cefr": "B2" }], "grammar": [{ "pattern": "since + cümle", "note_tr": "Neden bildirir: ... -dığı için.", "cefr": "B1" }, { "pattern": "may be used", "note_tr": "Edilgen olasılık: kullanılabilir.", "cefr": "B2" }], "vocab": [{ "word": "against", "text_tr": "karşı, aleyhine", "pos": "preposition", "cefr": "A2" }] },
-    { "idx": 10, "start_ms": 35180, "end_ms": 39580, "text_en": "just as we are ready for many other dangers that are around us all the time.", "text_tr": "tıpkı her zaman çevremizde olan diğer birçok tehlikeye hazır olduğumuz gibi.", "cefr": "B2", "chunks": [{ "text_en": "all the time", "text_tr": "her zaman, sürekli", "type": "expression", "cefr": "A2" }], "grammar": [{ "pattern": "... that are around us (ilgi cümlesi)", "note_tr": "İsmi niteleyen yan cümle.", "cefr": "B1" }], "vocab": [] },
-    { "idx": 11, "start_ms": 39680, "end_ms": 41180, "text_en": "Fire is a danger.", "text_tr": "Ateş bir tehlikedir.", "cefr": "A2", "chunks": [], "grammar": [], "vocab": [{ "word": "fire", "text_tr": "ateş, yangın", "pos": "noun", "cefr": "A1" }] },
-    { "idx": 12, "start_ms": 41280, "end_ms": 44980, "text_en": "It can burn whole buildings if someone is careless.", "text_tr": "Biri dikkatsizse koca binaları yakabilir.", "cefr": "B1", "chunks": [{ "text_en": "whole buildings", "text_tr": "koca binalar", "type": "collocation", "cefr": "A2" }], "grammar": [{ "pattern": "if + geniş zaman", "note_tr": "Birinci koşul: gerçekçi olasılık.", "cefr": "A2" }, { "pattern": "can + V", "note_tr": "Yetenek/olasılık: yapabilir.", "cefr": "A2" }], "vocab": [{ "word": "burn", "text_tr": "yakmak", "pos": "verb", "cefr": "A2" }, { "word": "careless", "text_tr": "dikkatsiz", "pos": "adjective", "cefr": "B1" }] },
-    { "idx": 13, "start_ms": 45080, "end_ms": 46980, "text_en": "But we are ready for fires.", "text_tr": "Ama yangınlara hazırız.", "cefr": "A2", "chunks": [{ "text_en": "be ready for", "text_tr": "bir şeye hazır olmak", "type": "collocation", "cefr": "A2" }], "grammar": [], "vocab": [] },
-    { "idx": 14, "start_ms": 47080, "end_ms": 50180, "text_en": "We have a fine fire department to put out the fire.", "text_tr": "Yangını söndürmek için iyi bir itfaiyemiz var.", "cefr": "B1", "chunks": [{ "text_en": "put out the fire", "text_tr": "yangını söndürmek", "type": "phrasal_verb", "cefr": "B1" }, { "text_en": "fire department", "text_tr": "itfaiye", "type": "collocation", "cefr": "A2" }], "grammar": [{ "pattern": "to + V", "note_tr": "Amaç bildirir: ... -mek için.", "cefr": "A2" }], "vocab": [{ "word": "fine", "text_tr": "iyi, güzel", "pos": "adjective", "cefr": "A2" }] },
-    { "idx": 15, "start_ms": 50280, "end_ms": 54580, "text_en": "And you have fire drills in your school so you know what to do.", "text_tr": "Ve okulunuzda yangın tatbikatları var, böylece ne yapacağınızı bilirsiniz.", "cefr": "B1", "chunks": [{ "text_en": "fire drill", "text_tr": "yangın tatbikatı", "type": "collocation", "cefr": "B1" }, { "text_en": "know what to do", "text_tr": "ne yapacağını bilmek", "type": "expression", "cefr": "A2" }], "grammar": [{ "pattern": "soru kelimesi + to V", "note_tr": "what/how + to V: ne yapacağını.", "cefr": "B1" }], "vocab": [{ "word": "drill", "text_tr": "tatbikat, alıştırma", "pos": "noun", "cefr": "B1" }] },
-    { "idx": 16, "start_ms": 54580, "end_ms": 56780, "text_en": "Automobiles can be dangerous, too.", "text_tr": "Arabalar da tehlikeli olabilir.", "cefr": "A2", "chunks": [], "grammar": [], "vocab": [{ "word": "automobiles", "text_tr": "otomobiller, arabalar", "pos": "noun", "cefr": "B1" }] },
-    { "idx": 17, "start_ms": 56880, "end_ms": 60080, "text_en": "They sometimes cause bad accidents, but we are ready.", "text_tr": "Bazen kötü kazalara yol açarlar ama hazırız.", "cefr": "B1", "chunks": [{ "text_en": "cause accidents", "text_tr": "kazalara yol açmak", "type": "collocation", "cefr": "B1" }], "grammar": [], "vocab": [{ "word": "accidents", "text_tr": "kazalar", "pos": "noun", "cefr": "A2" }] },
-    { "idx": 18, "start_ms": 60180, "end_ms": 64580, "text_en": "We have safety rules that car drivers and people who are walking must obey.", "text_tr": "Araba sürücülerinin ve yürüyenlerin uymak zorunda olduğu güvenlik kuralları var.", "cefr": "B2", "chunks": [{ "text_en": "safety rules", "text_tr": "güvenlik kuralları", "type": "collocation", "cefr": "A2" }, { "text_en": "obey rules", "text_tr": "kurallara uymak", "type": "collocation", "cefr": "B1" }], "grammar": [{ "pattern": "... that/who ... (ilgi cümlesi)", "note_tr": "İsmi niteleyen yan cümle.", "cefr": "B2" }], "vocab": [{ "word": "obey", "text_tr": "uymak, itaat etmek", "pos": "verb", "cefr": "B1" }, { "word": "safety", "text_tr": "güvenlik", "pos": "noun", "cefr": "A2" }] },
-    { "idx": 19, "start_ms": 64680, "end_ms": 70080, "text_en": "Now, we must be ready for a new danger, the atomic bomb.", "text_tr": "Şimdi yeni bir tehlikeye hazır olmalıyız: atom bombası.", "cefr": "B1", "chunks": [{ "text_en": "be ready for", "text_tr": "bir şeye hazır olmak", "type": "collocation", "cefr": "A2" }], "grammar": [{ "pattern": "must + be", "note_tr": "Zorunluluk: hazır olmalıyız.", "cefr": "A2" }], "vocab": [] },
-    { "idx": 20, "start_ms": 70180, "end_ms": 74280, "text_en": "First, you have to know what happens when an atomic bomb explodes.", "text_tr": "Önce, bir atom bombası patladığında ne olduğunu bilmen gerekir.", "cefr": "B1", "chunks": [{ "text_en": "have to do", "text_tr": "yapmak zorunda olmak", "type": "pattern", "cefr": "A2" }, { "text_en": "what happens when", "text_tr": "... olduğunda ne olur", "type": "expression", "cefr": "B1" }], "grammar": [{ "pattern": "when + geniş zaman", "note_tr": "Zaman cümlesi: ... -dığında.", "cefr": "A2" }], "vocab": [{ "word": "explode", "text_tr": "patlamak", "pos": "verb", "cefr": "B1" }] },
-    { "idx": 21, "start_ms": 74380, "end_ms": 75980, "text_en": "You will know when it comes.", "text_tr": "Geldiğinde anlayacaksın.", "cefr": "A2", "chunks": [], "grammar": [{ "pattern": "will + V", "note_tr": "Gelecek zaman.", "cefr": "A1" }], "vocab": [] },
-    { "idx": 22, "start_ms": 76080, "end_ms": 78780, "text_en": "We hope it never comes, but we must get ready.", "text_tr": "Asla gelmemesini umuyoruz ama hazırlanmalıyız.", "cefr": "B1", "chunks": [{ "text_en": "get ready", "text_tr": "hazırlanmak", "type": "collocation", "cefr": "A2" }], "grammar": [{ "pattern": "hope + cümle", "note_tr": "Dilek/umut bildirir.", "cefr": "B1" }, { "pattern": "must + V", "note_tr": "Zorunluluk: -meliyiz.", "cefr": "A2" }], "vocab": [{ "word": "hope", "text_tr": "ummak", "pos": "verb", "cefr": "A2" }] },
-    { "idx": 23, "start_ms": 78880, "end_ms": 80580, "text_en": "It looks something like this.", "text_tr": "Şöyle bir şeye benzer.", "cefr": "A2", "chunks": [{ "text_en": "look like", "text_tr": "-e benzemek", "type": "phrasal_verb", "cefr": "A2" }], "grammar": [], "vocab": [] },
-    { "idx": 24, "start_ms": 80580, "end_ms": 85080, "text_en": "There is a bright flash, brighter than the sun, brighter than anything you've ever seen.", "text_tr": "Güneşten daha parlak, gördüğün her şeyden daha parlak bir ışık parlaması olur.", "cefr": "B2", "chunks": [{ "text_en": "brighter than", "text_tr": "... -den daha parlak", "type": "pattern", "cefr": "B1" }, { "text_en": "anything you've ever seen", "text_tr": "şimdiye dek gördüğün her şey", "type": "expression", "cefr": "B2" }], "grammar": [{ "pattern": "sıfat + -er than", "note_tr": "Karşılaştırma: daha ... .", "cefr": "A2" }, { "pattern": "have/has ever + V3", "note_tr": "Yaşanmışlık: şimdiye dek ... .", "cefr": "B1" }], "vocab": [{ "word": "bright", "text_tr": "parlak", "pos": "adjective", "cefr": "A2" }, { "word": "flash", "text_tr": "parlama, flaş", "pos": "noun", "cefr": "B1" }] },
-    { "idx": 25, "start_ms": 85180, "end_ms": 88580, "text_en": "If you were not ready and did not know what to do,", "text_tr": "Hazır değilsen ve ne yapacağını bilmiyorsan,", "cefr": "B1", "chunks": [], "grammar": [{ "pattern": "if + geçmiş (koşul)", "note_tr": "Koşul cümlesi.", "cefr": "B1" }], "vocab": [] },
-    { "idx": 26, "start_ms": 88680, "end_ms": 90680, "text_en": "it could hurt you and...", "text_tr": "sana zarar verebilir ve...", "cefr": "B1", "chunks": [], "grammar": [{ "pattern": "could + V", "note_tr": "Olasılık: zarar verebilir.", "cefr": "B1" }], "vocab": [{ "word": "could", "text_tr": "-ebilirdi, olabilir", "pos": "modal", "cefr": "A2" }] }
+    {
+      "idx": 0,
+      "start_ms": 180,
+      "end_ms": 3980,
+      "text_en": "Produced by Archer Productions, Incorporated.",
+      "text_tr": "Archer Productions, Incorporated yapımı.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "produced",
+          "lemma": "produce",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 180,
+          "end_ms": 800
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "start_ms": 4080,
+      "end_ms": 8380,
+      "text_en": "Hey, Bert, come on out and meet all these nice people, please.",
+      "text_tr": "Hey Bert, çık gel de bu iyi insanlarla tanış, hadi.",
+      "cefr": "A2",
+      "chunks": [
+        {
+          "text_en": "come on out",
+          "text_tr": "hadi çık gel",
+          "type": "phrasal_verb",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 32,
+          "span_end": 35
+        }
+      ],
+      "vocab": [
+        {
+          "word": "meet",
+          "text_tr": "tanışmak, buluşmak",
+          "pos": "verb",
+          "cefr": "A1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "come",
+          "lemma": "come",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 5100,
+          "end_ms": 5280
+        },
+        {
+          "surface": "meet",
+          "lemma": "meet",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 5820,
+          "end_ms": 5980
+        },
+        {
+          "surface": "nice",
+          "lemma": "nice",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 6360,
+          "end_ms": 6560
+        },
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 6560,
+          "end_ms": 6980
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "start_ms": 8480,
+      "end_ms": 11480,
+      "text_en": "All right, we really can't blame you.",
+      "text_tr": "Peki, seni gerçekten suçlayamayız.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "can't blame you",
+          "text_tr": "seni suçlayamayız",
+          "type": "expression",
+          "cefr": "B1"
+        }
+      ],
+      "grammar": [],
+      "vocab": [
+        {
+          "word": "blame",
+          "text_tr": "suçlamak",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "all",
+          "lemma": "all",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 8400,
+          "end_ms": 8920
+        },
+        {
+          "surface": "right",
+          "lemma": "right",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 8920,
+          "end_ms": 9460
+        },
+        {
+          "surface": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 10040,
+          "end_ms": 10220
+        },
+        {
+          "surface": "blame",
+          "lemma": "blame",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 10620,
+          "end_ms": 10760
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "start_ms": 11580,
+      "end_ms": 14780,
+      "text_en": "You see, Bert is a very, very careful fellow.",
+      "text_tr": "Bak, Bert çok ama çok dikkatli biridir.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "you see",
+          "text_tr": "bak, anlarsın ya",
+          "type": "expression",
+          "cefr": "A2"
+        },
+        {
+          "text_en": "a careful fellow",
+          "text_tr": "dikkatli biri",
+          "type": "collocation",
+          "cefr": "B1"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "very, very + sıfat",
+          "note_tr": "Sıfatı tekrarla güçlendirme.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "see",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 7
+        }
+      ],
+      "vocab": [
+        {
+          "word": "careful",
+          "text_tr": "dikkatli",
+          "pos": "adjective",
+          "cefr": "A2"
+        },
+        {
+          "word": "fellow",
+          "text_tr": "adam, kişi",
+          "pos": "noun",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 11840,
+          "end_ms": 11980
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 12800,
+          "end_ms": 13160
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 13160,
+          "end_ms": 13640
+        },
+        {
+          "surface": "careful",
+          "lemma": "careful",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 13640,
+          "end_ms": 13920
+        },
+        {
+          "surface": "fellow",
+          "lemma": "fellow",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 13920,
+          "end_ms": 14400
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "start_ms": 14880,
+      "end_ms": 18780,
+      "text_en": "When there's danger, this is the way he keeps from being hurt.",
+      "text_tr": "Tehlike olduğunda, incinmekten işte böyle korunur.",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "keep from doing",
+          "text_tr": "yapmaktan kaçınmak/korunmak",
+          "type": "pattern",
+          "cefr": "B2"
+        },
+        {
+          "text_en": "this is the way",
+          "text_tr": "işte bu şekilde",
+          "type": "pattern",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "keep from being + V3",
+          "note_tr": "Edilgen: bir şeye maruz kalmaktan kaçınmak.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "being hurt",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 51,
+          "span_end": 61
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 12
+        },
+        {
+          "pattern": "keeps",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 40,
+          "span_end": 45
+        }
+      ],
+      "vocab": [
+        {
+          "word": "danger",
+          "text_tr": "tehlike",
+          "pos": "noun",
+          "cefr": "A2"
+        },
+        {
+          "word": "hurt",
+          "text_tr": "incitmek, zarar vermek",
+          "pos": "verb",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "'s",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 14880,
+          "end_ms": 18780
+        },
+        {
+          "surface": "danger",
+          "lemma": "danger",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 15340,
+          "end_ms": 15540
+        },
+        {
+          "surface": "way",
+          "lemma": "way",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 16700,
+          "end_ms": 16880
+        },
+        {
+          "surface": "keeps",
+          "lemma": "keep",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 17120,
+          "end_ms": 17320
+        },
+        {
+          "surface": "hurt",
+          "lemma": "hurt",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 17760,
+          "end_ms": 18000
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "start_ms": 18880,
+      "end_ms": 22580,
+      "text_en": "Sometimes it even saves his life.",
+      "text_tr": "Bazen hayatını bile kurtarır.",
+      "cefr": "A2",
+      "chunks": [
+        {
+          "text_en": "save one's life",
+          "text_tr": "hayatını kurtarmak",
+          "type": "collocation",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "even (vurgu)",
+          "note_tr": "Beklenmedik/uç durumu vurgular: ... bile.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "saves",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 18,
+          "span_end": 23
+        },
+        {
+          "pattern": "Sometimes",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 0,
+          "span_end": 9
+        }
+      ],
+      "vocab": [
+        {
+          "word": "save",
+          "text_tr": "kurtarmak",
+          "pos": "verb",
+          "cefr": "A1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "sometimes",
+          "lemma": "sometimes",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 18980,
+          "end_ms": 19540
+        },
+        {
+          "surface": "even",
+          "lemma": "even",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 20100,
+          "end_ms": 20420
+        },
+        {
+          "surface": "saves",
+          "lemma": "save",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 20420,
+          "end_ms": 20760
+        },
+        {
+          "surface": "life",
+          "lemma": "life",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 21160,
+          "end_ms": 21420
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "start_ms": 22680,
+      "end_ms": 26080,
+      "text_en": "That's why these children are practicing to duck and cover",
+      "text_tr": "İşte bu yüzden bu çocuklar eğilip siper alma pratiği yapıyor,",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "that's why",
+          "text_tr": "işte bu yüzden",
+          "type": "connector",
+          "cefr": "A2"
+        },
+        {
+          "text_en": "duck and cover",
+          "text_tr": "eğil ve kapan/siper al",
+          "type": "expression",
+          "cefr": "B1"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "are + Ving",
+          "note_tr": "Şimdiki zaman: şu sıralar olan eylem.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "are practicing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 26,
+          "span_end": 40
+        },
+        {
+          "pattern": "why these children are practicing to duck and cover",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 7,
+          "span_end": 58
+        }
+      ],
+      "vocab": [
+        {
+          "word": "practice",
+          "text_tr": "pratik yapmak",
+          "pos": "verb",
+          "cefr": "A2"
+        },
+        {
+          "word": "duck",
+          "text_tr": "eğilmek, çömelmek",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "children",
+          "lemma": "child",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 23360,
+          "end_ms": 23720
+        },
+        {
+          "surface": "practicing",
+          "lemma": "practice",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 24120,
+          "end_ms": 24460
+        },
+        {
+          "surface": "duck",
+          "lemma": "duck",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 24940,
+          "end_ms": 25240
+        },
+        {
+          "surface": "cover",
+          "lemma": "cover",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 25540,
+          "end_ms": 25760
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "start_ms": 26180,
+      "end_ms": 28580,
+      "text_en": "just as you do in your school.",
+      "text_tr": "tıpkı okulunuzda yaptığınız gibi.",
+      "cefr": "A2",
+      "chunks": [
+        {
+          "text_en": "just as",
+          "text_tr": "tıpkı ... gibi",
+          "type": "connector",
+          "cefr": "B1"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 14
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 26180,
+          "end_ms": 28580
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 26760,
+          "end_ms": 26940
+        },
+        {
+          "surface": "school",
+          "lemma": "school",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 27280,
+          "end_ms": 27640
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "start_ms": 28580,
+      "end_ms": 31980,
+      "text_en": "We all know the atomic bomb is very dangerous.",
+      "text_tr": "Hepimiz atom bombasının çok tehlikeli olduğunu biliyoruz.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "we all know",
+          "text_tr": "hepimiz biliriz",
+          "type": "expression",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "know (that) + cümle",
+          "note_tr": "Bildirme yan cümlesi: ... olduğunu bilmek.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": [
+        {
+          "word": "bomb",
+          "text_tr": "bomba",
+          "pos": "noun",
+          "cefr": "A2"
+        },
+        {
+          "word": "dangerous",
+          "text_tr": "tehlikeli",
+          "pos": "adjective",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 29080,
+          "end_ms": 29380
+        },
+        {
+          "surface": "atomic",
+          "lemma": "atomic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 29600,
+          "end_ms": 29860
+        },
+        {
+          "surface": "bomb",
+          "lemma": "bomb",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 29860,
+          "end_ms": 30200
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 30700,
+          "end_ms": 30900
+        },
+        {
+          "surface": "dangerous",
+          "lemma": "dangerous",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 30900,
+          "end_ms": 31360
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "start_ms": 32080,
+      "end_ms": 35080,
+      "text_en": "Since it may be used against us, we must get ready for it,",
+      "text_tr": "Bize karşı kullanılabileceği için ona hazırlanmalıyız,",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "get ready for",
+          "text_tr": "bir şeye hazırlanmak",
+          "type": "collocation",
+          "cefr": "A2"
+        },
+        {
+          "text_en": "be used against",
+          "text_tr": "aleyhine kullanılmak",
+          "type": "collocation",
+          "cefr": "B2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "since + cümle",
+          "note_tr": "Neden bildirir: ... -dığı için.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "may be used",
+          "note_tr": "Edilgen olasılık: kullanılabilir.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "may be used",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 9,
+          "span_end": 20
+        },
+        {
+          "pattern": "must get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 36,
+          "span_end": 44
+        }
+      ],
+      "vocab": [
+        {
+          "word": "against",
+          "text_tr": "karşı, aleyhine",
+          "pos": "preposition",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "used",
+          "lemma": "use",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 32640,
+          "end_ms": 32860
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 34240,
+          "end_ms": 34380
+        },
+        {
+          "surface": "ready",
+          "lemma": "ready",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 34380,
+          "end_ms": 34640
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "start_ms": 35180,
+      "end_ms": 39580,
+      "text_en": "just as we are ready for many other dangers that are around us all the time.",
+      "text_tr": "tıpkı her zaman çevremizde olan diğer birçok tehlikeye hazır olduğumuz gibi.",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "all the time",
+          "text_tr": "her zaman, sürekli",
+          "type": "expression",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "... that are around us (ilgi cümlesi)",
+          "note_tr": "İsmi niteleyen yan cümle.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "that are around us all the time",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 44,
+          "span_end": 75
+        },
+        {
+          "pattern": "many",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 25,
+          "span_end": 29
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 63,
+          "span_end": 66
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 35180,
+          "end_ms": 35440
+        },
+        {
+          "surface": "ready",
+          "lemma": "ready",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 35860,
+          "end_ms": 36100
+        },
+        {
+          "surface": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 36340,
+          "end_ms": 36520
+        },
+        {
+          "surface": "other",
+          "lemma": "other",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 36520,
+          "end_ms": 36760
+        },
+        {
+          "surface": "dangers",
+          "lemma": "danger",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 36760,
+          "end_ms": 37100
+        },
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 38720,
+          "end_ms": 38980
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "start_ms": 39680,
+      "end_ms": 41180,
+      "text_en": "Fire is a danger.",
+      "text_tr": "Ateş bir tehlikedir.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [
+        {
+          "word": "fire",
+          "text_tr": "ateş, yangın",
+          "pos": "noun",
+          "cefr": "A1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "fire",
+          "lemma": "fire",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 39680,
+          "end_ms": 40040
+        },
+        {
+          "surface": "danger",
+          "lemma": "danger",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 40440,
+          "end_ms": 40680
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "start_ms": 41280,
+      "end_ms": 44980,
+      "text_en": "It can burn whole buildings if someone is careless.",
+      "text_tr": "Biri dikkatsizse koca binaları yakabilir.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "whole buildings",
+          "text_tr": "koca binalar",
+          "type": "collocation",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "if + geniş zaman",
+          "note_tr": "Birinci koşul: gerçekçi olasılık.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "can + V",
+          "note_tr": "Yetenek/olasılık: yapabilir.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "can burn",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 3,
+          "span_end": 11
+        },
+        {
+          "pattern": "if someone is careless",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 28,
+          "span_end": 50
+        }
+      ],
+      "vocab": [
+        {
+          "word": "burn",
+          "text_tr": "yakmak",
+          "pos": "verb",
+          "cefr": "A2"
+        },
+        {
+          "word": "careless",
+          "text_tr": "dikkatsiz",
+          "pos": "adjective",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "burn",
+          "lemma": "burn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 41640,
+          "end_ms": 41840
+        },
+        {
+          "surface": "whole",
+          "lemma": "whole",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 41840,
+          "end_ms": 42120
+        },
+        {
+          "surface": "buildings",
+          "lemma": "building",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 42120,
+          "end_ms": 42600
+        },
+        {
+          "surface": "careless",
+          "lemma": "careless",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 43800,
+          "end_ms": 44120
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "start_ms": 45080,
+      "end_ms": 46980,
+      "text_en": "But we are ready for fires.",
+      "text_tr": "Ama yangınlara hazırız.",
+      "cefr": "A2",
+      "chunks": [
+        {
+          "text_en": "be ready for",
+          "text_tr": "bir şeye hazır olmak",
+          "type": "collocation",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "ready",
+          "lemma": "ready",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 45640,
+          "end_ms": 45840
+        },
+        {
+          "surface": "fires",
+          "lemma": "fire",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 46100,
+          "end_ms": 46320
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "start_ms": 47080,
+      "end_ms": 50180,
+      "text_en": "We have a fine fire department to put out the fire.",
+      "text_tr": "Yangını söndürmek için iyi bir itfaiyemiz var.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "put out the fire",
+          "text_tr": "yangını söndürmek",
+          "type": "phrasal_verb",
+          "cefr": "B1"
+        },
+        {
+          "text_en": "fire department",
+          "text_tr": "itfaiye",
+          "type": "collocation",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "to + V",
+          "note_tr": "Amaç bildirir: ... -mek için.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 7
+        }
+      ],
+      "vocab": [
+        {
+          "word": "fine",
+          "text_tr": "iyi, güzel",
+          "pos": "adjective",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 47260,
+          "end_ms": 47360
+        },
+        {
+          "surface": "fine",
+          "lemma": "fine",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 47460,
+          "end_ms": 47760
+        },
+        {
+          "surface": "fire",
+          "lemma": "fire",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 47760,
+          "end_ms": 48080
+        },
+        {
+          "surface": "department",
+          "lemma": "department",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 48080,
+          "end_ms": 48620
+        },
+        {
+          "surface": "put",
+          "lemma": "put",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 49000,
+          "end_ms": 49240
+        },
+        {
+          "surface": "fire",
+          "lemma": "fire",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 49560,
+          "end_ms": 49820
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "start_ms": 50280,
+      "end_ms": 54580,
+      "text_en": "And you have fire drills in your school so you know what to do.",
+      "text_tr": "Ve okulunuzda yangın tatbikatları var, böylece ne yapacağınızı bilirsiniz.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "fire drill",
+          "text_tr": "yangın tatbikatı",
+          "type": "collocation",
+          "cefr": "B1"
+        },
+        {
+          "text_en": "know what to do",
+          "text_tr": "ne yapacağını bilmek",
+          "type": "expression",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "soru kelimesi + to V",
+          "note_tr": "what/how + to V: ne yapacağını.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 12
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 47,
+          "span_end": 51
+        }
+      ],
+      "vocab": [
+        {
+          "word": "drill",
+          "text_tr": "tatbikat, alıştırma",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 50600,
+          "end_ms": 50740
+        },
+        {
+          "surface": "fire",
+          "lemma": "fire",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 50740,
+          "end_ms": 51040
+        },
+        {
+          "surface": "drills",
+          "lemma": "drill",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 51040,
+          "end_ms": 51420
+        },
+        {
+          "surface": "school",
+          "lemma": "school",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 51860,
+          "end_ms": 52100
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 52100,
+          "end_ms": 52680
+        },
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 52820,
+          "end_ms": 53020
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 53380,
+          "end_ms": 53560
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "start_ms": 54580,
+      "end_ms": 56780,
+      "text_en": "Automobiles can be dangerous, too.",
+      "text_tr": "Arabalar da tehlikeli olabilir.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 12,
+          "span_end": 18
+        }
+      ],
+      "vocab": [
+        {
+          "word": "automobiles",
+          "text_tr": "otomobiller, arabalar",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "automobiles",
+          "lemma": "automobile",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 54540,
+          "end_ms": 55060
+        },
+        {
+          "surface": "dangerous",
+          "lemma": "dangerous",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 55720,
+          "end_ms": 56020
+        },
+        {
+          "surface": "too",
+          "lemma": "too",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 56280,
+          "end_ms": 56380
+        }
+      ]
+    },
+    {
+      "idx": 17,
+      "start_ms": 56880,
+      "end_ms": 60080,
+      "text_en": "They sometimes cause bad accidents, but we are ready.",
+      "text_tr": "Bazen kötü kazalara yol açarlar ama hazırız.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "cause accidents",
+          "text_tr": "kazalara yol açmak",
+          "type": "collocation",
+          "cefr": "B1"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "cause",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 15,
+          "span_end": 20
+        },
+        {
+          "pattern": "sometimes",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 5,
+          "span_end": 14
+        }
+      ],
+      "vocab": [
+        {
+          "word": "accidents",
+          "text_tr": "kazalar",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "sometimes",
+          "lemma": "sometimes",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 57080,
+          "end_ms": 57300
+        },
+        {
+          "surface": "cause",
+          "lemma": "cause",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 57300,
+          "end_ms": 57840
+        },
+        {
+          "surface": "bad",
+          "lemma": "bad",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 57840,
+          "end_ms": 58260
+        },
+        {
+          "surface": "accidents",
+          "lemma": "accident",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 58260,
+          "end_ms": 58660
+        },
+        {
+          "surface": "ready",
+          "lemma": "ready",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 59580,
+          "end_ms": 59780
+        }
+      ]
+    },
+    {
+      "idx": 18,
+      "start_ms": 60180,
+      "end_ms": 64580,
+      "text_en": "We have safety rules that car drivers and people who are walking must obey.",
+      "text_tr": "Araba sürücülerinin ve yürüyenlerin uymak zorunda olduğu güvenlik kuralları var.",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "safety rules",
+          "text_tr": "güvenlik kuralları",
+          "type": "collocation",
+          "cefr": "A2"
+        },
+        {
+          "text_en": "obey rules",
+          "text_tr": "kurallara uymak",
+          "type": "collocation",
+          "cefr": "B1"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "... that/who ... (ilgi cümlesi)",
+          "note_tr": "İsmi niteleyen yan cümle.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "are walking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 53,
+          "span_end": 64
+        },
+        {
+          "pattern": "must obey",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 65,
+          "span_end": 74
+        },
+        {
+          "pattern": "who are walking",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 49,
+          "span_end": 64
+        },
+        {
+          "pattern": "that car drivers and people who are walking must obey",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 21,
+          "span_end": 74
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 7
+        }
+      ],
+      "vocab": [
+        {
+          "word": "obey",
+          "text_tr": "uymak, itaat etmek",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "safety",
+          "text_tr": "güvenlik",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 60340,
+          "end_ms": 60460
+        },
+        {
+          "surface": "safety",
+          "lemma": "safety",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 60460,
+          "end_ms": 60620
+        },
+        {
+          "surface": "rules",
+          "lemma": "rule",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 60620,
+          "end_ms": 61040
+        },
+        {
+          "surface": "car",
+          "lemma": "car",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 61300,
+          "end_ms": 61500
+        },
+        {
+          "surface": "drivers",
+          "lemma": "driver",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 61500,
+          "end_ms": 61820
+        },
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 62180,
+          "end_ms": 62480
+        },
+        {
+          "surface": "walking",
+          "lemma": "walk",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 62760,
+          "end_ms": 63060
+        },
+        {
+          "surface": "obey",
+          "lemma": "obey",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 63460,
+          "end_ms": 63740
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "start_ms": 64680,
+      "end_ms": 70080,
+      "text_en": "Now, we must be ready for a new danger, the atomic bomb.",
+      "text_tr": "Şimdi yeni bir tehlikeye hazır olmalıyız: atom bombası.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "be ready for",
+          "text_tr": "bir şeye hazır olmak",
+          "type": "collocation",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "must + be",
+          "note_tr": "Zorunluluk: hazır olmalıyız.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "must be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 8,
+          "span_end": 15
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 64580,
+          "end_ms": 65099
+        },
+        {
+          "surface": "ready",
+          "lemma": "ready",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 66120,
+          "end_ms": 66340
+        },
+        {
+          "surface": "new",
+          "lemma": "new",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 66840,
+          "end_ms": 66980
+        },
+        {
+          "surface": "danger",
+          "lemma": "danger",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 66980,
+          "end_ms": 67340
+        },
+        {
+          "surface": "atomic",
+          "lemma": "atomic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 68160,
+          "end_ms": 68520
+        },
+        {
+          "surface": "bomb",
+          "lemma": "bomb",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 68520,
+          "end_ms": 68860
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "start_ms": 70180,
+      "end_ms": 74280,
+      "text_en": "First, you have to know what happens when an atomic bomb explodes.",
+      "text_tr": "Önce, bir atom bombası patladığında ne olduğunu bilmen gerekir.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "have to do",
+          "text_tr": "yapmak zorunda olmak",
+          "type": "pattern",
+          "cefr": "A2"
+        },
+        {
+          "text_en": "what happens when",
+          "text_tr": "... olduğunda ne olur",
+          "type": "expression",
+          "cefr": "B1"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "when + geniş zaman",
+          "note_tr": "Zaman cümlesi: ... -dığında.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "what happens when an atomic bomb explodes",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 24,
+          "span_end": 65
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 15
+        },
+        {
+          "pattern": "happens",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 29,
+          "span_end": 36
+        }
+      ],
+      "vocab": [
+        {
+          "word": "explode",
+          "text_tr": "patlamak",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "first",
+          "lemma": "first",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 69960,
+          "end_ms": 70480
+        },
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 71000,
+          "end_ms": 71120
+        },
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 71240,
+          "end_ms": 71420
+        },
+        {
+          "surface": "happens",
+          "lemma": "happen",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 71660,
+          "end_ms": 72000
+        },
+        {
+          "surface": "atomic",
+          "lemma": "atomic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 72440,
+          "end_ms": 72640
+        },
+        {
+          "surface": "bomb",
+          "lemma": "bomb",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 72640,
+          "end_ms": 73040
+        },
+        {
+          "surface": "explodes",
+          "lemma": "explode",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 73040,
+          "end_ms": 73420
+        }
+      ]
+    },
+    {
+      "idx": 21,
+      "start_ms": 74380,
+      "end_ms": 75980,
+      "text_en": "You will know when it comes.",
+      "text_tr": "Geldiğinde anlayacaksın.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "will + V",
+          "note_tr": "Gelecek zaman.",
+          "cefr": "A1"
+        },
+        {
+          "pattern": "will know",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 4,
+          "span_end": 13
+        },
+        {
+          "pattern": "comes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 27
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 74700,
+          "end_ms": 74860
+        },
+        {
+          "surface": "comes",
+          "lemma": "come",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 75240,
+          "end_ms": 75480
+        }
+      ]
+    },
+    {
+      "idx": 22,
+      "start_ms": 76080,
+      "end_ms": 78780,
+      "text_en": "We hope it never comes, but we must get ready.",
+      "text_tr": "Asla gelmemesini umuyoruz ama hazırlanmalıyız.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "get ready",
+          "text_tr": "hazırlanmak",
+          "type": "collocation",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "hope + cümle",
+          "note_tr": "Dilek/umut bildirir.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "must + V",
+          "note_tr": "Zorunluluk: -meliyiz.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "must get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 31,
+          "span_end": 39
+        },
+        {
+          "pattern": "hope",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 7
+        },
+        {
+          "pattern": "comes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 22
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 11,
+          "span_end": 16
+        }
+      ],
+      "vocab": [
+        {
+          "word": "hope",
+          "text_tr": "ummak",
+          "pos": "verb",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "hope",
+          "lemma": "hope",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 76300,
+          "end_ms": 76460
+        },
+        {
+          "surface": "never",
+          "lemma": "never",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 76600,
+          "end_ms": 76740
+        },
+        {
+          "surface": "comes",
+          "lemma": "come",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 76740,
+          "end_ms": 77080
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 77880,
+          "end_ms": 78000
+        },
+        {
+          "surface": "ready",
+          "lemma": "ready",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 78000,
+          "end_ms": 78180
+        }
+      ]
+    },
+    {
+      "idx": 23,
+      "start_ms": 78880,
+      "end_ms": 80580,
+      "text_en": "It looks something like this.",
+      "text_tr": "Şöyle bir şeye benzer.",
+      "cefr": "A2",
+      "chunks": [
+        {
+          "text_en": "look like",
+          "text_tr": "-e benzemek",
+          "type": "phrasal_verb",
+          "cefr": "A2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "looks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "looks",
+          "lemma": "look",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 79120,
+          "end_ms": 79220
+        }
+      ]
+    },
+    {
+      "idx": 24,
+      "start_ms": 80580,
+      "end_ms": 85080,
+      "text_en": "There is a bright flash, brighter than the sun, brighter than anything you've ever seen.",
+      "text_tr": "Güneşten daha parlak, gördüğün her şeyden daha parlak bir ışık parlaması olur.",
+      "cefr": "B2",
+      "chunks": [
+        {
+          "text_en": "brighter than",
+          "text_tr": "... -den daha parlak",
+          "type": "pattern",
+          "cefr": "B1"
+        },
+        {
+          "text_en": "anything you've ever seen",
+          "text_tr": "şimdiye dek gördüğün her şey",
+          "type": "expression",
+          "cefr": "B2"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "sıfat + -er than",
+          "note_tr": "Karşılaştırma: daha ... .",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "have/has ever + V3",
+          "note_tr": "Yaşanmışlık: şimdiye dek ... .",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "'ve ever seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 74,
+          "span_end": 87
+        },
+        {
+          "pattern": "is",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 8
+        }
+      ],
+      "vocab": [
+        {
+          "word": "bright",
+          "text_tr": "parlak",
+          "pos": "adjective",
+          "cefr": "A2"
+        },
+        {
+          "word": "flash",
+          "text_tr": "parlama, flaş",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "is",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 80900,
+          "end_ms": 81040
+        },
+        {
+          "surface": "bright",
+          "lemma": "bright",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 81080,
+          "end_ms": 81400
+        },
+        {
+          "surface": "flash",
+          "lemma": "flash",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 81400,
+          "end_ms": 81620
+        },
+        {
+          "surface": "brighter",
+          "lemma": "bright",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 82120,
+          "end_ms": 82160
+        },
+        {
+          "surface": "sun",
+          "lemma": "sun",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 82600,
+          "end_ms": 82820
+        },
+        {
+          "surface": "brighter",
+          "lemma": "bright",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 83060,
+          "end_ms": 83180
+        },
+        {
+          "surface": "ever",
+          "lemma": "ever",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 84000,
+          "end_ms": 84160
+        },
+        {
+          "surface": "seen",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 84160,
+          "end_ms": 84400
+        }
+      ]
+    },
+    {
+      "idx": 25,
+      "start_ms": 85180,
+      "end_ms": 88580,
+      "text_en": "If you were not ready and did not know what to do,",
+      "text_tr": "Hazır değilsen ve ne yapacağını bilmiyorsan,",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "if + geçmiş (koşul)",
+          "note_tr": "Koşul cümlesi.",
+          "cefr": "B1"
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "ready",
+          "lemma": "ready",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 86120,
+          "end_ms": 86480
+        },
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 87260,
+          "end_ms": 87580
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 87940,
+          "end_ms": 88200
+        }
+      ]
+    },
+    {
+      "idx": 26,
+      "start_ms": 88680,
+      "end_ms": 90680,
+      "text_en": "it could hurt you and...",
+      "text_tr": "sana zarar verebilir ve...",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could + V",
+          "note_tr": "Olasılık: zarar verebilir.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "could hurt",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 3,
+          "span_end": 13
+        }
+      ],
+      "vocab": [
+        {
+          "word": "could",
+          "text_tr": "-ebilirdi, olabilir",
+          "pos": "modal",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "hurt",
+          "lemma": "hurt",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 89220,
+          "end_ms": 89420
+        }
+      ]
+    }
   ]
 }

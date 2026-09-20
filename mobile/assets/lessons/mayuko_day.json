@@ -4,5 +4,107 @@
   "topic": "software",
   "license": "",
   "cefr": "B1",
-  "sentences": []
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 27140,
+      "end_ms": 29980,
+      "text_en": "Thanks for watching, and I'll see you in the next video.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 26,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 124720,
+      "end_ms": 125820,
+      "text_en": "Okay.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 126120,
+      "end_ms": 127480,
+      "text_en": "Okay, go ahead.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 127480,
+      "end_ms": 127980,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 149380,
+      "end_ms": 151180,
+      "text_en": "and put it in.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "put",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 4,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 259600,
+      "end_ms": 267680,
+      "text_en": "Thank you very much for watching, and I'll see you in the next video.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 39,
+          "span_end": 46
+        },
+        {
+          "pattern": "Thank",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 0,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    }
+  ]
 }

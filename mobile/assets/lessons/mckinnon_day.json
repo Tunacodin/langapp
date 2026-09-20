@@ -1,0 +1,5137 @@
+{
+  "video_id": "mckinnon_day",
+  "title": "Peter McKinnon day in the life coffee",
+  "topic": "daily",
+  "license": "",
+  "cefr": "B1",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 1940,
+      "end_ms": 13000,
+      "text_en": "Hi, the last few weeks have definitely sucked a lot, but I want to say thank you to everyone who reached out I am still recovering from surgery, but I'm doing a whole lot better I'm back in America",
+      "text_tr": "Selam, son birkac hafta gercekten berbat gecti ama bana ulasan herkese tesekkur etmek istiyorum. Hala ameliyattan iyilesiyorum ama cok daha iyiyim, Amerika'ya dondum.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "the last few weeks",
+          "text_tr": "son birkac hafta",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "the last few weeks"
+        },
+        {
+          "text_en": "reached out",
+          "text_tr": "ulasmak, iletisime gecmek",
+          "type": "phrasal_verb",
+          "cefr": "B2",
+          "norm_key": "reach out"
+        },
+        {
+          "text_en": "recovering from",
+          "text_tr": "-den iyilesmek/toparlanmak",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "recover from"
+        },
+        {
+          "text_en": "a whole lot better",
+          "text_tr": "cok ama cok daha iyi",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "a whole lot better"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "everyone who + [yuklem]",
+          "note_tr": "Insanlari tanimlar: 'everyone who reached out' = ulasan herkes.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "have definitely sucked",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 23,
+          "span_end": 45
+        },
+        {
+          "pattern": "am still recovering",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 111,
+          "span_end": 130
+        },
+        {
+          "pattern": "'m doing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 150,
+          "span_end": 158
+        },
+        {
+          "pattern": "who reached out",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 93,
+          "span_end": 108
+        },
+        {
+          "pattern": "reached",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 97,
+          "span_end": 104
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 59,
+          "span_end": 63
+        },
+        {
+          "pattern": "thank",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 71,
+          "span_end": 76
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 13,
+          "span_end": 16
+        }
+      ],
+      "vocab": [
+        {
+          "word": "sucked",
+          "lemma": "suck",
+          "text_tr": "berbat olmak (argo)",
+          "pos": "verb",
+          "cefr": "B2"
+        },
+        {
+          "word": "recovering",
+          "lemma": "recover",
+          "text_tr": "iyilesmek, toparlanmak",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "surgery",
+          "lemma": "surgery",
+          "text_tr": "ameliyat",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "last",
+          "lemma": "last",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 2720,
+          "end_ms": 4300
+        },
+        {
+          "surface": "few",
+          "lemma": "few",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 4300,
+          "end_ms": 4500
+        },
+        {
+          "surface": "weeks",
+          "lemma": "week",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 4500,
+          "end_ms": 4700
+        },
+        {
+          "surface": "definitely",
+          "lemma": "definitely",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 4860,
+          "end_ms": 5180
+        },
+        {
+          "surface": "sucked",
+          "lemma": "suck",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 5180,
+          "end_ms": 5560
+        },
+        {
+          "surface": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 5880,
+          "end_ms": 6080
+        },
+        {
+          "surface": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 6620,
+          "end_ms": 6720
+        },
+        {
+          "surface": "say",
+          "lemma": "say",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 6800,
+          "end_ms": 6920
+        },
+        {
+          "surface": "thank",
+          "lemma": "thank",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 6920,
+          "end_ms": 7120
+        },
+        {
+          "surface": "reached",
+          "lemma": "reach",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 8000,
+          "end_ms": 8180
+        },
+        {
+          "surface": "still",
+          "lemma": "still",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 9220,
+          "end_ms": 9460
+        },
+        {
+          "surface": "recovering",
+          "lemma": "recover",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 9460,
+          "end_ms": 9740
+        },
+        {
+          "surface": "surgery",
+          "lemma": "surgery",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 10140,
+          "end_ms": 10360
+        },
+        {
+          "surface": "doing",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 10760,
+          "end_ms": 10920
+        },
+        {
+          "surface": "whole",
+          "lemma": "whole",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 11040,
+          "end_ms": 11280
+        },
+        {
+          "surface": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 11280,
+          "end_ms": 11460
+        },
+        {
+          "surface": "better",
+          "lemma": "well",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 11460,
+          "end_ms": 11660
+        },
+        {
+          "surface": "back",
+          "lemma": "back",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 12520,
+          "end_ms": 12680
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "start_ms": 13000,
+      "end_ms": 24160,
+      "text_en": "and just taking it easy for the time being the title of this video is true I finally met Peter this happened a few months back, but I wanted to take my time to tell the story The right way it means a lot to me",
+      "text_tr": "ve simdilik sadece sakin takiliyorum. Bu videonun basligi dogru, sonunda Peter'la tanistim. Bu birkac ay once oldu ama hikayeyi dogru sekilde anlatmak icin acele etmek istemedim; bu benim icin cok sey ifade ediyor.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "taking it easy",
+          "text_tr": "sakin olmak, rahatina bakmak",
+          "type": "idiom",
+          "cefr": "B1",
+          "norm_key": "take it easy"
+        },
+        {
+          "text_en": "for the time being",
+          "text_tr": "simdilik, su an icin",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "for the time being"
+        },
+        {
+          "text_en": "take my time",
+          "text_tr": "acele etmemek, zamanini ayirmak",
+          "type": "idiom",
+          "cefr": "B1",
+          "norm_key": "take one's time"
+        },
+        {
+          "text_en": "a few months back",
+          "text_tr": "birkac ay once",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "a few months back"
+        },
+        {
+          "text_en": "means a lot to me",
+          "text_tr": "benim icin cok sey ifade eder",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "mean a lot to someone"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "finally + [gecmis fiil]",
+          "note_tr": "Uzun beklenen bir seyin olmasi: 'I finally met' = sonunda tanistim.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "met",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 85,
+          "span_end": 88
+        },
+        {
+          "pattern": "happened",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 100,
+          "span_end": 108
+        },
+        {
+          "pattern": "wanted",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 134,
+          "span_end": 140
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 192,
+          "span_end": 197
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 111,
+          "span_end": 114
+        }
+      ],
+      "vocab": [
+        {
+          "word": "title",
+          "lemma": "title",
+          "text_tr": "baslik",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 13520,
+          "end_ms": 13700
+        },
+        {
+          "surface": "taking",
+          "lemma": "take",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 13700,
+          "end_ms": 13960
+        },
+        {
+          "surface": "easy",
+          "lemma": "easy",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 14180,
+          "end_ms": 14300
+        },
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 14680,
+          "end_ms": 14840
+        },
+        {
+          "surface": "title",
+          "lemma": "title",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 15640,
+          "end_ms": 15860
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 16140,
+          "end_ms": 16300
+        },
+        {
+          "surface": "true",
+          "lemma": "true",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 16440,
+          "end_ms": 16620
+        },
+        {
+          "surface": "finally",
+          "lemma": "finally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 17080,
+          "end_ms": 17280
+        },
+        {
+          "surface": "met",
+          "lemma": "meet",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 17280,
+          "end_ms": 17580
+        },
+        {
+          "surface": "happened",
+          "lemma": "happen",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 18320,
+          "end_ms": 18560
+        },
+        {
+          "surface": "few",
+          "lemma": "few",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 18860,
+          "end_ms": 19040
+        },
+        {
+          "surface": "months",
+          "lemma": "month",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 19040,
+          "end_ms": 19240
+        },
+        {
+          "surface": "back",
+          "lemma": "back",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 19240,
+          "end_ms": 19520
+        },
+        {
+          "surface": "wanted",
+          "lemma": "want",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 20140,
+          "end_ms": 20260
+        },
+        {
+          "surface": "take",
+          "lemma": "take",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 20420,
+          "end_ms": 20560
+        },
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 20680,
+          "end_ms": 20920
+        },
+        {
+          "surface": "tell",
+          "lemma": "tell",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 21140,
+          "end_ms": 21400
+        },
+        {
+          "surface": "story",
+          "lemma": "story",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 21540,
+          "end_ms": 21920
+        },
+        {
+          "surface": "right",
+          "lemma": "right",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 22760,
+          "end_ms": 22920
+        },
+        {
+          "surface": "way",
+          "lemma": "way",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 22920,
+          "end_ms": 23120
+        },
+        {
+          "surface": "means",
+          "lemma": "mean",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 23400,
+          "end_ms": 23560
+        },
+        {
+          "surface": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 23680,
+          "end_ms": 23840
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "start_ms": 24160,
+      "end_ms": 32900,
+      "text_en": "in terms of being a full circle part of my journey going from seeing someone online That I really looked up to to being a friend with them and being able to just text him I don't know.",
+      "text_tr": "yolculugumun tam bir donguyu tamamlayan parcasi olmasi acisindan; hayran oldugum birini internette gormekten, onunla arkadas olup ona mesaj atabilmeye gecmek. Bilemiyorum.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "in terms of",
+          "text_tr": "-e gore, ... acisindan",
+          "type": "connector",
+          "cefr": "B2",
+          "norm_key": "in terms of"
+        },
+        {
+          "text_en": "full circle",
+          "text_tr": "bir donguyu tamamlamak, basa donmek",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "full circle"
+        },
+        {
+          "text_en": "looked up to",
+          "text_tr": "hayran olmak, ornek almak, saygi duymak",
+          "type": "phrasal_verb",
+          "cefr": "B2",
+          "norm_key": "look up to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "go from ... to ...",
+          "note_tr": "Bir durumdan digerine gecis: 'going from seeing ... to being ...' = ... halinden ... haline gecmek.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "looked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 98,
+          "span_end": 104
+        }
+      ],
+      "vocab": [
+        {
+          "word": "journey",
+          "lemma": "journey",
+          "text_tr": "yolculuk, surec",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "text",
+          "lemma": "text",
+          "text_tr": "mesaj atmak",
+          "pos": "verb",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "terms",
+          "lemma": "term",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 24380,
+          "end_ms": 24580
+        },
+        {
+          "surface": "full",
+          "lemma": "full",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 25680,
+          "end_ms": 25900
+        },
+        {
+          "surface": "circle",
+          "lemma": "circle",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 25900,
+          "end_ms": 26220
+        },
+        {
+          "surface": "part",
+          "lemma": "part",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 26220,
+          "end_ms": 26560
+        },
+        {
+          "surface": "journey",
+          "lemma": "journey",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 26800,
+          "end_ms": 27080
+        },
+        {
+          "surface": "going",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 27080,
+          "end_ms": 27340
+        },
+        {
+          "surface": "seeing",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 27600,
+          "end_ms": 27800
+        },
+        {
+          "surface": "online",
+          "lemma": "online",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 28080,
+          "end_ms": 28360
+        },
+        {
+          "surface": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 28700,
+          "end_ms": 28840
+        },
+        {
+          "surface": "looked",
+          "lemma": "look",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 28840,
+          "end_ms": 29100
+        },
+        {
+          "surface": "friend",
+          "lemma": "friend",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 30460,
+          "end_ms": 30620
+        },
+        {
+          "surface": "able",
+          "lemma": "able",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 31200,
+          "end_ms": 31420
+        },
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 31540,
+          "end_ms": 31700
+        },
+        {
+          "surface": "text",
+          "lemma": "text",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 31700,
+          "end_ms": 31880
+        },
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 32800,
+          "end_ms": 32900
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "start_ms": 33160,
+      "end_ms": 37920,
+      "text_en": "I think it's really cool and hopefully some of you can take something away from this and that's it.",
+      "text_tr": "Bence gercekten cok guzel ve umarim bazilariniz bundan bir sey kapabilir, hepsi bu.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "take something away from",
+          "text_tr": "bir seyden ders/pay cikarmak, bir sey kapmak",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "take something away from"
+        },
+        {
+          "text_en": "that's it",
+          "text_tr": "hepsi bu, bu kadar",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "that's it"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "hopefully + [cumle]",
+          "note_tr": "Umut belirtir: 'hopefully some of you can' = umarim bazilariniz ...",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "can take",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 51,
+          "span_end": 59
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 33300,
+          "end_ms": 33400
+        },
+        {
+          "surface": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 33160,
+          "end_ms": 37920
+        },
+        {
+          "surface": "cool",
+          "lemma": "cool",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 33160,
+          "end_ms": 37920
+        },
+        {
+          "surface": "hopefully",
+          "lemma": "hopefully",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 33160,
+          "end_ms": 37920
+        },
+        {
+          "surface": "take",
+          "lemma": "take",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 33160,
+          "end_ms": 37920
+        },
+        {
+          "surface": "away",
+          "lemma": "away",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 33160,
+          "end_ms": 37920
+        }
+      ],
+      "category": "opinions",
+      "category_group": "daily"
+    },
+    {
+      "idx": 4,
+      "start_ms": 38240,
+      "end_ms": 38660,
+      "text_en": "Okay",
+      "text_tr": "Tamam",
+      "cefr": "A1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 39480,
+      "end_ms": 40500,
+      "text_en": "Enjoy the video",
+      "text_tr": "Iyi seyirler",
+      "cefr": "A2",
+      "chunks": [
+        {
+          "text_en": "enjoy the video",
+          "text_tr": "iyi seyirler, videonun tadini cikarin",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "enjoy the video"
+        }
+      ],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "enjoy",
+          "lemma": "enjoy",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 39480,
+          "end_ms": 39920
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 40200,
+          "end_ms": 40500
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "start_ms": 43280,
+      "end_ms": 54540,
+      "text_en": "About two years ago I was sitting on a couch with my buddy Chase when he pulled up a video by a guy named Peter McKinnon Now what immediately caught my eye was not only how good he was at making videos But mostly how",
+      "text_tr": "Yaklasik iki yil once arkadasim Chase ile kanepede oturuyordum, o sirada Peter McKinnon adinda birinin videosunu acti. Hemen dikkatimi ceken sey, sadece video yapmakta ne kadar iyi oldugu degildi; asil olarak ne kadar...",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "about two years ago",
+          "text_tr": "yaklasik iki yil once",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "years ago"
+        },
+        {
+          "text_en": "my buddy",
+          "text_tr": "arkadasim, dostum",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "my buddy"
+        },
+        {
+          "text_en": "pulled up",
+          "text_tr": "(ekranda) acmak, getirmek",
+          "type": "phrasal_verb",
+          "cefr": "B2",
+          "norm_key": "pull up"
+        },
+        {
+          "text_en": "caught my eye",
+          "text_tr": "dikkatimi cekti, gozume carpti",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "catch one's eye"
+        },
+        {
+          "text_en": "good at",
+          "text_tr": "-de iyi, -de yetenekli",
+          "type": "collocation",
+          "cefr": "A2",
+          "norm_key": "good at"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "was + [fiil]-ing when ...",
+          "note_tr": "Bir sey olurken baska sey oldu: 'I was sitting ... when he pulled up' = otururken acti.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "not only ... but ...",
+          "note_tr": "Iki seyi vurgular: 'not only how good ... but mostly how ...' = sadece ... degil, asil ...",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "was sitting",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 22,
+          "span_end": 33
+        },
+        {
+          "pattern": "how good he was at making videos",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 169,
+          "span_end": 201
+        },
+        {
+          "pattern": "pulled",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 73,
+          "span_end": 79
+        },
+        {
+          "pattern": "caught",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 142,
+          "span_end": 148
+        }
+      ],
+      "vocab": [
+        {
+          "word": "couch",
+          "lemma": "couch",
+          "text_tr": "kanepe",
+          "pos": "noun",
+          "cefr": "A2"
+        },
+        {
+          "word": "immediately",
+          "lemma": "immediate",
+          "text_tr": "hemen, aninda",
+          "pos": "adverb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "about",
+          "lemma": "about",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 43280,
+          "end_ms": 43720
+        },
+        {
+          "surface": "years",
+          "lemma": "year",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 44160,
+          "end_ms": 44340
+        },
+        {
+          "surface": "ago",
+          "lemma": "ago",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 44340,
+          "end_ms": 44540
+        },
+        {
+          "surface": "sitting",
+          "lemma": "sit",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 44780,
+          "end_ms": 44940
+        },
+        {
+          "surface": "couch",
+          "lemma": "couch",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 45180,
+          "end_ms": 45420
+        },
+        {
+          "surface": "buddy",
+          "lemma": "buddy",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 45940,
+          "end_ms": 46120
+        },
+        {
+          "surface": "pulled",
+          "lemma": "pull",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 46980,
+          "end_ms": 47120
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 47360,
+          "end_ms": 47620
+        },
+        {
+          "surface": "guy",
+          "lemma": "guy",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 47980,
+          "end_ms": 48180
+        },
+        {
+          "surface": "named",
+          "lemma": "name",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 48180,
+          "end_ms": 48320
+        },
+        {
+          "surface": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 49020,
+          "end_ms": 49600
+        },
+        {
+          "surface": "immediately",
+          "lemma": "immediately",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 49820,
+          "end_ms": 50140
+        },
+        {
+          "surface": "caught",
+          "lemma": "catch",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 50140,
+          "end_ms": 50480
+        },
+        {
+          "surface": "eye",
+          "lemma": "eye",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 50660,
+          "end_ms": 50920
+        },
+        {
+          "surface": "only",
+          "lemma": "only",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 51340,
+          "end_ms": 51540
+        },
+        {
+          "surface": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 51800,
+          "end_ms": 52000
+        },
+        {
+          "surface": "making",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 52600,
+          "end_ms": 52800
+        },
+        {
+          "surface": "videos",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 52800,
+          "end_ms": 53180
+        },
+        {
+          "surface": "mostly",
+          "lemma": "mostly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 53900,
+          "end_ms": 54120
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "start_ms": 54540,
+      "end_ms": 65580,
+      "text_en": "good he was at connecting with people Peter quickly became one of my favorite people to watch online and this is a story about how I went from being a subscriber Watching him on my couch to",
+      "text_tr": "insanlarla baglanti kurmakta iyiydi. Peter cabucak internette izledigim en sevdigim insanlardan biri oldu ve bu, kanepede onu izleyen bir aboneyken nasil ... haline geldigimin hikayesi.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "connecting with people",
+          "text_tr": "insanlarla baglanti kurmak",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "connect with people"
+        },
+        {
+          "text_en": "one of my favorite",
+          "text_tr": "en sevdigim ... lardan biri",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "one of my favorite"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "go from ... to ...",
+          "note_tr": "Degisim/gecis: 'I went from being a subscriber to ...' = aboneyken ... haline geldim.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "became",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 52,
+          "span_end": 58
+        },
+        {
+          "pattern": "went",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 133,
+          "span_end": 137
+        }
+      ],
+      "vocab": [
+        {
+          "word": "subscriber",
+          "lemma": "subscribe",
+          "text_tr": "abone",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 54540,
+          "end_ms": 54740
+        },
+        {
+          "surface": "connecting",
+          "lemma": "connect",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 55460,
+          "end_ms": 55680
+        },
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 56200,
+          "end_ms": 56740
+        },
+        {
+          "surface": "quickly",
+          "lemma": "quickly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 57360,
+          "end_ms": 57640
+        },
+        {
+          "surface": "became",
+          "lemma": "become",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 57640,
+          "end_ms": 58060
+        },
+        {
+          "surface": "favorite",
+          "lemma": "favorite",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 58460,
+          "end_ms": 58700
+        },
+        {
+          "surface": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 58700,
+          "end_ms": 58980
+        },
+        {
+          "surface": "watch",
+          "lemma": "watch",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 59120,
+          "end_ms": 59320
+        },
+        {
+          "surface": "online",
+          "lemma": "online",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 59320,
+          "end_ms": 59940
+        },
+        {
+          "surface": "story",
+          "lemma": "story",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 60800,
+          "end_ms": 61140
+        },
+        {
+          "surface": "went",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 61840,
+          "end_ms": 62020
+        },
+        {
+          "surface": "subscriber",
+          "lemma": "subscriber",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 62780,
+          "end_ms": 63100
+        },
+        {
+          "surface": "watching",
+          "lemma": "watch",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 63100,
+          "end_ms": 63840
+        },
+        {
+          "surface": "couch",
+          "lemma": "couch",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 64640,
+          "end_ms": 64920
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "start_ms": 65580,
+      "end_ms": 68940,
+      "text_en": "being a friend grabbing a cup of coffee with him in real life",
+      "text_tr": "gercek hayatta onunla bir kahve icen bir arkadas olmaya.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "grab a cup of coffee",
+          "text_tr": "bir kahve kapmak/icmek",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "grab a cup of coffee"
+        },
+        {
+          "text_en": "in real life",
+          "text_tr": "gercek hayatta",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "in real life"
+        }
+      ],
+      "grammar": [],
+      "vocab": [
+        {
+          "word": "grabbing",
+          "lemma": "grab",
+          "text_tr": "kapmak, almak",
+          "pos": "verb",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "friend",
+          "lemma": "friend",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 66100,
+          "end_ms": 66380
+        },
+        {
+          "surface": "grabbing",
+          "lemma": "grab",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 66380,
+          "end_ms": 66860
+        },
+        {
+          "surface": "cup",
+          "lemma": "cup",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 67080,
+          "end_ms": 67220
+        },
+        {
+          "surface": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 67340,
+          "end_ms": 67660
+        },
+        {
+          "surface": "real",
+          "lemma": "real",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 68400,
+          "end_ms": 68660
+        },
+        {
+          "surface": "life",
+          "lemma": "life",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 68660,
+          "end_ms": 68940
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "start_ms": 69720,
+      "end_ms": 71540,
+      "text_en": "So there's a good chance by now.",
+      "text_tr": "Yani su ana kadar buyuk ihtimalle.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "there's a good chance",
+          "text_tr": "buyuk ihtimal var, olasi",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "there is a good chance"
+        },
+        {
+          "text_en": "by now",
+          "text_tr": "su ana kadar, artik",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "by now"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 10
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 69720,
+          "end_ms": 70240
+        },
+        {
+          "surface": "'s",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 69720,
+          "end_ms": 71540
+        },
+        {
+          "surface": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 70600,
+          "end_ms": 70700
+        },
+        {
+          "surface": "chance",
+          "lemma": "chance",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 70700,
+          "end_ms": 70980
+        },
+        {
+          "surface": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 71280,
+          "end_ms": 71540
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "start_ms": 71540,
+      "end_ms": 82600,
+      "text_en": "You already know the first part of this story My friends and I got together to make a music video about Peter to get his attention We had a hell of a time doing what we do best, which",
+      "text_tr": "Bu hikayenin ilk kismini zaten biliyorsunuz. Arkadaslarimla bir araya gelip Peter'in dikkatini cekmek icin bir muzik videosu yaptik. En iyi yaptigimiz seyi yaparken cok eglendik, ki o da...",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "got together",
+          "text_tr": "bir araya gelmek, toplanmak",
+          "type": "phrasal_verb",
+          "cefr": "B1",
+          "norm_key": "get together"
+        },
+        {
+          "text_en": "get his attention",
+          "text_tr": "dikkatini cekmek",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "get attention"
+        },
+        {
+          "text_en": "had a hell of a time",
+          "text_tr": "cok eglendik / cok zorlandik (baglama gore)",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "have a hell of a time"
+        },
+        {
+          "text_en": "what we do best",
+          "text_tr": "en iyi yaptigimiz sey",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "what one does best"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "already + [gecmis fiil]",
+          "note_tr": "Onceden olmus bir sey: 'you already know' = zaten biliyorsunuz.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "what we do best",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 161,
+          "span_end": 176
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 63,
+          "span_end": 66
+        },
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 134,
+          "span_end": 137
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 16
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 169,
+          "span_end": 171
+        }
+      ],
+      "vocab": [
+        {
+          "word": "attention",
+          "lemma": "attention",
+          "text_tr": "dikkat, ilgi",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "already",
+          "lemma": "already",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 71780,
+          "end_ms": 72060
+        },
+        {
+          "surface": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 72060,
+          "end_ms": 72400
+        },
+        {
+          "surface": "first",
+          "lemma": "first",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 72580,
+          "end_ms": 72800
+        },
+        {
+          "surface": "part",
+          "lemma": "part",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 72800,
+          "end_ms": 73120
+        },
+        {
+          "surface": "story",
+          "lemma": "story",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 73600,
+          "end_ms": 73940
+        },
+        {
+          "surface": "friends",
+          "lemma": "friend",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 74840,
+          "end_ms": 75040
+        },
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 75320,
+          "end_ms": 75480
+        },
+        {
+          "surface": "together",
+          "lemma": "together",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 75480,
+          "end_ms": 75720
+        },
+        {
+          "surface": "make",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 76140,
+          "end_ms": 76460
+        },
+        {
+          "surface": "music",
+          "lemma": "music",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 76660,
+          "end_ms": 76960
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 76960,
+          "end_ms": 77340
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 78500,
+          "end_ms": 78760
+        },
+        {
+          "surface": "attention",
+          "lemma": "attention",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 78920,
+          "end_ms": 79200
+        },
+        {
+          "surface": "had",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 80120,
+          "end_ms": 80240
+        },
+        {
+          "surface": "hell",
+          "lemma": "hell",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 80360,
+          "end_ms": 80500
+        },
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 80660,
+          "end_ms": 80900
+        },
+        {
+          "surface": "doing",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 80900,
+          "end_ms": 81140
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 81680,
+          "end_ms": 81840
+        },
+        {
+          "surface": "best",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 81840,
+          "end_ms": 82120
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "start_ms": 82600,
+      "end_ms": 87920,
+      "text_en": "is basically just putting So much time and effort into something incredibly stupid",
+      "text_tr": "temelde inanilmaz aptalca bir seye bu kadar cok zaman ve emek harcamak.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "put time and effort into",
+          "text_tr": "-e zaman ve emek harcamak",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "put effort into"
+        },
+        {
+          "text_en": "basically",
+          "text_tr": "temelde, aslinda",
+          "type": "connector",
+          "cefr": "B1",
+          "norm_key": "basically"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "is basically just putting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 0,
+          "span_end": 25
+        },
+        {
+          "pattern": "much",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 29,
+          "span_end": 33
+        }
+      ],
+      "vocab": [
+        {
+          "word": "effort",
+          "lemma": "effort",
+          "text_tr": "caba, emek",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "basically",
+          "lemma": "basically",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 82780,
+          "end_ms": 83200
+        },
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 83200,
+          "end_ms": 83600
+        },
+        {
+          "surface": "putting",
+          "lemma": "put",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 83600,
+          "end_ms": 84020
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 84020,
+          "end_ms": 84900
+        },
+        {
+          "surface": "much",
+          "lemma": "much",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 84900,
+          "end_ms": 85120
+        },
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 85120,
+          "end_ms": 85460
+        },
+        {
+          "surface": "effort",
+          "lemma": "effort",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 85640,
+          "end_ms": 85940
+        },
+        {
+          "surface": "incredibly",
+          "lemma": "incredibly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 86680,
+          "end_ms": 87220
+        },
+        {
+          "surface": "stupid",
+          "lemma": "stupid",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 87220,
+          "end_ms": 87920
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "start_ms": 89100,
+      "end_ms": 100520,
+      "text_en": "I dropped the video with no real expectations and within two hours There was a message in my inbox from Peter himself Imagine that the guy who I had looked up to for so long reaching out to me personally But",
+      "text_tr": "Videoyu hicbir gercek beklenti olmadan yayinladim ve iki saat icinde gelen kutuma bizzat Peter'dan bir mesaj geldi. Dusunun, o kadar uzun sure hayran oldugum adam bana sahsen ulasiyor. Ama...",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "dropped the video",
+          "text_tr": "videoyu yayinlamak/paylasmak",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "drop a video"
+        },
+        {
+          "text_en": "with no real expectations",
+          "text_tr": "hicbir gercek beklenti olmadan",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "with no expectations"
+        },
+        {
+          "text_en": "within two hours",
+          "text_tr": "iki saat icinde",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "within X hours"
+        },
+        {
+          "text_en": "reaching out to me",
+          "text_tr": "bana ulasmak",
+          "type": "phrasal_verb",
+          "cefr": "B2",
+          "norm_key": "reach out"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "the guy who I had looked up to",
+          "note_tr": "Gecmisin oncesi (past perfect) + ilgi cumlesi: 'had looked up to' = (o ana kadar) hayran oldugum.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "had looked",
+          "note_tr": "Past Perfect vs. Simple Past",
+          "cefr": "B1",
+          "norm_pattern": "past_perfect_had_v3",
+          "span_start": 145,
+          "span_end": 155
+        },
+        {
+          "pattern": "who I had looked up to for so long reaching out to me personally",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 139,
+          "span_end": 203
+        },
+        {
+          "pattern": "dropped",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "was",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 73,
+          "span_end": 76
+        },
+        {
+          "pattern": "Imagine",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 118,
+          "span_end": 125
+        }
+      ],
+      "vocab": [
+        {
+          "word": "expectations",
+          "lemma": "expect",
+          "text_tr": "beklentiler",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "inbox",
+          "lemma": "inbox",
+          "text_tr": "gelen kutusu",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "dropped",
+          "lemma": "drop",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 89580,
+          "end_ms": 89740
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 89960,
+          "end_ms": 90220
+        },
+        {
+          "surface": "real",
+          "lemma": "real",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 90560,
+          "end_ms": 90760
+        },
+        {
+          "surface": "expectations",
+          "lemma": "expectation",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 90760,
+          "end_ms": 91140
+        },
+        {
+          "surface": "hours",
+          "lemma": "hour",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 92440,
+          "end_ms": 92780
+        },
+        {
+          "surface": "was",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 93020,
+          "end_ms": 93120
+        },
+        {
+          "surface": "message",
+          "lemma": "message",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 93200,
+          "end_ms": 93440
+        },
+        {
+          "surface": "inbox",
+          "lemma": "inbox",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 93760,
+          "end_ms": 94040
+        },
+        {
+          "surface": "imagine",
+          "lemma": "imagine",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 95680,
+          "end_ms": 95920
+        },
+        {
+          "surface": "guy",
+          "lemma": "guy",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 96780,
+          "end_ms": 96960
+        },
+        {
+          "surface": "looked",
+          "lemma": "look",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 97300,
+          "end_ms": 97420
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 97940,
+          "end_ms": 98100
+        },
+        {
+          "surface": "long",
+          "lemma": "long",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 98100,
+          "end_ms": 98400
+        },
+        {
+          "surface": "reaching",
+          "lemma": "reach",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 98400,
+          "end_ms": 98860
+        },
+        {
+          "surface": "personally",
+          "lemma": "personally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 99480,
+          "end_ms": 99820
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "start_ms": 100520,
+      "end_ms": 103380,
+      "text_en": "what Peter did next would change my life forever",
+      "text_tr": "Peter'in sonra yaptigi sey hayatimi sonsuza dek degistirecekti.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "change my life forever",
+          "text_tr": "hayatimi sonsuza dek degistirmek",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "change one's life forever"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "would + [fiil] (gecmiste gelecek)",
+          "note_tr": "Gecmiste sonra olacak bir sey: 'would change' = degistirecekti.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "would change",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 20,
+          "span_end": 32
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "next",
+          "lemma": "next",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 101100,
+          "end_ms": 101460
+        },
+        {
+          "surface": "change",
+          "lemma": "change",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 102140,
+          "end_ms": 102320
+        },
+        {
+          "surface": "life",
+          "lemma": "life",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 102620,
+          "end_ms": 102820
+        },
+        {
+          "surface": "forever",
+          "lemma": "forever",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 102820,
+          "end_ms": 103380
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "start_ms": 104200,
+      "end_ms": 110760,
+      "text_en": "Wait, wait, wait, wait, wait go follow Sam Newton that dude deserves a subscription Incredible video.",
+      "text_tr": "Dur, dur, dur, dur, dur; gidip Sam Newton'i takip edin, o adam bir abonelik hak ediyor. Muhtesem video.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "go follow",
+          "text_tr": "gidip takip et",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "go follow"
+        },
+        {
+          "text_en": "that dude",
+          "text_tr": "o adam, o eleman",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "that dude"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "that dude",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 50,
+          "span_end": 59
+        },
+        {
+          "pattern": "dude",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 55,
+          "span_end": 59
+        },
+        {
+          "pattern": "deserves",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 60,
+          "span_end": 68
+        }
+      ],
+      "vocab": [
+        {
+          "word": "deserves",
+          "lemma": "deserve",
+          "text_tr": "hak etmek",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "wait",
+          "lemma": "wait",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 104200,
+          "end_ms": 104680
+        },
+        {
+          "surface": "wait",
+          "lemma": "wait",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 104920,
+          "end_ms": 104920
+        },
+        {
+          "surface": "wait",
+          "lemma": "wait",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 105120,
+          "end_ms": 105220
+        },
+        {
+          "surface": "wait",
+          "lemma": "wait",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 105320,
+          "end_ms": 105340
+        },
+        {
+          "surface": "wait",
+          "lemma": "wait",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 105340,
+          "end_ms": 105420
+        },
+        {
+          "surface": "go",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 105420,
+          "end_ms": 105900
+        },
+        {
+          "surface": "follow",
+          "lemma": "follow",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 105900,
+          "end_ms": 106160
+        },
+        {
+          "surface": "dude",
+          "lemma": "dude",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 107620,
+          "end_ms": 107900
+        },
+        {
+          "surface": "deserves",
+          "lemma": "deserve",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 107900,
+          "end_ms": 108440
+        },
+        {
+          "surface": "subscription",
+          "lemma": "subscription",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 108700,
+          "end_ms": 109380
+        },
+        {
+          "surface": "incredible",
+          "lemma": "incredible",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 109960,
+          "end_ms": 110200
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 110200,
+          "end_ms": 110760
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "start_ms": 111000,
+      "end_ms": 112100,
+      "text_en": "He's going about things different.",
+      "text_tr": "Isleri farkli sekilde yapiyor.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "going about things",
+          "text_tr": "isleri (bir sekilde) yapmak/yurutmek",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "go about things"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "'s going",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 10
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "going",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 111160,
+          "end_ms": 111280
+        },
+        {
+          "surface": "things",
+          "lemma": "thing",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 111460,
+          "end_ms": 111720
+        },
+        {
+          "surface": "different",
+          "lemma": "different",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 111720,
+          "end_ms": 112100
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "start_ms": 112540,
+      "end_ms": 118560,
+      "text_en": "I like that I respect that and I hope you guys give him the chance check out his work Tell him I sent you so Sam.",
+      "text_tr": "Bunu seviyorum, buna saygi duyuyorum ve umarim ona bir sans verirsiniz, isine bir goz atin. Ona sizi benim yolladigimi soyleyin, Sam.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "give him the chance",
+          "text_tr": "ona sans vermek, firsat tanimak",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "give someone a chance"
+        },
+        {
+          "text_en": "check out",
+          "text_tr": "goz atmak, bakmak, incelemek",
+          "type": "phrasal_verb",
+          "cefr": "B1",
+          "norm_key": "check out"
+        },
+        {
+          "text_en": "tell him I sent you",
+          "text_tr": "ona seni benim yolladigimi soyle",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "tell them I sent you"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "sent",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 97,
+          "span_end": 101
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "respect",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 21
+        },
+        {
+          "pattern": "hope",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 33,
+          "span_end": 37
+        },
+        {
+          "pattern": "give",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 47,
+          "span_end": 51
+        }
+      ],
+      "vocab": [
+        {
+          "word": "respect",
+          "lemma": "respect",
+          "text_tr": "saygi duymak",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 112680,
+          "end_ms": 112820
+        },
+        {
+          "surface": "respect",
+          "lemma": "respect",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 113480,
+          "end_ms": 113780
+        },
+        {
+          "surface": "hope",
+          "lemma": "hope",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 114380,
+          "end_ms": 114460
+        },
+        {
+          "surface": "guys",
+          "lemma": "guy",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 114580,
+          "end_ms": 114720
+        },
+        {
+          "surface": "give",
+          "lemma": "give",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 114720,
+          "end_ms": 114960
+        },
+        {
+          "surface": "chance",
+          "lemma": "chance",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 115180,
+          "end_ms": 115400
+        },
+        {
+          "surface": "check",
+          "lemma": "check",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 115400,
+          "end_ms": 116080
+        },
+        {
+          "surface": "work",
+          "lemma": "work",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 116340,
+          "end_ms": 116620
+        },
+        {
+          "surface": "tell",
+          "lemma": "tell",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 116620,
+          "end_ms": 117260
+        },
+        {
+          "surface": "sent",
+          "lemma": "send",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 117460,
+          "end_ms": 117680
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 117880,
+          "end_ms": 118340
+        }
+      ],
+      "category": "opinions",
+      "category_group": "daily"
+    },
+    {
+      "idx": 17,
+      "start_ms": 118800,
+      "end_ms": 123200,
+      "text_en": "Thanks so much incredible video You and I are most certainly getting a coffee under one condition.",
+      "text_tr": "Cok tesekkurler, muhtesem video. Sen ve ben kesinlikle bir kahve icecegiz, tek bir sartla.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "thanks so much",
+          "text_tr": "cok tesekkurler",
+          "type": "expression",
+          "cefr": "A1",
+          "norm_key": "thanks so much"
+        },
+        {
+          "text_en": "under one condition",
+          "text_tr": "tek bir sartla, bir kosulla",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "under one condition"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "most certainly + [fiil]",
+          "note_tr": "Guclu kesinlik: 'most certainly getting' = kesinlikle ... yapacagiz.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "are most certainly getting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 42,
+          "span_end": 68
+        }
+      ],
+      "vocab": [
+        {
+          "word": "condition",
+          "lemma": "condition",
+          "text_tr": "sart, kosul",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "thanks",
+          "lemma": "thank",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 118800,
+          "end_ms": 119080
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 119080,
+          "end_ms": 119260
+        },
+        {
+          "surface": "much",
+          "lemma": "much",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 119260,
+          "end_ms": 119440
+        },
+        {
+          "surface": "incredible",
+          "lemma": "incredible",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 119440,
+          "end_ms": 119960
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 119960,
+          "end_ms": 120500
+        },
+        {
+          "surface": "most",
+          "lemma": "most",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 121080,
+          "end_ms": 121240
+        },
+        {
+          "surface": "certainly",
+          "lemma": "certainly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 121240,
+          "end_ms": 121720
+        },
+        {
+          "surface": "getting",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 121720,
+          "end_ms": 121980
+        },
+        {
+          "surface": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 122120,
+          "end_ms": 122480
+        },
+        {
+          "surface": "condition",
+          "lemma": "condition",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 122900,
+          "end_ms": 123200
+        }
+      ]
+    },
+    {
+      "idx": 18,
+      "start_ms": 123620,
+      "end_ms": 125780,
+      "text_en": "You need to wear your turtle next sweater",
+      "text_tr": "Balikci yaka kazagini giymen gerek.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "you need to",
+          "text_tr": "... yapman gerek",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "need to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "need to + [fiil]",
+          "note_tr": "Gereklilik: 'you need to wear' = giymen gerek.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "need",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 8
+        }
+      ],
+      "vocab": [
+        {
+          "word": "sweater",
+          "lemma": "sweater",
+          "text_tr": "kazak",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "need",
+          "lemma": "need",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 124120,
+          "end_ms": 124320
+        },
+        {
+          "surface": "wear",
+          "lemma": "wear",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 124520,
+          "end_ms": 124720
+        },
+        {
+          "surface": "turtle",
+          "lemma": "turtle",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 124920,
+          "end_ms": 125260
+        },
+        {
+          "surface": "next",
+          "lemma": "next",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 125260,
+          "end_ms": 125440
+        },
+        {
+          "surface": "sweater",
+          "lemma": "sweater",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 125440,
+          "end_ms": 125780
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "start_ms": 128820,
+      "end_ms": 139820,
+      "text_en": "that happened Peter personally reaching out and inviting me to grab a cup of coffee and Since Peter's Canadian and I'm American the good old Rona kept that from happening for",
+      "text_tr": "iste oldu; Peter bizzat bana ulasip beni bir kahve icmeye davet etti ve Peter Kanadali, ben Amerikaliyim diye o meshur korona bunun olmasini bir sure engelledi.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "reaching out and inviting me",
+          "text_tr": "bana ulasip davet etmek",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "reach out"
+        },
+        {
+          "text_en": "kept that from happening",
+          "text_tr": "bunun olmasini engelledi",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "keep something from happening"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "Since + [sebep], [sonuc]",
+          "note_tr": "Sebep bildirir: 'since Peter's Canadian' = Peter Kanadali oldugu icin.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "keep + [nesne] + from + [fiil]-ing",
+          "note_tr": "Bir seyi engellemek: 'kept that from happening' = olmasini engelledi.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "happened",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 5,
+          "span_end": 13
+        },
+        {
+          "pattern": "kept",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 146,
+          "span_end": 150
+        }
+      ],
+      "vocab": [
+        {
+          "word": "personally",
+          "lemma": "personal",
+          "text_tr": "sahsen, bizzat",
+          "pos": "adverb",
+          "cefr": "B1"
+        },
+        {
+          "word": "inviting",
+          "lemma": "invite",
+          "text_tr": "davet etmek",
+          "pos": "verb",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "happened",
+          "lemma": "happen",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 129320,
+          "end_ms": 129680
+        },
+        {
+          "surface": "personally",
+          "lemma": "personally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 130259,
+          "end_ms": 130860
+        },
+        {
+          "surface": "reaching",
+          "lemma": "reach",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 130860,
+          "end_ms": 131320
+        },
+        {
+          "surface": "inviting",
+          "lemma": "invite",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 131780,
+          "end_ms": 132020
+        },
+        {
+          "surface": "grab",
+          "lemma": "grab",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 132640,
+          "end_ms": 132960
+        },
+        {
+          "surface": "cup",
+          "lemma": "cup",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 133160,
+          "end_ms": 133320
+        },
+        {
+          "surface": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 133500,
+          "end_ms": 133840
+        },
+        {
+          "surface": "american",
+          "lemma": "american",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 136740,
+          "end_ms": 137000
+        },
+        {
+          "surface": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 137760,
+          "end_ms": 137900
+        },
+        {
+          "surface": "old",
+          "lemma": "old",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 137900,
+          "end_ms": 138040
+        },
+        {
+          "surface": "kept",
+          "lemma": "keep",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 138360,
+          "end_ms": 138680
+        },
+        {
+          "surface": "happening",
+          "lemma": "happen",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 139160,
+          "end_ms": 139540
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "start_ms": 139820,
+      "end_ms": 142560,
+      "text_en": "quite a while However, about eight months later.",
+      "text_tr": "epey bir sure. Ancak, yaklasik sekiz ay sonra.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "quite a while",
+          "text_tr": "epey bir sure, uzunca bir zaman",
+          "type": "idiom",
+          "cefr": "B1",
+          "norm_key": "quite a while"
+        },
+        {
+          "text_en": "however",
+          "text_tr": "ancak, buna ragmen",
+          "type": "connector",
+          "cefr": "B1",
+          "norm_key": "however"
+        }
+      ],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "while",
+          "lemma": "while",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 140460,
+          "end_ms": 140720
+        },
+        {
+          "surface": "however",
+          "lemma": "however",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 140720,
+          "end_ms": 141200
+        },
+        {
+          "surface": "about",
+          "lemma": "about",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 141420,
+          "end_ms": 141680
+        },
+        {
+          "surface": "months",
+          "lemma": "month",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 141920,
+          "end_ms": 142140
+        },
+        {
+          "surface": "later",
+          "lemma": "later",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 142140,
+          "end_ms": 142560
+        }
+      ]
+    },
+    {
+      "idx": 21,
+      "start_ms": 142640,
+      "end_ms": 143620,
+      "text_en": "Well, this happened",
+      "text_tr": "Iste, bu oldu.",
+      "cefr": "A2",
+      "chunks": [
+        {
+          "text_en": "this happened",
+          "text_tr": "iste oldu, boyle oldu",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "this happened"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "happened",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 11,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "happened",
+          "lemma": "happen",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 143340,
+          "end_ms": 143620
+        }
+      ]
+    },
+    {
+      "idx": 22,
+      "start_ms": 148540,
+      "end_ms": 151720,
+      "text_en": "Just take that I got I got mine here cheers.",
+      "text_tr": "Al bakalim iste, benimki burada, serefe.",
+      "cefr": "A2",
+      "chunks": [
+        {
+          "text_en": "cheers",
+          "text_tr": "serefe; sag ol",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "cheers"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 17,
+          "span_end": 20
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 23,
+          "span_end": 26
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 148540,
+          "end_ms": 149020
+        },
+        {
+          "surface": "take",
+          "lemma": "take",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 149020,
+          "end_ms": 149200
+        },
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 150520,
+          "end_ms": 150780
+        },
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 150920,
+          "end_ms": 151100
+        },
+        {
+          "surface": "here",
+          "lemma": "here",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 151220,
+          "end_ms": 151500
+        },
+        {
+          "surface": "cheers",
+          "lemma": "cheer",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 151500,
+          "end_ms": 151720
+        }
+      ]
+    },
+    {
+      "idx": 23,
+      "start_ms": 152660,
+      "end_ms": 153300,
+      "text_en": "All right.",
+      "text_tr": "Pekala.",
+      "cefr": "A1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "all",
+          "lemma": "all",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 152660,
+          "end_ms": 153140
+        },
+        {
+          "surface": "right",
+          "lemma": "right",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 153140,
+          "end_ms": 153300
+        }
+      ]
+    },
+    {
+      "idx": 24,
+      "start_ms": 153520,
+      "end_ms": 153640,
+      "text_en": "Yeah",
+      "text_tr": "Evet",
+      "cefr": "A1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 25,
+      "start_ms": 154920,
+      "end_ms": 166120,
+      "text_en": "It finally happened I got to meet the man himself and it might sound weird But it's kind of tough to describe what exactly that day meant to me because obviously it was amazing to meet Peter",
+      "text_tr": "Sonunda oldu, adamin ta kendisiyle tanisma firsati buldum ve kulaga tuhaf gelebilir ama o gunun benim icin tam olarak ne ifade ettigini anlatmak biraz zor, cunku Peter'la tanismak elbette harikaydi.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "got to meet",
+          "text_tr": "tanisma firsati buldum, tanisabildim",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "get to do"
+        },
+        {
+          "text_en": "the man himself",
+          "text_tr": "adamin ta kendisi",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "the man himself"
+        },
+        {
+          "text_en": "sound weird",
+          "text_tr": "kulaga tuhaf gelmek",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "sound weird"
+        },
+        {
+          "text_en": "kind of tough",
+          "text_tr": "biraz zor",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "kind of"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "it might sound + [sifat]",
+          "note_tr": "Bir izlenimi yumusatir: 'it might sound weird' = kulaga tuhaf gelebilir.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "might sound",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 57,
+          "span_end": 68
+        },
+        {
+          "pattern": "what exactly that day meant to me",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 110,
+          "span_end": 143
+        },
+        {
+          "pattern": "happened",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 11,
+          "span_end": 19
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 22,
+          "span_end": 25
+        }
+      ],
+      "vocab": [
+        {
+          "word": "describe",
+          "lemma": "describe",
+          "text_tr": "anlatmak, tarif etmek",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "finally",
+          "lemma": "finally",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 155400,
+          "end_ms": 155760
+        },
+        {
+          "surface": "happened",
+          "lemma": "happen",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 155760,
+          "end_ms": 156180
+        },
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 156520,
+          "end_ms": 156680
+        },
+        {
+          "surface": "meet",
+          "lemma": "meet",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 156900,
+          "end_ms": 157100
+        },
+        {
+          "surface": "man",
+          "lemma": "man",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 157320,
+          "end_ms": 157520
+        },
+        {
+          "surface": "sound",
+          "lemma": "sound",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 159140,
+          "end_ms": 159360
+        },
+        {
+          "surface": "weird",
+          "lemma": "weird",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 159360,
+          "end_ms": 159600
+        },
+        {
+          "surface": "kind",
+          "lemma": "kind",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 154920,
+          "end_ms": 166120
+        },
+        {
+          "surface": "of",
+          "lemma": "of",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 154920,
+          "end_ms": 166120
+        },
+        {
+          "surface": "tough",
+          "lemma": "tough",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 154920,
+          "end_ms": 166120
+        },
+        {
+          "surface": "describe",
+          "lemma": "describe",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 154920,
+          "end_ms": 166120
+        },
+        {
+          "surface": "exactly",
+          "lemma": "exactly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 154920,
+          "end_ms": 166120
+        },
+        {
+          "surface": "day",
+          "lemma": "day",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 154920,
+          "end_ms": 166120
+        },
+        {
+          "surface": "meant",
+          "lemma": "mean",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 154920,
+          "end_ms": 166120
+        },
+        {
+          "surface": "obviously",
+          "lemma": "obviously",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 154920,
+          "end_ms": 166120
+        },
+        {
+          "surface": "amazing",
+          "lemma": "amazing",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 154920,
+          "end_ms": 166120
+        },
+        {
+          "surface": "meet",
+          "lemma": "meet",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 165640,
+          "end_ms": 165840
+        }
+      ]
+    },
+    {
+      "idx": 26,
+      "start_ms": 166120,
+      "end_ms": 173280,
+      "text_en": "But mostly it was this crazy reminder of that we can really make anything we want happen if we commit to that big idea",
+      "text_tr": "Ama daha cok, o buyuk fikre kendimizi adarsak istedigimiz her seyi gercekten gerceklestirebilecegimizin cilginca bir hatirlaticisiydi.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "make ... happen",
+          "text_tr": "gerceklestirmek, olmasini saglamak",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "make something happen"
+        },
+        {
+          "text_en": "commit to",
+          "text_tr": "kendini adamak, baglanmak",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "commit to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "make + [nesne] + [fiil] (yalin)",
+          "note_tr": "Bir seyin olmasini saglamak: 'make anything happen' = her seyi gerceklestirmek.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "can really make",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 49,
+          "span_end": 64
+        },
+        {
+          "pattern": "if we commit to that big idea",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 89,
+          "span_end": 118
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 77,
+          "span_end": 81
+        },
+        {
+          "pattern": "commit",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 95,
+          "span_end": 101
+        }
+      ],
+      "vocab": [
+        {
+          "word": "reminder",
+          "lemma": "remind",
+          "text_tr": "hatirlatici, hatirlatma",
+          "pos": "noun",
+          "cefr": "B1"
+        },
+        {
+          "word": "commit",
+          "lemma": "commit",
+          "text_tr": "kendini adamak",
+          "pos": "verb",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "mostly",
+          "lemma": "mostly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 166540,
+          "end_ms": 166920
+        },
+        {
+          "surface": "crazy",
+          "lemma": "crazy",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 167560,
+          "end_ms": 167820
+        },
+        {
+          "surface": "reminder",
+          "lemma": "reminder",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 167820,
+          "end_ms": 168300
+        },
+        {
+          "surface": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 169280,
+          "end_ms": 169780
+        },
+        {
+          "surface": "make",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 169780,
+          "end_ms": 170120
+        },
+        {
+          "surface": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 170880,
+          "end_ms": 171140
+        },
+        {
+          "surface": "happen",
+          "lemma": "happen",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 171140,
+          "end_ms": 171580
+        },
+        {
+          "surface": "commit",
+          "lemma": "commit",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 172080,
+          "end_ms": 172360
+        },
+        {
+          "surface": "big",
+          "lemma": "big",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 172760,
+          "end_ms": 172940
+        },
+        {
+          "surface": "idea",
+          "lemma": "idea",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 172940,
+          "end_ms": 173280
+        }
+      ],
+      "category": "opinions",
+      "category_group": "daily"
+    },
+    {
+      "idx": 27,
+      "start_ms": 180290,
+      "end_ms": 180810,
+      "text_en": "25 years",
+      "text_tr": "25 yil",
+      "cefr": "A1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "years",
+          "lemma": "year",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 180510,
+          "end_ms": 180810
+        }
+      ]
+    },
+    {
+      "idx": 28,
+      "start_ms": 183310,
+      "end_ms": 185730,
+      "text_en": "Milk was off milk was a horrible choice.",
+      "text_tr": "Sut bozulmustu, sut korkunc bir tercihti.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "was off",
+          "text_tr": "(sut/yemek) bozulmustu, kokmustu",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "be off (food)"
+        }
+      ],
+      "grammar": [],
+      "vocab": [
+        {
+          "word": "horrible",
+          "lemma": "horrible",
+          "text_tr": "korkunc, berbat",
+          "pos": "adjective",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "milk",
+          "lemma": "milk",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 183310,
+          "end_ms": 183790
+        },
+        {
+          "surface": "milk",
+          "lemma": "milk",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 184270,
+          "end_ms": 184750
+        },
+        {
+          "surface": "horrible",
+          "lemma": "horrible",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 185070,
+          "end_ms": 185350
+        },
+        {
+          "surface": "choice",
+          "lemma": "choice",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 185350,
+          "end_ms": 185730
+        }
+      ]
+    },
+    {
+      "idx": 29,
+      "start_ms": 185870,
+      "end_ms": 188990,
+      "text_en": "We're supposed to get coffee, but I just ordered cream",
+      "text_tr": "Kahve icmemiz gerekiyordu ama ben sadece krema siparis ettim.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "supposed to",
+          "text_tr": "yapmasi gereken, sozde/olmasi beklenen",
+          "type": "idiom",
+          "cefr": "B1",
+          "norm_key": "be supposed to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "be supposed to + [fiil]",
+          "note_tr": "Beklenen/gereken sey: 'we're supposed to get coffee' = kahve icmemiz gerekiyor.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "'re supposed",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 14
+        },
+        {
+          "pattern": "ordered",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 41,
+          "span_end": 48
+        }
+      ],
+      "vocab": [
+        {
+          "word": "ordered",
+          "lemma": "order",
+          "text_tr": "siparis etmek",
+          "pos": "verb",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "supposed",
+          "lemma": "suppose",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 186070,
+          "end_ms": 186250
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 186510,
+          "end_ms": 186570
+        },
+        {
+          "surface": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 186570,
+          "end_ms": 186830
+        },
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 188070,
+          "end_ms": 188530
+        },
+        {
+          "surface": "ordered",
+          "lemma": "order",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 188530,
+          "end_ms": 188690
+        },
+        {
+          "surface": "cream",
+          "lemma": "cream",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 188690,
+          "end_ms": 188990
+        }
+      ]
+    },
+    {
+      "idx": 30,
+      "start_ms": 190490,
+      "end_ms": 201730,
+      "text_en": "Just hanging out and shooting video with Peter McKinnon in one of my turtle necks Something I would have never in a million years thought would happen and best of all Peter was so genuinely Interested",
+      "text_tr": "Balikci yaka kazaklarimdan biriyle Peter McKinnon ile takilip video cekiyorum; olacagini omrumde asla dusunmeyecegim bir sey. Ve hepsinden guzeli, Peter icten bir sekilde ilgiliydi.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "hanging out",
+          "text_tr": "takilmak, vakit gecirmek",
+          "type": "phrasal_verb",
+          "cefr": "B1",
+          "norm_key": "hang out"
+        },
+        {
+          "text_en": "shooting video",
+          "text_tr": "video cekmek",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "shoot video"
+        },
+        {
+          "text_en": "never in a million years",
+          "text_tr": "omrumde asla, dunyada olmaz",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "never in a million years"
+        },
+        {
+          "text_en": "best of all",
+          "text_tr": "hepsinden guzeli, en iyisi",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "best of all"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "would have + [fiil]-3 (gecmis hayal)",
+          "note_tr": "Gerceklesmemis dusunce: 'I would have never thought' = asla dusunmezdim.",
+          "cefr": "C1"
+        },
+        {
+          "pattern": "would have",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 94,
+          "span_end": 104
+        },
+        {
+          "pattern": "would happen",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 138,
+          "span_end": 150
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 105,
+          "span_end": 110
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 163,
+          "span_end": 166
+        }
+      ],
+      "vocab": [
+        {
+          "word": "genuinely",
+          "lemma": "genuine",
+          "text_tr": "icten, samimi bir sekilde",
+          "pos": "adverb",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 190490,
+          "end_ms": 190970
+        },
+        {
+          "surface": "hanging",
+          "lemma": "hang",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 190970,
+          "end_ms": 191450
+        },
+        {
+          "surface": "shooting",
+          "lemma": "shoot",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 191930,
+          "end_ms": 192150
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 192150,
+          "end_ms": 192570
+        },
+        {
+          "surface": "turtle",
+          "lemma": "turtle",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 194490,
+          "end_ms": 194690
+        },
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 196270,
+          "end_ms": 196350
+        },
+        {
+          "surface": "never",
+          "lemma": "never",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 196350,
+          "end_ms": 196590
+        },
+        {
+          "surface": "years",
+          "lemma": "year",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 196950,
+          "end_ms": 197330
+        },
+        {
+          "surface": "thought",
+          "lemma": "thought",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 197330,
+          "end_ms": 197610
+        },
+        {
+          "surface": "happen",
+          "lemma": "happen",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 197790,
+          "end_ms": 198150
+        },
+        {
+          "surface": "best",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 198510,
+          "end_ms": 199190
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 200090,
+          "end_ms": 200330
+        },
+        {
+          "surface": "genuinely",
+          "lemma": "genuinely",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 200330,
+          "end_ms": 200770
+        },
+        {
+          "surface": "interested",
+          "lemma": "interested",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 200770,
+          "end_ms": 201730
+        }
+      ]
+    },
+    {
+      "idx": 31,
+      "start_ms": 201730,
+      "end_ms": 204070,
+      "text_en": "in my life and my plans going forward.",
+      "text_tr": "hayatimla ve bundan sonraki planlarimla.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "going forward",
+          "text_tr": "bundan sonra, ileriye donuk",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "going forward"
+        }
+      ],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "life",
+          "lemma": "life",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 202210,
+          "end_ms": 202470
+        },
+        {
+          "surface": "plans",
+          "lemma": "plan",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 202950,
+          "end_ms": 203270
+        },
+        {
+          "surface": "going",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 203270,
+          "end_ms": 203570
+        },
+        {
+          "surface": "forward",
+          "lemma": "forward",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 203570,
+          "end_ms": 204070
+        }
+      ]
+    },
+    {
+      "idx": 32,
+      "start_ms": 204310,
+      "end_ms": 204990,
+      "text_en": "No ego.",
+      "text_tr": "Ego yok.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [
+        {
+          "word": "ego",
+          "lemma": "ego",
+          "text_tr": "ego, benlik",
+          "pos": "noun",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "ego",
+          "lemma": "ego",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 204790,
+          "end_ms": 204990
+        }
+      ]
+    },
+    {
+      "idx": 33,
+      "start_ms": 205430,
+      "end_ms": 206050,
+      "text_en": "No fake moments.",
+      "text_tr": "Sahte anlar yok.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [
+        {
+          "word": "fake",
+          "lemma": "fake",
+          "text_tr": "sahte, yapay",
+          "pos": "adjective",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "fake",
+          "lemma": "fake",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 205470,
+          "end_ms": 205670
+        },
+        {
+          "surface": "moments",
+          "lemma": "moment",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 205670,
+          "end_ms": 206050
+        }
+      ]
+    },
+    {
+      "idx": 34,
+      "start_ms": 206590,
+      "end_ms": 217650,
+      "text_en": "It was a breath of fresh air Oh, and I got to experience that entire day with my buddy Chase one of my best friends and the guy who introduced me to Peter in The first place so I guess if there's a moral to this",
+      "text_tr": "Bir nefes taze havaydi. Ah, ve o koca gunu en iyi arkadaslarimdan biri, beni en basta Peter'la tanistiran adam olan Chase ile yasama firsati buldum. Yani sanirim bu hikayenin bir dersi varsa...",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "a breath of fresh air",
+          "text_tr": "bir nefes taze hava (ferahlatici sey/kisi)",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "a breath of fresh air"
+        },
+        {
+          "text_en": "got to experience",
+          "text_tr": "deneyimleme firsati buldum",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "get to do"
+        },
+        {
+          "text_en": "in the first place",
+          "text_tr": "en basta, ilk etapta",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "in the first place"
+        },
+        {
+          "text_en": "a moral to this story",
+          "text_tr": "bu hikayenin dersi/kissasi",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "the moral of the story"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "the guy who introduced me",
+          "note_tr": "Kisiyi tanimlar (ilgi cumlesi): 'the guy who introduced me' = beni tanistiran adam.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "who introduced me to Peter in The first place",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 128,
+          "span_end": 173
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 39,
+          "span_end": 42
+        },
+        {
+          "pattern": "introduced",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 132,
+          "span_end": 142
+        },
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 179,
+          "span_end": 184
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 193,
+          "span_end": 195
+        }
+      ],
+      "vocab": [
+        {
+          "word": "introduced",
+          "lemma": "introduce",
+          "text_tr": "tanistirmak",
+          "pos": "verb",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "breath",
+          "lemma": "breath",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 207010,
+          "end_ms": 207190
+        },
+        {
+          "surface": "fresh",
+          "lemma": "fresh",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 207350,
+          "end_ms": 207510
+        },
+        {
+          "surface": "air",
+          "lemma": "air",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 207510,
+          "end_ms": 207810
+        },
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 209010,
+          "end_ms": 209170
+        },
+        {
+          "surface": "experience",
+          "lemma": "experience",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 209350,
+          "end_ms": 209830
+        },
+        {
+          "surface": "entire",
+          "lemma": "entire",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 210170,
+          "end_ms": 210330
+        },
+        {
+          "surface": "day",
+          "lemma": "day",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 210330,
+          "end_ms": 210870
+        },
+        {
+          "surface": "buddy",
+          "lemma": "buddy",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 211510,
+          "end_ms": 211710
+        },
+        {
+          "surface": "best",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 212690,
+          "end_ms": 212810
+        },
+        {
+          "surface": "friends",
+          "lemma": "friend",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 212810,
+          "end_ms": 213110
+        },
+        {
+          "surface": "guy",
+          "lemma": "guy",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 213490,
+          "end_ms": 213670
+        },
+        {
+          "surface": "introduced",
+          "lemma": "introduce",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 213870,
+          "end_ms": 214050
+        },
+        {
+          "surface": "first",
+          "lemma": "first",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 215270,
+          "end_ms": 215430
+        },
+        {
+          "surface": "place",
+          "lemma": "place",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 215430,
+          "end_ms": 215750
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 215750,
+          "end_ms": 216310
+        },
+        {
+          "surface": "guess",
+          "lemma": "guess",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 216390,
+          "end_ms": 216530
+        },
+        {
+          "surface": "'s",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 206590,
+          "end_ms": 217650
+        },
+        {
+          "surface": "moral",
+          "lemma": "moral",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 217030,
+          "end_ms": 217270
+        }
+      ]
+    },
+    {
+      "idx": 35,
+      "start_ms": 217650,
+      "end_ms": 221830,
+      "text_en": "story It's that sometimes it's those weird stupid ideas.",
+      "text_tr": "o da su: bazen o tuhaf, aptal fikirlerdir.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "sometimes",
+          "text_tr": "bazen, ara sira",
+          "type": "expression",
+          "cefr": "A1",
+          "norm_key": "sometimes"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "sometimes",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 16,
+          "span_end": 25
+        }
+      ],
+      "vocab": [
+        {
+          "word": "weird",
+          "lemma": "weird",
+          "text_tr": "tuhaf, garip",
+          "pos": "adjective",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "story",
+          "lemma": "story",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 217650,
+          "end_ms": 217950
+        },
+        {
+          "surface": "sometimes",
+          "lemma": "sometimes",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 218650,
+          "end_ms": 219090
+        },
+        {
+          "surface": "weird",
+          "lemma": "weird",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 219890,
+          "end_ms": 220230
+        },
+        {
+          "surface": "stupid",
+          "lemma": "stupid",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 220230,
+          "end_ms": 221070
+        },
+        {
+          "surface": "ideas",
+          "lemma": "idea",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 221070,
+          "end_ms": 221830
+        }
+      ]
+    },
+    {
+      "idx": 36,
+      "start_ms": 222070,
+      "end_ms": 233110,
+      "text_en": "They're the ones worth following through on For me the best thing about being a creator is that we get to decide what we create So if you get anything out of this video, maybe it's that now is",
+      "text_tr": "Sonuna kadar goturmeye deger olanlar onlardir. Benim icin uretici olmanin en guzel yani, ne uretecegimize kendimizin karar vermesi. Yani bu videodan bir sey kaparsan, belki de o su: artik...",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "worth following through on",
+          "text_tr": "sonuna kadar goturmeye deger",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "follow through on"
+        },
+        {
+          "text_en": "the best thing about",
+          "text_tr": "-in en guzel yani/tarafi",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "the best thing about"
+        },
+        {
+          "text_en": "get to decide",
+          "text_tr": "karar verme firsati/hakki bulmak",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "get to do"
+        },
+        {
+          "text_en": "get anything out of",
+          "text_tr": "-den bir sey elde etmek/kapmak",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "get something out of"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "worth + [fiil]-ing",
+          "note_tr": "Degmeye deger: 'worth following through on' = goturmeye deger.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "if you get anything out of this video",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 131,
+          "span_end": 168
+        },
+        {
+          "pattern": "what we create",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 113,
+          "span_end": 127
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 99,
+          "span_end": 102
+        },
+        {
+          "pattern": "create",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 121,
+          "span_end": 127
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 138,
+          "span_end": 141
+        }
+      ],
+      "vocab": [
+        {
+          "word": "creator",
+          "lemma": "create",
+          "text_tr": "uretici, yaratici",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "ones",
+          "lemma": "one",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 222610,
+          "end_ms": 222890
+        },
+        {
+          "surface": "worth",
+          "lemma": "worth",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 222890,
+          "end_ms": 223230
+        },
+        {
+          "surface": "following",
+          "lemma": "follow",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 223230,
+          "end_ms": 223650
+        },
+        {
+          "surface": "best",
+          "lemma": "good",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 225310,
+          "end_ms": 225470
+        },
+        {
+          "surface": "thing",
+          "lemma": "thing",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 225470,
+          "end_ms": 225690
+        },
+        {
+          "surface": "creator",
+          "lemma": "creator",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 226330,
+          "end_ms": 226590
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 227550,
+          "end_ms": 227810
+        },
+        {
+          "surface": "decide",
+          "lemma": "decide",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 227950,
+          "end_ms": 228190
+        },
+        {
+          "surface": "create",
+          "lemma": "create",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 228850,
+          "end_ms": 229130
+        },
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 229130,
+          "end_ms": 229870
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 230110,
+          "end_ms": 230250
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 231010,
+          "end_ms": 231230
+        },
+        {
+          "surface": "maybe",
+          "lemma": "maybe",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 231450,
+          "end_ms": 231710
+        },
+        {
+          "surface": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 232430,
+          "end_ms": 232890
+        }
+      ],
+      "category": "opinions",
+      "category_group": "daily"
+    },
+    {
+      "idx": 37,
+      "start_ms": 233110,
+      "end_ms": 237590,
+      "text_en": "your time to make your next big idea happen Don't be afraid to be too weird.",
+      "text_tr": "sonraki buyuk fikrini gerceklestirme zamanin. Fazla tuhaf olmaktan korkma.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "make ... happen",
+          "text_tr": "gerceklestirmek",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "make something happen"
+        },
+        {
+          "text_en": "don't be afraid to",
+          "text_tr": "... yapmaktan korkma",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "be afraid to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "Don't be afraid to + [fiil]",
+          "note_tr": "Cesaretlendirme: 'don't be afraid to be weird' = tuhaf olmaktan korkma.",
+          "cefr": "B1"
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 233230,
+          "end_ms": 233510
+        },
+        {
+          "surface": "make",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 233750,
+          "end_ms": 233910
+        },
+        {
+          "surface": "next",
+          "lemma": "next",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 234130,
+          "end_ms": 234310
+        },
+        {
+          "surface": "big",
+          "lemma": "big",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 234310,
+          "end_ms": 234550
+        },
+        {
+          "surface": "idea",
+          "lemma": "idea",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 234550,
+          "end_ms": 234730
+        },
+        {
+          "surface": "happen",
+          "lemma": "happen",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 234730,
+          "end_ms": 235290
+        },
+        {
+          "surface": "afraid",
+          "lemma": "afraid",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 236190,
+          "end_ms": 236450
+        },
+        {
+          "surface": "too",
+          "lemma": "too",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 237070,
+          "end_ms": 237330
+        },
+        {
+          "surface": "weird",
+          "lemma": "weird",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 237330,
+          "end_ms": 237590
+        }
+      ],
+      "category": "advice",
+      "category_group": "daily"
+    },
+    {
+      "idx": 38,
+      "start_ms": 237950,
+      "end_ms": 245970,
+      "text_en": "Don't be afraid to be too over the top Make it however you want to make it because I promise you it could be the idea that changes your life forever.",
+      "text_tr": "Fazla abartili olmaktan korkma. Onu nasil istersen oyle yap, cunku soz veriyorum, hayatini sonsuza dek degistirecek fikir o olabilir.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "over the top",
+          "text_tr": "asiri, abartili",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "over the top"
+        },
+        {
+          "text_en": "however you want",
+          "text_tr": "nasil istersen oyle",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "however you want"
+        },
+        {
+          "text_en": "I promise you",
+          "text_tr": "soz veriyorum, inan bana",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "I promise you"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "the idea that + [yuklem]",
+          "note_tr": "Seyi tanimlar: 'the idea that changes your life' = hayatini degistiren fikir.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "could be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 100,
+          "span_end": 108
+        },
+        {
+          "pattern": "that changes your life forever",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 118,
+          "span_end": 148
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 59,
+          "span_end": 63
+        },
+        {
+          "pattern": "promise",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 85,
+          "span_end": 92
+        },
+        {
+          "pattern": "changes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 123,
+          "span_end": 130
+        }
+      ],
+      "vocab": [
+        {
+          "word": "promise",
+          "lemma": "promise",
+          "text_tr": "soz vermek",
+          "pos": "verb",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "afraid",
+          "lemma": "afraid",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 238150,
+          "end_ms": 238430
+        },
+        {
+          "surface": "too",
+          "lemma": "too",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 238990,
+          "end_ms": 239270
+        },
+        {
+          "surface": "top",
+          "lemma": "top",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 239690,
+          "end_ms": 239970
+        },
+        {
+          "surface": "make",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 239970,
+          "end_ms": 240730
+        },
+        {
+          "surface": "however",
+          "lemma": "however",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 240930,
+          "end_ms": 241110
+        },
+        {
+          "surface": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 241470,
+          "end_ms": 241610
+        },
+        {
+          "surface": "make",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 241690,
+          "end_ms": 241890
+        },
+        {
+          "surface": "promise",
+          "lemma": "promise",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 242690,
+          "end_ms": 242910
+        },
+        {
+          "surface": "idea",
+          "lemma": "idea",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 244150,
+          "end_ms": 244450
+        },
+        {
+          "surface": "changes",
+          "lemma": "change",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 244670,
+          "end_ms": 244890
+        },
+        {
+          "surface": "life",
+          "lemma": "life",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 245190,
+          "end_ms": 245390
+        },
+        {
+          "surface": "forever",
+          "lemma": "forever",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 245390,
+          "end_ms": 245970
+        }
+      ],
+      "category": "advice",
+      "category_group": "daily"
+    },
+    {
+      "idx": 39,
+      "start_ms": 246690,
+      "end_ms": 249650,
+      "text_en": "Oh And Peter, thank you again for the wild ride.",
+      "text_tr": "Ah, ve Peter, bu cilgin macera icin tekrar tesekkurler.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "thank you again",
+          "text_tr": "tekrar tesekkurler",
+          "type": "expression",
+          "cefr": "A1",
+          "norm_key": "thank you again"
+        },
+        {
+          "text_en": "the wild ride",
+          "text_tr": "cilgin macera/yolculuk",
+          "type": "idiom",
+          "cefr": "B2",
+          "norm_key": "a wild ride"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "thank you for + [isim/fiil-ing]",
+          "note_tr": "Bir sey icin tesekkur: 'thank you for the wild ride' = ... icin tesekkurler.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "thank",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "thank",
+          "lemma": "thank",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 247970,
+          "end_ms": 248270
+        },
+        {
+          "surface": "again",
+          "lemma": "again",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 248470,
+          "end_ms": 248750
+        },
+        {
+          "surface": "wild",
+          "lemma": "wild",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 249130,
+          "end_ms": 249350
+        },
+        {
+          "surface": "ride",
+          "lemma": "ride",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 249350,
+          "end_ms": 249650
+        }
+      ]
+    },
+    {
+      "idx": 40,
+      "start_ms": 250230,
+      "end_ms": 254990,
+      "text_en": "I'm already looking forward to our next cup of coffee That is if you even like coffee anymore",
+      "text_tr": "Simdiden bir sonraki kahvemizi dort gozle bekliyorum; tabii hala kahve seviyorsan.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "looking forward to",
+          "text_tr": "dort gozle beklemek, sabirsizlanmak",
+          "type": "idiom",
+          "cefr": "B1",
+          "norm_key": "look forward to"
+        },
+        {
+          "text_en": "that is if",
+          "text_tr": "tabii eger, o da ... ise",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "that is if"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "look forward to + [isim/fiil-ing]",
+          "note_tr": "Bir seyi heyecanla beklemek: 'looking forward to our coffee' = kahvemizi dort gozle bekliyorum.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "'m already looking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 19
+        },
+        {
+          "pattern": "if you even like coffee anymore",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 62,
+          "span_end": 93
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 74,
+          "span_end": 78
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "already",
+          "lemma": "already",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 250390,
+          "end_ms": 250530
+        },
+        {
+          "surface": "looking",
+          "lemma": "look",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 250530,
+          "end_ms": 250770
+        },
+        {
+          "surface": "forward",
+          "lemma": "forward",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 250770,
+          "end_ms": 251110
+        },
+        {
+          "surface": "next",
+          "lemma": "next",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 251430,
+          "end_ms": 251550
+        },
+        {
+          "surface": "cup",
+          "lemma": "cup",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 251550,
+          "end_ms": 251790
+        },
+        {
+          "surface": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 251930,
+          "end_ms": 252150
+        },
+        {
+          "surface": "even",
+          "lemma": "even",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 253850,
+          "end_ms": 254050
+        },
+        {
+          "surface": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 254050,
+          "end_ms": 254250
+        },
+        {
+          "surface": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 254250,
+          "end_ms": 254530
+        },
+        {
+          "surface": "anymore",
+          "lemma": "anymore",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 254530,
+          "end_ms": 254990
+        }
+      ]
+    },
+    {
+      "idx": 41,
+      "start_ms": 255770,
+      "end_ms": 257730,
+      "text_en": "Coffee's overrated man",
+      "text_tr": "Kahve abartiliyor be dostum.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "overrated",
+          "text_tr": "hak ettiginden fazla deger goren, abartilan",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "overrated"
+        }
+      ],
+      "grammar": [],
+      "vocab": [
+        {
+          "word": "overrated",
+          "lemma": "overrate",
+          "text_tr": "abartilmis, fazla deger gormus",
+          "pos": "adjective",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "overrated",
+          "lemma": "overrated",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 256250,
+          "end_ms": 256649
+        },
+        {
+          "surface": "man",
+          "lemma": "man",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 256649,
+          "end_ms": 257730
+        }
+      ]
+    },
+    {
+      "idx": 42,
+      "start_ms": 258589,
+      "end_ms": 259390,
+      "text_en": "Cream only",
+      "text_tr": "Sadece krema.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "only",
+          "lemma": "only",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 258589,
+          "end_ms": 259390
+        }
+      ]
+    }
+  ]
+}

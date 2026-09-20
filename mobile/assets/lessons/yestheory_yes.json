@@ -1,0 +1,6027 @@
+{
+  "video_id": "yestheory_yes",
+  "title": "Yes Theory saying yes to strangers",
+  "topic": "daily",
+  "license": "",
+  "cefr": "B1",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 7020,
+      "end_ms": 13600,
+      "text_en": "We get a ton of strange requests by email and some of them are more reasonable than others.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 14020,
+      "end_ms": 18700,
+      "text_en": "One time this one guy literally asked us to pay for his friend's vacation to Greece.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "asked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 32,
+          "span_end": 37
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 19180,
+      "end_ms": 19780,
+      "text_en": "That's all they asked.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "asked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 16,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 20000,
+      "end_ms": 21520,
+      "text_en": "They didn't even ask us if we wanted to come.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wanted",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 30,
+          "span_end": 36
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 21700,
+      "end_ms": 23240,
+      "text_en": "They were just like, could you pay for my friend's vacation?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could you pay",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 21,
+          "span_end": 34
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 24360,
+      "end_ms": 28020,
+      "text_en": "And we unfortunately don't really have the time to answer most of them.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 28360,
+      "end_ms": 38340,
+      "text_en": "But today we thought we'd do one massive exception by not only responding to the email but by saying yes to whatever crazy request whoever sent us that email might have.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "might have",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 158,
+          "span_end": 168
+        },
+        {
+          "pattern": "thought",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 13,
+          "span_end": 20
+        },
+        {
+          "pattern": "sent",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 139,
+          "span_end": 143
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 45160,
+      "end_ms": 46300,
+      "text_en": "Okay, please read.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 46740,
+      "end_ms": 48140,
+      "text_en": "Okay, is there someone saying me like a video?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 48360,
+      "end_ms": 49360,
+      "text_en": "Hi, my name is Sergio.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 49720,
+      "end_ms": 52060,
+      "text_en": "You guys should come to London and do crazy party.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should come",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 9,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 54240,
+      "end_ms": 55000,
+      "text_en": "There's no information.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 12,
+      "start_ms": 55600,
+      "end_ms": 56740,
+      "text_en": "There's just do crazy party.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 13,
+      "start_ms": 56940,
+      "end_ms": 60760,
+      "text_en": "My challenge to you is to go to a city with no money and try to make party with strangers.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 14,
+      "start_ms": 61260,
+      "end_ms": 62840,
+      "text_en": "If you do it, can you shut me out too?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can you shut",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 14,
+          "span_end": 26
+        },
+        {
+          "pattern": "If you do it",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 12
+        },
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 15,
+      "start_ms": 63380,
+      "end_ms": 63780,
+      "text_en": "Get out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 16,
+      "start_ms": 64040,
+      "end_ms": 64640,
+      "text_en": "That's what it says.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "what it says",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 7,
+          "span_end": 19
+        },
+        {
+          "pattern": "says",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 15,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 17,
+      "start_ms": 65280,
+      "end_ms": 66900,
+      "text_en": "It would actually be quite funny, you know.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would actually be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 3,
+          "span_end": 20
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 38,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 18,
+      "start_ms": 67100,
+      "end_ms": 68060,
+      "text_en": "And shout him out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 19,
+      "start_ms": 68220,
+      "end_ms": 69180,
+      "text_en": "It's from a guy named James.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 20,
+      "start_ms": 69620,
+      "end_ms": 70880,
+      "text_en": "And the subject line is selfie.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 21,
+      "start_ms": 71320,
+      "end_ms": 72240,
+      "text_en": "So I don't know, dude.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 22,
+      "start_ms": 72560,
+      "end_ms": 73680,
+      "text_en": "I just want to selfie with you guys.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 23,
+      "start_ms": 73920,
+      "end_ms": 76380,
+      "text_en": "If you go to Texas, just take a selfie with this dude.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If you go to Texas",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 18
+        },
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 24,
+      "start_ms": 77300,
+      "end_ms": 77960,
+      "text_en": "I don't know, man.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 25,
+      "start_ms": 78520,
+      "end_ms": 80940,
+      "text_en": "Yes, we got another email that seems interesting.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that seems interesting",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 26,
+          "span_end": 48
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 8,
+          "span_end": 11
+        },
+        {
+          "pattern": "seems",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 31,
+          "span_end": 36
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 26,
+      "start_ms": 81500,
+      "end_ms": 84420,
+      "text_en": "This guy in Seattle says he has an insecurity that he wants to conquer.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that he wants to conquer",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 46,
+          "span_end": 70
+        },
+        {
+          "pattern": "says",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 24
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 28,
+          "span_end": 31
+        },
+        {
+          "pattern": "wants",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 54,
+          "span_end": 59
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 27,
+      "start_ms": 84700,
+      "end_ms": 87920,
+      "text_en": "He makes music and he produces songs for his friends that wrap over it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that wrap over it",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 53,
+          "span_end": 70
+        },
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        },
+        {
+          "pattern": "produces",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 30
+        },
+        {
+          "pattern": "wrap",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 58,
+          "span_end": 62
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 28,
+      "start_ms": 88040,
+      "end_ms": 89800,
+      "text_en": "And they've released music and they think it's decent.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve released",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 8,
+          "span_end": 20
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 36,
+          "span_end": 41
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 29,
+      "start_ms": 90120,
+      "end_ms": 91880,
+      "text_en": "But they're just terrified to perform in public.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 30,
+      "start_ms": 91880,
+      "end_ms": 95340,
+      "text_en": "I was thinking we could somehow arrange a yes theory event where my group performs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was thinking",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 2,
+          "span_end": 14
+        },
+        {
+          "pattern": "could somehow arrange",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 18,
+          "span_end": 39
+        },
+        {
+          "pattern": "where my group performs",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 59,
+          "span_end": 82
+        },
+        {
+          "pattern": "performs",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 74,
+          "span_end": 82
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 31,
+      "start_ms": 95640,
+      "end_ms": 98200,
+      "text_en": "The possibilities are endless for the type of event, setting, crowd.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 32,
+      "start_ms": 98540,
+      "end_ms": 104540,
+      "text_en": "Regardless, the episode would be a great example for people that have a passion that are afraid to put them on display in a vulnerable way.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 24,
+          "span_end": 32
+        },
+        {
+          "pattern": "that have a passion that are afraid to put them on display in a vulnerable way",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 60,
+          "span_end": 138
+        },
+        {
+          "pattern": "that are afraid to put them on display in a vulnerable way",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 80,
+          "span_end": 138
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 65,
+          "span_end": 69
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 33,
+      "start_ms": 104960,
+      "end_ms": 105640,
+      "text_en": "So here's the producer.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 34,
+      "start_ms": 106440,
+      "end_ms": 106500,
+      "text_en": "It",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 35,
+      "start_ms": 109890,
+      "end_ms": 114030,
+      "text_en": "could be like a sold out show.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 0,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 36,
+      "start_ms": 114370,
+      "end_ms": 116690,
+      "text_en": "We could get probably like 100 plus people to come.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 3,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 37,
+      "start_ms": 116950,
+      "end_ms": 119290,
+      "text_en": "It's gonna be their first time performing ever, so that might be too much.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s gon",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 8
+        },
+        {
+          "pattern": "might be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 56,
+          "span_end": 64
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 38,
+      "start_ms": 119510,
+      "end_ms": 122110,
+      "text_en": "But it'll be the most memorable first performance ever.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll be",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 6,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 39,
+      "start_ms": 122310,
+      "end_ms": 124630,
+      "text_en": "Would you be down to do it Thursday or Friday?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Would you be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 0,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 40,
+      "start_ms": 124630,
+      "end_ms": 127790,
+      "text_en": "It's Tuesday and we're gonna throw a constant on Thursday night.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re gon",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 19,
+          "span_end": 26
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 41,
+      "start_ms": 127910,
+      "end_ms": 129330,
+      "text_en": "You should realize that Nick left his number.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should realize",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 18
+        },
+        {
+          "pattern": "left",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 29,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 42,
+      "start_ms": 129410,
+      "end_ms": 132850,
+      "text_en": "So instead of waiting him to email us back, we're gonna go home.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re gon",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 46,
+          "span_end": 53
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 43,
+      "start_ms": 133030,
+      "end_ms": 135430,
+      "text_en": "And hopefully it'll not work or whatever Nick.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll not work",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 16,
+          "span_end": 28
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 44,
+      "start_ms": 136710,
+      "end_ms": 138630,
+      "text_en": "This is for help his friends right now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 45,
+      "start_ms": 138850,
+      "end_ms": 139010,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 46,
+      "start_ms": 141330,
+      "end_ms": 142050,
+      "text_en": "Yo Nick,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 47,
+      "start_ms": 143780,
+      "end_ms": 145200,
+      "text_en": "what up, baby?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 48,
+      "start_ms": 146300,
+      "end_ms": 146880,
+      "text_en": "What up,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 49,
+      "start_ms": 147860,
+      "end_ms": 147860,
+      "text_en": "boy?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 50,
+      "start_ms": 150280,
+      "end_ms": 152860,
+      "text_en": "No, we're literally on the toilet right now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 51,
+      "start_ms": 153680,
+      "end_ms": 154160,
+      "text_en": "Wait,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 52,
+      "start_ms": 157400,
+      "end_ms": 158380,
+      "text_en": "wait, wait, wait, wait, wait.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 53,
+      "start_ms": 158380,
+      "end_ms": 159120,
+      "text_en": "What's up, boy?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 54,
+      "start_ms": 159120,
+      "end_ms": 160660,
+      "text_en": "Dude, how goes it?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "goes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 55,
+      "start_ms": 160780,
+      "end_ms": 161280,
+      "text_en": "I'm great.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 56,
+      "start_ms": 161760,
+      "end_ms": 163080,
+      "text_en": "You are going to get yourself my mom.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are going to get",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 4,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 57,
+      "start_ms": 163260,
+      "end_ms": 164440,
+      "text_en": "It shows us it's good.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "shows",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 58,
+      "start_ms": 168600,
+      "end_ms": 169980,
+      "text_en": "Alright, so here's what's happening.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s happening",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 23,
+          "span_end": 35
+        },
+        {
+          "pattern": "what's happening",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 19,
+          "span_end": 35
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 59,
+      "start_ms": 170300,
+      "end_ms": 171900,
+      "text_en": "Nick, we got your email about your music.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 9,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 60,
+      "start_ms": 172160,
+      "end_ms": 172680,
+      "text_en": "We checked it out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "checked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 61,
+      "start_ms": 172940,
+      "end_ms": 173340,
+      "text_en": "We loved it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "loved",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 62,
+      "start_ms": 173600,
+      "end_ms": 181240,
+      "text_en": "And we were thinking, what if for your first ever live show, we came up to Seattle, rented out a venue, and had you perform in two days?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "were thinking",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 7,
+          "span_end": 20
+        },
+        {
+          "pattern": "what if for your first ever live show, we came up to Seattle, rented out a venue, and had you perform in two days",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 22,
+          "span_end": 135
+        },
+        {
+          "pattern": "came",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 64,
+          "span_end": 68
+        },
+        {
+          "pattern": "rented",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 84,
+          "span_end": 90
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 63,
+      "start_ms": 191130,
+      "end_ms": 192790,
+      "text_en": "Okay, we'll stay in touch and coordinate.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll stay",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 8,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 64,
+      "start_ms": 193110,
+      "end_ms": 194330,
+      "text_en": "Hey, it's so nice to meet you guys.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 65,
+      "start_ms": 194490,
+      "end_ms": 195450,
+      "text_en": "Nice to meet you too Nick.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 66,
+      "start_ms": 195810,
+      "end_ms": 195870,
+      "text_en": "Ciao.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 67,
+      "start_ms": 195870,
+      "end_ms": 195910,
+      "text_en": "Ciao,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 68,
+      "start_ms": 197470,
+      "end_ms": 198610,
+      "text_en": "Ciao, baby.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 69,
+      "start_ms": 198990,
+      "end_ms": 199790,
+      "text_en": "That was so funny.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 70,
+      "start_ms": 200070,
+      "end_ms": 200930,
+      "text_en": "You used to take this shit.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "used to take",
+          "note_tr": "Used to (Past Habit)",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 4,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 71,
+      "start_ms": 201130,
+      "end_ms": 201270,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 72,
+      "start_ms": 201590,
+      "end_ms": 205750,
+      "text_en": "Even if we get 20 people, you're performing live in front of people that are there watching you.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re performing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 29,
+          "span_end": 43
+        },
+        {
+          "pattern": "are there watching",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 73,
+          "span_end": 91
+        },
+        {
+          "pattern": "Even if we get 20 people",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 24
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 73,
+      "start_ms": 205950,
+      "end_ms": 206890,
+      "text_en": "10, 20 people.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 74,
+      "start_ms": 207290,
+      "end_ms": 208350,
+      "text_en": "We're blowing this thing up.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re blowing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 75,
+      "start_ms": 208530,
+      "end_ms": 209810,
+      "text_en": "We're getting Seattle.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re getting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 76,
+      "start_ms": 210290,
+      "end_ms": 212050,
+      "text_en": "It's turned up for this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s turned",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 77,
+      "start_ms": 212890,
+      "end_ms": 214690,
+      "text_en": "Alright, it's Thursday at 7am.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 78,
+      "start_ms": 215030,
+      "end_ms": 215970,
+      "text_en": "It's a concert is tomorrow.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 79,
+      "start_ms": 216450,
+      "end_ms": 218390,
+      "text_en": "We're about to hop on a flight to see you in Seattle.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 80,
+      "start_ms": 219130,
+      "end_ms": 219530,
+      "text_en": "Oh,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 81,
+      "start_ms": 220690,
+      "end_ms": 221030,
+      "text_en": "all right.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 82,
+      "start_ms": 221330,
+      "end_ms": 221910,
+      "text_en": "We are in Seattle.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 83,
+      "start_ms": 222430,
+      "end_ms": 224730,
+      "text_en": "We're going to hop in a cab and go meet up with Nick and his friends.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re going to hop",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 2,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 84,
+      "start_ms": 225170,
+      "end_ms": 225590,
+      "text_en": "Let's do it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 85,
+      "start_ms": 226490,
+      "end_ms": 226890,
+      "text_en": "Hello.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 86,
+      "start_ms": 227390,
+      "end_ms": 227790,
+      "text_en": "Hello.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 87,
+      "start_ms": 231470,
+      "end_ms": 234290,
+      "text_en": "We'll two actually get him to overcome this fear of performing.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll two actually get",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 88,
+      "start_ms": 251270,
+      "end_ms": 253130,
+      "text_en": "They're just a little bit weird though.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 15,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 89,
+      "start_ms": 253510,
+      "end_ms": 255030,
+      "text_en": "Dude, this is going to be so fun.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 11,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 90,
+      "start_ms": 255510,
+      "end_ms": 255770,
+      "text_en": "So,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 91,
+      "start_ms": 276220,
+      "end_ms": 278140,
+      "text_en": "one of our buddies, Vasili, is in college right now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 92,
+      "start_ms": 278240,
+      "end_ms": 279200,
+      "text_en": "He's flying back tonight.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s flying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 93,
+      "start_ms": 279800,
+      "end_ms": 280020,
+      "text_en": "Oh, yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 94,
+      "start_ms": 280280,
+      "end_ms": 282780,
+      "text_en": "Because you guys came, so we like, he's got to play together.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s got",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 37,
+          "span_end": 43
+        },
+        {
+          "pattern": "came",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 17,
+          "span_end": 21
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 29,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 95,
+      "start_ms": 283080,
+      "end_ms": 284040,
+      "text_en": "How long has this group been together?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has this group been",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 9,
+          "span_end": 28
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 96,
+      "start_ms": 284340,
+      "end_ms": 285180,
+      "text_en": "How long have you guys been doing this?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 97,
+      "start_ms": 285500,
+      "end_ms": 286640,
+      "text_en": "We've known each other forever.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve known",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 2,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 98,
+      "start_ms": 287220,
+      "end_ms": 289800,
+      "text_en": "Like, Susanna called me her third son, because I'm here so much.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "called",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 14,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 99,
+      "start_ms": 290180,
+      "end_ms": 292060,
+      "text_en": "Sam was like, has been rapping since I've met him.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve met",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 38,
+          "span_end": 45
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 100,
+      "start_ms": 292260,
+      "end_ms": 295620,
+      "text_en": "And then I downloaded an app on my phone, making boots on that.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "downloaded",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 11,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 101,
+      "start_ms": 295620,
+      "end_ms": 298080,
+      "text_en": "And it went from my phone to an iPad.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "went",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 102,
+      "start_ms": 298220,
+      "end_ms": 300100,
+      "text_en": "Well, we made a full album on an iPad.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "made",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 9,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 103,
+      "start_ms": 300360,
+      "end_ms": 300980,
+      "text_en": "Yeah, we made it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "made",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 9,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 104,
+      "start_ms": 301040,
+      "end_ms": 301580,
+      "text_en": "So, it's bad.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 105,
+      "start_ms": 301720,
+      "end_ms": 302000,
+      "text_en": "It's bad.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 106,
+      "start_ms": 302460,
+      "end_ms": 302940,
+      "text_en": "It's bad.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 107,
+      "start_ms": 303680,
+      "end_ms": 305380,
+      "text_en": "All right, we're going to check out their basement studio.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re going to check",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 13,
+          "span_end": 31
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 108,
+      "start_ms": 305940,
+      "end_ms": 306500,
+      "text_en": "All right.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 109,
+      "start_ms": 307720,
+      "end_ms": 308440,
+      "text_en": "Oh, sh**.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 110,
+      "start_ms": 308720,
+      "end_ms": 308880,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 111,
+      "start_ms": 309140,
+      "end_ms": 310100,
+      "text_en": "This is what our magic happens.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "what our magic happens",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 8,
+          "span_end": 30
+        },
+        {
+          "pattern": "happens",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 23,
+          "span_end": 30
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 112,
+      "start_ms": 310360,
+      "end_ms": 310440,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 113,
+      "start_ms": 310920,
+      "end_ms": 311840,
+      "text_en": "That was the original cover.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 114,
+      "start_ms": 312040,
+      "end_ms": 312180,
+      "text_en": "Yes.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 115,
+      "start_ms": 312460,
+      "end_ms": 314160,
+      "text_en": "Because this is where you rap.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "where you rap",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 16,
+          "span_end": 29
+        },
+        {
+          "pattern": "rap",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 29
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 116,
+      "start_ms": 314220,
+      "end_ms": 315300,
+      "text_en": "This is where you rap.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "rap",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 18,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 117,
+      "start_ms": 315800,
+      "end_ms": 315820,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 118,
+      "start_ms": 315980,
+      "end_ms": 317480,
+      "text_en": "Yeah, I guess I see like some retweets.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 13
+        },
+        {
+          "pattern": "see",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 19
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 25,
+          "span_end": 29
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 119,
+      "start_ms": 318020,
+      "end_ms": 319060,
+      "text_en": "I got them emps in the bag.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 120,
+      "start_ms": 319280,
+      "end_ms": 321740,
+      "text_en": "Yeah, you guys have never ever performed live even individually.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have never ever performed",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 15,
+          "span_end": 40
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 20,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 121,
+      "start_ms": 322180,
+      "end_ms": 323620,
+      "text_en": "Nah, we haven't been in a truck.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "haven't been",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 8,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 122,
+      "start_ms": 323620,
+      "end_ms": 325640,
+      "text_en": "Who are the performers like the rappers?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 123,
+      "start_ms": 325940,
+      "end_ms": 326620,
+      "text_en": "Me, AK.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 124,
+      "start_ms": 327420,
+      "end_ms": 328420,
+      "text_en": "He sings on hooks.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "sings",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 125,
+      "start_ms": 328680,
+      "end_ms": 329080,
+      "text_en": "And then...",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 126,
+      "start_ms": 329080,
+      "end_ms": 331640,
+      "text_en": "It's like you're behind and doing the DM.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 127,
+      "start_ms": 331860,
+      "end_ms": 332980,
+      "text_en": "He does more than anyone.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "does",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 128,
+      "start_ms": 333220,
+      "end_ms": 335480,
+      "text_en": "He makes the beats, mixes it, masters it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        },
+        {
+          "pattern": "mixes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 25
+        },
+        {
+          "pattern": "masters",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 30,
+          "span_end": 37
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 129,
+      "start_ms": 335580,
+      "end_ms": 337700,
+      "text_en": "He spent more hours on any of this than anyone else.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "spent",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 130,
+      "start_ms": 337840,
+      "end_ms": 337860,
+      "text_en": "Wow.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 131,
+      "start_ms": 338380,
+      "end_ms": 339180,
+      "text_en": "Some friends go party.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 15
+        },
+        {
+          "pattern": "Some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 0,
+          "span_end": 4
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 132,
+      "start_ms": 339500,
+      "end_ms": 340360,
+      "text_en": "Some friends play basketball.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "play",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 17
+        },
+        {
+          "pattern": "Some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 0,
+          "span_end": 4
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 133,
+      "start_ms": 340800,
+      "end_ms": 341820,
+      "text_en": "Our friend group, we just make music.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "make",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 30
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 134,
+      "start_ms": 342100,
+      "end_ms": 342560,
+      "text_en": "Like, yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 135,
+      "start_ms": 343000,
+      "end_ms": 343760,
+      "text_en": "All right, you guys feel nervous?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 136,
+      "start_ms": 344240,
+      "end_ms": 344380,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 137,
+      "start_ms": 344800,
+      "end_ms": 345400,
+      "text_en": "Yeah, I am.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 138,
+      "start_ms": 345820,
+      "end_ms": 347200,
+      "text_en": "Definitely a little nervous, but more excited.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 139,
+      "start_ms": 347740,
+      "end_ms": 347780,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 140,
+      "start_ms": 348240,
+      "end_ms": 348660,
+      "text_en": "Very hyped.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 141,
+      "start_ms": 349140,
+      "end_ms": 349220,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 142,
+      "start_ms": 349600,
+      "end_ms": 350200,
+      "text_en": "No, just nervous.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 143,
+      "start_ms": 350720,
+      "end_ms": 350860,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 144,
+      "start_ms": 351320,
+      "end_ms": 353640,
+      "text_en": "Literally just performing for anyone would be great.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 37,
+          "span_end": 45
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 145,
+      "start_ms": 353840,
+      "end_ms": 355380,
+      "text_en": "That would be like, that's just the dream.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 5,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 146,
+      "start_ms": 355640,
+      "end_ms": 356600,
+      "text_en": "Like, that's all I want to do.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 19,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 147,
+      "start_ms": 356800,
+      "end_ms": 361760,
+      "text_en": "What we're trying to figure out right now is a venue and it sounds just, hopefully they can come together and just find a venue that has one.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re trying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 7,
+          "span_end": 17
+        },
+        {
+          "pattern": "can come",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 88,
+          "span_end": 96
+        },
+        {
+          "pattern": "that has one",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 128,
+          "span_end": 140
+        },
+        {
+          "pattern": "sounds",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 60,
+          "span_end": 66
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 133,
+          "span_end": 136
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 148,
+      "start_ms": 361860,
+      "end_ms": 362960,
+      "text_en": "You and the Dalai Lama?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 149,
+      "start_ms": 363440,
+      "end_ms": 364880,
+      "text_en": "I used to work for the Dalai Lama.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "used to work",
+          "note_tr": "Used to (Past Habit)",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 2,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 150,
+      "start_ms": 365040,
+      "end_ms": 367260,
+      "text_en": "I followed him all around the world recording historical footage.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "followed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 151,
+      "start_ms": 367620,
+      "end_ms": 369560,
+      "text_en": "But that's who's handling our bandage.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s handling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 14,
+          "span_end": 25
+        },
+        {
+          "pattern": "who's handling our bandage",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 11,
+          "span_end": 37
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 152,
+      "start_ms": 369700,
+      "end_ms": 374160,
+      "text_en": "I was hoping to talk to somebody about if your space is free for an event.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was hoping",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 2,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 153,
+      "start_ms": 374500,
+      "end_ms": 376320,
+      "text_en": "I don't believe so.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 154,
+      "start_ms": 376540,
+      "end_ms": 380300,
+      "text_en": "The crock and I said they're booked, but to try the Vera Project.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re booked",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 25,
+          "span_end": 35
+        },
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 16,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 155,
+      "start_ms": 380740,
+      "end_ms": 382420,
+      "text_en": "Oh, the Vera Project.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 156,
+      "start_ms": 383000,
+      "end_ms": 385480,
+      "text_en": "So right now we're going to go to a venue called the Vera Project.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re going to go",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 15,
+          "span_end": 30
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 157,
+      "start_ms": 385680,
+      "end_ms": 387040,
+      "text_en": "It's a yes and a yes theory.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 158,
+      "start_ms": 387260,
+      "end_ms": 387620,
+      "text_en": "That's right.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 159,
+      "start_ms": 388760,
+      "end_ms": 393800,
+      "text_en": "We're wondering if by any chance tomorrow you guys had an open space that we could bring some people.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re wondering",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 15
+        },
+        {
+          "pattern": "could bring",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 77,
+          "span_end": 88
+        },
+        {
+          "pattern": "that we could bring some people",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 69,
+          "span_end": 100
+        },
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 51,
+          "span_end": 54
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 22,
+          "span_end": 25
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 89,
+          "span_end": 93
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 160,
+      "start_ms": 393980,
+      "end_ms": 395140,
+      "text_en": "We have a fairly big show at night.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 161,
+      "start_ms": 395460,
+      "end_ms": 395840,
+      "text_en": "Oh, okay.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 162,
+      "start_ms": 395960,
+      "end_ms": 396600,
+      "text_en": "Nice to meet you.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 163,
+      "start_ms": 396720,
+      "end_ms": 397240,
+      "text_en": "All right.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 164,
+      "start_ms": 397380,
+      "end_ms": 398380,
+      "text_en": "So that venue did not work.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 165,
+      "start_ms": 398560,
+      "end_ms": 399620,
+      "text_en": "They're already booked for tomorrow night.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re already booked",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 4,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 166,
+      "start_ms": 399780,
+      "end_ms": 401020,
+      "text_en": "So we're going to go try another venue.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re going to go",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 5,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 167,
+      "start_ms": 401420,
+      "end_ms": 403140,
+      "text_en": "A small pop -up concert.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 168,
+      "start_ms": 404340,
+      "end_ms": 404740,
+      "text_en": "Tomorrow.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 169,
+      "start_ms": 406200,
+      "end_ms": 406900,
+      "text_en": "Hey, Ashley.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 170,
+      "start_ms": 408680,
+      "end_ms": 411120,
+      "text_en": "I was wondering if you guys had any events planned for tomorrow night?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was wondering",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 2,
+          "span_end": 15
+        },
+        {
+          "pattern": "had",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 28,
+          "span_end": 31
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 32,
+          "span_end": 35
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 171,
+      "start_ms": 411120,
+      "end_ms": 413260,
+      "text_en": "Yeah, let me check that calendar really in one second.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 172,
+      "start_ms": 413460,
+      "end_ms": 413780,
+      "text_en": "Perfect.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 173,
+      "start_ms": 414020,
+      "end_ms": 414280,
+      "text_en": "Thank you.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Thank",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 0,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 174,
+      "start_ms": 414320,
+      "end_ms": 416080,
+      "text_en": "It looks like tomorrow is so open.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "looks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 175,
+      "start_ms": 416720,
+      "end_ms": 417420,
+      "text_en": "Okay, perfect.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 176,
+      "start_ms": 417820,
+      "end_ms": 418380,
+      "text_en": "What's your capacity?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 177,
+      "start_ms": 418720,
+      "end_ms": 419280,
+      "text_en": "You have a good 15.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 178,
+      "start_ms": 420120,
+      "end_ms": 420640,
+      "text_en": "You have a good 15.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 179,
+      "start_ms": 420880,
+      "end_ms": 421160,
+      "text_en": "I have a good 15.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 180,
+      "start_ms": 421220,
+      "end_ms": 421420,
+      "text_en": "I have a good 15.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 181,
+      "start_ms": 421760,
+      "end_ms": 422260,
+      "text_en": "Okay, perfect.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 182,
+      "start_ms": 422600,
+      "end_ms": 423200,
+      "text_en": "Just for a sound system.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 183,
+      "start_ms": 423460,
+      "end_ms": 425240,
+      "text_en": "Do you guys have a sound system that we could use by any chance?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could use",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 40,
+          "span_end": 49
+        },
+        {
+          "pattern": "that we could use by any chance",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 32,
+          "span_end": 63
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 53,
+          "span_end": 56
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 184,
+      "start_ms": 425540,
+      "end_ms": 425800,
+      "text_en": "We do.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 185,
+      "start_ms": 426380,
+      "end_ms": 426580,
+      "text_en": "All right.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 186,
+      "start_ms": 426780,
+      "end_ms": 426920,
+      "text_en": "Have a good night.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 187,
+      "start_ms": 427080,
+      "end_ms": 427320,
+      "text_en": "You too.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 188,
+      "start_ms": 427760,
+      "end_ms": 427860,
+      "text_en": "Okay,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 189,
+      "start_ms": 429260,
+      "end_ms": 440020,
+      "text_en": "so the thing is this is like our last chance now because it's 5 .30.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 190,
+      "start_ms": 440020,
+      "end_ms": 442980,
+      "text_en": "Yeah, it's either almost this or I don't know what the fuck we do.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 63,
+          "span_end": 65
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 191,
+      "start_ms": 443120,
+      "end_ms": 445500,
+      "text_en": "So we got to make sure we send this part break off.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 6,
+          "span_end": 9
+        },
+        {
+          "pattern": "send",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 30
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 192,
+      "start_ms": 445740,
+      "end_ms": 447360,
+      "text_en": "Yeah, we sent this a billion questions.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "sent",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 9,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 193,
+      "start_ms": 447660,
+      "end_ms": 448520,
+      "text_en": "It's kind of one chance.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 194,
+      "start_ms": 448780,
+      "end_ms": 451300,
+      "text_en": "So let's, let's grab this part really.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 195,
+      "start_ms": 456310,
+      "end_ms": 457910,
+      "text_en": "Yeah, nobody's truth right now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 196,
+      "start_ms": 458130,
+      "end_ms": 461170,
+      "text_en": "If we don't get this venue, I have no idea what the hell we're going to do.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re going to do",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 59,
+          "span_end": 74
+        },
+        {
+          "pattern": "If we don't get this venue",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 26
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 30,
+          "span_end": 34
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 197,
+      "start_ms": 461330,
+      "end_ms": 461670,
+      "text_en": "Send it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 198,
+      "start_ms": 463530,
+      "end_ms": 463930,
+      "text_en": "Done.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 199,
+      "start_ms": 472740,
+      "end_ms": 474740,
+      "text_en": "Yes, but they said they couldn't get tech.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "couldn't get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 24,
+          "span_end": 36
+        },
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 14,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 200,
+      "start_ms": 474980,
+      "end_ms": 475380,
+      "text_en": "Oh, Parker.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 201,
+      "start_ms": 475800,
+      "end_ms": 476600,
+      "text_en": "Parker and Henry.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 202,
+      "start_ms": 476900,
+      "end_ms": 478020,
+      "text_en": "Parker and Henry, dog.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 203,
+      "start_ms": 478320,
+      "end_ms": 479080,
+      "text_en": "Parker and Henry, baby.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 204,
+      "start_ms": 480000,
+      "end_ms": 480900,
+      "text_en": "Who's Parker and Henry?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 205,
+      "start_ms": 481460,
+      "end_ms": 484160,
+      "text_en": "No. No one in the world does this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "does",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 24,
+          "span_end": 28
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 206,
+      "start_ms": 484340,
+      "end_ms": 489500,
+      "text_en": "No one shows up and goes, hey, I'm going to have a concert and I'm just going to find a venue and see I don't wash it to that.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to have",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 32,
+          "span_end": 48
+        },
+        {
+          "pattern": "'m just going to find",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 64,
+          "span_end": 85
+        },
+        {
+          "pattern": "shows",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 12
+        },
+        {
+          "pattern": "goes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 207,
+      "start_ms": 489560,
+      "end_ms": 491020,
+      "text_en": "No one did except for yes theory.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 208,
+      "start_ms": 495680,
+      "end_ms": 497520,
+      "text_en": "This guy, Nick, sent us an email.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "sent",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 16,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 209,
+      "start_ms": 497820,
+      "end_ms": 500020,
+      "text_en": "He's got a rap group, but they've never performed live.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve never performed",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 30,
+          "span_end": 49
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 5,
+          "span_end": 8
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 34,
+          "span_end": 39
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 210,
+      "start_ms": 500320,
+      "end_ms": 503120,
+      "text_en": "We're throwing an event where there's 230 of you that can come.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re throwing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 14
+        },
+        {
+          "pattern": "can come",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 54,
+          "span_end": 62
+        },
+        {
+          "pattern": "where there's 230 of you that can come",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 24,
+          "span_end": 62
+        },
+        {
+          "pattern": "that can come",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 49,
+          "span_end": 62
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 35,
+          "span_end": 37
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 211,
+      "start_ms": 503380,
+      "end_ms": 505660,
+      "text_en": "Swipe up and get it fast because I think this is going to sell out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is going to sell",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 46,
+          "span_end": 62
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 35,
+          "span_end": 40
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 212,
+      "start_ms": 505900,
+      "end_ms": 507000,
+      "text_en": "Let's sell it out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 213,
+      "start_ms": 507000,
+      "end_ms": 507800,
+      "text_en": "Sell out the show.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 214,
+      "start_ms": 508700,
+      "end_ms": 512679,
+      "text_en": "If we have a dream for any of this, it'd be like make it and perform.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If we have a dream for any of this",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 34
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 215,
+      "start_ms": 514100,
+      "end_ms": 514480,
+      "text_en": "Let's go.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 216,
+      "start_ms": 516740,
+      "end_ms": 517500,
+      "text_en": "We'll see you guys tomorrow.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 217,
+      "start_ms": 518000,
+      "end_ms": 518220,
+      "text_en": "Yes.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 218,
+      "start_ms": 518700,
+      "end_ms": 519460,
+      "text_en": "See you.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 219,
+      "start_ms": 519559,
+      "end_ms": 520659,
+      "text_en": "It works well.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "works",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 220,
+      "start_ms": 520960,
+      "end_ms": 521799,
+      "text_en": "I'll pass it on that way.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll pass",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 1,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 221,
+      "start_ms": 521840,
+      "end_ms": 522100,
+      "text_en": "Whoo.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 222,
+      "start_ms": 522280,
+      "end_ms": 522780,
+      "text_en": "Big day tomorrow.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 223,
+      "start_ms": 523140,
+      "end_ms": 524400,
+      "text_en": "Day one is accomplished.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is accomplished",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 8,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 224,
+      "start_ms": 524900,
+      "end_ms": 525560,
+      "text_en": "I guess we'll see you tomorrow.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 10,
+          "span_end": 17
+        },
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 225,
+      "start_ms": 537020,
+      "end_ms": 540100,
+      "text_en": "It's the two here in Seattle, currently 12 o 'clock.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 226,
+      "start_ms": 540300,
+      "end_ms": 541920,
+      "text_en": "The show sold out in three hours.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "sold",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 9,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 227,
+      "start_ms": 542180,
+      "end_ms": 548000,
+      "text_en": "And today for the rest of the day, we're just going to be coordinating with the venue, setting up the last couple of things, making sure the tech and everything is set up.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re just going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 37,
+          "span_end": 57
+        },
+        {
+          "pattern": "is set",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 161,
+          "span_end": 167
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 228,
+      "start_ms": 548160,
+      "end_ms": 552820,
+      "text_en": "They get us up asking if there's any way we could get their favorite rapper, Dave B, to show up.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 44,
+          "span_end": 53
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 8
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 30,
+          "span_end": 32
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 33,
+          "span_end": 36
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 229,
+      "start_ms": 553100,
+      "end_ms": 555920,
+      "text_en": "And we just de -end him on Instagram and he just texted me.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "texted",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 49,
+          "span_end": 55
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 230,
+      "start_ms": 556060,
+      "end_ms": 557460,
+      "text_en": "And he said, hey, Matt, this is Dave.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 231,
+      "start_ms": 557800,
+      "end_ms": 558800,
+      "text_en": "The show tonight sounds cool.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "sounds",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 232,
+      "start_ms": 558980,
+      "end_ms": 559800,
+      "text_en": "I'd love to be a part of it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 233,
+      "start_ms": 559940,
+      "end_ms": 560460,
+      "text_en": "We got him?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 234,
+      "start_ms": 560720,
+      "end_ms": 561080,
+      "text_en": "We got Dave.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 235,
+      "start_ms": 562100,
+      "end_ms": 562820,
+      "text_en": "Oh, yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 236,
+      "start_ms": 563120,
+      "end_ms": 564920,
+      "text_en": "This is going to be the greatest event in the fucking life.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 5,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 237,
+      "start_ms": 565240,
+      "end_ms": 565320,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 238,
+      "start_ms": 565520,
+      "end_ms": 568440,
+      "text_en": "Their favorite rapper, their first live performance, all in one.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 239,
+      "start_ms": 568700,
+      "end_ms": 570900,
+      "text_en": "Dude, I don't even know how these kids are handling this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are handling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 39,
+          "span_end": 51
+        },
+        {
+          "pattern": "how these kids are handling this",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 24,
+          "span_end": 56
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 240,
+      "start_ms": 571040,
+      "end_ms": 572320,
+      "text_en": "This is all happening so fast.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is all happening",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 5,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 241,
+      "start_ms": 573720,
+      "end_ms": 574040,
+      "text_en": "I'm",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 242,
+      "start_ms": 582680,
+      "end_ms": 583400,
+      "text_en": "headed to the venue.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "headed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 0,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 243,
+      "start_ms": 583600,
+      "end_ms": 583880,
+      "text_en": "How are we feeling?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are we feeling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 4,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 244,
+      "start_ms": 584180,
+      "end_ms": 584760,
+      "text_en": "I'm feeling good.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m feeling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 245,
+      "start_ms": 585040,
+      "end_ms": 585960,
+      "text_en": "I'm confident in the boys.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 246,
+      "start_ms": 586420,
+      "end_ms": 588140,
+      "text_en": "It's not the only one that's kind of freaking out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s kind of freaking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 26,
+          "span_end": 45
+        },
+        {
+          "pattern": "that's kind of freaking out",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 22,
+          "span_end": 49
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 247,
+      "start_ms": 588220,
+      "end_ms": 588920,
+      "text_en": "No, I'm freaking out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m freaking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 5,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 248,
+      "start_ms": 589100,
+      "end_ms": 589860,
+      "text_en": "I'm just trying to stay cool.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m just trying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 249,
+      "start_ms": 590240,
+      "end_ms": 590500,
+      "text_en": "Good.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 250,
+      "start_ms": 590780,
+      "end_ms": 591100,
+      "text_en": "Is that it?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 251,
+      "start_ms": 591480,
+      "end_ms": 591720,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 252,
+      "start_ms": 592020,
+      "end_ms": 593500,
+      "text_en": "Oh, yeah, it's an old church.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 253,
+      "start_ms": 593600,
+      "end_ms": 594140,
+      "text_en": "It's an old church?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 254,
+      "start_ms": 594140,
+      "end_ms": 594900,
+      "text_en": "Yeah, it's an old church.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 255,
+      "start_ms": 595320,
+      "end_ms": 595500,
+      "text_en": "I guess.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "guess",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 256,
+      "start_ms": 605360,
+      "end_ms": 605680,
+      "text_en": "Ready?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 257,
+      "start_ms": 606160,
+      "end_ms": 606360,
+      "text_en": "Oh, yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 258,
+      "start_ms": 606960,
+      "end_ms": 607300,
+      "text_en": "I'm nervous.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 259,
+      "start_ms": 607540,
+      "end_ms": 607880,
+      "text_en": "Are you ready?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 260,
+      "start_ms": 608060,
+      "end_ms": 608120,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 261,
+      "start_ms": 608380,
+      "end_ms": 608800,
+      "text_en": "Yeah, why not?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 262,
+      "start_ms": 609080,
+      "end_ms": 609560,
+      "text_en": "Yeah, why not?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 263,
+      "start_ms": 609700,
+      "end_ms": 610340,
+      "text_en": "All right, I'm not crying.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m not crying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 12,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 264,
+      "start_ms": 610900,
+      "end_ms": 611100,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 265,
+      "start_ms": 611960,
+      "end_ms": 613940,
+      "text_en": "Oh, well, let's go.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 266,
+      "start_ms": 616560,
+      "end_ms": 620920,
+      "text_en": "But a day or two ago, there was supposed to be a wedding rehearsal today and they canceled like last second.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was supposed",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 28,
+          "span_end": 40
+        },
+        {
+          "pattern": "canceled",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 82,
+          "span_end": 90
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 267,
+      "start_ms": 620920,
+      "end_ms": 622140,
+      "text_en": "So this was not going to be open.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was not going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 8,
+          "span_end": 27
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 268,
+      "start_ms": 622140,
+      "end_ms": 623040,
+      "text_en": "So we just lucked out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "lucked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 11,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 269,
+      "start_ms": 623200,
+      "end_ms": 624380,
+      "text_en": "So hard on the spot.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 270,
+      "start_ms": 634440,
+      "end_ms": 635620,
+      "text_en": "God damn, there are two now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 271,
+      "start_ms": 635860,
+      "end_ms": 636120,
+      "text_en": "Why?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 272,
+      "start_ms": 636360,
+      "end_ms": 637740,
+      "text_en": "Well, you may be nervous because of the crowd.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "may be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 10,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 273,
+      "start_ms": 638180,
+      "end_ms": 638820,
+      "text_en": "You're freaking out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re freaking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 3,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 274,
+      "start_ms": 639160,
+      "end_ms": 639960,
+      "text_en": "So you're freaking me out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re freaking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 6,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 275,
+      "start_ms": 640180,
+      "end_ms": 641720,
+      "text_en": "I was in the nurse the last two hours.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 276,
+      "start_ms": 641900,
+      "end_ms": 642200,
+      "text_en": "Sorry.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 277,
+      "start_ms": 642360,
+      "end_ms": 644240,
+      "text_en": "This guy's a nurse ever since we left the house.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "left",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 33,
+          "span_end": 37
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 278,
+      "start_ms": 644820,
+      "end_ms": 645180,
+      "text_en": "Well,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 279,
+      "start_ms": 646580,
+      "end_ms": 647620,
+      "text_en": "you're nervous about it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 280,
+      "start_ms": 648180,
+      "end_ms": 648540,
+      "text_en": "Nothing.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 281,
+      "start_ms": 648880,
+      "end_ms": 650880,
+      "text_en": "I want anything to go according to plan.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 282,
+      "start_ms": 651100,
+      "end_ms": 652020,
+      "text_en": "The problem is we don't have a plan.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 283,
+      "start_ms": 652380,
+      "end_ms": 654960,
+      "text_en": "So I'm just trying to make up a positive plan in my mind.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m just trying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 4,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 284,
+      "start_ms": 655200,
+      "end_ms": 656480,
+      "text_en": "And then I want that plan to happen.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 285,
+      "start_ms": 656660,
+      "end_ms": 658360,
+      "text_en": "Like, this is how a first show is supposed to be.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is supposed",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 31,
+          "span_end": 42
+        },
+        {
+          "pattern": "how a first show is supposed to be",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 14,
+          "span_end": 48
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 286,
+      "start_ms": 658360,
+      "end_ms": 659400,
+      "text_en": "How do you comfort them?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 287,
+      "start_ms": 659520,
+      "end_ms": 660120,
+      "text_en": "How do you do it?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 288,
+      "start_ms": 660360,
+      "end_ms": 661080,
+      "text_en": "You discover them.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "discover",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 289,
+      "start_ms": 661440,
+      "end_ms": 662060,
+      "text_en": "That's what we're already doing.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re already doing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 14,
+          "span_end": 31
+        },
+        {
+          "pattern": "what we're already doing",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 7,
+          "span_end": 31
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 290,
+      "start_ms": 662520,
+      "end_ms": 662800,
+      "text_en": "Okay,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 291,
+      "start_ms": 668050,
+      "end_ms": 671110,
+      "text_en": "so they've been the rapper that these guys idolized this 15 minutes away.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve been",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 7,
+          "span_end": 15
+        },
+        {
+          "pattern": "idolized",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 43,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 292,
+      "start_ms": 671330,
+      "end_ms": 671730,
+      "text_en": "They're practicing.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re practicing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 4,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 293,
+      "start_ms": 672110,
+      "end_ms": 677090,
+      "text_en": "They have no freaking idea that their favorite rapper is about to show up before their first ever live performance.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 294,
+      "start_ms": 677530,
+      "end_ms": 678570,
+      "text_en": "Look at that, my look dude.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 295,
+      "start_ms": 678850,
+      "end_ms": 680010,
+      "text_en": "That's pretty crazy, man.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 296,
+      "start_ms": 680410,
+      "end_ms": 680850,
+      "text_en": "You guys excited?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "excited",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 9,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 297,
+      "start_ms": 681910,
+      "end_ms": 683010,
+      "text_en": "Let's go, my hoo!",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 298,
+      "start_ms": 683790,
+      "end_ms": 684810,
+      "text_en": "I won't see so much.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "won't see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 299,
+      "start_ms": 685010,
+      "end_ms": 685310,
+      "text_en": "See you.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 300,
+      "start_ms": 685430,
+      "end_ms": 685570,
+      "text_en": "Yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 301,
+      "start_ms": 686290,
+      "end_ms": 687130,
+      "text_en": "What's up, dude?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 302,
+      "start_ms": 687690,
+      "end_ms": 688190,
+      "text_en": "That's so cool.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 303,
+      "start_ms": 688710,
+      "end_ms": 689750,
+      "text_en": "Thank you so much for taking me.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Thank",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 0,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 304,
+      "start_ms": 690510,
+      "end_ms": 691330,
+      "text_en": "Yo, cut the music.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 305,
+      "start_ms": 691690,
+      "end_ms": 692030,
+      "text_en": "Cut the music.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 306,
+      "start_ms": 692030,
+      "end_ms": 693230,
+      "text_en": "If you got one, dude.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 307,
+      "start_ms": 693590,
+      "end_ms": 694410,
+      "text_en": "You come a bit.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "come",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 308,
+      "start_ms": 705790,
+      "end_ms": 706190,
+      "text_en": "All",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 309,
+      "start_ms": 723210,
+      "end_ms": 723790,
+      "text_en": "right, boys.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 310,
+      "start_ms": 724130,
+      "end_ms": 727650,
+      "text_en": "Every single one of you here right now was an essential part of making this happen.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 311,
+      "start_ms": 727790,
+      "end_ms": 730030,
+      "text_en": "Have as much fun as you possibly can.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 0,
+          "span_end": 4
+        },
+        {
+          "pattern": "much",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 8,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 312,
+      "start_ms": 748420,
+      "end_ms": 749680,
+      "text_en": "They're screaming your name, boys.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re screaming",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 4,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 313,
+      "start_ms": 750360,
+      "end_ms": 750780,
+      "text_en": "Oh, shit.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 314,
+      "start_ms": 751640,
+      "end_ms": 753220,
+      "text_en": "It's still doesn't feel right.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 315,
+      "start_ms": 753420,
+      "end_ms": 754120,
+      "text_en": "You know what you're saying?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re saying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 17,
+          "span_end": 27
+        },
+        {
+          "pattern": "what you're saying",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 9,
+          "span_end": 27
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 316,
+      "start_ms": 754120,
+      "end_ms": 754920,
+      "text_en": "One, two, three, four.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 317,
+      "start_ms": 755480,
+      "end_ms": 755880,
+      "text_en": "From",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 318,
+      "start_ms": 771490,
+      "end_ms": 772230,
+      "text_en": "Los Angeles.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 319,
+      "start_ms": 773550,
+      "end_ms": 773950,
+      "text_en": "Dude,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 320,
+      "start_ms": 942210,
+      "end_ms": 943250,
+      "text_en": "we just came here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "came",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 8,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 321,
+      "start_ms": 943450,
+      "end_ms": 944070,
+      "text_en": "We didn't.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 322,
+      "start_ms": 944290,
+      "end_ms": 944870,
+      "text_en": "I was a little nervous.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 323,
+      "start_ms": 945070,
+      "end_ms": 946130,
+      "text_en": "Like when we walked out there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "walked",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 13,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 324,
+      "start_ms": 946270,
+      "end_ms": 949190,
+      "text_en": "The first song came, we're like, all right, let's just go for it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "came",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 15,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 325,
+      "start_ms": 949350,
+      "end_ms": 950190,
+      "text_en": "One email.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 326,
+      "start_ms": 950630,
+      "end_ms": 952150,
+      "text_en": "That's all it took for this to happen.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "took",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 14,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 327,
+      "start_ms": 952490,
+      "end_ms": 953810,
+      "text_en": "One single email.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 328,
+      "start_ms": 954250,
+      "end_ms": 956030,
+      "text_en": "It's easy to say that your dreams are impossible.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 329,
+      "start_ms": 956590,
+      "end_ms": 958410,
+      "text_en": "Either you're too busy, don't have the money for it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 330,
+      "start_ms": 958510,
+      "end_ms": 959790,
+      "text_en": "Or it's simply too hard.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 331,
+      "start_ms": 960170,
+      "end_ms": 963350,
+      "text_en": "But have you ever stopped and wondered, what if I actually give it a genuine try?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have you ever stopped",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 4,
+          "span_end": 25
+        },
+        {
+          "pattern": "what if I actually give it a genuine try",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 40,
+          "span_end": 80
+        },
+        {
+          "pattern": "wondered",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 30,
+          "span_end": 38
+        },
+        {
+          "pattern": "give",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 59,
+          "span_end": 63
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 332,
+      "start_ms": 963810,
+      "end_ms": 965470,
+      "text_en": "Even if that try is sending one email.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is sending",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 17,
+          "span_end": 27
+        },
+        {
+          "pattern": "Even if that try",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 16
+        },
+        {
+          "pattern": "try",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 333,
+      "start_ms": 965850,
+      "end_ms": 967290,
+      "text_en": "Have you put that desire into the world?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 334,
+      "start_ms": 967630,
+      "end_ms": 972270,
+      "text_en": "One of the most uncomfortable things to do in life is to put yourself out there to chase what you want to do.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 98,
+          "span_end": 102
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 335,
+      "start_ms": 972570,
+      "end_ms": 975310,
+      "text_en": "It forces you to work through the problems and face your weaknesses.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "forces",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 336,
+      "start_ms": 975310,
+      "end_ms": 981790,
+      "text_en": "But the extraordinary thing is that on the other side of fear, lies the most unbelievable and unforgettable moments.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "lies",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 63,
+          "span_end": 67
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 337,
+      "start_ms": 982210,
+      "end_ms": 983950,
+      "text_en": "All you have to do is ask.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 338,
+      "start_ms": 984690,
+      "end_ms": 988010,
+      "text_en": "If you guys like this episode, we might do this again using Instagram DMs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "might do",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 34,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 339,
+      "start_ms": 988330,
+      "end_ms": 992910,
+      "text_en": "So follow us on Instagram at YesTheory and make sure you check out 49th Parallel on SoundCloud.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 340,
+      "start_ms": 993310,
+      "end_ms": 994010,
+      "text_en": "We'll see you next week.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    }
+  ]
+}

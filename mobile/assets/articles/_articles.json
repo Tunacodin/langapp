@@ -1,0 +1,29 @@
+[
+  {
+    "id": "art_small_habits",
+    "title": "Small Habits, Big Results",
+    "source": "Örnek Metin",
+    "cefr": "B1",
+    "topic": "daily",
+    "body_en": "Most people believe that big changes need big actions. In fact, the opposite is often true. When you try to change everything at once, you usually give up after a few days. Small habits work better because they are easy to start and easy to repeat.\n\nImagine you want to read more. Reading one page a night sounds too small to matter. But over a year, that single page becomes hundreds of pages. The habit grows quietly, and soon it feels natural. You do not need motivation every day; you only need a simple routine.\n\nThe key is to make the first step tiny. Put the book on your pillow. Keep your running shoes by the door. When the action is small, your brain does not resist it. Over time, these little wins add up, and the results become hard to ignore.",
+    "body_tr": "Çoğu insan büyük değişimlerin büyük hamleler gerektirdiğine inanır. Aslında çoğu zaman tam tersi doğrudur. Her şeyi bir anda değiştirmeye çalıştığında genellikle birkaç gün sonra vazgeçersin. Küçük alışkanlıklar daha iyi işler çünkü başlaması da tekrarlanması da kolaydır.\n\nDaha çok okumak istediğini düşün. Gece bir sayfa okumak önemsenmeyecek kadar küçük gelir. Ama bir yıl boyunca o tek sayfa yüzlerce sayfaya dönüşür. Alışkanlık sessizce büyür ve kısa sürede doğal hissettirir. Her gün motivasyona ihtiyacın yoktur; sadece basit bir rutine ihtiyacın vardır.\n\nİşin sırrı ilk adımı çok küçük tutmaktır. Kitabı yastığının üstüne koy. Koşu ayakkabılarını kapının yanında tut. Eylem küçük olduğunda beynin ona direnmez. Zamanla bu küçük kazanımlar birikir ve sonuçları görmezden gelmek zorlaşır."
+  },
+  {
+    "id": "art_first_users",
+    "title": "How Startups Find Their First Users",
+    "source": "Örnek Metin",
+    "cefr": "B2",
+    "topic": "business",
+    "body_en": "Every successful product starts with a handful of early users. Finding them is often harder than building the product itself. Founders sometimes wait for people to arrive on their own, but that rarely happens. In the beginning, you have to go out and find users one by one.\n\nThe best early users are people who already feel the problem you are solving. If your app helps freelancers track their time, then freelancers who complain about lost hours are your ideal audience. Talk to them directly. Ask what they struggle with, and listen more than you speak.\n\nDo not worry about scaling too soon. A hundred passionate users are worth more than ten thousand who forget about you in a week. Once a small group loves what you built, they will tell others, and real growth can finally begin.",
+    "body_tr": "Her başarılı ürün bir avuç erken kullanıcıyla başlar. Onları bulmak çoğu zaman ürünü inşa etmekten daha zordur. Kurucular bazen insanların kendiliğinden gelmesini bekler ama bu nadiren olur. Başlangıçta çıkıp kullanıcıları tek tek bulman gerekir.\n\nEn iyi erken kullanıcılar, çözdüğün sorunu zaten hisseden insanlardır. Uygulaman serbest çalışanların zamanını takip etmesine yardım ediyorsa, kaybettikleri saatlerden yakınan serbest çalışanlar ideal kitlendir. Onlarla doğrudan konuş. Neyle boğuştuklarını sor ve konuştuğundan çok dinle.\n\nÇok erken ölçeklenmeyi dert etme. Yüz tutkulu kullanıcı, bir hafta içinde seni unutan on bin kişiden daha değerlidir. Küçük bir grup yaptığın şeyi sevdiğinde başkalarına anlatır ve gerçek büyüme nihayet başlar."
+  },
+  {
+    "id": "art_why_sleep",
+    "title": "Why Sleep Matters More Than You Think",
+    "source": "Örnek Metin",
+    "cefr": "B2",
+    "topic": "health",
+    "body_en": "Sleep often feels like wasted time. When we are busy, it is the first thing we cut. Yet research keeps showing that sleep is not a pause from life; it is one of the most active and important parts of it.\n\nWhile you sleep, your brain sorts through the day. It moves useful memories into long-term storage and clears out waste that builds up during waking hours. This is why a good night of sleep can make a hard problem feel simple in the morning. Your mind has quietly kept working.\n\nPoor sleep does the opposite. It weakens focus, slows learning, and affects mood and health over time. The good news is that small changes help. A regular schedule, a dark room, and less screen time before bed can improve sleep more than most people expect.",
+    "body_tr": "Uyku çoğu zaman boşa geçen zaman gibi hissettirir. Yoğunken kestiğimiz ilk şey odur. Oysa araştırmalar uykunun hayattan bir mola değil, onun en aktif ve önemli parçalarından biri olduğunu tekrar tekrar gösteriyor.\n\nSen uyurken beynin günü ayıklar. Faydalı anıları uzun süreli belleğe taşır ve uyanık saatlerde biriken atıkları temizler. Bu yüzden iyi bir gece uykusu, zor bir sorunu sabah basit gösterebilir. Zihnin sessizce çalışmaya devam etmiştir.\n\nKötü uyku bunun tersini yapar. Odağı zayıflatır, öğrenmeyi yavaşlatır, zamanla ruh halini ve sağlığı etkiler. İyi haber şu ki küçük değişiklikler işe yarar. Düzenli bir program, karanlık bir oda ve yatmadan önce daha az ekran, uykuyu çoğu insanın beklediğinden fazla iyileştirebilir."
+  }
+]

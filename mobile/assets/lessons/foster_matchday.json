@@ -8,8 +8,8 @@
     {
       "idx": 0,
       "start_ms": 4500,
-      "end_ms": 19660,
-      "text_en": "Right, look at this guy here.",
+      "end_ms": 6280,
+      "text_en": "Right, look at",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -18,9 +18,9 @@
     },
     {
       "idx": 1,
-      "start_ms": 19940,
-      "end_ms": 20960,
-      "text_en": "I like this.",
+      "start_ms": 18760,
+      "end_ms": 19660,
+      "text_en": "this guy here.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -29,6 +29,26 @@
     },
     {
       "idx": 2,
+      "start_ms": 19940,
+      "end_ms": 20960,
+      "text_en": "I like this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 3,
       "start_ms": 21360,
       "end_ms": 22060,
       "text_en": "How you doing pal?",
@@ -39,7 +59,7 @@
       "vocab": []
     },
     {
-      "idx": 3,
+      "idx": 4,
       "start_ms": 22580,
       "end_ms": 23300,
       "text_en": "You good?",
@@ -50,7 +70,7 @@
       "vocab": []
     },
     {
-      "idx": 4,
+      "idx": 5,
       "start_ms": 23680,
       "end_ms": 23900,
       "text_en": "Yeah.",
@@ -61,7 +81,7 @@
       "vocab": []
     },
     {
-      "idx": 5,
+      "idx": 6,
       "start_ms": 24000,
       "end_ms": 24360,
       "text_en": "Love that.",
@@ -72,7 +92,7 @@
       "vocab": []
     },
     {
-      "idx": 6,
+      "idx": 7,
       "start_ms": 25500,
       "end_ms": 26980,
       "text_en": "Don't cost a big time, you're all to it.",
@@ -83,7 +103,7 @@
       "vocab": []
     },
     {
-      "idx": 7,
+      "idx": 8,
       "start_ms": 27540,
       "end_ms": 27900,
       "text_en": "Yes.",
@@ -94,29 +114,47 @@
       "vocab": []
     },
     {
-      "idx": 8,
+      "idx": 9,
       "start_ms": 29740,
       "end_ms": 31760,
       "text_en": "So go bridge, I see high roads.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "see",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 19
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 9,
+      "idx": 10,
       "start_ms": 32080,
       "end_ms": 32900,
       "text_en": "I will do, mate.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "will do",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 9
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 10,
+      "idx": 11,
       "start_ms": 33520,
       "end_ms": 34400,
       "text_en": "He's all right, Mark, Kenny.",
@@ -127,7 +165,7 @@
       "vocab": []
     },
     {
-      "idx": 11,
+      "idx": 12,
       "start_ms": 34960,
       "end_ms": 35340,
       "text_en": "All right, that's okay.",
@@ -138,7 +176,7 @@
       "vocab": []
     },
     {
-      "idx": 12,
+      "idx": 13,
       "start_ms": 35700,
       "end_ms": 35860,
       "text_en": "You all right?",
@@ -149,7 +187,7 @@
       "vocab": []
     },
     {
-      "idx": 13,
+      "idx": 14,
       "start_ms": 38490,
       "end_ms": 39090,
       "text_en": "What you saying?",
@@ -160,7 +198,7 @@
       "vocab": []
     },
     {
-      "idx": 14,
+      "idx": 15,
       "start_ms": 39490,
       "end_ms": 39930,
       "text_en": "No, no, no.",
@@ -171,43 +209,66 @@
       "vocab": []
     },
     {
-      "idx": 15,
+      "idx": 16,
       "start_ms": 40710,
       "end_ms": 42090,
       "text_en": "I knew that was going to be down.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "was going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 12,
+          "span_end": 27
+        },
+        {
+          "pattern": "knew",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 16,
+      "idx": 17,
       "start_ms": 42230,
       "end_ms": 42850,
       "text_en": "That's what we want.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 17,
-      "start_ms": 43350,
-      "end_ms": 43790,
-      "text_en": "Half-time fuel.",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "what we want",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 7,
+          "span_end": 19
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 15,
+          "span_end": 19
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 18,
-      "start_ms": 46550,
-      "end_ms": 47370,
-      "text_en": "Right, here we go.",
+      "start_ms": 43350,
+      "end_ms": 43790,
+      "text_en": "Half -time fuel.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -216,6 +277,26 @@
     },
     {
       "idx": 19,
+      "start_ms": 46550,
+      "end_ms": 47370,
+      "text_en": "Right, here we go.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 15,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 20,
       "start_ms": 47590,
       "end_ms": 48430,
       "text_en": "We're at Playmore.",
@@ -226,7 +307,7 @@
       "vocab": []
     },
     {
-      "idx": 20,
+      "idx": 21,
       "start_ms": 48710,
       "end_ms": 50910,
       "text_en": "Match is about to kick off in about one hour and a half.",
@@ -237,7 +318,7 @@
       "vocab": []
     },
     {
-      "idx": 21,
+      "idx": 22,
       "start_ms": 50910,
       "end_ms": 51870,
       "text_en": "No pressure today.",
@@ -248,73 +329,143 @@
       "vocab": []
     },
     {
-      "idx": 22,
+      "idx": 23,
       "start_ms": 52050,
       "end_ms": 52810,
       "text_en": "The job has been done.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "has been done",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 8,
+          "span_end": 21
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 23,
+      "idx": 24,
       "start_ms": 52930,
       "end_ms": 54930,
       "text_en": "I hope you've enjoyed all the vlogs so far.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve enjoyed",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 10,
+          "span_end": 21
+        },
+        {
+          "pattern": "hope",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 22,
+          "span_end": 25
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 24,
+      "idx": 25,
       "start_ms": 55210,
       "end_ms": 56010,
       "text_en": "Well, we'll make them any more.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll make",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 8,
+          "span_end": 16
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 25,
+      "idx": 26,
       "start_ms": 56270,
       "end_ms": 56750,
       "text_en": "I haven't got a clue.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "haven't got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 2,
+          "span_end": 13
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 26,
+      "idx": 27,
       "start_ms": 56990,
       "end_ms": 57330,
       "text_en": "We'll see.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 9
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 27,
+      "idx": 28,
       "start_ms": 57730,
       "end_ms": 58570,
       "text_en": "Just going to enjoy this one today.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "going to enjoy",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 5,
+          "span_end": 19
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 28,
+      "idx": 29,
       "start_ms": 58910,
       "end_ms": 60710,
       "text_en": "Simple as that GoPro in a gold time, baby.",
@@ -325,18 +476,27 @@
       "vocab": []
     },
     {
-      "idx": 29,
+      "idx": 30,
       "start_ms": 60850,
       "end_ms": 62690,
       "text_en": "I might wear the chest cam as well today, but we...",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "might wear",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 2,
+          "span_end": 12
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 30,
+      "idx": 31,
       "start_ms": 64069,
       "end_ms": 64690,
       "text_en": "Come on then, boys.",
@@ -347,40 +507,87 @@
       "vocab": []
     },
     {
-      "idx": 31,
+      "idx": 32,
       "start_ms": 67690,
       "end_ms": 68550,
       "text_en": "Yeah, I'm coming out.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'m coming",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 7,
+          "span_end": 16
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 32,
+      "idx": 33,
       "start_ms": 68630,
       "end_ms": 68970,
       "text_en": "I'm coming out.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 33,
-      "start_ms": 69090,
-      "end_ms": 70010,
-      "text_en": "I'm coming out. I'm going to punish it.",
-      "text_tr": "",
-      "cefr": "B1",
-      "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'m coming",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 10
+        }
+      ],
       "vocab": []
     },
     {
       "idx": 34,
+      "start_ms": 69090,
+      "end_ms": 69370,
+      "text_en": "I'm coming out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m coming",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 35,
+      "start_ms": 69470,
+      "end_ms": 70010,
+      "text_en": "I'm going to punish it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to punish",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 36,
       "start_ms": 70230,
       "end_ms": 70710,
       "text_en": "Let me go.",
@@ -391,7 +598,7 @@
       "vocab": []
     },
     {
-      "idx": 35,
+      "idx": 37,
       "start_ms": 71010,
       "end_ms": 71730,
       "text_en": "Let me go.",
@@ -402,7 +609,7 @@
       "vocab": []
     },
     {
-      "idx": 36,
+      "idx": 38,
       "start_ms": 77560,
       "end_ms": 78420,
       "text_en": "I didn't pat my boots.",
@@ -413,10 +620,10 @@
       "vocab": []
     },
     {
-      "idx": 37,
+      "idx": 39,
       "start_ms": 79180,
-      "end_ms": 90120,
-      "text_en": "I'm so adorable.",
+      "end_ms": 79360,
+      "text_en": "I'm",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -424,7 +631,18 @@
       "vocab": []
     },
     {
-      "idx": 38,
+      "idx": 40,
+      "start_ms": 89440,
+      "end_ms": 90120,
+      "text_en": "so adorable.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 41,
       "start_ms": 96550,
       "end_ms": 96870,
       "text_en": "It's really important.",
@@ -435,7 +653,7 @@
       "vocab": []
     },
     {
-      "idx": 39,
+      "idx": 42,
       "start_ms": 97270,
       "end_ms": 97610,
       "text_en": "It's kangaroo.",
@@ -446,7 +664,7 @@
       "vocab": []
     },
     {
-      "idx": 40,
+      "idx": 43,
       "start_ms": 97990,
       "end_ms": 98390,
       "text_en": "It's kangaroo.",
@@ -457,7 +675,7 @@
       "vocab": []
     },
     {
-      "idx": 41,
+      "idx": 44,
       "start_ms": 98850,
       "end_ms": 99270,
       "text_en": "F***ing out.",
@@ -468,7 +686,7 @@
       "vocab": []
     },
     {
-      "idx": 42,
+      "idx": 45,
       "start_ms": 101030,
       "end_ms": 101350,
       "text_en": "F***.",
@@ -479,7 +697,7 @@
       "vocab": []
     },
     {
-      "idx": 43,
+      "idx": 46,
       "start_ms": 115090,
       "end_ms": 115690,
       "text_en": "See you, girl.",
@@ -490,7 +708,7 @@
       "vocab": []
     },
     {
-      "idx": 44,
+      "idx": 47,
       "start_ms": 115690,
       "end_ms": 115790,
       "text_en": "Go.",
@@ -501,7 +719,7 @@
       "vocab": []
     },
     {
-      "idx": 45,
+      "idx": 48,
       "start_ms": 116110,
       "end_ms": 116370,
       "text_en": "Go.",
@@ -512,7 +730,7 @@
       "vocab": []
     },
     {
-      "idx": 46,
+      "idx": 49,
       "start_ms": 116730,
       "end_ms": 116990,
       "text_en": "Go.",
@@ -523,7 +741,7 @@
       "vocab": []
     },
     {
-      "idx": 47,
+      "idx": 50,
       "start_ms": 117470,
       "end_ms": 117850,
       "text_en": "F***.",
@@ -534,18 +752,27 @@
       "vocab": []
     },
     {
-      "idx": 48,
+      "idx": 51,
       "start_ms": 121040,
       "end_ms": 121720,
       "text_en": "No, you got to do it.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 8,
+          "span_end": 11
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 49,
+      "idx": 52,
       "start_ms": 122660,
       "end_ms": 123200,
       "text_en": "See you.",
@@ -556,7 +783,7 @@
       "vocab": []
     },
     {
-      "idx": 50,
+      "idx": 53,
       "start_ms": 123260,
       "end_ms": 123580,
       "text_en": "See you.",
@@ -567,7 +794,7 @@
       "vocab": []
     },
     {
-      "idx": 51,
+      "idx": 54,
       "start_ms": 123580,
       "end_ms": 123940,
       "text_en": "See you.",
@@ -578,10 +805,10 @@
       "vocab": []
     },
     {
-      "idx": 52,
+      "idx": 55,
       "start_ms": 123960,
-      "end_ms": 315680,
-      "text_en": "We six up.",
+      "end_ms": 125200,
+      "text_en": "We six",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -589,7 +816,18 @@
       "vocab": []
     },
     {
-      "idx": 53,
+      "idx": 56,
+      "start_ms": 315440,
+      "end_ms": 315680,
+      "text_en": "up.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 57,
       "start_ms": 316160,
       "end_ms": 317080,
       "text_en": "Mark Howard, everybody.",
@@ -600,7 +838,7 @@
       "vocab": []
     },
     {
-      "idx": 54,
+      "idx": 58,
       "start_ms": 317420,
       "end_ms": 317820,
       "text_en": "What a legend.",
@@ -611,40 +849,67 @@
       "vocab": []
     },
     {
-      "idx": 55,
+      "idx": 59,
       "start_ms": 318980,
       "end_ms": 319980,
       "text_en": "Everybody needs a Mark Howard.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "needs",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 15
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 56,
+      "idx": 60,
       "start_ms": 320100,
       "end_ms": 320500,
       "text_en": "I promise you.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "promise",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 9
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 57,
+      "idx": 61,
       "start_ms": 321060,
       "end_ms": 322260,
       "text_en": "Yours Mine Away podcast.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "Mine",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 10
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 58,
+      "idx": 62,
       "start_ms": 432440,
       "end_ms": 432860,
       "text_en": "Ten minutes left.",
@@ -655,7 +920,7 @@
       "vocab": []
     },
     {
-      "idx": 59,
+      "idx": 63,
       "start_ms": 436480,
       "end_ms": 437260,
       "text_en": "Goldie's on fire for them.",
@@ -666,7 +931,7 @@
       "vocab": []
     },
     {
-      "idx": 60,
+      "idx": 64,
       "start_ms": 448820,
       "end_ms": 448920,
       "text_en": "Dada.",
@@ -677,7 +942,7 @@
       "vocab": []
     },
     {
-      "idx": 61,
+      "idx": 65,
       "start_ms": 449140,
       "end_ms": 449200,
       "text_en": "Dada.",
@@ -688,7 +953,7 @@
       "vocab": []
     },
     {
-      "idx": 62,
+      "idx": 66,
       "start_ms": 452640,
       "end_ms": 452880,
       "text_en": "It's a corner.",
@@ -699,7 +964,7 @@
       "vocab": []
     },
     {
-      "idx": 63,
+      "idx": 67,
       "start_ms": 460840,
       "end_ms": 461140,
       "text_en": "Love that.",
@@ -710,7 +975,7 @@
       "vocab": []
     },
     {
-      "idx": 64,
+      "idx": 68,
       "start_ms": 461480,
       "end_ms": 461800,
       "text_en": "Bonesy.",
@@ -721,7 +986,7 @@
       "vocab": []
     },
     {
-      "idx": 65,
+      "idx": 69,
       "start_ms": 491980,
       "end_ms": 492280,
       "text_en": "Go on, Mindy.",
@@ -732,7 +997,7 @@
       "vocab": []
     },
     {
-      "idx": 66,
+      "idx": 70,
       "start_ms": 492480,
       "end_ms": 492860,
       "text_en": "Mindy.",
@@ -743,7 +1008,7 @@
       "vocab": []
     },
     {
-      "idx": 67,
+      "idx": 71,
       "start_ms": 497500,
       "end_ms": 497660,
       "text_en": "That's right.",
@@ -754,7 +1019,7 @@
       "vocab": []
     },
     {
-      "idx": 68,
+      "idx": 72,
       "start_ms": 497860,
       "end_ms": 498540,
       "text_en": "He's out of fright though.",
@@ -765,7 +1030,7 @@
       "vocab": []
     },
     {
-      "idx": 69,
+      "idx": 73,
       "start_ms": 498560,
       "end_ms": 498940,
       "text_en": "Come on.",
@@ -776,29 +1041,47 @@
       "vocab": []
     },
     {
-      "idx": 70,
+      "idx": 74,
       "start_ms": 499260,
       "end_ms": 500560,
       "text_en": "There's no fucking need for that.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 7
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 71,
+      "idx": 75,
       "start_ms": 500560,
       "end_ms": 501860,
       "text_en": "There is no need for that.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "is",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 8
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 72,
+      "idx": 76,
       "start_ms": 533670,
       "end_ms": 534190,
       "text_en": "Bad play.",
@@ -809,7 +1092,7 @@
       "vocab": []
     },
     {
-      "idx": 73,
+      "idx": 77,
       "start_ms": 534350,
       "end_ms": 534650,
       "text_en": "Talk to me.",
@@ -820,7 +1103,7 @@
       "vocab": []
     },
     {
-      "idx": 74,
+      "idx": 78,
       "start_ms": 534850,
       "end_ms": 535270,
       "text_en": "Bad play.",
@@ -831,7 +1114,7 @@
       "vocab": []
     },
     {
-      "idx": 75,
+      "idx": 79,
       "start_ms": 535630,
       "end_ms": 537010,
       "text_en": "It's a good game, isn't it?",
@@ -842,7 +1125,7 @@
       "vocab": []
     },
     {
-      "idx": 76,
+      "idx": 80,
       "start_ms": 537150,
       "end_ms": 537530,
       "text_en": "Big crank.",
@@ -853,7 +1136,7 @@
       "vocab": []
     },
     {
-      "idx": 77,
+      "idx": 81,
       "start_ms": 538550,
       "end_ms": 539010,
       "text_en": "I don't think it.",
@@ -864,7 +1147,7 @@
       "vocab": []
     },
     {
-      "idx": 78,
+      "idx": 82,
       "start_ms": 539150,
       "end_ms": 539690,
       "text_en": "Oh my gosh.",
@@ -875,32 +1158,50 @@
       "vocab": []
     },
     {
-      "idx": 79,
+      "idx": 83,
       "start_ms": 539730,
       "end_ms": 540430,
       "text_en": "It's all gold, right?",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 5,
+          "span_end": 8
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 80,
+      "idx": 84,
       "start_ms": 542610,
       "end_ms": 543210,
       "text_en": "I've done that.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve done",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 1,
+          "span_end": 9
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 81,
+      "idx": 85,
       "start_ms": 543350,
-      "end_ms": 561050,
-      "text_en": "It's all good to see.",
+      "end_ms": 544330,
+      "text_en": "It's all good",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
@@ -908,7 +1209,18 @@
       "vocab": []
     },
     {
-      "idx": 82,
+      "idx": 86,
+      "start_ms": 560710,
+      "end_ms": 561050,
+      "text_en": "to see.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 87,
       "start_ms": 600570,
       "end_ms": 600930,
       "text_en": "Right.",
@@ -919,18 +1231,27 @@
       "vocab": []
     },
     {
-      "idx": 83,
+      "idx": 88,
       "start_ms": 601030,
       "end_ms": 601390,
       "text_en": "There we go.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 11
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 84,
+      "idx": 89,
       "start_ms": 601570,
       "end_ms": 601770,
       "text_en": "Finished.",
@@ -941,7 +1262,7 @@
       "vocab": []
     },
     {
-      "idx": 85,
+      "idx": 90,
       "start_ms": 602110,
       "end_ms": 603750,
       "text_en": "One all in the end here at Torquay.",
@@ -952,7 +1273,7 @@
       "vocab": []
     },
     {
-      "idx": 86,
+      "idx": 91,
       "start_ms": 603950,
       "end_ms": 605010,
       "text_en": "Look at this here now.",
@@ -963,7 +1284,7 @@
       "vocab": []
     },
     {
-      "idx": 87,
+      "idx": 92,
       "start_ms": 605570,
       "end_ms": 606750,
       "text_en": "It's about half past seven.",
@@ -974,7 +1295,7 @@
       "vocab": []
     },
     {
-      "idx": 88,
+      "idx": 93,
       "start_ms": 607150,
       "end_ms": 608650,
       "text_en": "That is the final game of the season.",
@@ -985,40 +1306,83 @@
       "vocab": []
     },
     {
-      "idx": 89,
+      "idx": 94,
       "start_ms": 608890,
       "end_ms": 609350,
       "text_en": "We won the league.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "won",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 6
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 90,
+      "idx": 95,
       "start_ms": 609550,
       "end_ms": 610490,
       "text_en": "We did what we needed to do.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 6
+        },
+        {
+          "pattern": "needed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 15,
+          "span_end": 21
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 91,
+      "idx": 96,
       "start_ms": 610630,
       "end_ms": 611850,
       "text_en": "I did what I needed to do anyway.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 5
+        },
+        {
+          "pattern": "needed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 13,
+          "span_end": 19
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 92,
+      "idx": 97,
       "start_ms": 612210,
       "end_ms": 612630,
       "text_en": "Proud of the boys.",
@@ -1029,7 +1393,7 @@
       "vocab": []
     },
     {
-      "idx": 93,
+      "idx": 98,
       "start_ms": 612870,
       "end_ms": 613330,
       "text_en": "Proud of the fans.",
@@ -1040,29 +1404,47 @@
       "vocab": []
     },
     {
-      "idx": 94,
+      "idx": 99,
       "start_ms": 613810,
       "end_ms": 614990,
       "text_en": "Special club this is, you know.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 30
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 95,
+      "idx": 100,
       "start_ms": 617090,
       "end_ms": 617650,
       "text_en": "I do another year.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 4
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 96,
+      "idx": 101,
       "start_ms": 618170,
       "end_ms": 618910,
       "text_en": "Oh my God.",
@@ -1073,7 +1455,7 @@
       "vocab": []
     },
     {
-      "idx": 97,
+      "idx": 102,
       "start_ms": 619050,
       "end_ms": 619370,
       "text_en": "I don't know.",
@@ -1084,7 +1466,7 @@
       "vocab": []
     },
     {
-      "idx": 98,
+      "idx": 103,
       "start_ms": 619570,
       "end_ms": 620170,
       "text_en": "I do not know.",
@@ -1095,29 +1477,47 @@
       "vocab": []
     },
     {
-      "idx": 99,
+      "idx": 104,
       "start_ms": 620750,
       "end_ms": 621870,
       "text_en": "I'm going to have to think about this.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'m going to have",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 17
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 100,
+      "idx": 105,
       "start_ms": 622150,
       "end_ms": 623070,
       "text_en": "I'm going to have to think about it.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'m going to have",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 17
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 101,
+      "idx": 106,
       "start_ms": 623070,
       "end_ms": 623630,
       "text_en": "It's as simple as that.",
@@ -1128,51 +1528,119 @@
       "vocab": []
     },
     {
-      "idx": 102,
+      "idx": 107,
       "start_ms": 623730,
       "end_ms": 624790,
       "text_en": "I'm genuinely going to have to think about it.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'m genuinely going to have",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 27
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 103,
+      "idx": 108,
       "start_ms": 624850,
       "end_ms": 628870,
       "text_en": "I've never felt this much love or welcome as well as I have here at Rexxham.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve never felt",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 1,
+          "span_end": 15
+        },
+        {
+          "pattern": "welcome",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 34,
+          "span_end": 41
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 55,
+          "span_end": 59
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 5,
+          "span_end": 10
+        },
+        {
+          "pattern": "much",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 21,
+          "span_end": 25
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 104,
+      "idx": 109,
       "start_ms": 629330,
       "end_ms": 630390,
       "text_en": "Really enjoyed my eight games.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "enjoyed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 14
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 105,
+      "idx": 110,
       "start_ms": 631510,
       "end_ms": 631730,
       "text_en": "We'll see.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 9
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 106,
+      "idx": 111,
       "start_ms": 632130,
       "end_ms": 632390,
       "text_en": "Simple as that.",
@@ -1183,29 +1651,47 @@
       "vocab": []
     },
     {
-      "idx": 107,
+      "idx": 112,
       "start_ms": 632570,
       "end_ms": 632950,
       "text_en": "I love you all.",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 108,
+      "idx": 113,
       "start_ms": 633250,
       "end_ms": 633870,
       "text_en": "I'll see you all soon, right?",
       "text_tr": "",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ll see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 1,
+          "span_end": 8
+        }
+      ],
       "vocab": []
     },
     {
-      "idx": 109,
+      "idx": 114,
       "start_ms": 634010,
       "end_ms": 634190,
       "text_en": "All the best.",
@@ -1216,7 +1702,7 @@
       "vocab": []
     },
     {
-      "idx": 110,
+      "idx": 115,
       "start_ms": 634370,
       "end_ms": 634890,
       "text_en": "Look at this place.",
@@ -1227,7 +1713,7 @@
       "vocab": []
     },
     {
-      "idx": 111,
+      "idx": 116,
       "start_ms": 635710,
       "end_ms": 636190,
       "text_en": "Seagulls are funny.",
@@ -1238,7 +1724,7 @@
       "vocab": []
     },
     {
-      "idx": 112,
+      "idx": 117,
       "start_ms": 636490,
       "end_ms": 637810,
       "text_en": "Seagulls are about the size of a dog, by the way.",
@@ -1249,7 +1735,7 @@
       "vocab": []
     },
     {
-      "idx": 113,
+      "idx": 118,
       "start_ms": 637890,
       "end_ms": 638690,
       "text_en": "They're absolutely massive.",

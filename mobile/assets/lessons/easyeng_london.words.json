@@ -92,7 +92,9 @@
   {
     "w": "originally",
     "start_ms": 15860,
-    "end_ms": 16059
+    "end_ms": 16059,
+    "lemma": "originally",
+    "pos": "ADV"
   },
   {
     "w": "from",
@@ -117,7 +119,9 @@
   {
     "w": "southwest",
     "start_ms": 17420,
-    "end_ms": 17700
+    "end_ms": 17700,
+    "lemma": "southwest",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -157,7 +161,9 @@
   {
     "w": "upstate",
     "start_ms": 20780,
-    "end_ms": 20940
+    "end_ms": 20940,
+    "lemma": "upstate",
+    "pos": "ADJ"
   },
   {
     "w": "New",
@@ -207,12 +213,16 @@
   {
     "w": "states",
     "start_ms": 25000,
-    "end_ms": 25140
+    "end_ms": 25140,
+    "lemma": "state",
+    "pos": "NOUN"
   },
   {
     "w": "originally,",
     "start_ms": 25140,
-    "end_ms": 25460
+    "end_ms": 25460,
+    "lemma": "originally",
+    "pos": "ADV"
   },
   {
     "w": "from",
@@ -262,7 +272,9 @@
   {
     "w": "live",
     "start_ms": 28360,
-    "end_ms": 28500
+    "end_ms": 28500,
+    "lemma": "live",
+    "pos": "VERB"
   },
   {
     "w": "in",
@@ -292,7 +304,9 @@
   {
     "w": "like",
     "start_ms": 29400,
-    "end_ms": 29540
+    "end_ms": 29540,
+    "lemma": "like",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -302,7 +316,9 @@
   {
     "w": "most",
     "start_ms": 29700,
-    "end_ms": 29820
+    "end_ms": 29820,
+    "lemma": "most",
+    "pos": "ADJ"
   },
   {
     "w": "of",
@@ -322,7 +338,9 @@
   {
     "w": "love",
     "start_ms": 31100,
-    "end_ms": 31240
+    "end_ms": 31240,
+    "lemma": "love",
+    "pos": "VERB"
   },
   {
     "w": "how",
@@ -332,7 +350,9 @@
   {
     "w": "diverse",
     "start_ms": 31420,
-    "end_ms": 31700
+    "end_ms": 31700,
+    "lemma": "diverse",
+    "pos": "ADJ"
   },
   {
     "w": "it",
@@ -352,7 +372,9 @@
   {
     "w": "think",
     "start_ms": 32479,
-    "end_ms": 32659
+    "end_ms": 32659,
+    "lemma": "think",
+    "pos": "VERB"
   },
   {
     "w": "you",
@@ -367,7 +389,9 @@
   {
     "w": "walk",
     "start_ms": 32900,
-    "end_ms": 33120
+    "end_ms": 33120,
+    "lemma": "walk",
+    "pos": "VERB"
   },
   {
     "w": "out",
@@ -387,7 +411,9 @@
   {
     "w": "door",
     "start_ms": 33540,
-    "end_ms": 33800
+    "end_ms": 33800,
+    "lemma": "door",
+    "pos": "NOUN"
   },
   {
     "w": "every",
@@ -397,7 +423,9 @@
   {
     "w": "day",
     "start_ms": 34520,
-    "end_ms": 34780
+    "end_ms": 34780,
+    "lemma": "day",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -407,7 +435,9 @@
   {
     "w": "find",
     "start_ms": 34980,
-    "end_ms": 35200
+    "end_ms": 35200,
+    "lemma": "find",
+    "pos": "VERB"
   },
   {
     "w": "something",
@@ -417,12 +447,16 @@
   {
     "w": "completely",
     "start_ms": 35440,
-    "end_ms": 35740
+    "end_ms": 35740,
+    "lemma": "completely",
+    "pos": "ADV"
   },
   {
     "w": "different",
     "start_ms": 35740,
-    "end_ms": 36100
+    "end_ms": 36100,
+    "lemma": "different",
+    "pos": "ADJ"
   },
   {
     "w": "to",
@@ -437,7 +471,9 @@
   {
     "w": "having",
     "start_ms": 36880,
-    "end_ms": 37200
+    "end_ms": 37200,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -447,7 +483,9 @@
   {
     "w": "plan.",
     "start_ms": 37320,
-    "end_ms": 37460
+    "end_ms": 37460,
+    "lemma": "plan",
+    "pos": "NOUN"
   },
   {
     "w": "Yeah,",
@@ -457,7 +495,9 @@
   {
     "w": "similar.",
     "start_ms": 38580,
-    "end_ms": 38700
+    "end_ms": 38700,
+    "lemma": "similar",
+    "pos": "ADJ"
   },
   {
     "w": "Yeah,",
@@ -472,12 +512,16 @@
   {
     "w": "very",
     "start_ms": 39320,
-    "end_ms": 39460
+    "end_ms": 39460,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "varied.",
     "start_ms": 39460,
-    "end_ms": 40340
+    "end_ms": 40340,
+    "lemma": "varied",
+    "pos": "ADJ"
   },
   {
     "w": "It's",
@@ -487,7 +531,9 @@
   {
     "w": "like",
     "start_ms": 41000,
-    "end_ms": 41180
+    "end_ms": 41180,
+    "lemma": "like",
+    "pos": "VERB"
   },
   {
     "w": "100",
@@ -497,12 +543,16 @@
   {
     "w": "different",
     "start_ms": 41740,
-    "end_ms": 41980
+    "end_ms": 41980,
+    "lemma": "different",
+    "pos": "ADJ"
   },
   {
     "w": "cities",
     "start_ms": 41980,
-    "end_ms": 42260
+    "end_ms": 42260,
+    "lemma": "city",
+    "pos": "NOUN"
   },
   {
     "w": "in",
@@ -527,12 +577,16 @@
   {
     "w": "really",
     "start_ms": 43220,
-    "end_ms": 43420
+    "end_ms": 43420,
+    "lemma": "really",
+    "pos": "ADV"
   },
   {
     "w": "like.",
     "start_ms": 43420,
-    "end_ms": 43660
+    "end_ms": 43660,
+    "lemma": "like",
+    "pos": "VERB"
   },
   {
     "w": "It's",
@@ -542,7 +596,9 @@
   {
     "w": "kind",
     "start_ms": 43940,
-    "end_ms": 44140
+    "end_ms": 44140,
+    "lemma": "kind",
+    "pos": "ADV"
   },
   {
     "w": "of",
@@ -557,7 +613,9 @@
   {
     "w": "confederation",
     "start_ms": 44280,
-    "end_ms": 44720
+    "end_ms": 44720,
+    "lemma": "confederation",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -567,7 +625,9 @@
   {
     "w": "places",
     "start_ms": 45020,
-    "end_ms": 45260
+    "end_ms": 45260,
+    "lemma": "place",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -577,7 +637,9 @@
   {
     "w": "just",
     "start_ms": 45860,
-    "end_ms": 46840
+    "end_ms": 46840,
+    "lemma": "just",
+    "pos": "ADV"
   },
   {
     "w": "the",
@@ -587,7 +649,9 @@
   {
     "w": "world",
     "start_ms": 47180,
-    "end_ms": 47300
+    "end_ms": 47300,
+    "lemma": "world",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -602,7 +666,9 @@
   {
     "w": "oyster.",
     "start_ms": 47480,
-    "end_ms": 47780
+    "end_ms": 47780,
+    "lemma": "oyster",
+    "pos": "NOUN"
   },
   {
     "w": "The",
@@ -612,27 +678,37 @@
   {
     "w": "shops,",
     "start_ms": 48100,
-    "end_ms": 48360
+    "end_ms": 48360,
+    "lemma": "shop",
+    "pos": "NOUN"
   },
   {
     "w": "best",
     "start_ms": 49080,
-    "end_ms": 49940
+    "end_ms": 49940,
+    "lemma": "good",
+    "pos": "ADJ"
   },
   {
     "w": "museums,",
     "start_ms": 49940,
-    "end_ms": 50220
+    "end_ms": 50220,
+    "lemma": "museum",
+    "pos": "NOUN"
   },
   {
     "w": "best",
     "start_ms": 51060,
-    "end_ms": 51640
+    "end_ms": 51640,
+    "lemma": "good",
+    "pos": "ADJ"
   },
   {
     "w": "seats",
     "start_ms": 51640,
-    "end_ms": 51880
+    "end_ms": 51880,
+    "lemma": "seat",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -642,7 +718,9 @@
   {
     "w": "learning",
     "start_ms": 52060,
-    "end_ms": 52280
+    "end_ms": 52280,
+    "lemma": "learn",
+    "pos": "VERB"
   },
   {
     "w": "in",
@@ -652,7 +730,9 @@
   {
     "w": "terms",
     "start_ms": 52640,
-    "end_ms": 53560
+    "end_ms": 53560,
+    "lemma": "term",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -662,7 +742,9 @@
   {
     "w": "scholastically.",
     "start_ms": 53860,
-    "end_ms": 55340
+    "end_ms": 55340,
+    "lemma": "scholastically",
+    "pos": "ADV"
   },
   {
     "w": "London",
@@ -677,7 +759,9 @@
   {
     "w": "now",
     "start_ms": 57960,
-    "end_ms": 58140
+    "end_ms": 58140,
+    "lemma": "now",
+    "pos": "ADV"
   },
   {
     "w": "the",
@@ -687,7 +771,9 @@
   {
     "w": "capital",
     "start_ms": 58720,
-    "end_ms": 58960
+    "end_ms": 58960,
+    "lemma": "capital",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -702,7 +788,9 @@
   {
     "w": "world.",
     "start_ms": 59200,
-    "end_ms": 59340
+    "end_ms": 59340,
+    "lemma": "world",
+    "pos": "NOUN"
   },
   {
     "w": "I",
@@ -712,7 +800,9 @@
   {
     "w": "love",
     "start_ms": 60380,
-    "end_ms": 60520
+    "end_ms": 60520,
+    "lemma": "love",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -722,7 +812,9 @@
   {
     "w": "hustle",
     "start_ms": 60720,
-    "end_ms": 61060
+    "end_ms": 61060,
+    "lemma": "hustle",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -732,7 +824,9 @@
   {
     "w": "bustle",
     "start_ms": 61180,
-    "end_ms": 61540
+    "end_ms": 61540,
+    "lemma": "bustle",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -752,7 +846,9 @@
   {
     "w": "always",
     "start_ms": 62520,
-    "end_ms": 63480
+    "end_ms": 63480,
+    "lemma": "always",
+    "pos": "ADV"
   },
   {
     "w": "something",
@@ -762,7 +858,9 @@
   {
     "w": "going",
     "start_ms": 63780,
-    "end_ms": 64099
+    "end_ms": 64099,
+    "lemma": "go",
+    "pos": "VERB"
   },
   {
     "w": "on",
@@ -802,7 +900,9 @@
   {
     "w": "find",
     "start_ms": 65840,
-    "end_ms": 66080
+    "end_ms": 66080,
+    "lemma": "find",
+    "pos": "VERB"
   },
   {
     "w": "out",
@@ -817,7 +917,9 @@
   {
     "w": "interesting",
     "start_ms": 67440,
-    "end_ms": 67760
+    "end_ms": 67760,
+    "lemma": "interesting",
+    "pos": "ADJ"
   },
   {
     "w": "to",
@@ -827,7 +929,9 @@
   {
     "w": "go",
     "start_ms": 68040,
-    "end_ms": 68180
+    "end_ms": 68180,
+    "lemma": "go",
+    "pos": "VERB"
   },
   {
     "w": "to.",
@@ -842,7 +946,9 @@
   {
     "w": "saying",
     "start_ms": 69800,
-    "end_ms": 69940
+    "end_ms": 69940,
+    "lemma": "say",
+    "pos": "VERB"
   },
   {
     "w": "there's",
@@ -852,7 +958,9 @@
   {
     "w": "lots",
     "start_ms": 70200,
-    "end_ms": 70300
+    "end_ms": 70300,
+    "lemma": "lot",
+    "pos": "NOUN"
   },
   {
     "w": "to",
@@ -862,17 +970,23 @@
   {
     "w": "do.",
     "start_ms": 70500,
-    "end_ms": 70620
+    "end_ms": 70620,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "People",
     "start_ms": 70900,
-    "end_ms": 71120
+    "end_ms": 71120,
+    "lemma": "people",
+    "pos": "NOUN"
   },
   {
     "w": "come",
     "start_ms": 71120,
-    "end_ms": 71300
+    "end_ms": 71300,
+    "lemma": "come",
+    "pos": "VERB"
   },
   {
     "w": "from",
@@ -882,7 +996,9 @@
   {
     "w": "all",
     "start_ms": 71540,
-    "end_ms": 72000
+    "end_ms": 72000,
+    "lemma": "all",
+    "pos": "ADV"
   },
   {
     "w": "over",
@@ -897,7 +1013,9 @@
   {
     "w": "world",
     "start_ms": 72320,
-    "end_ms": 72580
+    "end_ms": 72580,
+    "lemma": "world",
+    "pos": "NOUN"
   },
   {
     "w": "to",
@@ -907,17 +1025,23 @@
   {
     "w": "meet",
     "start_ms": 72920,
-    "end_ms": 73100
+    "end_ms": 73100,
+    "lemma": "meet",
+    "pos": "VERB"
   },
   {
     "w": "interesting",
     "start_ms": 73100,
-    "end_ms": 73340
+    "end_ms": 73340,
+    "lemma": "interesting",
+    "pos": "ADJ"
   },
   {
     "w": "people.",
     "start_ms": 73340,
-    "end_ms": 73780
+    "end_ms": 73780,
+    "lemma": "people",
+    "pos": "NOUN"
   },
   {
     "w": "What",
@@ -937,7 +1061,9 @@
   {
     "w": "like",
     "start_ms": 75540,
-    "end_ms": 75700
+    "end_ms": 75700,
+    "lemma": "like",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -947,7 +1073,9 @@
   {
     "w": "most",
     "start_ms": 75800,
-    "end_ms": 75860
+    "end_ms": 75860,
+    "lemma": "most",
+    "pos": "ADJ"
   },
   {
     "w": "about",
@@ -967,7 +1095,9 @@
   {
     "w": "diversity.",
     "start_ms": 77960,
-    "end_ms": 78280
+    "end_ms": 78280,
+    "lemma": "diversity",
+    "pos": "NOUN"
   },
   {
     "w": "The",
@@ -977,12 +1107,16 @@
   {
     "w": "diversity.",
     "start_ms": 78740,
-    "end_ms": 79460
+    "end_ms": 79460,
+    "lemma": "diversity",
+    "pos": "NOUN"
   },
   {
     "w": "So,",
     "start_ms": 80080,
-    "end_ms": 80080
+    "end_ms": 80080,
+    "lemma": "so",
+    "pos": "ADV"
   },
   {
     "w": "in",
@@ -1002,7 +1136,9 @@
   {
     "w": "grew",
     "start_ms": 81660,
-    "end_ms": 81780
+    "end_ms": 81780,
+    "lemma": "grow",
+    "pos": "VERB"
   },
   {
     "w": "up",
@@ -1032,7 +1168,9 @@
   {
     "w": "left",
     "start_ms": 83960,
-    "end_ms": 84500
+    "end_ms": 84500,
+    "lemma": "leave",
+    "pos": "VERB"
   },
   {
     "w": "London",
@@ -1072,12 +1210,16 @@
   {
     "w": "first",
     "start_ms": 85760,
-    "end_ms": 85940
+    "end_ms": 85940,
+    "lemma": "first",
+    "pos": "ADJ"
   },
   {
     "w": "time",
     "start_ms": 85940,
-    "end_ms": 86240
+    "end_ms": 86240,
+    "lemma": "time",
+    "pos": "NOUN"
   },
   {
     "w": "that",
@@ -1092,22 +1234,30 @@
   {
     "w": "ever",
     "start_ms": 87440,
-    "end_ms": 87620
+    "end_ms": 87620,
+    "lemma": "ever",
+    "pos": "ADV"
   },
   {
     "w": "sort",
     "start_ms": 87620,
-    "end_ms": 87780
+    "end_ms": 87780,
+    "lemma": "sort",
+    "pos": "ADV"
   },
   {
     "w": "of",
     "start_ms": 87780,
-    "end_ms": 87900
+    "end_ms": 87900,
+    "lemma": "of",
+    "pos": "ADV"
   },
   {
     "w": "experienced",
     "start_ms": 87900,
-    "end_ms": 88420
+    "end_ms": 88420,
+    "lemma": "experienced",
+    "pos": "ADJ"
   },
   {
     "w": "like,",
@@ -1127,12 +1277,16 @@
   {
     "w": "know,",
     "start_ms": 91280,
-    "end_ms": 91460
+    "end_ms": 91460,
+    "lemma": "know",
+    "pos": "VERB"
   },
   {
     "w": "racism",
     "start_ms": 92000,
-    "end_ms": 92340
+    "end_ms": 92340,
+    "lemma": "racism",
+    "pos": "NOUN"
   },
   {
     "w": "was",
@@ -1152,22 +1306,30 @@
   {
     "w": "sort",
     "start_ms": 92980,
-    "end_ms": 93540
+    "end_ms": 93540,
+    "lemma": "sort",
+    "pos": "ADV"
   },
   {
     "w": "of",
     "start_ms": 93540,
-    "end_ms": 93640
+    "end_ms": 93640,
+    "lemma": "of",
+    "pos": "ADV"
   },
   {
     "w": "first",
     "start_ms": 93640,
-    "end_ms": 93840
+    "end_ms": 93840,
+    "lemma": "first",
+    "pos": "ADV"
   },
   {
     "w": "left",
     "start_ms": 93840,
-    "end_ms": 94020
+    "end_ms": 94020,
+    "lemma": "leave",
+    "pos": "VERB"
   },
   {
     "w": "London",
@@ -1187,7 +1349,9 @@
   {
     "w": "here",
     "start_ms": 95040,
-    "end_ms": 95300
+    "end_ms": 95300,
+    "lemma": "here",
+    "pos": "ADV"
   },
   {
     "w": "you",
@@ -1197,7 +1361,9 @@
   {
     "w": "grow",
     "start_ms": 95440,
-    "end_ms": 95600
+    "end_ms": 95600,
+    "lemma": "grow",
+    "pos": "VERB"
   },
   {
     "w": "up",
@@ -1217,12 +1383,16 @@
   {
     "w": "just",
     "start_ms": 95980,
-    "end_ms": 96100
+    "end_ms": 96100,
+    "lemma": "just",
+    "pos": "ADV"
   },
   {
     "w": "surrounded",
     "start_ms": 96100,
-    "end_ms": 96360
+    "end_ms": 96360,
+    "lemma": "surround",
+    "pos": "VERB"
   },
   {
     "w": "by",
@@ -1237,7 +1407,9 @@
   {
     "w": "constantly",
     "start_ms": 96800,
-    "end_ms": 97140
+    "end_ms": 97140,
+    "lemma": "constantly",
+    "pos": "ADV"
   },
   {
     "w": "and",
@@ -1247,7 +1419,9 @@
   {
     "w": "growing",
     "start_ms": 97600,
-    "end_ms": 100340
+    "end_ms": 100340,
+    "lemma": "grow",
+    "pos": "VERB"
   },
   {
     "w": "up",
@@ -1267,7 +1441,9 @@
   {
     "w": "sort",
     "start_ms": 100860,
-    "end_ms": 101020
+    "end_ms": 101020,
+    "lemma": "sort",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -1277,7 +1453,9 @@
   {
     "w": "environment",
     "start_ms": 101160,
-    "end_ms": 101540
+    "end_ms": 101540,
+    "lemma": "environment",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -1287,7 +1465,9 @@
   {
     "w": "incredible.",
     "start_ms": 102140,
-    "end_ms": 103840
+    "end_ms": 103840,
+    "lemma": "incredible",
+    "pos": "ADJ"
   },
   {
     "w": "I",
@@ -1297,7 +1477,9 @@
   {
     "w": "think",
     "start_ms": 104220,
-    "end_ms": 104340
+    "end_ms": 104340,
+    "lemma": "think",
+    "pos": "VERB"
   },
   {
     "w": "it's",
@@ -1322,7 +1504,9 @@
   {
     "w": "take",
     "start_ms": 106340,
-    "end_ms": 106520
+    "end_ms": 106520,
+    "lemma": "take",
+    "pos": "VERB"
   },
   {
     "w": "for",
@@ -1332,7 +1516,9 @@
   {
     "w": "granted",
     "start_ms": 106700,
-    "end_ms": 106880
+    "end_ms": 106880,
+    "lemma": "grant",
+    "pos": "VERB"
   },
   {
     "w": "if",
@@ -1347,7 +1533,9 @@
   {
     "w": "live",
     "start_ms": 107220,
-    "end_ms": 107340
+    "end_ms": 107340,
+    "lemma": "live",
+    "pos": "VERB"
   },
   {
     "w": "in",
@@ -1372,12 +1560,16 @@
   {
     "w": "nowhere",
     "start_ms": 109180,
-    "end_ms": 109340
+    "end_ms": 109340,
+    "lemma": "nowhere",
+    "pos": "ADV"
   },
   {
     "w": "else",
     "start_ms": 109340,
-    "end_ms": 109640
+    "end_ms": 109640,
+    "lemma": "else",
+    "pos": "ADV"
   },
   {
     "w": "in",
@@ -1392,12 +1584,16 @@
   {
     "w": "world,",
     "start_ms": 110020,
-    "end_ms": 110180
+    "end_ms": 110180,
+    "lemma": "world",
+    "pos": "NOUN"
   },
   {
     "w": "quite",
     "start_ms": 110440,
-    "end_ms": 110780
+    "end_ms": 110780,
+    "lemma": "quite",
+    "pos": "ADV"
   },
   {
     "w": "like",
@@ -1417,7 +1613,9 @@
   {
     "w": "guess.",
     "start_ms": 111260,
-    "end_ms": 111400
+    "end_ms": 111400,
+    "lemma": "guess",
+    "pos": "VERB"
   },
   {
     "w": "It's",
@@ -1427,27 +1625,37 @@
   {
     "w": "just",
     "start_ms": 111600,
-    "end_ms": 111720
+    "end_ms": 111720,
+    "lemma": "just",
+    "pos": "ADV"
   },
   {
     "w": "so",
     "start_ms": 111720,
-    "end_ms": 111920
+    "end_ms": 111920,
+    "lemma": "so",
+    "pos": "ADV"
   },
   {
     "w": "many",
     "start_ms": 111920,
-    "end_ms": 112060
+    "end_ms": 112060,
+    "lemma": "many",
+    "pos": "ADJ"
   },
   {
     "w": "different",
     "start_ms": 112060,
-    "end_ms": 112320
+    "end_ms": 112320,
+    "lemma": "different",
+    "pos": "ADJ"
   },
   {
     "w": "kinds",
     "start_ms": 112320,
-    "end_ms": 112540
+    "end_ms": 112540,
+    "lemma": "kind",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -1457,12 +1665,16 @@
   {
     "w": "people",
     "start_ms": 112700,
-    "end_ms": 112980
+    "end_ms": 112980,
+    "lemma": "people",
+    "pos": "NOUN"
   },
   {
     "w": "everywhere.",
     "start_ms": 112980,
-    "end_ms": 113880
+    "end_ms": 113880,
+    "lemma": "everywhere",
+    "pos": "ADV"
   },
   {
     "w": "The",
@@ -1472,7 +1684,9 @@
   {
     "w": "fact",
     "start_ms": 114440,
-    "end_ms": 114600
+    "end_ms": 114600,
+    "lemma": "fact",
+    "pos": "NOUN"
   },
   {
     "w": "that",
@@ -1487,7 +1701,9 @@
   {
     "w": "cosmopolitan,",
     "start_ms": 115020,
-    "end_ms": 115520
+    "end_ms": 115520,
+    "lemma": "cosmopolitan",
+    "pos": "ADJ"
   },
   {
     "w": "it's",
@@ -1497,7 +1713,9 @@
   {
     "w": "lots",
     "start_ms": 116140,
-    "end_ms": 116260
+    "end_ms": 116260,
+    "lemma": "lot",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -1507,17 +1725,23 @@
   {
     "w": "different",
     "start_ms": 116420,
-    "end_ms": 116660
+    "end_ms": 116660,
+    "lemma": "different",
+    "pos": "ADJ"
   },
   {
     "w": "ethnic",
     "start_ms": 116660,
-    "end_ms": 117360
+    "end_ms": 117360,
+    "lemma": "ethnic",
+    "pos": "ADJ"
   },
   {
     "w": "groups.",
     "start_ms": 117360,
-    "end_ms": 117920
+    "end_ms": 117920,
+    "lemma": "group",
+    "pos": "NOUN"
   },
   {
     "w": "The",
@@ -1527,7 +1751,9 @@
   {
     "w": "weather,",
     "start_ms": 118900,
-    "end_ms": 119080
+    "end_ms": 119080,
+    "lemma": "weather",
+    "pos": "NOUN"
   },
   {
     "w": "it's",
@@ -1537,12 +1763,16 @@
   {
     "w": "fantastic.",
     "start_ms": 119640,
-    "end_ms": 119960
+    "end_ms": 119960,
+    "lemma": "fantastic",
+    "pos": "ADJ"
   },
   {
     "w": "Now,",
     "start_ms": 121380,
-    "end_ms": 121780
+    "end_ms": 121780,
+    "lemma": "now",
+    "pos": "ADV"
   },
   {
     "w": "there's",
@@ -1557,22 +1787,30 @@
   {
     "w": "very",
     "start_ms": 122200,
-    "end_ms": 122660
+    "end_ms": 122660,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "beautiful",
     "start_ms": 122660,
-    "end_ms": 122940
+    "end_ms": 122940,
+    "lemma": "beautiful",
+    "pos": "ADJ"
   },
   {
     "w": "city.",
     "start_ms": 122940,
-    "end_ms": 123380
+    "end_ms": 123380,
+    "lemma": "city",
+    "pos": "NOUN"
   },
   {
     "w": "Lots",
     "start_ms": 123740,
-    "end_ms": 123920
+    "end_ms": 123920,
+    "lemma": "lot",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -1582,7 +1820,9 @@
   {
     "w": "things",
     "start_ms": 124080,
-    "end_ms": 124200
+    "end_ms": 124200,
+    "lemma": "thing",
+    "pos": "NOUN"
   },
   {
     "w": "to",
@@ -1592,12 +1832,16 @@
   {
     "w": "do,",
     "start_ms": 124400,
-    "end_ms": 124600
+    "end_ms": 124600,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "places",
     "start_ms": 124660,
-    "end_ms": 124840
+    "end_ms": 124840,
+    "lemma": "place",
+    "pos": "NOUN"
   },
   {
     "w": "like",
@@ -1622,7 +1866,9 @@
   {
     "w": "food",
     "start_ms": 126420,
-    "end_ms": 126620
+    "end_ms": 126620,
+    "lemma": "food",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -1632,17 +1878,23 @@
   {
     "w": "amazing",
     "start_ms": 126760,
-    "end_ms": 126980
+    "end_ms": 126980,
+    "lemma": "amazing",
+    "pos": "ADJ"
   },
   {
     "w": "as",
     "start_ms": 126980,
-    "end_ms": 127380
+    "end_ms": 127380,
+    "lemma": "as",
+    "pos": "ADV"
   },
   {
     "w": "well",
     "start_ms": 127380,
-    "end_ms": 127580
+    "end_ms": 127580,
+    "lemma": "well",
+    "pos": "ADV"
   },
   {
     "w": "and",
@@ -1652,7 +1904,9 @@
   {
     "w": "lots",
     "start_ms": 128180,
-    "end_ms": 128340
+    "end_ms": 128340,
+    "lemma": "lot",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -1662,12 +1916,16 @@
   {
     "w": "different",
     "start_ms": 128500,
-    "end_ms": 128680
+    "end_ms": 128680,
+    "lemma": "different",
+    "pos": "ADJ"
   },
   {
     "w": "cultures.",
     "start_ms": 128680,
-    "end_ms": 128919
+    "end_ms": 128919,
+    "lemma": "culture",
+    "pos": "NOUN"
   },
   {
     "w": "What",
@@ -1687,7 +1945,9 @@
   {
     "w": "recommend",
     "start_ms": 130280,
-    "end_ms": 130560
+    "end_ms": 130560,
+    "lemma": "recommend",
+    "pos": "VERB"
   },
   {
     "w": "them",
@@ -1702,12 +1962,16 @@
   {
     "w": "do?",
     "start_ms": 130940,
-    "end_ms": 131060
+    "end_ms": 131060,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "First",
     "start_ms": 131340,
-    "end_ms": 131540
+    "end_ms": 131540,
+    "lemma": "first",
+    "pos": "ADV"
   },
   {
     "w": "of",
@@ -1727,7 +1991,9 @@
   {
     "w": "have",
     "start_ms": 132380,
-    "end_ms": 132660
+    "end_ms": 132660,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -1737,7 +2003,9 @@
   {
     "w": "do",
     "start_ms": 132800,
-    "end_ms": 132900
+    "end_ms": 132900,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "their",
@@ -1747,7 +2015,9 @@
   {
     "w": "research.",
     "start_ms": 133000,
-    "end_ms": 133320
+    "end_ms": 133320,
+    "lemma": "research",
+    "pos": "NOUN"
   },
   {
     "w": "It's",
@@ -1762,12 +2032,16 @@
   {
     "w": "massive",
     "start_ms": 134180,
-    "end_ms": 134280
+    "end_ms": 134280,
+    "lemma": "massive",
+    "pos": "ADJ"
   },
   {
     "w": "city.",
     "start_ms": 134280,
-    "end_ms": 134760
+    "end_ms": 134760,
+    "lemma": "city",
+    "pos": "NOUN"
   },
   {
     "w": "You",
@@ -1782,7 +2056,9 @@
   {
     "w": "easily",
     "start_ms": 135400,
-    "end_ms": 135580
+    "end_ms": 135580,
+    "lemma": "easily",
+    "pos": "ADV"
   },
   {
     "w": "get",
@@ -1792,17 +2068,23 @@
   {
     "w": "lost,",
     "start_ms": 135900,
-    "end_ms": 136060
+    "end_ms": 136060,
+    "lemma": "lose",
+    "pos": "VERB"
   },
   {
     "w": "frightened,",
     "start_ms": 136460,
-    "end_ms": 136520
+    "end_ms": 136520,
+    "lemma": "frightened",
+    "pos": "ADJ"
   },
   {
     "w": "intimidated,",
     "start_ms": 137160,
-    "end_ms": 137160
+    "end_ms": 137160,
+    "lemma": "intimidate",
+    "pos": "VERB"
   },
   {
     "w": "not",
@@ -1812,7 +2094,9 @@
   {
     "w": "have",
     "start_ms": 137900,
-    "end_ms": 138060
+    "end_ms": 138060,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -1822,27 +2106,37 @@
   {
     "w": "good",
     "start_ms": 138140,
-    "end_ms": 138240
+    "end_ms": 138240,
+    "lemma": "good",
+    "pos": "ADJ"
   },
   {
     "w": "time",
     "start_ms": 138240,
-    "end_ms": 138460
+    "end_ms": 138460,
+    "lemma": "time",
+    "pos": "NOUN"
   },
   {
     "w": "then",
     "start_ms": 138460,
-    "end_ms": 138640
+    "end_ms": 138640,
+    "lemma": "then",
+    "pos": "ADV"
   },
   {
     "w": "go",
     "start_ms": 138640,
-    "end_ms": 138840
+    "end_ms": 138840,
+    "lemma": "go",
+    "pos": "VERB"
   },
   {
     "w": "home",
     "start_ms": 138840,
-    "end_ms": 139080
+    "end_ms": 139080,
+    "lemma": "home",
+    "pos": "ADV"
   },
   {
     "w": "having",
@@ -1852,27 +2146,37 @@
   {
     "w": "had",
     "start_ms": 139380,
-    "end_ms": 140380
+    "end_ms": 140380,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "quite",
     "start_ms": 140380,
-    "end_ms": 140680
+    "end_ms": 140680,
+    "lemma": "quite",
+    "pos": "ADV"
   },
   {
     "w": "poor",
     "start_ms": 140680,
-    "end_ms": 140900
+    "end_ms": 140900,
+    "lemma": "poor",
+    "pos": "ADJ"
   },
   {
     "w": "experience.",
     "start_ms": 140900,
-    "end_ms": 141380
+    "end_ms": 141380,
+    "lemma": "experience",
+    "pos": "NOUN"
   },
   {
     "w": "So",
     "start_ms": 142160,
-    "end_ms": 142220
+    "end_ms": 142220,
+    "lemma": "so",
+    "pos": "ADV"
   },
   {
     "w": "you",
@@ -1882,7 +2186,9 @@
   {
     "w": "have",
     "start_ms": 142320,
-    "end_ms": 142440
+    "end_ms": 142440,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -1892,7 +2198,9 @@
   {
     "w": "learn,",
     "start_ms": 142620,
-    "end_ms": 142960
+    "end_ms": 142960,
+    "lemma": "learn",
+    "pos": "VERB"
   },
   {
     "w": "you",
@@ -1902,7 +2210,9 @@
   {
     "w": "know,",
     "start_ms": 143340,
-    "end_ms": 143420
+    "end_ms": 143420,
+    "lemma": "know",
+    "pos": "VERB"
   },
   {
     "w": "you",
@@ -1912,7 +2222,9 @@
   {
     "w": "have",
     "start_ms": 143520,
-    "end_ms": 143560
+    "end_ms": 143560,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -1922,7 +2234,9 @@
   {
     "w": "do",
     "start_ms": 143680,
-    "end_ms": 143940
+    "end_ms": 143940,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "your",
@@ -1932,7 +2246,9 @@
   {
     "w": "research.",
     "start_ms": 144060,
-    "end_ms": 144340
+    "end_ms": 144340,
+    "lemma": "research",
+    "pos": "NOUN"
   },
   {
     "w": "Where",
@@ -1952,7 +2268,9 @@
   {
     "w": "want",
     "start_ms": 145120,
-    "end_ms": 145220
+    "end_ms": 145220,
+    "lemma": "want",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -1962,7 +2280,9 @@
   {
     "w": "go?",
     "start_ms": 145300,
-    "end_ms": 145460
+    "end_ms": 145460,
+    "lemma": "go",
+    "pos": "VERB"
   },
   {
     "w": "Which",
@@ -1972,7 +2292,9 @@
   {
     "w": "part?",
     "start_ms": 145720,
-    "end_ms": 145960
+    "end_ms": 145960,
+    "lemma": "part",
+    "pos": "NOUN"
   },
   {
     "w": "East,",
@@ -1992,7 +2314,9 @@
   {
     "w": "do",
     "start_ms": 147560,
-    "end_ms": 147760
+    "end_ms": 147760,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "some",
@@ -2002,7 +2326,9 @@
   {
     "w": "research,",
     "start_ms": 147920,
-    "end_ms": 148160
+    "end_ms": 148160,
+    "lemma": "research",
+    "pos": "NOUN"
   },
   {
     "w": "get",
@@ -2012,7 +2338,9 @@
   {
     "w": "stuck",
     "start_ms": 148980,
-    "end_ms": 149180
+    "end_ms": 149180,
+    "lemma": "stick",
+    "pos": "VERB"
   },
   {
     "w": "in.",
@@ -2022,12 +2350,16 @@
   {
     "w": "Walking",
     "start_ms": 149380,
-    "end_ms": 149960
+    "end_ms": 149960,
+    "lemma": "walk",
+    "pos": "VERB"
   },
   {
     "w": "around",
     "start_ms": 149960,
-    "end_ms": 150200
+    "end_ms": 150200,
+    "lemma": "around",
+    "pos": "ADV"
   },
   {
     "w": "is",
@@ -2042,17 +2374,23 @@
   {
     "w": "best",
     "start_ms": 150440,
-    "end_ms": 150560
+    "end_ms": 150560,
+    "lemma": "good",
+    "pos": "ADJ"
   },
   {
     "w": "start",
     "start_ms": 150560,
-    "end_ms": 150800
+    "end_ms": 150800,
+    "lemma": "start",
+    "pos": "NOUN"
   },
   {
     "w": "really.",
     "start_ms": 150800,
-    "end_ms": 151100
+    "end_ms": 151100,
+    "lemma": "really",
+    "pos": "ADV"
   },
   {
     "w": "The",
@@ -2062,7 +2400,9 @@
   {
     "w": "city",
     "start_ms": 151520,
-    "end_ms": 152080
+    "end_ms": 152080,
+    "lemma": "city",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -2082,12 +2422,16 @@
   {
     "w": "actually",
     "start_ms": 152460,
-    "end_ms": 152680
+    "end_ms": 152680,
+    "lemma": "actually",
+    "pos": "ADV"
   },
   {
     "w": "got",
     "start_ms": 152680,
-    "end_ms": 152820
+    "end_ms": 152820,
+    "lemma": "get",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -2097,7 +2441,9 @@
   {
     "w": "lot",
     "start_ms": 152820,
-    "end_ms": 152960
+    "end_ms": 152960,
+    "lemma": "lot",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -2107,17 +2453,23 @@
   {
     "w": "interesting",
     "start_ms": 153020,
-    "end_ms": 153220
+    "end_ms": 153220,
+    "lemma": "interesting",
+    "pos": "ADJ"
   },
   {
     "w": "history.",
     "start_ms": 153220,
-    "end_ms": 153540
+    "end_ms": 153540,
+    "lemma": "history",
+    "pos": "NOUN"
   },
   {
     "w": "So",
     "start_ms": 153980,
-    "end_ms": 153980
+    "end_ms": 153980,
+    "lemma": "so",
+    "pos": "ADV"
   },
   {
     "w": "if",
@@ -2132,17 +2484,23 @@
   {
     "w": "got",
     "start_ms": 154260,
-    "end_ms": 154300
+    "end_ms": 154300,
+    "lemma": "get",
+    "pos": "VERB"
   },
   {
     "w": "time,",
     "start_ms": 154300,
-    "end_ms": 154620
+    "end_ms": 154620,
+    "lemma": "time",
+    "pos": "NOUN"
   },
   {
     "w": "city",
     "start_ms": 155020,
-    "end_ms": 155980
+    "end_ms": 155980,
+    "lemma": "city",
+    "pos": "NOUN"
   },
   {
     "w": "in",
@@ -2167,7 +2525,9 @@
   {
     "w": "just",
     "start_ms": 157020,
-    "end_ms": 157020
+    "end_ms": 157020,
+    "lemma": "just",
+    "pos": "ADV"
   },
   {
     "w": "to",
@@ -2177,7 +2537,9 @@
   {
     "w": "see",
     "start_ms": 157260,
-    "end_ms": 157400
+    "end_ms": 157400,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "what's",
@@ -2187,7 +2549,9 @@
   {
     "w": "going",
     "start_ms": 157780,
-    "end_ms": 158300
+    "end_ms": 158300,
+    "lemma": "go",
+    "pos": "VERB"
   },
   {
     "w": "on,",
@@ -2202,22 +2566,30 @@
   {
     "w": "kind",
     "start_ms": 158880,
-    "end_ms": 159160
+    "end_ms": 159160,
+    "lemma": "kind",
+    "pos": "ADV"
   },
   {
     "w": "of",
     "start_ms": 159160,
-    "end_ms": 160680
+    "end_ms": 160680,
+    "lemma": "of",
+    "pos": "ADV"
   },
   {
     "w": "cheap",
     "start_ms": 160680,
-    "end_ms": 160680
+    "end_ms": 160680,
+    "lemma": "cheap",
+    "pos": "ADJ"
   },
   {
     "w": "things",
     "start_ms": 160680,
-    "end_ms": 160960
+    "end_ms": 160960,
+    "lemma": "thing",
+    "pos": "NOUN"
   },
   {
     "w": "to",
@@ -2227,7 +2599,9 @@
   {
     "w": "do",
     "start_ms": 161080,
-    "end_ms": 161120
+    "end_ms": 161120,
+    "lemma": "do",
+    "pos": "VERB"
   },
   {
     "w": "in",
@@ -2257,12 +2631,16 @@
   {
     "w": "always",
     "start_ms": 162040,
-    "end_ms": 162540
+    "end_ms": 162540,
+    "lemma": "always",
+    "pos": "ADV"
   },
   {
     "w": "easy.",
     "start_ms": 162540,
-    "end_ms": 163400
+    "end_ms": 163400,
+    "lemma": "easy",
+    "pos": "ADJ"
   },
   {
     "w": "It's",
@@ -2277,12 +2655,16 @@
   {
     "w": "wandering",
     "start_ms": 164800,
-    "end_ms": 164940
+    "end_ms": 164940,
+    "lemma": "wandering",
+    "pos": "ADJ"
   },
   {
     "w": "round,",
     "start_ms": 164940,
-    "end_ms": 165260
+    "end_ms": 165260,
+    "lemma": "round",
+    "pos": "NOUN"
   },
   {
     "w": "I",
@@ -2292,7 +2674,9 @@
   {
     "w": "think.",
     "start_ms": 165440,
-    "end_ms": 165580
+    "end_ms": 165580,
+    "lemma": "think",
+    "pos": "VERB"
   },
   {
     "w": "Yeah,",
@@ -2312,7 +2696,9 @@
   {
     "w": "say",
     "start_ms": 166980,
-    "end_ms": 167140
+    "end_ms": 167140,
+    "lemma": "say",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -2322,27 +2708,37 @@
   {
     "w": "same",
     "start_ms": 167240,
-    "end_ms": 167440
+    "end_ms": 167440,
+    "lemma": "same",
+    "pos": "ADJ"
   },
   {
     "w": "actually.",
     "start_ms": 167440,
-    "end_ms": 167560
+    "end_ms": 167560,
+    "lemma": "actually",
+    "pos": "ADV"
   },
   {
     "w": "Just",
     "start_ms": 168000,
-    "end_ms": 168040
+    "end_ms": 168040,
+    "lemma": "just",
+    "pos": "ADV"
   },
   {
     "w": "walk",
     "start_ms": 168040,
-    "end_ms": 168220
+    "end_ms": 168220,
+    "lemma": "walk",
+    "pos": "VERB"
   },
   {
     "w": "around",
     "start_ms": 168220,
-    "end_ms": 168440
+    "end_ms": 168440,
+    "lemma": "around",
+    "pos": "ADV"
   },
   {
     "w": "and",
@@ -2352,7 +2748,9 @@
   {
     "w": "get",
     "start_ms": 168680,
-    "end_ms": 168820
+    "end_ms": 168820,
+    "lemma": "get",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -2362,7 +2760,9 @@
   {
     "w": "know",
     "start_ms": 168980,
-    "end_ms": 169060
+    "end_ms": 169060,
+    "lemma": "know",
+    "pos": "VERB"
   },
   {
     "w": "the",
@@ -2372,7 +2772,9 @@
   {
     "w": "city",
     "start_ms": 169200,
-    "end_ms": 169420
+    "end_ms": 169420,
+    "lemma": "city",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -2382,7 +2784,9 @@
   {
     "w": "get",
     "start_ms": 169620,
-    "end_ms": 169740
+    "end_ms": 169740,
+    "lemma": "get",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -2392,7 +2796,9 @@
   {
     "w": "feel",
     "start_ms": 169840,
-    "end_ms": 170000
+    "end_ms": 170000,
+    "lemma": "feel",
+    "pos": "NOUN"
   },
   {
     "w": "for",
@@ -2407,7 +2813,9 @@
   {
     "w": "city",
     "start_ms": 170280,
-    "end_ms": 170480
+    "end_ms": 170480,
+    "lemma": "city",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -2417,7 +2825,9 @@
   {
     "w": "go",
     "start_ms": 170960,
-    "end_ms": 171080
+    "end_ms": 171080,
+    "lemma": "go",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -2427,32 +2837,44 @@
   {
     "w": "as",
     "start_ms": 171220,
-    "end_ms": 171320
+    "end_ms": 171320,
+    "lemma": "as",
+    "pos": "ADV"
   },
   {
     "w": "many",
     "start_ms": 171320,
-    "end_ms": 171440
+    "end_ms": 171440,
+    "lemma": "many",
+    "pos": "ADJ"
   },
   {
     "w": "different",
     "start_ms": 171440,
-    "end_ms": 171640
+    "end_ms": 171640,
+    "lemma": "different",
+    "pos": "ADJ"
   },
   {
     "w": "areas",
     "start_ms": 171640,
-    "end_ms": 172000
+    "end_ms": 172000,
+    "lemma": "area",
+    "pos": "NOUN"
   },
   {
     "w": "as",
     "start_ms": 172000,
-    "end_ms": 172200
+    "end_ms": 172200,
+    "lemma": "as",
+    "pos": "ADV"
   },
   {
     "w": "possible.",
     "start_ms": 172200,
-    "end_ms": 172400
+    "end_ms": 172400,
+    "lemma": "possible",
+    "pos": "ADJ"
   },
   {
     "w": "Noting",
@@ -2467,7 +2889,9 @@
   {
     "w": "Tower",
     "start_ms": 174440,
-    "end_ms": 174620
+    "end_ms": 174620,
+    "lemma": "tower",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -2487,12 +2911,16 @@
   {
     "w": "fun.",
     "start_ms": 175400,
-    "end_ms": 175660
+    "end_ms": 175660,
+    "lemma": "fun",
+    "pos": "ADJ"
   },
   {
     "w": "Definitely",
     "start_ms": 176480,
-    "end_ms": 176920
+    "end_ms": 176920,
+    "lemma": "definitely",
+    "pos": "ADV"
   },
   {
     "w": "all",
@@ -2507,7 +2935,9 @@
   {
     "w": "markets,",
     "start_ms": 177280,
-    "end_ms": 177660
+    "end_ms": 177660,
+    "lemma": "market",
+    "pos": "NOUN"
   },
   {
     "w": "the",
@@ -2517,7 +2947,9 @@
   {
     "w": "markets",
     "start_ms": 177980,
-    "end_ms": 178160
+    "end_ms": 178160,
+    "lemma": "market",
+    "pos": "NOUN"
   },
   {
     "w": "are",
@@ -2527,17 +2959,23 @@
   {
     "w": "really",
     "start_ms": 178360,
-    "end_ms": 178520
+    "end_ms": 178520,
+    "lemma": "really",
+    "pos": "ADV"
   },
   {
     "w": "cool.",
     "start_ms": 178520,
-    "end_ms": 178720
+    "end_ms": 178720,
+    "lemma": "cool",
+    "pos": "ADJ"
   },
   {
     "w": "Trying",
     "start_ms": 180660,
-    "end_ms": 181100
+    "end_ms": 181100,
+    "lemma": "try",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -2547,12 +2985,16 @@
   {
     "w": "think,",
     "start_ms": 181540,
-    "end_ms": 181700
+    "end_ms": 181700,
+    "lemma": "think",
+    "pos": "VERB"
   },
   {
     "w": "just",
     "start_ms": 181920,
-    "end_ms": 182080
+    "end_ms": 182080,
+    "lemma": "just",
+    "pos": "ADV"
   },
   {
     "w": "a",
@@ -2562,12 +3004,16 @@
   {
     "w": "mix",
     "start_ms": 182200,
-    "end_ms": 182440
+    "end_ms": 182440,
+    "lemma": "mix",
+    "pos": "NOUN"
   },
   {
     "w": "of",
     "start_ms": 182440,
-    "end_ms": 182640
+    "end_ms": 182640,
+    "lemma": "of",
+    "pos": "ADV"
   },
   {
     "w": "like",
@@ -2582,7 +3028,9 @@
   {
     "w": "touristy",
     "start_ms": 182860,
-    "end_ms": 183420
+    "end_ms": 183420,
+    "lemma": "touristy",
+    "pos": "NOUN"
   },
   {
     "w": "and",
@@ -2592,7 +3040,9 @@
   {
     "w": "kind",
     "start_ms": 183560,
-    "end_ms": 183720
+    "end_ms": 183720,
+    "lemma": "kind",
+    "pos": "ADV"
   },
   {
     "w": "of",
@@ -2602,12 +3052,16 @@
   {
     "w": "local",
     "start_ms": 183920,
-    "end_ms": 184660
+    "end_ms": 184660,
+    "lemma": "local",
+    "pos": "ADJ"
   },
   {
     "w": "stuff",
     "start_ms": 184660,
-    "end_ms": 185120
+    "end_ms": 185120,
+    "lemma": "stuff",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -2617,17 +3071,23 @@
   {
     "w": "really",
     "start_ms": 185500,
-    "end_ms": 185640
+    "end_ms": 185640,
+    "lemma": "really",
+    "pos": "ADV"
   },
   {
     "w": "fun.",
     "start_ms": 185640,
-    "end_ms": 185920
+    "end_ms": 185920,
+    "lemma": "fun",
+    "pos": "ADJ"
   },
   {
     "w": "Shortage",
     "start_ms": 186200,
-    "end_ms": 186360
+    "end_ms": 186360,
+    "lemma": "shortage",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -2637,12 +3097,16 @@
   {
     "w": "awesome.",
     "start_ms": 186480,
-    "end_ms": 186560
+    "end_ms": 186560,
+    "lemma": "awesome",
+    "pos": "ADJ"
   },
   {
     "w": "Shortage",
     "start_ms": 186560,
-    "end_ms": 186860
+    "end_ms": 186860,
+    "lemma": "shortage",
+    "pos": "NOUN"
   },
   {
     "w": "is",
@@ -2652,7 +3116,9 @@
   {
     "w": "great.",
     "start_ms": 187180,
-    "end_ms": 187460
+    "end_ms": 187460,
+    "lemma": "great",
+    "pos": "ADJ"
   },
   {
     "w": "I",
@@ -2667,12 +3133,16 @@
   {
     "w": "definitely",
     "start_ms": 188280,
-    "end_ms": 188460
+    "end_ms": 188460,
+    "lemma": "definitely",
+    "pos": "ADV"
   },
   {
     "w": "want",
     "start_ms": 188460,
-    "end_ms": 188700
+    "end_ms": 188700,
+    "lemma": "want",
+    "pos": "VERB"
   },
   {
     "w": "South",
@@ -2692,7 +3162,9 @@
   {
     "w": "sure,",
     "start_ms": 189540,
-    "end_ms": 189740
+    "end_ms": 189740,
+    "lemma": "sure",
+    "pos": "ADJ"
   },
   {
     "w": "and",
@@ -2702,7 +3174,9 @@
   {
     "w": "plenty",
     "start_ms": 190340,
-    "end_ms": 190540
+    "end_ms": 190540,
+    "lemma": "plenty",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -2712,7 +3186,9 @@
   {
     "w": "markets",
     "start_ms": 190760,
-    "end_ms": 191080
+    "end_ms": 191080,
+    "lemma": "market",
+    "pos": "NOUN"
   },
   {
     "w": "around",
@@ -2727,7 +3203,9 @@
   {
     "w": "Anywhere,",
     "start_ms": 192640,
-    "end_ms": 193080
+    "end_ms": 193080,
+    "lemma": "anywhere",
+    "pos": "ADV"
   },
   {
     "w": "Portobello,",
@@ -2757,7 +3235,9 @@
   {
     "w": "sorts",
     "start_ms": 197320,
-    "end_ms": 197500
+    "end_ms": 197500,
+    "lemma": "sort",
+    "pos": "NOUN"
   },
   {
     "w": "of",
@@ -2767,7 +3247,9 @@
   {
     "w": "things.",
     "start_ms": 197640,
-    "end_ms": 197840
+    "end_ms": 197840,
+    "lemma": "thing",
+    "pos": "NOUN"
   },
   {
     "w": "It's",
@@ -2782,7 +3264,9 @@
   {
     "w": "walking",
     "start_ms": 199480,
-    "end_ms": 199820
+    "end_ms": 199820,
+    "lemma": "walk",
+    "pos": "VERB"
   },
   {
     "w": "around",
@@ -2797,7 +3281,9 @@
   {
     "w": "city.",
     "start_ms": 200240,
-    "end_ms": 200440
+    "end_ms": 200440,
+    "lemma": "city",
+    "pos": "NOUN"
   },
   {
     "w": "How",
@@ -2817,7 +3303,9 @@
   {
     "w": "describe",
     "start_ms": 201140,
-    "end_ms": 201340
+    "end_ms": 201340,
+    "lemma": "describe",
+    "pos": "VERB"
   },
   {
     "w": "Londoners?",
@@ -2837,7 +3325,9 @@
   {
     "w": "say",
     "start_ms": 205580,
-    "end_ms": 205840
+    "end_ms": 205840,
+    "lemma": "say",
+    "pos": "VERB"
   },
   {
     "w": "that",
@@ -2857,12 +3347,16 @@
   {
     "w": "self",
     "start_ms": 206600,
-    "end_ms": 207160
+    "end_ms": 207160,
+    "lemma": "self",
+    "pos": "NOUN"
   },
   {
     "w": "-contained.",
     "start_ms": 207160,
-    "end_ms": 207500
+    "end_ms": 207500,
+    "lemma": "contain",
+    "pos": "VERB"
   },
   {
     "w": "They",
@@ -2877,7 +3371,9 @@
   {
     "w": "interact",
     "start_ms": 208580,
-    "end_ms": 209340
+    "end_ms": 209340,
+    "lemma": "interact",
+    "pos": "VERB"
   },
   {
     "w": "with",
@@ -2892,12 +3388,16 @@
   {
     "w": "very",
     "start_ms": 209700,
-    "end_ms": 209840
+    "end_ms": 209840,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "much",
     "start_ms": 209840,
-    "end_ms": 210120
+    "end_ms": 210120,
+    "lemma": "much",
+    "pos": "ADV"
   },
   {
     "w": "if",
@@ -2917,7 +3417,9 @@
   {
     "w": "ask",
     "start_ms": 211200,
-    "end_ms": 211520
+    "end_ms": 211520,
+    "lemma": "ask",
+    "pos": "VERB"
   },
   {
     "w": "them",
@@ -2937,12 +3439,16 @@
   {
     "w": "people",
     "start_ms": 212780,
-    "end_ms": 212940
+    "end_ms": 212940,
+    "lemma": "people",
+    "pos": "NOUN"
   },
   {
     "w": "say",
     "start_ms": 212940,
-    "end_ms": 213140
+    "end_ms": 213140,
+    "lemma": "say",
+    "pos": "VERB"
   },
   {
     "w": "they're",
@@ -2952,52 +3458,72 @@
   {
     "w": "rude.",
     "start_ms": 213380,
-    "end_ms": 213500
+    "end_ms": 213500,
+    "lemma": "rude",
+    "pos": "ADJ"
   },
   {
     "w": "Very",
     "start_ms": 213780,
-    "end_ms": 214140
+    "end_ms": 214140,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "generally,",
     "start_ms": 214140,
-    "end_ms": 214740
+    "end_ms": 214740,
+    "lemma": "generally",
+    "pos": "ADV"
   },
   {
     "w": "very",
     "start_ms": 214940,
-    "end_ms": 215100
+    "end_ms": 215100,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "friendly,",
     "start_ms": 215100,
-    "end_ms": 215360
+    "end_ms": 215360,
+    "lemma": "friendly",
+    "pos": "ADJ"
   },
   {
     "w": "very",
     "start_ms": 216040,
-    "end_ms": 216040
+    "end_ms": 216040,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "hopeful.",
     "start_ms": 216040,
-    "end_ms": 216260
+    "end_ms": 216260,
+    "lemma": "hopeful",
+    "pos": "ADJ"
   },
   {
     "w": "Again,",
     "start_ms": 217260,
-    "end_ms": 217280
+    "end_ms": 217280,
+    "lemma": "again",
+    "pos": "ADV"
   },
   {
     "w": "very",
     "start_ms": 217280,
-    "end_ms": 217580
+    "end_ms": 217580,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "diverse.",
     "start_ms": 217580,
-    "end_ms": 217880
+    "end_ms": 217880,
+    "lemma": "diverse",
+    "pos": "ADJ"
   },
   {
     "w": "That's",
@@ -3012,17 +3538,23 @@
   {
     "w": "very",
     "start_ms": 219020,
-    "end_ms": 219180
+    "end_ms": 219180,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "difficult",
     "start_ms": 219180,
-    "end_ms": 219480
+    "end_ms": 219480,
+    "lemma": "difficult",
+    "pos": "ADJ"
   },
   {
     "w": "question.",
     "start_ms": 219480,
-    "end_ms": 219880
+    "end_ms": 219880,
+    "lemma": "question",
+    "pos": "NOUN"
   },
   {
     "w": "What",
@@ -3052,7 +3584,9 @@
   {
     "w": "days?",
     "start_ms": 220840,
-    "end_ms": 221120
+    "end_ms": 221120,
+    "lemma": "day",
+    "pos": "NOUN"
   },
   {
     "w": "I'd",
@@ -3062,7 +3596,9 @@
   {
     "w": "like",
     "start_ms": 221940,
-    "end_ms": 222080
+    "end_ms": 222080,
+    "lemma": "like",
+    "pos": "VERB"
   },
   {
     "w": "to",
@@ -3072,12 +3608,16 @@
   {
     "w": "say,",
     "start_ms": 222200,
-    "end_ms": 222380
+    "end_ms": 222380,
+    "lemma": "say",
+    "pos": "VERB"
   },
   {
     "w": "friendly",
     "start_ms": 222920,
-    "end_ms": 223220
+    "end_ms": 223220,
+    "lemma": "friendly",
+    "pos": "ADJ"
   },
   {
     "w": "and",
@@ -3087,7 +3627,9 @@
   {
     "w": "outgoing,",
     "start_ms": 223520,
-    "end_ms": 223620
+    "end_ms": 223620,
+    "lemma": "outgoing",
+    "pos": "ADJ"
   },
   {
     "w": "but",
@@ -3117,7 +3659,9 @@
   {
     "w": "true.",
     "start_ms": 225060,
-    "end_ms": 225200
+    "end_ms": 225200,
+    "lemma": "true",
+    "pos": "ADJ"
   },
   {
     "w": "If",
@@ -3132,7 +3676,9 @@
   {
     "w": "got",
     "start_ms": 226320,
-    "end_ms": 226420
+    "end_ms": 226420,
+    "lemma": "get",
+    "pos": "VERB"
   },
   {
     "w": "a",
@@ -3142,12 +3688,16 @@
   {
     "w": "night",
     "start_ms": 226500,
-    "end_ms": 226620
+    "end_ms": 226620,
+    "lemma": "night",
+    "pos": "NOUN"
   },
   {
     "w": "switch,",
     "start_ms": 226620,
-    "end_ms": 226900
+    "end_ms": 226900,
+    "lemma": "switch",
+    "pos": "NOUN"
   },
   {
     "w": "I",
@@ -3162,7 +3712,9 @@
   {
     "w": "think",
     "start_ms": 227600,
-    "end_ms": 227760
+    "end_ms": 227760,
+    "lemma": "think",
+    "pos": "VERB"
   },
   {
     "w": "they're",
@@ -3172,7 +3724,9 @@
   {
     "w": "friendly",
     "start_ms": 227900,
-    "end_ms": 228120
+    "end_ms": 228120,
+    "lemma": "friendly",
+    "pos": "ADJ"
   },
   {
     "w": "and",
@@ -3182,12 +3736,16 @@
   {
     "w": "outgoing.",
     "start_ms": 228340,
-    "end_ms": 228520
+    "end_ms": 228520,
+    "lemma": "outgoing",
+    "pos": "ADJ"
   },
   {
     "w": "So,",
     "start_ms": 228520,
-    "end_ms": 229380
+    "end_ms": 229380,
+    "lemma": "so",
+    "pos": "ADV"
   },
   {
     "w": "it",
@@ -3197,7 +3755,9 @@
   {
     "w": "depends.",
     "start_ms": 229820,
-    "end_ms": 229980
+    "end_ms": 229980,
+    "lemma": "depend",
+    "pos": "VERB"
   },
   {
     "w": "It's",
@@ -3207,17 +3767,23 @@
   {
     "w": "using",
     "start_ms": 230980,
-    "end_ms": 231160
+    "end_ms": 231160,
+    "lemma": "use",
+    "pos": "VERB"
   },
   {
     "w": "multicultural.",
     "start_ms": 231160,
-    "end_ms": 231400
+    "end_ms": 231400,
+    "lemma": "multicultural",
+    "pos": "NOUN"
   },
   {
     "w": "Cool",
     "start_ms": 232120,
-    "end_ms": 232400
+    "end_ms": 232400,
+    "lemma": "cool",
+    "pos": "VERB"
   },
   {
     "w": "and",
@@ -3227,12 +3793,16 @@
   {
     "w": "open",
     "start_ms": 232920,
-    "end_ms": 233340
+    "end_ms": 233340,
+    "lemma": "open",
+    "pos": "ADJ"
   },
   {
     "w": "-minded.",
     "start_ms": 233340,
-    "end_ms": 233700
+    "end_ms": 233700,
+    "lemma": "minded",
+    "pos": "ADJ"
   },
   {
     "w": "Fun.",
@@ -3242,22 +3812,30 @@
   {
     "w": "Welcoming,",
     "start_ms": 235140,
-    "end_ms": 235700
+    "end_ms": 235700,
+    "lemma": "welcoming",
+    "pos": "ADJ"
   },
   {
     "w": "friendly,",
     "start_ms": 235880,
-    "end_ms": 236360
+    "end_ms": 236360,
+    "lemma": "friendly",
+    "pos": "ADJ"
   },
   {
     "w": "really",
     "start_ms": 237180,
-    "end_ms": 237180
+    "end_ms": 237180,
+    "lemma": "really",
+    "pos": "ADV"
   },
   {
     "w": "back.",
     "start_ms": 237180,
-    "end_ms": 237420
+    "end_ms": 237420,
+    "lemma": "back",
+    "pos": "ADV"
   },
   {
     "w": "They're",
@@ -3267,37 +3845,51 @@
   {
     "w": "good.",
     "start_ms": 238140,
-    "end_ms": 238700
+    "end_ms": 238700,
+    "lemma": "good",
+    "pos": "ADJ"
   },
   {
     "w": "Very",
     "start_ms": 239080,
-    "end_ms": 239240
+    "end_ms": 239240,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "dynamic",
     "start_ms": 239240,
-    "end_ms": 239680
+    "end_ms": 239680,
+    "lemma": "dynamic",
+    "pos": "ADJ"
   },
   {
     "w": "people.",
     "start_ms": 239680,
-    "end_ms": 240200
+    "end_ms": 240200,
+    "lemma": "people",
+    "pos": "NOUN"
   },
   {
     "w": "Very",
     "start_ms": 240880,
-    "end_ms": 240900
+    "end_ms": 240900,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "dynamic.",
     "start_ms": 240900,
-    "end_ms": 241320
+    "end_ms": 241320,
+    "lemma": "dynamic",
+    "pos": "ADJ"
   },
   {
     "w": "Londoners.",
     "start_ms": 241960,
-    "end_ms": 242620
+    "end_ms": 242620,
+    "lemma": "londoner",
+    "pos": "NOUN"
   },
   {
     "w": "You",
@@ -3307,7 +3899,9 @@
   {
     "w": "see,",
     "start_ms": 244580,
-    "end_ms": 245200
+    "end_ms": 245200,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "I",
@@ -3317,7 +3911,9 @@
   {
     "w": "love",
     "start_ms": 245360,
-    "end_ms": 245520
+    "end_ms": 245520,
+    "lemma": "love",
+    "pos": "VERB"
   },
   {
     "w": "London,",
@@ -3352,7 +3948,9 @@
   {
     "w": "Londoners.",
     "start_ms": 248160,
-    "end_ms": 250100
+    "end_ms": 250100,
+    "lemma": "londoner",
+    "pos": "NOUN"
   },
   {
     "w": "Cool.",
@@ -3362,12 +3960,16 @@
   {
     "w": "Busy.",
     "start_ms": 254220,
-    "end_ms": 254900
+    "end_ms": 254900,
+    "lemma": "busy",
+    "pos": "ADJ"
   },
   {
     "w": "Mistrusting.",
     "start_ms": 258240,
-    "end_ms": 258800
+    "end_ms": 258800,
+    "lemma": "mistrust",
+    "pos": "VERB"
   },
   {
     "w": "No.",
@@ -3392,7 +3994,9 @@
   {
     "w": "possibly",
     "start_ms": 261180,
-    "end_ms": 261740
+    "end_ms": 261740,
+    "lemma": "possibly",
+    "pos": "ADV"
   },
   {
     "w": "not",
@@ -3402,12 +4006,16 @@
   {
     "w": "very",
     "start_ms": 262060,
-    "end_ms": 262240
+    "end_ms": 262240,
+    "lemma": "very",
+    "pos": "ADV"
   },
   {
     "w": "fair.",
     "start_ms": 262240,
-    "end_ms": 262600
+    "end_ms": 262600,
+    "lemma": "fair",
+    "pos": "ADJ"
   },
   {
     "w": "I",
@@ -3417,7 +4025,9 @@
   {
     "w": "love",
     "start_ms": 262920,
-    "end_ms": 263580
+    "end_ms": 263580,
+    "lemma": "love",
+    "pos": "VERB"
   },
   {
     "w": "London,",
@@ -3432,7 +4042,9 @@
   {
     "w": "Londoners",
     "start_ms": 264140,
-    "end_ms": 265220
+    "end_ms": 265220,
+    "lemma": "londoner",
+    "pos": "NOUN"
   },
   {
     "w": "can",
@@ -3447,12 +4059,16 @@
   {
     "w": "quite",
     "start_ms": 265700,
-    "end_ms": 266080
+    "end_ms": 266080,
+    "lemma": "quite",
+    "pos": "ADV"
   },
   {
     "w": "cold,",
     "start_ms": 266080,
-    "end_ms": 268800
+    "end_ms": 268800,
+    "lemma": "cold",
+    "pos": "ADJ"
   },
   {
     "w": "I",
@@ -3462,7 +4078,9 @@
   {
     "w": "guess.",
     "start_ms": 269220,
-    "end_ms": 269420
+    "end_ms": 269420,
+    "lemma": "guess",
+    "pos": "VERB"
   },
   {
     "w": "But",
@@ -3482,7 +4100,9 @@
   {
     "w": "just",
     "start_ms": 274340,
-    "end_ms": 274700
+    "end_ms": 274700,
+    "lemma": "just",
+    "pos": "ADV"
   },
   {
     "w": "Londoners,",
@@ -3497,7 +4117,9 @@
   {
     "w": "guess.",
     "start_ms": 275460,
-    "end_ms": 275620
+    "end_ms": 275620,
+    "lemma": "guess",
+    "pos": "VERB"
   },
   {
     "w": "London's",
@@ -3557,6 +4179,8 @@
   {
     "w": "great.",
     "start_ms": 279820,
-    "end_ms": 280060
+    "end_ms": 280060,
+    "lemma": "great",
+    "pos": "ADJ"
   }
 ]

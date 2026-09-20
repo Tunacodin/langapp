@@ -1,0 +1,587 @@
+{
+  "financial": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "finansal",
+      "mali"
+    ]
+  },
+  "transfer": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "transfer",
+      "geçiş"
+    ]
+  },
+  "previous": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "önceki",
+      "evvelki"
+    ]
+  },
+  "record": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "rekorlar",
+      "kayıtlar"
+    ]
+  },
+  "records": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "rekorlar",
+      "kayıtlar"
+    ]
+  },
+  "dominance": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "üstünlük",
+      "hakimiyet"
+    ]
+  },
+  "benefit": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "fayda",
+      "yarar"
+    ]
+  },
+  "deal": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "anlaşma"
+    ]
+  },
+  "late": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "en son",
+      "en güncel"
+    ]
+  },
+  "latest": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "en son",
+      "en güncel"
+    ]
+  },
+  "earn": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "kazanmak"
+    ]
+  },
+  "windfall": {
+    "pos": "noun",
+    "cefr": "C1",
+    "senses": [
+      "beklenmedik gelir",
+      "talih kuşu"
+    ]
+  },
+  "increase": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "artış"
+    ]
+  },
+  "broadcaster": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "yayıncılar"
+    ]
+  },
+  "broadcasters": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "yayıncılar"
+    ]
+  },
+  "represent": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "temsil etmek"
+    ]
+  },
+  "represented": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "temsil etmek"
+    ]
+  },
+  "round": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "tur",
+      "aşama"
+    ]
+  },
+  "key": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "temel",
+      "anahtar"
+    ]
+  },
+  "domestic": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "yurt içi",
+      "iç"
+    ]
+  },
+  "estimated": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "tahmin etmek"
+    ]
+  },
+  "estimate": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "tahmin etmek"
+    ]
+  },
+  "worth": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "değerinde"
+    ]
+  },
+  "divide": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "bölmek",
+      "ayırmak"
+    ]
+  },
+  "divided": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "bölmek",
+      "ayırmak"
+    ]
+  },
+  "equally": {
+    "pos": "adverb",
+    "cefr": "B1",
+    "senses": [
+      "eşit olarak"
+    ]
+  },
+  "roughly": {
+    "pos": "adverb",
+    "cefr": "B2",
+    "senses": [
+      "kabaca",
+      "yaklaşık"
+    ]
+  },
+  "further": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "ek",
+      "daha fazla"
+    ]
+  },
+  "merit": {
+    "pos": "noun",
+    "cefr": "C1",
+    "senses": [
+      "liyakat",
+      "başarı"
+    ]
+  },
+  "dependent": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "bağlı",
+      "dayalı"
+    ]
+  },
+  "position": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "sıra",
+      "konum"
+    ]
+  },
+  "bottom": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "dip",
+      "sonuncu"
+    ]
+  },
+  "receive": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "almak"
+    ]
+  },
+  "champions": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "şampiyon"
+    ]
+  },
+  "champion": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "şampiyon"
+    ]
+  },
+  "remaining": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "kalan",
+      "geriye kalan"
+    ]
+  },
+  "appear": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "görünmek",
+      "çıkmak"
+    ]
+  },
+  "fees": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "ücretler"
+    ]
+  },
+  "fee": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "ücretler"
+    ]
+  },
+  "appearance": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "görünüm",
+      "boy gösterme"
+    ]
+  },
+  "guaranteed": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "garanti etmek"
+    ]
+  },
+  "guarantee": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "garanti etmek"
+    ]
+  },
+  "minimum": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "asgari",
+      "en az"
+    ]
+  },
+  "beyond": {
+    "pos": "preposition",
+    "cefr": "B2",
+    "senses": [
+      "ötesinde"
+    ]
+  },
+  "overseas": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "yurt dışı",
+      "deniz aşırı"
+    ]
+  },
+  "staggering": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "hayret verici",
+      "şaşırtıcı"
+    ]
+  },
+  "incomes": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "gelirler"
+    ]
+  },
+  "income": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "gelirler"
+    ]
+  },
+  "title": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "şampiyonluk",
+      "unvan"
+    ]
+  },
+  "relegated": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "küme düşmek/düşürülmek"
+    ]
+  },
+  "relegate": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "küme düşmek/düşürülmek"
+    ]
+  },
+  "impressive": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "etkileyici"
+    ]
+  },
+  "ratio": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "oran"
+    ]
+  },
+  "revenue": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "gelir",
+      "hasılat"
+    ]
+  },
+  "equal": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "eşit"
+    ]
+  },
+  "rival": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "rakipler"
+    ]
+  },
+  "rivals": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "rakipler"
+    ]
+  },
+  "fund": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "fonlar",
+      "kaynaklar"
+    ]
+  },
+  "funds": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "fonlar",
+      "kaynaklar"
+    ]
+  },
+  "collect": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "toplamak"
+    ]
+  },
+  "collected": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "toplamak"
+    ]
+  },
+  "renegotiation": {
+    "pos": "noun",
+    "cefr": "C1",
+    "senses": [
+      "yeniden müzakere"
+    ]
+  },
+  "structure": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "yapı"
+    ]
+  },
+  "parameter": {
+    "pos": "noun",
+    "cefr": "C1",
+    "senses": [
+      "parametreler",
+      "ölçütler"
+    ]
+  },
+  "parameters": {
+    "pos": "noun",
+    "cefr": "C1",
+    "senses": [
+      "parametreler",
+      "ölçütler"
+    ]
+  },
+  "share": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "pay",
+      "hisse"
+    ]
+  },
+  "resource": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "kaynak"
+    ]
+  },
+  "ability": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "kabiliyet",
+      "yetenek"
+    ]
+  },
+  "glut": {
+    "pos": "noun",
+    "cefr": "C2",
+    "senses": [
+      "aşırı bolluk",
+      "fazlalık"
+    ]
+  },
+  "spending": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "harcama"
+    ]
+  },
+  "expect": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "beklemek"
+    ]
+  },
+  "period": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "dönem"
+    ]
+  },
+  "half": {
+    "pos": "noun",
+    "cefr": "A1",
+    "senses": [
+      "yarı"
+    ]
+  },
+  "reliance": {
+    "pos": "noun",
+    "cefr": "C1",
+    "senses": [
+      "bağımlılık",
+      "güvenme"
+    ]
+  },
+  "fluctuates": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "dalgalanmak",
+      "değişmek"
+    ]
+  },
+  "fluctuate": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "dalgalanmak",
+      "değişmek"
+    ]
+  },
+  "reliant": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "bağımlı"
+    ]
+  },
+  "least": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "en az"
+    ]
+  }
+}

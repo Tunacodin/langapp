@@ -1,0 +1,363 @@
+{
+  "suck": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "berbat olmak (argo)"
+    ]
+  },
+  "sucked": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "berbat olmak (argo)"
+    ]
+  },
+  "recovering": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "iyilesmek",
+      "toparlanmak"
+    ]
+  },
+  "recover": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "iyilesmek",
+      "toparlanmak"
+    ]
+  },
+  "surgery": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "ameliyat"
+    ]
+  },
+  "title": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "baslik"
+    ]
+  },
+  "journey": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "yolculuk",
+      "surec"
+    ]
+  },
+  "text": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "mesaj atmak"
+    ]
+  },
+  "couch": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "kanepe"
+    ]
+  },
+  "immediately": {
+    "pos": "adverb",
+    "cefr": "B1",
+    "senses": [
+      "hemen",
+      "aninda"
+    ]
+  },
+  "immediate": {
+    "pos": "adverb",
+    "cefr": "B1",
+    "senses": [
+      "hemen",
+      "aninda"
+    ]
+  },
+  "subscriber": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "abone"
+    ]
+  },
+  "subscribe": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "abone"
+    ]
+  },
+  "grab": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "kapmak",
+      "almak"
+    ]
+  },
+  "grabbing": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "kapmak",
+      "almak"
+    ]
+  },
+  "attention": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "dikkat",
+      "ilgi"
+    ]
+  },
+  "effort": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "caba",
+      "emek"
+    ]
+  },
+  "expectations": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "beklentiler"
+    ]
+  },
+  "expect": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "beklentiler"
+    ]
+  },
+  "inbox": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "gelen kutusu"
+    ]
+  },
+  "deserves": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "hak etmek"
+    ]
+  },
+  "deserve": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "hak etmek"
+    ]
+  },
+  "respect": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "saygi duymak"
+    ]
+  },
+  "condition": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "sart",
+      "kosul"
+    ]
+  },
+  "sweater": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "kazak"
+    ]
+  },
+  "personal": {
+    "pos": "adverb",
+    "cefr": "B1",
+    "senses": [
+      "sahsen",
+      "bizzat"
+    ]
+  },
+  "personally": {
+    "pos": "adverb",
+    "cefr": "B1",
+    "senses": [
+      "sahsen",
+      "bizzat"
+    ]
+  },
+  "invite": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "davet etmek"
+    ]
+  },
+  "inviting": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "davet etmek"
+    ]
+  },
+  "describe": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "anlatmak",
+      "tarif etmek"
+    ]
+  },
+  "remind": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "hatirlatici",
+      "hatirlatma"
+    ]
+  },
+  "reminder": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "hatirlatici",
+      "hatirlatma"
+    ]
+  },
+  "commit": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "kendini adamak"
+    ]
+  },
+  "horrible": {
+    "pos": "adjective",
+    "cefr": "A2",
+    "senses": [
+      "korkunc",
+      "berbat"
+    ]
+  },
+  "ordered": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "siparis etmek"
+    ]
+  },
+  "order": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "siparis etmek"
+    ]
+  },
+  "genuine": {
+    "pos": "adverb",
+    "cefr": "B2",
+    "senses": [
+      "icten",
+      "samimi bir sekilde"
+    ]
+  },
+  "genuinely": {
+    "pos": "adverb",
+    "cefr": "B2",
+    "senses": [
+      "icten",
+      "samimi bir sekilde"
+    ]
+  },
+  "ego": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "ego",
+      "benlik"
+    ]
+  },
+  "fake": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "sahte",
+      "yapay"
+    ]
+  },
+  "introduced": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "tanistirmak"
+    ]
+  },
+  "introduce": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "tanistirmak"
+    ]
+  },
+  "weird": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "tuhaf",
+      "garip"
+    ]
+  },
+  "creator": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "uretici",
+      "yaratici"
+    ]
+  },
+  "create": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "uretici",
+      "yaratici"
+    ]
+  },
+  "promise": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "soz vermek"
+    ]
+  },
+  "overrated": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "abartilmis",
+      "fazla deger gormus"
+    ]
+  },
+  "overrate": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "abartilmis",
+      "fazla deger gormus"
+    ]
+  }
+}

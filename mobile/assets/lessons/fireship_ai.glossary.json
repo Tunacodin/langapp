@@ -1,0 +1,488 @@
+{
+  "perform": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "yapmak",
+      "yerine getirmek"
+    ]
+  },
+  "task": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "gorev",
+      "is"
+    ]
+  },
+  "explicit": {
+    "pos": "adverb",
+    "cefr": "C1",
+    "senses": [
+      "acikca",
+      "aciktan"
+    ]
+  },
+  "explicitly": {
+    "pos": "adverb",
+    "cefr": "C1",
+    "senses": [
+      "acikca",
+      "aciktan"
+    ]
+  },
+  "feed": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "beslemek",
+      "vermek"
+    ]
+  },
+  "gradually": {
+    "pos": "adverb",
+    "cefr": "B2",
+    "senses": [
+      "giderek",
+      "yavas yavas"
+    ]
+  },
+  "gradual": {
+    "pos": "adverb",
+    "cefr": "B2",
+    "senses": [
+      "giderek",
+      "yavas yavas"
+    ]
+  },
+  "improve": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "iyilestirmek",
+      "gelistirmek"
+    ]
+  },
+  "outcome": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "sonuclar"
+    ]
+  },
+  "outcomes": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "sonuclar"
+    ]
+  },
+  "coin": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "(terim) turetmek",
+      "ortaya atmak"
+    ]
+  },
+  "coined": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "(terim) turetmek",
+      "ortaya atmak"
+    ]
+  },
+  "developing": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "gelistirmek"
+    ]
+  },
+  "develop": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "gelistirmek"
+    ]
+  },
+  "predictive": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "tahmine dayali",
+      "ongoren"
+    ]
+  },
+  "predict": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "tahmine dayali",
+      "ongoren"
+    ]
+  },
+  "embed": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "gomulu",
+      "yerlesik"
+    ]
+  },
+  "embedded": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "gomulu",
+      "yerlesik"
+    ]
+  },
+  "fundamental": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "temel",
+      "esas"
+    ]
+  },
+  "classify": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "siniflandirmak",
+      "siniflandirma"
+    ]
+  },
+  "patient": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "hasta"
+    ]
+  },
+  "predictions": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "tahminler"
+    ]
+  },
+  "prediction": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "tahminler"
+    ]
+  },
+  "stock": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "hisse senedi",
+      "stok"
+    ]
+  },
+  "acquire": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "elde etmek",
+      "edinmek"
+    ]
+  },
+  "process": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "surec",
+      "islem"
+    ]
+  },
+  "represents": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "temsil etmek"
+    ]
+  },
+  "represent": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "temsil etmek"
+    ]
+  },
+  "garbage": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "cop",
+      "ise yaramaz sey"
+    ]
+  },
+  "valuable": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "degerli"
+    ]
+  },
+  "transform": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "donusturmek"
+    ]
+  },
+  "raw": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "ham",
+      "islenmemis"
+    ]
+  },
+  "underlying": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "alttaki",
+      "temeldeki"
+    ]
+  },
+  "underlie": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "alttaki",
+      "temeldeki"
+    ]
+  },
+  "separate": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "ayirmak"
+    ]
+  },
+  "training": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "egitim"
+    ]
+  },
+  "train": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "egitim"
+    ]
+  },
+  "validate": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "dogrulamak",
+      "gecerligini olcmek"
+    ]
+  },
+  "accuracy": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "dogruluk",
+      "isabet"
+    ]
+  },
+  "assigns": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "atamak",
+      "vermek"
+    ]
+  },
+  "assign": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "atamak",
+      "vermek"
+    ]
+  },
+  "weights": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "agirliklar"
+    ]
+  },
+  "weight": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "agirliklar"
+    ]
+  },
+  "additional": {
+    "pos": "adjective",
+    "cefr": "B1",
+    "senses": [
+      "ek",
+      "ilave"
+    ]
+  },
+  "contain": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "icermek"
+    ]
+  },
+  "virtually": {
+    "pos": "adverb",
+    "cefr": "C1",
+    "senses": [
+      "neredeyse",
+      "adeta"
+    ]
+  },
+  "virtual": {
+    "pos": "adverb",
+    "cefr": "C1",
+    "senses": [
+      "neredeyse",
+      "adeta"
+    ]
+  },
+  "manual": {
+    "pos": "adjective",
+    "cefr": "B2",
+    "senses": [
+      "elle yapilan",
+      "el ile"
+    ]
+  },
+  "comparing": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "karsilastirmak"
+    ]
+  },
+  "compare": {
+    "pos": "verb",
+    "cefr": "B1",
+    "senses": [
+      "karsilastirmak"
+    ]
+  },
+  "classification": {
+    "pos": "noun",
+    "cefr": "B2",
+    "senses": [
+      "siniflandirma"
+    ]
+  },
+  "loaf": {
+    "pos": "noun",
+    "cefr": "B1",
+    "senses": [
+      "somun"
+    ]
+  },
+  "options": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "secenekler"
+    ]
+  },
+  "option": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "secenekler"
+    ]
+  },
+  "approach": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "ulasilabilir",
+      "anlasilir/erisilebilir"
+    ]
+  },
+  "approachable": {
+    "pos": "adjective",
+    "cefr": "C1",
+    "senses": [
+      "ulasilabilir",
+      "anlasilir/erisilebilir"
+    ]
+  },
+  "minimize": {
+    "pos": "verb",
+    "cefr": "B2",
+    "senses": [
+      "en aza indirmek"
+    ]
+  },
+  "optimize": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "en iyilenmis",
+      "optimize edilmis"
+    ]
+  },
+  "optimized": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "en iyilenmis",
+      "optimize edilmis"
+    ]
+  },
+  "deploy": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "konuslandirmak",
+      "devreye almak"
+    ]
+  },
+  "deployed": {
+    "pos": "verb",
+    "cefr": "C1",
+    "senses": [
+      "konuslandirmak",
+      "devreye almak"
+    ]
+  },
+  "device": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "cihaz",
+      "aygit"
+    ]
+  },
+  "subscribe": {
+    "pos": "verb",
+    "cefr": "A2",
+    "senses": [
+      "abone olmak"
+    ]
+  },
+  "comment": {
+    "pos": "noun",
+    "cefr": "A2",
+    "senses": [
+      "yorum"
+    ]
+  }
+}

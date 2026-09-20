@@ -1,0 +1,7310 @@
+{
+  "video_id": "foodreview_st",
+  "title": "Best Ever Food Review Show street food",
+  "topic": "daily",
+  "license": "",
+  "cefr": "B1",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 5860,
+      "text_en": "In this video, you're going to see me attempt to spend $100 on street food in one of Saigon's famous night markets.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re going to see",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 18,
+          "span_end": 34
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 6200,
+      "end_ms": 8180,
+      "text_en": "The name of this market is Po Te Gei.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 8180,
+      "end_ms": 12140,
+      "text_en": "This market is mainly on one big street that is completely aligned with different food stalls.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is completely aligned",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 45,
+          "span_end": 66
+        },
+        {
+          "pattern": "that is completely aligned with different food stalls",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 40,
+          "span_end": 93
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 12400,
+      "end_ms": 17160,
+      "text_en": "It becomes so popular now that anywhere you can fit a mini kitchen, people are putting food and selling food.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are putting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 75,
+          "span_end": 86
+        },
+        {
+          "pattern": "can fit",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 44,
+          "span_end": 51
+        },
+        {
+          "pattern": "becomes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 17380,
+      "end_ms": 23880,
+      "text_en": "It is 5 .40 PM right now, and so the sun is going to keep going down and more and more food vendors are going to come out as well as hungry patrons.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is going to keep",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 41,
+          "span_end": 57
+        },
+        {
+          "pattern": "are going to come",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 100,
+          "span_end": 117
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 24220,
+      "end_ms": 24700,
+      "text_en": "I'm very excited.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 25020,
+      "end_ms": 25420,
+      "text_en": "Let's do this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 25420,
+      "end_ms": 26200,
+      "text_en": "This",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 32250,
+      "end_ms": 32850,
+      "text_en": "is our first place.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 32970,
+      "end_ms": 35190,
+      "text_en": "It's called Ban Chung Gei, Nan Hong Kong.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s called",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 35390,
+      "end_ms": 39670,
+      "text_en": "Apparently this place takes inspiration from Hong Kong, but maybe not the food that I'm interested in.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that I'm interested in",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 79,
+          "span_end": 101
+        },
+        {
+          "pattern": "takes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 22,
+          "span_end": 27
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 39810,
+      "end_ms": 46730,
+      "text_en": "Here they have a special egg sausage dish, which I know doesn't sound that exciting, but if you grew up white trash like me, those are essential cooking ingredients.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "which I know doesn't sound that exciting",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 43,
+          "span_end": 83
+        },
+        {
+          "pattern": "which I know doesn't sound that exciting",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 43,
+          "span_end": 83
+        },
+        {
+          "pattern": "grew",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 96,
+          "span_end": 100
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 14
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 51,
+          "span_end": 55
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 12,
+      "start_ms": 47090,
+      "end_ms": 49630,
+      "text_en": "And they found a way to remix them here like I've never seen before.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve never seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 46,
+          "span_end": 60
+        },
+        {
+          "pattern": "found",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 9,
+          "span_end": 14
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 50,
+          "span_end": 55
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 13,
+      "start_ms": 49790,
+      "end_ms": 52350,
+      "text_en": "It starts with a sausage that's wrapped in an egg.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s wrapped",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 29,
+          "span_end": 39
+        },
+        {
+          "pattern": "that's wrapped in an egg",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 25,
+          "span_end": 49
+        },
+        {
+          "pattern": "starts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 14,
+      "start_ms": 52630,
+      "end_ms": 56850,
+      "text_en": "From there she puts on ketchup, then shrimp peas, then mayonnaise, and finally pork floss come take a look.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "puts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 15,
+          "span_end": 19
+        },
+        {
+          "pattern": "pork",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 79,
+          "span_end": 83
+        },
+        {
+          "pattern": "come",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 90,
+          "span_end": 94
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 15,
+      "start_ms": 57090,
+      "end_ms": 60950,
+      "text_en": "When I flip it around back, you can see the egg how it's wrapped around the sausage.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s wrapped",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 54,
+          "span_end": 64
+        },
+        {
+          "pattern": "can see",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 32,
+          "span_end": 39
+        },
+        {
+          "pattern": "flip",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 16,
+      "start_ms": 60950,
+      "end_ms": 63970,
+      "text_en": "You can't even see the sausage at this point, but I'm telling you, it is there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m telling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 51,
+          "span_end": 61
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 17,
+      "start_ms": 64170,
+      "end_ms": 64629,
+      "text_en": "Let's try it out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 18,
+      "start_ms": 68210,
+      "end_ms": 69470,
+      "text_en": "Wow, so much happening.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 19,
+      "start_ms": 69830,
+      "end_ms": 70910,
+      "text_en": "My mind is full of confusion.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 20,
+      "start_ms": 71250,
+      "end_ms": 73210,
+      "text_en": "The sausage is super soft, almost like a paté.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 21,
+      "start_ms": 73510,
+      "end_ms": 76510,
+      "text_en": "And then the sauce, it's sweet, it's savory.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 22,
+      "start_ms": 76750,
+      "end_ms": 78310,
+      "text_en": "You get a little bit of texture from the shrimp in there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 7
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 10,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 23,
+      "start_ms": 78490,
+      "end_ms": 80490,
+      "text_en": "I'm going to try digging a little bit of a smaller bite this time.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to try",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 16
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 27,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 24,
+      "start_ms": 83190,
+      "end_ms": 83850,
+      "text_en": "Sausage egg.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 25,
+      "start_ms": 84110,
+      "end_ms": 84950,
+      "text_en": "You get the texture from both.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 26,
+      "start_ms": 85110,
+      "end_ms": 85890,
+      "text_en": "You get the flavor from both.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 27,
+      "start_ms": 86110,
+      "end_ms": 89030,
+      "text_en": "The strength of Vietnamese street food is in the creativity and the innovation.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 28,
+      "start_ms": 89350,
+      "end_ms": 93890,
+      "text_en": "I was coming up with new stuff because you don't need a ton of money to create really interesting delicious street foods.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was coming",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 2,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 29,
+      "start_ms": 93890,
+      "end_ms": 94570,
+      "text_en": "I love it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 30,
+      "start_ms": 94650,
+      "end_ms": 95310,
+      "text_en": "This is our first food.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 31,
+      "start_ms": 95490,
+      "end_ms": 96330,
+      "text_en": "We are just getting started.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are just getting started",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 3,
+          "span_end": 27
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 32,
+      "start_ms": 96630,
+      "end_ms": 97130,
+      "text_en": "Let's keep going.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 33,
+      "start_ms": 97530,
+      "end_ms": 97970,
+      "text_en": "Boom,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 34,
+      "start_ms": 101540,
+      "end_ms": 103020,
+      "text_en": "onto our second food right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 35,
+      "start_ms": 103180,
+      "end_ms": 104740,
+      "text_en": "This is one of my favorite foods in Vietnam.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 36,
+      "start_ms": 105100,
+      "end_ms": 108040,
+      "text_en": "And the food that I never actually even tried until moving to this country.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that I never actually even tried until moving to this country",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 13,
+          "span_end": 74
+        },
+        {
+          "pattern": "tried",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 40,
+          "span_end": 45
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 20,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 37,
+      "start_ms": 108400,
+      "end_ms": 109540,
+      "text_en": "I'm talking about the snail.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m talking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 38,
+      "start_ms": 109900,
+      "end_ms": 110960,
+      "text_en": "This is no ordinary snail.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 39,
+      "start_ms": 111260,
+      "end_ms": 112020,
+      "text_en": "Come take a close look.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 40,
+      "start_ms": 112200,
+      "end_ms": 114920,
+      "text_en": "You can see that the snail has something poking out of it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can see",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 11
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 27,
+          "span_end": 30
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 41,
+      "start_ms": 115120,
+      "end_ms": 117040,
+      "text_en": "That is not the actual snail potty.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 42,
+      "start_ms": 117240,
+      "end_ms": 117960,
+      "text_en": "That is pork.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 43,
+      "start_ms": 118320,
+      "end_ms": 119840,
+      "text_en": "So they've actually removed the snail.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve actually removed",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 7,
+          "span_end": 27
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 44,
+      "start_ms": 120200,
+      "end_ms": 123320,
+      "text_en": "They add pork in and I think they put the snail back into the snail.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "put",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 34,
+          "span_end": 37
+        },
+        {
+          "pattern": "add",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 5,
+          "span_end": 8
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 23,
+          "span_end": 28
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 45,
+      "start_ms": 123320,
+      "end_ms": 126000,
+      "text_en": "And they tie it all in there with a piece of lemongrass.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "tie",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 46,
+      "start_ms": 126200,
+      "end_ms": 127320,
+      "text_en": "I think I'll get six of these.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll get",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 9,
+          "span_end": 16
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 47,
+      "start_ms": 127600,
+      "end_ms": 129300,
+      "text_en": "And then they have another kind of snail over here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 48,
+      "start_ms": 129479,
+      "end_ms": 130479,
+      "text_en": "Nothing extra stuffed inside.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 49,
+      "start_ms": 130720,
+      "end_ms": 131200,
+      "text_en": "It's just a snail.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 50,
+      "start_ms": 131460,
+      "end_ms": 133580,
+      "text_en": "I'm going to try and both sit down and give it a ride.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to try",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 51,
+      "start_ms": 136320,
+      "end_ms": 137820,
+      "text_en": "Try here two types of snails.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 52,
+      "start_ms": 138120,
+      "end_ms": 140160,
+      "text_en": "I'm very excited because I haven't had snails for a long time.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "haven't had",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 27,
+          "span_end": 38
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 53,
+      "start_ms": 140300,
+      "end_ms": 141960,
+      "text_en": "Right here we have a fresh water snail.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 54,
+      "start_ms": 142200,
+      "end_ms": 143140,
+      "text_en": "This is from the Mekong Delta.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 55,
+      "start_ms": 143560,
+      "end_ms": 144820,
+      "text_en": "She put a bunch of different stuff in there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "put",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 4,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 56,
+      "start_ms": 144920,
+      "end_ms": 147280,
+      "text_en": "We've got ginger, chilies, some different herbs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 27,
+          "span_end": 31
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 57,
+      "start_ms": 147640,
+      "end_ms": 152480,
+      "text_en": "Before she even gives it to you, she boils it in coconut water, which is a very Mekong Delta thing to do.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "which is a very Mekong Delta thing to do",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 64,
+          "span_end": 104
+        },
+        {
+          "pattern": "gives",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 21
+        },
+        {
+          "pattern": "boils",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 37,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 58,
+      "start_ms": 152480,
+      "end_ms": 153800,
+      "text_en": "Oh, this is what we want right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "what we want right here",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 12,
+          "span_end": 35
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 59,
+      "start_ms": 153900,
+      "end_ms": 155080,
+      "text_en": "See, that's the meat right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 60,
+      "start_ms": 155180,
+      "end_ms": 156840,
+      "text_en": "And that is the little poop sack on the bottom.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 16,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 61,
+      "start_ms": 157040,
+      "end_ms": 157960,
+      "text_en": "And you can eat all of that.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can eat",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 8,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 62,
+      "start_ms": 162300,
+      "end_ms": 162620,
+      "text_en": "Delicious.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 63,
+      "start_ms": 163040,
+      "end_ms": 166540,
+      "text_en": "It's interesting because some parts of the snail are kind of gooey and almost oyster -like.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 25,
+          "span_end": 29
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 64,
+      "start_ms": 166700,
+      "end_ms": 168140,
+      "text_en": "And then some parts are really crunchy.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 9,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 65,
+      "start_ms": 168280,
+      "end_ms": 169380,
+      "text_en": "That crunchy, like a potato chip.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 66,
+      "start_ms": 169580,
+      "end_ms": 172220,
+      "text_en": "But like crunchy, how sometimes meat can get a little bit crunchy.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 37,
+          "span_end": 44
+        },
+        {
+          "pattern": "sometimes",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 22,
+          "span_end": 31
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 47,
+          "span_end": 53
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 67,
+      "start_ms": 173660,
+      "end_ms": 175420,
+      "text_en": "Even with no fish sauce, quite delicious.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 68,
+      "start_ms": 175720,
+      "end_ms": 178400,
+      "text_en": "And you can actually taste the coconut water that she boiled it in.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can actually taste",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 8,
+          "span_end": 26
+        },
+        {
+          "pattern": "that she boiled it in",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 45,
+          "span_end": 66
+        },
+        {
+          "pattern": "boiled",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 54,
+          "span_end": 60
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 69,
+      "start_ms": 178540,
+      "end_ms": 180800,
+      "text_en": "Next up, right here, this is the pork snail.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 70,
+      "start_ms": 181120,
+      "end_ms": 182700,
+      "text_en": "When you pick it up, all of these are stuffed together.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are stuffed",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 34,
+          "span_end": 45
+        },
+        {
+          "pattern": "pick",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 71,
+      "start_ms": 182700,
+      "end_ms": 185660,
+      "text_en": "In order to take it out, they've tied some lemongrass here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve tied",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 29,
+          "span_end": 37
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 38,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 72,
+      "start_ms": 185800,
+      "end_ms": 186840,
+      "text_en": "So you get the lemongrass.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 73,
+      "start_ms": 186980,
+      "end_ms": 189020,
+      "text_en": "You hold it on both sides and you pull.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "hold",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 8
+        },
+        {
+          "pattern": "pull",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 34,
+          "span_end": 38
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 74,
+      "start_ms": 189480,
+      "end_ms": 192480,
+      "text_en": "Buried inside all that meat is the actual snail itself.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Buried inside all that meat is",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 0,
+          "span_end": 30
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 75,
+      "start_ms": 192880,
+      "end_ms": 194000,
+      "text_en": "Very cool, very creative.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 76,
+      "start_ms": 194260,
+      "end_ms": 195480,
+      "text_en": "I'm going to try it out without any sauce.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to try",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 16
+        },
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 32,
+          "span_end": 35
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 77,
+      "start_ms": 195860,
+      "end_ms": 196420,
+      "text_en": "Let's go for it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 78,
+      "start_ms": 197000,
+      "end_ms": 197160,
+      "text_en": "You",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 79,
+      "start_ms": 200200,
+      "end_ms": 203820,
+      "text_en": "taste the lemongrass and this beautiful pairing of just juicy, savory pork.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 80,
+      "start_ms": 204140,
+      "end_ms": 206400,
+      "text_en": "But then inside of that is our crunchy, delicious snail.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 81,
+      "start_ms": 206600,
+      "end_ms": 208380,
+      "text_en": "Two things you wouldn't think would go together well.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wouldn't think",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 15,
+          "span_end": 29
+        },
+        {
+          "pattern": "would go",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 30,
+          "span_end": 38
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 82,
+      "start_ms": 208580,
+      "end_ms": 212300,
+      "text_en": "You don't exactly picture a pig in a snail holding hands, walking down the beach together.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 83,
+      "start_ms": 212300,
+      "end_ms": 214520,
+      "text_en": "They don't seem like they'd be star -crossed lovers.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 84,
+      "start_ms": 214920,
+      "end_ms": 218060,
+      "text_en": "But in this instance, those two ingredients go together incredibly well.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "go",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 44,
+          "span_end": 46
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 85,
+      "start_ms": 218260,
+      "end_ms": 220000,
+      "text_en": "I'm going to dip the rest of this in the fish sauce.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to dip",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 86,
+      "start_ms": 220340,
+      "end_ms": 221440,
+      "text_en": "Oh, it's glistening.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s glistening",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 6,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 87,
+      "start_ms": 221860,
+      "end_ms": 222440,
+      "text_en": "Oh my",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 88,
+      "start_ms": 224260,
+      "end_ms": 225340,
+      "text_en": "gosh.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 89,
+      "start_ms": 225520,
+      "end_ms": 225920,
+      "text_en": "That is incredible.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 90,
+      "start_ms": 226340,
+      "end_ms": 226760,
+      "text_en": "Next food.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 91,
+      "start_ms": 226960,
+      "end_ms": 227140,
+      "text_en": "Let's go.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 92,
+      "start_ms": 231550,
+      "end_ms": 233910,
+      "text_en": "We've just stumbled upon our next food right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve just stumbled",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 2,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 93,
+      "start_ms": 234110,
+      "end_ms": 234630,
+      "text_en": "Oh my gosh.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 94,
+      "start_ms": 234830,
+      "end_ms": 235570,
+      "text_en": "The pan is hot.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 95,
+      "start_ms": 235750,
+      "end_ms": 237610,
+      "text_en": "She's frying some of this batter right now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s frying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 3,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 96,
+      "start_ms": 237790,
+      "end_ms": 240590,
+      "text_en": "So this is a rice batter that she's putting into this tin.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s putting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 33,
+          "span_end": 43
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 97,
+      "start_ms": 240850,
+      "end_ms": 242110,
+      "text_en": "This is a dish called bun kat.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 98,
+      "start_ms": 242190,
+      "end_ms": 246690,
+      "text_en": "It's very famous in a city called Hun Tao, but here she's kind of remixed and made her own version of it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "remixed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 66,
+          "span_end": 73
+        },
+        {
+          "pattern": "made",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 78,
+          "span_end": 82
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 99,
+      "start_ms": 246690,
+      "end_ms": 249670,
+      "text_en": "So right now she's putting in these little quail eggs into each one.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s putting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 16,
+          "span_end": 26
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 36,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 100,
+      "start_ms": 249910,
+      "end_ms": 253190,
+      "text_en": "And then you get to pick other toppings that you want inside your little fried cup.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that you want inside your little fried cup",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 40,
+          "span_end": 82
+        },
+        {
+          "pattern": "get",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 16
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 49,
+          "span_end": 53
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 66,
+          "span_end": 72
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 101,
+      "start_ms": 253410,
+      "end_ms": 256050,
+      "text_en": "So she's putting in some artificial crab legs, some shrimp.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s putting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 6,
+          "span_end": 16
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 20,
+          "span_end": 24
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 47,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 102,
+      "start_ms": 259750,
+      "end_ms": 262850,
+      "text_en": "So right now she's adding in some pork to some of the pups.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s adding",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 16,
+          "span_end": 25
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 29,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 103,
+      "start_ms": 263070,
+      "end_ms": 267490,
+      "text_en": "Then scallion oil to scallion on top of everything from their crispy fried onions.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 104,
+      "start_ms": 268610,
+      "end_ms": 273550,
+      "text_en": "It looks like we may have had a slight miscommunication because I have four plates of food in front of me right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "may have had",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 17,
+          "span_end": 29
+        },
+        {
+          "pattern": "looks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 8
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 66,
+          "span_end": 70
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 105,
+      "start_ms": 273730,
+      "end_ms": 277530,
+      "text_en": "But the total comes up to 160 ,000, which means we're getting even closer to our goal.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re getting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 50,
+          "span_end": 61
+        },
+        {
+          "pattern": "comes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 19
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 42,
+          "span_end": 47
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 106,
+      "start_ms": 277530,
+      "end_ms": 280150,
+      "text_en": "This one right here, you can see some of the crunchy scallions on top.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can see",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 25,
+          "span_end": 32
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 107,
+      "start_ms": 280330,
+      "end_ms": 282130,
+      "text_en": "You can see that green onion, even the outside.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can see",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 108,
+      "start_ms": 282490,
+      "end_ms": 284150,
+      "text_en": "It is like rippling crispiness.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 109,
+      "start_ms": 284370,
+      "end_ms": 285990,
+      "text_en": "I just want to see how it tastes on its own.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "how it tastes on its own",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 19,
+          "span_end": 43
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
+          "pattern": "tastes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 32
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 110,
+      "start_ms": 286170,
+      "end_ms": 286710,
+      "text_en": "Let's go for it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 111,
+      "start_ms": 290690,
+      "end_ms": 293110,
+      "text_en": "It's almost like a little creamy inside on the outside.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 19,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 112,
+      "start_ms": 293410,
+      "end_ms": 294770,
+      "text_en": "Ultra crunchy crispy.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 113,
+      "start_ms": 295070,
+      "end_ms": 296150,
+      "text_en": "You can taste a little bit of the meat.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can taste",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 13
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 16,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 114,
+      "start_ms": 296350,
+      "end_ms": 299630,
+      "text_en": "You can taste the egg in there, but I got to say, there's almost no flavor here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can taste",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 13
+        },
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 38,
+          "span_end": 41
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 55,
+          "span_end": 57
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 115,
+      "start_ms": 299850,
+      "end_ms": 304110,
+      "text_en": "The flavor is really going to come from any of the herbs you put on it or this hot tinned fish sauce right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is really going to come",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 11,
+          "span_end": 34
+        },
+        {
+          "pattern": "put",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 61,
+          "span_end": 64
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 116,
+      "start_ms": 304290,
+      "end_ms": 306190,
+      "text_en": "And that has, I believe, some pickled radish.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 12
+        },
+        {
+          "pattern": "believe",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 23
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 25,
+          "span_end": 29
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 117,
+      "start_ms": 306370,
+      "end_ms": 310130,
+      "text_en": "So the next move is to grab one and really completely submerge it in this sauce.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 118,
+      "start_ms": 313010,
+      "end_ms": 315510,
+      "text_en": "That is the delicious sauce and I'm telling you, if you want some,",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m telling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 33,
+          "span_end": 43
+        },
+        {
+          "pattern": "if you want some",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 49,
+          "span_end": 65
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 56,
+          "span_end": 60
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 119,
+      "start_ms": 318180,
+      "end_ms": 319180,
+      "text_en": "it's raining.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 120,
+      "start_ms": 319460,
+      "end_ms": 319780,
+      "text_en": "We're in Vietnam.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 121,
+      "start_ms": 320340,
+      "end_ms": 321620,
+      "text_en": "The humidity is 98%.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 122,
+      "start_ms": 321620,
+      "end_ms": 324620,
+      "text_en": "I'm actually not even sad that it's raining right now because it is so hot.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s raining",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 33,
+          "span_end": 43
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 123,
+      "start_ms": 324740,
+      "end_ms": 326080,
+      "text_en": "I look like I just ran a 5k.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "ran",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 19,
+          "span_end": 22
+        },
+        {
+          "pattern": "look",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 124,
+      "start_ms": 326320,
+      "end_ms": 327500,
+      "text_en": "Wow, it's getting crazy out here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s getting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 7,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 125,
+      "start_ms": 327740,
+      "end_ms": 328660,
+      "text_en": "Well, everyone is out there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 126,
+      "start_ms": 328920,
+      "end_ms": 331500,
+      "text_en": "I'm in my little zone of happiness right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 10,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 127,
+      "start_ms": 331620,
+      "end_ms": 332500,
+      "text_en": "It cannot be interrupted.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "cannot be interrupted",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 3,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 128,
+      "start_ms": 332780,
+      "end_ms": 333500,
+      "text_en": "I cannot be stopped.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "cannot be stopped",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 129,
+      "start_ms": 333900,
+      "end_ms": 334380,
+      "text_en": "Check this one out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 130,
+      "start_ms": 334560,
+      "end_ms": 337280,
+      "text_en": "We've got mop crab, more scallions, more fried shallots.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 2,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 131,
+      "start_ms": 337500,
+      "end_ms": 338480,
+      "text_en": "I'm going to put that in the sauce.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to put",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 132,
+      "start_ms": 338820,
+      "end_ms": 340120,
+      "text_en": "I'm going to put some of these on there too.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to put",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 133,
+      "start_ms": 340300,
+      "end_ms": 340960,
+      "text_en": "Let's try another bite.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 134,
+      "start_ms": 341900,
+      "end_ms": 342500,
+      "text_en": "I love it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 135,
+      "start_ms": 342680,
+      "end_ms": 349140,
+      "text_en": "When you come to Southeast Asia, anytime you see somebody with one of those tins that has these little divots just thing enough for these to be made inside of.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "to be made",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 138,
+          "span_end": 148
+        },
+        {
+          "pattern": "that has these little divots",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 81,
+          "span_end": 109
+        },
+        {
+          "pattern": "come",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 13
+        },
+        {
+          "pattern": "see",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 45,
+          "span_end": 48
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 86,
+          "span_end": 89
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 96,
+          "span_end": 102
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 136,
+      "start_ms": 349240,
+      "end_ms": 350020,
+      "text_en": "You have to try it out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 137,
+      "start_ms": 350180,
+      "end_ms": 352300,
+      "text_en": "It's going to be fried, front cheap and absolutely delicious.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s going to be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 2,
+          "span_end": 16
+        },
+        {
+          "pattern": "to be fried",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 11,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 138,
+      "start_ms": 352660,
+      "end_ms": 353360,
+      "text_en": "This is a big win.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 139,
+      "start_ms": 353560,
+      "end_ms": 355080,
+      "text_en": "Plus, we spent almost $6 here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "spent",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 9,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 140,
+      "start_ms": 355240,
+      "end_ms": 356460,
+      "text_en": "So, we're really racking up the money.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re really racking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 6,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 141,
+      "start_ms": 360680,
+      "end_ms": 361480,
+      "text_en": "It's still raving.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s still raving",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 142,
+      "start_ms": 361780,
+      "end_ms": 362480,
+      "text_en": "Oh, this is not good.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 143,
+      "start_ms": 362700,
+      "end_ms": 364520,
+      "text_en": "I'm trying to get as close to the counter as I can.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m trying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 1,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 144,
+      "start_ms": 364680,
+      "end_ms": 366480,
+      "text_en": "My ass is getting poured on right now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is getting poured",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 7,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 145,
+      "start_ms": 366740,
+      "end_ms": 369360,
+      "text_en": "Right here, they have a big selection of meats and a nice big variety.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 146,
+      "start_ms": 369860,
+      "end_ms": 371060,
+      "text_en": "I just ordered one of these.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "ordered",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 147,
+      "start_ms": 371280,
+      "end_ms": 371880,
+      "text_en": "So take a look at this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 148,
+      "start_ms": 371880,
+      "end_ms": 372860,
+      "text_en": "This is a seafood selection.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 149,
+      "start_ms": 373420,
+      "end_ms": 374380,
+      "text_en": "Huge tentacles here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 150,
+      "start_ms": 374560,
+      "end_ms": 376460,
+      "text_en": "Or you can get a whole octopus like this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 7,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 151,
+      "start_ms": 376700,
+      "end_ms": 378200,
+      "text_en": "I've ordered a whole octopus.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve ordered",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 1,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 152,
+      "start_ms": 378400,
+      "end_ms": 380540,
+      "text_en": "It's on the grill right now next to some kebabs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 36,
+          "span_end": 40
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 153,
+      "start_ms": 380760,
+      "end_ms": 382660,
+      "text_en": "In addition to the octopus, I'm going to get some of these.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to get",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 29,
+          "span_end": 44
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 154,
+      "start_ms": 382820,
+      "end_ms": 383800,
+      "text_en": "This is bong dong.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 155,
+      "start_ms": 384660,
+      "end_ms": 385540,
+      "text_en": "Beef that's been grilled.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s been grilled",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 9,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 156,
+      "start_ms": 385820,
+      "end_ms": 388460,
+      "text_en": "And they squeeze it on some lemongrass like that.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "squeeze",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 16
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 23,
+          "span_end": 27
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 157,
+      "start_ms": 388620,
+      "end_ms": 389260,
+      "text_en": "So, it's already cooked.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s already cooked",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 6,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 158,
+      "start_ms": 389520,
+      "end_ms": 390420,
+      "text_en": "They're just going to reheat it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re just going to reheat",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 4,
+          "span_end": 28
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 159,
+      "start_ms": 390560,
+      "end_ms": 391660,
+      "text_en": "And then I think we'll try this too.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll try",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 19,
+          "span_end": 26
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 11,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 160,
+      "start_ms": 391940,
+      "end_ms": 393540,
+      "text_en": "Because it's not something you see every day in Vietnam.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "see",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 31,
+          "span_end": 34
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 161,
+      "start_ms": 393920,
+      "end_ms": 394860,
+      "text_en": "This is called Bolalot.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is called",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 5,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 162,
+      "start_ms": 395220,
+      "end_ms": 397960,
+      "text_en": "This is beef, and it is wrapped up in a Lalo leaf.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is wrapped",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 21,
+          "span_end": 31
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 163,
+      "start_ms": 398300,
+      "end_ms": 400120,
+      "text_en": "Right here, this is what the Bolalot looks like.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "what the Bolalot looks like",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 20,
+          "span_end": 47
+        },
+        {
+          "pattern": "looks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 37,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 164,
+      "start_ms": 400120,
+      "end_ms": 402520,
+      "text_en": "Before it is grilled, he's putting some oil on there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is grilled",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 10,
+          "span_end": 20
+        },
+        {
+          "pattern": "'s putting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 24,
+          "span_end": 34
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 35,
+          "span_end": 39
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 165,
+      "start_ms": 402720,
+      "end_ms": 404100,
+      "text_en": "And then transferring it to the grill.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 166,
+      "start_ms": 404380,
+      "end_ms": 405580,
+      "text_en": "And that is going to cook up beautifully.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is going to cook",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 9,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 167,
+      "start_ms": 405860,
+      "end_ms": 406500,
+      "text_en": "Alright, let's go.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 168,
+      "start_ms": 406640,
+      "end_ms": 407000,
+      "text_en": "I am soaked.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "am soaked",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 169,
+      "start_ms": 408120,
+      "end_ms": 409480,
+      "text_en": "So, here's a bunch of different foods.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 170,
+      "start_ms": 409640,
+      "end_ms": 410900,
+      "text_en": "We're going to build up to this octopus.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re going to build",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 2,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 171,
+      "start_ms": 411160,
+      "end_ms": 412660,
+      "text_en": "But I want to introduce you to this first.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 172,
+      "start_ms": 412880,
+      "end_ms": 413640,
+      "text_en": "It is a ground beef.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 173,
+      "start_ms": 413860,
+      "end_ms": 415120,
+      "text_en": "And they mix with delicious spices.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "mix",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 174,
+      "start_ms": 415700,
+      "end_ms": 417080,
+      "text_en": "They've formed it around here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve formed",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 4,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 175,
+      "start_ms": 417200,
+      "end_ms": 418980,
+      "text_en": "It's almost like being the meat's kebab.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 176,
+      "start_ms": 419160,
+      "end_ms": 420480,
+      "text_en": "I want to try it just how it is.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "just how it is",
+          "note_tr": "Noun Clause (Object Position)",
+          "cefr": "B1",
+          "norm_pattern": "noun_clause_wh",
+          "span_start": 17,
+          "span_end": 31
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 177,
+      "start_ms": 420840,
+      "end_ms": 421400,
+      "text_en": "Let's go for it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 178,
+      "start_ms": 424980,
+      "end_ms": 425480,
+      "text_en": "Oh yeah.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 179,
+      "start_ms": 425660,
+      "end_ms": 428800,
+      "text_en": "Even though there's fish sauce in the meat because it's so sweet.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 180,
+      "start_ms": 429000,
+      "end_ms": 430900,
+      "text_en": "It's got this umami kind of savoriness to it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s got",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 181,
+      "start_ms": 431020,
+      "end_ms": 432740,
+      "text_en": "You can see how it's just wrapped around the lemon.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s just wrapped",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 18,
+          "span_end": 33
+        },
+        {
+          "pattern": "can see",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 11
+        },
+        {
+          "pattern": "how it's just wrapped around the lemon",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 12,
+          "span_end": 50
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 182,
+      "start_ms": 432740,
+      "end_ms": 433020,
+      "text_en": "Grass.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 183,
+      "start_ms": 433200,
+      "end_ms": 433560,
+      "text_en": "So wonderfully.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 184,
+      "start_ms": 433880,
+      "end_ms": 435960,
+      "text_en": "And it picks up a little bit of flavor from the lemon grass too.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "picks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 12
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 18,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 185,
+      "start_ms": 436120,
+      "end_ms": 436840,
+      "text_en": "This is so good.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 186,
+      "start_ms": 437000,
+      "end_ms": 438960,
+      "text_en": "I don't need any sauce added to it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "any",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 13,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 187,
+      "start_ms": 439800,
+      "end_ms": 440140,
+      "text_en": "Happiness.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 188,
+      "start_ms": 440520,
+      "end_ms": 440880,
+      "text_en": "Over here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 189,
+      "start_ms": 441120,
+      "end_ms": 441460,
+      "text_en": "Bolalot.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 190,
+      "start_ms": 441800,
+      "end_ms": 443420,
+      "text_en": "So they've got four of them together on a stick.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 7,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 191,
+      "start_ms": 443680,
+      "end_ms": 444900,
+      "text_en": "Each stick is about a dollar.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 192,
+      "start_ms": 445100,
+      "end_ms": 445940,
+      "text_en": "Which is a great deal too.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 193,
+      "start_ms": 448440,
+      "end_ms": 449020,
+      "text_en": "It's sweet.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 194,
+      "start_ms": 449280,
+      "end_ms": 449520,
+      "text_en": "It's juicy.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 195,
+      "start_ms": 450000,
+      "end_ms": 450820,
+      "text_en": "The leaf is hard to describe.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 196,
+      "start_ms": 451100,
+      "end_ms": 452420,
+      "text_en": "I mean, I could just say the exact name.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could just say",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 10,
+          "span_end": 24
+        },
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 197,
+      "start_ms": 452640,
+      "end_ms": 454580,
+      "text_en": "But if you've ever tried it, it wouldn't mean anything to you.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve ever tried",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 10,
+          "span_end": 24
+        },
+        {
+          "pattern": "wouldn't mean",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 32,
+          "span_end": 45
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 198,
+      "start_ms": 454720,
+      "end_ms": 456320,
+      "text_en": "It's just very fragrant and aromatic.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 199,
+      "start_ms": 456700,
+      "end_ms": 458600,
+      "text_en": "And it adds its own flavor to the meat itself.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "adds",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 200,
+      "start_ms": 458880,
+      "end_ms": 459660,
+      "text_en": "Like a little meat cigar.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 7,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 201,
+      "start_ms": 459660,
+      "end_ms": 462240,
+      "text_en": "Kind of light up, baby.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 202,
+      "start_ms": 462720,
+      "end_ms": 463140,
+      "text_en": "Over here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 203,
+      "start_ms": 463360,
+      "end_ms": 463860,
+      "text_en": "The octopus.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 204,
+      "start_ms": 464180,
+      "end_ms": 465660,
+      "text_en": "I'm going to rip off one of these big tentacles.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to rip",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 205,
+      "start_ms": 466160,
+      "end_ms": 467360,
+      "text_en": "You can see these little suckers.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "can see",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 4,
+          "span_end": 11
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 18,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 206,
+      "start_ms": 467560,
+      "end_ms": 468300,
+      "text_en": "Hining on the bottom.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 207,
+      "start_ms": 468540,
+      "end_ms": 470020,
+      "text_en": "Getting bigger as they move up the tentacles.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "move",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 23,
+          "span_end": 27
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 208,
+      "start_ms": 470460,
+      "end_ms": 471660,
+      "text_en": "I'm going to put in this green chili sauce.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to put",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 209,
+      "start_ms": 472020,
+      "end_ms": 473360,
+      "text_en": "Stop some of that up and take it down.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 210,
+      "start_ms": 473540,
+      "end_ms": 473840,
+      "text_en": "Mmm.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 211,
+      "start_ms": 476460,
+      "end_ms": 477880,
+      "text_en": "I know a lot of Americans don't call them already.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 212,
+      "start_ms": 478080,
+      "end_ms": 481780,
+      "text_en": "And unfortunately they just know like that one version of squid which is kind of cut up and fried.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "which is kind of cut up and fried",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 64,
+          "span_end": 97
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 28,
+          "span_end": 32
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 213,
+      "start_ms": 482140,
+      "end_ms": 483440,
+      "text_en": "But grilled octopus is so incredible.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 214,
+      "start_ms": 483780,
+      "end_ms": 484380,
+      "text_en": "This chili sauce.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 215,
+      "start_ms": 484620,
+      "end_ms": 485780,
+      "text_en": "It is so fresh, so spicy.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 216,
+      "start_ms": 486140,
+      "end_ms": 487860,
+      "text_en": "And that's combining with the sauce they put on there already.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s combining",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 8,
+          "span_end": 20
+        },
+        {
+          "pattern": "put",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 41,
+          "span_end": 44
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 217,
+      "start_ms": 488300,
+      "end_ms": 488300,
+      "text_en": "Incredible.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 218,
+      "start_ms": 488300,
+      "end_ms": 490240,
+      "text_en": "Fresh seafood right here in this market.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 219,
+      "start_ms": 490360,
+      "end_ms": 493660,
+      "text_en": "We've gone from eggs wrapped in hot dogs to this so far in just a little bit of time.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve gone",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 2,
+          "span_end": 10
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 66,
+          "span_end": 72
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 220,
+      "start_ms": 493820,
+      "end_ms": 494480,
+      "text_en": "I think we're doing great.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re doing",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 10,
+          "span_end": 19
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 221,
+      "start_ms": 494700,
+      "end_ms": 495440,
+      "text_en": "Let's keep this train moving.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 222,
+      "start_ms": 499130,
+      "end_ms": 499630,
+      "text_en": "Right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 223,
+      "start_ms": 499730,
+      "end_ms": 500470,
+      "text_en": "We have our next food.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 224,
+      "start_ms": 500570,
+      "end_ms": 502470,
+      "text_en": "This is something I did not expect to see in this market.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 225,
+      "start_ms": 502710,
+      "end_ms": 503410,
+      "text_en": "It is sea urchin.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 226,
+      "start_ms": 503490,
+      "end_ms": 504530,
+      "text_en": "But let me show you how they make it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "how they make it",
+          "note_tr": "Embedded WH- Question",
+          "cefr": "B2",
+          "norm_pattern": "embedded_wh_question",
+          "span_start": 20,
+          "span_end": 36
+        },
+        {
+          "pattern": "make",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 29,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 227,
+      "start_ms": 504670,
+      "end_ms": 508330,
+      "text_en": "The first thing he does, he puts it on the grill and then he cracks a quail egg into it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "does",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 19,
+          "span_end": 23
+        },
+        {
+          "pattern": "puts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 28,
+          "span_end": 32
+        },
+        {
+          "pattern": "cracks",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 61,
+          "span_end": 67
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 228,
+      "start_ms": 508430,
+      "end_ms": 511030,
+      "text_en": "Then he lights up his torch and he torches it from the bottom.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "lights",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 14
+        },
+        {
+          "pattern": "torches",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 35,
+          "span_end": 42
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 229,
+      "start_ms": 511250,
+      "end_ms": 513390,
+      "text_en": "Getting the whole thing to kind of start boiling out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 230,
+      "start_ms": 513590,
+      "end_ms": 514429,
+      "text_en": "Cooking the egg inside.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 231,
+      "start_ms": 514870,
+      "end_ms": 515230,
+      "text_en": "Next step.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 232,
+      "start_ms": 515390,
+      "end_ms": 516429,
+      "text_en": "He's putting in the cheese.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s putting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 233,
+      "start_ms": 516750,
+      "end_ms": 518850,
+      "text_en": "We've ordered two with cheese and two with peanuts.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve ordered",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 2,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 234,
+      "start_ms": 518850,
+      "end_ms": 522030,
+      "text_en": "So that is some kind of a liquid cheese like I've never seen before.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve never seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 46,
+          "span_end": 60
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 11,
+          "span_end": 15
+        },
+        {
+          "pattern": "never",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 50,
+          "span_end": 55
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 235,
+      "start_ms": 522270,
+      "end_ms": 523049,
+      "text_en": "Torches that up.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 236,
+      "start_ms": 523230,
+      "end_ms": 528970,
+      "text_en": "Then we've got these green scallions going in with some scallion oil and some nice peanuts on top.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 7,
+          "span_end": 14
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 51,
+          "span_end": 55
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 73,
+          "span_end": 77
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 237,
+      "start_ms": 529150,
+      "end_ms": 529570,
+      "text_en": "Oh yes.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 238,
+      "start_ms": 529910,
+      "end_ms": 531130,
+      "text_en": "He's going to throw these on the platter.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s going to throw",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 2,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 239,
+      "start_ms": 531350,
+      "end_ms": 532150,
+      "text_en": "Bring that to the table.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 240,
+      "start_ms": 532410,
+      "end_ms": 533470,
+      "text_en": "We've got ourselves a nice little treat.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 6,
+          "span_end": 9
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 27,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 241,
+      "start_ms": 533750,
+      "end_ms": 534190,
+      "text_en": "And now we're back.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 242,
+      "start_ms": 534470,
+      "end_ms": 536130,
+      "text_en": "Sea urchin is not my favorite food.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 243,
+      "start_ms": 536230,
+      "end_ms": 537570,
+      "text_en": "To me it tastes kind of metallic.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "tastes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 244,
+      "start_ms": 537850,
+      "end_ms": 539450,
+      "text_en": "But here he's prepared it in a different way.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s prepared",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 11,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 245,
+      "start_ms": 539690,
+      "end_ms": 540630,
+      "text_en": "So we have the sea urchin.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 246,
+      "start_ms": 540770,
+      "end_ms": 543210,
+      "text_en": "We have some of the egg and some of the cheese on there too.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 7
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 247,
+      "start_ms": 543430,
+      "end_ms": 545710,
+      "text_en": "Some of the most random ingredients I've ever seen together.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve ever seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 37,
+          "span_end": 50
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 248,
+      "start_ms": 545990,
+      "end_ms": 546490,
+      "text_en": "Moment of truth.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 249,
+      "start_ms": 546830,
+      "end_ms": 547250,
+      "text_en": "Let's try it out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 250,
+      "start_ms": 551290,
+      "end_ms": 552010,
+      "text_en": "I like that.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 251,
+      "start_ms": 552150,
+      "end_ms": 553790,
+      "text_en": "I cannot guarantee you that there's sea urchin in here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "cannot guarantee",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 2,
+          "span_end": 18
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 33,
+          "span_end": 35
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 252,
+      "start_ms": 553930,
+      "end_ms": 556570,
+      "text_en": "Mostly it just tastes like cheesy, almost man -aisey eggs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "tastes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 15,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 253,
+      "start_ms": 556950,
+      "end_ms": 560210,
+      "text_en": "I literally have scraped everything out of the bottom so there has to be sea urchin in here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have scraped",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 12,
+          "span_end": 24
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 63,
+          "span_end": 66
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 254,
+      "start_ms": 560330,
+      "end_ms": 560990,
+      "text_en": "Let's try one more bite.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 255,
+      "start_ms": 562010,
+      "end_ms": 564090,
+      "text_en": "I think there's a hint of sea urchin in there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 13,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 256,
+      "start_ms": 564190,
+      "end_ms": 564850,
+      "text_en": "It's not a strong flavor.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 257,
+      "start_ms": 565270,
+      "end_ms": 568090,
+      "text_en": "Mostly you're getting some of that really processed cheese which is actually pretty tasty.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re getting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 10,
+          "span_end": 21
+        },
+        {
+          "pattern": "which is actually pretty tasty",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 59,
+          "span_end": 89
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 258,
+      "start_ms": 568490,
+      "end_ms": 569110,
+      "text_en": "And then the quail egg.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 259,
+      "start_ms": 569290,
+      "end_ms": 570630,
+      "text_en": "So for one of these it's $50 ,000.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 260,
+      "start_ms": 571010,
+      "end_ms": 571810,
+      "text_en": "That's about two and a half dollars.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 261,
+      "start_ms": 572210,
+      "end_ms": 574270,
+      "text_en": "So you're paying about one dollar per bite here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re paying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 6,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 262,
+      "start_ms": 574430,
+      "end_ms": 575270,
+      "text_en": "That is pretty pricey.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 263,
+      "start_ms": 575590,
+      "end_ms": 576090,
+      "text_en": "Let's try this one.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 264,
+      "start_ms": 576090,
+      "end_ms": 579090,
+      "text_en": "So this one here is scallion, peanut, and sea urchin.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 265,
+      "start_ms": 579230,
+      "end_ms": 581210,
+      "text_en": "Definitely there's some sea urchin meat in there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 18
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 19,
+          "span_end": 23
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 266,
+      "start_ms": 584300,
+      "end_ms": 585120,
+      "text_en": "That's very nice too.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 267,
+      "start_ms": 585240,
+      "end_ms": 585320,
+      "text_en": "Wow.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 268,
+      "start_ms": 585500,
+      "end_ms": 586840,
+      "text_en": "I'm very pleasantly surprised by this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 269,
+      "start_ms": 587000,
+      "end_ms": 589000,
+      "text_en": "It's not a big quantity of food but it's quite delicious.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 270,
+      "start_ms": 589280,
+      "end_ms": 590460,
+      "text_en": "I love the scallion oil flavor.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 271,
+      "start_ms": 590800,
+      "end_ms": 593180,
+      "text_en": "It's one of my favorite flavors or ingredients that they use in Vietnam.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that they use in Vietnam",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 47,
+          "span_end": 71
+        },
+        {
+          "pattern": "use",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 57,
+          "span_end": 60
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 272,
+      "start_ms": 593380,
+      "end_ms": 595740,
+      "text_en": "So it obviously has that really strong scallion taste.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 273,
+      "start_ms": 596700,
+      "end_ms": 600320,
+      "text_en": "Lots of crunchiness of those nuts and just a little bit of meatiness from that sea creature.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 45,
+          "span_end": 51
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 274,
+      "start_ms": 600660,
+      "end_ms": 601200,
+      "text_en": "That is awesome.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 275,
+      "start_ms": 601500,
+      "end_ms": 605560,
+      "text_en": "And when you're trying to get it to $100, that is the way to do it because that's roughly $10 right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re trying",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 12,
+          "span_end": 22
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 276,
+      "start_ms": 605560,
+      "end_ms": 609700,
+      "text_en": "For 10 bites and all, I'm getting slightly full but we still have a couple more foods to go.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m getting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 23,
+          "span_end": 33
+        },
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 61,
+          "span_end": 65
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 277,
+      "start_ms": 610280,
+      "end_ms": 611040,
+      "text_en": "Let's keep it going.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 278,
+      "start_ms": 614430,
+      "end_ms": 614790,
+      "text_en": "Boom!",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 279,
+      "start_ms": 614950,
+      "end_ms": 616510,
+      "text_en": "And we're on to food number 9 or so.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 280,
+      "start_ms": 616650,
+      "end_ms": 617950,
+      "text_en": "It is almost 9 p .m.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 281,
+      "start_ms": 618090,
+      "end_ms": 620490,
+      "text_en": "We've been here for a few hours now rocking the street food.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve been",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 2,
+          "span_end": 10
+        },
+        {
+          "pattern": "few",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 22,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 282,
+      "start_ms": 620710,
+      "end_ms": 622010,
+      "text_en": "I found another one that I like.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that I like",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 20,
+          "span_end": 31
+        },
+        {
+          "pattern": "found",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 27,
+          "span_end": 31
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 283,
+      "start_ms": 622310,
+      "end_ms": 623090,
+      "text_en": "And now I'm going to try out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to try",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 9,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 284,
+      "start_ms": 623270,
+      "end_ms": 623990,
+      "text_en": "And now I'm going to show you.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to show",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 9,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 285,
+      "start_ms": 624190,
+      "end_ms": 624930,
+      "text_en": "It's kind of complicated.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 286,
+      "start_ms": 625190,
+      "end_ms": 625750,
+      "text_en": "The recipe though.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 287,
+      "start_ms": 625890,
+      "end_ms": 627250,
+      "text_en": "So let me take you through it step by step.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 288,
+      "start_ms": 627470,
+      "end_ms": 631190,
+      "text_en": "It all starts with an orange rice paper that she has to spritz like a house plant.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "that she has to spritz like a house plant",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 40,
+          "span_end": 81
+        },
+        {
+          "pattern": "starts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 13
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 49,
+          "span_end": 52
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 289,
+      "start_ms": 631450,
+      "end_ms": 633930,
+      "text_en": "From there it gets one layer of chili salt.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "gets",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 290,
+      "start_ms": 634330,
+      "end_ms": 636110,
+      "text_en": "She spreads out some beautiful herbs on top.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "spreads",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 4,
+          "span_end": 11
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 16,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 291,
+      "start_ms": 636110,
+      "end_ms": 638190,
+      "text_en": "A quail egg gets cut into several pieces.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "several",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 26,
+          "span_end": 33
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 292,
+      "start_ms": 638250,
+      "end_ms": 639890,
+      "text_en": "Next some scallion oil.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 5,
+          "span_end": 9
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 293,
+      "start_ms": 640450,
+      "end_ms": 641190,
+      "text_en": "Then crushed peanuts.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 294,
+      "start_ms": 641810,
+      "end_ms": 642110,
+      "text_en": "Fried onions.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 295,
+      "start_ms": 642930,
+      "end_ms": 643630,
+      "text_en": "Some saute sauce.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 0,
+          "span_end": 4
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 296,
+      "start_ms": 644030,
+      "end_ms": 645530,
+      "text_en": "And then it's time for the rolling.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 297,
+      "start_ms": 645850,
+      "end_ms": 647090,
+      "text_en": "This is the most important step.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 298,
+      "start_ms": 647290,
+      "end_ms": 647810,
+      "text_en": "It's actually not.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 299,
+      "start_ms": 648050,
+      "end_ms": 648430,
+      "text_en": "They're all important.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 300,
+      "start_ms": 648910,
+      "end_ms": 651210,
+      "text_en": "For the texture you want it to be rolled nice and tight.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "to be rolled",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 28,
+          "span_end": 40
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 301,
+      "start_ms": 651450,
+      "end_ms": 653490,
+      "text_en": "I mean this is rolled tighter than one of Snoop Dog's joints.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is rolled",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 12,
+          "span_end": 21
+        },
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 302,
+      "start_ms": 653870,
+      "end_ms": 654970,
+      "text_en": "Then she's going to take it all.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s going to take",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 8,
+          "span_end": 24
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 303,
+      "start_ms": 655270,
+      "end_ms": 655890,
+      "text_en": "Cut them with the scissors.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 304,
+      "start_ms": 656390,
+      "end_ms": 657990,
+      "text_en": "Now she's putting on some mayonnaise.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s putting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 7,
+          "span_end": 17
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 21,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 305,
+      "start_ms": 658190,
+      "end_ms": 660570,
+      "text_en": "So that is complete and we're ready to bring it to the table.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 306,
+      "start_ms": 660570,
+      "end_ms": 661290,
+      "text_en": "Another vendor.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 307,
+      "start_ms": 661530,
+      "end_ms": 661950,
+      "text_en": "Another food.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 308,
+      "start_ms": 662270,
+      "end_ms": 663830,
+      "text_en": "This is banchang bun.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 309,
+      "start_ms": 664150,
+      "end_ms": 665330,
+      "text_en": "So banchang means rice paper.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "means",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 12,
+          "span_end": 17
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 310,
+      "start_ms": 665570,
+      "end_ms": 666570,
+      "text_en": "This orange stuff right here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 311,
+      "start_ms": 666690,
+      "end_ms": 667650,
+      "text_en": "It's a rice paper bun.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 312,
+      "start_ms": 667850,
+      "end_ms": 668490,
+      "text_en": "Means a roll.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Means",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 0,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 313,
+      "start_ms": 668870,
+      "end_ms": 670010,
+      "text_en": "Chewy rice paper on the outside.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 314,
+      "start_ms": 670330,
+      "end_ms": 672410,
+      "text_en": "And tons of different interesting fillings on the inside.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 315,
+      "start_ms": 672790,
+      "end_ms": 674030,
+      "text_en": "A little bit of mayonnaise on the top.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 2,
+          "span_end": 8
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 316,
+      "start_ms": 674250,
+      "end_ms": 674710,
+      "text_en": "Let's try it out.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 317,
+      "start_ms": 674910,
+      "end_ms": 676750,
+      "text_en": "I love this one.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 318,
+      "start_ms": 676990,
+      "end_ms": 677850,
+      "text_en": "And it's hard to explain why.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 319,
+      "start_ms": 678030,
+      "end_ms": 679170,
+      "text_en": "This is a dish very unique to Vietnam.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 320,
+      "start_ms": 679630,
+      "end_ms": 680390,
+      "text_en": "Served all over the place.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 321,
+      "start_ms": 680610,
+      "end_ms": 683930,
+      "text_en": "But each place they stuff it with slightly different ingredients or put different toppings on top.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "stuff",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 322,
+      "start_ms": 684190,
+      "end_ms": 684490,
+      "text_en": "But always.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "always",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 4,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 323,
+      "start_ms": 684870,
+      "end_ms": 686430,
+      "text_en": "What I keep coming back for is that texture.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "keep",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 324,
+      "start_ms": 686710,
+      "end_ms": 687430,
+      "text_en": "It's so chewy.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 325,
+      "start_ms": 687430,
+      "end_ms": 689170,
+      "text_en": "Alright, I'm breaking off another piece here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m breaking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 10,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 326,
+      "start_ms": 689430,
+      "end_ms": 690470,
+      "text_en": "I'll flavor wise.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll flavor",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 1,
+          "span_end": 11
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 327,
+      "start_ms": 690650,
+      "end_ms": 690890,
+      "text_en": "It's spicy.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 328,
+      "start_ms": 691390,
+      "end_ms": 691690,
+      "text_en": "It's salty.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 329,
+      "start_ms": 691990,
+      "end_ms": 693110,
+      "text_en": "Then you taste some of the fresh herbs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "taste",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 330,
+      "start_ms": 693350,
+      "end_ms": 694690,
+      "text_en": "Then you taste creamy quail legs.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "taste",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 14
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 331,
+      "start_ms": 694970,
+      "end_ms": 695710,
+      "text_en": "Then the crunchy onion.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 332,
+      "start_ms": 696090,
+      "end_ms": 697010,
+      "text_en": "Creamy mayonnaise on top.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 333,
+      "start_ms": 697210,
+      "end_ms": 700710,
+      "text_en": "It is just a mind -bending experience with all these flavors and textures together.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 43,
+          "span_end": 46
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 334,
+      "start_ms": 701470,
+      "end_ms": 702330,
+      "text_en": "It is street food innovation.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 335,
+      "start_ms": 702810,
+      "end_ms": 703310,
+      "text_en": "It is best.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 336,
+      "start_ms": 703630,
+      "end_ms": 703990,
+      "text_en": "I love it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 337,
+      "start_ms": 705860,
+      "end_ms": 707960,
+      "text_en": "Alright folks, this is our last food for the evening.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 338,
+      "start_ms": 708220,
+      "end_ms": 709440,
+      "text_en": "It is coming up on 10 p .m.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is coming",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 3,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 339,
+      "start_ms": 709520,
+      "end_ms": 711960,
+      "text_en": "And I simply cannot stuff any more food inside of me.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "cannot stuff",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 13,
+          "span_end": 25
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 340,
+      "start_ms": 712300,
+      "end_ms": 713800,
+      "text_en": "Here, this is something famous in Vietnam.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 341,
+      "start_ms": 714060,
+      "end_ms": 716280,
+      "text_en": "It's something you won't find in a lot of places outside of here.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "won't find",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 19,
+          "span_end": 29
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 342,
+      "start_ms": 716280,
+      "end_ms": 718360,
+      "text_en": "And they look at sweets and desserts a little bit differently.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "look",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 13
+        },
+        {
+          "pattern": "desserts",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 28,
+          "span_end": 36
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 39,
+          "span_end": 45
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 343,
+      "start_ms": 718620,
+      "end_ms": 719440,
+      "text_en": "First of all, avocado.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "avocado",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 344,
+      "start_ms": 720160,
+      "end_ms": 722340,
+      "text_en": "It's blended up into a puree on top of that.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s blended",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 2,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 345,
+      "start_ms": 722500,
+      "end_ms": 723520,
+      "text_en": "Coconut three ways.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 346,
+      "start_ms": 723880,
+      "end_ms": 724620,
+      "text_en": "Coconut ice cream.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 347,
+      "start_ms": 724880,
+      "end_ms": 725980,
+      "text_en": "A sweet shredded coconut.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 348,
+      "start_ms": 726480,
+      "end_ms": 728460,
+      "text_en": "And then a super crispy coconut on top.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 349,
+      "start_ms": 728720,
+      "end_ms": 730080,
+      "text_en": "Makes it some crunchy salty peanuts.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 0,
+          "span_end": 5
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 9,
+          "span_end": 13
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 350,
+      "start_ms": 730520,
+      "end_ms": 730760,
+      "text_en": "It's awesome.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 351,
+      "start_ms": 731200,
+      "end_ms": 731520,
+      "text_en": "It's refreshing.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 352,
+      "start_ms": 731940,
+      "end_ms": 733140,
+      "text_en": "And it's 30 ,000 don't.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "do",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 17,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 353,
+      "start_ms": 733360,
+      "end_ms": 734480,
+      "text_en": "Less than a dollar and a half.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 354,
+      "start_ms": 734700,
+      "end_ms": 735120,
+      "text_en": "Some ice cream.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 0,
+          "span_end": 4
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 355,
+      "start_ms": 735460,
+      "end_ms": 736580,
+      "text_en": "Some of the shredded coconut.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 356,
+      "start_ms": 736980,
+      "end_ms": 738620,
+      "text_en": "It's going to take some more to even get to the avocado.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s going to take",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 2,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 357,
+      "start_ms": 739140,
+      "end_ms": 740100,
+      "text_en": "But that is looking nice.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "is looking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 9,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 358,
+      "start_ms": 742920,
+      "end_ms": 744080,
+      "text_en": "Oh, it's so refreshing.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 359,
+      "start_ms": 744420,
+      "end_ms": 745080,
+      "text_en": "So coconutty.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 360,
+      "start_ms": 745180,
+      "end_ms": 746800,
+      "text_en": "From three different coconut attacks.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 361,
+      "start_ms": 747040,
+      "end_ms": 749380,
+      "text_en": "I feel like I could bring to the surface some of that avocado.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could bring",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 14,
+          "span_end": 25
+        },
+        {
+          "pattern": "feel",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 6
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 362,
+      "start_ms": 750000,
+      "end_ms": 750740,
+      "text_en": "Yeah, look at that.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 363,
+      "start_ms": 751060,
+      "end_ms": 754140,
+      "text_en": "Green avocado makes with ice cream and everything else in there.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "avocado",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 6,
+          "span_end": 13
+        },
+        {
+          "pattern": "makes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 14,
+          "span_end": 19
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 364,
+      "start_ms": 754300,
+      "end_ms": 754800,
+      "text_en": "Let's give it a try.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 365,
+      "start_ms": 756760,
+      "end_ms": 758280,
+      "text_en": "This is a stunning cup.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 366,
+      "start_ms": 758480,
+      "end_ms": 761100,
+      "text_en": "The avocado, besides from the taste, you know, it has a lot of natural fats.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 41,
+          "span_end": 45
+        },
+        {
+          "pattern": "has",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 50,
+          "span_end": 53
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 367,
+      "start_ms": 761360,
+      "end_ms": 762060,
+      "text_en": "And it's just so creamy.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 368,
+      "start_ms": 762460,
+      "end_ms": 765540,
+      "text_en": "When you mix it with some sugar, some ice cream, and some crunchy bits like this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "mix",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 12
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 21,
+          "span_end": 25
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 33,
+          "span_end": 37
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 53,
+          "span_end": 57
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 369,
+      "start_ms": 765720,
+      "end_ms": 767400,
+      "text_en": "Oh my gosh, it is priceless and delicious.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 370,
+      "start_ms": 768440,
+      "end_ms": 772200,
+      "text_en": "At the end of a day of long eating, if you're feeling stuffed, go with something like this.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re feeling",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 42,
+          "span_end": 53
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 371,
+      "start_ms": 772460,
+      "end_ms": 774120,
+      "text_en": "Stomachs always have room for dessert somehow.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 16,
+          "span_end": 20
+        },
+        {
+          "pattern": "always",
+          "note_tr": "Adverbs of Frequency",
+          "cefr": "A2",
+          "norm_pattern": "adverb_frequency",
+          "span_start": 9,
+          "span_end": 15
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 372,
+      "start_ms": 774400,
+      "end_ms": 775500,
+      "text_en": "So that is 10 food.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 373,
+      "start_ms": 775720,
+      "end_ms": 776460,
+      "text_en": "I've reached my limit.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve reached",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 1,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 374,
+      "start_ms": 776700,
+      "end_ms": 779780,
+      "text_en": "I'm going to tally up the total and meet you for a nice little conclusion.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to tally",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 1,
+          "span_end": 18
+        },
+        {
+          "pattern": "little",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 56,
+          "span_end": 62
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 375,
+      "start_ms": 780000,
+      "end_ms": 781760,
+      "text_en": "Let's see if we broke $100 today.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "broke",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 16,
+          "span_end": 21
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 376,
+      "start_ms": 781960,
+      "end_ms": 783560,
+      "text_en": "Oh guys, that is the other video I've even seen.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve even seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 34,
+          "span_end": 47
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 377,
+      "start_ms": 783960,
+      "end_ms": 785160,
+      "text_en": "I didn't",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "did",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 2,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 378,
+      "start_ms": 787010,
+      "end_ms": 787450,
+      "text_en": "even say anything.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 379,
+      "start_ms": 787590,
+      "end_ms": 791690,
+      "text_en": "Today I mean over 10 foods, but does that amount of money equal over $100?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "mean",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 8,
+          "span_end": 12
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 380,
+      "start_ms": 792490,
+      "end_ms": 793390,
+      "text_en": "We're tabulating now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re tabulating",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 16
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 381,
+      "start_ms": 793710,
+      "end_ms": 794810,
+      "text_en": "There's tabulating sound effects.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s tabulating",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 5,
+          "span_end": 18
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 382,
+      "start_ms": 794810,
+      "end_ms": 798270,
+      "text_en": "The final amount is not enough.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 383,
+      "start_ms": 799410,
+      "end_ms": 802250,
+      "text_en": "I just told you to think this is some kind of gimmick, $100 thing.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "told",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 33,
+          "span_end": 37
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 384,
+      "start_ms": 802530,
+      "end_ms": 808470,
+      "text_en": "I am so convinced in my next three videos where I attempt the $100 challenge, I swear I'm going to make it happen.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'m going to make",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 87,
+          "span_end": 103
+        },
+        {
+          "pattern": "where I attempt the $100 challenge",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 42,
+          "span_end": 76
+        },
+        {
+          "pattern": "attempt",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 50,
+          "span_end": 57
+        },
+        {
+          "pattern": "swear",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 80,
+          "span_end": 85
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 385,
+      "start_ms": 808710,
+      "end_ms": 814250,
+      "text_en": "This street right here in particular that we've been on all night is good, clean, fun, lots of food, affordable prices.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve been",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 44,
+          "span_end": 52
+        },
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 56,
+          "span_end": 59
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 386,
+      "start_ms": 814590,
+      "end_ms": 817170,
+      "text_en": "This is one of my most favorite places to go at night in Vietnam.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 387,
+      "start_ms": 817390,
+      "end_ms": 818930,
+      "text_en": "If you don't mind being wet the whole time.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 388,
+      "start_ms": 819190,
+      "end_ms": 820190,
+      "text_en": "I didn't even pee my pants.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 389,
+      "start_ms": 820430,
+      "end_ms": 822650,
+      "text_en": "That's literally all rain water and sweat water.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "all",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 17,
+          "span_end": 20
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 390,
+      "start_ms": 822650,
+      "end_ms": 823630,
+      "text_en": "Guys, that is it for this one.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 391,
+      "start_ms": 823750,
+      "end_ms": 824490,
+      "text_en": "Thank you so much for watching.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Thank",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 0,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 392,
+      "start_ms": 824610,
+      "end_ms": 825450,
+      "text_en": "I will see you next time.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "will see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 10
+        }
+      ],
+      "vocab": []
+    },
+    {
+      "idx": 393,
+      "start_ms": 826090,
+      "end_ms": 826330,
+      "text_en": "Peace.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 394,
+      "start_ms": 828410,
+      "end_ms": 829650,
+      "text_en": "Alright, that is it.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": []
+    },
+    {
+      "idx": 395,
+      "start_ms": 829770,
+      "end_ms": 831310,
+      "text_en": "I got to find an umbrella or dry clothes.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 2,
+          "span_end": 5
+        }
+      ],
+      "vocab": []
+    }
+  ]
+}

@@ -1,0 +1,3971 @@
+[
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ability|NOUN",
+    "text_en": "She has the ability to stay calm under pressure.",
+    "text_tr": "Baskı altında sakin kalma yeteneği var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ability|NOUN",
+    "text_en": "Learning a language takes time, but everyone has the ability.",
+    "text_tr": "Dil öğrenmek zaman alır ama herkeste bu kabiliyet var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ability|NOUN",
+    "text_en": "His ability to explain hard ideas simply is rare.",
+    "text_tr": "Zor fikirleri basitçe anlatma yeteneği nadirdir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "benefit|NOUN",
+    "text_en": "One benefit of remote work is saving travel time.",
+    "text_tr": "Uzaktan çalışmanın bir faydası yol süresinden tasarruftur.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "benefit|NOUN",
+    "text_en": "Regular exercise has a clear benefit for your health.",
+    "text_tr": "Düzenli egzersizin sağlığa net bir faydası vardır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "benefit|NOUN",
+    "text_en": "They weighed the costs and benefits before deciding.",
+    "text_tr": "Karar vermeden önce maliyet ve faydaları tarttılar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "improve|VERB",
+    "text_en": "I want to improve my English before the trip.",
+    "text_tr": "Geziden önce İngilizcemi geliştirmek istiyorum.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "improve|VERB",
+    "text_en": "Small daily habits can improve your focus.",
+    "text_tr": "Küçük günlük alışkanlıklar odağını iyileştirebilir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "improve|VERB",
+    "text_en": "The team worked hard to improve the product.",
+    "text_tr": "Ekip ürünü geliştirmek için çok çalıştı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "develop|VERB",
+    "text_en": "It took two years to develop the app.",
+    "text_tr": "Uygulamayı geliştirmek iki yıl sürdü.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "develop|VERB",
+    "text_en": "Children develop language skills very quickly.",
+    "text_tr": "Çocuklar dil becerilerini çok hızlı geliştirir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "develop|VERB",
+    "text_en": "We need to develop a clearer plan.",
+    "text_tr": "Daha net bir plan geliştirmemiz gerekiyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "experience|NOUN",
+    "text_en": "Living abroad was an amazing experience.",
+    "text_tr": "Yurt dışında yaşamak harika bir deneyimdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "experience|NOUN",
+    "text_en": "She has ten years of experience in design.",
+    "text_tr": "Tasarımda on yıllık deneyimi var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "experience|NOUN",
+    "text_en": "The job needs no previous experience.",
+    "text_tr": "İş önceden deneyim gerektirmiyor.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "create|VERB",
+    "text_en": "He wants to create videos about science.",
+    "text_tr": "Bilim hakkında videolar üretmek istiyor.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "create|VERB",
+    "text_en": "They created a small team to test the idea.",
+    "text_tr": "Fikri denemek için küçük bir ekip kurdular.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "create|VERB",
+    "text_en": "Good tools help you create faster.",
+    "text_tr": "İyi araçlar daha hızlı üretmene yardım eder.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "describe|VERB",
+    "text_en": "Can you describe the man you saw?",
+    "text_tr": "Gördüğün adamı tarif edebilir misin?",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "describe|VERB",
+    "text_en": "It is hard to describe how I felt.",
+    "text_tr": "Nasıl hissettiğimi anlatmak zor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "describe|VERB",
+    "text_en": "The report describes the main problems.",
+    "text_tr": "Rapor ana sorunları tanımlıyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "receive|VERB",
+    "text_en": "Did you receive my message?",
+    "text_tr": "Mesajımı aldın mı?",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "receive|VERB",
+    "text_en": "She received an award for her work.",
+    "text_tr": "Çalışması için bir ödül aldı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "receive|VERB",
+    "text_en": "We receive many emails every day.",
+    "text_tr": "Her gün çok e-posta alıyoruz.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "recommend|VERB",
+    "text_en": "I recommend this restaurant to everyone.",
+    "text_tr": "Bu restoranı herkese tavsiye ederim.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "recommend|VERB",
+    "text_en": "The doctor recommended more rest.",
+    "text_tr": "Doktor daha çok dinlenme önerdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "recommend|VERB",
+    "text_en": "Which book would you recommend?",
+    "text_tr": "Hangi kitabı önerirsin?",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "respect|VERB",
+    "text_en": "I respect her honest opinion.",
+    "text_tr": "Onun dürüst fikrine saygı duyarım.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "respect|VERB",
+    "text_en": "We should respect other cultures.",
+    "text_tr": "Diğer kültürlere saygı göstermeliyiz.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "respect|VERB",
+    "text_en": "They respect each other's time.",
+    "text_tr": "Birbirlerinin zamanına saygı duyarlar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "compare|VERB",
+    "text_en": "Let's compare the two phones.",
+    "text_tr": "İki telefonu karşılaştıralım.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "compare|VERB",
+    "text_en": "It is unfair to compare them.",
+    "text_tr": "Onları karşılaştırmak haksızlık.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "compare|VERB",
+    "text_en": "Compare the prices before you buy.",
+    "text_tr": "Almadan önce fiyatları karşılaştır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "increase|NOUN",
+    "text_en": "There was a big increase in sales.",
+    "text_tr": "Satışlarda büyük bir artış oldu.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "increase|NOUN",
+    "text_en": "We saw an increase in visitors this year.",
+    "text_tr": "Bu yıl ziyaretçilerde bir artış gördük.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "increase|NOUN",
+    "text_en": "A small increase in price can hurt demand.",
+    "text_tr": "Fiyatta küçük bir artış talebi düşürebilir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "process|NOUN",
+    "text_en": "Learning is a slow process.",
+    "text_tr": "Öğrenme yavaş bir süreçtir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "process|NOUN",
+    "text_en": "The hiring process took three weeks.",
+    "text_tr": "İşe alım süreci üç hafta sürdü.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "process|NOUN",
+    "text_en": "We improved the whole process.",
+    "text_tr": "Tüm süreci iyileştirdik.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "share|VERB",
+    "text_en": "Please share this post with friends.",
+    "text_tr": "Lütfen bu gönderiyi arkadaşlarınla paylaş.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "share|VERB",
+    "text_en": "She shared her screen in the meeting.",
+    "text_tr": "Toplantıda ekranını paylaştı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "share|VERB",
+    "text_en": "They share a small office.",
+    "text_tr": "Küçük bir ofisi paylaşıyorlar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "earn|VERB",
+    "text_en": "How much do teachers earn here?",
+    "text_tr": "Buradaki öğretmenler ne kadar kazanıyor?",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "earn|VERB",
+    "text_en": "You earn trust by being honest.",
+    "text_tr": "Dürüst olarak güven kazanırsın.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "earn|VERB",
+    "text_en": "She earns extra money on weekends.",
+    "text_tr": "Hafta sonları ekstra para kazanıyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "deal|NOUN",
+    "text_en": "They made a deal with the supplier.",
+    "text_tr": "Tedarikçiyle bir anlaşma yaptılar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "deal|NOUN",
+    "text_en": "That's a great deal for the price.",
+    "text_tr": "Bu fiyata harika bir anlaşma.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "deal|NOUN",
+    "text_en": "The deal fell through at the last minute.",
+    "text_tr": "Anlaşma son dakikada bozuldu.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "market|NOUN",
+    "text_en": "The phone market is very competitive.",
+    "text_tr": "Telefon pazarı çok rekabetçi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "market|NOUN",
+    "text_en": "We buy fruit at the local market.",
+    "text_tr": "Meyveyi yerel pazardan alırız.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "market|NOUN",
+    "text_en": "They entered a new market last year.",
+    "text_tr": "Geçen yıl yeni bir pazara girdiler.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "income|NOUN",
+    "text_en": "Rent takes half of my income.",
+    "text_tr": "Kira gelirimin yarısını alıyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "income|NOUN",
+    "text_en": "They live on a low income.",
+    "text_tr": "Düşük gelirle geçiniyorlar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "income|NOUN",
+    "text_en": "Ads are the site's main income.",
+    "text_tr": "Reklamlar sitenin ana geliri.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "revenue|NOUN",
+    "text_en": "The company's revenue grew last quarter.",
+    "text_tr": "Şirketin geliri geçen çeyrek büyüdü.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "revenue|NOUN",
+    "text_en": "Most revenue comes from subscriptions.",
+    "text_tr": "Gelirin çoğu aboneliklerden geliyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "revenue|NOUN",
+    "text_en": "They reported record revenue this year.",
+    "text_tr": "Bu yıl rekor gelir açıkladılar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "financial|ADJ",
+    "text_en": "She gave me good financial advice.",
+    "text_tr": "Bana iyi bir mali tavsiye verdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "financial|ADJ",
+    "text_en": "The company is in financial trouble.",
+    "text_tr": "Şirket mali sıkıntıda.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "financial|ADJ",
+    "text_en": "We set clear financial goals.",
+    "text_tr": "Net finansal hedefler koyduk.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "task|NOUN",
+    "text_en": "I finished the first task quickly.",
+    "text_tr": "İlk görevi çabuk bitirdim.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "task|NOUN",
+    "text_en": "This task is harder than it looks.",
+    "text_tr": "Bu görev göründüğünden zor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "task|NOUN",
+    "text_en": "She split the work into small tasks.",
+    "text_tr": "İşi küçük görevlere böldü.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "device|NOUN",
+    "text_en": "This device saves a lot of time.",
+    "text_tr": "Bu cihaz çok zaman kazandırır.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "device|NOUN",
+    "text_en": "Turn off your devices during the film.",
+    "text_tr": "Film sırasında cihazlarını kapat.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "device|NOUN",
+    "text_en": "The app works on any device.",
+    "text_tr": "Uygulama her cihazda çalışır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "culture|NOUN",
+    "text_en": "I love learning about other cultures.",
+    "text_tr": "Başka kültürleri öğrenmeyi çok severim.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "culture|NOUN",
+    "text_en": "Food is a big part of culture.",
+    "text_tr": "Yemek kültürün büyük bir parçası.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "culture|NOUN",
+    "text_en": "The company has a friendly culture.",
+    "text_tr": "Şirketin cana yakın bir kültürü var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "diversity|NOUN",
+    "text_en": "The city is famous for its diversity.",
+    "text_tr": "Şehir çeşitliliğiyle ünlü.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "diversity|NOUN",
+    "text_en": "Diversity makes the team stronger.",
+    "text_tr": "Çeşitlilik ekibi güçlendirir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "diversity|NOUN",
+    "text_en": "We value diversity in our school.",
+    "text_tr": "Okulumuzda çeşitliliğe değer veririz.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "friendly|ADJ",
+    "text_en": "The staff here are very friendly.",
+    "text_tr": "Buradaki personel çok cana yakın.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "friendly|ADJ",
+    "text_en": "She gave me a friendly smile.",
+    "text_tr": "Bana dostça bir gülümseme verdi.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "friendly|ADJ",
+    "text_en": "It's a small, friendly town.",
+    "text_tr": "Küçük, sıcakkanlı bir kasaba.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "rude|ADJ",
+    "text_en": "It's rude to interrupt people.",
+    "text_tr": "İnsanların sözünü kesmek kabalıktır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "rude|ADJ",
+    "text_en": "He was rude to the waiter.",
+    "text_tr": "Garsona kaba davrandı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "rude|ADJ",
+    "text_en": "Sorry, I didn't mean to be rude.",
+    "text_tr": "Pardon, kaba olmak istemedim.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "weird|ADJ",
+    "text_en": "That's a weird smell.",
+    "text_tr": "Bu tuhaf bir koku.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "weird|ADJ",
+    "text_en": "It felt weird to be back home.",
+    "text_tr": "Eve dönmek tuhaf hissettirdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "weird|ADJ",
+    "text_en": "He has a weird sense of humor.",
+    "text_tr": "Tuhaf bir mizah anlayışı var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "awesome|ADJ",
+    "text_en": "The concert was awesome.",
+    "text_tr": "Konser harikaydı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "awesome|ADJ",
+    "text_en": "You did an awesome job.",
+    "text_tr": "Muhteşem bir iş çıkardın.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "awesome|ADJ",
+    "text_en": "What an awesome view!",
+    "text_tr": "Ne muhteşem bir manzara!",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "incredible|ADJ",
+    "text_en": "The food here is incredible.",
+    "text_tr": "Buradaki yemek inanılmaz.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "incredible|ADJ",
+    "text_en": "She showed incredible patience.",
+    "text_tr": "İnanılmaz bir sabır gösterdi.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "incredible|ADJ",
+    "text_en": "It was an incredible story.",
+    "text_tr": "İnanılmaz bir hikayeydi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "interesting|ADJ",
+    "text_en": "That's an interesting question.",
+    "text_tr": "İlginç bir soru.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "interesting|ADJ",
+    "text_en": "The book gets more interesting later.",
+    "text_tr": "Kitap ilerledikçe daha ilginç oluyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "interesting|ADJ",
+    "text_en": "I met an interesting person today.",
+    "text_tr": "Bugün ilginç biriyle tanıştım.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "journey|NOUN",
+    "text_en": "It was a long journey home.",
+    "text_tr": "Eve dönüş uzun bir yolculuktu.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "journey|NOUN",
+    "text_en": "Learning is a journey, not a race.",
+    "text_tr": "Öğrenmek bir yolculuktur, yarış değil.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "journey|NOUN",
+    "text_en": "They shared photos from the journey.",
+    "text_tr": "Yolculuktan fotoğraflar paylaştılar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "local|ADJ",
+    "text_en": "We ate at a local restaurant.",
+    "text_tr": "Yerel bir restoranda yedik.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "local|ADJ",
+    "text_en": "Ask a local for directions.",
+    "text_tr": "Yol için bir yerliye sor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "local|ADJ",
+    "text_en": "The local news covered the event.",
+    "text_tr": "Yerel haberler olayı işledi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "patient|NOUN",
+    "text_en": "The doctor saw ten patients today.",
+    "text_tr": "Doktor bugün on hasta baktı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "patient|NOUN",
+    "text_en": "The patient is feeling better now.",
+    "text_tr": "Hasta şimdi daha iyi hissediyor.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "patient|NOUN",
+    "text_en": "Nurses care for many patients.",
+    "text_tr": "Hemşireler birçok hastaya bakar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "surgery|NOUN",
+    "text_en": "She needs surgery on her knee.",
+    "text_tr": "Dizinden ameliyat olması gerekiyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "surgery|NOUN",
+    "text_en": "The surgery went well.",
+    "text_tr": "Ameliyat iyi geçti.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "surgery|NOUN",
+    "text_en": "He is resting after surgery.",
+    "text_tr": "Ameliyattan sonra dinleniyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "recover|VERB",
+    "text_en": "It took a week to recover from the flu.",
+    "text_tr": "Gripten iyileşmek bir hafta sürdü.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "recover|VERB",
+    "text_en": "The team recovered after a slow start.",
+    "text_tr": "Ekip yavaş bir başlangıçtan sonra toparlandı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "recover|VERB",
+    "text_en": "She is recovering well.",
+    "text_tr": "İyi iyileşiyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "weather|NOUN",
+    "text_en": "The weather is nice today.",
+    "text_tr": "Bugün hava güzel.",
+    "cefr": "A1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "weather|NOUN",
+    "text_en": "Bad weather delayed the flight.",
+    "text_tr": "Kötü hava uçuşu geciktirdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "weather|NOUN",
+    "text_en": "What's the weather like there?",
+    "text_tr": "Orada hava nasıl?",
+    "cefr": "A1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "environment|NOUN",
+    "text_en": "We must protect the environment.",
+    "text_tr": "Çevreyi korumalıyız.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "environment|NOUN",
+    "text_en": "A calm environment helps me study.",
+    "text_tr": "Sakin bir ortam çalışmama yardım eder.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "environment|NOUN",
+    "text_en": "The office is a friendly environment.",
+    "text_tr": "Ofis cana yakın bir ortam.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "train|VERB",
+    "text_en": "She trains every morning.",
+    "text_tr": "Her sabah antrenman yapar.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "train|VERB",
+    "text_en": "They train new staff for a week.",
+    "text_tr": "Yeni personeli bir hafta eğitirler.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "train|VERB",
+    "text_en": "You can train your brain to focus.",
+    "text_tr": "Beynini odaklanmak için eğitebilirsin.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "history|NOUN",
+    "text_en": "I love reading about history.",
+    "text_tr": "Tarih hakkında okumayı çok severim.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "history|NOUN",
+    "text_en": "The city has a long history.",
+    "text_tr": "Şehrin uzun bir tarihi var.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "history|NOUN",
+    "text_en": "History repeats itself, they say.",
+    "text_tr": "Tarih tekerrür eder derler.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "introduce|VERB",
+    "text_en": "Let me introduce my friend.",
+    "text_tr": "Arkadaşımı tanıştırayım.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "introduce|VERB",
+    "text_en": "They introduced a new rule.",
+    "text_tr": "Yeni bir kural getirdiler.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "introduce|VERB",
+    "text_en": "She introduced herself politely.",
+    "text_tr": "Kendini kibarca tanıttı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "invite|VERB",
+    "text_en": "They invited us to dinner.",
+    "text_tr": "Bizi akşam yemeğine davet ettiler.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "invite|VERB",
+    "text_en": "I'll invite a few friends.",
+    "text_tr": "Birkaç arkadaş davet edeceğim.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "invite|VERB",
+    "text_en": "She was invited to speak at the event.",
+    "text_tr": "Etkinlikte konuşmaya davet edildi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "promise|VERB",
+    "text_en": "I promise to call you tonight.",
+    "text_tr": "Bu gece seni arayacağıma söz veriyorum.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "promise|VERB",
+    "text_en": "He promised to help us move.",
+    "text_tr": "Taşınmamıza yardım edeceğine söz verdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "promise|VERB",
+    "text_en": "Don't promise what you can't do.",
+    "text_tr": "Yapamayacağın şeye söz verme.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "order|VERB",
+    "text_en": "I'd like to order a coffee.",
+    "text_tr": "Bir kahve sipariş etmek istiyorum.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "order|VERB",
+    "text_en": "She ordered a book online.",
+    "text_tr": "İnternetten bir kitap sipariş etti.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "order|VERB",
+    "text_en": "We ordered too much food.",
+    "text_tr": "Fazla yemek sipariş ettik.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "feed|VERB",
+    "text_en": "Don't forget to feed the cat.",
+    "text_tr": "Kediyi beslemeyi unutma.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "feed|VERB",
+    "text_en": "They feed the data into the system.",
+    "text_tr": "Verileri sisteme verirler.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "feed|VERB",
+    "text_en": "She feeds the baby every three hours.",
+    "text_tr": "Bebeği her üç saatte bir besler.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "comment|NOUN",
+    "text_en": "She left a kind comment on my post.",
+    "text_tr": "Gönderime nazik bir yorum bıraktı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "comment|NOUN",
+    "text_en": "Any comments on the plan?",
+    "text_tr": "Plan hakkında yorumunuz var mı?",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "comment|NOUN",
+    "text_en": "The comment section was full of tips.",
+    "text_tr": "Yorum bölümü ipuçlarıyla doluydu.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "subscribe|VERB",
+    "text_en": "Subscribe to get weekly updates.",
+    "text_tr": "Haftalık güncellemeler için abone ol.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "subscribe|VERB",
+    "text_en": "I subscribed to her channel.",
+    "text_tr": "Kanalına abone oldum.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "subscribe|VERB",
+    "text_en": "You can subscribe for free.",
+    "text_tr": "Ücretsiz abone olabilirsin.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "record|NOUN",
+    "text_en": "He set a new world record.",
+    "text_tr": "Yeni bir dünya rekoru kırdı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "record|NOUN",
+    "text_en": "Keep a record of your spending.",
+    "text_tr": "Harcamalarının kaydını tut.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "record|NOUN",
+    "text_en": "The team has a strong record this year.",
+    "text_tr": "Takımın bu yıl güçlü bir sicili var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "estimate|VERB",
+    "text_en": "They estimate the trip will take five hours.",
+    "text_tr": "Yolculuğun beş saat süreceğini tahmin ediyorlar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "estimate|VERB",
+    "text_en": "Can you estimate the cost?",
+    "text_tr": "Maliyeti tahmin edebilir misin?",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "estimate|VERB",
+    "text_en": "Experts estimate a slow recovery.",
+    "text_tr": "Uzmanlar yavaş bir toparlanma öngörüyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "guarantee|VERB",
+    "text_en": "We guarantee delivery in two days.",
+    "text_tr": "İki günde teslimatı garanti ediyoruz.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "guarantee|VERB",
+    "text_en": "Hard work doesn't guarantee success.",
+    "text_tr": "Sıkı çalışma başarıyı garanti etmez.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "guarantee|VERB",
+    "text_en": "The phone comes with a guarantee.",
+    "text_tr": "Telefon garantiyle geliyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "perform|VERB",
+    "text_en": "The band performed for two hours.",
+    "text_tr": "Grup iki saat sahne aldı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "perform|VERB",
+    "text_en": "She performs well under pressure.",
+    "text_tr": "Baskı altında iyi iş çıkarır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "perform|VERB",
+    "text_en": "The car performs better on the highway.",
+    "text_tr": "Araba otoyolda daha iyi performans gösterir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fair|ADJ",
+    "text_en": "That doesn't seem fair to me.",
+    "text_tr": "Bu bana adil görünmüyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fair|ADJ",
+    "text_en": "We want a fair price.",
+    "text_tr": "Adil bir fiyat istiyoruz.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fair|ADJ",
+    "text_en": "The referee made a fair call.",
+    "text_tr": "Hakem adil bir karar verdi.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fake|ADJ",
+    "text_en": "Be careful of fake reviews.",
+    "text_tr": "Sahte yorumlara dikkat et.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fake|ADJ",
+    "text_en": "The bag was a cheap fake.",
+    "text_tr": "Çanta ucuz bir sahteydi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fake|ADJ",
+    "text_en": "They spread fake news online.",
+    "text_tr": "İnternette sahte haber yaydılar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "option|NOUN",
+    "text_en": "You have two options here.",
+    "text_tr": "Burada iki seçeneğin var.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "option|NOUN",
+    "text_en": "Staying home is not an option.",
+    "text_tr": "Evde kalmak bir seçenek değil.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "option|NOUN",
+    "text_en": "We chose the cheaper option.",
+    "text_tr": "Daha ucuz seçeneği tercih ettik.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "structure|NOUN",
+    "text_en": "The essay needs a clearer structure.",
+    "text_tr": "Denemenin daha net bir yapıya ihtiyacı var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "structure|NOUN",
+    "text_en": "They changed the team structure.",
+    "text_tr": "Ekip yapısını değiştirdiler.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "structure|NOUN",
+    "text_en": "The building has a simple structure.",
+    "text_tr": "Binanın basit bir yapısı var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "accuracy|NOUN",
+    "text_en": "The report checks the accuracy of the data.",
+    "text_tr": "Rapor verilerin doğruluğunu kontrol eder.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "accuracy|NOUN",
+    "text_en": "We need more accuracy in the measurements.",
+    "text_tr": "Ölçümlerde daha fazla isabet gerekiyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "accuracy|NOUN",
+    "text_en": "The tool improves the accuracy of results.",
+    "text_tr": "Araç sonuçların doğruluğunu artırır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "acquire|VERB",
+    "text_en": "The company acquired a smaller startup.",
+    "text_tr": "Şirket daha küçük bir girişimi satın aldı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "acquire|VERB",
+    "text_en": "She acquired new skills at work.",
+    "text_tr": "İşte yeni beceriler edindi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "acquire|VERB",
+    "text_en": "It's hard to acquire good habits.",
+    "text_tr": "İyi alışkanlıklar edinmek zordur.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "additional|ADJ",
+    "text_en": "There is an additional fee for luggage.",
+    "text_tr": "Bagaj için ek bir ücret var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "additional|ADJ",
+    "text_en": "We hired additional staff for summer.",
+    "text_tr": "Yaz için ilave personel aldık.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "additional|ADJ",
+    "text_en": "Do you need any additional help?",
+    "text_tr": "Ek yardıma ihtiyacın var mı?",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "anywhere|ADV",
+    "text_en": "I can't find my keys anywhere.",
+    "text_tr": "Anahtarlarımı hiçbir yerde bulamıyorum.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "anywhere|ADV",
+    "text_en": "You can work from anywhere.",
+    "text_tr": "Her yerden çalışabilirsin.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "anywhere|ADV",
+    "text_en": "Is there a pharmacy anywhere near here?",
+    "text_tr": "Buralarda bir yerde eczane var mı?",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "appear|VERB",
+    "text_en": "A rainbow appeared after the rain.",
+    "text_tr": "Yağmurdan sonra bir gökkuşağı göründü.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "appear|VERB",
+    "text_en": "He appears calm, but he is nervous.",
+    "text_tr": "Sakin görünüyor ama gergin.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "appear|VERB",
+    "text_en": "New problems appeared during the test.",
+    "text_tr": "Test sırasında yeni sorunlar çıktı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "appearance|NOUN",
+    "text_en": "She cares a lot about her appearance.",
+    "text_tr": "Görünümüne çok önem veriyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "appearance|NOUN",
+    "text_en": "He made a short appearance on the show.",
+    "text_tr": "Programda kısa bir boy gösterdi.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "appearance|NOUN",
+    "text_en": "The garden's appearance changed in spring.",
+    "text_tr": "Bahçenin görünümü ilkbaharda değişti.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "approachable|ADJ",
+    "text_en": "The new teacher is very approachable.",
+    "text_tr": "Yeni öğretmen çok ulaşılabilir biri.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "approachable|ADJ",
+    "text_en": "A good manager should be approachable.",
+    "text_tr": "İyi bir yönetici ulaşılabilir olmalı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "approachable|ADJ",
+    "text_en": "He seems friendly and approachable.",
+    "text_tr": "Cana yakın ve ulaşılabilir görünüyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "area|NOUN",
+    "text_en": "This area is famous for its cafes.",
+    "text_tr": "Bu bölge kafeleriyle ünlü.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "area|NOUN",
+    "text_en": "We live in a quiet area.",
+    "text_tr": "Sakin bir bölgede yaşıyoruz.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "area|NOUN",
+    "text_en": "Please wait in the seating area.",
+    "text_tr": "Lütfen oturma alanında bekleyin.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "assign|VERB",
+    "text_en": "The teacher assigned us homework.",
+    "text_tr": "Öğretmen bize ödev verdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "assign|VERB",
+    "text_en": "They assigned her to a new project.",
+    "text_tr": "Onu yeni bir projeye atadılar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "assign|VERB",
+    "text_en": "Each task is assigned to one person.",
+    "text_tr": "Her görev bir kişiye atanır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "attention|NOUN",
+    "text_en": "Please pay attention to the road.",
+    "text_tr": "Lütfen yola dikkat et.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "attention|NOUN",
+    "text_en": "The ad caught my attention.",
+    "text_tr": "Reklam dikkatimi çekti.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "attention|NOUN",
+    "text_en": "She needs more attention from her team.",
+    "text_tr": "Ekibinden daha fazla ilgi bekliyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "bottom|NOUN",
+    "text_en": "The keys are at the bottom of my bag.",
+    "text_tr": "Anahtarlar çantamın dibinde.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "bottom|NOUN",
+    "text_en": "They finished at the bottom of the league.",
+    "text_tr": "Ligin sonuncusu olarak bitirdiler.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "bottom|NOUN",
+    "text_en": "Read the note at the bottom of the page.",
+    "text_tr": "Sayfanın altındaki notu oku.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "broadcaster|NOUN",
+    "text_en": "The broadcaster showed the match live.",
+    "text_tr": "Yayıncı maçı canlı gösterdi.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "broadcaster|NOUN",
+    "text_en": "She works for a national broadcaster.",
+    "text_tr": "Ulusal bir yayıncıda çalışıyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "broadcaster|NOUN",
+    "text_en": "The broadcaster lost the TV rights.",
+    "text_tr": "Yayıncı TV haklarını kaybetti.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "busy|ADJ",
+    "text_en": "I'm too busy to talk right now.",
+    "text_tr": "Şu an konuşamayacak kadar meşgulüm.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "busy|ADJ",
+    "text_en": "The streets are busy in the morning.",
+    "text_tr": "Sokaklar sabahları yoğun.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "busy|ADJ",
+    "text_en": "She had a busy week at work.",
+    "text_tr": "İşte yoğun bir hafta geçirdi.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "capital|NOUN",
+    "text_en": "Paris is the capital of France.",
+    "text_tr": "Paris, Fransa'nın başkentidir.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "capital|NOUN",
+    "text_en": "Ankara is the capital of Turkey.",
+    "text_tr": "Ankara, Türkiye'nin başkentidir.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "capital|NOUN",
+    "text_en": "The capital has many museums.",
+    "text_tr": "Başkentte birçok müze var.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "champion|NOUN",
+    "text_en": "She is the world champion.",
+    "text_tr": "O, dünya şampiyonu.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "champion|NOUN",
+    "text_en": "Our team became champions this year.",
+    "text_tr": "Takımımız bu yıl şampiyon oldu.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "champion|NOUN",
+    "text_en": "The champion thanked his fans.",
+    "text_tr": "Şampiyon taraftarlarına teşekkür etti.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "classification|NOUN",
+    "text_en": "The library uses a simple classification.",
+    "text_tr": "Kütüphane basit bir sınıflandırma kullanır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "classification|NOUN",
+    "text_en": "This classification groups animals by type.",
+    "text_tr": "Bu sınıflandırma hayvanları türüne göre gruplar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "classification|NOUN",
+    "text_en": "The model's classification was correct.",
+    "text_tr": "Modelin sınıflandırması doğruydu.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "classify|VERB",
+    "text_en": "We classify emails as spam or safe.",
+    "text_tr": "E-postaları spam veya güvenli olarak sınıflandırırız.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "classify|VERB",
+    "text_en": "Scientists classify plants into families.",
+    "text_tr": "Bilim insanları bitkileri ailelere ayırır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "classify|VERB",
+    "text_en": "The app classifies photos by date.",
+    "text_tr": "Uygulama fotoğrafları tarihe göre sınıflandırır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "coin|VERB",
+    "text_en": "He coined a new word for the idea.",
+    "text_tr": "Fikir için yeni bir terim türetti.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "coin|VERB",
+    "text_en": "The term was coined in the 1990s.",
+    "text_tr": "Terim 1990'larda ortaya atıldı.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "coin|VERB",
+    "text_en": "She coined a catchy slogan.",
+    "text_tr": "Akılda kalıcı bir slogan türetti.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "cold|ADJ",
+    "text_en": "He gave me a cold look.",
+    "text_tr": "Bana soğuk bir bakış attı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "cold|ADJ",
+    "text_en": "Her reply was short and cold.",
+    "text_tr": "Cevabı kısa ve soğuktu.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "cold|ADJ",
+    "text_en": "They were cold toward the new guy.",
+    "text_tr": "Yeni gelene karşı mesafeliydiler.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "collect|VERB",
+    "text_en": "She collects old coins.",
+    "text_tr": "Eski para toplar.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "collect|VERB",
+    "text_en": "I'll collect the kids from school.",
+    "text_tr": "Çocukları okuldan alacağım.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "collect|VERB",
+    "text_en": "They collect data from users.",
+    "text_tr": "Kullanıcılardan veri toplarlar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "commit|VERB",
+    "text_en": "She is fully committed to her studies.",
+    "text_tr": "Kendini tamamen çalışmalarına adadı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "commit|VERB",
+    "text_en": "We committed to a greener office.",
+    "text_tr": "Daha yeşil bir ofise kendimizi adadık.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "commit|VERB",
+    "text_en": "He won't commit to a clear answer.",
+    "text_tr": "Net bir cevaba bağlanmıyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "completely|ADV",
+    "text_en": "I completely forgot the meeting.",
+    "text_tr": "Toplantıyı tamamen unuttum.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "completely|ADV",
+    "text_en": "The plan is completely different now.",
+    "text_tr": "Plan artık bambaşka.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "completely|ADV",
+    "text_en": "She was completely honest with me.",
+    "text_tr": "Bana karşı tamamen dürüsttü.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "condition|NOUN",
+    "text_en": "The car is in good condition.",
+    "text_tr": "Araba iyi durumda.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "condition|NOUN",
+    "text_en": "There is one condition to the deal.",
+    "text_tr": "Anlaşmanın bir şartı var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "condition|NOUN",
+    "text_en": "Weather conditions were bad.",
+    "text_tr": "Hava koşulları kötüydü.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "constantly|ADV",
+    "text_en": "He constantly checks his phone.",
+    "text_tr": "Sürekli telefonunu kontrol ediyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "constantly|ADV",
+    "text_en": "Prices are constantly changing.",
+    "text_tr": "Fiyatlar durmadan değişiyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "constantly|ADV",
+    "text_en": "She is constantly learning new things.",
+    "text_tr": "Sürekli yeni şeyler öğreniyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "contain|VERB",
+    "text_en": "This drink contains no sugar.",
+    "text_tr": "Bu içecek şeker içermez.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "contain|VERB",
+    "text_en": "The box contains old photos.",
+    "text_tr": "Kutu eski fotoğraflar içeriyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "contain|VERB",
+    "text_en": "The report contains useful data.",
+    "text_tr": "Rapor faydalı veriler içerir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "cosmopolitan|ADJ",
+    "text_en": "London is a cosmopolitan city.",
+    "text_tr": "Londra kozmopolit bir şehir.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "cosmopolitan|ADJ",
+    "text_en": "She has a cosmopolitan taste in food.",
+    "text_tr": "Yemekte kozmopolit bir zevki var.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "cosmopolitan|ADJ",
+    "text_en": "The area feels young and cosmopolitan.",
+    "text_tr": "Bölge genç ve çok kültürlü hissettiriyor.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "couch|NOUN",
+    "text_en": "We watched a film on the couch.",
+    "text_tr": "Kanepede film izledik.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "couch|NOUN",
+    "text_en": "The cat sleeps on the couch.",
+    "text_tr": "Kedi kanepede uyur.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "couch|NOUN",
+    "text_en": "He fell asleep on the couch.",
+    "text_tr": "Kanepede uyuyakaldı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "creator|NOUN",
+    "text_en": "She is a popular video creator.",
+    "text_tr": "Popüler bir video üreticisidir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "creator|NOUN",
+    "text_en": "The app pays its creators.",
+    "text_tr": "Uygulama üreticilerine ödeme yapar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "creator|NOUN",
+    "text_en": "He is the creator of the game.",
+    "text_tr": "Oyunun yaratıcısı odur.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "dependent|ADJ",
+    "text_en": "Success is dependent on hard work.",
+    "text_tr": "Başarı sıkı çalışmaya bağlıdır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "dependent|ADJ",
+    "text_en": "Children are dependent on their parents.",
+    "text_tr": "Çocuklar ailelerine bağımlıdır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "dependent|ADJ",
+    "text_en": "The plan is dependent on the weather.",
+    "text_tr": "Plan havaya bağlı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "deploy|VERB",
+    "text_en": "We deployed the update last night.",
+    "text_tr": "Güncellemeyi dün gece devreye aldık.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "deploy|VERB",
+    "text_en": "The team deployed the new server.",
+    "text_tr": "Ekip yeni sunucuyu devreye aldı.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "deploy|VERB",
+    "text_en": "They deploy staff where needed.",
+    "text_tr": "Personeli gereken yere konuşlandırırlar.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "deserve|VERB",
+    "text_en": "You deserve a break.",
+    "text_tr": "Bir molayı hak ediyorsun.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "deserve|VERB",
+    "text_en": "She deserves the award.",
+    "text_tr": "Ödülü hak ediyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "deserve|VERB",
+    "text_en": "They deserved to win.",
+    "text_tr": "Kazanmayı hak ettiler.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "diverse|ADJ",
+    "text_en": "The class is very diverse.",
+    "text_tr": "Sınıf çok çeşitli.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "diverse|ADJ",
+    "text_en": "We offer a diverse menu.",
+    "text_tr": "Çeşitli bir menü sunuyoruz.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "diverse|ADJ",
+    "text_en": "The city has a diverse population.",
+    "text_tr": "Şehrin çeşitli bir nüfusu var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "divide|VERB",
+    "text_en": "Divide the cake into eight pieces.",
+    "text_tr": "Pastayı sekiz parçaya böl.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "divide|VERB",
+    "text_en": "We divided the work between us.",
+    "text_tr": "İşi aramızda paylaştırdık.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "divide|VERB",
+    "text_en": "The river divides the town.",
+    "text_tr": "Nehir kasabayı ikiye böler.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "domestic|ADJ",
+    "text_en": "Domestic flights are cheaper.",
+    "text_tr": "Yurt içi uçuşlar daha ucuz.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "domestic|ADJ",
+    "text_en": "They sell in the domestic market.",
+    "text_tr": "Yurt içi pazarda satış yaparlar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "domestic|ADJ",
+    "text_en": "Domestic sales rose last year.",
+    "text_tr": "Yurt içi satışlar geçen yıl arttı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "dominance|NOUN",
+    "text_en": "The team showed clear dominance.",
+    "text_tr": "Takım net bir üstünlük gösterdi.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "dominance|NOUN",
+    "text_en": "Their dominance in the market is strong.",
+    "text_tr": "Pazardaki hakimiyetleri güçlü.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "dominance|NOUN",
+    "text_en": "The champion's dominance lasted years.",
+    "text_tr": "Şampiyonun üstünlüğü yıllarca sürdü.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "dynamic|ADJ",
+    "text_en": "She is a dynamic leader.",
+    "text_tr": "Dinamik bir lider.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "dynamic|ADJ",
+    "text_en": "It's a dynamic and busy office.",
+    "text_tr": "Hareketli ve yoğun bir ofis.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "dynamic|ADJ",
+    "text_en": "The market is very dynamic.",
+    "text_tr": "Pazar çok dinamik.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "effort|NOUN",
+    "text_en": "It took a lot of effort.",
+    "text_tr": "Çok çaba gerektirdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "effort|NOUN",
+    "text_en": "Thanks for your effort.",
+    "text_tr": "Emeğin için teşekkürler.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "effort|NOUN",
+    "text_en": "She made an effort to be kind.",
+    "text_tr": "Nazik olmak için çaba gösterdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ego|NOUN",
+    "text_en": "He has a big ego.",
+    "text_tr": "Büyük bir egosu var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ego|NOUN",
+    "text_en": "Leave your ego at the door.",
+    "text_tr": "Egonu kapıda bırak.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ego|NOUN",
+    "text_en": "Her ego was hurt by the loss.",
+    "text_tr": "Kaybetmek egosunu incitti.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "embed|VERB",
+    "text_en": "You can embed the video on your site.",
+    "text_tr": "Videoyu sitene gömebilirsin.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "embed|VERB",
+    "text_en": "The chip is embedded in the card.",
+    "text_tr": "Çip kartın içine gömülüdür.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "embed|VERB",
+    "text_en": "They embedded a link in the text.",
+    "text_tr": "Metnin içine bir bağlantı gömdüler.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "equal|ADJ",
+    "text_en": "Everyone gets an equal share.",
+    "text_tr": "Herkes eşit pay alır.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "equal|ADJ",
+    "text_en": "Men and women should have equal rights.",
+    "text_tr": "Kadın ve erkek eşit haklara sahip olmalı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "equal|ADJ",
+    "text_en": "Cut the rope into two equal parts.",
+    "text_tr": "İpi iki eşit parçaya kes.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "equally|ADV",
+    "text_en": "We split the bill equally.",
+    "text_tr": "Hesabı eşit olarak böldük.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "equally|ADV",
+    "text_en": "Both plans are equally good.",
+    "text_tr": "İki plan da eşit derecede iyi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "equally|ADV",
+    "text_en": "Treat all students equally.",
+    "text_tr": "Tüm öğrencilere eşit davran.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ethnic|ADJ",
+    "text_en": "The city has many ethnic groups.",
+    "text_tr": "Şehirde birçok etnik grup var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ethnic|ADJ",
+    "text_en": "We enjoy ethnic food.",
+    "text_tr": "Etnik yemekleri severiz.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ethnic|ADJ",
+    "text_en": "The festival celebrates ethnic diversity.",
+    "text_tr": "Festival etnik çeşitliliği kutlar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "expect|VERB",
+    "text_en": "I expect good news soon.",
+    "text_tr": "Yakında iyi haber bekliyorum.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "expect|VERB",
+    "text_en": "We didn't expect so many people.",
+    "text_tr": "Bu kadar çok insan beklemiyorduk.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "expect|VERB",
+    "text_en": "She expects to finish today.",
+    "text_tr": "Bugün bitirmeyi bekliyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "expectation|NOUN",
+    "text_en": "The film met my expectations.",
+    "text_tr": "Film beklentilerimi karşıladı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "expectation|NOUN",
+    "text_en": "High expectations can cause stress.",
+    "text_tr": "Yüksek beklentiler strese neden olabilir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "expectation|NOUN",
+    "text_en": "Set clear expectations for the team.",
+    "text_tr": "Ekip için net beklentiler belirle.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "experienced|ADJ",
+    "text_en": "She is an experienced nurse.",
+    "text_tr": "Deneyimli bir hemşiredir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "experienced|ADJ",
+    "text_en": "We need an experienced driver.",
+    "text_tr": "Deneyimli bir sürücüye ihtiyacımız var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "experienced|ADJ",
+    "text_en": "He is experienced in sales.",
+    "text_tr": "Satışta deneyimlidir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "explicitly|ADV",
+    "text_en": "The rules explicitly ban phones.",
+    "text_tr": "Kurallar telefonları açıkça yasaklıyor.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "explicitly|ADV",
+    "text_en": "She explicitly asked for help.",
+    "text_tr": "Açıkça yardım istedi.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "explicitly|ADV",
+    "text_en": "The contract explicitly says so.",
+    "text_tr": "Sözleşme bunu açıkça söylüyor.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fee|NOUN",
+    "text_en": "There is a small entry fee.",
+    "text_tr": "Küçük bir giriş ücreti var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fee|NOUN",
+    "text_en": "The bank charges a monthly fee.",
+    "text_tr": "Banka aylık ücret alır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fee|NOUN",
+    "text_en": "The transfer fee was huge.",
+    "text_tr": "Transfer ücreti çok yüksekti.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fluctuate|VERB",
+    "text_en": "Prices fluctuate every day.",
+    "text_tr": "Fiyatlar her gün dalgalanır.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fluctuate|VERB",
+    "text_en": "Her mood fluctuates a lot.",
+    "text_tr": "Ruh hali çok değişir.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fluctuate|VERB",
+    "text_en": "Temperatures fluctuate in spring.",
+    "text_tr": "İlkbaharda sıcaklıklar dalgalanır.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "frightened|ADJ",
+    "text_en": "The child was frightened by the dog.",
+    "text_tr": "Çocuk köpekten korktu.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "frightened|ADJ",
+    "text_en": "She looked frightened.",
+    "text_tr": "Korkmuş görünüyordu.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "frightened|ADJ",
+    "text_en": "Don't be frightened; it's safe.",
+    "text_tr": "Korkma, güvenli.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fund|NOUN",
+    "text_en": "The charity needs more funds.",
+    "text_tr": "Yardım kuruluşunun daha çok fona ihtiyacı var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fund|NOUN",
+    "text_en": "They set up a fund for students.",
+    "text_tr": "Öğrenciler için bir fon kurdular.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fund|NOUN",
+    "text_en": "The project ran out of funds.",
+    "text_tr": "Projenin kaynakları tükendi.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fundamental|ADJ",
+    "text_en": "Trust is fundamental to teamwork.",
+    "text_tr": "Güven, takım çalışmasının temelidir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fundamental|ADJ",
+    "text_en": "These are the fundamental rules.",
+    "text_tr": "Bunlar temel kurallar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "fundamental|ADJ",
+    "text_en": "There is a fundamental difference.",
+    "text_tr": "Temel bir fark var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "further|ADJ",
+    "text_en": "For further details, call us.",
+    "text_tr": "Daha fazla ayrıntı için bizi arayın.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "further|ADJ",
+    "text_en": "We need further information.",
+    "text_tr": "Ek bilgiye ihtiyacımız var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "further|ADJ",
+    "text_en": "No further action is needed.",
+    "text_tr": "Başka bir işlem gerekmiyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "garbage|NOUN",
+    "text_en": "Please take out the garbage.",
+    "text_tr": "Lütfen çöpü çıkar.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "garbage|NOUN",
+    "text_en": "The garbage smells bad.",
+    "text_tr": "Çöp kötü kokuyor.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "garbage|NOUN",
+    "text_en": "This app is full of garbage ads.",
+    "text_tr": "Bu uygulama işe yaramaz reklamlarla dolu.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "garbage|VERB",
+    "text_en": "Old files just garbage up your drive.",
+    "text_tr": "Eski dosyalar diskini gereksiz yükle doldurur.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "garbage|VERB",
+    "text_en": "Too many pop-ups garbage the page.",
+    "text_tr": "Çok fazla açılır pencere sayfayı çöpe çevirir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "garbage|VERB",
+    "text_en": "Don't let ads garbage the site.",
+    "text_tr": "Reklamların siteyi çöpe çevirmesine izin verme.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "genuinely|ADV",
+    "text_en": "I'm genuinely happy for you.",
+    "text_tr": "Senin adına içtenlikle mutluyum.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "genuinely|ADV",
+    "text_en": "She genuinely cares about her students.",
+    "text_tr": "Öğrencilerini içtenlikle önemser.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "genuinely|ADV",
+    "text_en": "He was genuinely surprised.",
+    "text_tr": "Gerçekten şaşırmıştı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "glut|NOUN",
+    "text_en": "There is a glut of cheap phones.",
+    "text_tr": "Piyasada ucuz telefon bolluğu var.",
+    "cefr": "C2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "glut|NOUN",
+    "text_en": "A glut of oil pushed prices down.",
+    "text_tr": "Aşırı petrol bolluğu fiyatları düşürdü.",
+    "cefr": "C2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "glut|NOUN",
+    "text_en": "The market has a glut of houses.",
+    "text_tr": "Piyasada aşırı ev fazlalığı var.",
+    "cefr": "C2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "grab|VERB",
+    "text_en": "Grab your coat; it's cold.",
+    "text_tr": "Montunu kap, hava soğuk.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "grab|VERB",
+    "text_en": "Let's grab a coffee.",
+    "text_tr": "Hadi bir kahve içelim.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "grab|VERB",
+    "text_en": "She grabbed my hand.",
+    "text_tr": "Elimi kaptı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "gradually|ADV",
+    "text_en": "The pain went away gradually.",
+    "text_tr": "Ağrı giderek geçti.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "gradually|ADV",
+    "text_en": "He gradually got better.",
+    "text_tr": "Yavaş yavaş iyileşti.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "gradually|ADV",
+    "text_en": "Add the sugar gradually.",
+    "text_tr": "Şekeri yavaş yavaş ekle.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "half|NOUN",
+    "text_en": "I'll take half of the cake.",
+    "text_tr": "Pastanın yarısını alırım.",
+    "cefr": "A1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "half|NOUN",
+    "text_en": "Half of the team was late.",
+    "text_tr": "Takımın yarısı geç kaldı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "half|NOUN",
+    "text_en": "Cut the apple in half.",
+    "text_tr": "Elmayı ortadan ikiye böl.",
+    "cefr": "A1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "hopeful|ADJ",
+    "text_en": "We are hopeful about the results.",
+    "text_tr": "Sonuçlar konusunda umutluyuz.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "hopeful|ADJ",
+    "text_en": "She stayed hopeful during hard times.",
+    "text_tr": "Zor zamanlarda umutlu kaldı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "hopeful|ADJ",
+    "text_en": "They are hopeful for a deal.",
+    "text_tr": "Bir anlaşma için umutlular.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "horrible|ADJ",
+    "text_en": "The weather is horrible today.",
+    "text_tr": "Bugün hava berbat.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "horrible|ADJ",
+    "text_en": "It was a horrible accident.",
+    "text_tr": "Korkunç bir kazaydı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "horrible|ADJ",
+    "text_en": "The food tasted horrible.",
+    "text_tr": "Yemeğin tadı berbattı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "immediately|ADV",
+    "text_en": "Call me immediately if there's a problem.",
+    "text_tr": "Bir sorun olursa beni hemen ara.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "immediately|ADV",
+    "text_en": "She left immediately after the call.",
+    "text_tr": "Aramadan hemen sonra çıktı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "immediately|ADV",
+    "text_en": "The medicine works immediately.",
+    "text_tr": "İlaç anında etki eder.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "impressive|ADJ",
+    "text_en": "That was an impressive speech.",
+    "text_tr": "Etkileyici bir konuşmaydı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "impressive|ADJ",
+    "text_en": "The view is really impressive.",
+    "text_tr": "Manzara gerçekten etkileyici.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "impressive|ADJ",
+    "text_en": "She has an impressive record.",
+    "text_tr": "Etkileyici bir geçmişi var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "inbox|NOUN",
+    "text_en": "My inbox is full of emails.",
+    "text_tr": "Gelen kutum e-postalarla dolu.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "inbox|NOUN",
+    "text_en": "Check your inbox for the code.",
+    "text_tr": "Kod için gelen kutunu kontrol et.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "inbox|NOUN",
+    "text_en": "I clean my inbox every morning.",
+    "text_tr": "Her sabah gelen kutumu temizlerim.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "interested|ADJ",
+    "text_en": "I'm interested in art.",
+    "text_tr": "Sanata ilgiliyim.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "interested|ADJ",
+    "text_en": "Are you interested in the job?",
+    "text_tr": "İşe ilgili misin?",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "interested|ADJ",
+    "text_en": "She seemed interested in the topic.",
+    "text_tr": "Konuya meraklı görünüyordu.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "intimidate|VERB",
+    "text_en": "Big crowds intimidate him.",
+    "text_tr": "Kalabalıklar onu ürkütür.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "intimidate|VERB",
+    "text_en": "Don't let the test intimidate you.",
+    "text_tr": "Sınavın gözünü korkutmasına izin verme.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "intimidate|VERB",
+    "text_en": "Her confidence can intimidate people.",
+    "text_tr": "Özgüveni insanların gözünü korkutabilir.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "key|ADJ",
+    "text_en": "This is a key point.",
+    "text_tr": "Bu temel bir nokta.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "key|ADJ",
+    "text_en": "She played a key role.",
+    "text_tr": "Anahtar bir rol oynadı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "key|ADJ",
+    "text_en": "Timing is a key factor.",
+    "text_tr": "Zamanlama anahtar bir etken.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "late|ADJ",
+    "text_en": "The late updates fixed the bug.",
+    "text_tr": "En son güncellemeler hatayı düzeltti.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "late|ADJ",
+    "text_en": "Have you seen the late results?",
+    "text_tr": "En son sonuçları gördün mü?",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "late|ADJ",
+    "text_en": "These are the late models.",
+    "text_tr": "Bunlar en güncel modeller.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "least|ADJ",
+    "text_en": "That's the least of my worries.",
+    "text_tr": "Bu, endişelerimin en küçüğü.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "least|ADJ",
+    "text_en": "He chose the least expensive option.",
+    "text_tr": "En ucuz seçeneği seçti.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "least|ADJ",
+    "text_en": "It took the least amount of time.",
+    "text_tr": "En az zamanı aldı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "loaf|NOUN",
+    "text_en": "I bought a loaf of bread.",
+    "text_tr": "Bir somun ekmek aldım.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "loaf|NOUN",
+    "text_en": "She baked a fresh loaf.",
+    "text_tr": "Taze bir somun pişirdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "loaf|NOUN",
+    "text_en": "Cut the loaf into slices.",
+    "text_tr": "Somunu dilimlere ayır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "manual|ADJ",
+    "text_en": "This is a manual process.",
+    "text_tr": "Bu, elle yapılan bir işlem.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "manual|ADJ",
+    "text_en": "The car has a manual gearbox.",
+    "text_tr": "Arabanın vitesi manuel.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "manual|ADJ",
+    "text_en": "Manual work can be tiring.",
+    "text_tr": "El işi yorucu olabilir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "massive|ADJ",
+    "text_en": "They live in a massive house.",
+    "text_tr": "Kocaman bir evde yaşıyorlar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "massive|ADJ",
+    "text_en": "It was a massive success.",
+    "text_tr": "Devasa bir başarıydı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "massive|ADJ",
+    "text_en": "There was a massive crowd.",
+    "text_tr": "Kocaman bir kalabalık vardı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "merit|NOUN",
+    "text_en": "She was hired on merit.",
+    "text_tr": "Liyakatle işe alındı.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "merit|NOUN",
+    "text_en": "The plan has real merit.",
+    "text_tr": "Planın gerçek bir değeri var.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "merit|NOUN",
+    "text_en": "Awards should be based on merit.",
+    "text_tr": "Ödüller liyakate dayanmalı.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "minimize|VERB",
+    "text_en": "We try to minimize costs.",
+    "text_tr": "Maliyetleri en aza indirmeye çalışırız.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "minimize|VERB",
+    "text_en": "Minimize the window to see the desktop.",
+    "text_tr": "Masaüstünü görmek için pencereyi küçült.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "minimize|VERB",
+    "text_en": "Good planning minimizes risk.",
+    "text_tr": "İyi planlama riski en aza indirir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "minimum|NOUN",
+    "text_en": "Keep noise to a minimum.",
+    "text_tr": "Gürültüyü asgaride tut.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "minimum|NOUN",
+    "text_en": "The minimum is ten people.",
+    "text_tr": "En az on kişi gerekir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "minimum|NOUN",
+    "text_en": "Spend a minimum of one hour.",
+    "text_tr": "En az bir saat harca.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "mistrust|VERB",
+    "text_en": "People mistrust fake news.",
+    "text_tr": "İnsanlar sahte habere güvenmez.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "mistrust|VERB",
+    "text_en": "She mistrusts strangers.",
+    "text_tr": "Yabancılara güvenmez.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "mistrust|VERB",
+    "text_en": "Voters mistrust empty promises.",
+    "text_tr": "Seçmenler boş sözlere güvenmez.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "multicultural|NOUN",
+    "text_en": "London is a multicultural city.",
+    "text_tr": "Londra çok kültürlü bir şehir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "multicultural|NOUN",
+    "text_en": "We live in a multicultural area.",
+    "text_tr": "Çok kültürlü bir bölgede yaşıyoruz.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "multicultural|NOUN",
+    "text_en": "The school is proud of its multicultural students.",
+    "text_tr": "Okul çok kültürlü öğrencileriyle gurur duyar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "museum|NOUN",
+    "text_en": "We visited a science museum.",
+    "text_tr": "Bir bilim müzesi ziyaret ettik.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "museum|NOUN",
+    "text_en": "The museum is free on Sundays.",
+    "text_tr": "Müze pazar günleri ücretsiz.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "museum|NOUN",
+    "text_en": "This museum has famous paintings.",
+    "text_tr": "Bu müzede ünlü tablolar var.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "northwest|NOUN",
+    "text_en": "They live in the northwest of the country.",
+    "text_tr": "Ülkenin kuzeybatısında yaşarlar.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "northwest|NOUN",
+    "text_en": "The wind comes from the northwest.",
+    "text_tr": "Rüzgar kuzeybatıdan geliyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "northwest|NOUN",
+    "text_en": "The town is in the northwest.",
+    "text_tr": "Kasaba kuzeybatıda.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "nowhere|ADV",
+    "text_en": "The keys were nowhere to be found.",
+    "text_tr": "Anahtarlar hiçbir yerde bulunamadı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "nowhere|ADV",
+    "text_en": "We are nowhere near ready.",
+    "text_tr": "Hazır olmaya daha çok var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "nowhere|ADV",
+    "text_en": "This road leads nowhere.",
+    "text_tr": "Bu yol hiçbir yere çıkmıyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "optimize|VERB",
+    "text_en": "We optimized the site for speed.",
+    "text_tr": "Siteyi hız için optimize ettik.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "optimize|VERB",
+    "text_en": "Optimize your photos before upload.",
+    "text_tr": "Yüklemeden önce fotoğraflarını optimize et.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "optimize|VERB",
+    "text_en": "They optimized the delivery route.",
+    "text_tr": "Teslimat rotasını en iyi hale getirdiler.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "originally|ADV",
+    "text_en": "She is originally from Izmir.",
+    "text_tr": "Aslen İzmirli.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "originally|ADV",
+    "text_en": "The plan was originally different.",
+    "text_tr": "Plan başlangıçta farklıydı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "originally|ADV",
+    "text_en": "This word originally meant something else.",
+    "text_tr": "Bu kelime aslen başka bir anlama geliyordu.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "outcome|NOUN",
+    "text_en": "We are happy with the outcome.",
+    "text_tr": "Sonuçtan memnunuz.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "outcome|NOUN",
+    "text_en": "The outcome was a surprise.",
+    "text_tr": "Sonuç bir sürprizdi.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "outcome|NOUN",
+    "text_en": "Nobody knows the outcome yet.",
+    "text_tr": "Sonucu henüz kimse bilmiyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "outgoing|ADJ",
+    "text_en": "She has an outgoing personality.",
+    "text_tr": "Dışa dönük bir kişiliği var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "outgoing|ADJ",
+    "text_en": "He is friendly and outgoing.",
+    "text_tr": "Cana yakın ve dışa dönük.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "outgoing|ADJ",
+    "text_en": "Outgoing people enjoy parties.",
+    "text_tr": "Dışa dönük insanlar partilerden hoşlanır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "overrated|ADJ",
+    "text_en": "I think that film is overrated.",
+    "text_tr": "Bence o film abartılıyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "overrated|ADJ",
+    "text_en": "The restaurant is overrated.",
+    "text_tr": "Restoran fazla abartılıyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "overrated|ADJ",
+    "text_en": "Some say the phone is overrated.",
+    "text_tr": "Bazıları telefonun abartıldığını söylüyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "overseas|ADJ",
+    "text_en": "She has an overseas job offer.",
+    "text_tr": "Yurt dışından bir iş teklifi var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "overseas|ADJ",
+    "text_en": "They run overseas offices.",
+    "text_tr": "Yurt dışı ofisler işletiyorlar.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "overseas|ADJ",
+    "text_en": "Overseas sales are growing.",
+    "text_tr": "Yurt dışı satışlar büyüyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "parameter|NOUN",
+    "text_en": "Set the parameters before you start.",
+    "text_tr": "Başlamadan önce parametreleri ayarla.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "parameter|NOUN",
+    "text_en": "The function takes two parameters.",
+    "text_tr": "Fonksiyon iki parametre alır.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "parameter|NOUN",
+    "text_en": "We work within tight parameters.",
+    "text_tr": "Dar ölçütler içinde çalışıyoruz.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "period|NOUN",
+    "text_en": "It rained for a long period.",
+    "text_tr": "Uzun bir dönem yağmur yağdı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "period|NOUN",
+    "text_en": "This was a happy period in my life.",
+    "text_tr": "Bu, hayatımda mutlu bir dönemdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "period|NOUN",
+    "text_en": "Sales rose over a short period.",
+    "text_tr": "Satışlar kısa bir dönemde arttı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "personally|ADV",
+    "text_en": "Personally, I prefer tea.",
+    "text_tr": "Şahsen ben çayı tercih ederim.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "personally|ADV",
+    "text_en": "She thanked me personally.",
+    "text_tr": "Bana bizzat teşekkür etti.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "personally|ADV",
+    "text_en": "I'll handle it personally.",
+    "text_tr": "Bununla bizzat ilgileneceğim.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "poor|ADJ",
+    "text_en": "The signal is poor here.",
+    "text_tr": "Burada sinyal zayıf.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "poor|ADJ",
+    "text_en": "They grew up poor.",
+    "text_tr": "Yoksul büyüdüler.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "poor|ADJ",
+    "text_en": "It was a poor decision.",
+    "text_tr": "Kötü bir karardı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "position|NOUN",
+    "text_en": "She got a new position at work.",
+    "text_tr": "İşte yeni bir konum aldı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "position|NOUN",
+    "text_en": "Put the chair in this position.",
+    "text_tr": "Sandalyeyi bu konuma koy.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "position|NOUN",
+    "text_en": "He is in first position.",
+    "text_tr": "Birinci sırada.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "prediction|NOUN",
+    "text_en": "Her prediction was correct.",
+    "text_tr": "Tahmini doğruydu.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "prediction|NOUN",
+    "text_en": "The weather prediction says rain.",
+    "text_tr": "Hava tahmini yağmur diyor.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "prediction|NOUN",
+    "text_en": "Nobody trusts his predictions.",
+    "text_tr": "Kimse onun tahminlerine güvenmiyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "predictive|ADJ",
+    "text_en": "The app uses predictive text.",
+    "text_tr": "Uygulama tahmine dayalı metin kullanır.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "predictive|ADJ",
+    "text_en": "They built a predictive model.",
+    "text_tr": "Öngören bir model kurdular.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "predictive|ADJ",
+    "text_en": "Predictive tools guess your needs.",
+    "text_tr": "Öngören araçlar ihtiyaçlarını tahmin eder.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "previous|ADJ",
+    "text_en": "In the previous lesson we learned verbs.",
+    "text_tr": "Önceki derste fiilleri öğrendik.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "previous|ADJ",
+    "text_en": "My previous phone was slow.",
+    "text_tr": "Önceki telefonum yavaştı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "previous|ADJ",
+    "text_en": "See the previous page.",
+    "text_tr": "Önceki sayfaya bak.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "racism|NOUN",
+    "text_en": "The campaign fights racism.",
+    "text_tr": "Kampanya ırkçılıkla mücadele eder.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "racism|NOUN",
+    "text_en": "Racism has no place in sport.",
+    "text_tr": "Sporda ırkçılığa yer yok.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "racism|NOUN",
+    "text_en": "They spoke out against racism.",
+    "text_tr": "Irkçılığa karşı seslerini yükselttiler.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ratio|NOUN",
+    "text_en": "The ratio of boys to girls is equal.",
+    "text_tr": "Erkeklerin kızlara oranı eşit.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ratio|NOUN",
+    "text_en": "Mix them in a two to one ratio.",
+    "text_tr": "İkiye bir oranında karıştır.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "ratio|NOUN",
+    "text_en": "The staff to student ratio is low.",
+    "text_tr": "Personel öğrenci oranı düşük.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "raw|ADJ",
+    "text_en": "I don't eat raw fish.",
+    "text_tr": "Çiğ balık yemem.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "raw|ADJ",
+    "text_en": "The data is still raw.",
+    "text_tr": "Veri henüz ham.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "raw|ADJ",
+    "text_en": "Raw materials got expensive.",
+    "text_tr": "Ham maddeler pahalandı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "record|ADJ",
+    "text_en": "Sales hit a record high.",
+    "text_tr": "Satışlar rekor seviyeye ulaştı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "record|ADJ",
+    "text_en": "It was a record year for tourism.",
+    "text_tr": "Turizm için rekor bir yıldı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "record|ADJ",
+    "text_en": "They signed him for a record fee.",
+    "text_tr": "Onu rekor bir ücretle transfer ettiler.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "reliance|NOUN",
+    "text_en": "Our reliance on cars is high.",
+    "text_tr": "Arabalara bağımlılığımız yüksek.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "reliance|NOUN",
+    "text_en": "Reduce your reliance on sugar.",
+    "text_tr": "Şekere olan bağımlılığını azalt.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "reliance|NOUN",
+    "text_en": "There is heavy reliance on imports.",
+    "text_tr": "İthalata büyük bağımlılık var.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "reliant|ADJ",
+    "text_en": "We are too reliant on one supplier.",
+    "text_tr": "Tek bir tedarikçiye fazla bağımlıyız.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "reliant|ADJ",
+    "text_en": "Kids are reliant on their phones.",
+    "text_tr": "Çocuklar telefonlarına bağımlı.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "reliant|ADJ",
+    "text_en": "The town is reliant on tourism.",
+    "text_tr": "Kasaba turizme bağımlı.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "remain|VERB",
+    "text_en": "Few tickets remain.",
+    "text_tr": "Az sayıda bilet kaldı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "remain|VERB",
+    "text_en": "Please remain seated.",
+    "text_tr": "Lütfen oturmaya devam edin.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "remain|VERB",
+    "text_en": "She remained calm.",
+    "text_tr": "Sakin kaldı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "reminder|NOUN",
+    "text_en": "Set a reminder for the meeting.",
+    "text_tr": "Toplantı için bir hatırlatıcı kur.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "reminder|NOUN",
+    "text_en": "This is a friendly reminder.",
+    "text_tr": "Bu, nazik bir hatırlatmadır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "reminder|NOUN",
+    "text_en": "The app sends daily reminders.",
+    "text_tr": "Uygulama günlük hatırlatmalar gönderir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "renegotiation|NOUN",
+    "text_en": "The deal needs renegotiation.",
+    "text_tr": "Anlaşmanın yeniden müzakereye ihtiyacı var.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "renegotiation|NOUN",
+    "text_en": "They asked for a renegotiation of the price.",
+    "text_tr": "Fiyatın yeniden müzakeresini istediler.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "renegotiation|NOUN",
+    "text_en": "Renegotiation of the contract took weeks.",
+    "text_tr": "Sözleşmenin yeniden müzakeresi haftalar aldı.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "represent|VERB",
+    "text_en": "She represents her country.",
+    "text_tr": "Ülkesini temsil eder.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "represent|VERB",
+    "text_en": "This chart represents our sales.",
+    "text_tr": "Bu grafik satışlarımızı temsil eder.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "represent|VERB",
+    "text_en": "He represented the team at the event.",
+    "text_tr": "Etkinlikte takımı temsil etti.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "resource|NOUN",
+    "text_en": "Water is a precious resource.",
+    "text_tr": "Su, değerli bir kaynaktır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "resource|NOUN",
+    "text_en": "We lack the resources for it.",
+    "text_tr": "Bunun için kaynağımız yok.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "resource|NOUN",
+    "text_en": "The site is a great learning resource.",
+    "text_tr": "Site harika bir öğrenme kaynağı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "rival|NOUN",
+    "text_en": "They beat their biggest rival.",
+    "text_tr": "En büyük rakiplerini yendiler.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "rival|NOUN",
+    "text_en": "The two rivals shook hands.",
+    "text_tr": "İki rakip el sıkıştı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "rival|NOUN",
+    "text_en": "She has no real rival.",
+    "text_tr": "Gerçek bir rakibi yok.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "roughly|ADV",
+    "text_en": "It costs roughly ten dollars.",
+    "text_tr": "Kabaca on dolar tutuyor.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "roughly|ADV",
+    "text_en": "There were roughly fifty people.",
+    "text_tr": "Yaklaşık elli kişi vardı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "roughly|ADV",
+    "text_en": "The trip takes roughly two hours.",
+    "text_tr": "Yolculuk kabaca iki saat sürer.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "round|NOUN",
+    "text_en": "She won the first round.",
+    "text_tr": "İlk turu kazandı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "round|NOUN",
+    "text_en": "Let's play one more round.",
+    "text_tr": "Bir tur daha oynayalım.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "round|NOUN",
+    "text_en": "He reached the final round.",
+    "text_tr": "Son aşamaya ulaştı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "separate|VERB",
+    "text_en": "Separate the eggs from the flour.",
+    "text_tr": "Yumurtaları undan ayır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "separate|VERB",
+    "text_en": "Please separate the trash.",
+    "text_tr": "Lütfen çöpü ayır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "separate|VERB",
+    "text_en": "A fence separates the gardens.",
+    "text_tr": "Bir çit bahçeleri ayırır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "share|NOUN",
+    "text_en": "I sold my share of the company.",
+    "text_tr": "Şirketteki payımı sattım.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "share|NOUN",
+    "text_en": "Everyone did their fair share.",
+    "text_tr": "Herkes üstüne düşen payı yaptı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "share|NOUN",
+    "text_en": "Their market share grew.",
+    "text_tr": "Pazar payları büyüdü.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "shop|NOUN",
+    "text_en": "There is a coffee shop nearby.",
+    "text_tr": "Yakında bir kahve dükkanı var.",
+    "cefr": "A1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "shop|NOUN",
+    "text_en": "The shop opens at nine.",
+    "text_tr": "Dükkan dokuzda açılır.",
+    "cefr": "A1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "shop|NOUN",
+    "text_en": "She works in a shoe shop.",
+    "text_tr": "Bir ayakkabı dükkanında çalışıyor.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "similar|ADJ",
+    "text_en": "Our tastes are similar.",
+    "text_tr": "Zevklerimiz benzer.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "similar|ADJ",
+    "text_en": "The two phones look similar.",
+    "text_tr": "İki telefon benzer görünüyor.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "similar|ADJ",
+    "text_en": "We had a similar problem.",
+    "text_tr": "Benzer bir sorunumuz vardı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "southwest|NOUN",
+    "text_en": "They drove to the southwest.",
+    "text_tr": "Güneybatıya doğru sürdüler.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "southwest|NOUN",
+    "text_en": "The city is in the southwest.",
+    "text_tr": "Şehir güneybatıda.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "southwest|NOUN",
+    "text_en": "Warm winds blow from the southwest.",
+    "text_tr": "Ilık rüzgarlar güneybatıdan eser.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "spending|NOUN",
+    "text_en": "We cut our spending this month.",
+    "text_tr": "Bu ay harcamalarımızı kıstık.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "spending|NOUN",
+    "text_en": "Holiday spending is high.",
+    "text_tr": "Tatil harcaması yüksek.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "spending|NOUN",
+    "text_en": "Track your daily spending.",
+    "text_tr": "Günlük harcamanı takip et.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "staggering|ADJ",
+    "text_en": "The cost was staggering.",
+    "text_tr": "Maliyet hayret vericiydi.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "staggering|ADJ",
+    "text_en": "They made a staggering profit.",
+    "text_tr": "Şaşırtıcı bir kar elde ettiler.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "staggering|ADJ",
+    "text_en": "The view was staggering.",
+    "text_tr": "Manzara hayret vericiydi.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "stock|NOUN",
+    "text_en": "The item is out of stock.",
+    "text_tr": "Ürün stokta yok.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "stock|NOUN",
+    "text_en": "He bought stock in the company.",
+    "text_tr": "Şirketten hisse senedi aldı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "stock|NOUN",
+    "text_en": "We keep a small stock of parts.",
+    "text_tr": "Az sayıda parça stoğu tutarız.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "subscriber|NOUN",
+    "text_en": "The channel has a million subscribers.",
+    "text_tr": "Kanalın bir milyon abonesi var.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "subscriber|NOUN",
+    "text_en": "New subscribers get a discount.",
+    "text_tr": "Yeni aboneler indirim alır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "subscriber|NOUN",
+    "text_en": "She is a loyal subscriber.",
+    "text_tr": "Sadık bir abonedir.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "suck|VERB",
+    "text_en": "This weather sucks.",
+    "text_tr": "Bu hava berbat.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "suck|VERB",
+    "text_en": "The movie really sucked.",
+    "text_tr": "Film gerçekten berbattı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "suck|VERB",
+    "text_en": "It sucks to lose like that.",
+    "text_tr": "Böyle kaybetmek berbat.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "sweater|NOUN",
+    "text_en": "Wear a warm sweater.",
+    "text_tr": "Sıcak bir kazak giy.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "sweater|NOUN",
+    "text_en": "She knitted a blue sweater.",
+    "text_tr": "Mavi bir kazak ördü.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "sweater|NOUN",
+    "text_en": "This sweater is too small.",
+    "text_tr": "Bu kazak çok küçük.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "text|VERB",
+    "text_en": "Text me when you arrive.",
+    "text_tr": "Vardığında bana mesaj at.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "text|VERB",
+    "text_en": "She texted me the address.",
+    "text_tr": "Bana adresi mesaj attı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "text|VERB",
+    "text_en": "He texts his mom every day.",
+    "text_tr": "Her gün annesine mesaj atar.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "title|NOUN",
+    "text_en": "The team won the title.",
+    "text_tr": "Takım şampiyonluğu kazandı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "title|NOUN",
+    "text_en": "What's the title of the book?",
+    "text_tr": "Kitabın başlığı ne?",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "title|NOUN",
+    "text_en": "She earned the title of champion.",
+    "text_tr": "Şampiyon unvanını kazandı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "touristy|NOUN",
+    "text_en": "The area is too touristy for me.",
+    "text_tr": "Bölge bana göre fazla turistik.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "touristy|NOUN",
+    "text_en": "We avoided the touristy spots.",
+    "text_tr": "Turistik yerlerden kaçındık.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "touristy|NOUN",
+    "text_en": "It's a touristy but pretty town.",
+    "text_tr": "Turistik ama güzel bir kasaba.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "training|NOUN",
+    "text_en": "She is in training for a race.",
+    "text_tr": "Bir yarış için antrenman yapıyor.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "training|NOUN",
+    "text_en": "New staff get a week of training.",
+    "text_tr": "Yeni personel bir hafta eğitim alır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "training|NOUN",
+    "text_en": "The training was very useful.",
+    "text_tr": "Eğitim çok faydalıydı.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "transfer|NOUN",
+    "text_en": "The player's transfer cost millions.",
+    "text_tr": "Oyuncunun transferi milyonlara mal oldu.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "transfer|NOUN",
+    "text_en": "I made a bank transfer.",
+    "text_tr": "Banka havalesi yaptım.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "transfer|NOUN",
+    "text_en": "The transfer to the new office is done.",
+    "text_tr": "Yeni ofise geçiş tamamlandı.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "transform|VERB",
+    "text_en": "The app transformed how we work.",
+    "text_tr": "Uygulama çalışma şeklimizi dönüştürdü.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "transform|VERB",
+    "text_en": "Paint can transform a room.",
+    "text_tr": "Boya bir odayı dönüştürebilir.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "transform|VERB",
+    "text_en": "She transformed the old house.",
+    "text_tr": "Eski evi baştan aşağı dönüştürdü.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "underlie|VERB",
+    "text_en": "Trust underlies every good team.",
+    "text_tr": "Güven, her iyi takımın temelinde yatar.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "underlie|VERB",
+    "text_en": "Simple rules underlie the game.",
+    "text_tr": "Oyunun temelinde basit kurallar yatar.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "underlie|VERB",
+    "text_en": "Fear often underlies anger.",
+    "text_tr": "Öfkenin altında çoğu zaman korku yatar.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "upstate|ADJ",
+    "text_en": "They have an upstate cabin.",
+    "text_tr": "Eyaletin kuzeyinde bir kulübeleri var.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "upstate|ADJ",
+    "text_en": "She grew up in an upstate town.",
+    "text_tr": "Eyaletin iç kesimindeki bir kasabada büyüdü.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "upstate|ADJ",
+    "text_en": "We drove to the upstate lakes.",
+    "text_tr": "Eyaletin kuzeyindeki göllere gittik.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "validate|VERB",
+    "text_en": "Please validate your email.",
+    "text_tr": "Lütfen e-postanı doğrula.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "validate|VERB",
+    "text_en": "The test validates the results.",
+    "text_tr": "Test sonuçları doğrular.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "validate|VERB",
+    "text_en": "We need data to validate the idea.",
+    "text_tr": "Fikri doğrulamak için veriye ihtiyacımız var.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "valuable|ADJ",
+    "text_en": "Your time is valuable.",
+    "text_tr": "Zamanın değerli.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "valuable|ADJ",
+    "text_en": "She gave me valuable advice.",
+    "text_tr": "Bana değerli bir tavsiye verdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "valuable|ADJ",
+    "text_en": "The ring is very valuable.",
+    "text_tr": "Yüzük çok değerli.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "varied|ADJ",
+    "text_en": "The menu is varied.",
+    "text_tr": "Menü çeşitli.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "varied|ADJ",
+    "text_en": "She has varied interests.",
+    "text_tr": "Çeşitli ilgi alanları var.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "varied|ADJ",
+    "text_en": "The work is varied and fun.",
+    "text_tr": "İş çeşitli ve eğlenceli.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "virtually|ADV",
+    "text_en": "The room was virtually empty.",
+    "text_tr": "Oda neredeyse boştu.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "virtually|ADV",
+    "text_en": "It's virtually the same thing.",
+    "text_tr": "Neredeyse aynı şey.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "virtually|ADV",
+    "text_en": "We're virtually done.",
+    "text_tr": "Neredeyse bitirdik.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "weight|NOUN",
+    "text_en": "The bag's weight is too much.",
+    "text_tr": "Çantanın ağırlığı çok fazla.",
+    "cefr": "A2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "weight|NOUN",
+    "text_en": "He lifts weights at the gym.",
+    "text_tr": "Spor salonunda ağırlık kaldırır.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "weight|NOUN",
+    "text_en": "Watch the weight of your luggage.",
+    "text_tr": "Bagajının ağırlığına dikkat et.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "welcoming|ADJ",
+    "text_en": "The hosts were very welcoming.",
+    "text_tr": "Ev sahipleri çok sıcakkanlıydı.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "welcoming|ADJ",
+    "text_en": "It's a warm, welcoming cafe.",
+    "text_tr": "Sıcak, misafirperver bir kafe.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "welcoming|ADJ",
+    "text_en": "The town felt welcoming.",
+    "text_tr": "Kasaba misafirperver hissettirdi.",
+    "cefr": "B2"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "windfall|NOUN",
+    "text_en": "The bonus was a nice windfall.",
+    "text_tr": "İkramiye güzel bir beklenmedik gelirdi.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "windfall|NOUN",
+    "text_en": "They spent the windfall wisely.",
+    "text_tr": "Talih kuşunu akıllıca harcadılar.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "windfall|NOUN",
+    "text_en": "A tax windfall helped the budget.",
+    "text_tr": "Beklenmedik bir vergi geliri bütçeye yardım etti.",
+    "cefr": "C1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "worth|ADJ",
+    "text_en": "The trip was worth the money.",
+    "text_tr": "Gezi parasına değdi.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "worth|ADJ",
+    "text_en": "This book is worth reading.",
+    "text_tr": "Bu kitap okunmaya değer.",
+    "cefr": "B1"
+  },
+  {
+    "owner_type": "lexeme",
+    "owner_key": "worth|ADJ",
+    "text_en": "Is it worth the wait?",
+    "text_tr": "Beklemeye değer mi?",
+    "cefr": "B1"
+  }
+]

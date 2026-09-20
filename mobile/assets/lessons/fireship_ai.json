@@ -8,354 +8,3665 @@
     {
       "idx": 0,
       "start_ms": 0,
-      "end_ms": 5660,
-      "text_en": "Machine Learning, teach a computer how to perform a task without explicitly programming it to perform",
-      "text_tr": "",
+      "end_ms": 6260,
+      "text_en": "Machine Learning, teach a computer how to perform a task without explicitly programming it to perform said task.",
+      "text_tr": "Makine ogrenmesi: bir bilgisayara, o gorevi acikca programlamadan bir gorevi nasil yapacagini ogretmek.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "perform a task",
+          "text_tr": "bir gorevi yerine getirmek",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "perform a task"
+        },
+        {
+          "text_en": "said task",
+          "text_tr": "sozu edilen gorev, bahsi gecen gorev",
+          "type": "expression",
+          "cefr": "C1",
+          "norm_key": "said task"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "how to + [fiil]",
+          "note_tr": "Bir seyin nasil yapilacagini anlatir: 'how to perform' = nasil yapilacagi.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "without + [fiil]-ing",
+          "note_tr": "Bir eylemi yapmadan: 'without programming' = programlamadan.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "said",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 102,
+          "span_end": 106
+        }
+      ],
+      "vocab": [
+        {
+          "word": "perform",
+          "lemma": "perform",
+          "text_tr": "yapmak, yerine getirmek",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "task",
+          "lemma": "task",
+          "text_tr": "gorev, is",
+          "pos": "noun",
+          "cefr": "A2"
+        },
+        {
+          "word": "explicitly",
+          "lemma": "explicit",
+          "text_tr": "acikca, aciktan",
+          "pos": "adverb",
+          "cefr": "C1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "teach",
+          "lemma": "teach",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 1240,
+          "end_ms": 1320
+        },
+        {
+          "surface": "computer",
+          "lemma": "computer",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 1600,
+          "end_ms": 1900
+        },
+        {
+          "surface": "perform",
+          "lemma": "perform",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 2420,
+          "end_ms": 2780
+        },
+        {
+          "surface": "task",
+          "lemma": "task",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 2900,
+          "end_ms": 3120
+        },
+        {
+          "surface": "explicitly",
+          "lemma": "explicitly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 3540,
+          "end_ms": 4160
+        },
+        {
+          "surface": "programming",
+          "lemma": "program",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 4160,
+          "end_ms": 4800
+        },
+        {
+          "surface": "perform",
+          "lemma": "perform",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 5320,
+          "end_ms": 5660
+        },
+        {
+          "surface": "said",
+          "lemma": "say",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 5660,
+          "end_ms": 6040
+        },
+        {
+          "surface": "task",
+          "lemma": "task",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 6040,
+          "end_ms": 6260
+        }
+      ]
     },
     {
       "idx": 1,
-      "start_ms": 5660,
-      "end_ms": 11140,
-      "text_en": "said task. Instead, feed data into an algorithm to gradually improve outcomes with experience,",
-      "text_tr": "",
+      "start_ms": 6660,
+      "end_ms": 13320,
+      "text_en": "Instead, feed data into an algorithm to gradually improve outcomes with experience, similar to how organic life learns.",
+      "text_tr": "Bunun yerine, deneyimle sonuclari giderek iyilestirmek icin bir algoritmaya veri besle; tipki organik yasamin ogrendigi gibi.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "feed data into",
+          "text_tr": "veri beslemek, veri aktarmak",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "feed data into"
+        },
+        {
+          "text_en": "similar to",
+          "text_tr": "-e benzer sekilde",
+          "type": "connector",
+          "cefr": "B1",
+          "norm_key": "similar to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "to + [fiil] (amac)",
+          "note_tr": "Amac bildirir: 'to improve' = iyilestirmek icin.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "learns",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 112,
+          "span_end": 118
+        }
+      ],
+      "vocab": [
+        {
+          "word": "feed",
+          "lemma": "feed",
+          "text_tr": "beslemek, vermek",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "gradually",
+          "lemma": "gradual",
+          "text_tr": "giderek, yavas yavas",
+          "pos": "adverb",
+          "cefr": "B2"
+        },
+        {
+          "word": "improve",
+          "lemma": "improve",
+          "text_tr": "iyilestirmek, gelistirmek",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "outcomes",
+          "lemma": "outcome",
+          "text_tr": "sonuclar",
+          "pos": "noun",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "instead",
+          "lemma": "instead",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 6660,
+          "end_ms": 6920
+        },
+        {
+          "surface": "feed",
+          "lemma": "feed",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 7220,
+          "end_ms": 7440
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 7440,
+          "end_ms": 7760
+        },
+        {
+          "surface": "algorithm",
+          "lemma": "algorithm",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 8280,
+          "end_ms": 8600
+        },
+        {
+          "surface": "gradually",
+          "lemma": "gradually",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 9100,
+          "end_ms": 9400
+        },
+        {
+          "surface": "improve",
+          "lemma": "improve",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 9400,
+          "end_ms": 9900
+        },
+        {
+          "surface": "outcomes",
+          "lemma": "outcome",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 9900,
+          "end_ms": 10340
+        },
+        {
+          "surface": "experience",
+          "lemma": "experience",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 10680,
+          "end_ms": 11140
+        },
+        {
+          "surface": "similar",
+          "lemma": "similar",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 11420,
+          "end_ms": 11720
+        },
+        {
+          "surface": "organic",
+          "lemma": "organic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 12280,
+          "end_ms": 12640
+        },
+        {
+          "surface": "life",
+          "lemma": "life",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 12640,
+          "end_ms": 13060
+        },
+        {
+          "surface": "learns",
+          "lemma": "learn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 13060,
+          "end_ms": 13320
+        }
+      ]
     },
     {
       "idx": 2,
-      "start_ms": 11420,
-      "end_ms": 17060,
-      "text_en": "similar to how organic life learns. The term was coined in 1959 by Arthur Samuel at IBM,",
-      "text_tr": "",
+      "start_ms": 13640,
+      "end_ms": 20360,
+      "text_en": "The term was coined in 1959 by Arthur Samuel at IBM, who was developing artificial intelligence that could play checkers.",
+      "text_tr": "Terim, 1959'da IBM'de dama oynayabilen bir yapay zeka gelistiren Arthur Samuel tarafindan ortaya atildi.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "the term was coined",
+          "text_tr": "terim ortaya atildi, terim turetildi",
+          "type": "collocation",
+          "cefr": "C1",
+          "norm_key": "coin a term"
+        },
+        {
+          "text_en": "artificial intelligence",
+          "text_tr": "yapay zeka",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "artificial intelligence"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "was/were + [fiil]-3 (edilgen)",
+          "note_tr": "Edilgen cati: 'was coined' = ortaya atildi (kim yaptigi onemli degil).",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "who + [yuklem] (ilgi cumlesi)",
+          "note_tr": "Bir kisiyi tanimlar: 'who was developing' = gelistiren (kisi).",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "was coined",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 9,
+          "span_end": 19
+        },
+        {
+          "pattern": "was developing",
+          "note_tr": "Past Continuous",
+          "cefr": "A2",
+          "norm_pattern": "past_continuous_was_ving",
+          "span_start": 57,
+          "span_end": 71
+        },
+        {
+          "pattern": "could play",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 101,
+          "span_end": 111
+        },
+        {
+          "pattern": "who was developing artificial intelligence that could play checkers",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 53,
+          "span_end": 120
+        },
+        {
+          "pattern": "that could play checkers",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 96,
+          "span_end": 120
+        }
+      ],
+      "vocab": [
+        {
+          "word": "coined",
+          "lemma": "coin",
+          "text_tr": "(terim) turetmek, ortaya atmak",
+          "pos": "verb",
+          "cefr": "C1"
+        },
+        {
+          "word": "developing",
+          "lemma": "develop",
+          "text_tr": "gelistirmek",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "term",
+          "lemma": "term",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 13660,
+          "end_ms": 13920
+        },
+        {
+          "surface": "coined",
+          "lemma": "coin",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 14160,
+          "end_ms": 14360
+        },
+        {
+          "surface": "developing",
+          "lemma": "develop",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 17640,
+          "end_ms": 18100
+        },
+        {
+          "surface": "artificial",
+          "lemma": "artificial",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 18100,
+          "end_ms": 18400
+        },
+        {
+          "surface": "intelligence",
+          "lemma": "intelligence",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 18400,
+          "end_ms": 19220
+        },
+        {
+          "surface": "play",
+          "lemma": "play",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 19700,
+          "end_ms": 19900
+        },
+        {
+          "surface": "checkers",
+          "lemma": "checker",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 19900,
+          "end_ms": 20360
+        }
+      ]
     },
     {
       "idx": 3,
-      "start_ms": 17440,
-      "end_ms": 21440,
-      "text_en": "who was developing artificial intelligence that could play checkers. Half a century later,",
-      "text_tr": "",
+      "start_ms": 20560,
+      "end_ms": 26720,
+      "text_en": "Half a century later, and predictive models are embedded in many of the products we use every day, which perform two fundamental jobs.",
+      "text_tr": "Yarim yuzyil sonra, tahmine dayali modeller her gun kullandigimiz bircok urune gomulu durumda; bu modeller iki temel isi yapar.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "half a century later",
+          "text_tr": "yarim yuzyil sonra",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "half a century later"
+        },
+        {
+          "text_en": "embedded in",
+          "text_tr": "-e gomulu, -in icine yerlesik",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "embedded in"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "which + [yuklem] (ilgi cumlesi)",
+          "note_tr": "Bir seyi tanimlar: 'which perform' = yapan (seyler).",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "are embedded",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 44,
+          "span_end": 56
+        },
+        {
+          "pattern": "which perform two fundamental jobs",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 99,
+          "span_end": 133
+        },
+        {
+          "pattern": "use",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 84,
+          "span_end": 87
+        },
+        {
+          "pattern": "perform",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 105,
+          "span_end": 112
+        }
+      ],
+      "vocab": [
+        {
+          "word": "predictive",
+          "lemma": "predict",
+          "text_tr": "tahmine dayali, ongoren",
+          "pos": "adjective",
+          "cefr": "C1"
+        },
+        {
+          "word": "embedded",
+          "lemma": "embed",
+          "text_tr": "gomulu, yerlesik",
+          "pos": "adjective",
+          "cefr": "B2"
+        },
+        {
+          "word": "fundamental",
+          "lemma": "fundamental",
+          "text_tr": "temel, esas",
+          "pos": "adjective",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "century",
+          "lemma": "century",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 20780,
+          "end_ms": 21040
+        },
+        {
+          "surface": "later",
+          "lemma": "later",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 21040,
+          "end_ms": 21440
+        },
+        {
+          "surface": "predictive",
+          "lemma": "predictive",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 21720,
+          "end_ms": 21960
+        },
+        {
+          "surface": "models",
+          "lemma": "model",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 21960,
+          "end_ms": 22340
+        },
+        {
+          "surface": "embedded",
+          "lemma": "embed",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 22740,
+          "end_ms": 23000
+        },
+        {
+          "surface": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 23260,
+          "end_ms": 23420
+        },
+        {
+          "surface": "products",
+          "lemma": "product",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 23700,
+          "end_ms": 23980
+        },
+        {
+          "surface": "use",
+          "lemma": "use",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 24260,
+          "end_ms": 24400
+        },
+        {
+          "surface": "day",
+          "lemma": "day",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 24620,
+          "end_ms": 24880
+        },
+        {
+          "surface": "perform",
+          "lemma": "perform",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 25260,
+          "end_ms": 25500
+        },
+        {
+          "surface": "fundamental",
+          "lemma": "fundamental",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 25940,
+          "end_ms": 26320
+        },
+        {
+          "surface": "jobs",
+          "lemma": "job",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 26320,
+          "end_ms": 26720
+        }
+      ]
     },
     {
       "idx": 4,
-      "start_ms": 21640,
-      "end_ms": 25500,
-      "text_en": "and predictive models are embedded in many of the products we use every day, which perform",
-      "text_tr": "",
+      "start_ms": 27100,
+      "end_ms": 31540,
+      "text_en": "One is to classify data, like is there another car on the road, or does this patient have cancer?",
+      "text_tr": "Biri veriyi siniflandirmak: mesela yolda baska bir araba var mi, ya da bu hastada kanser var mi?",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "classify data",
+          "text_tr": "veriyi siniflandirmak",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "classify data"
+        },
+        {
+          "text_en": "like ...",
+          "text_tr": "mesela, gibi (ornek verirken)",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "like (for example)"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "One is ..., the other is ...",
+          "note_tr": "Iki seyi karsilastirir: 'biri ... digeri ...'.",
+          "cefr": "B1"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "classify",
+          "lemma": "classify",
+          "text_tr": "siniflandirmak",
+          "pos": "verb",
+          "cefr": "B2"
+        },
+        {
+          "word": "patient",
+          "lemma": "patient",
+          "text_tr": "hasta",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "classify",
+          "lemma": "classify",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 27420,
+          "end_ms": 27800
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 27800,
+          "end_ms": 28200
+        },
+        {
+          "surface": "car",
+          "lemma": "car",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 29320,
+          "end_ms": 29580
+        },
+        {
+          "surface": "road",
+          "lemma": "road",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 29820,
+          "end_ms": 30040
+        },
+        {
+          "surface": "patient",
+          "lemma": "patient",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 30860,
+          "end_ms": 31080
+        },
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 31080,
+          "end_ms": 31380
+        },
+        {
+          "surface": "cancer",
+          "lemma": "cancer",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 31380,
+          "end_ms": 31540
+        }
+      ]
     },
     {
       "idx": 5,
-      "start_ms": 25500,
-      "end_ms": 30040,
-      "text_en": "two fundamental jobs. One is to classify data, like is there another car on the road,",
-      "text_tr": "",
+      "start_ms": 32100,
+      "end_ms": 38400,
+      "text_en": "The other is to make predictions about future outcomes, like will the stock go up, or which YouTube video do you want to watch next?",
+      "text_tr": "Digeri gelecekteki sonuclar hakkinda tahmin yapmak: mesela hisse yukselecek mi, ya da sirada hangi YouTube videosunu izlemek istersin?",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "make predictions",
+          "text_tr": "tahmin yapmak",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "make a prediction"
+        },
+        {
+          "text_en": "go up",
+          "text_tr": "yukselmek, artmak",
+          "type": "phrasal_verb",
+          "cefr": "A2",
+          "norm_key": "go up"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "will + [fiil] (gelecek/tahmin)",
+          "note_tr": "Gelecek ya da tahmin: 'will the stock go up' = hisse yukselecek mi.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "will the stock go",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 61,
+          "span_end": 78
+        }
+      ],
+      "vocab": [
+        {
+          "word": "predictions",
+          "lemma": "prediction",
+          "text_tr": "tahminler",
+          "pos": "noun",
+          "cefr": "B2"
+        },
+        {
+          "word": "stock",
+          "lemma": "stock",
+          "text_tr": "hisse senedi; stok",
+          "pos": "noun",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "other",
+          "lemma": "other",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 32180,
+          "end_ms": 32380
+        },
+        {
+          "surface": "make",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 32900,
+          "end_ms": 33040
+        },
+        {
+          "surface": "predictions",
+          "lemma": "prediction",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 33040,
+          "end_ms": 33520
+        },
+        {
+          "surface": "future",
+          "lemma": "future",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 34040,
+          "end_ms": 34360
+        },
+        {
+          "surface": "outcomes",
+          "lemma": "outcome",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 34360,
+          "end_ms": 34720
+        },
+        {
+          "surface": "stock",
+          "lemma": "stock",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 35620,
+          "end_ms": 35840
+        },
+        {
+          "surface": "go",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 35840,
+          "end_ms": 36100
+        },
+        {
+          "surface": "up",
+          "lemma": "up",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 36100,
+          "end_ms": 36240
+        },
+        {
+          "surface": "youtube",
+          "lemma": "youtube",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 36780,
+          "end_ms": 37060
+        },
+        {
+          "surface": "video",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 37060,
+          "end_ms": 37420
+        },
+        {
+          "surface": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 37820,
+          "end_ms": 37940
+        },
+        {
+          "surface": "watch",
+          "lemma": "watch",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 38020,
+          "end_ms": 38200
+        },
+        {
+          "surface": "next",
+          "lemma": "next",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 38200,
+          "end_ms": 38400
+        }
+      ]
     },
     {
       "idx": 6,
-      "start_ms": 30340,
-      "end_ms": 34720,
-      "text_en": "or does this patient have cancer? The other is to make predictions about future outcomes,",
-      "text_tr": "",
+      "start_ms": 38740,
+      "end_ms": 43200,
+      "text_en": "The first step in the process is to acquire and clean up data, lots and lots of data.",
+      "text_tr": "Surecteki ilk adim veriyi toplamak ve temizlemek; hem de bol bol veri.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "clean up",
+          "text_tr": "temizlemek, duzenlemek",
+          "type": "phrasal_verb",
+          "cefr": "B1",
+          "norm_key": "clean up"
+        },
+        {
+          "text_en": "lots and lots of",
+          "text_tr": "bol bol, cok cok",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "lots and lots of"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "The first step is to + [fiil]",
+          "note_tr": "Sirali anlatimda ilk adimi verir: 'ilk adim ... yapmaktir'.",
+          "cefr": "B1"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "acquire",
+          "lemma": "acquire",
+          "text_tr": "elde etmek, edinmek",
+          "pos": "verb",
+          "cefr": "C1"
+        },
+        {
+          "word": "process",
+          "lemma": "process",
+          "text_tr": "surec, islem",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "first",
+          "lemma": "first",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 38800,
+          "end_ms": 38980
+        },
+        {
+          "surface": "step",
+          "lemma": "step",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 38980,
+          "end_ms": 39200
+        },
+        {
+          "surface": "process",
+          "lemma": "process",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 39400,
+          "end_ms": 39740
+        },
+        {
+          "surface": "acquire",
+          "lemma": "acquire",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 40260,
+          "end_ms": 40660
+        },
+        {
+          "surface": "clean",
+          "lemma": "clean",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 41080,
+          "end_ms": 41360
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 41600,
+          "end_ms": 41820
+        },
+        {
+          "surface": "lots",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 42140,
+          "end_ms": 42400
+        },
+        {
+          "surface": "lots",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 42640,
+          "end_ms": 42840
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 43040,
+          "end_ms": 43200
+        }
+      ]
     },
     {
       "idx": 7,
-      "start_ms": 34820,
-      "end_ms": 39400,
-      "text_en": "like will the stock go up, or which YouTube video do you want to watch next? The first step in the",
-      "text_tr": "",
+      "start_ms": 43520,
+      "end_ms": 47720,
+      "text_en": "The better the data represents the problem, the better the results, garbage in, garbage out.",
+      "text_tr": "Veri sorunu ne kadar iyi temsil ederse sonuclar da o kadar iyi olur; cop girerse cop cikar.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "garbage in, garbage out",
+          "text_tr": "cop girer cop cikar (kotu veri kotu sonuc)",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "garbage in garbage out"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "The + [karsilastirma], the + [karsilastirma]",
+          "note_tr": "Iki seyin birlikte artmasi: 'the better..., the better...' = ne kadar ... o kadar ...",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "represents",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 20,
+          "span_end": 30
+        }
+      ],
+      "vocab": [
+        {
+          "word": "represents",
+          "lemma": "represent",
+          "text_tr": "temsil etmek",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "garbage",
+          "lemma": "garbage",
+          "text_tr": "cop, ise yaramaz sey",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "better",
+          "lemma": "well",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 43560,
+          "end_ms": 43760
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 43920,
+          "end_ms": 44140
+        },
+        {
+          "surface": "represents",
+          "lemma": "represent",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 44140,
+          "end_ms": 44440
+        },
+        {
+          "surface": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 44740,
+          "end_ms": 45040
+        },
+        {
+          "surface": "better",
+          "lemma": "well",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 45420,
+          "end_ms": 45660
+        },
+        {
+          "surface": "results",
+          "lemma": "result",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 45800,
+          "end_ms": 46040
+        },
+        {
+          "surface": "garbage",
+          "lemma": "garbage",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 46520,
+          "end_ms": 46720
+        },
+        {
+          "surface": "garbage",
+          "lemma": "garbage",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 47260,
+          "end_ms": 47400
+        }
+      ]
     },
     {
       "idx": 8,
-      "start_ms": 39400,
-      "end_ms": 44740,
-      "text_en": "process is to acquire and clean up data, lots and lots of data. The better the data represents the",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "start_ms": 47940,
+      "end_ms": 59760,
+      "text_en": "The data needs to have some kind of signal to be valuable to the algorithm for making predictions, and data scientists perform a job called feature engineering to transform raw data into features that better represent the underlying problem.",
+      "text_tr": "Verinin, tahmin yaparken algoritmaya deger katmasi icin bir tur sinyal tasimasi gerekir; veri bilimcileri de ham veriyi, alttaki sorunu daha iyi temsil eden ozelliklere donusturmek icin oznitelik muhendisligi denen bir is yapar.",
+      "cefr": "C1",
+      "chunks": [
+        {
+          "text_en": "needs to have",
+          "text_tr": "sahip olmasi gerekir",
+          "type": "collocation",
+          "cefr": "A2",
+          "norm_key": "need to have"
+        },
+        {
+          "text_en": "some kind of",
+          "text_tr": "bir tur, bir cesit",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "some kind of"
+        },
+        {
+          "text_en": "transform into",
+          "text_tr": "-e donusturmek",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "transform into"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "[isim] called [ad]",
+          "note_tr": "Bir seye ad verir: 'a job called feature engineering' = ... denen bir is.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "that better represent the underlying problem",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 196,
+          "span_end": 240
+        },
+        {
+          "pattern": "needs",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 9,
+          "span_end": 14
+        },
+        {
+          "pattern": "perform",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 119,
+          "span_end": 126
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 23,
+          "span_end": 27
+        }
+      ],
+      "vocab": [
+        {
+          "word": "valuable",
+          "lemma": "valuable",
+          "text_tr": "degerli",
+          "pos": "adjective",
+          "cefr": "B1"
+        },
+        {
+          "word": "transform",
+          "lemma": "transform",
+          "text_tr": "donusturmek",
+          "pos": "verb",
+          "cefr": "B2"
+        },
+        {
+          "word": "raw",
+          "lemma": "raw",
+          "text_tr": "ham, islenmemis",
+          "pos": "adjective",
+          "cefr": "B2"
+        },
+        {
+          "word": "underlying",
+          "lemma": "underlie",
+          "text_tr": "alttaki, temeldeki",
+          "pos": "adjective",
+          "cefr": "C1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 48000,
+          "end_ms": 48220
+        },
+        {
+          "surface": "needs",
+          "lemma": "need",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 48220,
+          "end_ms": 48560
+        },
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 48740,
+          "end_ms": 48880
+        },
+        {
+          "surface": "kind",
+          "lemma": "kind",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 49060,
+          "end_ms": 49220
+        },
+        {
+          "surface": "signal",
+          "lemma": "signal",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 49320,
+          "end_ms": 49580
+        },
+        {
+          "surface": "valuable",
+          "lemma": "valuable",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 50040,
+          "end_ms": 50340
+        },
+        {
+          "surface": "making",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 51420,
+          "end_ms": 51620
+        },
+        {
+          "surface": "predictions",
+          "lemma": "prediction",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 51620,
+          "end_ms": 51960
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 52640,
+          "end_ms": 52820
+        },
+        {
+          "surface": "scientists",
+          "lemma": "scientist",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 52820,
+          "end_ms": 53240
+        },
+        {
+          "surface": "perform",
+          "lemma": "perform",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 53240,
+          "end_ms": 53720
+        },
+        {
+          "surface": "job",
+          "lemma": "job",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 53960,
+          "end_ms": 54200
+        },
+        {
+          "surface": "called",
+          "lemma": "call",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 54200,
+          "end_ms": 54500
+        },
+        {
+          "surface": "feature",
+          "lemma": "feature",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 54500,
+          "end_ms": 54720
+        },
+        {
+          "surface": "engineering",
+          "lemma": "engineer",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 54720,
+          "end_ms": 55060
+        },
+        {
+          "surface": "transform",
+          "lemma": "transform",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 55720,
+          "end_ms": 56240
+        },
+        {
+          "surface": "raw",
+          "lemma": "raw",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 56240,
+          "end_ms": 56440
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 56440,
+          "end_ms": 56720
+        },
+        {
+          "surface": "features",
+          "lemma": "feature",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 57080,
+          "end_ms": 57540
+        },
+        {
+          "surface": "better",
+          "lemma": "well",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 57940,
+          "end_ms": 58200
+        },
+        {
+          "surface": "represent",
+          "lemma": "represent",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 58200,
+          "end_ms": 58720
+        },
+        {
+          "surface": "underlying",
+          "lemma": "underlie",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 58960,
+          "end_ms": 59320
+        },
+        {
+          "surface": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 59320,
+          "end_ms": 59760
+        }
+      ]
     },
     {
       "idx": 9,
-      "start_ms": 44740,
-      "end_ms": 49580,
-      "text_en": "problem, the better the results, garbage in, garbage out. The data needs to have some kind of signal",
-      "text_tr": "",
+      "start_ms": 60220,
+      "end_ms": 64160,
+      "text_en": "The next step is to separate the data into a training set and testing set.",
+      "text_tr": "Sonraki adim veriyi bir egitim kumesi ile bir test kumesine ayirmak.",
       "cefr": "B2",
-      "chunks": [],
+      "chunks": [
+        {
+          "text_en": "the next step is to",
+          "text_tr": "sonraki adim ... yapmaktir",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "the next step is to"
+        },
+        {
+          "text_en": "separate into",
+          "text_tr": "-e ayirmak, bolmek",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "separate into"
+        }
+      ],
       "grammar": [],
-      "vocab": []
+      "vocab": [
+        {
+          "word": "separate",
+          "lemma": "separate",
+          "text_tr": "ayirmak",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "training",
+          "lemma": "train",
+          "text_tr": "egitim",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "next",
+          "lemma": "next",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 60280,
+          "end_ms": 60400
+        },
+        {
+          "surface": "step",
+          "lemma": "step",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 60400,
+          "end_ms": 60700
+        },
+        {
+          "surface": "separate",
+          "lemma": "separate",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 61140,
+          "end_ms": 61480
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 61700,
+          "end_ms": 61840
+        },
+        {
+          "surface": "training",
+          "lemma": "training",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 62480,
+          "end_ms": 62680
+        },
+        {
+          "surface": "set",
+          "lemma": "set",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 62680,
+          "end_ms": 63100
+        },
+        {
+          "surface": "testing",
+          "lemma": "testing",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 63420,
+          "end_ms": 63720
+        },
+        {
+          "surface": "set",
+          "lemma": "set",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 63720,
+          "end_ms": 64160
+        }
+      ]
     },
     {
       "idx": 10,
-      "start_ms": 49580,
-      "end_ms": 54200,
-      "text_en": "to be valuable to the algorithm for making predictions, and data scientists perform a job",
-      "text_tr": "",
+      "start_ms": 64440,
+      "end_ms": 71760,
+      "text_en": "The training data is fed into an algorithm to build a model, then the testing data is used to validate the accuracy or error of the model.",
+      "text_tr": "Egitim verisi bir model kurmak icin algoritmaya beslenir; ardindan test verisi modelin dogrulugunu ya da hatasini olcmek icin kullanilir.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "is fed into",
+          "text_tr": "-e beslenir (edilgen)",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "feed data into"
+        },
+        {
+          "text_en": "build a model",
+          "text_tr": "model kurmak, model olusturmak",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "build a model"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "is used to + [fiil]",
+          "note_tr": "Bir seyin amacini soyler: 'is used to validate' = dogrulamak icin kullanilir.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "is fed",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 18,
+          "span_end": 24
+        },
+        {
+          "pattern": "is used",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 83,
+          "span_end": 90
+        }
+      ],
+      "vocab": [
+        {
+          "word": "validate",
+          "lemma": "validate",
+          "text_tr": "dogrulamak, gecerligini olcmek",
+          "pos": "verb",
+          "cefr": "C1"
+        },
+        {
+          "word": "accuracy",
+          "lemma": "accuracy",
+          "text_tr": "dogruluk, isabet",
+          "pos": "noun",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "training",
+          "lemma": "training",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 64560,
+          "end_ms": 64780
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 64780,
+          "end_ms": 65060
+        },
+        {
+          "surface": "fed",
+          "lemma": "feed",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 65280,
+          "end_ms": 65459
+        },
+        {
+          "surface": "algorithm",
+          "lemma": "algorithm",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 65940,
+          "end_ms": 66240
+        },
+        {
+          "surface": "build",
+          "lemma": "build",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 66620,
+          "end_ms": 66820
+        },
+        {
+          "surface": "model",
+          "lemma": "model",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 66960,
+          "end_ms": 67220
+        },
+        {
+          "surface": "then",
+          "lemma": "then",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 67480,
+          "end_ms": 67680
+        },
+        {
+          "surface": "testing",
+          "lemma": "testing",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 67780,
+          "end_ms": 68000
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 68000,
+          "end_ms": 68340
+        },
+        {
+          "surface": "used",
+          "lemma": "use",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 68680,
+          "end_ms": 68940
+        },
+        {
+          "surface": "validate",
+          "lemma": "validate",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 69100,
+          "end_ms": 69420
+        },
+        {
+          "surface": "accuracy",
+          "lemma": "accuracy",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 69700,
+          "end_ms": 70200
+        },
+        {
+          "surface": "error",
+          "lemma": "error",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 70700,
+          "end_ms": 71000
+        },
+        {
+          "surface": "model",
+          "lemma": "model",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 71560,
+          "end_ms": 71760
+        }
+      ]
     },
     {
       "idx": 11,
-      "start_ms": 54200,
-      "end_ms": 58960,
-      "text_en": "called feature engineering to transform raw data into features that better represent the",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "start_ms": 72020,
+      "end_ms": 90960,
+      "text_en": "The next step is to choose an algorithm, which might be a simple statistical model like linear or logistic regression, or a decision tree that assigns different weights to features in the data, or you might get fancy with a convolutional neural network, which is an algorithm that also assigns weights to features, but also takes the input data and creates additional features automatically.",
+      "text_tr": "Sonraki adim bir algoritma secmek; bu, dogrusal ya da lojistik regresyon gibi basit bir istatistiksel model olabilir, verideki ozniteliklere farkli agirliklar veren bir karar agaci olabilir, ya da isi buyutup bir evrisimli sinir agi kullanabilirsin; o da yine ozniteliklere agirlik veren, ama ayrica girdi verisini alip otomatik olarak ek oznitelikler ureten bir algoritmadir.",
+      "cefr": "C1",
+      "chunks": [
+        {
+          "text_en": "get fancy",
+          "text_tr": "isi buyutmek, gosterisli/karmasik hale getirmek",
+          "type": "idiom",
+          "cefr": "C1",
+          "norm_key": "get fancy"
+        },
+        {
+          "text_en": "assign weights to",
+          "text_tr": "-e agirlik atamak/vermek",
+          "type": "collocation",
+          "cefr": "C1",
+          "norm_key": "assign weight to"
+        },
+        {
+          "text_en": "but also",
+          "text_tr": "ama ayrica, bununla birlikte",
+          "type": "connector",
+          "cefr": "B1",
+          "norm_key": "but also"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "might + [fiil] (olasilik)",
+          "note_tr": "Olasilik bildirir: 'might be' = olabilir.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "that/which + [yuklem] (ilgi cumlesi)",
+          "note_tr": "Bir seyi tanimlar: 'a tree that assigns' = atayan bir agac.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "might be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 47,
+          "span_end": 55
+        },
+        {
+          "pattern": "might get",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 201,
+          "span_end": 210
+        },
+        {
+          "pattern": "which might be a simple statistical model like linear or logistic regression, or a decision tree that assigns different weights to features in the data",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 41,
+          "span_end": 192
+        },
+        {
+          "pattern": "that assigns different weights to features in the data",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 138,
+          "span_end": 192
+        },
+        {
+          "pattern": "which is an algorithm that also assigns weights to features",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 254,
+          "span_end": 313
+        },
+        {
+          "pattern": "that also assigns weights to features",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 276,
+          "span_end": 313
+        },
+        {
+          "pattern": "assigns",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 143,
+          "span_end": 150
+        },
+        {
+          "pattern": "assigns",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 286,
+          "span_end": 293
+        },
+        {
+          "pattern": "takes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 324,
+          "span_end": 329
+        },
+        {
+          "pattern": "creates",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 349,
+          "span_end": 356
+        }
+      ],
+      "vocab": [
+        {
+          "word": "assigns",
+          "lemma": "assign",
+          "text_tr": "atamak, vermek",
+          "pos": "verb",
+          "cefr": "B2"
+        },
+        {
+          "word": "weights",
+          "lemma": "weight",
+          "text_tr": "agirliklar",
+          "pos": "noun",
+          "cefr": "A2"
+        },
+        {
+          "word": "additional",
+          "lemma": "additional",
+          "text_tr": "ek, ilave",
+          "pos": "adjective",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "next",
+          "lemma": "next",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 72100,
+          "end_ms": 72200
+        },
+        {
+          "surface": "step",
+          "lemma": "step",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 72200,
+          "end_ms": 72500
+        },
+        {
+          "surface": "choose",
+          "lemma": "choose",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 72880,
+          "end_ms": 73160
+        },
+        {
+          "surface": "algorithm",
+          "lemma": "algorithm",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 73280,
+          "end_ms": 73580
+        },
+        {
+          "surface": "simple",
+          "lemma": "simple",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 74560,
+          "end_ms": 74880
+        },
+        {
+          "surface": "statistical",
+          "lemma": "statistical",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 74880,
+          "end_ms": 75120
+        },
+        {
+          "surface": "model",
+          "lemma": "model",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 75120,
+          "end_ms": 75740
+        },
+        {
+          "surface": "linear",
+          "lemma": "linear",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 76080,
+          "end_ms": 76320
+        },
+        {
+          "surface": "logistic",
+          "lemma": "logistic",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 76780,
+          "end_ms": 77200
+        },
+        {
+          "surface": "regression",
+          "lemma": "regression",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 77200,
+          "end_ms": 77560
+        },
+        {
+          "surface": "decision",
+          "lemma": "decision",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 78220,
+          "end_ms": 78440
+        },
+        {
+          "surface": "tree",
+          "lemma": "tree",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 78440,
+          "end_ms": 78820
+        },
+        {
+          "surface": "assigns",
+          "lemma": "assign",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 79140,
+          "end_ms": 79320
+        },
+        {
+          "surface": "different",
+          "lemma": "different",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 79320,
+          "end_ms": 79780
+        },
+        {
+          "surface": "weights",
+          "lemma": "weight",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 79780,
+          "end_ms": 80100
+        },
+        {
+          "surface": "features",
+          "lemma": "feature",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 80360,
+          "end_ms": 80720
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 81020,
+          "end_ms": 81220
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 81940,
+          "end_ms": 82120
+        },
+        {
+          "surface": "fancy",
+          "lemma": "fancy",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 82120,
+          "end_ms": 82340
+        },
+        {
+          "surface": "convolutional",
+          "lemma": "convolutional",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 83040,
+          "end_ms": 83900
+        },
+        {
+          "surface": "neural",
+          "lemma": "neural",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 83900,
+          "end_ms": 84100
+        },
+        {
+          "surface": "network",
+          "lemma": "network",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 84100,
+          "end_ms": 84520
+        },
+        {
+          "surface": "algorithm",
+          "lemma": "algorithm",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 85000,
+          "end_ms": 85320
+        },
+        {
+          "surface": "also",
+          "lemma": "also",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 85840,
+          "end_ms": 86100
+        },
+        {
+          "surface": "assigns",
+          "lemma": "assign",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 86100,
+          "end_ms": 86520
+        },
+        {
+          "surface": "weights",
+          "lemma": "weight",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 86520,
+          "end_ms": 86780
+        },
+        {
+          "surface": "features",
+          "lemma": "feature",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 87000,
+          "end_ms": 87220
+        },
+        {
+          "surface": "also",
+          "lemma": "also",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 87880,
+          "end_ms": 88100
+        },
+        {
+          "surface": "takes",
+          "lemma": "take",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 88100,
+          "end_ms": 88540
+        },
+        {
+          "surface": "input",
+          "lemma": "input",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 88680,
+          "end_ms": 88920
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 88920,
+          "end_ms": 89120
+        },
+        {
+          "surface": "creates",
+          "lemma": "create",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 89560,
+          "end_ms": 89860
+        },
+        {
+          "surface": "additional",
+          "lemma": "additional",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 89860,
+          "end_ms": 90020
+        },
+        {
+          "surface": "features",
+          "lemma": "feature",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 90020,
+          "end_ms": 90640
+        },
+        {
+          "surface": "automatically",
+          "lemma": "automatically",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 90640,
+          "end_ms": 90960
+        }
+      ]
     },
     {
       "idx": 12,
-      "start_ms": 58960,
-      "end_ms": 64160,
-      "text_en": "underlying problem. The next step is to separate the data into a training set and testing set.",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "start_ms": 91700,
+      "end_ms": 98720,
+      "text_en": "And that's extremely useful for datasets that contain things like images or natural language, where manual feature engineering is virtually impossible.",
+      "text_tr": "Ve bu, gorseller ya da dogal dil gibi seyler iceren veri kumeleri icin son derece yararlidir; ki oralarda elle oznitelik muhendisligi neredeyse imkansizdir.",
+      "cefr": "C1",
+      "chunks": [
+        {
+          "text_en": "extremely useful",
+          "text_tr": "son derece yararli",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "extremely useful"
+        },
+        {
+          "text_en": "virtually impossible",
+          "text_tr": "neredeyse imkansiz",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "virtually impossible"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "that contain things like images or natural language, where manual feature engineering is virtually impossible",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 41,
+          "span_end": 150
+        },
+        {
+          "pattern": "where manual feature engineering is virtually impossible",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 94,
+          "span_end": 150
+        },
+        {
+          "pattern": "contain",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 46,
+          "span_end": 53
+        }
+      ],
+      "vocab": [
+        {
+          "word": "contain",
+          "lemma": "contain",
+          "text_tr": "icermek",
+          "pos": "verb",
+          "cefr": "B1"
+        },
+        {
+          "word": "virtually",
+          "lemma": "virtual",
+          "text_tr": "neredeyse, adeta",
+          "pos": "adverb",
+          "cefr": "C1"
+        },
+        {
+          "word": "manual",
+          "lemma": "manual",
+          "text_tr": "elle yapilan, el ile",
+          "pos": "adjective",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "extremely",
+          "lemma": "extremely",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 91700,
+          "end_ms": 98720
+        },
+        {
+          "surface": "useful",
+          "lemma": "useful",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 91700,
+          "end_ms": 98720
+        },
+        {
+          "surface": "datasets",
+          "lemma": "dataset",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 91700,
+          "end_ms": 98720
+        },
+        {
+          "surface": "contain",
+          "lemma": "contain",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 93840,
+          "end_ms": 94000
+        },
+        {
+          "surface": "things",
+          "lemma": "thing",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 94000,
+          "end_ms": 94460
+        },
+        {
+          "surface": "images",
+          "lemma": "image",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 94640,
+          "end_ms": 94980
+        },
+        {
+          "surface": "natural",
+          "lemma": "natural",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 95420,
+          "end_ms": 95680
+        },
+        {
+          "surface": "language",
+          "lemma": "language",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 95680,
+          "end_ms": 96120
+        },
+        {
+          "surface": "manual",
+          "lemma": "manual",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 96560,
+          "end_ms": 96900
+        },
+        {
+          "surface": "feature",
+          "lemma": "feature",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 96900,
+          "end_ms": 97240
+        },
+        {
+          "surface": "engineering",
+          "lemma": "engineering",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 97240,
+          "end_ms": 97580
+        },
+        {
+          "surface": "virtually",
+          "lemma": "virtually",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 98080,
+          "end_ms": 98380
+        },
+        {
+          "surface": "impossible",
+          "lemma": "impossible",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 98380,
+          "end_ms": 98720
+        }
+      ]
     },
     {
       "idx": 13,
-      "start_ms": 64440,
-      "end_ms": 69100,
-      "text_en": "The training data is fed into an algorithm to build a model, then the testing data is used to",
-      "text_tr": "",
+      "start_ms": 99300,
+      "end_ms": 103820,
+      "text_en": "Every one of these algorithms learns to get better by comparing its predictions to an error function.",
+      "text_tr": "Bu algoritmalarin her biri, tahminlerini bir hata fonksiyonuyla karsilastirarak daha iyi olmayi ogrenir.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "get better",
+          "text_tr": "daha iyi olmak, gelismek",
+          "type": "collocation",
+          "cefr": "A2",
+          "norm_key": "get better"
+        },
+        {
+          "text_en": "compare to",
+          "text_tr": "-e/ile karsilastirmak",
+          "type": "collocation",
+          "cefr": "B1",
+          "norm_key": "compare to"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "by + [fiil]-ing (yontem)",
+          "note_tr": "Bir seyin nasil yapildigini soyler: 'by comparing' = karsilastirarak.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "learns",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 30,
+          "span_end": 36
+        }
+      ],
+      "vocab": [
+        {
+          "word": "comparing",
+          "lemma": "compare",
+          "text_tr": "karsilastirmak",
+          "pos": "verb",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "algorithms",
+          "lemma": "algorithm",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 99800,
+          "end_ms": 100140
+        },
+        {
+          "surface": "learns",
+          "lemma": "learn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 100140,
+          "end_ms": 100640
+        },
+        {
+          "surface": "get",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 100860,
+          "end_ms": 100960
+        },
+        {
+          "surface": "better",
+          "lemma": "well",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 100960,
+          "end_ms": 101260
+        },
+        {
+          "surface": "comparing",
+          "lemma": "compare",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 101680,
+          "end_ms": 102160
+        },
+        {
+          "surface": "predictions",
+          "lemma": "prediction",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 102320,
+          "end_ms": 102620
+        },
+        {
+          "surface": "error",
+          "lemma": "error",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 103300,
+          "end_ms": 103500
+        },
+        {
+          "surface": "function",
+          "lemma": "function",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 103500,
+          "end_ms": 103820
+        }
+      ]
     },
     {
       "idx": 14,
-      "start_ms": 69100,
-      "end_ms": 74220,
-      "text_en": "validate the accuracy or error of the model. The next step is to choose an algorithm, which might",
-      "text_tr": "",
+      "start_ms": 104220,
+      "end_ms": 109680,
+      "text_en": "If it's a classification problem, like is this animal a cat or a dog, the error function might be accuracy.",
+      "text_tr": "Eger bir siniflandirma problemiyse, mesela bu hayvan kedi mi kopek mi, hata fonksiyonu dogruluk olabilir.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "if it's ...",
+          "text_tr": "eger ... ise",
+          "type": "connector",
+          "cefr": "A2",
+          "norm_key": "if it is"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "If + [durum], [sonuc] (1. tip kosul)",
+          "note_tr": "Gercek/olasi durum: 'if it's a problem, it might be...' = ise, olabilir.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "might be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 89,
+          "span_end": 97
+        },
+        {
+          "pattern": "If it's a classification problem",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 0,
+          "span_end": 32
+        }
+      ],
+      "vocab": [
+        {
+          "word": "classification",
+          "lemma": "classify",
+          "text_tr": "siniflandirma",
+          "pos": "noun",
+          "cefr": "B2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "classification",
+          "lemma": "classification",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 104560,
+          "end_ms": 104880
+        },
+        {
+          "surface": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 104880,
+          "end_ms": 105520
+        },
+        {
+          "surface": "animal",
+          "lemma": "animal",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 106400,
+          "end_ms": 106640
+        },
+        {
+          "surface": "cat",
+          "lemma": "cat",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 107000,
+          "end_ms": 107220
+        },
+        {
+          "surface": "dog",
+          "lemma": "dog",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 107640,
+          "end_ms": 107920
+        },
+        {
+          "surface": "error",
+          "lemma": "error",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 108220,
+          "end_ms": 108460
+        },
+        {
+          "surface": "function",
+          "lemma": "function",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 108460,
+          "end_ms": 108820
+        },
+        {
+          "surface": "accuracy",
+          "lemma": "accuracy",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 109300,
+          "end_ms": 109680
+        }
+      ]
     },
     {
       "idx": 15,
-      "start_ms": 74220,
-      "end_ms": 79140,
-      "text_en": "be a simple statistical model like linear or logistic regression, or a decision tree that",
-      "text_tr": "",
+      "start_ms": 110180,
+      "end_ms": 115820,
+      "text_en": "If it's a regression problem, like how much will a loaf of bread costs next year, then it might be mean absolute error.",
+      "text_tr": "Eger bir regresyon problemiyse, mesela gelecek yil bir somun ekmek ne kadar tutacak, o zaman ortalama mutlak hata olabilir.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "how much will ... cost",
+          "text_tr": "... ne kadar tutar/eder",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "how much does it cost"
+        },
+        {
+          "text_en": "a loaf of bread",
+          "text_tr": "bir somun ekmek",
+          "type": "collocation",
+          "cefr": "A2",
+          "norm_key": "a loaf of bread"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "If ..., then ...",
+          "note_tr": "Kosul ve sonucu baglar: 'if..., then it might be' = ise, o zaman ... olabilir.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "might be",
+          "note_tr": "Could / Would / Should + V1",
+          "cefr": "A2",
+          "norm_pattern": "modal_v1",
+          "span_start": 90,
+          "span_end": 98
+        }
+      ],
+      "vocab": [
+        {
+          "word": "loaf",
+          "lemma": "loaf",
+          "text_tr": "somun",
+          "pos": "noun",
+          "cefr": "B1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "regression",
+          "lemma": "regression",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 110180,
+          "end_ms": 115820
+        },
+        {
+          "surface": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 110180,
+          "end_ms": 115820
+        },
+        {
+          "surface": "much",
+          "lemma": "much",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 110180,
+          "end_ms": 115820
+        },
+        {
+          "surface": "loaf",
+          "lemma": "loaf",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 110180,
+          "end_ms": 115820
+        },
+        {
+          "surface": "bread",
+          "lemma": "bread",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 110180,
+          "end_ms": 115820
+        },
+        {
+          "surface": "costs",
+          "lemma": "cost",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 110180,
+          "end_ms": 115820
+        },
+        {
+          "surface": "next",
+          "lemma": "next",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 110180,
+          "end_ms": 115820
+        },
+        {
+          "surface": "year",
+          "lemma": "year",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 110180,
+          "end_ms": 115820
+        },
+        {
+          "surface": "then",
+          "lemma": "then",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 110180,
+          "end_ms": 115820
+        },
+        {
+          "surface": "mean",
+          "lemma": "mean",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 114660,
+          "end_ms": 115000
+        },
+        {
+          "surface": "absolute",
+          "lemma": "absolute",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 115000,
+          "end_ms": 115360
+        },
+        {
+          "surface": "error",
+          "lemma": "error",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 115360,
+          "end_ms": 115820
+        }
+      ]
     },
     {
       "idx": 16,
-      "start_ms": 79140,
-      "end_ms": 84100,
-      "text_en": "assigns different weights to features in the data, or you might get fancy with a convolutional neural",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "start_ms": 116220,
+      "end_ms": 125280,
+      "text_en": "Python is the language of choice among data scientists, but R and Julia are also popular options, and there are many supporting frameworks out there to make the process approachable.",
+      "text_tr": "Python, veri bilimcileri arasinda tercih edilen dildir; ama R ve Julia da populer secenekler ve sureci ulasilabilir kilmak icin ortalikta bircok destekleyici cerceve var.",
+      "cefr": "C1",
+      "chunks": [
+        {
+          "text_en": "the language of choice",
+          "text_tr": "tercih edilen dil",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "the X of choice"
+        },
+        {
+          "text_en": "out there",
+          "text_tr": "ortalikta, piyasada, dunyada",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "out there"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "there are + [cogul isim]",
+          "note_tr": "Bir seyin varligini soyler: 'there are many frameworks' = bircok cerceve var.",
+          "cefr": "A1"
+        },
+        {
+          "pattern": "are",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 108,
+          "span_end": 111
+        },
+        {
+          "pattern": "many",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 112,
+          "span_end": 116
+        }
+      ],
+      "vocab": [
+        {
+          "word": "options",
+          "lemma": "option",
+          "text_tr": "secenekler",
+          "pos": "noun",
+          "cefr": "A2"
+        },
+        {
+          "word": "approachable",
+          "lemma": "approach",
+          "text_tr": "ulasilabilir, anlasilir/erisilebilir",
+          "pos": "adjective",
+          "cefr": "C1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "language",
+          "lemma": "language",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 117000,
+          "end_ms": 117220
+        },
+        {
+          "surface": "choice",
+          "lemma": "choice",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 117360,
+          "end_ms": 117500
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 117860,
+          "end_ms": 118060
+        },
+        {
+          "surface": "scientists",
+          "lemma": "scientist",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 118060,
+          "end_ms": 118440
+        },
+        {
+          "surface": "also",
+          "lemma": "also",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 120560,
+          "end_ms": 120800
+        },
+        {
+          "surface": "popular",
+          "lemma": "popular",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 120800,
+          "end_ms": 121240
+        },
+        {
+          "surface": "options",
+          "lemma": "option",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 121240,
+          "end_ms": 121620
+        },
+        {
+          "surface": "are",
+          "lemma": "be",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 122200,
+          "end_ms": 122280
+        },
+        {
+          "surface": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 122280,
+          "end_ms": 122420
+        },
+        {
+          "surface": "supporting",
+          "lemma": "support",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 122420,
+          "end_ms": 122820
+        },
+        {
+          "surface": "frameworks",
+          "lemma": "framework",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 122820,
+          "end_ms": 123240
+        },
+        {
+          "surface": "out",
+          "lemma": "out",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 123240,
+          "end_ms": 123560
+        },
+        {
+          "surface": "there",
+          "lemma": "there",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 123560,
+          "end_ms": 123760
+        },
+        {
+          "surface": "make",
+          "lemma": "make",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 124020,
+          "end_ms": 124240
+        },
+        {
+          "surface": "process",
+          "lemma": "process",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 124380,
+          "end_ms": 124640
+        },
+        {
+          "surface": "approachable",
+          "lemma": "approachable",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 124640,
+          "end_ms": 125280
+        }
+      ]
     },
     {
       "idx": 17,
-      "start_ms": 84100,
-      "end_ms": 89120,
-      "text_en": "network, which is an algorithm that also assigns weights to features, but also takes the input data",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "start_ms": 125580,
+      "end_ms": 136880,
+      "text_en": "The end result of the machine learning process is a model, which is just a file that takes some input data in the same shape that it was trained on, then spits out a prediction that tries to minimize the error that it was optimized for.",
+      "text_tr": "Makine ogrenmesi surecinin nihai sonucu bir modeldir; bu, egitildigi bicimde bir miktar girdi verisi alan, sonra optimize edildigi hatayi en aza indirmeye calisan bir tahmini disari veren bir dosyadir.",
+      "cefr": "C1",
+      "chunks": [
+        {
+          "text_en": "the end result",
+          "text_tr": "nihai sonuc, en son sonuc",
+          "type": "expression",
+          "cefr": "B2",
+          "norm_key": "the end result"
+        },
+        {
+          "text_en": "input data",
+          "text_tr": "girdi verisi",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "input data"
+        },
+        {
+          "text_en": "spits out",
+          "text_tr": "disari verir, tukurur (uretir)",
+          "type": "phrasal_verb",
+          "cefr": "C1",
+          "norm_key": "spit out"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "that + [yuklem] (ilgi cumlesi)",
+          "note_tr": "Bir seyi tanimlar: 'a file that takes' = alan bir dosya.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "was trained",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 133,
+          "span_end": 144
+        },
+        {
+          "pattern": "was optimized",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 218,
+          "span_end": 231
+        },
+        {
+          "pattern": "which is just a file that takes some input data in the same shape that it was trained on",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 59,
+          "span_end": 147
+        },
+        {
+          "pattern": "that takes some input data in the same shape that it was trained on",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 80,
+          "span_end": 147
+        },
+        {
+          "pattern": "that it was trained on",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 125,
+          "span_end": 147
+        },
+        {
+          "pattern": "that tries to minimize the error that it was optimized for",
+          "note_tr": "Relative Clause",
+          "cefr": "B1",
+          "norm_pattern": "relative_clause",
+          "span_start": 177,
+          "span_end": 235
+        },
+        {
+          "pattern": "takes",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 85,
+          "span_end": 90
+        },
+        {
+          "pattern": "spits",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 154,
+          "span_end": 159
+        },
+        {
+          "pattern": "tries",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 182,
+          "span_end": 187
+        },
+        {
+          "pattern": "some",
+          "note_tr": "Quantifiers",
+          "cefr": "A2",
+          "norm_pattern": "quantifier",
+          "span_start": 91,
+          "span_end": 95
+        }
+      ],
+      "vocab": [
+        {
+          "word": "minimize",
+          "lemma": "minimize",
+          "text_tr": "en aza indirmek",
+          "pos": "verb",
+          "cefr": "B2"
+        },
+        {
+          "word": "optimized",
+          "lemma": "optimize",
+          "text_tr": "en iyilenmis, optimize edilmis",
+          "pos": "verb",
+          "cefr": "C1"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "end",
+          "lemma": "end",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 125660,
+          "end_ms": 125840
+        },
+        {
+          "surface": "result",
+          "lemma": "result",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 125840,
+          "end_ms": 126060
+        },
+        {
+          "surface": "machine",
+          "lemma": "machine",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 126420,
+          "end_ms": 126600
+        },
+        {
+          "surface": "learning",
+          "lemma": "learning",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 126600,
+          "end_ms": 126840
+        },
+        {
+          "surface": "process",
+          "lemma": "process",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 126840,
+          "end_ms": 127260
+        },
+        {
+          "surface": "model",
+          "lemma": "model",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 127760,
+          "end_ms": 128020
+        },
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 128620,
+          "end_ms": 128880
+        },
+        {
+          "surface": "file",
+          "lemma": "file",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 128979,
+          "end_ms": 129300
+        },
+        {
+          "surface": "takes",
+          "lemma": "take",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 129699,
+          "end_ms": 129900
+        },
+        {
+          "surface": "input",
+          "lemma": "input",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 130120,
+          "end_ms": 130500
+        },
+        {
+          "surface": "data",
+          "lemma": "data",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 130500,
+          "end_ms": 130720
+        },
+        {
+          "surface": "same",
+          "lemma": "same",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 131240,
+          "end_ms": 131400
+        },
+        {
+          "surface": "shape",
+          "lemma": "shape",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 131400,
+          "end_ms": 131760
+        },
+        {
+          "surface": "trained",
+          "lemma": "train",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 132100,
+          "end_ms": 132300
+        },
+        {
+          "surface": "then",
+          "lemma": "then",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 132780,
+          "end_ms": 133020
+        },
+        {
+          "surface": "spits",
+          "lemma": "spit",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 133020,
+          "end_ms": 133300
+        },
+        {
+          "surface": "prediction",
+          "lemma": "prediction",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 133480,
+          "end_ms": 133740
+        },
+        {
+          "surface": "tries",
+          "lemma": "try",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 134300,
+          "end_ms": 134560
+        },
+        {
+          "surface": "minimize",
+          "lemma": "minimize",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 134740,
+          "end_ms": 134980
+        },
+        {
+          "surface": "error",
+          "lemma": "error",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 135340,
+          "end_ms": 135620
+        },
+        {
+          "surface": "optimized",
+          "lemma": "optimize",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 136120,
+          "end_ms": 136440
+        }
+      ]
     },
     {
       "idx": 18,
-      "start_ms": 89120,
-      "end_ms": 93840,
-      "text_en": "and creates additional features automatically. And that's extremely useful for datasets that",
-      "text_tr": "",
+      "start_ms": 137060,
+      "end_ms": 141900,
+      "text_en": "It can then be embedded on an actual device or deployed to the cloud to build a real -world product.",
+      "text_tr": "Ardindan gercek bir cihaza gomulebilir ya da gercek dunyada bir urun olusturmak icin buluta konuslandirilabilir.",
       "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "chunks": [
+        {
+          "text_en": "deployed to the cloud",
+          "text_tr": "buluta konuslandirilmak/yuklenmek",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "deploy to the cloud"
+        },
+        {
+          "text_en": "real-world",
+          "text_tr": "gercek dunya (ki), pratikteki",
+          "type": "collocation",
+          "cefr": "B2",
+          "norm_key": "real-world"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "can be + [fiil]-3 (edilgen yeterlik)",
+          "note_tr": "Yapilabilirligi soyler: 'can be embedded' = gomulebilir.",
+          "cefr": "B1"
+        },
+        {
+          "pattern": "can then be embedded",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 3,
+          "span_end": 23
+        },
+        {
+          "pattern": "deployed",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 47,
+          "span_end": 55
+        }
+      ],
+      "vocab": [
+        {
+          "word": "deployed",
+          "lemma": "deploy",
+          "text_tr": "konuslandirmak, devreye almak",
+          "pos": "verb",
+          "cefr": "C1"
+        },
+        {
+          "word": "device",
+          "lemma": "device",
+          "text_tr": "cihaz, aygit",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "then",
+          "lemma": "then",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 137260,
+          "end_ms": 137420
+        },
+        {
+          "surface": "embedded",
+          "lemma": "embed",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 137540,
+          "end_ms": 137880
+        },
+        {
+          "surface": "actual",
+          "lemma": "actual",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 138240,
+          "end_ms": 138520
+        },
+        {
+          "surface": "device",
+          "lemma": "device",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 138520,
+          "end_ms": 138880
+        },
+        {
+          "surface": "deployed",
+          "lemma": "deploy",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 139300,
+          "end_ms": 139460
+        },
+        {
+          "surface": "cloud",
+          "lemma": "cloud",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 139920,
+          "end_ms": 140120
+        },
+        {
+          "surface": "build",
+          "lemma": "build",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 140520,
+          "end_ms": 140800
+        },
+        {
+          "surface": "real",
+          "lemma": "real",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 141040,
+          "end_ms": 141240
+        },
+        {
+          "surface": "product",
+          "lemma": "product",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 141520,
+          "end_ms": 141900
+        }
+      ]
     },
     {
       "idx": 19,
-      "start_ms": 93840,
-      "end_ms": 98380,
-      "text_en": "contain things like images or natural language, where manual feature engineering is virtually",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "start_ms": 142260,
+      "end_ms": 144260,
+      "text_en": "This has been machine learning in 100 seconds.",
+      "text_tr": "Iste 100 saniyede makine ogrenmesi buydu.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "this has been",
+          "text_tr": "iste bu ... idi (kapanis kalibi)",
+          "type": "expression",
+          "cefr": "B1",
+          "norm_key": "this has been"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "have/has been (yakin gecmis)",
+          "note_tr": "Yeni biten bir seyi ozetler: 'this has been' = iste bu ... oldu/buydu.",
+          "cefr": "B2"
+        },
+        {
+          "pattern": "has been",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 5,
+          "span_end": 13
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "machine",
+          "lemma": "machine",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 142580,
+          "end_ms": 142800
+        },
+        {
+          "surface": "learning",
+          "lemma": "learning",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 142800,
+          "end_ms": 143160
+        },
+        {
+          "surface": "seconds",
+          "lemma": "second",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 143780,
+          "end_ms": 144260
+        }
+      ]
     },
     {
       "idx": 20,
-      "start_ms": 98380,
-      "end_ms": 103180,
-      "text_en": "impossible. Every one of these algorithms learns to get better by comparing its predictions to",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "start_ms": 144680,
+      "end_ms": 150420,
+      "text_en": "Like and subscribe if you want to see more short videos like this, and leave a comment if you want to see more machine learning content on this channel.",
+      "text_tr": "Boyle daha fazla kisa video gormek istiyorsan begen ve abone ol; bu kanalda daha fazla makine ogrenmesi icerigi istiyorsan da yorum birak.",
+      "cefr": "B1",
+      "chunks": [
+        {
+          "text_en": "leave a comment",
+          "text_tr": "yorum birakmak",
+          "type": "collocation",
+          "cefr": "A2",
+          "norm_key": "leave a comment"
+        },
+        {
+          "text_en": "like and subscribe",
+          "text_tr": "begen ve abone ol",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "like and subscribe"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "[emir], if you want to + [fiil]",
+          "note_tr": "Kosullu rica/oneri: 'leave a comment if you want to...' = ... istiyorsan yorum birak.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "if you want to see more short videos like this",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 19,
+          "span_end": 65
+        },
+        {
+          "pattern": "if you want to see more machine learning content on this channel",
+          "note_tr": "If Clause Type 0 (General Truth)",
+          "cefr": "A2",
+          "norm_pattern": "if_type0",
+          "span_start": 87,
+          "span_end": 151
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 26,
+          "span_end": 30
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 94,
+          "span_end": 98
+        }
+      ],
+      "vocab": [
+        {
+          "word": "subscribe",
+          "lemma": "subscribe",
+          "text_tr": "abone olmak",
+          "pos": "verb",
+          "cefr": "A2"
+        },
+        {
+          "word": "comment",
+          "lemma": "comment",
+          "text_tr": "yorum",
+          "pos": "noun",
+          "cefr": "A2"
+        }
+      ],
+      "occurrences": [
+        {
+          "surface": "subscribe",
+          "lemma": "subscribe",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 144860,
+          "end_ms": 145120
+        },
+        {
+          "surface": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 145600,
+          "end_ms": 145720
+        },
+        {
+          "surface": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 145800,
+          "end_ms": 145920
+        },
+        {
+          "surface": "more",
+          "lemma": "more",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 145920,
+          "end_ms": 146100
+        },
+        {
+          "surface": "short",
+          "lemma": "short",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 146100,
+          "end_ms": 146260
+        },
+        {
+          "surface": "videos",
+          "lemma": "video",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 146260,
+          "end_ms": 146560
+        },
+        {
+          "surface": "leave",
+          "lemma": "leave",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 147460,
+          "end_ms": 147620
+        },
+        {
+          "surface": "comment",
+          "lemma": "comment",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 147720,
+          "end_ms": 148000
+        },
+        {
+          "surface": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 148360,
+          "end_ms": 148440
+        },
+        {
+          "surface": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 148520,
+          "end_ms": 148660
+        },
+        {
+          "surface": "more",
+          "lemma": "more",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 148660,
+          "end_ms": 148840
+        },
+        {
+          "surface": "machine",
+          "lemma": "machine",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 148840,
+          "end_ms": 149100
+        },
+        {
+          "surface": "learning",
+          "lemma": "learn",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 149100,
+          "end_ms": 149360
+        },
+        {
+          "surface": "content",
+          "lemma": "content",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 149360,
+          "end_ms": 149620
+        },
+        {
+          "surface": "channel",
+          "lemma": "channel",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 150160,
+          "end_ms": 150420
+        }
+      ]
     },
     {
       "idx": 21,
-      "start_ms": 103180,
-      "end_ms": 107920,
-      "text_en": "an error function. If it's a classification problem, like is this animal a cat or a dog,",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 22,
-      "start_ms": 108160,
-      "end_ms": 112420,
-      "text_en": "the error function might be accuracy. If it's a regression problem, like how much will a",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 23,
-      "start_ms": 112420,
-      "end_ms": 117500,
-      "text_en": "loaf of bread costs next year, then it might be mean absolute error. Python is the language of choice",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 24,
-      "start_ms": 117500,
-      "end_ms": 122820,
-      "text_en": "among data scientists, but R and Julia are also popular options, and there are many supporting",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 25,
-      "start_ms": 122820,
-      "end_ms": 127260,
-      "text_en": "frameworks out there to make the process approachable. The end result of the machine learning process",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 26,
-      "start_ms": 127260,
-      "end_ms": 132300,
-      "text_en": "is a model, which is just a file that takes some input data in the same shape that it was trained",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 27,
-      "start_ms": 132300,
-      "end_ms": 136880,
-      "text_en": "on, then spits out a prediction that tries to minimize the error that it was optimized for.",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 28,
-      "start_ms": 137060,
-      "end_ms": 141520,
-      "text_en": "It can then be embedded on an actual device or deployed to the cloud to build a real-world",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 29,
-      "start_ms": 141520,
-      "end_ms": 145800,
-      "text_en": "product. This has been machine learning in 100 seconds. Like and subscribe if you want to",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 30,
-      "start_ms": 145800,
-      "end_ms": 149360,
-      "text_en": "see more short videos like this, and leave a comment if you want to see more machine learning",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
-    },
-    {
-      "idx": 31,
-      "start_ms": 149360,
+      "start_ms": 150660,
       "end_ms": 153040,
-      "text_en": "content on this channel. Thanks for watching, and I will see you in the next one.",
-      "text_tr": "",
-      "cefr": "B2",
-      "chunks": [],
-      "grammar": [],
-      "vocab": []
+      "text_en": "Thanks for watching, and I will see you in the next one.",
+      "text_tr": "Izlediginiz icin tesekkurler, bir sonrakinde gorusuruz.",
+      "cefr": "A2",
+      "chunks": [
+        {
+          "text_en": "thanks for watching",
+          "text_tr": "izlediginiz icin tesekkurler",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "thanks for watching"
+        },
+        {
+          "text_en": "see you in the next one",
+          "text_tr": "bir sonrakinde gorusuruz",
+          "type": "expression",
+          "cefr": "A2",
+          "norm_key": "see you in the next one"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "thanks for + [fiil]-ing",
+          "note_tr": "Bir sey icin tesekkur: 'thanks for watching' = izledigin icin tesekkurler.",
+          "cefr": "A2"
+        },
+        {
+          "pattern": "will see",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 27,
+          "span_end": 35
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "thanks",
+          "lemma": "thank",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 150660,
+          "end_ms": 150760
+        },
+        {
+          "surface": "watching",
+          "lemma": "watch",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 150920,
+          "end_ms": 151240
+        },
+        {
+          "surface": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 151980,
+          "end_ms": 152200
+        },
+        {
+          "surface": "next",
+          "lemma": "next",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 152620,
+          "end_ms": 152780
+        }
+      ]
     }
   ]
 }

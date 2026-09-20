@@ -2,207 +2,289 @@
   {
     "w": "Machine",
     "start_ms": 0,
-    "end_ms": 420
+    "end_ms": 420,
+    "lemma": "machine",
+    "pos": "PROPN"
   },
   {
     "w": "Learning,",
     "start_ms": 420,
-    "end_ms": 760
+    "end_ms": 760,
+    "lemma": "learning",
+    "pos": "PROPN"
   },
   {
     "w": "teach",
     "start_ms": 1240,
-    "end_ms": 1320
+    "end_ms": 1320,
+    "lemma": "teach",
+    "pos": "VERB"
   },
   {
     "w": "a",
     "start_ms": 1320,
-    "end_ms": 1600
+    "end_ms": 1600,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "computer",
     "start_ms": 1600,
-    "end_ms": 1900
+    "end_ms": 1900,
+    "lemma": "computer",
+    "pos": "NOUN"
   },
   {
     "w": "how",
     "start_ms": 1900,
-    "end_ms": 2220
+    "end_ms": 2220,
+    "lemma": "how",
+    "pos": "SCONJ"
   },
   {
     "w": "to",
     "start_ms": 2220,
-    "end_ms": 2420
+    "end_ms": 2420,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "perform",
     "start_ms": 2420,
-    "end_ms": 2780
+    "end_ms": 2780,
+    "lemma": "perform",
+    "pos": "VERB"
   },
   {
     "w": "a",
     "start_ms": 2780,
-    "end_ms": 2900
+    "end_ms": 2900,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "task",
     "start_ms": 2900,
-    "end_ms": 3120
+    "end_ms": 3120,
+    "lemma": "task",
+    "pos": "NOUN"
   },
   {
     "w": "without",
     "start_ms": 3120,
-    "end_ms": 3540
+    "end_ms": 3540,
+    "lemma": "without",
+    "pos": "ADP"
   },
   {
     "w": "explicitly",
     "start_ms": 3540,
-    "end_ms": 4160
+    "end_ms": 4160,
+    "lemma": "explicitly",
+    "pos": "ADV"
   },
   {
     "w": "programming",
     "start_ms": 4160,
-    "end_ms": 4800
+    "end_ms": 4800,
+    "lemma": "program",
+    "pos": "VERB"
   },
   {
     "w": "it",
     "start_ms": 4800,
-    "end_ms": 5100
+    "end_ms": 5100,
+    "lemma": "it",
+    "pos": "PRON"
   },
   {
     "w": "to",
     "start_ms": 5100,
-    "end_ms": 5320
+    "end_ms": 5320,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "perform",
     "start_ms": 5320,
-    "end_ms": 5660
+    "end_ms": 5660,
+    "lemma": "perform",
+    "pos": "VERB"
   },
   {
     "w": "said",
     "start_ms": 5660,
-    "end_ms": 6040
+    "end_ms": 6040,
+    "lemma": "say",
+    "pos": "VERB"
   },
   {
     "w": "task.",
     "start_ms": 6040,
-    "end_ms": 6260
+    "end_ms": 6260,
+    "lemma": "task",
+    "pos": "NOUN"
   },
   {
     "w": "Instead,",
     "start_ms": 6660,
-    "end_ms": 6920
+    "end_ms": 6920,
+    "lemma": "instead",
+    "pos": "ADV"
   },
   {
     "w": "feed",
     "start_ms": 7220,
-    "end_ms": 7440
+    "end_ms": 7440,
+    "lemma": "feed",
+    "pos": "VERB"
   },
   {
     "w": "data",
     "start_ms": 7440,
-    "end_ms": 7760
+    "end_ms": 7760,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "into",
     "start_ms": 7760,
-    "end_ms": 8160
+    "end_ms": 8160,
+    "lemma": "into",
+    "pos": "ADP"
   },
   {
     "w": "an",
     "start_ms": 8160,
-    "end_ms": 8280
+    "end_ms": 8280,
+    "lemma": "an",
+    "pos": "DET"
   },
   {
     "w": "algorithm",
     "start_ms": 8280,
-    "end_ms": 8600
+    "end_ms": 8600,
+    "lemma": "algorithm",
+    "pos": "NOUN"
   },
   {
     "w": "to",
     "start_ms": 8600,
-    "end_ms": 9100
+    "end_ms": 9100,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "gradually",
     "start_ms": 9100,
-    "end_ms": 9400
+    "end_ms": 9400,
+    "lemma": "gradually",
+    "pos": "ADV"
   },
   {
     "w": "improve",
     "start_ms": 9400,
-    "end_ms": 9900
+    "end_ms": 9900,
+    "lemma": "improve",
+    "pos": "VERB"
   },
   {
     "w": "outcomes",
     "start_ms": 9900,
-    "end_ms": 10340
+    "end_ms": 10340,
+    "lemma": "outcome",
+    "pos": "NOUN"
   },
   {
     "w": "with",
     "start_ms": 10340,
-    "end_ms": 10680
+    "end_ms": 10680,
+    "lemma": "with",
+    "pos": "ADP"
   },
   {
     "w": "experience,",
     "start_ms": 10680,
-    "end_ms": 11140
+    "end_ms": 11140,
+    "lemma": "experience",
+    "pos": "NOUN"
   },
   {
     "w": "similar",
     "start_ms": 11420,
-    "end_ms": 11720
+    "end_ms": 11720,
+    "lemma": "similar",
+    "pos": "ADJ"
   },
   {
     "w": "to",
     "start_ms": 11720,
-    "end_ms": 12080
+    "end_ms": 12080,
+    "lemma": "to",
+    "pos": "ADP"
   },
   {
     "w": "how",
     "start_ms": 12080,
-    "end_ms": 12280
+    "end_ms": 12280,
+    "lemma": "how",
+    "pos": "SCONJ"
   },
   {
     "w": "organic",
     "start_ms": 12280,
-    "end_ms": 12640
+    "end_ms": 12640,
+    "lemma": "organic",
+    "pos": "ADJ"
   },
   {
     "w": "life",
     "start_ms": 12640,
-    "end_ms": 13060
+    "end_ms": 13060,
+    "lemma": "life",
+    "pos": "NOUN"
   },
   {
     "w": "learns.",
     "start_ms": 13060,
-    "end_ms": 13320
+    "end_ms": 13320,
+    "lemma": "learn",
+    "pos": "VERB"
   },
   {
     "w": "The",
     "start_ms": 13640,
-    "end_ms": 13660
+    "end_ms": 13660,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "term",
     "start_ms": 13660,
-    "end_ms": 13920
+    "end_ms": 13920,
+    "lemma": "term",
+    "pos": "NOUN"
   },
   {
     "w": "was",
     "start_ms": 13920,
-    "end_ms": 14160
+    "end_ms": 14160,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "coined",
     "start_ms": 14160,
-    "end_ms": 14360
+    "end_ms": 14360,
+    "lemma": "coin",
+    "pos": "VERB"
   },
   {
     "w": "in",
     "start_ms": 14360,
-    "end_ms": 14520
+    "end_ms": 14520,
+    "lemma": "in",
+    "pos": "ADP"
   },
   {
     "w": "1959",
@@ -212,1302 +294,1822 @@
   {
     "w": "by",
     "start_ms": 15200,
-    "end_ms": 15660
+    "end_ms": 15660,
+    "lemma": "by",
+    "pos": "ADP"
   },
   {
     "w": "Arthur",
     "start_ms": 15660,
-    "end_ms": 15900
+    "end_ms": 15900,
+    "lemma": "arthur",
+    "pos": "PROPN"
   },
   {
     "w": "Samuel",
     "start_ms": 15900,
-    "end_ms": 16360
+    "end_ms": 16360,
+    "lemma": "samuel",
+    "pos": "PROPN"
   },
   {
     "w": "at",
     "start_ms": 16360,
-    "end_ms": 16740
+    "end_ms": 16740,
+    "lemma": "at",
+    "pos": "ADP"
   },
   {
     "w": "IBM,",
     "start_ms": 16740,
-    "end_ms": 17060
+    "end_ms": 17060,
+    "lemma": "ibm",
+    "pos": "PROPN"
   },
   {
     "w": "who",
     "start_ms": 17440,
-    "end_ms": 17520
+    "end_ms": 17520,
+    "lemma": "who",
+    "pos": "PRON"
   },
   {
     "w": "was",
     "start_ms": 17520,
-    "end_ms": 17640
+    "end_ms": 17640,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "developing",
     "start_ms": 17640,
-    "end_ms": 18100
+    "end_ms": 18100,
+    "lemma": "develop",
+    "pos": "VERB"
   },
   {
     "w": "artificial",
     "start_ms": 18100,
-    "end_ms": 18400
+    "end_ms": 18400,
+    "lemma": "artificial",
+    "pos": "ADJ"
   },
   {
     "w": "intelligence",
     "start_ms": 18400,
-    "end_ms": 19220
+    "end_ms": 19220,
+    "lemma": "intelligence",
+    "pos": "NOUN"
   },
   {
     "w": "that",
     "start_ms": 19220,
-    "end_ms": 19540
+    "end_ms": 19540,
+    "lemma": "that",
+    "pos": "PRON"
   },
   {
     "w": "could",
     "start_ms": 19540,
-    "end_ms": 19700
+    "end_ms": 19700,
+    "lemma": "could",
+    "pos": "AUX"
   },
   {
     "w": "play",
     "start_ms": 19700,
-    "end_ms": 19900
+    "end_ms": 19900,
+    "lemma": "play",
+    "pos": "VERB"
   },
   {
     "w": "checkers.",
     "start_ms": 19900,
-    "end_ms": 20360
+    "end_ms": 20360,
+    "lemma": "checker",
+    "pos": "NOUN"
   },
   {
     "w": "Half",
     "start_ms": 20560,
-    "end_ms": 20680
+    "end_ms": 20680,
+    "lemma": "half",
+    "pos": "DET"
   },
   {
     "w": "a",
     "start_ms": 20680,
-    "end_ms": 20780
+    "end_ms": 20780,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "century",
     "start_ms": 20780,
-    "end_ms": 21040
+    "end_ms": 21040,
+    "lemma": "century",
+    "pos": "NOUN"
   },
   {
     "w": "later,",
     "start_ms": 21040,
-    "end_ms": 21440
+    "end_ms": 21440,
+    "lemma": "later",
+    "pos": "ADV"
   },
   {
     "w": "and",
     "start_ms": 21640,
-    "end_ms": 21720
+    "end_ms": 21720,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "predictive",
     "start_ms": 21720,
-    "end_ms": 21960
+    "end_ms": 21960,
+    "lemma": "predictive",
+    "pos": "ADJ"
   },
   {
     "w": "models",
     "start_ms": 21960,
-    "end_ms": 22340
+    "end_ms": 22340,
+    "lemma": "model",
+    "pos": "NOUN"
   },
   {
     "w": "are",
     "start_ms": 22340,
-    "end_ms": 22740
+    "end_ms": 22740,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "embedded",
     "start_ms": 22740,
-    "end_ms": 23000
+    "end_ms": 23000,
+    "lemma": "embed",
+    "pos": "VERB"
   },
   {
     "w": "in",
     "start_ms": 23000,
-    "end_ms": 23260
+    "end_ms": 23260,
+    "lemma": "in",
+    "pos": "ADP"
   },
   {
     "w": "many",
     "start_ms": 23260,
-    "end_ms": 23420
+    "end_ms": 23420,
+    "lemma": "many",
+    "pos": "ADJ"
   },
   {
     "w": "of",
     "start_ms": 23420,
-    "end_ms": 23600
+    "end_ms": 23600,
+    "lemma": "of",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 23600,
-    "end_ms": 23700
+    "end_ms": 23700,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "products",
     "start_ms": 23700,
-    "end_ms": 23980
+    "end_ms": 23980,
+    "lemma": "product",
+    "pos": "NOUN"
   },
   {
     "w": "we",
     "start_ms": 23980,
-    "end_ms": 24260
+    "end_ms": 24260,
+    "lemma": "we",
+    "pos": "PRON"
   },
   {
     "w": "use",
     "start_ms": 24260,
-    "end_ms": 24400
+    "end_ms": 24400,
+    "lemma": "use",
+    "pos": "VERB"
   },
   {
     "w": "every",
     "start_ms": 24400,
-    "end_ms": 24620
+    "end_ms": 24620,
+    "lemma": "every",
+    "pos": "DET"
   },
   {
     "w": "day,",
     "start_ms": 24620,
-    "end_ms": 24880
+    "end_ms": 24880,
+    "lemma": "day",
+    "pos": "NOUN"
   },
   {
     "w": "which",
     "start_ms": 25000,
-    "end_ms": 25260
+    "end_ms": 25260,
+    "lemma": "which",
+    "pos": "PRON"
   },
   {
     "w": "perform",
     "start_ms": 25260,
-    "end_ms": 25500
+    "end_ms": 25500,
+    "lemma": "perform",
+    "pos": "VERB"
   },
   {
     "w": "two",
     "start_ms": 25500,
-    "end_ms": 25940
+    "end_ms": 25940,
+    "lemma": "two",
+    "pos": "NUM"
   },
   {
     "w": "fundamental",
     "start_ms": 25940,
-    "end_ms": 26320
+    "end_ms": 26320,
+    "lemma": "fundamental",
+    "pos": "ADJ"
   },
   {
     "w": "jobs.",
     "start_ms": 26320,
-    "end_ms": 26720
+    "end_ms": 26720,
+    "lemma": "job",
+    "pos": "NOUN"
   },
   {
     "w": "One",
     "start_ms": 27100,
-    "end_ms": 27160
+    "end_ms": 27160,
+    "lemma": "one",
+    "pos": "NUM"
   },
   {
     "w": "is",
     "start_ms": 27160,
-    "end_ms": 27280
+    "end_ms": 27280,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "to",
     "start_ms": 27280,
-    "end_ms": 27420
+    "end_ms": 27420,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "classify",
     "start_ms": 27420,
-    "end_ms": 27800
+    "end_ms": 27800,
+    "lemma": "classify",
+    "pos": "VERB"
   },
   {
     "w": "data,",
     "start_ms": 27800,
-    "end_ms": 28200
+    "end_ms": 28200,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "like",
     "start_ms": 28600,
-    "end_ms": 28700
+    "end_ms": 28700,
+    "lemma": "like",
+    "pos": "SCONJ"
   },
   {
     "w": "is",
     "start_ms": 28700,
-    "end_ms": 28980
+    "end_ms": 28980,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "there",
     "start_ms": 28980,
-    "end_ms": 29120
+    "end_ms": 29120,
+    "lemma": "there",
+    "pos": "PRON"
   },
   {
     "w": "another",
     "start_ms": 29120,
-    "end_ms": 29320
+    "end_ms": 29320,
+    "lemma": "another",
+    "pos": "DET"
   },
   {
     "w": "car",
     "start_ms": 29320,
-    "end_ms": 29580
+    "end_ms": 29580,
+    "lemma": "car",
+    "pos": "NOUN"
   },
   {
     "w": "on",
     "start_ms": 29580,
-    "end_ms": 29740
+    "end_ms": 29740,
+    "lemma": "on",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 29740,
-    "end_ms": 29820
+    "end_ms": 29820,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "road,",
     "start_ms": 29820,
-    "end_ms": 30040
+    "end_ms": 30040,
+    "lemma": "road",
+    "pos": "NOUN"
   },
   {
     "w": "or",
     "start_ms": 30340,
-    "end_ms": 30460
+    "end_ms": 30460,
+    "lemma": "or",
+    "pos": "CCONJ"
   },
   {
     "w": "does",
     "start_ms": 30460,
-    "end_ms": 30700
+    "end_ms": 30700,
+    "lemma": "do",
+    "pos": "AUX"
   },
   {
     "w": "this",
     "start_ms": 30700,
-    "end_ms": 30860
+    "end_ms": 30860,
+    "lemma": "this",
+    "pos": "DET"
   },
   {
     "w": "patient",
     "start_ms": 30860,
-    "end_ms": 31080
+    "end_ms": 31080,
+    "lemma": "patient",
+    "pos": "NOUN"
   },
   {
     "w": "have",
     "start_ms": 31080,
-    "end_ms": 31380
+    "end_ms": 31380,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "cancer?",
     "start_ms": 31380,
-    "end_ms": 31540
+    "end_ms": 31540,
+    "lemma": "cancer",
+    "pos": "NOUN"
   },
   {
     "w": "The",
     "start_ms": 32100,
-    "end_ms": 32180
+    "end_ms": 32180,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "other",
     "start_ms": 32180,
-    "end_ms": 32380
+    "end_ms": 32380,
+    "lemma": "other",
+    "pos": "ADJ"
   },
   {
     "w": "is",
     "start_ms": 32380,
-    "end_ms": 32740
+    "end_ms": 32740,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "to",
     "start_ms": 32740,
-    "end_ms": 32900
+    "end_ms": 32900,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "make",
     "start_ms": 32900,
-    "end_ms": 33040
+    "end_ms": 33040,
+    "lemma": "make",
+    "pos": "VERB"
   },
   {
     "w": "predictions",
     "start_ms": 33040,
-    "end_ms": 33520
+    "end_ms": 33520,
+    "lemma": "prediction",
+    "pos": "NOUN"
   },
   {
     "w": "about",
     "start_ms": 33520,
-    "end_ms": 34040
+    "end_ms": 34040,
+    "lemma": "about",
+    "pos": "ADP"
   },
   {
     "w": "future",
     "start_ms": 34040,
-    "end_ms": 34360
+    "end_ms": 34360,
+    "lemma": "future",
+    "pos": "ADJ"
   },
   {
     "w": "outcomes,",
     "start_ms": 34360,
-    "end_ms": 34720
+    "end_ms": 34720,
+    "lemma": "outcome",
+    "pos": "NOUN"
   },
   {
     "w": "like",
     "start_ms": 34820,
-    "end_ms": 35260
+    "end_ms": 35260,
+    "lemma": "like",
+    "pos": "SCONJ"
   },
   {
     "w": "will",
     "start_ms": 35260,
-    "end_ms": 35480
+    "end_ms": 35480,
+    "lemma": "will",
+    "pos": "AUX"
   },
   {
     "w": "the",
     "start_ms": 35480,
-    "end_ms": 35620
+    "end_ms": 35620,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "stock",
     "start_ms": 35620,
-    "end_ms": 35840
+    "end_ms": 35840,
+    "lemma": "stock",
+    "pos": "NOUN"
   },
   {
     "w": "go",
     "start_ms": 35840,
-    "end_ms": 36100
+    "end_ms": 36100,
+    "lemma": "go",
+    "pos": "VERB"
   },
   {
     "w": "up,",
     "start_ms": 36100,
-    "end_ms": 36240
+    "end_ms": 36240,
+    "lemma": "up",
+    "pos": "ADV"
   },
   {
     "w": "or",
     "start_ms": 36440,
-    "end_ms": 36580
+    "end_ms": 36580,
+    "lemma": "or",
+    "pos": "CCONJ"
   },
   {
     "w": "which",
     "start_ms": 36580,
-    "end_ms": 36780
+    "end_ms": 36780,
+    "lemma": "which",
+    "pos": "PRON"
   },
   {
     "w": "YouTube",
     "start_ms": 36780,
-    "end_ms": 37060
+    "end_ms": 37060,
+    "lemma": "youtube",
+    "pos": "NOUN"
   },
   {
     "w": "video",
     "start_ms": 37060,
-    "end_ms": 37420
+    "end_ms": 37420,
+    "lemma": "video",
+    "pos": "NOUN"
   },
   {
     "w": "do",
     "start_ms": 37420,
-    "end_ms": 37720
+    "end_ms": 37720,
+    "lemma": "do",
+    "pos": "AUX"
   },
   {
     "w": "you",
     "start_ms": 37720,
-    "end_ms": 37820
+    "end_ms": 37820,
+    "lemma": "you",
+    "pos": "PRON"
   },
   {
     "w": "want",
     "start_ms": 37820,
-    "end_ms": 37940
+    "end_ms": 37940,
+    "lemma": "want",
+    "pos": "VERB"
   },
   {
     "w": "to",
     "start_ms": 37940,
-    "end_ms": 38020
+    "end_ms": 38020,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "watch",
     "start_ms": 38020,
-    "end_ms": 38200
+    "end_ms": 38200,
+    "lemma": "watch",
+    "pos": "VERB"
   },
   {
     "w": "next?",
     "start_ms": 38200,
-    "end_ms": 38400
+    "end_ms": 38400,
+    "lemma": "next",
+    "pos": "ADV"
   },
   {
     "w": "The",
     "start_ms": 38740,
-    "end_ms": 38800
+    "end_ms": 38800,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "first",
     "start_ms": 38800,
-    "end_ms": 38980
+    "end_ms": 38980,
+    "lemma": "first",
+    "pos": "ADJ"
   },
   {
     "w": "step",
     "start_ms": 38980,
-    "end_ms": 39200
+    "end_ms": 39200,
+    "lemma": "step",
+    "pos": "NOUN"
   },
   {
     "w": "in",
     "start_ms": 39200,
-    "end_ms": 39320
+    "end_ms": 39320,
+    "lemma": "in",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 39320,
-    "end_ms": 39400
+    "end_ms": 39400,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "process",
     "start_ms": 39400,
-    "end_ms": 39740
+    "end_ms": 39740,
+    "lemma": "process",
+    "pos": "NOUN"
   },
   {
     "w": "is",
     "start_ms": 39740,
-    "end_ms": 40100
+    "end_ms": 40100,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "to",
     "start_ms": 40100,
-    "end_ms": 40260
+    "end_ms": 40260,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "acquire",
     "start_ms": 40260,
-    "end_ms": 40660
+    "end_ms": 40660,
+    "lemma": "acquire",
+    "pos": "VERB"
   },
   {
     "w": "and",
     "start_ms": 40660,
-    "end_ms": 41080
+    "end_ms": 41080,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "clean",
     "start_ms": 41080,
-    "end_ms": 41360
+    "end_ms": 41360,
+    "lemma": "clean",
+    "pos": "VERB"
   },
   {
     "w": "up",
     "start_ms": 41360,
-    "end_ms": 41600
+    "end_ms": 41600,
+    "lemma": "up",
+    "pos": "ADP"
   },
   {
     "w": "data,",
     "start_ms": 41600,
-    "end_ms": 41820
+    "end_ms": 41820,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "lots",
     "start_ms": 42140,
-    "end_ms": 42400
+    "end_ms": 42400,
+    "lemma": "lot",
+    "pos": "NOUN"
   },
   {
     "w": "and",
     "start_ms": 42400,
-    "end_ms": 42640
+    "end_ms": 42640,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "lots",
     "start_ms": 42640,
-    "end_ms": 42840
+    "end_ms": 42840,
+    "lemma": "lot",
+    "pos": "NOUN"
   },
   {
     "w": "of",
     "start_ms": 42840,
-    "end_ms": 43040
+    "end_ms": 43040,
+    "lemma": "of",
+    "pos": "ADP"
   },
   {
     "w": "data.",
     "start_ms": 43040,
-    "end_ms": 43200
+    "end_ms": 43200,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "The",
     "start_ms": 43520,
-    "end_ms": 43560
+    "end_ms": 43560,
+    "lemma": "the",
+    "pos": "PRON"
   },
   {
     "w": "better",
     "start_ms": 43560,
-    "end_ms": 43760
+    "end_ms": 43760,
+    "lemma": "well",
+    "pos": "ADJ"
   },
   {
     "w": "the",
     "start_ms": 43760,
-    "end_ms": 43920
+    "end_ms": 43920,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "data",
     "start_ms": 43920,
-    "end_ms": 44140
+    "end_ms": 44140,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "represents",
     "start_ms": 44140,
-    "end_ms": 44440
+    "end_ms": 44440,
+    "lemma": "represent",
+    "pos": "VERB"
   },
   {
     "w": "the",
     "start_ms": 44440,
-    "end_ms": 44740
+    "end_ms": 44740,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "problem,",
     "start_ms": 44740,
-    "end_ms": 45040
+    "end_ms": 45040,
+    "lemma": "problem",
+    "pos": "NOUN"
   },
   {
     "w": "the",
     "start_ms": 45300,
-    "end_ms": 45420
+    "end_ms": 45420,
+    "lemma": "the",
+    "pos": "PRON"
   },
   {
     "w": "better",
     "start_ms": 45420,
-    "end_ms": 45660
+    "end_ms": 45660,
+    "lemma": "well",
+    "pos": "ADJ"
   },
   {
     "w": "the",
     "start_ms": 45660,
-    "end_ms": 45800
+    "end_ms": 45800,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "results,",
     "start_ms": 45800,
-    "end_ms": 46040
+    "end_ms": 46040,
+    "lemma": "result",
+    "pos": "NOUN"
   },
   {
     "w": "garbage",
     "start_ms": 46520,
-    "end_ms": 46720
+    "end_ms": 46720,
+    "lemma": "garbage",
+    "pos": "NOUN"
   },
   {
     "w": "in,",
     "start_ms": 46720,
-    "end_ms": 47020
+    "end_ms": 47020,
+    "lemma": "in",
+    "pos": "ADP"
   },
   {
     "w": "garbage",
     "start_ms": 47260,
-    "end_ms": 47400
+    "end_ms": 47400,
+    "lemma": "garbage",
+    "pos": "VERB"
   },
   {
     "w": "out.",
     "start_ms": 47400,
-    "end_ms": 47720
+    "end_ms": 47720,
+    "lemma": "out",
+    "pos": "ADP"
   },
   {
     "w": "The",
     "start_ms": 47940,
-    "end_ms": 48000
+    "end_ms": 48000,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "data",
     "start_ms": 48000,
-    "end_ms": 48220
+    "end_ms": 48220,
+    "lemma": "data",
+    "pos": "NOUN"
   },
   {
     "w": "needs",
     "start_ms": 48220,
-    "end_ms": 48560
+    "end_ms": 48560,
+    "lemma": "need",
+    "pos": "VERB"
   },
   {
     "w": "to",
     "start_ms": 48560,
-    "end_ms": 48740
+    "end_ms": 48740,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "have",
     "start_ms": 48740,
-    "end_ms": 48880
+    "end_ms": 48880,
+    "lemma": "have",
+    "pos": "VERB"
   },
   {
     "w": "some",
     "start_ms": 48880,
-    "end_ms": 49060
+    "end_ms": 49060,
+    "lemma": "some",
+    "pos": "DET"
   },
   {
     "w": "kind",
     "start_ms": 49060,
-    "end_ms": 49220
+    "end_ms": 49220,
+    "lemma": "kind",
+    "pos": "NOUN"
   },
   {
     "w": "of",
     "start_ms": 49220,
-    "end_ms": 49320
+    "end_ms": 49320,
+    "lemma": "of",
+    "pos": "ADP"
   },
   {
     "w": "signal",
     "start_ms": 49320,
-    "end_ms": 49580
+    "end_ms": 49580,
+    "lemma": "signal",
+    "pos": "NOUN"
   },
   {
     "w": "to",
     "start_ms": 49580,
-    "end_ms": 49920
+    "end_ms": 49920,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "be",
     "start_ms": 49920,
-    "end_ms": 50040
+    "end_ms": 50040,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "valuable",
     "start_ms": 50040,
-    "end_ms": 50340
+    "end_ms": 50340,
+    "lemma": "valuable",
+    "pos": "ADJ"
   },
   {
     "w": "to",
     "start_ms": 50340,
-    "end_ms": 50620
+    "end_ms": 50620,
+    "lemma": "to",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 50620,
-    "end_ms": 50720
+    "end_ms": 50720,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "algorithm",
     "start_ms": 50720,
-    "end_ms": 51020
+    "end_ms": 51020,
+    "lemma": "algorithm",
+    "pos": "PROPN"
   },
   {
     "w": "for",
     "start_ms": 51020,
-    "end_ms": 51420
+    "end_ms": 51420,
+    "lemma": "for",
+    "pos": "ADP"
   },
   {
     "w": "making",
     "start_ms": 51420,
-    "end_ms": 51620
+    "end_ms": 51620,
+    "lemma": "make",
+    "pos": "VERB"
   },
   {
     "w": "predictions,",
     "start_ms": 51620,
-    "end_ms": 51960
+    "end_ms": 51960,
+    "lemma": "prediction",
+    "pos": "NOUN"
   },
   {
     "w": "and",
     "start_ms": 52500,
-    "end_ms": 52640
+    "end_ms": 52640,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "data",
     "start_ms": 52640,
-    "end_ms": 52820
+    "end_ms": 52820,
+    "lemma": "data",
+    "pos": "NOUN"
   },
   {
     "w": "scientists",
     "start_ms": 52820,
-    "end_ms": 53240
+    "end_ms": 53240,
+    "lemma": "scientist",
+    "pos": "NOUN"
   },
   {
     "w": "perform",
     "start_ms": 53240,
-    "end_ms": 53720
+    "end_ms": 53720,
+    "lemma": "perform",
+    "pos": "VERB"
   },
   {
     "w": "a",
     "start_ms": 53720,
-    "end_ms": 53960
+    "end_ms": 53960,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "job",
     "start_ms": 53960,
-    "end_ms": 54200
+    "end_ms": 54200,
+    "lemma": "job",
+    "pos": "NOUN"
   },
   {
     "w": "called",
     "start_ms": 54200,
-    "end_ms": 54500
+    "end_ms": 54500,
+    "lemma": "call",
+    "pos": "VERB"
   },
   {
     "w": "feature",
     "start_ms": 54500,
-    "end_ms": 54720
+    "end_ms": 54720,
+    "lemma": "feature",
+    "pos": "NOUN"
   },
   {
     "w": "engineering",
     "start_ms": 54720,
-    "end_ms": 55060
+    "end_ms": 55060,
+    "lemma": "engineer",
+    "pos": "VERB"
   },
   {
     "w": "to",
     "start_ms": 55060,
-    "end_ms": 55720
+    "end_ms": 55720,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "transform",
     "start_ms": 55720,
-    "end_ms": 56240
+    "end_ms": 56240,
+    "lemma": "transform",
+    "pos": "VERB"
   },
   {
     "w": "raw",
     "start_ms": 56240,
-    "end_ms": 56440
+    "end_ms": 56440,
+    "lemma": "raw",
+    "pos": "ADJ"
   },
   {
     "w": "data",
     "start_ms": 56440,
-    "end_ms": 56720
+    "end_ms": 56720,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "into",
     "start_ms": 56720,
-    "end_ms": 57080
+    "end_ms": 57080,
+    "lemma": "into",
+    "pos": "ADP"
   },
   {
     "w": "features",
     "start_ms": 57080,
-    "end_ms": 57540
+    "end_ms": 57540,
+    "lemma": "feature",
+    "pos": "NOUN"
   },
   {
     "w": "that",
     "start_ms": 57540,
-    "end_ms": 57940
+    "end_ms": 57940,
+    "lemma": "that",
+    "pos": "PRON"
   },
   {
     "w": "better",
     "start_ms": 57940,
-    "end_ms": 58200
+    "end_ms": 58200,
+    "lemma": "well",
+    "pos": "ADV"
   },
   {
     "w": "represent",
     "start_ms": 58200,
-    "end_ms": 58720
+    "end_ms": 58720,
+    "lemma": "represent",
+    "pos": "VERB"
   },
   {
     "w": "the",
     "start_ms": 58720,
-    "end_ms": 58960
+    "end_ms": 58960,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "underlying",
     "start_ms": 58960,
-    "end_ms": 59320
+    "end_ms": 59320,
+    "lemma": "underlie",
+    "pos": "VERB"
   },
   {
     "w": "problem.",
     "start_ms": 59320,
-    "end_ms": 59760
+    "end_ms": 59760,
+    "lemma": "problem",
+    "pos": "NOUN"
   },
   {
     "w": "The",
     "start_ms": 60220,
-    "end_ms": 60280
+    "end_ms": 60280,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "next",
     "start_ms": 60280,
-    "end_ms": 60400
+    "end_ms": 60400,
+    "lemma": "next",
+    "pos": "ADJ"
   },
   {
     "w": "step",
     "start_ms": 60400,
-    "end_ms": 60700
+    "end_ms": 60700,
+    "lemma": "step",
+    "pos": "NOUN"
   },
   {
     "w": "is",
     "start_ms": 60700,
-    "end_ms": 60980
+    "end_ms": 60980,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "to",
     "start_ms": 60980,
-    "end_ms": 61140
+    "end_ms": 61140,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "separate",
     "start_ms": 61140,
-    "end_ms": 61480
+    "end_ms": 61480,
+    "lemma": "separate",
+    "pos": "VERB"
   },
   {
     "w": "the",
     "start_ms": 61480,
-    "end_ms": 61700
+    "end_ms": 61700,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "data",
     "start_ms": 61700,
-    "end_ms": 61840
+    "end_ms": 61840,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "into",
     "start_ms": 61840,
-    "end_ms": 62320
+    "end_ms": 62320,
+    "lemma": "into",
+    "pos": "ADP"
   },
   {
     "w": "a",
     "start_ms": 62320,
-    "end_ms": 62480
+    "end_ms": 62480,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "training",
     "start_ms": 62480,
-    "end_ms": 62680
+    "end_ms": 62680,
+    "lemma": "training",
+    "pos": "NOUN"
   },
   {
     "w": "set",
     "start_ms": 62680,
-    "end_ms": 63100
+    "end_ms": 63100,
+    "lemma": "set",
+    "pos": "NOUN"
   },
   {
     "w": "and",
     "start_ms": 63100,
-    "end_ms": 63420
+    "end_ms": 63420,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "testing",
     "start_ms": 63420,
-    "end_ms": 63720
+    "end_ms": 63720,
+    "lemma": "testing",
+    "pos": "NOUN"
   },
   {
     "w": "set.",
     "start_ms": 63720,
-    "end_ms": 64160
+    "end_ms": 64160,
+    "lemma": "set",
+    "pos": "NOUN"
   },
   {
     "w": "The",
     "start_ms": 64440,
-    "end_ms": 64560
+    "end_ms": 64560,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "training",
     "start_ms": 64560,
-    "end_ms": 64780
+    "end_ms": 64780,
+    "lemma": "training",
+    "pos": "NOUN"
   },
   {
     "w": "data",
     "start_ms": 64780,
-    "end_ms": 65060
+    "end_ms": 65060,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "is",
     "start_ms": 65060,
-    "end_ms": 65280
+    "end_ms": 65280,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "fed",
     "start_ms": 65280,
-    "end_ms": 65459
+    "end_ms": 65459,
+    "lemma": "feed",
+    "pos": "VERB"
   },
   {
     "w": "into",
     "start_ms": 65459,
-    "end_ms": 65840
+    "end_ms": 65840,
+    "lemma": "into",
+    "pos": "ADP"
   },
   {
     "w": "an",
     "start_ms": 65840,
-    "end_ms": 65940
+    "end_ms": 65940,
+    "lemma": "an",
+    "pos": "DET"
   },
   {
     "w": "algorithm",
     "start_ms": 65940,
-    "end_ms": 66240
+    "end_ms": 66240,
+    "lemma": "algorithm",
+    "pos": "NOUN"
   },
   {
     "w": "to",
     "start_ms": 66240,
-    "end_ms": 66620
+    "end_ms": 66620,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "build",
     "start_ms": 66620,
-    "end_ms": 66820
+    "end_ms": 66820,
+    "lemma": "build",
+    "pos": "VERB"
   },
   {
     "w": "a",
     "start_ms": 66820,
-    "end_ms": 66960
+    "end_ms": 66960,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "model,",
     "start_ms": 66960,
-    "end_ms": 67220
+    "end_ms": 67220,
+    "lemma": "model",
+    "pos": "NOUN"
   },
   {
     "w": "then",
     "start_ms": 67480,
-    "end_ms": 67680
+    "end_ms": 67680,
+    "lemma": "then",
+    "pos": "ADV"
   },
   {
     "w": "the",
     "start_ms": 67680,
-    "end_ms": 67780
+    "end_ms": 67780,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "testing",
     "start_ms": 67780,
-    "end_ms": 68000
+    "end_ms": 68000,
+    "lemma": "testing",
+    "pos": "NOUN"
   },
   {
     "w": "data",
     "start_ms": 68000,
-    "end_ms": 68340
+    "end_ms": 68340,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "is",
     "start_ms": 68340,
-    "end_ms": 68680
+    "end_ms": 68680,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "used",
     "start_ms": 68680,
-    "end_ms": 68940
+    "end_ms": 68940,
+    "lemma": "use",
+    "pos": "VERB"
   },
   {
     "w": "to",
     "start_ms": 68940,
-    "end_ms": 69100
+    "end_ms": 69100,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "validate",
     "start_ms": 69100,
-    "end_ms": 69420
+    "end_ms": 69420,
+    "lemma": "validate",
+    "pos": "VERB"
   },
   {
     "w": "the",
     "start_ms": 69420,
-    "end_ms": 69700
+    "end_ms": 69700,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "accuracy",
     "start_ms": 69700,
-    "end_ms": 70200
+    "end_ms": 70200,
+    "lemma": "accuracy",
+    "pos": "NOUN"
   },
   {
     "w": "or",
     "start_ms": 70200,
-    "end_ms": 70700
+    "end_ms": 70700,
+    "lemma": "or",
+    "pos": "CCONJ"
   },
   {
     "w": "error",
     "start_ms": 70700,
-    "end_ms": 71000
+    "end_ms": 71000,
+    "lemma": "error",
+    "pos": "NOUN"
   },
   {
     "w": "of",
     "start_ms": 71000,
-    "end_ms": 71440
+    "end_ms": 71440,
+    "lemma": "of",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 71440,
-    "end_ms": 71560
+    "end_ms": 71560,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "model.",
     "start_ms": 71560,
-    "end_ms": 71760
+    "end_ms": 71760,
+    "lemma": "model",
+    "pos": "NOUN"
   },
   {
     "w": "The",
     "start_ms": 72020,
-    "end_ms": 72100
+    "end_ms": 72100,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "next",
     "start_ms": 72100,
-    "end_ms": 72200
+    "end_ms": 72200,
+    "lemma": "next",
+    "pos": "ADJ"
   },
   {
     "w": "step",
     "start_ms": 72200,
-    "end_ms": 72500
+    "end_ms": 72500,
+    "lemma": "step",
+    "pos": "NOUN"
   },
   {
     "w": "is",
     "start_ms": 72500,
-    "end_ms": 72720
+    "end_ms": 72720,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "to",
     "start_ms": 72720,
-    "end_ms": 72880
+    "end_ms": 72880,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "choose",
     "start_ms": 72880,
-    "end_ms": 73160
+    "end_ms": 73160,
+    "lemma": "choose",
+    "pos": "VERB"
   },
   {
     "w": "an",
     "start_ms": 73160,
-    "end_ms": 73280
+    "end_ms": 73280,
+    "lemma": "an",
+    "pos": "DET"
   },
   {
     "w": "algorithm,",
     "start_ms": 73280,
-    "end_ms": 73580
+    "end_ms": 73580,
+    "lemma": "algorithm",
+    "pos": "NOUN"
   },
   {
     "w": "which",
     "start_ms": 73940,
-    "end_ms": 74060
+    "end_ms": 74060,
+    "lemma": "which",
+    "pos": "PRON"
   },
   {
     "w": "might",
     "start_ms": 74060,
-    "end_ms": 74220
+    "end_ms": 74220,
+    "lemma": "might",
+    "pos": "AUX"
   },
   {
     "w": "be",
     "start_ms": 74220,
-    "end_ms": 74420
+    "end_ms": 74420,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "a",
     "start_ms": 74420,
-    "end_ms": 74560
+    "end_ms": 74560,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "simple",
     "start_ms": 74560,
-    "end_ms": 74880
+    "end_ms": 74880,
+    "lemma": "simple",
+    "pos": "ADJ"
   },
   {
     "w": "statistical",
     "start_ms": 74880,
-    "end_ms": 75120
+    "end_ms": 75120,
+    "lemma": "statistical",
+    "pos": "ADJ"
   },
   {
     "w": "model",
     "start_ms": 75120,
-    "end_ms": 75740
+    "end_ms": 75740,
+    "lemma": "model",
+    "pos": "NOUN"
   },
   {
     "w": "like",
     "start_ms": 75740,
-    "end_ms": 76080
+    "end_ms": 76080,
+    "lemma": "like",
+    "pos": "ADP"
   },
   {
     "w": "linear",
     "start_ms": 76080,
-    "end_ms": 76320
+    "end_ms": 76320,
+    "lemma": "linear",
+    "pos": "ADJ"
   },
   {
     "w": "or",
     "start_ms": 76320,
-    "end_ms": 76780
+    "end_ms": 76780,
+    "lemma": "or",
+    "pos": "CCONJ"
   },
   {
     "w": "logistic",
     "start_ms": 76780,
-    "end_ms": 77200
+    "end_ms": 77200,
+    "lemma": "logistic",
+    "pos": "ADJ"
   },
   {
     "w": "regression,",
     "start_ms": 77200,
-    "end_ms": 77560
+    "end_ms": 77560,
+    "lemma": "regression",
+    "pos": "NOUN"
   },
   {
     "w": "or",
     "start_ms": 77980,
-    "end_ms": 78100
+    "end_ms": 78100,
+    "lemma": "or",
+    "pos": "CCONJ"
   },
   {
     "w": "a",
     "start_ms": 78100,
-    "end_ms": 78220
+    "end_ms": 78220,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "decision",
     "start_ms": 78220,
-    "end_ms": 78440
+    "end_ms": 78440,
+    "lemma": "decision",
+    "pos": "NOUN"
   },
   {
     "w": "tree",
     "start_ms": 78440,
-    "end_ms": 78820
+    "end_ms": 78820,
+    "lemma": "tree",
+    "pos": "NOUN"
   },
   {
     "w": "that",
     "start_ms": 78820,
-    "end_ms": 79140
+    "end_ms": 79140,
+    "lemma": "that",
+    "pos": "PRON"
   },
   {
     "w": "assigns",
     "start_ms": 79140,
-    "end_ms": 79320
+    "end_ms": 79320,
+    "lemma": "assign",
+    "pos": "VERB"
   },
   {
     "w": "different",
     "start_ms": 79320,
-    "end_ms": 79780
+    "end_ms": 79780,
+    "lemma": "different",
+    "pos": "ADJ"
   },
   {
     "w": "weights",
     "start_ms": 79780,
-    "end_ms": 80100
+    "end_ms": 80100,
+    "lemma": "weight",
+    "pos": "NOUN"
   },
   {
     "w": "to",
     "start_ms": 80100,
-    "end_ms": 80360
+    "end_ms": 80360,
+    "lemma": "to",
+    "pos": "ADP"
   },
   {
     "w": "features",
     "start_ms": 80360,
-    "end_ms": 80720
+    "end_ms": 80720,
+    "lemma": "feature",
+    "pos": "NOUN"
   },
   {
     "w": "in",
     "start_ms": 80720,
-    "end_ms": 80920
+    "end_ms": 80920,
+    "lemma": "in",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 80920,
-    "end_ms": 81020
+    "end_ms": 81020,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "data,",
     "start_ms": 81020,
-    "end_ms": 81220
+    "end_ms": 81220,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "or",
     "start_ms": 81220,
-    "end_ms": 81660
+    "end_ms": 81660,
+    "lemma": "or",
+    "pos": "CCONJ"
   },
   {
     "w": "you",
     "start_ms": 81660,
-    "end_ms": 81800
+    "end_ms": 81800,
+    "lemma": "you",
+    "pos": "PRON"
   },
   {
     "w": "might",
     "start_ms": 81800,
-    "end_ms": 81940
+    "end_ms": 81940,
+    "lemma": "might",
+    "pos": "AUX"
   },
   {
     "w": "get",
     "start_ms": 81940,
-    "end_ms": 82120
+    "end_ms": 82120,
+    "lemma": "get",
+    "pos": "VERB"
   },
   {
     "w": "fancy",
     "start_ms": 82120,
-    "end_ms": 82340
+    "end_ms": 82340,
+    "lemma": "fancy",
+    "pos": "ADJ"
   },
   {
     "w": "with",
     "start_ms": 82340,
-    "end_ms": 82900
+    "end_ms": 82900,
+    "lemma": "with",
+    "pos": "ADP"
   },
   {
     "w": "a",
     "start_ms": 82900,
-    "end_ms": 83040
+    "end_ms": 83040,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "convolutional",
     "start_ms": 83040,
-    "end_ms": 83900
+    "end_ms": 83900,
+    "lemma": "convolutional",
+    "pos": "ADJ"
   },
   {
     "w": "neural",
     "start_ms": 83900,
-    "end_ms": 84100
+    "end_ms": 84100,
+    "lemma": "neural",
+    "pos": "ADJ"
   },
   {
     "w": "network,",
     "start_ms": 84100,
-    "end_ms": 84520
+    "end_ms": 84520,
+    "lemma": "network",
+    "pos": "NOUN"
   },
   {
     "w": "which",
     "start_ms": 84720,
-    "end_ms": 84820
+    "end_ms": 84820,
+    "lemma": "which",
+    "pos": "PRON"
   },
   {
     "w": "is",
     "start_ms": 84820,
-    "end_ms": 84940
+    "end_ms": 84940,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "an",
     "start_ms": 84940,
-    "end_ms": 85000
+    "end_ms": 85000,
+    "lemma": "an",
+    "pos": "DET"
   },
   {
     "w": "algorithm",
     "start_ms": 85000,
-    "end_ms": 85320
+    "end_ms": 85320,
+    "lemma": "algorithm",
+    "pos": "NOUN"
   },
   {
     "w": "that",
     "start_ms": 85320,
-    "end_ms": 85840
+    "end_ms": 85840,
+    "lemma": "that",
+    "pos": "PRON"
   },
   {
     "w": "also",
     "start_ms": 85840,
-    "end_ms": 86100
+    "end_ms": 86100,
+    "lemma": "also",
+    "pos": "ADV"
   },
   {
     "w": "assigns",
     "start_ms": 86100,
-    "end_ms": 86520
+    "end_ms": 86520,
+    "lemma": "assign",
+    "pos": "VERB"
   },
   {
     "w": "weights",
     "start_ms": 86520,
-    "end_ms": 86780
+    "end_ms": 86780,
+    "lemma": "weight",
+    "pos": "NOUN"
   },
   {
     "w": "to",
     "start_ms": 86780,
-    "end_ms": 87000
+    "end_ms": 87000,
+    "lemma": "to",
+    "pos": "ADP"
   },
   {
     "w": "features,",
     "start_ms": 87000,
-    "end_ms": 87220
+    "end_ms": 87220,
+    "lemma": "feature",
+    "pos": "NOUN"
   },
   {
     "w": "but",
     "start_ms": 87700,
-    "end_ms": 87880
+    "end_ms": 87880,
+    "lemma": "but",
+    "pos": "CCONJ"
   },
   {
     "w": "also",
     "start_ms": 87880,
-    "end_ms": 88100
+    "end_ms": 88100,
+    "lemma": "also",
+    "pos": "ADV"
   },
   {
     "w": "takes",
     "start_ms": 88100,
-    "end_ms": 88540
+    "end_ms": 88540,
+    "lemma": "take",
+    "pos": "VERB"
   },
   {
     "w": "the",
     "start_ms": 88540,
-    "end_ms": 88680
+    "end_ms": 88680,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "input",
     "start_ms": 88680,
-    "end_ms": 88920
+    "end_ms": 88920,
+    "lemma": "input",
+    "pos": "NOUN"
   },
   {
     "w": "data",
     "start_ms": 88920,
-    "end_ms": 89120
+    "end_ms": 89120,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "and",
     "start_ms": 89120,
-    "end_ms": 89560
+    "end_ms": 89560,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "creates",
     "start_ms": 89560,
-    "end_ms": 89860
+    "end_ms": 89860,
+    "lemma": "create",
+    "pos": "VERB"
   },
   {
     "w": "additional",
     "start_ms": 89860,
-    "end_ms": 90020
+    "end_ms": 90020,
+    "lemma": "additional",
+    "pos": "ADJ"
   },
   {
     "w": "features",
     "start_ms": 90020,
-    "end_ms": 90640
+    "end_ms": 90640,
+    "lemma": "feature",
+    "pos": "NOUN"
   },
   {
     "w": "automatically.",
     "start_ms": 90640,
-    "end_ms": 90960
+    "end_ms": 90960,
+    "lemma": "automatically",
+    "pos": "ADV"
   },
   {
     "w": "And",
     "start_ms": 91700,
-    "end_ms": 91740
+    "end_ms": 91740,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "that's",
@@ -1537,167 +2139,233 @@
   {
     "w": "that",
     "start_ms": 93440,
-    "end_ms": 93840
+    "end_ms": 93840,
+    "lemma": "that",
+    "pos": "PRON"
   },
   {
     "w": "contain",
     "start_ms": 93840,
-    "end_ms": 94000
+    "end_ms": 94000,
+    "lemma": "contain",
+    "pos": "VERB"
   },
   {
     "w": "things",
     "start_ms": 94000,
-    "end_ms": 94460
+    "end_ms": 94460,
+    "lemma": "thing",
+    "pos": "NOUN"
   },
   {
     "w": "like",
     "start_ms": 94460,
-    "end_ms": 94640
+    "end_ms": 94640,
+    "lemma": "like",
+    "pos": "ADP"
   },
   {
     "w": "images",
     "start_ms": 94640,
-    "end_ms": 94980
+    "end_ms": 94980,
+    "lemma": "image",
+    "pos": "NOUN"
   },
   {
     "w": "or",
     "start_ms": 94980,
-    "end_ms": 95420
+    "end_ms": 95420,
+    "lemma": "or",
+    "pos": "CCONJ"
   },
   {
     "w": "natural",
     "start_ms": 95420,
-    "end_ms": 95680
+    "end_ms": 95680,
+    "lemma": "natural",
+    "pos": "ADJ"
   },
   {
     "w": "language,",
     "start_ms": 95680,
-    "end_ms": 96120
+    "end_ms": 96120,
+    "lemma": "language",
+    "pos": "NOUN"
   },
   {
     "w": "where",
     "start_ms": 96400,
-    "end_ms": 96560
+    "end_ms": 96560,
+    "lemma": "where",
+    "pos": "SCONJ"
   },
   {
     "w": "manual",
     "start_ms": 96560,
-    "end_ms": 96900
+    "end_ms": 96900,
+    "lemma": "manual",
+    "pos": "ADJ"
   },
   {
     "w": "feature",
     "start_ms": 96900,
-    "end_ms": 97240
+    "end_ms": 97240,
+    "lemma": "feature",
+    "pos": "NOUN"
   },
   {
     "w": "engineering",
     "start_ms": 97240,
-    "end_ms": 97580
+    "end_ms": 97580,
+    "lemma": "engineering",
+    "pos": "NOUN"
   },
   {
     "w": "is",
     "start_ms": 97580,
-    "end_ms": 98080
+    "end_ms": 98080,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "virtually",
     "start_ms": 98080,
-    "end_ms": 98380
+    "end_ms": 98380,
+    "lemma": "virtually",
+    "pos": "ADV"
   },
   {
     "w": "impossible.",
     "start_ms": 98380,
-    "end_ms": 98720
+    "end_ms": 98720,
+    "lemma": "impossible",
+    "pos": "ADJ"
   },
   {
     "w": "Every",
     "start_ms": 99300,
-    "end_ms": 99460
+    "end_ms": 99460,
+    "lemma": "every",
+    "pos": "DET"
   },
   {
     "w": "one",
     "start_ms": 99460,
-    "end_ms": 99620
+    "end_ms": 99620,
+    "lemma": "one",
+    "pos": "NUM"
   },
   {
     "w": "of",
     "start_ms": 99620,
-    "end_ms": 99700
+    "end_ms": 99700,
+    "lemma": "of",
+    "pos": "ADP"
   },
   {
     "w": "these",
     "start_ms": 99700,
-    "end_ms": 99800
+    "end_ms": 99800,
+    "lemma": "these",
+    "pos": "DET"
   },
   {
     "w": "algorithms",
     "start_ms": 99800,
-    "end_ms": 100140
+    "end_ms": 100140,
+    "lemma": "algorithm",
+    "pos": "NOUN"
   },
   {
     "w": "learns",
     "start_ms": 100140,
-    "end_ms": 100640
+    "end_ms": 100640,
+    "lemma": "learn",
+    "pos": "VERB"
   },
   {
     "w": "to",
     "start_ms": 100640,
-    "end_ms": 100860
+    "end_ms": 100860,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "get",
     "start_ms": 100860,
-    "end_ms": 100960
+    "end_ms": 100960,
+    "lemma": "get",
+    "pos": "VERB"
   },
   {
     "w": "better",
     "start_ms": 100960,
-    "end_ms": 101260
+    "end_ms": 101260,
+    "lemma": "well",
+    "pos": "ADJ"
   },
   {
     "w": "by",
     "start_ms": 101260,
-    "end_ms": 101680
+    "end_ms": 101680,
+    "lemma": "by",
+    "pos": "ADP"
   },
   {
     "w": "comparing",
     "start_ms": 101680,
-    "end_ms": 102160
+    "end_ms": 102160,
+    "lemma": "compare",
+    "pos": "VERB"
   },
   {
     "w": "its",
     "start_ms": 102160,
-    "end_ms": 102320
+    "end_ms": 102320,
+    "lemma": "its",
+    "pos": "PRON"
   },
   {
     "w": "predictions",
     "start_ms": 102320,
-    "end_ms": 102620
+    "end_ms": 102620,
+    "lemma": "prediction",
+    "pos": "NOUN"
   },
   {
     "w": "to",
     "start_ms": 102620,
-    "end_ms": 103180
+    "end_ms": 103180,
+    "lemma": "to",
+    "pos": "ADP"
   },
   {
     "w": "an",
     "start_ms": 103180,
-    "end_ms": 103300
+    "end_ms": 103300,
+    "lemma": "an",
+    "pos": "DET"
   },
   {
     "w": "error",
     "start_ms": 103300,
-    "end_ms": 103500
+    "end_ms": 103500,
+    "lemma": "error",
+    "pos": "NOUN"
   },
   {
     "w": "function.",
     "start_ms": 103500,
-    "end_ms": 103820
+    "end_ms": 103820,
+    "lemma": "function",
+    "pos": "NOUN"
   },
   {
     "w": "If",
     "start_ms": 104220,
-    "end_ms": 104300
+    "end_ms": 104300,
+    "lemma": "if",
+    "pos": "SCONJ"
   },
   {
     "w": "it's",
@@ -1707,97 +2375,135 @@
   {
     "w": "a",
     "start_ms": 104480,
-    "end_ms": 104560
+    "end_ms": 104560,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "classification",
     "start_ms": 104560,
-    "end_ms": 104880
+    "end_ms": 104880,
+    "lemma": "classification",
+    "pos": "NOUN"
   },
   {
     "w": "problem,",
     "start_ms": 104880,
-    "end_ms": 105520
+    "end_ms": 105520,
+    "lemma": "problem",
+    "pos": "NOUN"
   },
   {
     "w": "like",
     "start_ms": 105660,
-    "end_ms": 106060
+    "end_ms": 106060,
+    "lemma": "like",
+    "pos": "ADP"
   },
   {
     "w": "is",
     "start_ms": 106060,
-    "end_ms": 106280
+    "end_ms": 106280,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "this",
     "start_ms": 106280,
-    "end_ms": 106400
+    "end_ms": 106400,
+    "lemma": "this",
+    "pos": "DET"
   },
   {
     "w": "animal",
     "start_ms": 106400,
-    "end_ms": 106640
+    "end_ms": 106640,
+    "lemma": "animal",
+    "pos": "NOUN"
   },
   {
     "w": "a",
     "start_ms": 106640,
-    "end_ms": 107000
+    "end_ms": 107000,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "cat",
     "start_ms": 107000,
-    "end_ms": 107220
+    "end_ms": 107220,
+    "lemma": "cat",
+    "pos": "NOUN"
   },
   {
     "w": "or",
     "start_ms": 107220,
-    "end_ms": 107560
+    "end_ms": 107560,
+    "lemma": "or",
+    "pos": "CCONJ"
   },
   {
     "w": "a",
     "start_ms": 107560,
-    "end_ms": 107640
+    "end_ms": 107640,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "dog,",
     "start_ms": 107640,
-    "end_ms": 107920
+    "end_ms": 107920,
+    "lemma": "dog",
+    "pos": "NOUN"
   },
   {
     "w": "the",
     "start_ms": 108160,
-    "end_ms": 108220
+    "end_ms": 108220,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "error",
     "start_ms": 108220,
-    "end_ms": 108460
+    "end_ms": 108460,
+    "lemma": "error",
+    "pos": "NOUN"
   },
   {
     "w": "function",
     "start_ms": 108460,
-    "end_ms": 108820
+    "end_ms": 108820,
+    "lemma": "function",
+    "pos": "NOUN"
   },
   {
     "w": "might",
     "start_ms": 108820,
-    "end_ms": 109120
+    "end_ms": 109120,
+    "lemma": "might",
+    "pos": "AUX"
   },
   {
     "w": "be",
     "start_ms": 109120,
-    "end_ms": 109300
+    "end_ms": 109300,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "accuracy.",
     "start_ms": 109300,
-    "end_ms": 109680
+    "end_ms": 109680,
+    "lemma": "accuracy",
+    "pos": "NOUN"
   },
   {
     "w": "If",
     "start_ms": 110180,
-    "end_ms": 110320
+    "end_ms": 110320,
+    "lemma": "if",
+    "pos": "SCONJ"
   },
   {
     "w": "it's",
@@ -1882,502 +2588,702 @@
   {
     "w": "it",
     "start_ms": 114220,
-    "end_ms": 114300
+    "end_ms": 114300,
+    "lemma": "it",
+    "pos": "PRON"
   },
   {
     "w": "might",
     "start_ms": 114300,
-    "end_ms": 114460
+    "end_ms": 114460,
+    "lemma": "might",
+    "pos": "AUX"
   },
   {
     "w": "be",
     "start_ms": 114460,
-    "end_ms": 114660
+    "end_ms": 114660,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "mean",
     "start_ms": 114660,
-    "end_ms": 115000
+    "end_ms": 115000,
+    "lemma": "mean",
+    "pos": "ADJ"
   },
   {
     "w": "absolute",
     "start_ms": 115000,
-    "end_ms": 115360
+    "end_ms": 115360,
+    "lemma": "absolute",
+    "pos": "ADJ"
   },
   {
     "w": "error.",
     "start_ms": 115360,
-    "end_ms": 115820
+    "end_ms": 115820,
+    "lemma": "error",
+    "pos": "NOUN"
   },
   {
     "w": "Python",
     "start_ms": 116220,
-    "end_ms": 116400
+    "end_ms": 116400,
+    "lemma": "python",
+    "pos": "PROPN"
   },
   {
     "w": "is",
     "start_ms": 116400,
-    "end_ms": 116880
+    "end_ms": 116880,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "the",
     "start_ms": 116880,
-    "end_ms": 117000
+    "end_ms": 117000,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "language",
     "start_ms": 117000,
-    "end_ms": 117220
+    "end_ms": 117220,
+    "lemma": "language",
+    "pos": "NOUN"
   },
   {
     "w": "of",
     "start_ms": 117220,
-    "end_ms": 117360
+    "end_ms": 117360,
+    "lemma": "of",
+    "pos": "ADP"
   },
   {
     "w": "choice",
     "start_ms": 117360,
-    "end_ms": 117500
+    "end_ms": 117500,
+    "lemma": "choice",
+    "pos": "NOUN"
   },
   {
     "w": "among",
     "start_ms": 117500,
-    "end_ms": 117860
+    "end_ms": 117860,
+    "lemma": "among",
+    "pos": "ADP"
   },
   {
     "w": "data",
     "start_ms": 117860,
-    "end_ms": 118060
+    "end_ms": 118060,
+    "lemma": "data",
+    "pos": "NOUN"
   },
   {
     "w": "scientists,",
     "start_ms": 118060,
-    "end_ms": 118440
+    "end_ms": 118440,
+    "lemma": "scientist",
+    "pos": "NOUN"
   },
   {
     "w": "but",
     "start_ms": 118920,
-    "end_ms": 119240
+    "end_ms": 119240,
+    "lemma": "but",
+    "pos": "CCONJ"
   },
   {
     "w": "R",
     "start_ms": 119240,
-    "end_ms": 119480
+    "end_ms": 119480,
+    "lemma": "r",
+    "pos": "PROPN"
   },
   {
     "w": "and",
     "start_ms": 119480,
-    "end_ms": 119780
+    "end_ms": 119780,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "Julia",
     "start_ms": 119780,
-    "end_ms": 120100
+    "end_ms": 120100,
+    "lemma": "julia",
+    "pos": "PROPN"
   },
   {
     "w": "are",
     "start_ms": 120100,
-    "end_ms": 120560
+    "end_ms": 120560,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "also",
     "start_ms": 120560,
-    "end_ms": 120800
+    "end_ms": 120800,
+    "lemma": "also",
+    "pos": "ADV"
   },
   {
     "w": "popular",
     "start_ms": 120800,
-    "end_ms": 121240
+    "end_ms": 121240,
+    "lemma": "popular",
+    "pos": "ADJ"
   },
   {
     "w": "options,",
     "start_ms": 121240,
-    "end_ms": 121620
+    "end_ms": 121620,
+    "lemma": "option",
+    "pos": "NOUN"
   },
   {
     "w": "and",
     "start_ms": 121980,
-    "end_ms": 122080
+    "end_ms": 122080,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "there",
     "start_ms": 122080,
-    "end_ms": 122200
+    "end_ms": 122200,
+    "lemma": "there",
+    "pos": "PRON"
   },
   {
     "w": "are",
     "start_ms": 122200,
-    "end_ms": 122280
+    "end_ms": 122280,
+    "lemma": "be",
+    "pos": "VERB"
   },
   {
     "w": "many",
     "start_ms": 122280,
-    "end_ms": 122420
+    "end_ms": 122420,
+    "lemma": "many",
+    "pos": "ADJ"
   },
   {
     "w": "supporting",
     "start_ms": 122420,
-    "end_ms": 122820
+    "end_ms": 122820,
+    "lemma": "support",
+    "pos": "VERB"
   },
   {
     "w": "frameworks",
     "start_ms": 122820,
-    "end_ms": 123240
+    "end_ms": 123240,
+    "lemma": "framework",
+    "pos": "NOUN"
   },
   {
     "w": "out",
     "start_ms": 123240,
-    "end_ms": 123560
+    "end_ms": 123560,
+    "lemma": "out",
+    "pos": "ADV"
   },
   {
     "w": "there",
     "start_ms": 123560,
-    "end_ms": 123760
+    "end_ms": 123760,
+    "lemma": "there",
+    "pos": "ADV"
   },
   {
     "w": "to",
     "start_ms": 123760,
-    "end_ms": 124020
+    "end_ms": 124020,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "make",
     "start_ms": 124020,
-    "end_ms": 124240
+    "end_ms": 124240,
+    "lemma": "make",
+    "pos": "VERB"
   },
   {
     "w": "the",
     "start_ms": 124240,
-    "end_ms": 124380
+    "end_ms": 124380,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "process",
     "start_ms": 124380,
-    "end_ms": 124640
+    "end_ms": 124640,
+    "lemma": "process",
+    "pos": "NOUN"
   },
   {
     "w": "approachable.",
     "start_ms": 124640,
-    "end_ms": 125280
+    "end_ms": 125280,
+    "lemma": "approachable",
+    "pos": "ADJ"
   },
   {
     "w": "The",
     "start_ms": 125580,
-    "end_ms": 125660
+    "end_ms": 125660,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "end",
     "start_ms": 125660,
-    "end_ms": 125840
+    "end_ms": 125840,
+    "lemma": "end",
+    "pos": "NOUN"
   },
   {
     "w": "result",
     "start_ms": 125840,
-    "end_ms": 126060
+    "end_ms": 126060,
+    "lemma": "result",
+    "pos": "NOUN"
   },
   {
     "w": "of",
     "start_ms": 126060,
-    "end_ms": 126300
+    "end_ms": 126300,
+    "lemma": "of",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 126300,
-    "end_ms": 126420
+    "end_ms": 126420,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "machine",
     "start_ms": 126420,
-    "end_ms": 126600
+    "end_ms": 126600,
+    "lemma": "machine",
+    "pos": "NOUN"
   },
   {
     "w": "learning",
     "start_ms": 126600,
-    "end_ms": 126840
+    "end_ms": 126840,
+    "lemma": "learning",
+    "pos": "NOUN"
   },
   {
     "w": "process",
     "start_ms": 126840,
-    "end_ms": 127260
+    "end_ms": 127260,
+    "lemma": "process",
+    "pos": "NOUN"
   },
   {
     "w": "is",
     "start_ms": 127260,
-    "end_ms": 127640
+    "end_ms": 127640,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "a",
     "start_ms": 127640,
-    "end_ms": 127760
+    "end_ms": 127760,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "model,",
     "start_ms": 127760,
-    "end_ms": 128020
+    "end_ms": 128020,
+    "lemma": "model",
+    "pos": "NOUN"
   },
   {
     "w": "which",
     "start_ms": 128020,
-    "end_ms": 128479
+    "end_ms": 128479,
+    "lemma": "which",
+    "pos": "PRON"
   },
   {
     "w": "is",
     "start_ms": 128479,
-    "end_ms": 128620
+    "end_ms": 128620,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "just",
     "start_ms": 128620,
-    "end_ms": 128880
+    "end_ms": 128880,
+    "lemma": "just",
+    "pos": "ADV"
   },
   {
     "w": "a",
     "start_ms": 128880,
-    "end_ms": 128979
+    "end_ms": 128979,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "file",
     "start_ms": 128979,
-    "end_ms": 129300
+    "end_ms": 129300,
+    "lemma": "file",
+    "pos": "NOUN"
   },
   {
     "w": "that",
     "start_ms": 129300,
-    "end_ms": 129699
+    "end_ms": 129699,
+    "lemma": "that",
+    "pos": "PRON"
   },
   {
     "w": "takes",
     "start_ms": 129699,
-    "end_ms": 129900
+    "end_ms": 129900,
+    "lemma": "take",
+    "pos": "VERB"
   },
   {
     "w": "some",
     "start_ms": 129900,
-    "end_ms": 130120
+    "end_ms": 130120,
+    "lemma": "some",
+    "pos": "DET"
   },
   {
     "w": "input",
     "start_ms": 130120,
-    "end_ms": 130500
+    "end_ms": 130500,
+    "lemma": "input",
+    "pos": "NOUN"
   },
   {
     "w": "data",
     "start_ms": 130500,
-    "end_ms": 130720
+    "end_ms": 130720,
+    "lemma": "datum",
+    "pos": "NOUN"
   },
   {
     "w": "in",
     "start_ms": 130720,
-    "end_ms": 131120
+    "end_ms": 131120,
+    "lemma": "in",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 131120,
-    "end_ms": 131240
+    "end_ms": 131240,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "same",
     "start_ms": 131240,
-    "end_ms": 131400
+    "end_ms": 131400,
+    "lemma": "same",
+    "pos": "ADJ"
   },
   {
     "w": "shape",
     "start_ms": 131400,
-    "end_ms": 131760
+    "end_ms": 131760,
+    "lemma": "shape",
+    "pos": "NOUN"
   },
   {
     "w": "that",
     "start_ms": 131760,
-    "end_ms": 131920
+    "end_ms": 131920,
+    "lemma": "that",
+    "pos": "PRON"
   },
   {
     "w": "it",
     "start_ms": 131920,
-    "end_ms": 132020
+    "end_ms": 132020,
+    "lemma": "it",
+    "pos": "PRON"
   },
   {
     "w": "was",
     "start_ms": 132020,
-    "end_ms": 132100
+    "end_ms": 132100,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "trained",
     "start_ms": 132100,
-    "end_ms": 132300
+    "end_ms": 132300,
+    "lemma": "train",
+    "pos": "VERB"
   },
   {
     "w": "on,",
     "start_ms": 132300,
-    "end_ms": 132620
+    "end_ms": 132620,
+    "lemma": "on",
+    "pos": "ADP"
   },
   {
     "w": "then",
     "start_ms": 132780,
-    "end_ms": 133020
+    "end_ms": 133020,
+    "lemma": "then",
+    "pos": "ADV"
   },
   {
     "w": "spits",
     "start_ms": 133020,
-    "end_ms": 133300
+    "end_ms": 133300,
+    "lemma": "spit",
+    "pos": "VERB"
   },
   {
     "w": "out",
     "start_ms": 133300,
-    "end_ms": 133420
+    "end_ms": 133420,
+    "lemma": "out",
+    "pos": "ADP"
   },
   {
     "w": "a",
     "start_ms": 133420,
-    "end_ms": 133480
+    "end_ms": 133480,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "prediction",
     "start_ms": 133480,
-    "end_ms": 133740
+    "end_ms": 133740,
+    "lemma": "prediction",
+    "pos": "NOUN"
   },
   {
     "w": "that",
     "start_ms": 133740,
-    "end_ms": 134300
+    "end_ms": 134300,
+    "lemma": "that",
+    "pos": "PRON"
   },
   {
     "w": "tries",
     "start_ms": 134300,
-    "end_ms": 134560
+    "end_ms": 134560,
+    "lemma": "try",
+    "pos": "VERB"
   },
   {
     "w": "to",
     "start_ms": 134560,
-    "end_ms": 134740
+    "end_ms": 134740,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "minimize",
     "start_ms": 134740,
-    "end_ms": 134980
+    "end_ms": 134980,
+    "lemma": "minimize",
+    "pos": "VERB"
   },
   {
     "w": "the",
     "start_ms": 134980,
-    "end_ms": 135340
+    "end_ms": 135340,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "error",
     "start_ms": 135340,
-    "end_ms": 135620
+    "end_ms": 135620,
+    "lemma": "error",
+    "pos": "NOUN"
   },
   {
     "w": "that",
     "start_ms": 135620,
-    "end_ms": 135900
+    "end_ms": 135900,
+    "lemma": "that",
+    "pos": "SCONJ"
   },
   {
     "w": "it",
     "start_ms": 135900,
-    "end_ms": 136000
+    "end_ms": 136000,
+    "lemma": "it",
+    "pos": "PRON"
   },
   {
     "w": "was",
     "start_ms": 136000,
-    "end_ms": 136120
+    "end_ms": 136120,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "optimized",
     "start_ms": 136120,
-    "end_ms": 136440
+    "end_ms": 136440,
+    "lemma": "optimize",
+    "pos": "VERB"
   },
   {
     "w": "for.",
     "start_ms": 136440,
-    "end_ms": 136880
+    "end_ms": 136880,
+    "lemma": "for",
+    "pos": "ADP"
   },
   {
     "w": "It",
     "start_ms": 137060,
-    "end_ms": 137140
+    "end_ms": 137140,
+    "lemma": "it",
+    "pos": "PRON"
   },
   {
     "w": "can",
     "start_ms": 137140,
-    "end_ms": 137260
+    "end_ms": 137260,
+    "lemma": "can",
+    "pos": "AUX"
   },
   {
     "w": "then",
     "start_ms": 137260,
-    "end_ms": 137420
+    "end_ms": 137420,
+    "lemma": "then",
+    "pos": "ADV"
   },
   {
     "w": "be",
     "start_ms": 137420,
-    "end_ms": 137540
+    "end_ms": 137540,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "embedded",
     "start_ms": 137540,
-    "end_ms": 137880
+    "end_ms": 137880,
+    "lemma": "embed",
+    "pos": "VERB"
   },
   {
     "w": "on",
     "start_ms": 137880,
-    "end_ms": 138140
+    "end_ms": 138140,
+    "lemma": "on",
+    "pos": "ADP"
   },
   {
     "w": "an",
     "start_ms": 138140,
-    "end_ms": 138240
+    "end_ms": 138240,
+    "lemma": "an",
+    "pos": "DET"
   },
   {
     "w": "actual",
     "start_ms": 138240,
-    "end_ms": 138520
+    "end_ms": 138520,
+    "lemma": "actual",
+    "pos": "ADJ"
   },
   {
     "w": "device",
     "start_ms": 138520,
-    "end_ms": 138880
+    "end_ms": 138880,
+    "lemma": "device",
+    "pos": "NOUN"
   },
   {
     "w": "or",
     "start_ms": 138880,
-    "end_ms": 139300
+    "end_ms": 139300,
+    "lemma": "or",
+    "pos": "CCONJ"
   },
   {
     "w": "deployed",
     "start_ms": 139300,
-    "end_ms": 139460
+    "end_ms": 139460,
+    "lemma": "deploy",
+    "pos": "VERB"
   },
   {
     "w": "to",
     "start_ms": 139460,
-    "end_ms": 139820
+    "end_ms": 139820,
+    "lemma": "to",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 139820,
-    "end_ms": 139920
+    "end_ms": 139920,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "cloud",
     "start_ms": 139920,
-    "end_ms": 140120
+    "end_ms": 140120,
+    "lemma": "cloud",
+    "pos": "NOUN"
   },
   {
     "w": "to",
     "start_ms": 140120,
-    "end_ms": 140520
+    "end_ms": 140520,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "build",
     "start_ms": 140520,
-    "end_ms": 140800
+    "end_ms": 140800,
+    "lemma": "build",
+    "pos": "VERB"
   },
   {
     "w": "a",
     "start_ms": 140800,
-    "end_ms": 141040
+    "end_ms": 141040,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "real",
     "start_ms": 141040,
-    "end_ms": 141240
+    "end_ms": 141240,
+    "lemma": "real",
+    "pos": "ADJ"
   },
   {
     "w": "-world",
@@ -2387,37 +3293,51 @@
   {
     "w": "product.",
     "start_ms": 141520,
-    "end_ms": 141900
+    "end_ms": 141900,
+    "lemma": "product",
+    "pos": "NOUN"
   },
   {
     "w": "This",
     "start_ms": 142260,
-    "end_ms": 142280
+    "end_ms": 142280,
+    "lemma": "this",
+    "pos": "PRON"
   },
   {
     "w": "has",
     "start_ms": 142280,
-    "end_ms": 142400
+    "end_ms": 142400,
+    "lemma": "have",
+    "pos": "AUX"
   },
   {
     "w": "been",
     "start_ms": 142400,
-    "end_ms": 142580
+    "end_ms": 142580,
+    "lemma": "be",
+    "pos": "AUX"
   },
   {
     "w": "machine",
     "start_ms": 142580,
-    "end_ms": 142800
+    "end_ms": 142800,
+    "lemma": "machine",
+    "pos": "NOUN"
   },
   {
     "w": "learning",
     "start_ms": 142800,
-    "end_ms": 143160
+    "end_ms": 143160,
+    "lemma": "learning",
+    "pos": "NOUN"
   },
   {
     "w": "in",
     "start_ms": 143160,
-    "end_ms": 143520
+    "end_ms": 143520,
+    "lemma": "in",
+    "pos": "ADP"
   },
   {
     "w": "100",
@@ -2427,211 +3347,295 @@
   {
     "w": "seconds.",
     "start_ms": 143780,
-    "end_ms": 144260
+    "end_ms": 144260,
+    "lemma": "second",
+    "pos": "NOUN"
   },
   {
     "w": "Like",
     "start_ms": 144680,
-    "end_ms": 144720
+    "end_ms": 144720,
+    "lemma": "like",
+    "pos": "INTJ"
   },
   {
     "w": "and",
     "start_ms": 144720,
-    "end_ms": 144860
+    "end_ms": 144860,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "subscribe",
     "start_ms": 144860,
-    "end_ms": 145120
+    "end_ms": 145120,
+    "lemma": "subscribe",
+    "pos": "VERB"
   },
   {
     "w": "if",
     "start_ms": 145120,
-    "end_ms": 145480
+    "end_ms": 145480,
+    "lemma": "if",
+    "pos": "SCONJ"
   },
   {
     "w": "you",
     "start_ms": 145480,
-    "end_ms": 145600
+    "end_ms": 145600,
+    "lemma": "you",
+    "pos": "PRON"
   },
   {
     "w": "want",
     "start_ms": 145600,
-    "end_ms": 145720
+    "end_ms": 145720,
+    "lemma": "want",
+    "pos": "VERB"
   },
   {
     "w": "to",
     "start_ms": 145720,
-    "end_ms": 145800
+    "end_ms": 145800,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "see",
     "start_ms": 145800,
-    "end_ms": 145920
+    "end_ms": 145920,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "more",
     "start_ms": 145920,
-    "end_ms": 146100
+    "end_ms": 146100,
+    "lemma": "more",
+    "pos": "ADV"
   },
   {
     "w": "short",
     "start_ms": 146100,
-    "end_ms": 146260
+    "end_ms": 146260,
+    "lemma": "short",
+    "pos": "ADJ"
   },
   {
     "w": "videos",
     "start_ms": 146260,
-    "end_ms": 146560
+    "end_ms": 146560,
+    "lemma": "video",
+    "pos": "NOUN"
   },
   {
     "w": "like",
     "start_ms": 146560,
-    "end_ms": 146840
+    "end_ms": 146840,
+    "lemma": "like",
+    "pos": "ADP"
   },
   {
     "w": "this,",
     "start_ms": 146840,
-    "end_ms": 147040
+    "end_ms": 147040,
+    "lemma": "this",
+    "pos": "PRON"
   },
   {
     "w": "and",
     "start_ms": 147360,
-    "end_ms": 147460
+    "end_ms": 147460,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "leave",
     "start_ms": 147460,
-    "end_ms": 147620
+    "end_ms": 147620,
+    "lemma": "leave",
+    "pos": "VERB"
   },
   {
     "w": "a",
     "start_ms": 147620,
-    "end_ms": 147720
+    "end_ms": 147720,
+    "lemma": "a",
+    "pos": "DET"
   },
   {
     "w": "comment",
     "start_ms": 147720,
-    "end_ms": 148000
+    "end_ms": 148000,
+    "lemma": "comment",
+    "pos": "NOUN"
   },
   {
     "w": "if",
     "start_ms": 148000,
-    "end_ms": 148240
+    "end_ms": 148240,
+    "lemma": "if",
+    "pos": "SCONJ"
   },
   {
     "w": "you",
     "start_ms": 148240,
-    "end_ms": 148360
+    "end_ms": 148360,
+    "lemma": "you",
+    "pos": "PRON"
   },
   {
     "w": "want",
     "start_ms": 148360,
-    "end_ms": 148440
+    "end_ms": 148440,
+    "lemma": "want",
+    "pos": "VERB"
   },
   {
     "w": "to",
     "start_ms": 148440,
-    "end_ms": 148520
+    "end_ms": 148520,
+    "lemma": "to",
+    "pos": "PART"
   },
   {
     "w": "see",
     "start_ms": 148520,
-    "end_ms": 148660
+    "end_ms": 148660,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "more",
     "start_ms": 148660,
-    "end_ms": 148840
+    "end_ms": 148840,
+    "lemma": "more",
+    "pos": "ADJ"
   },
   {
     "w": "machine",
     "start_ms": 148840,
-    "end_ms": 149100
+    "end_ms": 149100,
+    "lemma": "machine",
+    "pos": "NOUN"
   },
   {
     "w": "learning",
     "start_ms": 149100,
-    "end_ms": 149360
+    "end_ms": 149360,
+    "lemma": "learn",
+    "pos": "VERB"
   },
   {
     "w": "content",
     "start_ms": 149360,
-    "end_ms": 149620
+    "end_ms": 149620,
+    "lemma": "content",
+    "pos": "NOUN"
   },
   {
     "w": "on",
     "start_ms": 149620,
-    "end_ms": 150040
+    "end_ms": 150040,
+    "lemma": "on",
+    "pos": "ADP"
   },
   {
     "w": "this",
     "start_ms": 150040,
-    "end_ms": 150160
+    "end_ms": 150160,
+    "lemma": "this",
+    "pos": "DET"
   },
   {
     "w": "channel.",
     "start_ms": 150160,
-    "end_ms": 150420
+    "end_ms": 150420,
+    "lemma": "channel",
+    "pos": "NOUN"
   },
   {
     "w": "Thanks",
     "start_ms": 150660,
-    "end_ms": 150760
+    "end_ms": 150760,
+    "lemma": "thank",
+    "pos": "NOUN"
   },
   {
     "w": "for",
     "start_ms": 150760,
-    "end_ms": 150920
+    "end_ms": 150920,
+    "lemma": "for",
+    "pos": "ADP"
   },
   {
     "w": "watching,",
     "start_ms": 150920,
-    "end_ms": 151240
+    "end_ms": 151240,
+    "lemma": "watch",
+    "pos": "VERB"
   },
   {
     "w": "and",
     "start_ms": 151400,
-    "end_ms": 151660
+    "end_ms": 151660,
+    "lemma": "and",
+    "pos": "CCONJ"
   },
   {
     "w": "I",
     "start_ms": 151660,
-    "end_ms": 151820
+    "end_ms": 151820,
+    "lemma": "i",
+    "pos": "PRON"
   },
   {
     "w": "will",
     "start_ms": 151820,
-    "end_ms": 151980
+    "end_ms": 151980,
+    "lemma": "will",
+    "pos": "AUX"
   },
   {
     "w": "see",
     "start_ms": 151980,
-    "end_ms": 152200
+    "end_ms": 152200,
+    "lemma": "see",
+    "pos": "VERB"
   },
   {
     "w": "you",
     "start_ms": 152200,
-    "end_ms": 152400
+    "end_ms": 152400,
+    "lemma": "you",
+    "pos": "PRON"
   },
   {
     "w": "in",
     "start_ms": 152400,
-    "end_ms": 152540
+    "end_ms": 152540,
+    "lemma": "in",
+    "pos": "ADP"
   },
   {
     "w": "the",
     "start_ms": 152540,
-    "end_ms": 152620
+    "end_ms": 152620,
+    "lemma": "the",
+    "pos": "DET"
   },
   {
     "w": "next",
     "start_ms": 152620,
-    "end_ms": 152780
+    "end_ms": 152780,
+    "lemma": "next",
+    "pos": "ADJ"
   },
   {
     "w": "one.",
     "start_ms": 152780,
-    "end_ms": 153040
+    "end_ms": 153040,
+    "lemma": "one",
+    "pos": "NUM"
   }
 ]
