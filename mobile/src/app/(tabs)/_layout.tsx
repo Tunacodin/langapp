@@ -5,9 +5,15 @@ import { Platform } from 'react-native';
 
 import { colors } from '@/constants/appTheme';
 
-// 5 sekme: Keşfet / Shadowing / Gramer / Kartlarım / Profil.
-// Detay ekranlari (player, item, grammar-*, vb.) bu navigatorde DEGIL; kok Stack'te
-// (bkz. app/_layout.tsx). Boylece detaydan/sheet'ten "geri" gercek bir stack pop olur.
+// 5 beceri sekmesi: Dinleme / Okuma / Konusma / Cumle & Kurallar / Profil.
+// - index    = Dinleme (video izle/dinle)
+// - okuma    = Okuma (seviyene uygun metinler)   [/reading root makale ekraniyle
+//              cakismasin diye rota adi 'okuma']
+// - shadowing= Konusma (sesli taklit kutuphanesi) [dosya adi Faz 4'te speaking olur]
+// - grammar  = Cumle & Kurallar (gramer cekirdegi) [dosya adi Faz 4'te patterns olur]
+// - review   = Tekrar; artik sekme DEGIL (href:null ile bardan gizli) ama /review
+//              rotasi calisir; Faz 3'te "Bugun" seridinden acilir.
+// Detay ekranlari (player, item, grammar-*, vb.) kok Stack'te (bkz. app/_layout.tsx).
 export default function TabsLayout() {
   return (
     <Tabs
@@ -30,29 +36,29 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Keşfet',
-          tabBarIcon: ({ color, size }) => <Ionicons name="compass-outline" size={size} color={color} />,
+          title: 'Dinleme',
+          tabBarIcon: ({ color, size }) => <Ionicons name="headset-outline" size={size} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="okuma"
+        options={{
+          title: 'Okuma',
+          tabBarIcon: ({ color, size }) => <Ionicons name="book-outline" size={size} color={color} />,
         }}
       />
       <Tabs.Screen
         name="shadowing"
         options={{
-          title: 'Shadowing',
+          title: 'Konuşma',
           tabBarIcon: ({ color, size }) => <Ionicons name="mic-outline" size={size} color={color} />,
         }}
       />
       <Tabs.Screen
         name="grammar"
         options={{
-          title: 'Lessons',
-          tabBarIcon: ({ color, size }) => <Ionicons name="git-branch-outline" size={size} color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="review"
-        options={{
-          title: 'Kartlarım',
-          tabBarIcon: ({ color, size }) => <Ionicons name="albums-outline" size={size} color={color} />,
+          title: 'Kurallar',
+          tabBarIcon: ({ color, size }) => <Ionicons name="create-outline" size={size} color={color} />,
         }}
       />
       <Tabs.Screen
@@ -62,6 +68,8 @@ export default function TabsLayout() {
           tabBarIcon: ({ color, size }) => <Ionicons name="person-outline" size={size} color={color} />,
         }}
       />
+      {/* Tekrar: bardan gizli ama /review rotasi calisir (bildirimden acilir). */}
+      <Tabs.Screen name="review" options={{ href: null }} />
     </Tabs>
   );
 }

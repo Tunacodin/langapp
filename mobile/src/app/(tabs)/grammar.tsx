@@ -114,7 +114,7 @@ export default function GrammarScreen() {
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <ScrollView ref={scrollRef} contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
-        <ScreenHeader title="Gramer & Kalıplar" subtitle="Konularına göre gramer çalış" icon="git-branch" />
+        <ScreenHeader title="Cümle & Kurallar" subtitle="Cümle kur, kuralları pekiştir" icon="create" />
 
         {/* Arama */}
         <View style={styles.search}>
@@ -221,7 +221,7 @@ export default function GrammarScreen() {
                         {item.label_tr}
                       </Text>
                       <Text
-                        style={[styles.formula, { color: meta.color, backgroundColor: meta.soft }]}
+                        style={[styles.formula, { color: colors.accent, backgroundColor: colors.accentSoft }]}
                         numberOfLines={1}>
                         {item.formula ?? item.norm_pattern.toLowerCase().replace(/_/g, ' ')}
                       </Text>

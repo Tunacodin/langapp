@@ -104,7 +104,7 @@ export default function ShadowingLibrary() {
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <ScrollView ref={scrollRef} contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         {/* Bolum basligi (uygulama adi gecmez) */}
-        <ScreenHeader title="Shadowing" subtitle="Dinleyerek konuşma pratiği" icon="mic" />
+        <ScreenHeader title="Konuşma" subtitle="Sesli pratik yap, telaffuzunu geliştir" icon="mic" />
 
         {/* Arama */}
         <View style={styles.search}>
