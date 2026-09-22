@@ -6,7 +6,16 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { colors, radius, space } from '@/constants/appTheme';
 import { Skeleton } from '@/components/skeleton';
-import { enrollGrammarReview, getGrammarLibrary, GrammarLibRow, isGrammarSaved, removeSavedByFront } from '@/lib/db';
+import {
+  clearActiveFocus,
+  enrollGrammarReview,
+  getActiveFocus,
+  getGrammarLibrary,
+  GrammarLibRow,
+  isGrammarSaved,
+  removeSavedByFront,
+  setActiveFocus,
+} from '@/lib/db';
 import { ProgressRing } from '@/components/progress-ring';
 import { getGrammarLesson } from '@/lib/grammarLessons';
 import { getPoster } from '@/lib/posters';
@@ -170,6 +179,24 @@ export default function GrammarTopicScreen() {
       setSaved(true);
     }
   }
+  // Bu konu aktif ODAK mi? (tum sekmelerde sabitlenen konu)
+  const [isFocus, setIsFocus] = useState(false);
+  useFocusEffect(
+    useCallback(() => {
+      setIsFocus(row ? getActiveFocus()?.key === row.norm_pattern : false);
+    }, [row?.norm_pattern]),
+  );
+  function toggleFocus() {
+    if (!row) return;
+    if (isFocus) {
+      clearActiveFocus();
+      setIsFocus(false);
+    } else {
+      setActiveFocus({ key: row.norm_pattern, label: row.label_tr });
+      setIsFocus(true);
+    }
+  }
+
   const poster = row ? getPoster(row.poster_media) : null;
   const status = row ? statusOf(row) : null;
 
@@ -215,6 +242,16 @@ export default function GrammarTopicScreen() {
         contentContainerStyle={[styles.scroll, { paddingBottom: insets.bottom + 92 }]}
         showsVerticalScrollIndicator={false}>
         {loading ? <TopicSkeleton /> : null}
+
+        {/* Odak dugmesi: bu konuyu tum sekmelerde sabitle (odak rozeti). */}
+        {!loading && row ? (
+          <Pressable style={[styles.focusToggle, isFocus && styles.focusToggleOn]} onPress={toggleFocus}>
+            <Ionicons name={isFocus ? 'locate' : 'locate-outline'} size={18} color={isFocus ? '#fff' : colors.accent} />
+            <Text style={[styles.focusToggleText, isFocus && styles.focusToggleTextOn]}>
+              {isFocus ? 'Bu konu odağın · çıkarmak için dokun' : 'Bu konuyu odağın yap'}
+            </Text>
+          </Pressable>
+        ) : null}
 
         {/* HERO: poster + baslik + formul + gercek durum/sayilar */}
         {!loading && row ? (
@@ -362,6 +399,20 @@ const styles = StyleSheet.create({
   cefrPillText: { fontSize: 11, fontWeight: '800', color: colors.teal, letterSpacing: 0.3 },
 
   scroll: { padding: space.lg, gap: space.lg },
+
+  focusToggle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: space.sm,
+    borderWidth: 1,
+    borderColor: colors.accent,
+    borderRadius: radius.md,
+    paddingVertical: space.md,
+  },
+  focusToggleOn: { backgroundColor: colors.accent },
+  focusToggleText: { fontSize: 14, fontWeight: '800', color: colors.accent },
+  focusToggleTextOn: { color: '#fff' },
 
   hero: {
     flexDirection: 'row',

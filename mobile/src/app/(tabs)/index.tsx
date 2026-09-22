@@ -4,6 +4,7 @@ import { useCallback, useMemo, useState } from 'react';
 import { Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { FocusBadge } from '@/components/focus-badge';
 import { ScreenHeader } from '@/components/screen-header';
 import { Skeleton } from '@/components/skeleton';
 import { colors, radius, space } from '@/constants/appTheme';
@@ -65,6 +66,8 @@ export default function DinlemeScreen() {
             </Pressable>
           }
         />
+
+        <FocusBadge />
 
         {/* Bugun seridi: vadesi gelen tekrarlar icin tek birlesik giris. */}
         {!loading && due > 0 ? (

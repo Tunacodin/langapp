@@ -6,6 +6,7 @@ import { Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { ProgressRing } from '@/components/progress-ring';
+import { FocusBadge } from '@/components/focus-badge';
 import { ScreenHeader } from '@/components/screen-header';
 import { Skeleton } from '@/components/skeleton';
 import { colors, radius, space } from '@/constants/appTheme';
@@ -104,6 +105,8 @@ export default function GrammarScreen() {
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <ScrollView ref={scrollRef} contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
         <ScreenHeader title="Cümle & Kurallar" subtitle="Cümle kur, kuralları pekiştir" icon="create" />
+
+        <FocusBadge />
 
         {/* Arama */}
         <View style={styles.search}>

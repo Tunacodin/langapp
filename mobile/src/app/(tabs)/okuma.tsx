@@ -4,6 +4,7 @@ import { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { FocusBadge } from '@/components/focus-badge';
 import { ScreenHeader } from '@/components/screen-header';
 import { Skeleton } from '@/components/skeleton';
 import { colors, radius, space } from '@/constants/appTheme';
@@ -36,6 +37,8 @@ export default function OkumaScreen() {
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <ScrollView ref={scrollRef} contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         <ScreenHeader title="Okuma" subtitle="Okuyarak kelime hazneni genişlet" icon="book" />
+
+        <FocusBadge />
 
         {/* Sozlugum: kelime kutuphanesi girisi (vocab bu alana ait) */}
         <Pressable style={styles.lexEntry} onPress={() => router.push('/vocabulary')}>

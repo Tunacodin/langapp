@@ -4,6 +4,7 @@ import { useCallback, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { FocusBadge } from '@/components/focus-badge';
 import { ScreenHeader } from '@/components/screen-header';
 import { colors, radius, space } from '@/constants/appTheme';
 import { getSpeakingStats, SpeakingFocusStat } from '@/lib/db';
@@ -30,6 +31,8 @@ export default function KonusmaScreen() {
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <ScrollView ref={scrollRef} contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         <ScreenHeader title="Konuşma" subtitle="Sesli pratik yap, telaffuzunu geliştir" icon="mic" />
+
+        <FocusBadge />
 
         {totalTakes > 0 ? (
           <View style={styles.summary}>

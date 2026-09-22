@@ -1823,6 +1823,32 @@ export function getSpeakingStats(): Record<string, SpeakingFocusStat> {
   return out;
 }
 
+// ===========================================================================
+// Aktif Odak (Global Active Focus Node) - app_meta'da JSON. Bir gramer konusu
+// (norm_pattern) tum ekranlarda "odak rozeti" olarak sabitlenir. Sekmeler serbest
+// kalir; rozet konuldugunda ilgili icerik one cikar / o konunun modulune donulur.
+// ===========================================================================
+export type ActiveFocus = { key: string; label: string };
+
+export function getActiveFocus(): ActiveFocus | null {
+  const v = getSetting('active_focus');
+  if (!v) return null;
+  try {
+    const o = JSON.parse(v) as ActiveFocus;
+    return o && o.key ? o : null;
+  } catch {
+    return null;
+  }
+}
+
+export function setActiveFocus(f: ActiveFocus) {
+  setSetting('active_focus', JSON.stringify({ key: f.key, label: f.label }));
+}
+
+export function clearActiveFocus() {
+  setSetting('active_focus', '');
+}
+
 export type SrsCardRow = {
   id: number;
   front_type: string;
