@@ -82,13 +82,15 @@ export default function KonusmaScreen() {
                   {s && s.takes > 0 ? (
                     <>
                       <View style={styles.metaPill}>
-                        <Ionicons name="mic-outline" size={13} color={colors.accent} />
-                        <Text style={styles.metaText}>{s.takes} kayıt</Text>
-                      </View>
-                      <View style={styles.metaPill}>
                         <Ionicons name="calendar-outline" size={13} color={colors.muted} />
                         <Text style={styles.metaText}>{s.days} gün</Text>
                       </View>
+                      <Pressable
+                        style={styles.historyPill}
+                        onPress={() => router.push(`/speaking-progress?focus=${encodeURIComponent(f.id)}`)}>
+                        <Ionicons name="albums" size={13} color={colors.accent} />
+                        <Text style={styles.historyText}>{s.takes} kayıt</Text>
+                      </Pressable>
                     </>
                   ) : (
                     <Text style={styles.newText}>Henüz başlamadın</Text>
@@ -148,5 +150,15 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   metaText: { fontSize: 11, fontWeight: '700', color: colors.muted },
+  historyPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    backgroundColor: colors.accentSoft,
+    borderRadius: radius.pill,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+  historyText: { fontSize: 11, fontWeight: '800', color: colors.accent },
   newText: { fontSize: 11, fontWeight: '700', color: colors.accent },
 });

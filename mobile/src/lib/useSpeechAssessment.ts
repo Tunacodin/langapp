@@ -26,6 +26,9 @@ export function useSpeechAssessment(text: string, clip?: ListenClip) {
   const [status, setStatus] = useState<RecStatus>('idle');
   const [result, setResult] = useState<PronunciationResult | null>(null);
   const [error, setError] = useState<string | null>(null);
+  // Son kaydin ham uri'si (gecici dosya). Ekran isterse kalici sakla (kayit
+  // geri-dinleme icin); Azure ayarli olmasa BILE dolar.
+  const [lastUri, setLastUri] = useState<string | null>(null);
   const statusRef = useRef<RecStatus>('idle');
 
   // Video sesi oynatici (gorunmez; sadece ses). Kaynak yoksa null -> hicbir sey yuklemez.
@@ -51,17 +54,23 @@ export function useSpeechAssessment(text: string, clip?: ListenClip) {
     return () => sub.remove();
   }, [player]);
 
+  // Varsayilan mod = OYNATMA (allowsRecording:false). Kayit kategorisi (playAndRecord)
+  // yalniz kayit aninda acilir; boylece video/TTS "Dinle" hoparlorden net calar ve
+  // expo-video ile ses oturumu cakismaz. Izin bir kez istenir.
   useEffect(() => {
     (async () => {
-      await requestRecordingPermissionsAsync();
-      await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
+      try {
+        await requestRecordingPermissionsAsync();
+        await setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true });
+      } catch {}
     })();
   }, []);
 
-  // Cumle degisince sonucu sifirla.
+  // Cumle degisince sonucu ve son kaydi sifirla.
   useEffect(() => {
     setResult(null);
     setError(null);
+    setLastUri(null);
   }, [text]);
 
   const listen = useCallback(
@@ -90,22 +99,35 @@ export function useSpeechAssessment(text: string, clip?: ListenClip) {
     } catch {}
     setError(null);
     setResult(null);
-    await recorder.prepareToRecordAsync();
-    recorder.record();
-    setStatus('recording');
+    try {
+      // Kayit kategorisini KAYITTAN HEMEN ONCE ac (video oynaticiyla cakismayi onler).
+      await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
+      await recorder.prepareToRecordAsync();
+      recorder.record();
+      setStatus('recording');
+    } catch (e: any) {
+      // Ses oturumu acilamadi (or. OSStatus 561017449): oynatma moduna don, kullaniciya bildir.
+      setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true }).catch(() => {});
+      setStatus('idle');
+      setError('Mikrofon başlatılamadı. Videoyu durdurup tekrar dene.');
+    }
   }, [recorder, player]);
 
   const stopRec = useCallback(async () => {
     await recorder.stop();
+    // Kayit bitti: oynatma moduna don (Dinle/TTS net calsin, kategori serbest kalsin).
+    setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true }).catch(() => {});
     const uri = recorder.uri;
     if (!uri) {
       setStatus('idle');
       setError('Kayıt alınamadı.');
       return;
     }
+    // Kaydi her durumda dista birak (kalici saklama/geri-dinleme icin).
+    setLastUri(uri);
     if (!azure.configured) {
       setStatus('idle');
-      setError('Azure ayarlı değil: sadece dinle-tekrarla modu.');
+      setError('Azure ayarlı değil: kayıt alındı, puan yok.');
       return;
     }
     setStatus('assessing');
@@ -132,6 +154,7 @@ export function useSpeechAssessment(text: string, clip?: ListenClip) {
     setStatus('idle');
     setResult(null);
     setError(null);
+    setLastUri(null);
   }, [player]);
 
   // Ekrandan cikinca: TTS/video dur, kayit sururse durdur, durum sifirla.
@@ -142,7 +165,10 @@ export function useSpeechAssessment(text: string, clip?: ListenClip) {
         try {
           player.pause();
         } catch {}
-        if (statusRef.current === 'recording') recorder.stop().catch(() => {});
+        if (statusRef.current === 'recording') {
+          recorder.stop().catch(() => {});
+          setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true }).catch(() => {});
+        }
         setStatus('idle');
       };
     }, [recorder, player]),
@@ -150,5 +176,6 @@ export function useSpeechAssessment(text: string, clip?: ListenClip) {
 
   // player + hasClip: ekran videoyu GORUNUR gostermek isterse (VideoView) kullanir.
   // Ayni player "Dinle" ile [start,end] klibini oynatir; ikinci bir oynatici gerekmez.
-  return { status, result, error, listen, toggleRecord, reset, player, hasClip };
+  // lastUri: son kaydin ham uri'si (ekran kalici saklamak isterse).
+  return { status, result, error, listen, toggleRecord, reset, player, hasClip, lastUri };
 }

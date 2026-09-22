@@ -5,9 +5,9 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { colors, radius, space } from '@/constants/appTheme';
-import { addSpeakingTake } from '@/lib/db';
-import type { PronunciationResult } from '@/lib/pronunciation';
+import { addSpeakingTake, updateSpeakingTakeMedia } from '@/lib/db';
 import { getSpeakingFocus } from '@/lib/speaking';
+import { persistTakeAudio } from '@/lib/speaking/media';
 import { useSpeechAssessment } from '@/lib/useSpeechAssessment';
 
 // KONUSMA PRATIGI (v1 - ses): bir odagin varyasyonlarini tek tek calis.
@@ -23,23 +23,29 @@ export default function SpeakingPractice() {
   const [takes, setTakes] = useState(0);
 
   const cur = focus?.variations[idx];
-  const { status, result, error, listen, toggleRecord, reset } = useSpeechAssessment(cur?.en ?? '');
+  const { status, result, error, listen, toggleRecord, reset, lastUri } = useSpeechAssessment(cur?.en ?? '');
 
-  // Her PUANLI sonucu bir kez kaydet (ayni sonuc nesnesi tekrar yazilmasin).
-  const savedRef = useRef<PronunciationResult | null>(null);
+  // Kayit tamamlaninca (lastUri) take olustur + sesi KALICI sakla. Azure ayarli
+  // olmasa da kayit saklanir (puan sonra gelirse ayni take'e yazilir).
+  const takeIdRef = useRef<number | null>(null);
+  const savedUriRef = useRef<string | null>(null);
   useEffect(() => {
-    if (!focus || !cur) return;
-    if (result && result !== savedRef.current) {
-      savedRef.current = result;
-      addSpeakingTake({
-        focus_id: focus.id,
-        variation_key: cur.key,
-        text_en: cur.en,
-        score: Math.round(result.pron),
-      });
-      setTakes((t) => t + 1);
+    if (!focus || !cur || !lastUri || lastUri === savedUriRef.current) return;
+    savedUriRef.current = lastUri;
+    const id = addSpeakingTake({ focus_id: focus.id, variation_key: cur.key, text_en: cur.en, score: null });
+    takeIdRef.current = id;
+    setTakes((t) => t + 1);
+    persistTakeAudio(focus.id, id, lastUri)
+      .then((dest) => updateSpeakingTakeMedia(id, { audio_uri: dest }))
+      .catch(() => {});
+  }, [lastUri, focus, cur]);
+
+  // Puan gelince ayni take'e yaz.
+  useEffect(() => {
+    if (result && takeIdRef.current != null) {
+      updateSpeakingTakeMedia(takeIdRef.current, { score: Math.round(result.pron) });
     }
-  }, [result, focus, cur]);
+  }, [result]);
 
   if (!focus || !cur) {
     return (
@@ -58,10 +64,10 @@ export default function SpeakingPractice() {
   const last = idx >= total - 1;
 
   function advance() {
-    // Puanli kayit zaten useEffect'te otomatik yazildi; bu buton yalniz
-    // sirayi ilerletir / bitirir.
+    // Kayit zaten useEffect'te saklandi; bu buton yalniz sirayi ilerletir / bitirir.
     reset();
-    savedRef.current = null;
+    savedUriRef.current = null;
+    takeIdRef.current = null;
     if (last) setDone(true);
     else setIdx((i) => i + 1);
   }
@@ -73,10 +79,15 @@ export default function SpeakingPractice() {
           <Ionicons name="checkmark-circle" size={56} color={colors.success} />
           <Text style={styles.doneTitle}>Pratik tamam</Text>
           <Text style={styles.doneSub}>
-            {focus.title} · bu turda {takes} puanlı kayıt aldın
+            {focus.title} · bu turda {takes} kayıt aldın
           </Text>
-          <Pressable style={styles.primaryBtn} onPress={() => router.back()}>
-            <Text style={styles.primaryText}>Bitir</Text>
+          <Pressable
+            style={styles.primaryBtn}
+            onPress={() => router.replace(`/speaking-progress?focus=${encodeURIComponent(focus.id)}`)}>
+            <Text style={styles.primaryText}>Kayıtları gör</Text>
+          </Pressable>
+          <Pressable style={styles.secondaryBtn} onPress={() => router.back()}>
+            <Text style={styles.secondaryText}>Bitir</Text>
           </Pressable>
         </View>
       </SafeAreaView>
@@ -261,4 +272,6 @@ const styles = StyleSheet.create({
   doneSub: { fontSize: 14, color: colors.muted, textAlign: 'center' },
   primaryBtn: { backgroundColor: colors.accent, borderRadius: radius.md, paddingVertical: space.md, paddingHorizontal: space.xl, marginTop: space.sm },
   primaryText: { color: '#fff', fontWeight: '800', fontSize: 15 },
+  secondaryBtn: { paddingVertical: space.sm, paddingHorizontal: space.xl },
+  secondaryText: { color: colors.muted, fontWeight: '700', fontSize: 14 },
 });
