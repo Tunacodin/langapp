@@ -9,6 +9,7 @@ import { Skeleton } from '@/components/skeleton';
 import { colors, radius, space } from '@/constants/appTheme';
 import { useScrollTopOnBlur } from '@/lib/useScrollTopOnBlur';
 import {
+  countDueCards,
   CourseUnitOverview,
   getCourseUnits,
   getSetting,
@@ -26,6 +27,7 @@ type Chip = { key: string; label: string; accent?: boolean };
 export default function DinlemeScreen() {
   const [watch, setWatch] = useState<WatchClip[]>([]);
   const [units, setUnits] = useState<CourseUnitOverview[]>([]);
+  const [due, setDue] = useState(0);
   const [level, setLevel] = useState<string | null>(null);
   const [q, setQ] = useState('');
   const [cefr, setCefr] = useState('all'); // 'all' | 'i1' | CEFR kodu
@@ -36,6 +38,7 @@ export default function DinlemeScreen() {
     useCallback(() => {
       setWatch(getWatchClips(60));
       setUnits(getCourseUnits());
+      setDue(countDueCards());
       setLevel(getSetting('level'));
       setLoading(false);
     }, []),
@@ -86,6 +89,21 @@ export default function DinlemeScreen() {
             </>
           }
         />
+
+        {/* Bugun seridi: vadesi gelen tekrarlar icin tek birlesik giris (tum
+            kaynaklar). Sadece bekleyen kart varken gorunur; /review'i acar. */}
+        {!loading && due > 0 ? (
+          <Pressable style={styles.today} onPress={() => router.push('/review')}>
+            <View style={styles.todayIcon}>
+              <Ionicons name="alarm" size={20} color="#fff" />
+            </View>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.todayTitle}>Bugün · {due} hatırlatma</Text>
+              <Text style={styles.todaySub}>Tekrar zamanı gelen kartların seni bekliyor</Text>
+            </View>
+            <Ionicons name="arrow-forward" size={18} color={colors.accent} />
+          </Pressable>
+        ) : null}
 
         {/* Arama + filtre sifirla */}
         <View style={styles.searchRow}>
@@ -296,6 +314,27 @@ const styles = StyleSheet.create({
   unitFoot: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 2 },
   unitCefr: { fontSize: 10, fontWeight: '800', color: colors.teal, backgroundColor: colors.tealSoft, borderRadius: radius.sm, paddingHorizontal: 6, paddingVertical: 1, overflow: 'hidden' },
   unitSoon: { fontSize: 10, color: colors.muted, fontStyle: 'italic' },
+
+  today: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: space.md,
+    backgroundColor: colors.accentSoft,
+    borderWidth: 1,
+    borderColor: colors.accent,
+    borderRadius: radius.md,
+    padding: space.md,
+  },
+  todayIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: radius.sm,
+    backgroundColor: colors.accent,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  todayTitle: { fontSize: 15, fontWeight: '800', color: colors.ink },
+  todaySub: { fontSize: 12, color: colors.muted, marginTop: 2 },
 
   searchRow: { flexDirection: 'row', alignItems: 'center', gap: space.sm },
   search: {
