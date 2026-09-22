@@ -13,14 +13,6 @@ import { getGrammarLibrary, GrammarLibRow } from '@/lib/db';
 import { getPoster } from '@/lib/posters';
 import { useScrollTopOnBlur } from '@/lib/useScrollTopOnBlur';
 
-// CEFR seviye filtreleri (mockup'taki hizli filtre cipleri).
-const LEVELS: { key: string; label: string; match: (cefr: string) => boolean }[] = [
-  { key: 'all', label: 'Tümü', match: () => true },
-  { key: 'basic', label: 'A1-A2 Temel', match: (c) => c === 'A1' || c === 'A2' },
-  { key: 'mid', label: 'B1-B2 Orta', match: (c) => c === 'B1' || c === 'B2' },
-  { key: 'adv', label: 'C1 İleri', match: (c) => c === 'C1' || c === 'C2' },
-];
-
 // Kategori kimligi: baslik + ikon + renk (tonlu kart gorseli icin). Her kategori
 // ayirt edici bir renk alir; acik/tonlu zemin + dolgun ikon (flat, golgesiz).
 type CatMeta = { title: string; tag: string; icon: keyof typeof Ionicons.glyphMap; color: string; soft: string };
@@ -82,7 +74,6 @@ function GrammarSkeleton() {
 export default function GrammarScreen() {
   const [rows, setRows] = useState<GrammarLibRow[]>([]);
   const [q, setQ] = useState('');
-  const [level, setLevel] = useState('all');
   const [loading, setLoading] = useState(true); // ilk yukleme iskeleti
   const scrollRef = useScrollTopOnBlur();
 
@@ -95,12 +86,10 @@ export default function GrammarScreen() {
     }, [load]),
   );
 
-  // Arama + seviye filtresi -> kategoriye gore gruplu bolumler.
+  // Arama -> kategoriye gore gruplu bolumler.
   const sections = useMemo(() => {
     const needle = q.trim().toLowerCase();
-    const lv = LEVELS.find((l) => l.key === level) ?? LEVELS[0];
     const filtered = rows.filter((r) => {
-      if (!lv.match(r.cefr ?? '')) return false;
       if (needle && !`${r.label_tr} ${r.norm_pattern} ${r.formula ?? ''}`.toLowerCase().includes(needle)) return false;
       return true;
     });
@@ -109,7 +98,7 @@ export default function GrammarScreen() {
       const done = items.filter((r) => statusOf(r)?.mastered).length;
       return { cat, meta: CAT_META[cat], items, done };
     }).filter((s) => s.items.length > 0);
-  }, [rows, q, level]);
+  }, [rows, q]);
 
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
@@ -132,22 +121,6 @@ export default function GrammarScreen() {
             </Pressable>
           )}
         </View>
-
-        {/* Seviye cipleri */}
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          contentContainerStyle={styles.chipsRow}
-          style={styles.chipsWrap}>
-          {LEVELS.map((l) => {
-            const on = l.key === level;
-            return (
-              <Pressable key={l.key} style={[styles.chip, on && styles.chipOn]} onPress={() => setLevel(l.key)}>
-                <Text style={[styles.chipText, on && styles.chipTextOn]}>{l.label}</Text>
-              </Pressable>
-            );
-          })}
-        </ScrollView>
 
         {loading ? <GrammarSkeleton /> : null}
 
