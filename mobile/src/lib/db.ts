@@ -378,6 +378,9 @@ export function initSchema() {
     -- (media_id, sentence_idx, lexicon_id). Diger kartlar (front_type,front_en).
     -- Kisitlar kismi (partial) UNIQUE index ile (asagida) kurulur; tablo-ici
     -- UNIQUE YOK (eski sema onu iceriyorsa ensureColumns yeniden kurar).
+    -- source: kartin hangi ana bolumden ELLE kaydedildigi (Tekrar gruplamasi icin):
+    -- 'vocab' | 'grammar' | 'shadow' | 'article' | 'watch'. NULL = eski/otomatik
+    -- veri (Tekrar havuzunda gorunmez). Otomatik enroll YOK; yalniz kullanici ekler.
     CREATE TABLE IF NOT EXISTS srs_cards (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       front_type TEXT NOT NULL,
@@ -386,6 +389,7 @@ export function initSchema() {
       media_id TEXT,
       sentence_idx INTEGER,
       lexicon_id INTEGER,
+      source TEXT,
       card_json TEXT,
       due_ms INTEGER,
       stability REAL DEFAULT 0,
@@ -431,6 +435,22 @@ export function initSchema() {
       word_count INTEGER NOT NULL DEFAULT 0,
       read_minutes INTEGER NOT NULL DEFAULT 0
     );
+
+    -- Konusma pratigi kayitlari (KULLANICI VERISI, seed tazelemede SILINMEZ).
+    -- Her satir bir "take": bir odak varyasyonu icin ses (+ opsiyonel video) kaydi.
+    -- audio/video_uri = FileSystem yolu (yalnizca yerel; buluta gitmez).
+    CREATE TABLE IF NOT EXISTS speaking_takes (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      focus_id TEXT NOT NULL,
+      variation_key TEXT NOT NULL,
+      text_en TEXT NOT NULL,
+      audio_uri TEXT,
+      video_uri TEXT,
+      score INTEGER,
+      duration_ms INTEGER NOT NULL DEFAULT 0,
+      created_at INTEGER NOT NULL DEFAULT 0
+    );
+    CREATE INDEX IF NOT EXISTS ix_speaking_focus ON speaking_takes (focus_id, created_at);
 
     CREATE INDEX IF NOT EXISTS ix_occ_surface ON word_occurrences (surface);
     CREATE INDEX IF NOT EXISTS ix_occ_sentence ON word_occurrences (media_id, sentence_idx);
@@ -506,6 +526,9 @@ function ensureColumns() {
       DROP TABLE srs_cards_old;
     `);
   }
+  // source: kartin geldigi ana bolum (Tekrar gruplamasi). Eski DB'lerde yoksa ekle.
+  const sc2 = db.getAllSync<{ name: string }>(`PRAGMA table_info(srs_cards)`).map((c) => c.name);
+  if (!sc2.includes('source')) db.execSync(`ALTER TABLE srs_cards ADD COLUMN source TEXT`);
 }
 
 // ---------------------------------------------------------------------------
@@ -868,6 +891,7 @@ export function getSentencesByMedia(mediaId: string): ShadowSentence[] {
 export const SHADOW_DONE = 80;
 
 // Bir cumle denemesini kaydet: en iyi skoru yukselt, deneme sayacini artir.
+// NOT: Tekrar havuzuna SESSIZCE eklemez; kullanici "Kaydet" ile bilerek ekler.
 export function recordShadowAttempt(mediaId: string, sentIdx: number, score: number) {
   db.runSync(
     `INSERT INTO shadow_progress (media_id, sent_idx, best_score, attempts, updated_at)
@@ -1691,12 +1715,14 @@ export function addSrsCard(input: {
   media_id?: string;
   sentence_idx?: number;
   lexicon_id?: number;
+  source?: SavedSource; // hangi ana bolumden kaydedildi (Tekrar gruplamasi)
+  no_card?: boolean; // true: FSRS doner-kart uretme (makale/izle gibi baglantilar)
 }) {
-  const { card_json, due_ms } = emptyCard();
+  const { card_json, due_ms } = input.no_card ? { card_json: null, due_ms: null } : emptyCard();
   db.runSync(
     `INSERT OR IGNORE INTO srs_cards
-       (front_type, front_en, back_tr, media_id, sentence_idx, lexicon_id, card_json, due_ms, state)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, 0)`,
+       (front_type, front_en, back_tr, media_id, sentence_idx, lexicon_id, source, card_json, due_ms, state)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 0)`,
     [
       input.front_type,
       input.front_en,
@@ -1704,6 +1730,7 @@ export function addSrsCard(input: {
       input.media_id ?? null,
       input.sentence_idx ?? null,
       input.lexicon_id ?? null,
+      input.source ?? null,
       card_json,
       due_ms,
     ],
@@ -1713,6 +1740,87 @@ export function addSrsCard(input: {
 export function countSrsCards(): number {
   const r = db.getFirstSync<{ c: number }>(`SELECT COUNT(*) AS c FROM srs_cards`);
   return r?.c ?? 0;
+}
+
+// ===========================================================================
+// Konusma pratigi kayitlari (speaking_takes) - KULLANICI VERISI
+// ===========================================================================
+export type SpeakingTake = {
+  id: number;
+  focus_id: string;
+  variation_key: string;
+  text_en: string;
+  audio_uri: string | null;
+  video_uri: string | null;
+  score: number | null;
+  duration_ms: number;
+  created_at: number;
+};
+
+// Bir kaydi ekle; yeni satirin id'sini don (dosya adlandirma icin).
+export function addSpeakingTake(t: {
+  focus_id: string;
+  variation_key: string;
+  text_en: string;
+  audio_uri?: string | null;
+  video_uri?: string | null;
+  score?: number | null;
+  duration_ms?: number;
+}): number {
+  const res = db.runSync(
+    `INSERT INTO speaking_takes
+       (focus_id, variation_key, text_en, audio_uri, video_uri, score, duration_ms, created_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+    [
+      t.focus_id,
+      t.variation_key,
+      t.text_en,
+      t.audio_uri ?? null,
+      t.video_uri ?? null,
+      t.score ?? null,
+      t.duration_ms ?? 0,
+      Date.now(),
+    ],
+  );
+  return res.lastInsertRowId as number;
+}
+
+// Bir kaydin dosya yollarini (video guncellenirse) sonradan yaz.
+export function updateSpeakingTakeMedia(id: number, m: { audio_uri?: string | null; video_uri?: string | null; score?: number | null }) {
+  db.runSync(
+    `UPDATE speaking_takes SET
+       audio_uri = COALESCE(?, audio_uri),
+       video_uri = COALESCE(?, video_uri),
+       score = COALESCE(?, score)
+     WHERE id = ?`,
+    [m.audio_uri ?? null, m.video_uri ?? null, m.score ?? null, id],
+  );
+}
+
+export function getSpeakingTakes(focusId: string): SpeakingTake[] {
+  return db.getAllSync<SpeakingTake>(
+    `SELECT * FROM speaking_takes WHERE focus_id = ? ORDER BY created_at DESC`,
+    [focusId],
+  );
+}
+
+export function deleteSpeakingTake(id: number) {
+  db.runSync(`DELETE FROM speaking_takes WHERE id = ?`, [id]);
+}
+
+export type SpeakingFocusStat = { takes: number; days: number; last_at: number | null };
+// Odak basina: toplam kayit, farkli gun sayisi (UTC gun bucket'i), son kayit ms.
+export function getSpeakingStats(): Record<string, SpeakingFocusStat> {
+  const rows = db.getAllSync<{ focus_id: string; takes: number; days: number; last_at: number }>(
+    `SELECT focus_id,
+            COUNT(*) AS takes,
+            COUNT(DISTINCT created_at / 86400000) AS days,
+            MAX(created_at) AS last_at
+     FROM speaking_takes GROUP BY focus_id`,
+  );
+  const out: Record<string, SpeakingFocusStat> = {};
+  for (const r of rows) out[r.focus_id] = { takes: r.takes, days: r.days, last_at: r.last_at };
+  return out;
 }
 
 export type SrsCardRow = {
@@ -1751,6 +1859,227 @@ export function countDueCards(): number {
     [Date.now()],
   );
   return r?.c ?? 0;
+}
+
+// ===========================================================================
+// TEKRAR / KAYDEDILENLER (elle): kullanici 5 ana bolumden (kelime/gramer/shadow/
+// makale/izle) bir ogeyi BILEREK kaydeder; Tekrar ekraninda kaynagina gore
+// gruplanir. Otomatik/sessiz ekleme YOK. Her save 'source' damgalar.
+// (front_type, front_en) benzersiz oldugu icin ayni oge iki kez eklenmez.
+// ===========================================================================
+export type SavedSource = 'vocab' | 'grammar' | 'shadow' | 'article' | 'watch';
+
+// Kelime kaydet (Tekrar'da doner-kart). front_type='vocab' + lexicon_id -> vocab
+// hub'inda "kayitli" isareti yanar. Ayni kok bir kez (elle var-yok kontrolu).
+export function saveVocabReview(lexiconId: number, lemma: string, meaning?: string | null) {
+  const w = (lemma ?? '').trim();
+  if (!w || !lexiconId) return;
+  const exists = db.getFirstSync<{ id: number }>(
+    `SELECT id FROM srs_cards WHERE front_type = 'vocab' AND lexicon_id = ?`,
+    [lexiconId],
+  );
+  if (exists) return;
+  addSrsCard({ front_type: 'vocab', front_en: w, back_tr: meaning ?? '', lexicon_id: lexiconId, source: 'vocab' });
+}
+
+// Kelime sheet'inde bir ornek cumleyi elle "+" ile Tekrar'a tasima (kelime grubu).
+export function enrollExampleReview(textEn: string, textTr?: string | null) {
+  const en = (textEn ?? '').trim();
+  if (!en) return;
+  addSrsCard({ front_type: 'sentence', front_en: en, back_tr: textTr ?? '', source: 'vocab' });
+}
+
+// Gramer konusunu kaydet. front_en = norm_pattern (getGrammarLibrary join anahtari
+// ile ayni), back_tr = Turkce ad. Tekrar'da tiklayinca konu detayi acilir.
+export function enrollGrammarReview(normPattern: string, labelTr?: string | null) {
+  const p = (normPattern ?? '').trim();
+  if (!p) return;
+  addSrsCard({ front_type: 'grammar', front_en: p, back_tr: labelTr ?? '', source: 'grammar' });
+}
+
+// Shadowing cumlesini kaydet. Tekrar'da tiklayinca studyoda o cumle acilir.
+// media_id/idx yoksa (havuz/tek cumle) yalniz metinle kaydedilir.
+export function saveShadowReview(
+  mediaId: string | null | undefined,
+  sentIdx: number | null | undefined,
+  textEn: string,
+  textTr?: string | null,
+) {
+  const en = (textEn ?? '').trim();
+  if (!en) return;
+  addSrsCard({
+    front_type: 'sentence',
+    front_en: en,
+    back_tr: textTr ?? '',
+    media_id: mediaId ?? undefined,
+    sentence_idx: sentIdx ?? undefined,
+    source: 'shadow',
+  });
+}
+
+// Makaleyi kaydet (kart degil, baglanti). front_en = article_id, back_tr = baslik.
+export function saveArticleReview(articleId: string, title: string) {
+  const id = (articleId ?? '').trim();
+  if (!id) return;
+  addSrsCard({ front_type: 'article', front_en: id, back_tr: title ?? '', source: 'article', no_card: true });
+}
+
+// Videoyu kaydet (kart degil, baglanti). front_en = media_id, back_tr = baslik.
+export function saveWatchReview(mediaId: string, title: string) {
+  const id = (mediaId ?? '').trim();
+  if (!id) return;
+  addSrsCard({ front_type: 'watch', front_en: id, back_tr: title ?? '', media_id: id, source: 'watch', no_card: true });
+}
+
+// --- Kayitli mi? (buton durumu) ---
+export function isVocabSaved(lexiconId: number): boolean {
+  return !!db.getFirstSync<{ id: number }>(
+    `SELECT id FROM srs_cards WHERE front_type = 'vocab' AND lexicon_id = ?`,
+    [lexiconId],
+  );
+}
+export function isSavedByFront(frontType: string, frontEn: string): boolean {
+  return !!db.getFirstSync<{ id: number }>(
+    `SELECT id FROM srs_cards WHERE front_type = ? AND front_en = ?`,
+    [frontType, (frontEn ?? '').trim()],
+  );
+}
+export function isGrammarSaved(normPattern: string): boolean {
+  return isSavedByFront('grammar', normPattern);
+}
+export function isArticleSaved(articleId: string): boolean {
+  return isSavedByFront('article', articleId);
+}
+export function isWatchSaved(mediaId: string): boolean {
+  return isSavedByFront('watch', mediaId);
+}
+
+// Kaydi kaldir (kart id ile ya da (front_type, front_en) ile).
+export function removeSavedById(id: number) {
+  db.runSync(`DELETE FROM srs_cards WHERE id = ?`, [id]);
+}
+export function removeSavedByFront(frontType: string, frontEn: string) {
+  db.runSync(`DELETE FROM srs_cards WHERE front_type = ? AND front_en = ?`, [frontType, (frontEn ?? '').trim()]);
+}
+export function removeVocabSaved(lexiconId: number) {
+  db.runSync(`DELETE FROM srs_cards WHERE front_type = 'vocab' AND lexicon_id = ?`, [lexiconId]);
+}
+
+// --- Tekrar ekrani: kaynagina gore gruplanmis kayitlar ---
+export type SavedRow = {
+  id: number;
+  source: SavedSource;
+  front_type: string;
+  front_en: string;
+  back_tr: string | null;
+  media_id: string | null;
+  sentence_idx: number | null;
+  lexicon_id: number | null;
+  card_json: string | null;
+  due_ms: number | null;
+  media_title: string | null; // shadow/watch: kaynak video basligi (alt satir)
+};
+export function getSavedItems(): SavedRow[] {
+  return db.getAllSync<SavedRow>(
+    `SELECT c.id, c.source, c.front_type, c.front_en, c.back_tr, c.media_id, c.sentence_idx,
+            c.lexicon_id, c.card_json, c.due_ms,
+            (SELECT m.title FROM media_items m WHERE m.id = c.media_id) AS media_title
+     FROM srs_cards c
+     WHERE c.source IS NOT NULL
+     ORDER BY c.id DESC`,
+  );
+}
+export type SavedGroup = { source: SavedSource; items: SavedRow[] };
+export function getSavedGrouped(): SavedGroup[] {
+  const order: SavedSource[] = ['vocab', 'grammar', 'shadow', 'article', 'watch'];
+  const rows = getSavedItems();
+  return order
+    .map((source) => ({ source, items: rows.filter((r) => r.source === source) }))
+    .filter((g) => g.items.length > 0);
+}
+
+// Vakti gelen gramer konulari (kart flip yerine "konuyu tekrar et" baglantisi).
+export type DueGrammar = {
+  norm_pattern: string;
+  label_tr: string;
+  formula: string | null;
+  cefr: string | null;
+  due_ms: number;
+  state: number;
+};
+export function getDueGrammar(limit = 20): DueGrammar[] {
+  return db.getAllSync<DueGrammar>(
+    `SELECT c.front_en AS norm_pattern, gt.label_tr, gt.formula, gt.cefr, c.due_ms, c.state
+     FROM srs_cards c JOIN grammar_topics gt ON gt.norm_pattern = c.front_en
+     WHERE c.front_type = 'grammar' AND c.due_ms IS NOT NULL AND c.due_ms <= ?
+     ORDER BY c.due_ms LIMIT ?`,
+    [Date.now(), limit],
+  );
+}
+
+// "Geri donuk calismalar": bir sure once yapip donmedigin video/shadowing.
+// idleDays'ten eski dokunulmus, tamamlanmamis olanlar; en cok ihmal edilen once.
+export type RevisitItem = {
+  kind: 'video' | 'shadowing';
+  media_id: string;
+  title: string;
+  youtube_id: string | null;
+  updated_at: number;
+  days: number; // kac gun once dokunuldu
+  detail: string; // dururst kisa aciklama (gercek sayilardan)
+};
+export function getRevisitItems(idleDays = 1, limit = 8): RevisitItem[] {
+  const now = Date.now();
+  const cutoff = now - idleDays * 86400000;
+  const out: RevisitItem[] = [];
+
+  // Video: yarim birakilmis izleme (>=%95 hariclenir).
+  const vids = db.getAllSync<{
+    media_id: string; title: string; youtube_id: string | null;
+    updated_at: number; position_ms: number; duration_ms: number;
+  }>(
+    `SELECT m.id AS media_id, m.title, m.youtube_id, w.updated_at, w.position_ms,
+            COALESCE(NULLIF(w.duration_ms, 0),
+                     (SELECT MAX(s.end_ms) FROM sentences s WHERE s.media_id = m.id), 0) AS duration_ms
+     FROM watch_progress w JOIN media_items m ON m.id = w.media_id
+     WHERE w.position_ms > 0 AND w.updated_at > 0 AND w.updated_at < ?
+     ORDER BY w.updated_at ASC`,
+    [cutoff],
+  );
+  for (const v of vids) {
+    if (v.duration_ms > 0 && v.position_ms / v.duration_ms >= 0.95) continue;
+    const pct = v.duration_ms > 0 ? Math.round((v.position_ms / v.duration_ms) * 100) : 0;
+    out.push({
+      kind: 'video', media_id: v.media_id, title: v.title, youtube_id: v.youtube_id,
+      updated_at: v.updated_at, days: Math.floor((now - v.updated_at) / 86400000),
+      detail: pct > 0 ? `Izlemede %${pct} kaldin` : 'Yarim kaldi',
+    });
+  }
+
+  // Shadowing: bir videoda calisip tamamlamadigin cumleler.
+  const sh = db.getAllSync<{
+    media_id: string; title: string; youtube_id: string | null;
+    updated_at: number; done: number; total: number;
+  }>(
+    `SELECT p.media_id, m.title, m.youtube_id, MAX(p.updated_at) AS updated_at,
+            SUM(CASE WHEN p.best_score >= ${SHADOW_DONE} THEN 1 ELSE 0 END) AS done,
+            (SELECT COUNT(*) FROM sentences s
+               WHERE s.media_id = p.media_id AND TRIM(s.text_en) <> '') AS total
+     FROM shadow_progress p JOIN media_items m ON m.id = p.media_id
+     GROUP BY p.media_id
+     HAVING MAX(p.updated_at) < ? AND done < total
+     ORDER BY updated_at ASC`,
+    [cutoff],
+  );
+  for (const s of sh) {
+    out.push({
+      kind: 'shadowing', media_id: s.media_id, title: s.title, youtube_id: s.youtube_id,
+      updated_at: s.updated_at, days: Math.floor((now - s.updated_at) / 86400000),
+      detail: `Shadowing ${s.done}/${s.total} cumle`,
+    });
+  }
+
+  return out.sort((a, b) => a.updated_at - b.updated_at).slice(0, limit);
 }
 
 // ---------------------------------------------------------------------------
