@@ -37,8 +37,10 @@ export default function ProfileScreen() {
     }, []),
   );
 
-  const memoryR = cards.length
-    ? Math.round((cards.reduce((a, c) => a + retrievability(c.card_json), 0) / cards.length) * 100)
+  // Yalniz doner-kartlar (card_json dolu) hafiza skoruna girer; makale/izle kayitlari kartsizdir.
+  const flipCards = cards.filter((c) => c.card_json);
+  const memoryR = flipCards.length
+    ? Math.round((flipCards.reduce((a, c) => a + retrievability(c.card_json), 0) / flipCards.length) * 100)
     : 0;
   const nextLevel = level ? LEVELS[Math.min(LEVELS.indexOf(level) + 1, LEVELS.length - 1)] : 'C1';
   const lastSource = cards.find((c) => c.media_title)?.media_title ?? null;
@@ -87,7 +89,7 @@ export default function ProfileScreen() {
             <View style={[styles.fill, { width: `${memoryR}%` }]} />
           </View>
           <Text style={styles.progressSub}>
-            {cards.length > 0 ? 'FSRS unutma eğrisine göre tahmini hatırlama' : 'Kart ekleyince burada hafıza skorun görünür'}
+            {cards.length > 0 ? 'Kartların akılda kalıcılığına göre tahmini hatırlama' : 'Kart ekleyince burada hafıza skorun görünür'}
           </Text>
         </View>
 

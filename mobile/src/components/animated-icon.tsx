@@ -41,7 +41,7 @@ export function AnimatedSplashOverlay() {
       <View style={styles.mark}>
         <Ionicons name="infinite" size={34} color={colors.accent} />
       </View>
-      <Text style={styles.tagline}>Otantik Videolar · Shadowing · FSRS</Text>
+      <Text style={styles.tagline}>Otantik Videolar · Sesli Taklit · Akıllı Tekrar</Text>
     </View>
   );
 

@@ -16,13 +16,13 @@ const SLIDES: Slide[] = [
   },
   {
     icon: 'mic-outline',
-    title: 'Whisper AI ile Shadowing',
-    body: 'Cümleyi sesli tekrar et; telaffuzunu ve ritmini gerçek zamanlı ölç.',
+    title: 'Sesli taklitle konuş',
+    body: 'Cümleyi sesli tekrar et; telaffuzunu ve ritmini anında ölç.',
   },
   {
     icon: 'repeat-outline',
-    title: 'FSRS ile kalıcı bellek',
-    body: 'Öğrendiğini unutmadan hemen önce tekrar et; aralıklı tekrar en verimli anı seçer.',
+    title: 'Akıllı tekrarla kalıcı bellek',
+    body: 'Öğrendiğini unutmadan hemen önce tekrar et; akıllı tekrar en verimli anı seçer.',
   },
 ];
 

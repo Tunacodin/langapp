@@ -30,7 +30,7 @@ function unitCards(lesson: GrammarLesson, patternKey: string, title: string) {
   return out;
 }
 
-const TABS = ['Test Soruları', 'Kural Özeti', 'FSRS Havuzu'];
+const TABS = ['Test Soruları', 'Kural Özeti', 'Tekrar Havuzu'];
 
 export default function GrammarExamScreen() {
   const p = useLocalSearchParams<{ key?: string; title?: string }>();
@@ -56,7 +56,7 @@ export default function GrammarExamScreen() {
     if (!lesson || !p.key) return;
     const cards = unitCards(lesson, p.key, title);
     const before = countSrsCards();
-    cards.forEach((c) => addSrsCard(c));
+    cards.forEach((c) => addSrsCard({ ...c, source: 'grammar' }));
     const after = countSrsCards();
     setPool({ total: cards.length, added: after - before });
   }
@@ -85,7 +85,7 @@ export default function GrammarExamScreen() {
           {row?.cefr ? <Pill text={`${row.cefr} Seviye`} /> : null}
           <Pill text="Ünite Değerlendirmesi" tone="teal" />
           {exam.minutes ? <Pill text={`${exam.minutes} dk`} /> : null}
-          <Pill text={`${exam.stages.length} soru & FSRS`} />
+          <Pill text={`${exam.stages.length} soru & tekrar`} />
         </View>
         <View style={styles.intro}>
           <Text style={styles.h2}>Ünite Sonu Sınavı & Kazanım Kontrolü</Text>
@@ -181,10 +181,10 @@ export default function GrammarExamScreen() {
               <View style={styles.fsrsIcon}>
                 <Ionicons name="flash" size={16} color={colors.accent} />
               </View>
-              <Text style={styles.fsrsTitle}>FSRS Hafıza Kartı Havuzu</Text>
+              <Text style={styles.fsrsTitle}>Hafıza Kartı Havuzu</Text>
             </View>
             <Text style={styles.fsrsText}>
-              Bu ünitedeki kilit cümleler ve gramer kalıbı, aralıklı tekrar (FSRS) planına eklenir. Kartlar
+              Bu ünitedeki kilit cümleler ve gramer kalıbı, akıllı tekrar planına eklenir. Kartlar
               "Kartlarım" ekranında hemen tekrara hazırdır.
             </Text>
 

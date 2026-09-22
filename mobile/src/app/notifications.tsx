@@ -4,12 +4,13 @@ import { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { Skeleton } from '@/components/skeleton';
 import { colors, radius, space } from '@/constants/appTheme';
 import { countDueCards, getAllCards, getDueCards, getGrammarLibrary, getMedia } from '@/lib/db';
 import { retrievability } from '@/lib/srs';
 
 type Kind = 'reminder' | 'progress' | 'info';
-type Href = '/(tabs)/index' | '/review' | '/grammar' | '/shadowing';
+type Href = '/' | '/review' | '/grammar' | '/shadowing';
 type Notif = {
   id: string;
   kind: Kind;
@@ -49,8 +50,9 @@ function buildNotifs(): Notif[] {
     });
   }
 
-  if (cards.length > 0) {
-    const r = Math.round((cards.reduce((a, c) => a + retrievability(c.card_json), 0) / cards.length) * 100);
+  const flipCards = cards.filter((c) => c.card_json);
+  if (flipCards.length > 0) {
+    const r = Math.round((flipCards.reduce((a, c) => a + retrievability(c.card_json), 0) / flipCards.length) * 100);
     list.push({
       id: 'memory',
       kind: 'progress',
@@ -58,7 +60,7 @@ function buildNotifs(): Notif[] {
       tint: colors.teal,
       soft: colors.tealSoft,
       title: `Hafıza koruman %${r}`,
-      body: 'FSRS unutma eğrisine göre kayıtlı kartlarının tahmini hatırlanma oranı.',
+      body: 'Kayıtlı kartlarının akılda kalıcılığına göre tahmini hatırlanma oranı.',
       cta: { label: 'Kartlarım', to: '/review' },
     });
   } else {
@@ -70,7 +72,7 @@ function buildNotifs(): Notif[] {
       soft: colors.accentSoft,
       title: 'Henüz kart eklemedin',
       body: 'Videolardaki cümle ve kalıpları kaydederek akıllı hafıza planını başlat.',
-      cta: { label: 'Videoları Keşfet', to: '/(tabs)/index' },
+      cta: { label: 'Videoları Keşfet', to: '/' },
     });
   }
 
@@ -100,7 +102,7 @@ function buildNotifs(): Notif[] {
       soft: colors.surface,
       title: `Kütüphanende ${videos} video var`,
       body: 'Seviyene uygun otantik videoları izle, yeni kalıpları yakala.',
-      cta: { label: 'İzle', to: '/(tabs)/index' },
+      cta: { label: 'İzle', to: '/' },
     });
   }
 
@@ -111,10 +113,12 @@ export default function NotificationsScreen() {
   const [notifs, setNotifs] = useState<Notif[]>([]);
   const [filter, setFilter] = useState<'all' | Kind>('all');
   const [read, setRead] = useState<Set<string>>(new Set());
+  const [loading, setLoading] = useState(true); // ilk yukleme iskeleti
 
   useFocusEffect(
     useCallback(() => {
       setNotifs(buildNotifs());
+      setLoading(false);
     }, []),
   );
 
@@ -160,7 +164,18 @@ export default function NotificationsScreen() {
       </ScrollView>
 
       <ScrollView contentContainerStyle={styles.list} showsVerticalScrollIndicator={false}>
-        {list.length === 0 ? (
+        {loading ? (
+          [0, 1, 2, 3].map((i) => (
+            <View key={i} style={styles.card}>
+              <Skeleton width={44} height={44} radius={radius.md} />
+              <View style={{ flex: 1, gap: space.sm }}>
+                <Skeleton width="60%" height={14} />
+                <Skeleton width="90%" height={11} />
+                <Skeleton width="40%" height={11} />
+              </View>
+            </View>
+          ))
+        ) : list.length === 0 ? (
           <View style={styles.empty}>
             <Ionicons name="notifications-off-outline" size={44} color={colors.muted} />
             <Text style={styles.emptyText}>Bu filtrede bildirim yok.</Text>
@@ -176,7 +191,7 @@ export default function NotificationsScreen() {
                 <Text style={styles.cardTitle}>{n.title}</Text>
                 <Text style={styles.cardBody}>{n.body}</Text>
                 {n.cta ? (
-                  <Pressable style={styles.cardCta} onPress={() => router.navigate(n.cta!.to)}>
+                  <Pressable style={styles.cardCta} onPress={() => router.navigate(n.cta!.to as never)}>
                     <Text style={styles.cardCtaText}>{n.cta.label}</Text>
                     <Ionicons name="arrow-forward" size={15} color={colors.accent} />
                   </Pressable>

@@ -69,9 +69,10 @@ export function previewIntervals(cardJson: string, now = new Date()) {
   } as Record<Grade, string>;
 }
 
+// 3 sade buton. Arkada FSRS 4 not kullanir; Kolay = Good (Easy'i atliyoruz,
+// araliklar biraz daha temkinli olur ve kullaniciyi yormaz).
 export const RATINGS: { grade: Grade; label: string }[] = [
-  { grade: Rating.Again, label: 'Tekrar' },
-  { grade: Rating.Hard, label: 'Zor' },
-  { grade: Rating.Good, label: 'İyi' },
-  { grade: Rating.Easy, label: 'Kolay' },
+  { grade: Rating.Again, label: 'Bilemedim' },
+  { grade: Rating.Hard, label: 'Zorlandım' },
+  { grade: Rating.Good, label: 'Kolay' },
 ];

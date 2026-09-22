@@ -1,11 +1,12 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router, useFocusEffect, useLocalSearchParams } from 'expo-router';
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { colors, radius, space } from '@/constants/appTheme';
-import { getGrammarLibrary, GrammarLibRow } from '@/lib/db';
+import { Skeleton } from '@/components/skeleton';
+import { enrollGrammarReview, getGrammarLibrary, GrammarLibRow, isGrammarSaved, removeSavedByFront } from '@/lib/db';
 import { ProgressRing } from '@/components/progress-ring';
 import { getGrammarLesson } from '@/lib/grammarLessons';
 import { getPoster } from '@/lib/posters';
@@ -59,7 +60,7 @@ const STEPS: Step[] = [
   },
   {
     n: 2,
-    title: 'Örnek Cümleler & Chunks',
+    title: 'Örnek Cümleler & Kalıplar',
     icon: 'chatbubbles-outline',
     locked: true, // dinamik: kuratorlu ornek icerigi varsa acilir
     meta: (r) => (getGrammarLesson(r.norm_pattern)?.examples ? 'Olumlu · olumsuz · soru' : 'Yakında'),
@@ -94,7 +95,7 @@ const STEPS: Step[] = [
     title: 'Ders Sonu Özeti & Sınav',
     icon: 'trophy-outline',
     locked: true, // dinamik: sinav sorulari yazilmissa acilir
-    meta: (r) => (getGrammarLesson(r.norm_pattern)?.exam ? 'Sınav · FSRS havuzu' : 'Yakında'),
+    meta: (r) => (getGrammarLesson(r.norm_pattern)?.exam ? 'Sınav · Tekrar havuzu' : 'Yakında'),
     route: (r, t) => openExam(r, t),
   },
 ];
@@ -109,35 +110,75 @@ function statusOf(r: GrammarLibRow): { label: string; tone: string } {
   return { label: 'Öğreniliyor', tone: colors.warning };
 }
 
+// Ilk yukleme iskeleti: hero karti + 6 adim satiri taklidi.
+function TopicSkeleton() {
+  return (
+    <>
+      <View style={styles.hero}>
+        <Skeleton width={56} height={56} radius={radius.sm} />
+        <View style={{ flex: 1, gap: space.sm }}>
+          <Skeleton width="80%" height={16} />
+          <Skeleton width="55%" height={12} />
+          <Skeleton width="40%" height={11} />
+        </View>
+        <Skeleton width={56} height={56} radius={radius.pill} />
+      </View>
+      <View style={styles.steps}>
+        {[0, 1, 2, 3, 4, 5].map((i) => (
+          <View key={i} style={styles.step}>
+            <Skeleton width={46} height={46} radius={radius.sm} />
+            <View style={{ flex: 1, gap: space.xs }}>
+              <Skeleton width="35%" height={10} />
+              <Skeleton width="75%" height={14} />
+              <Skeleton width="55%" height={11} />
+            </View>
+          </View>
+        ))}
+      </View>
+    </>
+  );
+}
+
 export default function GrammarTopicScreen() {
   const p = useLocalSearchParams<{ key?: string; title?: string }>();
   const insets = useSafeAreaInsets();
   const [rows, setRows] = useState<GrammarLibRow[]>([]);
+  const [loading, setLoading] = useState(true); // ilk yukleme iskeleti
 
   useFocusEffect(
     useCallback(() => {
       setRows(getGrammarLibrary()); // her donuste tazele: SRS ilerlemesi guncellensin.
+      setLoading(false);
     }, []),
   );
 
   const row = useMemo(() => rows.find((r) => r.norm_pattern === p.key) ?? null, [rows, p.key]);
   const title = row?.label_tr ?? p.title ?? '';
+
+  // Konuyu Tekrar'a elle kaydet/kaldir (otomatik ekleme yok).
+  const [saved, setSaved] = useState(false);
+  useEffect(() => {
+    setSaved(row ? isGrammarSaved(row.norm_pattern) : false);
+  }, [row?.norm_pattern]);
+  function toggleSave() {
+    if (!row) return;
+    if (saved) {
+      removeSavedByFront('grammar', row.norm_pattern);
+      setSaved(false);
+    } else {
+      enrollGrammarReview(row.norm_pattern, row.label_tr);
+      setSaved(true);
+    }
+  }
   const poster = row ? getPoster(row.poster_media) : null;
   const status = row ? statusOf(row) : null;
 
   // Adim kilitleri dinamik:
   // 1) ogretim icerigi yazilmissa, 2) kuratorlu ornekler varsa, 3) video kesiti varsa.
   const steps = useMemo(() => {
-    const lesson = row ? getGrammarLesson(row.norm_pattern) : null;
-    return STEPS.map((s) => {
-      if (s.n === 1) return { ...s, locked: !lesson };
-      if (s.n === 2) return { ...s, locked: !lesson?.examples };
-      if (s.n === 3) return { ...s, locked: !(row && row.video_count > 0) };
-      if (s.n === 4) return { ...s, locked: !lesson?.reading };
-      if (s.n === 5) return { ...s, locked: !lesson?.recording };
-      if (s.n === 6) return { ...s, locked: !lesson?.exam };
-      return s;
-    });
+    // Tum adimlar acik: kullanici yol haritasinin tamamini gezebilsin. Icerigi
+    // henuz yazilmamis adimlar acilan ekranda durustce "Yakinda" gosterir.
+    return STEPS.map((s) => ({ ...s, locked: false }));
   }, [row]);
 
   // Ilk kilitsiz adim = "devam edilecek" adim (alt CTA + vurgu icin).
@@ -165,14 +206,18 @@ export default function GrammarTopicScreen() {
             </View>
           ) : null}
         </View>
-        <View style={styles.iconBtn} />
+        <Pressable style={styles.iconBtn} onPress={toggleSave} hitSlop={8} disabled={!row}>
+          <Ionicons name={saved ? 'bookmark' : 'bookmark-outline'} size={22} color={saved ? colors.accent : colors.ink} />
+        </Pressable>
       </View>
 
       <ScrollView
         contentContainerStyle={[styles.scroll, { paddingBottom: insets.bottom + 92 }]}
         showsVerticalScrollIndicator={false}>
+        {loading ? <TopicSkeleton /> : null}
+
         {/* HERO: poster + baslik + formul + gercek durum/sayilar */}
-        {row ? (
+        {!loading && row ? (
           <View style={styles.hero}>
             <View style={styles.heroThumb}>
               {poster ? (
@@ -215,6 +260,7 @@ export default function GrammarTopicScreen() {
         ) : null}
 
         {/* YOL HARITASI: adim listesi */}
+        {!loading ? (
         <View style={styles.steps}>
           {steps.map((s) => {
             const active = !s.locked && s === activeStep;
@@ -278,6 +324,7 @@ export default function GrammarTopicScreen() {
             );
           })}
         </View>
+        ) : null}
       </ScrollView>
 
       {/* Sabit alt CTA: ilk kilitsiz adima devam et */}

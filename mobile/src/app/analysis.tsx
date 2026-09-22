@@ -88,8 +88,7 @@ export default function AnalysisScreen() {
         <View style={styles.note}>
           <Ionicons name="information-circle-outline" size={16} color={colors.muted} />
           <Text style={styles.noteText}>
-            Dalga formu karşılaştırması ve pitch (ton) eğrisi bu sürümde yok; skorlar Whisper/Azure telaffuz
-            değerlendirmesinden gelir.
+            Ses dalgası ve ton eğrisi karşılaştırması bu sürümde yok; puanlar telaffuz değerlendirmesinden gelir.
           </Text>
         </View>
 
@@ -121,7 +120,7 @@ function Header({ onAdd, added }: { onAdd?: () => void; added: boolean }) {
       {onAdd ? (
         <Pressable style={styles.addBtn} onPress={onAdd} disabled={added}>
           <Ionicons name={added ? 'checkmark' : 'add'} size={16} color={added ? colors.good : colors.accent} />
-          <Text style={[styles.addText, added && { color: colors.good }]}>{added ? 'Eklendi' : 'FSRS Ekle'}</Text>
+          <Text style={[styles.addText, added && { color: colors.good }]}>{added ? 'Eklendi' : 'Tekrara Ekle'}</Text>
         </Pressable>
       ) : null}
     </View>
