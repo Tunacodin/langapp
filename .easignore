@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+mobile/node_modules/
+
+# secrets (Azure anahtari vb.) - ASLA push edilmez
+.env
+.env.*
+mobile/.env
+mobile/.env.*
+
+# native (CNG ile CI'da uretiliyor)
+ios/
+android/
+mobile/ios/
+mobile/android/
+
+# expo / metro / build
+.expo/
+mobile/.expo/
+dist/
+mobile/dist/
+web-build/
+*.tsbuildinfo
+mobile/scripts/out/
+
+# python (transcribe) araclari
+__pycache__/
+*.pyc
+
+# os
+.DS_Store
+Thumbs.db
+
+builds/
+*.ipa
+
+# loglar
+*.log
+
+# EAS'e ozel: build'e girmeyen klasorler (yukleme boyutunu kucultur)
+stitch/
+docs/
+tools/
+mobile/scripts/
