@@ -12,10 +12,12 @@ export function Segmented({
   options,
   value,
   onChange,
+  disabled = [],
 }: {
   options: Opt[];
   value: string;
   onChange: (key: string) => void;
+  disabled?: string[]; // kilitli bolmeler (soluk, dokunulmaz)
 }) {
   const [w, setW] = useState(0);
   const idx = Math.max(0, options.findIndex((o) => o.key === value));
@@ -39,9 +41,10 @@ export function Segmented({
       ) : null}
       {options.map((o) => {
         const on = o.key === value;
+        const off = disabled.includes(o.key);
         return (
-          <Pressable key={o.key} onPress={() => onChange(o.key)} style={styles.item} hitSlop={4}>
-            <Text style={[styles.label, on && styles.labelOn]} numberOfLines={1}>
+          <Pressable key={o.key} onPress={() => onChange(o.key)} style={styles.item} hitSlop={4} disabled={off}>
+            <Text style={[styles.label, on && styles.labelOn, off && styles.labelOff]} numberOfLines={1}>
               {o.label}
             </Text>
           </Pressable>
@@ -76,4 +79,5 @@ const styles = StyleSheet.create({
   item: { flex: 1, alignItems: 'center', justifyContent: 'center' },
   label: { fontSize: 14, fontWeight: '700', color: colors.muted },
   labelOn: { color: colors.ink, fontWeight: '800' },
+  labelOff: { opacity: 0.4 },
 });

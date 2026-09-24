@@ -9,8 +9,25 @@ function tok(s: string): string {
   return s.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim();
 }
 
+// Tanima motoru sayilari rakamla yazar ("7", "8:00"); cumlelerde yaziyla. Karsilastirmadan
+// once rakamlari Ingilizce yaziya cevir (0-99) ve "8:00" -> "eight o'clock".
+const ONES = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+  'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+const TENS = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+function numWord(n: number): string {
+  if (n < 20) return ONES[n];
+  if (n < 100) return TENS[Math.floor(n / 10)] + (n % 10 ? ' ' + ONES[n % 10] : '');
+  return String(n);
+}
+export function spellNumbers(text: string): string {
+  return text
+    .replace(/\b(\d{1,2}):00\b/g, (_, h) => `${numWord(Number(h))} o'clock`)
+    .replace(/\b(\d{1,2}):(\d{2})\b/g, (_, h, m) => `${numWord(Number(h))} ${numWord(Number(m))}`)
+    .replace(/\b\d{1,2}\b/g, (d) => numWord(Number(d)));
+}
+
 export function alignWords(expected: string[], heardText: string): { status: WordStatus[]; note: string[] } {
-  const heard = heardText.split(/\s+/).map(tok).filter(Boolean);
+  const heard = spellNumbers(heardText).split(/\s+/).map(tok).filter(Boolean);
   const exp = expected.map(tok);
   const m = exp.length;
   const n = heard.length;

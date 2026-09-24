@@ -9,6 +9,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { colors, radius, space } from '@/constants/appTheme';
 import { deleteSpeakingTake, getSpeakingTakes, SpeakingTake } from '@/lib/db';
 import { getSpeakingFocus } from '@/lib/speaking';
+import { getLadderTheme } from '@/lib/speaking/ladder';
 import { deleteTakeFiles, humanBytes, totalBytes } from '@/lib/speaking/media';
 
 // GELISIM: bir odagin kayitlarini tarih tarih goster. Her kayit: varyasyon +
@@ -17,7 +18,15 @@ import { deleteTakeFiles, humanBytes, totalBytes } from '@/lib/speaking/media';
 // (sessiz) ile ayri saklanan ses AYNI ANDA baslatilir; ustte video gorunur.
 export default function SpeakingProgress() {
   const { focus: focusId } = useLocalSearchParams<{ focus?: string }>();
-  const focus = useMemo(() => getSpeakingFocus(focusId), [focusId]);
+  // Kisa pratik odagi ya da merdiven temasi ("ladder:<tema>"; zincir kayitlari).
+  const focus = useMemo(() => {
+    if (focusId?.startsWith('ladder:')) {
+      const t = getLadderTheme(focusId.slice(7));
+      return t ? { id: focusId, title: t.title, variations: [] as { key: string; typeLabel: string }[], ladder: t.id } : null;
+    }
+    const f = getSpeakingFocus(focusId);
+    return f ? { ...f, ladder: null as string | null } : null;
+  }, [focusId]);
 
   const [takes, setTakes] = useState<SpeakingTake[]>([]);
   const [bytes, setBytes] = useState(0);
@@ -158,7 +167,13 @@ export default function SpeakingProgress() {
 
         <Pressable
           style={styles.practiceBtn}
-          onPress={() => router.replace(`/speaking-practice?focus=${encodeURIComponent(focus.id)}`)}>
+          onPress={() =>
+            router.replace(
+              focus.ladder
+                ? `/speaking-ladder?theme=${encodeURIComponent(focus.ladder)}`
+                : `/speaking-practice?focus=${encodeURIComponent(focus.id)}`,
+            )
+          }>
           <Ionicons name="mic" size={18} color="#fff" />
           <Text style={styles.practiceText}>Yeni pratik</Text>
         </Pressable>
@@ -191,7 +206,7 @@ export default function SpeakingProgress() {
                       {t.text_en}
                     </Text>
                     <Text style={styles.rowMeta} numberOfLines={1}>
-                      {varLabel[t.variation_key] ?? '-'} ·{' '}
+                      {varLabel[t.variation_key] ?? (t.variation_key.startsWith('chain-') ? `Zincir · ${t.variation_key.slice(6)} cümle` : '-')} ·{' '}
                       {new Date(t.created_at).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' })}
                       {t.video_uri ? ' · video' : ''}
                     </Text>

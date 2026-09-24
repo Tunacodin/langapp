@@ -7,25 +7,30 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { FocusBadge } from '@/components/focus-badge';
 import { ScreenHeader } from '@/components/screen-header';
 import { colors, radius, space } from '@/constants/appTheme';
-import { getSpeakingStats, SpeakingFocusStat } from '@/lib/db';
+import { getLadderSummary, getSpeakingStats, LadderSummary, SpeakingFocusStat } from '@/lib/db';
 import { SPEAKING_FOCUS } from '@/lib/speaking';
+import { LADDER_TRACKS } from '@/lib/speaking/ladder';
 import { useScrollTopOnBlur } from '@/lib/useScrollTopOnBlur';
 
-// KONUSMA: odak-nokta temelli konusma pratigi. Her odak tek bir yapiyi
+// KONUSMA: ustte KONUSMA MERDIVENI (gramer konusu -> temalar; her tema dinle ->
+// Turkceden soyle -> zincir basamaklari, bkz. speaking-ladder.tsx). Altta eski
+// kisa odak pratikleri.
+// Kisa pratik: odak-nokta temelli konusma pratigi. Her odak tek bir yapiyi
 // olumlu/olumsuz/soru/farkli-kelime varyasyonlariyla calistirir. Karta dokun ->
 // pratik ekrani (dinle -> ses kaydi + opsiyonel video -> sirakadi varyasyon).
 // Ilerleme GERCEK: her odak icin kac kayit / kac gun (speaking_takes).
 export default function KonusmaScreen() {
   const [stats, setStats] = useState<Record<string, SpeakingFocusStat>>({});
+  const [ladder, setLadder] = useState<Record<string, LadderSummary>>({});
   const scrollRef = useScrollTopOnBlur();
 
   useFocusEffect(
     useCallback(() => {
       setStats(getSpeakingStats());
+      setLadder(getLadderSummary());
     }, []),
   );
 
-  const totalTakes = Object.values(stats).reduce((a, s) => a + s.takes, 0);
 
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
@@ -34,21 +39,45 @@ export default function KonusmaScreen() {
 
         <FocusBadge />
 
-        {totalTakes > 0 ? (
-          <View style={styles.summary}>
-            <Ionicons name="mic-circle" size={20} color={colors.accent} />
-            <Text style={styles.summaryText}>Toplam {totalTakes} kayıt · her gün biraz daha</Text>
+        {LADDER_TRACKS.map((track) => (
+          <View key={track.id} style={styles.list}>
+            <View>
+              <Text style={styles.secTitle}>{track.title}</Text>
+              <Text style={styles.secSub}>{track.subtitle}</Text>
+            </View>
+            {track.themes.map((t) => {
+              const n = t.sentences.length;
+              const sm = ladder[t.id];
+              const p1 = sm?.p1 ?? 0;
+              const p2 = sm?.p2 ?? 0;
+              const chain = sm?.chainLen ?? 0;
+              const step =
+                p1 < n ? `Dinle ${p1}/${n}` : p2 < n ? `Türkçeden ${p2}/${n}` : chain >= n ? 'Tamamlandı' : `Zincir ${Math.max(chain, 3)}/${n}`;
+              const frac = (p1 + p2 + Math.min(chain, n)) / (3 * n);
+              return (
+                <Pressable
+                  key={t.id}
+                  style={styles.themeRow}
+                  onPress={() => router.push(`/speaking-ladder?theme=${encodeURIComponent(t.id)}`)}>
+                  <View style={styles.cardIcon}>
+                    <Ionicons name={t.icon} size={20} color={colors.accent} />
+                  </View>
+                  <View style={{ flex: 1, gap: 6 }}>
+                    <View style={styles.themeTop}>
+                      <Text style={styles.themeTitle}>{t.title}</Text>
+                      <Text style={styles.themeStep}>{step}</Text>
+                    </View>
+                    <View style={styles.bar}>
+                      <View style={[styles.barFill, { width: `${Math.round(frac * 100)}%` }]} />
+                    </View>
+                  </View>
+                </Pressable>
+              );
+            })}
           </View>
-        ) : (
-          <View style={styles.intro}>
-            <Text style={styles.introTitle}>Konuşarak öğren</Text>
-            <Text style={styles.introBody}>
-              Bir odak seç. Önce cümleyi dinle, sonra kendini sesli (istersen ön kameradan videolu) kaydet.
-              Aynı yapıyı olumlu, olumsuz, soru ve farklı kelimelerle tekrarla; gelişimini gün gün gör.
-            </Text>
-          </View>
-        )}
+        ))}
 
+        <Text style={styles.secTitle}>Kısa pratikler</Text>
         <View style={styles.list}>
           {SPEAKING_FOCUS.map((f) => {
             const s = stats[f.id];
@@ -126,6 +155,22 @@ const styles = StyleSheet.create({
   introBody: { fontSize: 13, color: colors.muted, lineHeight: 20 },
 
   list: { gap: space.md },
+  secTitle: { fontSize: 17, fontWeight: '800', color: colors.ink, letterSpacing: -0.3 },
+  secSub: { fontSize: 13, color: colors.muted, marginTop: 2, lineHeight: 19 },
+  themeRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: space.md,
+    borderWidth: 1,
+    borderColor: colors.line,
+    borderRadius: radius.md,
+    padding: space.md,
+  },
+  themeTop: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space.sm },
+  themeTitle: { flex: 1, fontSize: 15, fontWeight: '800', color: colors.ink },
+  themeStep: { fontSize: 12, fontWeight: '700', color: colors.muted },
+  bar: { height: 4, borderRadius: 2, backgroundColor: colors.line, overflow: 'hidden' },
+  barFill: { height: 4, backgroundColor: colors.accent },
   card: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.md, padding: space.lg, gap: space.sm },
   cardTop: { flexDirection: 'row', alignItems: 'center', gap: space.sm },
   cardIcon: {
