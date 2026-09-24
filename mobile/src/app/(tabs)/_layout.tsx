@@ -5,12 +5,12 @@ import { Platform } from 'react-native';
 
 import { colors } from '@/constants/appTheme';
 
-// 5 beceri sekmesi: Dinleme / Okuma / Konusma / Cumle & Kurallar / Profil.
+// 5 beceri sekmesi: Dinleme / Okuma / Konusma / Dil Bilgisi / Profil.
 // - index    = Dinleme (video izle/dinle)
 // - okuma    = Okuma (seviyene uygun metinler)   [/reading root makale ekraniyle
 //              cakismasin diye rota adi 'okuma']
 // - shadowing= Konusma (sesli taklit kutuphanesi) [dosya adi Faz 4'te speaking olur]
-// - grammar  = Cumle & Kurallar (gramer cekirdegi) [dosya adi Faz 4'te patterns olur]
+// - grammar  = Dil Bilgisi (gramer cekirdegi) [dosya adi Faz 4'te patterns olur]
 // - review   = Tekrar; artik sekme DEGIL (href:null ile bardan gizli) ama /review
 //              rotasi calisir; Faz 3'te "Bugun" seridinden acilir.
 // Detay ekranlari (player, item, grammar-*, vb.) kok Stack'te (bkz. app/_layout.tsx).
@@ -57,7 +57,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="grammar"
         options={{
-          title: 'Kurallar',
+          title: 'Dil Bilgisi',
           tabBarIcon: ({ color, size }) => <Ionicons name="create-outline" size={size} color={color} />,
         }}
       />

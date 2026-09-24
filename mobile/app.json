@@ -13,8 +13,8 @@
     "ios": {
       "bundleIdentifier": "com.tunadev58.langapp",
       "infoPlist": {
-        "NSSpeechRecognitionUsageDescription": "Soylediklerini yaziya cevirmek icin konusma tanima gerekiyor.",
-        "NSMicrophoneUsageDescription": "Telaffuz pratigi icin mikrofon erisimi gerekiyor.",
+        "NSSpeechRecognitionUsageDescription": "Söylediklerini yazıya çevirmek için konuşma tanıma gerekiyor.",
+        "NSMicrophoneUsageDescription": "Telaffuz pratiği için mikrofon erişimi gerekiyor.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
@@ -58,14 +58,22 @@
       [
         "expo-speech-recognition",
         {
-          "microphonePermission": "Telaffuz pratigi icin mikrofon erisimi gerekiyor.",
-          "speechRecognitionPermission": "Soylediklerini yaziya cevirmek icin konusma tanima gerekiyor.",
+          "microphonePermission": "Telaffuz pratiği için mikrofon erişimi gerekiyor.",
+          "speechRecognitionPermission": "Söylediklerini yazıya çevirmek için konuşma tanıma gerekiyor.",
           "androidSpeechServicePackages": [
             "com.google.android.googlequicksearchbox"
           ]
         }
       ],
-      "expo-asset"
+      "expo-asset",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Konuşma pratiğinde kendini görmen ve gelişimini videoyla izlemen için kamera erişimi gerekiyor.",
+          "microphonePermission": "Telaffuz pratiği için mikrofon erişimi gerekiyor.",
+          "recordAudioAndroid": false
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,

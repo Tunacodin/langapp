@@ -19,6 +19,16 @@ export async function persistTakeAudio(focusId: string, takeId: number, tempUri:
   return dest;
 }
 
+// Gecici video kaydini (on kamera, sessiz) kalici yola kopyala; kalici uri'yi don.
+export async function persistTakeVideo(focusId: string, takeId: number, tempUri: string): Promise<string> {
+  const dir = `${ROOT}${focusId}/`;
+  await ensureDir(dir);
+  const ext = tempUri.split('.').pop()?.toLowerCase() === 'mp4' ? 'mp4' : 'mov';
+  const dest = `${dir}${takeId}.${ext}`;
+  await FileSystem.copyAsync({ from: tempUri, to: dest });
+  return dest;
+}
+
 // Verilen uri'lerdeki dosyalari sil (kayit silinince cagrilir).
 export async function deleteTakeFiles(uris: (string | null)[]) {
   for (const u of uris) {

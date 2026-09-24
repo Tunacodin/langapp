@@ -18,6 +18,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { colors, radius, space } from '@/constants/appTheme';
 import { addSrsCard } from '@/lib/db';
+import { alignWords, type WordStatus } from '@/lib/wordAlign';
 import {
   getSong,
   resolveSongVideo,
@@ -37,51 +38,6 @@ function norm(s: string) {
     .replace(/[^a-z0-9 ]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
-}
-
-// Konusulan metni beklenen satirla hizala (LCS). Her beklenen kelime icin:
-// ok (dogru soylendi) / wrong (atlandi, yanlis soylendi) / pending (henuz gelmedi).
-type WordStatus = 'ok' | 'wrong' | 'pending';
-function align(expected: string[], heardText: string): { status: WordStatus[]; note: string[] } {
-  const heard = norm(heardText).split(' ').filter(Boolean);
-  const exp = expected.map((w) => norm(w));
-  const m = exp.length;
-  const n = heard.length;
-  const status: WordStatus[] = new Array(m).fill('pending');
-  const note: string[] = new Array(m).fill('');
-  if (n === 0) return { status, note };
-
-  const matched = new Array(m).fill(false);
-  let i = 0;
-  let j = 0;
-  let extra = '';
-  while (i < m && j < n) {
-    if (exp[i] === heard[j]) {
-      matched[i] = true;
-      i++;
-      j++;
-      extra = '';
-    } else {
-      // Ileriye bakip beklenen kelime yakinda geliyor mu (kullanici fazladan/yanlis soyledi).
-      const ahead = heard.indexOf(exp[i], j);
-      if (ahead >= 0 && ahead - j <= 2) {
-        extra = heard[j];
-        j++;
-      } else {
-        if (extra) note[i] = extra;
-        extra = '';
-        i++;
-      }
-    }
-  }
-  let last = -1;
-  for (let k = 0; k < m; k++) if (matched[k]) last = k;
-  for (let k = 0; k < m; k++) {
-    if (matched[k]) status[k] = 'ok';
-    else if (k <= last) status[k] = 'wrong';
-    else status[k] = 'pending';
-  }
-  return { status, note };
 }
 
 export default function SongScreen() {
@@ -398,7 +354,7 @@ function ActiveWords({ line, tMs }: { line: SongLyricLine; tMs: number }) {
 // kelimenin ustunde kucuk absolute not (duyulan kelime).
 function MatchWords({ text, heard }: { text: string; heard: string }) {
   const words = text.split(' ');
-  const { status, note } = align(words, heard);
+  const { status, note } = alignWords(words, heard);
   return (
     <View style={styles.matchWrap}>
       {words.map((w, i) => (

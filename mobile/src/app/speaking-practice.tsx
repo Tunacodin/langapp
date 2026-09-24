@@ -1,19 +1,29 @@
 import { Ionicons } from '@expo/vector-icons';
-import { router, useLocalSearchParams } from 'expo-router';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { CameraView, useCameraPermissions } from 'expo-camera';
+import { router, useFocusEffect, useLocalSearchParams } from 'expo-router';
+import * as Speech from 'expo-speech';
+import { ExpoSpeechRecognitionModule, useSpeechRecognitionEvent } from 'expo-speech-recognition';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { colors, radius, space } from '@/constants/appTheme';
+import { azure } from '@/lib/azure';
 import { addSpeakingTake, updateSpeakingTakeMedia } from '@/lib/db';
+import { assessPronunciation, type PronunciationResult } from '@/lib/pronunciation';
 import { getSpeakingFocus } from '@/lib/speaking';
-import { persistTakeAudio } from '@/lib/speaking/media';
-import { useSpeechAssessment } from '@/lib/useSpeechAssessment';
+import { persistTakeAudio, persistTakeVideo } from '@/lib/speaking/media';
+import { alignWords } from '@/lib/wordAlign';
 
-// KONUSMA PRATIGI (v1 - ses): bir odagin varyasyonlarini tek tek calis.
-// Her varyasyon icin: Dinle (TTS) -> mikrofonla kaydet -> Azure telaffuz puani.
-// Her PUANLI kayit bir "take" olarak DB'ye yazilir (gelisim puan uzerinden gorunur).
-// Video + medya replay bir sonraki surumde (expo-file-system + expo-camera).
+type Phase = 'idle' | 'recording' | 'saving';
+
+// KONUSMA PRATIGI (v2 - video + canli): bir odagin varyasyonlarini tek tek calis.
+// Akis: Dinle (TTS) -> kayit tusu: on kamera SESSIZ video + cihaz ici konusma tanima
+// AYNI ANDA baslar. Tanima sesi hem yaziya doker (kelimeler canli yesil/kirmizi)
+// hem WAV olarak saklar (persist). Durunca: video + ses kalici klasore kopyalanir,
+// take DB'ye yazilir, ses Azure'a gider (ayarliysa) ve puan ayni take'e yazilir.
+// Mikrofonu tek bir motor (tanima) tutar; kamera mute oldugu icin ses oturumu cakismaz.
+// Kamera izni yoksa ayni akis yalniz sesle calisir.
 export default function SpeakingPractice() {
   const { focus: focusId } = useLocalSearchParams<{ focus?: string }>();
   const focus = useMemo(() => getSpeakingFocus(focusId), [focusId]);
@@ -21,31 +31,147 @@ export default function SpeakingPractice() {
   const [idx, setIdx] = useState(0);
   const [done, setDone] = useState(false);
   const [takes, setTakes] = useState(0);
-
   const cur = focus?.variations[idx];
-  const { status, result, error, listen, toggleRecord, reset, lastUri } = useSpeechAssessment(cur?.en ?? '');
 
-  // Kayit tamamlaninca (lastUri) take olustur + sesi KALICI sakla. Azure ayarli
-  // olmasa da kayit saklanir (puan sonra gelirse ayni take'e yazilir).
-  const takeIdRef = useRef<number | null>(null);
-  const savedUriRef = useRef<string | null>(null);
-  useEffect(() => {
-    if (!focus || !cur || !lastUri || lastUri === savedUriRef.current) return;
-    savedUriRef.current = lastUri;
-    const id = addSpeakingTake({ focus_id: focus.id, variation_key: cur.key, text_en: cur.en, score: null });
-    takeIdRef.current = id;
-    setTakes((t) => t + 1);
-    persistTakeAudio(focus.id, id, lastUri)
-      .then((dest) => updateSpeakingTakeMedia(id, { audio_uri: dest }))
-      .catch(() => {});
-  }, [lastUri, focus, cur]);
+  const [camPerm, requestCamPerm] = useCameraPermissions();
+  const camRef = useRef<CameraView>(null);
+  const [camReady, setCamReady] = useState(false);
 
-  // Puan gelince ayni take'e yaz.
+  const [phase, setPhase] = useState<Phase>('idle');
+  const [heard, setHeard] = useState('');
+  const [result, setResult] = useState<PronunciationResult | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  // Kayit parcalari iki ayri kaynaktan gelir (kamera promise'i + tanima audioend);
+  // ikisi de gelince tek take olarak saklanir.
+  const videoP = useRef<Promise<string | null> | null>(null);
+  const audioUri = useRef<string | null>(null);
+  const audioWait = useRef<((u: string | null) => void) | null>(null);
+  const recRef = useRef(false);
+
   useEffect(() => {
-    if (result && takeIdRef.current != null) {
-      updateSpeakingTakeMedia(takeIdRef.current, { score: Math.round(result.pron) });
+    if (camPerm && !camPerm.granted && camPerm.canAskAgain) requestCamPerm();
+  }, [camPerm, requestCamPerm]);
+
+  useSpeechRecognitionEvent('result', (e) => {
+    if (recRef.current) setHeard(e.results?.[0]?.transcript ?? '');
+  });
+  useSpeechRecognitionEvent('audioend', (e) => {
+    audioUri.current = e.uri ?? null;
+    audioWait.current?.(audioUri.current);
+    audioWait.current = null;
+  });
+  useSpeechRecognitionEvent('error', (e) => {
+    if (e.error !== 'no-speech' && e.error !== 'aborted') setError('Ses tanınamadı, tekrar dene.');
+  });
+
+  // Ekrandan cikinca her seyi durdur.
+  useFocusEffect(
+    useCallback(() => {
+      return () => {
+        recRef.current = false;
+        Speech.stop();
+        try {
+          ExpoSpeechRecognitionModule.abort();
+        } catch {}
+        try {
+          camRef.current?.stopRecording();
+        } catch {}
+      };
+    }, []),
+  );
+
+  const words = useMemo(() => (cur ? cur.en.split(/\s+/) : []), [cur]);
+  const live = useMemo(() => alignWords(words, heard), [words, heard]);
+  const useCam = !!camPerm?.granted;
+
+  const listen = useCallback(() => {
+    if (!cur || phase !== 'idle') return;
+    Speech.stop();
+    Speech.speak(cur.en, { language: 'en-US', rate: 0.85 });
+  }, [cur, phase]);
+
+  const start = useCallback(async () => {
+    if (!cur) return;
+    setError(null);
+    setResult(null);
+    setHeard('');
+    try {
+      const perm = await ExpoSpeechRecognitionModule.requestPermissionsAsync();
+      if (!perm.granted) {
+        setError('Mikrofon ve konuşma tanıma izni gerekiyor.');
+        return;
+      }
+    } catch {}
+    Speech.stop();
+    audioUri.current = null;
+    videoP.current =
+      useCam && camReady && camRef.current
+        ? camRef.current
+            .recordAsync({ maxDuration: 30 })
+            .then((r) => r?.uri ?? null)
+            .catch(() => null)
+        : null;
+    recRef.current = true;
+    setPhase('recording');
+    try {
+      ExpoSpeechRecognitionModule.start({
+        lang: 'en-US',
+        interimResults: true,
+        continuous: true,
+        recordingOptions: { persist: true },
+        iosCategory: {
+          category: 'playAndRecord',
+          categoryOptions: ['defaultToSpeaker', 'allowBluetooth'],
+          mode: 'measurement',
+        },
+      });
+    } catch {
+      recRef.current = false;
+      setPhase('idle');
+      setError('Kayıt başlatılamadı.');
     }
-  }, [result]);
+  }, [cur, useCam, camReady]);
+
+  const stop = useCallback(async () => {
+    if (!focus || !cur) return;
+    recRef.current = false;
+    setPhase('saving');
+    const audioReady = new Promise<string | null>((res) => {
+      if (audioUri.current) return res(audioUri.current);
+      audioWait.current = res;
+      setTimeout(() => res(audioUri.current), 4000);
+    });
+    try {
+      ExpoSpeechRecognitionModule.stop();
+    } catch {}
+    try {
+      camRef.current?.stopRecording();
+    } catch {}
+
+    const [aTmp, vTmp] = await Promise.all([audioReady, videoP.current ?? Promise.resolve(null)]);
+    videoP.current = null;
+
+    const id = addSpeakingTake({ focus_id: focus.id, variation_key: cur.key, text_en: cur.en, score: null });
+    setTakes((t) => t + 1);
+    const [aDest, vDest] = await Promise.all([
+      aTmp ? persistTakeAudio(focus.id, id, aTmp).catch(() => null) : null,
+      vTmp ? persistTakeVideo(focus.id, id, vTmp).catch(() => null) : null,
+    ]);
+    updateSpeakingTakeMedia(id, { audio_uri: aDest, video_uri: vDest });
+    setPhase('idle');
+
+    // Puan: Azure ayarliysa telaffuz puani, degilse canli eslesme orani.
+    if (aDest && azure.configured) {
+      try {
+        const r = await assessPronunciation(aDest, cur.en);
+        setResult(r);
+        updateSpeakingTakeMedia(id, { score: Math.round(r.pron) });
+      } catch (e) {
+        setError(e instanceof Error ? e.message : 'Puan alınamadı.');
+      }
+    }
+  }, [focus, cur]);
 
   if (!focus || !cur) {
     return (
@@ -62,12 +188,13 @@ export default function SpeakingPractice() {
 
   const total = focus.variations.length;
   const last = idx >= total - 1;
+  const okCount = live.status.filter((s) => s === 'ok').length;
+  const livePct = words.length ? Math.round((okCount / words.length) * 100) : 0;
 
   function advance() {
-    // Kayit zaten useEffect'te saklandi; bu buton yalniz sirayi ilerletir / bitirir.
-    reset();
-    savedUriRef.current = null;
-    takeIdRef.current = null;
+    setResult(null);
+    setHeard('');
+    setError(null);
     if (last) setDone(true);
     else setIdx((i) => i + 1);
   }
@@ -94,9 +221,10 @@ export default function SpeakingPractice() {
     );
   }
 
+  const recording = phase === 'recording';
+
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
-      {/* Ust bar: kapat + ilerleme */}
       <View style={styles.head}>
         <Pressable onPress={() => router.back()} hitSlop={8}>
           <Ionicons name="close" size={24} color={colors.ink} />
@@ -110,75 +238,83 @@ export default function SpeakingPractice() {
       </View>
 
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-        {/* Odak baglami */}
-        <View style={styles.focusCard}>
-          <Text style={styles.focusKicker}>ODAK · {focus.focusEn}</Text>
-          <Text style={styles.focusBase}>{focus.base.en}</Text>
-          <Text style={styles.focusBaseTr}>{focus.base.tr}</Text>
-        </View>
-
-        {/* Hedef varyasyon */}
+        {/* Hedef cumle: konustukca kelimeler canli boyanir */}
         <View style={styles.card}>
-          <View style={styles.typeBadge}>
-            <Text style={styles.typeBadgeText}>{cur.typeLabel}</Text>
+          <View style={styles.cardTop}>
+            <Text style={styles.typeLabel}>
+              {focus.focusEn} · {cur.typeLabel}
+            </Text>
+            <Pressable onPress={listen} hitSlop={10} disabled={phase !== 'idle'}>
+              <Ionicons name="volume-high" size={22} color={phase === 'idle' ? colors.accent : colors.muted} />
+            </Pressable>
           </View>
-          <Text style={styles.targetEn}>{cur.en}</Text>
-          <Text style={styles.targetTr}>{cur.tr}</Text>
-          {cur.tip ? (
-            <View style={styles.tip}>
-              <Ionicons name="bulb-outline" size={15} color={colors.warning} />
-              <Text style={styles.tipText}>{cur.tip}</Text>
-            </View>
-          ) : null}
-
-          <Pressable style={styles.listenBtn} onPress={() => listen()}>
-            <Ionicons name="volume-high" size={18} color={colors.accent} />
-            <Text style={styles.listenText}>Dinle</Text>
-          </Pressable>
-        </View>
-
-        {/* Kayit + sonuc */}
-        <View style={styles.recWrap}>
-          <Pressable
-            style={[styles.micBtn, status === 'recording' && styles.micBtnOn]}
-            onPress={toggleRecord}
-            disabled={status === 'assessing'}>
-            <Ionicons
-              name={status === 'recording' ? 'stop' : 'mic'}
-              size={30}
-              color={status === 'recording' ? '#fff' : colors.accent}
-            />
-          </Pressable>
-          <Text style={styles.micHint}>
-            {status === 'recording'
-              ? 'Durdurmak için bas'
-              : status === 'assessing'
-                ? 'Değerlendiriliyor...'
-                : 'Söyle: mikrofona bas ve cümleyi seslendir'}
-          </Text>
-
-          {result ? (
-            <View style={styles.scoreCard}>
-              <View style={styles.scoreRow}>
-                <ScorePill label="Telaffuz" value={Math.round(result.pron)} tint={colors.accent} />
-                <ScorePill label="Doğruluk" value={Math.round(result.accuracy)} tint={colors.teal} />
-                <ScorePill label="Eşleşme" value={result.matchPct} tint={colors.success} />
-              </View>
-              {result.recognized ? (
-                <Text style={styles.recognized} numberOfLines={2}>
-                  Duyulan: {result.recognized}
+          <Text style={styles.targetEn}>
+            {words.map((w, i) => {
+              const s = live.status[i];
+              return (
+                <Text
+                  key={i}
+                  style={s === 'ok' ? styles.wOk : s === 'wrong' ? styles.wBad : undefined}>
+                  {w}
+                  {i < words.length - 1 ? ' ' : ''}
                 </Text>
-              ) : null}
+              );
+            })}
+          </Text>
+          <Text style={styles.targetTr}>{cur.tr}</Text>
+          {cur.tip ? <Text style={styles.tip}>{cur.tip}</Text> : null}
+        </View>
+
+        {/* On kamera: kendini gorerek konus; kayit tusu kameranin ustunde */}
+        <View style={styles.camWrap}>
+          {useCam ? (
+            <CameraView
+              ref={camRef}
+              style={StyleSheet.absoluteFill}
+              facing="front"
+              mode="video"
+              mute
+              onCameraReady={() => setCamReady(true)}
+            />
+          ) : (
+            <View style={styles.noCam}>
+              <Ionicons name="videocam-off-outline" size={28} color={colors.muted} />
+              <Text style={styles.noCamText}>Kamera izni yok, yalnız ses kaydedilir.</Text>
+            </View>
+          )}
+          {recording ? (
+            <View style={styles.recBadge}>
+              <View style={styles.recDot} />
+              <Text style={styles.recText}>%{livePct}</Text>
             </View>
           ) : null}
-
-          {error ? <Text style={styles.errText}>{error}</Text> : null}
+          <Pressable
+            style={[styles.recBtn, recording && styles.recBtnOn]}
+            onPress={recording ? stop : start}
+            disabled={phase === 'saving'}>
+            <View style={recording ? styles.recStop : styles.recInner} />
+          </Pressable>
         </View>
+
+        {heard && !recording ? (
+          <Text style={styles.heard} numberOfLines={2}>
+            Duyulan: {heard}
+          </Text>
+        ) : null}
+
+        {result ? (
+          <View style={styles.scoreRow}>
+            <ScorePill label="Telaffuz" value={Math.round(result.pron)} tint={colors.accent} />
+            <ScorePill label="Doğruluk" value={Math.round(result.accuracy)} tint={colors.teal} />
+            <ScorePill label="Eşleşme" value={result.matchPct} tint={colors.success} />
+          </View>
+        ) : null}
+
+        {error ? <Text style={styles.errText}>{error}</Text> : null}
       </ScrollView>
 
-      {/* Alt: ilerlet */}
       <View style={styles.footer}>
-        <Pressable style={styles.footBtn} onPress={() => advance()}>
+        <Pressable style={styles.footBtn} onPress={advance} disabled={phase !== 'idle'}>
           <Text style={styles.footBtnText}>{last ? 'Bitir' : 'Sıradaki'}</Text>
           <Ionicons name="arrow-forward" size={18} color="#fff" />
         </Pressable>
@@ -207,51 +343,60 @@ const styles = StyleSheet.create({
 
   content: { padding: space.xl, gap: space.lg, paddingBottom: space.xxl },
 
-  focusCard: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.md, padding: space.lg, gap: 4, backgroundColor: colors.surface },
-  focusKicker: { fontSize: 11, fontWeight: '800', color: colors.muted, letterSpacing: 0.6 },
-  focusBase: { fontSize: 16, fontWeight: '800', color: colors.ink, marginTop: 4 },
-  focusBaseTr: { fontSize: 13, color: colors.muted },
-
-  card: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.lg, padding: space.xl, gap: space.sm },
-  typeBadge: { alignSelf: 'flex-start', backgroundColor: colors.accentSoft, borderRadius: radius.pill, paddingHorizontal: 12, paddingVertical: 4 },
-  typeBadgeText: { fontSize: 12, fontWeight: '800', color: colors.accent },
-  targetEn: { fontSize: 22, fontWeight: '800', color: colors.ink, lineHeight: 29, letterSpacing: -0.3 },
+  card: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.lg, padding: space.lg, gap: space.sm },
+  cardTop: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  typeLabel: { fontSize: 12, fontWeight: '800', color: colors.accent },
+  targetEn: { fontSize: 22, fontWeight: '800', color: colors.ink, lineHeight: 30, letterSpacing: -0.3 },
+  wOk: { color: colors.success },
+  wBad: { color: colors.danger },
   targetTr: { fontSize: 15, color: colors.muted },
-  tip: { flexDirection: 'row', alignItems: 'flex-start', gap: 6, backgroundColor: '#FFF8E6', borderRadius: radius.sm, padding: space.sm, marginTop: space.xs },
-  tipText: { flex: 1, fontSize: 12, color: colors.ink, lineHeight: 17 },
-  listenBtn: {
+  tip: { fontSize: 12, color: colors.muted, lineHeight: 17 },
+
+  camWrap: {
+    width: '100%',
+    aspectRatio: 3 / 4,
+    borderRadius: radius.lg,
+    overflow: 'hidden',
+    backgroundColor: colors.surface,
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+  },
+  noCam: { ...StyleSheet.absoluteFillObject, alignItems: 'center', justifyContent: 'center', gap: space.sm, padding: space.xl },
+  noCamText: { fontSize: 13, color: colors.muted, textAlign: 'center' },
+  recBadge: {
+    position: 'absolute',
+    top: space.md,
+    left: space.md,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
     gap: 6,
-    borderWidth: 1,
-    borderColor: colors.accent,
-    borderRadius: radius.md,
-    paddingVertical: space.md,
-    marginTop: space.sm,
-  },
-  listenText: { fontSize: 15, fontWeight: '800', color: colors.accent },
-
-  recWrap: { alignItems: 'center', gap: space.md },
-  micBtn: {
-    width: 84,
-    height: 84,
+    backgroundColor: 'rgba(0,0,0,0.55)',
     borderRadius: radius.pill,
-    borderWidth: 2,
-    borderColor: colors.accent,
-    backgroundColor: colors.accentSoft,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+  recDot: { width: 8, height: 8, borderRadius: 4, backgroundColor: colors.danger },
+  recText: { color: '#fff', fontSize: 12, fontWeight: '800' },
+  recBtn: {
+    width: 72,
+    height: 72,
+    borderRadius: 36,
+    borderWidth: 4,
+    borderColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    marginBottom: space.lg,
   },
-  micBtnOn: { backgroundColor: colors.danger, borderColor: colors.danger },
-  micHint: { fontSize: 13, color: colors.muted, textAlign: 'center' },
+  recBtnOn: { borderColor: colors.danger },
+  recInner: { width: 54, height: 54, borderRadius: 27, backgroundColor: colors.danger },
+  recStop: { width: 26, height: 26, borderRadius: 4, backgroundColor: colors.danger },
 
-  scoreCard: { width: '100%', borderWidth: 1, borderColor: colors.line, borderRadius: radius.md, padding: space.md, gap: space.sm },
+  heard: { fontSize: 12, color: colors.muted, fontStyle: 'italic', textAlign: 'center' },
+
   scoreRow: { flexDirection: 'row', gap: space.sm },
   scorePill: { flex: 1, alignItems: 'center', backgroundColor: colors.surface, borderRadius: radius.sm, paddingVertical: space.sm, gap: 2 },
   scoreValue: { fontSize: 20, fontWeight: '800' },
   scoreLabel: { fontSize: 11, color: colors.muted, fontWeight: '600' },
-  recognized: { fontSize: 12, color: colors.muted, fontStyle: 'italic' },
 
   errText: { fontSize: 12, color: colors.danger, textAlign: 'center' },
 

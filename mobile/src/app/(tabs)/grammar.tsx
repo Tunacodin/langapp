@@ -104,7 +104,7 @@ export default function GrammarScreen() {
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <ScrollView ref={scrollRef} contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
-        <ScreenHeader title="Cümle & Kurallar" subtitle="Cümle kur, kuralları pekiştir" icon="create" />
+        <ScreenHeader title="Dil Bilgisi" subtitle="Cümle kur, dil bilgisini pekiştir" icon="create" />
 
         <FocusBadge />
 

@@ -1,6 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { setAudioModeAsync, useAudioPlayer } from 'expo-audio';
 import { router, useFocusEffect, useLocalSearchParams } from 'expo-router';
+import { useVideoPlayer, VideoView } from 'expo-video';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -12,7 +13,8 @@ import { deleteTakeFiles, humanBytes, totalBytes } from '@/lib/speaking/media';
 
 // GELISIM: bir odagin kayitlarini tarih tarih goster. Her kayit: varyasyon +
 // puan + saat + geri-dinle + sil. Ustte toplam depolama. "Gun gun gelisim"i
-// puan ve kayit sayisi uzerinden gorursun. (Video sonraki surumde.)
+// puan ve kayit sayisi uzerinden gorursun. Videolu kayitta on kamera videosu
+// (sessiz) ile ayri saklanan ses AYNI ANDA baslatilir; ustte video gorunur.
 export default function SpeakingProgress() {
   const { focus: focusId } = useLocalSearchParams<{ focus?: string }>();
   const focus = useMemo(() => getSpeakingFocus(focusId), [focusId]);
@@ -21,6 +23,10 @@ export default function SpeakingProgress() {
   const [bytes, setBytes] = useState(0);
   const [playingId, setPlayingId] = useState<number | null>(null);
   const player = useAudioPlayer(null);
+  const video = useVideoPlayer(null, (p) => {
+    p.muted = true;
+  });
+  const [videoOn, setVideoOn] = useState(false);
 
   const varLabel = useMemo(() => {
     const m: Record<string, string> = {};
@@ -32,7 +38,7 @@ export default function SpeakingProgress() {
     if (!focus) return;
     const list = getSpeakingTakes(focus.id);
     setTakes(list);
-    totalBytes(list.map((t) => t.audio_uri)).then(setBytes).catch(() => {});
+    totalBytes(list.flatMap((t) => [t.audio_uri, t.video_uri])).then(setBytes).catch(() => {});
   }, [focus]);
 
   useFocusEffect(
@@ -42,27 +48,41 @@ export default function SpeakingProgress() {
       return () => {
         try {
           player.pause();
+          video.pause();
         } catch {}
       };
-    }, [load, player]),
+    }, [load, player, video]),
   );
 
   // Oynatma bitince gostergeyi sifirla.
   useEffect(() => {
     const sub = player.addListener('playbackStatusUpdate', (s) => {
-      if (s.didJustFinish) setPlayingId(null);
+      if (s.didJustFinish) {
+        setPlayingId(null);
+        video.pause();
+      }
     });
     return () => sub.remove();
-  }, [player]);
+  }, [player, video]);
 
   function togglePlay(t: SpeakingTake) {
     if (!t.audio_uri) return;
     if (playingId === t.id) {
       player.pause();
+      video.pause();
       setPlayingId(null);
       return;
     }
     try {
+      if (t.video_uri) {
+        video.replace(t.video_uri);
+        video.currentTime = 0;
+        video.play();
+        setVideoOn(true);
+      } else {
+        video.pause();
+        setVideoOn(false);
+      }
       player.replace(t.audio_uri);
       player.seekTo(0);
       player.play();
@@ -76,7 +96,9 @@ export default function SpeakingProgress() {
     if (playingId === t.id) {
       try {
         player.pause();
+        video.pause();
       } catch {}
+      setVideoOn(false);
       setPlayingId(null);
     }
   }
@@ -141,6 +163,12 @@ export default function SpeakingProgress() {
           <Text style={styles.practiceText}>Yeni pratik</Text>
         </Pressable>
 
+        {videoOn ? (
+          <View style={styles.videoBox}>
+            <VideoView player={video} style={StyleSheet.absoluteFill} contentFit="cover" nativeControls={false} />
+          </View>
+        ) : null}
+
         {takes.length === 0 ? (
           <Text style={styles.empty}>Henüz kayıt yok. "Yeni pratik" ile başla.</Text>
         ) : null}
@@ -163,7 +191,7 @@ export default function SpeakingProgress() {
                       {t.text_en}
                     </Text>
                     <Text style={styles.rowMeta} numberOfLines={1}>
-                      {varLabel[t.variation_key] ?? '—'} ·{' '}
+                      {varLabel[t.variation_key] ?? '-'} ·{' '}
                       {new Date(t.created_at).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' })}
                       {t.video_uri ? ' · video' : ''}
                     </Text>
@@ -189,6 +217,14 @@ export default function SpeakingProgress() {
 }
 
 const styles = StyleSheet.create({
+  videoBox: {
+    width: '60%',
+    alignSelf: 'center',
+    aspectRatio: 3 / 4,
+    borderRadius: radius.lg,
+    overflow: 'hidden',
+    backgroundColor: colors.surface,
+  },
   safe: { flex: 1, backgroundColor: colors.bg },
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: space.md, padding: space.xl },
 
