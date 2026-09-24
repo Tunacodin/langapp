@@ -17,7 +17,7 @@ import {
   getListeningClips,
   ListeningClip,
 } from '@/lib/db';
-import { colorFor, getTopic } from '@/lib/grammar';
+import { getTopic } from '@/lib/grammar';
 import { getPoster } from '@/lib/posters';
 import { getSongsForFocus, type SongClip } from '@/lib/songs';
 import { useClipThumb } from '@/lib/videoThumbs';
@@ -174,7 +174,7 @@ export default function DinlemeScreen() {
 function ClipRow({ clip: c }: { clip: ListeningClip }) {
   const isCurated = c.media_id.startsWith('curated_');
   const thumb = useClipThumb(isCurated ? '' : c.media_id, c.start_ms);
-  const color = colorFor(getTopic(c.norm_pattern)?.category ?? '');
+  const color = colors.accent;
   const onPress = isCurated
     ? () => {
         Speech.stop();
@@ -185,14 +185,13 @@ function ClipRow({ clip: c }: { clip: ListeningClip }) {
   return (
     <Pressable style={styles.card} onPress={onPress}>
       <View style={styles.goal}>
-        <View style={[styles.goalDot, { backgroundColor: color }]} />
-        <Text style={[styles.goalTitle, { color }]} numberOfLines={1}>
+        <Text style={styles.goalTitle} numberOfLines={1}>
           {c.topic}
         </Text>
         {c.cefr ? <Text style={styles.goalCefr}>{c.cefr}</Text> : null}
       </View>
       {c.note_tr ? (
-        <Text style={styles.goalNote} numberOfLines={2}>
+        <Text style={styles.goalNote} numberOfLines={1}>
           {c.note_tr}
         </Text>
       ) : null}
@@ -211,9 +210,9 @@ function ClipRow({ clip: c }: { clip: ListeningClip }) {
           )}
         </View>
         <View style={{ flex: 1, gap: 4 }}>
-          <Text style={styles.en}>{highlightSpan(c.text_en, c.span_start, c.span_end, color)}</Text>
+          <Text style={styles.en} numberOfLines={2}>{highlightSpan(c.text_en, c.span_start, c.span_end, color)}</Text>
           {c.text_tr ? (
-            <Text style={styles.tr} numberOfLines={2}>
+            <Text style={styles.tr} numberOfLines={1}>
               {c.text_tr}
             </Text>
           ) : null}
@@ -243,7 +242,7 @@ function SongRow({ song, onPress }: { song: SongClip; onPress: () => void }) {
           {song.artist}
         </Text>
         {topic ? (
-          <Text style={[styles.songGoal, { color: colorFor(topic.category) }]} numberOfLines={1}>
+          <Text style={styles.songGoal} numberOfLines={1}>
             {topic.topic} · {topic.note_tr}
           </Text>
         ) : null}
@@ -299,8 +298,7 @@ const styles = StyleSheet.create({
     gap: space.sm,
   },
   goal: { flexDirection: 'row', alignItems: 'center', gap: space.xs },
-  goalDot: { width: 8, height: 8, borderRadius: 4 },
-  goalTitle: { flex: 1, fontSize: 13, fontWeight: '800' },
+  goalTitle: { flex: 1, fontSize: 13, fontWeight: '800', color: colors.accent },
   goalCefr: { fontSize: 11, fontWeight: '800', color: colors.muted },
   goalNote: { fontSize: 12.5, color: colors.muted, lineHeight: 18, marginTop: -4 },
 
@@ -349,5 +347,5 @@ const styles = StyleSheet.create({
   },
   songTitle: { fontSize: 14, fontWeight: '800', color: colors.ink },
   songLine: { fontSize: 12.5, color: colors.muted, lineHeight: 18 },
-  songGoal: { fontSize: 12, fontWeight: '700' },
+  songGoal: { fontSize: 12, fontWeight: '700', color: colors.accent },
 });

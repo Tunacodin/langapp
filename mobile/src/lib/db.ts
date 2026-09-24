@@ -1676,7 +1676,7 @@ export function getGrammarUsagesByPattern(
 // Dinleme listesi (sayfali). Her kesit TEK "ogrenecegin yapi" ile gelir: cumledeki
 // en ileri seviye kalip (esitlikte en kisa vurgu). Odak varsa yalniz o kalip.
 // Sira videolar arasinda donusumlu (ROW_NUMBER / media) -> liste tek videoya yigilmaz.
-// Cok kisa/cok uzun cumleler (selamlama, paragraf) elenir.
+// Cok kisa/uzun cumleler elenir (25-110 karakter: kartta en fazla 2 satir).
 export type ListeningClip = {
   media_id: string;
   youtube_id: string;
@@ -1718,7 +1718,7 @@ export function getListeningClips(opts: {
        JOIN sentences s ON s.media_id = p.media_id AND s.idx = p.sentence_idx
        JOIN media_items m ON m.id = s.media_id
        WHERE p.r = 1
-         AND LENGTH(s.text_en) BETWEEN 25 AND 180
+         AND LENGTH(s.text_en) BETWEEN 25 AND 110
          AND (?1 IS NOT NULL OR s.media_id NOT LIKE 'curated_%')
          AND (?2 IS NULL OR s.text_en LIKE ?2 OR s.text_tr LIKE ?2 OR p.topic LIKE ?2)
      )
