@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gotye_used_to",
+    "artist": "Gotye",
+    "title": "Somebody That I Used to Know",
+    "query": "Gotye Somebody That I Used to Know official audio",
+    "focus_tag": "past_simple_and_habits",
+    "norm_pattern": "used_to_basics",
+    "cefr": "B1",
+    "target_line": "Now you're just somebody that I used to know",
+    "cloze_answer": "used to",
+    "hint_tr": "Geçmişteki alışkanlık ya da durum yapısı",
+    "exercise": "cloze"
+  },
+  {
+    "id": "adele_someone",
+    "artist": "Adele",
+    "title": "Someone Like You",
+    "query": "Adele Someone Like You official audio",
+    "focus_tag": "past_simple",
+    "norm_pattern": "past_simple_v2",
+    "cefr": "A2",
+    "target_line": "I heard that you're settled down",
+    "cloze_answer": "heard",
+    "hint_tr": "hear fiilinin geçmiş hâli (V2)",
+    "exercise": "cloze"
+  },
+  {
+    "id": "queen_champions",
+    "artist": "Queen",
+    "title": "We Are the Champions",
+    "query": "Queen We Are the Champions official audio",
+    "focus_tag": "present_perfect",
+    "norm_pattern": "present_perfect_have_v3",
+    "cefr": "B1",
+    "target_line": "I've paid my dues time after time",
+    "cloze_answer": "paid",
+    "hint_tr": "have + V3 (pay fiilinin 3. hâli)",
+    "exercise": "cloze"
+  },
+  {
+    "id": "bruno_yourman",
+    "artist": "Bruno Mars",
+    "title": "When I Was Your Man",
+    "query": "Bruno Mars When I Was Your Man official audio",
+    "focus_tag": "modal_perfect",
+    "norm_pattern": "should_have_v3",
+    "cefr": "B2",
+    "target_line": "That I should've bought you flowers",
+    "cloze_answer": "should've bought",
+    "hint_tr": "Geçmişte yapılmayana pişmanlık: should have + V3 (should've = should have)",
+    "exercise": "cloze"
+  },
+  {
+    "id": "beyonce_ifiwere",
+    "artist": "Beyonce",
+    "title": "If I Were a Boy",
+    "query": "Beyonce If I Were a Boy official audio",
+    "focus_tag": "conditional_type_2",
+    "norm_pattern": "conditional_type2",
+    "cefr": "B2",
+    "target_line": "If I were a boy, even just for a day",
+    "cloze_answer": "were",
+    "hint_tr": "Type 2 koşul: if + were (gerçek dışı durum)",
+    "exercise": "cloze"
+  },
+  {
+    "id": "greenday_september",
+    "artist": "Green Day",
+    "title": "Wake Me Up When September Ends",
+    "query": "Green Day Wake Me Up When September Ends official audio",
+    "focus_tag": "time_anchors",
+    "norm_pattern": "time_anchor_ago",
+    "cefr": "B1",
+    "target_line": "Seven years has gone so fast",
+    "cloze_answer": "seven years",
+    "hint_tr": "Zaman çapası: geçen süre belirteci",
+    "exercise": "cloze"
+  }
+]

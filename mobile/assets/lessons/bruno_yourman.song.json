@@ -1,0 +1,324 @@
+{
+  "clip_id": "bruno_yourman",
+  "song_title": "When I Was Your Man",
+  "artist": "Bruno Mars",
+  "media_file": "songs/bruno_yourman.m4a",
+  "focus_tag": "modal_perfect",
+  "norm_pattern": "should_have_v3",
+  "cefr": "B2",
+  "exercise": "cloze",
+  "duration_ms": 214000,
+  "target_line": "That I should've bought you flowers",
+  "target_line_tr": "Sana çiçek almalıydım",
+  "cloze_answer": "should've bought",
+  "hint_tr": "Geçmişte yapılmayana pişmanlık: should have + V3 (should've = should have)",
+  "target_index": 6,
+  "line_start_ms": 50650,
+  "line_end_ms": 54870,
+  "match_confidence": 1.0,
+  "lyrics_data": [
+    {
+      "time_start_ms": 13330,
+      "end_ms": 20200,
+      "text": "Same bed but it feels just a little bit bigger now",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 20200,
+      "end_ms": 26600,
+      "text": "Our song on the radio but it don't sound the same",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 26600,
+      "end_ms": 33180,
+      "text": "When our friends talk about you all it does is just tear me down",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 33180,
+      "end_ms": 37640,
+      "text": "'Cause my heart breaks a little when I hear your name",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 37640,
+      "end_ms": 45790,
+      "text": "It all just sounds like ooh-ooh, ooh-ooh",
+      "text_tr": "Hepsi kulağa ooh-ooh gibi geliyor",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 45790,
+      "end_ms": 50650,
+      "text": "Mmm, too young, too dumb to realize",
+      "text_tr": "Mmm, fark edemeyecek kadar genç ve toydum",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 50650,
+      "end_ms": 54870,
+      "text": "That I should've bought you flowers",
+      "text_tr": "Sana çiçek almalıydım",
+      "is_target": true
+    },
+    {
+      "time_start_ms": 54870,
+      "end_ms": 57470,
+      "text": "And held your hand",
+      "text_tr": "Ve elini tutmalıydım",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 57470,
+      "end_ms": 61150,
+      "text": "Should've gave you all my hours",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 61150,
+      "end_ms": 63930,
+      "text": "When I had the chance",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 63930,
+      "end_ms": 66220,
+      "text": "Take you to every party",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 66220,
+      "end_ms": 70450,
+      "text": "'Cause all you wanted to do was dance",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 70450,
+      "end_ms": 73730,
+      "text": "Now my baby's dancing",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 73730,
+      "end_ms": 82520,
+      "text": "But she's dancing with another man",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 82520,
+      "end_ms": 89000,
+      "text": "My pride, my ego, my needs, and my selfish ways",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 89000,
+      "end_ms": 94790,
+      "text": "Caused a good strong woman like you to walk out my life",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 94790,
+      "end_ms": 102300,
+      "text": "Now I never, never get to clean up the mess I made",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 102300,
+      "end_ms": 106660,
+      "text": "And it haunts me every time I close my eyes",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 106660,
+      "end_ms": 114630,
+      "text": "It all just sounds like ooh-ooh, ooh-ooh",
+      "text_tr": "Hepsi kulağa ooh-ooh gibi geliyor",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 114630,
+      "end_ms": 119470,
+      "text": "Mmm, too young, too dumb to realize",
+      "text_tr": "Mmm, fark edemeyecek kadar genç ve toydum",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 119470,
+      "end_ms": 123890,
+      "text": "That I should've bought you flowers",
+      "text_tr": "Sana çiçek almalıydım",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 123890,
+      "end_ms": 126290,
+      "text": "And held your hand",
+      "text_tr": "Ve elini tutmalıydım",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 126290,
+      "end_ms": 130060,
+      "text": "Should've gave you all my hours",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 130060,
+      "end_ms": 132870,
+      "text": "When I had the chance",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 132870,
+      "end_ms": 135290,
+      "text": "Take you to every party",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 135290,
+      "end_ms": 139420,
+      "text": "'Cause all you wanted to do was dance",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 139420,
+      "end_ms": 142570,
+      "text": "Now my baby's dancing",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 142570,
+      "end_ms": 146880,
+      "text": "But she's dancing with another man",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 146880,
+      "end_ms": 150150,
+      "text": "Although it hurts",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 150150,
+      "end_ms": 159630,
+      "text": "I'll be the first to say that I was wrong",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 159630,
+      "end_ms": 163340,
+      "text": "Oh, I know I'm probably much too late",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 163340,
+      "end_ms": 166660,
+      "text": "To try and apologize for my mistakes",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 166660,
+      "end_ms": 172180,
+      "text": "But I just want you to know",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 172180,
+      "end_ms": 176180,
+      "text": "I hope he buys you flowers",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 176180,
+      "end_ms": 179380,
+      "text": "I hope he holds your hand",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 179380,
+      "end_ms": 183050,
+      "text": "Give you all his hours",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 183050,
+      "end_ms": 186350,
+      "text": "When he has the chance",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 186350,
+      "end_ms": 188580,
+      "text": "Take to every party",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 188580,
+      "end_ms": 192340,
+      "text": "'Cause I remember how much you loved to dance",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 192340,
+      "end_ms": 196560,
+      "text": "Do all the things I should have done",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 196560,
+      "end_ms": 199310,
+      "text": "When I was your man",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 199310,
+      "end_ms": 204290,
+      "text": "Do all the things I should have done",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 204290,
+      "end_ms": 214000,
+      "text": "When I was your man",
+      "text_tr": "",
+      "is_target": false
+    }
+  ],
+  "source": "lrclib",
+  "lrclib_id": 1025329
+}

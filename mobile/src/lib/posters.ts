@@ -4,6 +4,14 @@
 // derleme aninda gomulu, cevrimdisi calisir. Anahtar = video_id (youtube_id).
 
 const POSTERS: Record<string, number> = {
+  // Sarki kapaklari (clip_id ile ayni anahtar)
+  gotye_used_to: require('../../assets/posters/gotye_used_to.jpg'),
+  adele_someone: require('../../assets/posters/adele_someone.jpg'),
+  queen_champions: require('../../assets/posters/queen_champions.jpg'),
+  bruno_yourman: require('../../assets/posters/bruno_yourman.jpg'),
+  beyonce_ifiwere: require('../../assets/posters/beyonce_ifiwere.jpg'),
+  greenday_september: require('../../assets/posters/greenday_september.jpg'),
+
   aliabdaal_eve: require('../../assets/posters/aliabdaal_eve.jpg'),
   damon_paris: require('../../assets/posters/damon_paris.jpg'),
   davella_routine: require('../../assets/posters/davella_routine.jpg'),

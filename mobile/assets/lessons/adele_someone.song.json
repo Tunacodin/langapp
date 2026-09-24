@@ -1,0 +1,296 @@
+{
+  "clip_id": "adele_someone",
+  "song_title": "Someone Like You",
+  "artist": "Adele",
+  "media_file": "songs/adele_someone.m4a",
+  "focus_tag": "past_simple",
+  "norm_pattern": "past_simple_v2",
+  "cefr": "A2",
+  "exercise": "cloze",
+  "duration_ms": 285000,
+  "target_line": "I heard that you're settled down",
+  "target_line_tr": "Duydum ki artık bir düzene girmişsin",
+  "cloze_answer": "heard",
+  "hint_tr": "hear fiilinin geçmiş hâli (V2)",
+  "target_index": 0,
+  "line_start_ms": 14080,
+  "line_end_ms": 21050,
+  "match_confidence": 1.0,
+  "lyrics_data": [
+    {
+      "time_start_ms": 14080,
+      "end_ms": 21050,
+      "text": "I heard that you're settled down",
+      "text_tr": "Duydum ki artık bir düzene girmişsin",
+      "is_target": true
+    },
+    {
+      "time_start_ms": 21050,
+      "end_ms": 29530,
+      "text": "That you found a girl and you're married now",
+      "text_tr": "Bir kız bulmuşsun ve şimdi evliymişsin",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 29530,
+      "end_ms": 35570,
+      "text": "I heard that your dreams came true",
+      "text_tr": "Duydum ki hayallerin gerçek olmuş",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 35570,
+      "end_ms": 43070,
+      "text": "Guess she gave you things I didn't give to you",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 43070,
+      "end_ms": 49450,
+      "text": "Old friend, why are you so shy?",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 49450,
+      "end_ms": 57260,
+      "text": "Ain't like you to hold back or hide from the light",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 57260,
+      "end_ms": 60660,
+      "text": "I hate to turn up out of the blue, uninvited",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 60660,
+      "end_ms": 64250,
+      "text": "But I couldn't stay away, I couldn't fight it",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 64250,
+      "end_ms": 67760,
+      "text": "I had hoped you'd see my face and that you'd be reminded",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 67760,
+      "end_ms": 73820,
+      "text": "That, for me, it isn't over",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 73820,
+      "end_ms": 79890,
+      "text": "Never mind, I'll find someone like you",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 79890,
+      "end_ms": 86930,
+      "text": "I wish nothing but the best for you, too",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 86930,
+      "end_ms": 93950,
+      "text": "Don't forget me, I beg, I remember you said",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 93950,
+      "end_ms": 101040,
+      "text": "Sometimes it lasts in love, but sometimes it hurts instead",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 101040,
+      "end_ms": 111680,
+      "text": "Sometimes it lasts in love, but sometimes it hurts instead",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 111680,
+      "end_ms": 117230,
+      "text": "You know how the time flies",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 117230,
+      "end_ms": 124120,
+      "text": "Only yesterday was the time of our lives",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 124120,
+      "end_ms": 131340,
+      "text": "We were born and raised in a summer haze",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 131340,
+      "end_ms": 139100,
+      "text": "Bound by the surprise of our glory days",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 139100,
+      "end_ms": 142580,
+      "text": "I hate to turn up out of the blue, uninvited",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 142580,
+      "end_ms": 146070,
+      "text": "But I couldn't stay away, I couldn't fight it",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 146070,
+      "end_ms": 149420,
+      "text": "I had hoped you'd see my face and that you'd be reminded",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 149420,
+      "end_ms": 157330,
+      "text": "That, for me, it isn't over",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 157330,
+      "end_ms": 163320,
+      "text": "Never mind, I'll find someone like you",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 163320,
+      "end_ms": 170410,
+      "text": "I wish nothing but the best for you, too",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 170410,
+      "end_ms": 177490,
+      "text": "Don't forget me, I beg, I remember you said",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 177490,
+      "end_ms": 185510,
+      "text": "Sometimes it lasts in love, but sometimes it hurts instead",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 185510,
+      "end_ms": 188930,
+      "text": "Nothing compares, no worries or cares",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 188930,
+      "end_ms": 192670,
+      "text": "Regrets and mistakes, they're memories made",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 192670,
+      "end_ms": 204250,
+      "text": "Who would have known how bittersweet this would taste?",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 204250,
+      "end_ms": 210120,
+      "text": "Never mind, I'll find someone like you",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 210120,
+      "end_ms": 217220,
+      "text": "I wish nothing but the best for you",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 217220,
+      "end_ms": 224380,
+      "text": "Don't forget me, I beg, I remember you said",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 224380,
+      "end_ms": 232490,
+      "text": "Sometimes it lasts in love, but sometimes it hurts instead",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 232490,
+      "end_ms": 238600,
+      "text": "Never mind, I'll find someone like you",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 238600,
+      "end_ms": 245830,
+      "text": "I wish nothing but the best for you, too",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 245830,
+      "end_ms": 252760,
+      "text": "Don't forget me, I beg, I remember you said",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 252760,
+      "end_ms": 259960,
+      "text": "Sometimes it lasts in love, but sometimes it hurts instead",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 259960,
+      "end_ms": 285000,
+      "text": "Sometimes it lasts in love, but sometimes it hurts instead",
+      "text_tr": "",
+      "is_target": false
+    }
+  ],
+  "source": "lrclib",
+  "lrclib_id": 15850
+}

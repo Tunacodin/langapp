@@ -1,0 +1,261 @@
+{
+  "clip_id": "greenday_september",
+  "song_title": "Wake Me Up When September Ends",
+  "artist": "Green Day",
+  "media_file": "songs/greenday_september.m4a",
+  "focus_tag": "time_anchors",
+  "norm_pattern": "time_anchor_ago",
+  "cefr": "B1",
+  "exercise": "cloze",
+  "duration_ms": 286000,
+  "target_line": "Seven years has gone so fast",
+  "target_line_tr": "Yedi yıl çok hızlı geçti",
+  "cloze_answer": "seven years",
+  "hint_tr": "Zaman çapası: geçen süre belirteci",
+  "target_index": 4,
+  "line_start_ms": 32030,
+  "line_end_ms": 36770,
+  "match_confidence": 1.0,
+  "lyrics_data": [
+    {
+      "time_start_ms": 9180,
+      "end_ms": 13870,
+      "text": "Summer has come and passed",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 13870,
+      "end_ms": 18550,
+      "text": "The innocent can never last",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 18550,
+      "end_ms": 27790,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 27790,
+      "end_ms": 32030,
+      "text": "Like my father's come to pass",
+      "text_tr": "Tıpkı babamın göçüp gitmesi gibi",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 32030,
+      "end_ms": 36770,
+      "text": "Seven years has gone so fast",
+      "text_tr": "Yedi yıl çok hızlı geçti",
+      "is_target": true
+    },
+    {
+      "time_start_ms": 36770,
+      "end_ms": 45960,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 45960,
+      "end_ms": 50550,
+      "text": "Here comes the rain again",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 50550,
+      "end_ms": 55030,
+      "text": "Falling from the stars",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 55030,
+      "end_ms": 59450,
+      "text": "Drenched in my pain again",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 59450,
+      "end_ms": 64340,
+      "text": "Becoming who we are",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 64340,
+      "end_ms": 68400,
+      "text": "As my memory rests",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 68400,
+      "end_ms": 73460,
+      "text": "But never forgets what I lost",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 73460,
+      "end_ms": 96070,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 96070,
+      "end_ms": 100510,
+      "text": "Summer has come and passed",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 100510,
+      "end_ms": 105180,
+      "text": "The innocent can never last",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 105180,
+      "end_ms": 114350,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 114350,
+      "end_ms": 118810,
+      "text": "Ring out the bells again",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 118810,
+      "end_ms": 123730,
+      "text": "Like we did when spring began",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 123730,
+      "end_ms": 132710,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 132710,
+      "end_ms": 137470,
+      "text": "Here comes the rain again",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 137470,
+      "end_ms": 142090,
+      "text": "Falling from the stars",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 142090,
+      "end_ms": 146190,
+      "text": "Drenched in my pain again",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 146190,
+      "end_ms": 151090,
+      "text": "Becoming who we are",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 151090,
+      "end_ms": 155320,
+      "text": "As my memory rests",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 155320,
+      "end_ms": 160230,
+      "text": "But never forgets what I lost",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 160230,
+      "end_ms": 203580,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 203580,
+      "end_ms": 208050,
+      "text": "Summer has come and passed",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 208050,
+      "end_ms": 212640,
+      "text": "The innocent can never last",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 212640,
+      "end_ms": 221800,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 221800,
+      "end_ms": 226490,
+      "text": "Like my father's come to pass",
+      "text_tr": "Tıpkı babamın göçüp gitmesi gibi",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 226490,
+      "end_ms": 231120,
+      "text": "20 years has gone so fast",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 231120,
+      "end_ms": 240180,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 240180,
+      "end_ms": 249450,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 249450,
+      "end_ms": 286000,
+      "text": "Wake me up when September ends",
+      "text_tr": "Eylül bitince beni uyandır",
+      "is_target": false
+    }
+  ],
+  "source": "lrclib",
+  "lrclib_id": 16173
+}

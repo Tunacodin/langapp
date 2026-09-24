@@ -1,0 +1,198 @@
+{
+  "clip_id": "queen_champions",
+  "song_title": "We Are the Champions",
+  "artist": "Queen",
+  "media_file": "songs/queen_champions.m4a",
+  "focus_tag": "present_perfect",
+  "norm_pattern": "present_perfect_have_v3",
+  "cefr": "B1",
+  "exercise": "cloze",
+  "duration_ms": 179000,
+  "target_line": "I've paid my dues time after time",
+  "target_line_tr": "Bedelimi defalarca ödedim",
+  "cloze_answer": "paid",
+  "hint_tr": "have + V3 (pay fiilinin 3. hâli)",
+  "target_index": 0,
+  "line_start_ms": 410,
+  "line_end_ms": 7190,
+  "match_confidence": 1.0,
+  "lyrics_data": [
+    {
+      "time_start_ms": 410,
+      "end_ms": 7190,
+      "text": "I've paid my dues time after time",
+      "text_tr": "Bedelimi defalarca ödedim",
+      "is_target": true
+    },
+    {
+      "time_start_ms": 7190,
+      "end_ms": 15050,
+      "text": "I've done my sentence but committed no crime",
+      "text_tr": "Cezamı çektim ama hiçbir suç işlemedim",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 15050,
+      "end_ms": 23020,
+      "text": "And bad mistakes, I've made a few",
+      "text_tr": "Ve kötü hatalar, birkaç tane yaptım",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 23020,
+      "end_ms": 25940,
+      "text": "I've had my share of sand kicked in my face",
+      "text_tr": "Payıma düşen aşağılanmaları da yaşadım",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 25940,
+      "end_ms": 28420,
+      "text": "But I've come through",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 28420,
+      "end_ms": 33180,
+      "text": "And we mean to go on, and on, and on, and on",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 33180,
+      "end_ms": 40500,
+      "text": "We are the champions, my friends",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 40500,
+      "end_ms": 48500,
+      "text": "And we'll keep on fighting till the end",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 48500,
+      "end_ms": 56090,
+      "text": "We are the champions, we are the champions",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 56090,
+      "end_ms": 76030,
+      "text": "No time for losers, 'cause we are the champions of the world",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 76030,
+      "end_ms": 83730,
+      "text": "I've taken my bows and my curtain calls",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 83730,
+      "end_ms": 86080,
+      "text": "You brought me fame and fortune",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 86080,
+      "end_ms": 90460,
+      "text": "And everything that goes with it, I thank you all",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 90460,
+      "end_ms": 98740,
+      "text": "But it's been no bed of roses, no pleasure cruise",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 98740,
+      "end_ms": 100600,
+      "text": "I consider it a challenge before",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 100600,
+      "end_ms": 104990,
+      "text": "The whole human race and I ain't gonna lose",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 104990,
+      "end_ms": 109530,
+      "text": "And we mean to go on, and on, and on and on",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 109530,
+      "end_ms": 116890,
+      "text": "We are the champions, my friends",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 116890,
+      "end_ms": 124950,
+      "text": "And we'll keep on fighting till the end",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 124950,
+      "end_ms": 132320,
+      "text": "We are the champions, we are the champions",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 132320,
+      "end_ms": 142120,
+      "text": "No time for losers, 'cause we are the champions of the world",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 142120,
+      "end_ms": 148420,
+      "text": "We are the champions, my friends",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 148420,
+      "end_ms": 156500,
+      "text": "And we'll keep on fighting till the end, oh",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 156500,
+      "end_ms": 163880,
+      "text": "We are the champions, we are the champions",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 163880,
+      "end_ms": 179000,
+      "text": "No time for losers, 'cause we are the champions",
+      "text_tr": "",
+      "is_target": false
+    }
+  ],
+  "source": "lrclib",
+  "lrclib_id": 20406
+}

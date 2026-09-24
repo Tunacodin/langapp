@@ -1,0 +1,373 @@
+{
+  "clip_id": "beyonce_ifiwere",
+  "song_title": "If I Were a Boy",
+  "artist": "Beyonce",
+  "media_file": "songs/beyonce_ifiwere.m4a",
+  "focus_tag": "conditional_type_2",
+  "norm_pattern": "conditional_type2",
+  "cefr": "B2",
+  "exercise": "cloze",
+  "duration_ms": 249000,
+  "target_line": "If I were a boy, even just for a day",
+  "target_line_tr": "Bir erkek olsaydım, bir günlüğüne bile",
+  "cloze_answer": "were",
+  "hint_tr": "Type 2 koşul: if + were (gerçek dışı durum)",
+  "target_index": 0,
+  "line_start_ms": 3080,
+  "line_end_ms": 12000,
+  "match_confidence": 1.0,
+  "lyrics_data": [
+    {
+      "time_start_ms": 3080,
+      "end_ms": 12000,
+      "text": "If I were a boy, even just for a day",
+      "text_tr": "Bir erkek olsaydım, bir günlüğüne bile",
+      "is_target": true
+    },
+    {
+      "time_start_ms": 12000,
+      "end_ms": 17050,
+      "text": "I'd roll outta bed in the mornin'",
+      "text_tr": "Sabah yataktan keyifle kalkardım",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 17050,
+      "end_ms": 24050,
+      "text": "And throw on what I wanted, then go",
+      "text_tr": "Canım ne isterse giyer, öyle çıkardım",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 24050,
+      "end_ms": 29050,
+      "text": "Drink beer with the guys",
+      "text_tr": "Erkeklerle bira içerdim",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 29050,
+      "end_ms": 35050,
+      "text": "And chase after girls",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 35050,
+      "end_ms": 39080,
+      "text": "I'd kick it with who I wanted",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 39080,
+      "end_ms": 42020,
+      "text": "And I'd never get confronted for it",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 42020,
+      "end_ms": 44020,
+      "text": "'Cause they'd stick up for me",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 44020,
+      "end_ms": 50030,
+      "text": "If I were a boy",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 50030,
+      "end_ms": 57080,
+      "text": "I think I could understand",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 57080,
+      "end_ms": 60030,
+      "text": "How it feels to love a girl",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 60030,
+      "end_ms": 66000,
+      "text": "I swear I'd be a better man",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 66000,
+      "end_ms": 71020,
+      "text": "I'd listen to her",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 71020,
+      "end_ms": 78030,
+      "text": "'Cause I know how it hurts",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 78030,
+      "end_ms": 81080,
+      "text": "When you lose the one you wanted",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 81080,
+      "end_ms": 84070,
+      "text": "'Cause he's taken you for granted",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 84070,
+      "end_ms": 88050,
+      "text": "And everything you had got destroyed",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 88050,
+      "end_ms": 93090,
+      "text": "If I were a boy",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 93090,
+      "end_ms": 100030,
+      "text": "I would turn off my phone",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 100030,
+      "end_ms": 103070,
+      "text": "Tell everyone it's broken",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 103070,
+      "end_ms": 109060,
+      "text": "So they'd think that I was sleepin' alone",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 109060,
+      "end_ms": 114050,
+      "text": "I'd put myself first",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 114050,
+      "end_ms": 121030,
+      "text": "And make the rules as I go",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 121030,
+      "end_ms": 124050,
+      "text": "'Cause I know that she'd be faithful",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 124050,
+      "end_ms": 131040,
+      "text": "Waitin' for me to come home, to come home",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 131040,
+      "end_ms": 135000,
+      "text": "If I were a boy",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 135000,
+      "end_ms": 142060,
+      "text": "I think I could understand",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 142060,
+      "end_ms": 145070,
+      "text": "How it feels to love a girl",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 145070,
+      "end_ms": 152010,
+      "text": "I swear I'd be a better man",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 152010,
+      "end_ms": 157080,
+      "text": "I'd listen to her",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 157080,
+      "end_ms": 163050,
+      "text": "'Cause I know how it hurts",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 163050,
+      "end_ms": 167010,
+      "text": "When you lose the one you wanted (wanted)",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 167010,
+      "end_ms": 170030,
+      "text": "'Cause he's taken you for granted (granted)",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 170030,
+      "end_ms": 176010,
+      "text": "And everything you had got destroyed",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 176010,
+      "end_ms": 182070,
+      "text": "It's a little too late for you to come back",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 182070,
+      "end_ms": 183090,
+      "text": "Say it's just a mistake",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 183090,
+      "end_ms": 186090,
+      "text": "Think I'd forgive you like that",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 186090,
+      "end_ms": 190090,
+      "text": "If you thought I would wait for you",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 190090,
+      "end_ms": 196020,
+      "text": "You thought wrong",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 196020,
+      "end_ms": 201030,
+      "text": "But you're just a boy",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 201030,
+      "end_ms": 204080,
+      "text": "You don't understand",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 204080,
+      "end_ms": 208050,
+      "text": "Yeah, you don't understand, oh",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 208050,
+      "end_ms": 211040,
+      "text": "How it feels to love a girl, someday",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 211040,
+      "end_ms": 217000,
+      "text": "You'll wish you were a better man",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 217000,
+      "end_ms": 222090,
+      "text": "You don't listen to her",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 222090,
+      "end_ms": 228020,
+      "text": "You don't care how it hurts",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 228020,
+      "end_ms": 232080,
+      "text": "Until you lose the one you wanted",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 232080,
+      "end_ms": 235050,
+      "text": "'Cause you've taken her for granted",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 235050,
+      "end_ms": 241020,
+      "text": "And everything you have got destroyed",
+      "text_tr": "",
+      "is_target": false
+    },
+    {
+      "time_start_ms": 241020,
+      "end_ms": 249000,
+      "text": "But you're just a boy",
+      "text_tr": "",
+      "is_target": false
+    }
+  ],
+  "source": "lrclib",
+  "lrclib_id": 240036
+}
