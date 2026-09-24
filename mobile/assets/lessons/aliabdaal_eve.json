@@ -10,7 +10,7 @@
       "start_ms": 0,
       "end_ms": 7060,
       "text_en": "Over the last few months, I've interviewed a bunch of sleep experts and listened to loads of podcasts and read loads of books all about the science behind effective sleep.",
-      "text_tr": "",
+      "text_tr": "Geçtiğimiz birkaç ay boyunca bir grup uyku uzmanıyla röportaj yaptım, bir sürü podcast dinledim ve etkili uykunun ardındaki bilimle ilgili bir sürü kitap okudum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -46,7 +46,7 @@
       "start_ms": 7380,
       "end_ms": 13280,
       "text_en": "And these are the nine evidence -based things that I've built into my routine to help me get an amazing night's sleep and feel well rested throughout the day.",
-      "text_tr": "",
+      "text_tr": "Bunlar, harika bir gece uykusu almama ve gün boyunca kendimi iyi dinlenmiş hissetmeme yardımcı olmak için rutinime yerleştirdiğim kanıta dayalı dokuz şey.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -82,7 +82,7 @@
       "start_ms": 13500,
       "end_ms": 14120,
       "text_en": "Let's get started.",
-      "text_tr": "",
+      "text_tr": "Hadi başlayalım.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -93,7 +93,7 @@
       "start_ms": 14500,
       "end_ms": 17120,
       "text_en": "First off, I try to sleep for around 7 -8 hours each night.",
-      "text_tr": "",
+      "text_tr": "Öncelikle her gece 7-8 saat civarında uyumaya çalışıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -113,7 +113,7 @@
       "start_ms": 17320,
       "end_ms": 24200,
       "text_en": "Now, the science on how long you should sleep for isn't straightforward, but most research says that between 7 -9 hours of sleep at night is ideal for a healthy adult.",
-      "text_tr": "",
+      "text_tr": "Ne kadar süre uyumanız gerektiğine dair bilimsel bilgiler net değil ancak çoğu araştırma, sağlıklı bir yetişkin için gece 7-9 saat uykunun ideal olduğunu söylüyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -149,7 +149,7 @@
       "start_ms": 24400,
       "end_ms": 35520,
       "text_en": "And according to a big 2015 study by the American Academy of Sleep Science and the Sleep Research Society, quote, adults should sleep 7 or more hours per night, because regularly getting less than 7 hours of sleep can lead to a load of bad stuff like weight gain",
-      "text_tr": "",
+      "text_tr": "Amerikan Uyku Bilimi Akademisi ve Uyku Araştırmaları Topluluğu tarafından 2015 yılında yapılan büyük bir araştırmaya göre yetişkinlerin gecede 7 saat veya daha fazla uyuması gerekiyor çünkü düzenli olarak 7 saatten az uyumak kilo alma gibi birçok kötü şeye yol açabilir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -185,7 +185,7 @@
       "start_ms": 35520,
       "end_ms": 38760,
       "text_en": "and heart disease and depression and a charmingly increased risk of death.",
-      "text_tr": "",
+      "text_tr": "ve kalp hastalığı, depresyon ve büyüleyici bir şekilde artan ölüm riski.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -196,7 +196,7 @@
       "start_ms": 38960,
       "end_ms": 42540,
       "text_en": "If you're not sure if you should sleep 7 or 8 or 9 hours, then the solution is pretty simple.",
-      "text_tr": "",
+      "text_tr": "7 mi, 8 mi, yoksa 9 saat mi uyumanız gerektiğinden emin değilseniz çözüm oldukça basittir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -232,7 +232,7 @@
       "start_ms": 42940,
       "end_ms": 46220,
       "text_en": "Just experiment with how much sleep you need to feel happy and productive the next day.",
-      "text_tr": "",
+      "text_tr": "Ertesi gün mutlu ve üretken hissetmek için ne kadar uykuya ihtiyacınız olduğunu deneyin.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -260,7 +260,7 @@
       "start_ms": 46400,
       "end_ms": 54600,
       "text_en": "And remember, if you get too obsessed with getting 8 hours of sleep every single night, that actually might spike your stress levels ironically making it more difficult to get to sleep, and this is called sleep anxiety.",
-      "text_tr": "",
+      "text_tr": "Ve unutmayın, eğer her gece 8 saat uyuma konusunda takıntılı hale gelirseniz, bu aslında stres seviyenizi ironik bir şekilde yükselterek uykuya dalmayı daha da zorlaştırabilir ve buna uyku kaygısı denir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -304,7 +304,7 @@
       "start_ms": 54600,
       "end_ms": 58080,
       "text_en": "So the second thing I try to do for a healthy sleep is to build a sleep rhythm.",
-      "text_tr": "",
+      "text_tr": "Yani sağlıklı bir uyku için yapmaya çalıştığım ikinci şey uyku ritmini oluşturmak.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -324,18 +324,10 @@
       "start_ms": 58440,
       "end_ms": 62200,
       "text_en": "I set a regular time for going to sleep and waking up and I try my best to actually stick to it.",
-      "text_tr": "",
+      "text_tr": "Uyumak ve uyanmak için düzenli bir zaman belirliyorum ve buna gerçekten bağlı kalmak için elimden gelenin en iyisini yapıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
-        {
-          "pattern": "going to sleep",
-          "note_tr": "Future (be going to)",
-          "cefr": "A2",
-          "norm_pattern": "future_going_to",
-          "span_start": 25,
-          "span_end": 39
-        },
         {
           "pattern": "set",
           "note_tr": "Simple Past",
@@ -360,7 +352,7 @@
       "start_ms": 62300,
       "end_ms": 66780,
       "text_en": "So for example, I usually go to sleep around 11 or 11 .30 pm and get up around 7 am.",
-      "text_tr": "",
+      "text_tr": "Örneğin, genellikle 11 veya 11.30 civarında yatarım ve sabah 7 civarında kalkarım.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -388,7 +380,7 @@
       "start_ms": 67000,
       "end_ms": 70020,
       "text_en": "The more consistent your rhythm, the easier it's going to be to fall asleep and wake up.",
-      "text_tr": "",
+      "text_tr": "Ritiminiz ne kadar tutarlı olursa uykuya dalmanız ve uyanmanız o kadar kolay olur.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -408,7 +400,7 @@
       "start_ms": 70160,
       "end_ms": 72300,
       "text_en": "And this is because of the homeostatic sleep drive.",
-      "text_tr": "",
+      "text_tr": "Bunun nedeni homeostatik uyku dürtüsüdür.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -419,7 +411,7 @@
       "start_ms": 72500,
       "end_ms": 78240,
       "text_en": "One of the main systems in our body that determines when we feel tired and when we feel awake, which is powered by the chemical adenosine.",
-      "text_tr": "",
+      "text_tr": "Vücudumuzda ne zaman yorgun ve ne zaman uyanık hissettiğimizi belirleyen ana sistemlerden biri, gücünü adenozin kimyasalından alıyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -479,7 +471,7 @@
       "start_ms": 78360,
       "end_ms": 80640,
       "text_en": "The adenosine makes us feel this intense need for sleep.",
-      "text_tr": "",
+      "text_tr": "Adenozin bize bu yoğun uyku ihtiyacını hissettirir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -499,7 +491,7 @@
       "start_ms": 80860,
       "end_ms": 86220,
       "text_en": "From the moment we wake up in the morning, adenosine starts building up in our body until eventually we start feeling sleep hungry.",
-      "text_tr": "",
+      "text_tr": "Sabah uyandığımız andan itibaren vücudumuzda adenozin birikmeye başlar ve sonunda aç olduğumuzu hissetmeye başlarız.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -535,7 +527,7 @@
       "start_ms": 86520,
       "end_ms": 88340,
       "text_en": "The more adenosine we have, the sleepier we feel.",
-      "text_tr": "",
+      "text_tr": "Ne kadar çok adenozinimiz varsa, o kadar uykulu hissederiz.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -563,7 +555,7 @@
       "start_ms": 88500,
       "end_ms": 93500,
       "text_en": "When we actually do get enough sleep, that drives our adenosine levels down again and we wake up feeling well rested.",
-      "text_tr": "",
+      "text_tr": "Yeterince uyuduğumuzda bu, adenosin seviyemizi tekrar düşürür ve kendimizi iyi dinlenmiş hissederek uyanırız.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -599,7 +591,7 @@
       "start_ms": 93740,
       "end_ms": 96720,
       "text_en": "Okay, so why does this mean we should have consistent times for waking and sleeping?",
-      "text_tr": "",
+      "text_tr": "Peki bu neden uyanma ve uyumak için tutarlı zamanlara sahip olmamız gerektiği anlamına geliyor?",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -619,18 +611,10 @@
       "start_ms": 96960,
       "end_ms": 106760,
       "text_en": "Well, if we start going to sleep and waking up at the same time every day and get our proper 7 to 8 hours of sleep, then our adenosine levels will regularly peak at the same time each evening, making us feel properly tired and ready for bed.",
-      "text_tr": "",
+      "text_tr": "Her gün aynı saatte uyuyup uyanmaya başlarsak ve uygun 7 ila 8 saatlik uykumuzu alırsak, adenozin seviyelerimiz her akşam aynı saatte düzenli olarak zirveye ulaşacak ve kendimizi yeterince yorgun ve yatmaya hazır hissetmemizi sağlayacaktır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
-        {
-          "pattern": "going to sleep",
-          "note_tr": "Future (be going to)",
-          "cefr": "A2",
-          "norm_pattern": "future_going_to",
-          "span_start": 18,
-          "span_end": 32
-        },
         {
           "pattern": "will regularly peak",
           "note_tr": "Future (will)",
@@ -671,7 +655,7 @@
       "start_ms": 106960,
       "end_ms": 112100,
       "text_en": "And after 7 to 8 hours of sleep, that adenosine will be low enough that we can wake up naturally without feeling too groggy or tired.",
-      "text_tr": "",
+      "text_tr": "Ve 7 ila 8 saatlik uykudan sonra, bu adenosin yeterince düşük olacak ve kendimizi çok sersemlemiş veya yorgun hissetmeden doğal bir şekilde uyanabiliriz.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -699,7 +683,7 @@
       "start_ms": 112100,
       "end_ms": 120860,
       "text_en": "So the more we can invest in building this steady rhythm, the more we can bring our sleep schedule in sync with the chemicals in our body, and the less likely we are to feel weirdly awake at 2am and start playing video games.",
-      "text_tr": "",
+      "text_tr": "Bu istikrarlı ritmi oluşturmak için ne kadar çok yatırım yaparsak, uyku programımızı vücudumuzdaki kimyasallarla o kadar uyumlu hale getirebiliriz ve gece saat 2'de garip bir şekilde uyanık hissetme ve video oyunları oynamaya başlama olasılığımız o kadar azalır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -727,7 +711,7 @@
       "start_ms": 121060,
       "end_ms": 123540,
       "text_en": "And here are 4 practical things that can help you build that rhythm.",
-      "text_tr": "",
+      "text_tr": "Ve işte bu ritmi oluşturmanıza yardımcı olabilecek 4 pratik şey.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -755,7 +739,7 @@
       "start_ms": 123900,
       "end_ms": 126820,
       "text_en": "First, set an alarm for the same time every day to help you wake up consistently.",
-      "text_tr": "",
+      "text_tr": "Öncelikle, sürekli uyanmanıza yardımcı olmak için her gün aynı saate alarm kurun.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -775,7 +759,7 @@
       "start_ms": 127200,
       "end_ms": 128259,
       "text_en": "Secondly, ignore the weekend.",
-      "text_tr": "",
+      "text_tr": "İkincisi, hafta sonunu görmezden gelin.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -786,7 +770,7 @@
       "start_ms": 128639,
       "end_ms": 133260,
       "text_en": "As far as your body is concerned, the weekend is just 2 days where you do your best to mess up your healthy sleep cycle.",
-      "text_tr": "",
+      "text_tr": "Vücudunuz söz konusu olduğunda hafta sonu, sağlıklı uyku döngünüzü bozmak için elinizden gelenin en iyisini yaptığınız sadece 2 gündür.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -822,7 +806,7 @@
       "start_ms": 133480,
       "end_ms": 144720,
       "text_en": "For me, I've tried to personally avoid lions or having a different sleep schedule on Saturdays and Sundays, so I don't mess up this adenosine rhythm that I've basically tried to schedule evening need ups with friends a",
-      "text_tr": "",
+      "text_tr": "Benim için kişisel olarak aslanlardan uzak durmaya ya da Cumartesi ve Pazar günleri farklı bir uyku programına sahip olmaya çalıştım, bu yüzden temelde arkadaşlarımla akşam ihtiyaçlarını planlamaya çalıştığım bu adenosin ritmini bozmadım.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -850,7 +834,7 @@
       "start_ms": 144720,
       "end_ms": 145820,
       "text_en": "little bit earlier in the day.",
-      "text_tr": "",
+      "text_tr": "günün biraz erken saatlerinde.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -870,7 +854,7 @@
       "start_ms": 145960,
       "end_ms": 149140,
       "text_en": "The occasional late night is totally fine, I just try not to make too much of a habit of it.",
-      "text_tr": "",
+      "text_tr": "Ara sıra gecenin geç saatleri tamamen sorun değil, sadece bunu çok fazla alışkanlık haline getirmemeye çalışıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -890,7 +874,7 @@
       "start_ms": 149240,
       "end_ms": 151040,
       "text_en": "The final tip is to actually listen to your body.",
-      "text_tr": "",
+      "text_tr": "Son ipucu aslında vücudunuzu dinlemek.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -901,7 +885,7 @@
       "start_ms": 151320,
       "end_ms": 153480,
       "text_en": "Try not to push through that sleepy late evening feeling.",
-      "text_tr": "",
+      "text_tr": "Akşamın geç saatlerindeki o uykulu duyguyu zorlamamaya çalışın.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -912,7 +896,7 @@
       "start_ms": 153860,
       "end_ms": 156840,
       "text_en": "That's the exact trigger we're working towards which makes it easier to fall asleep.",
-      "text_tr": "",
+      "text_tr": "Bu, uykuya dalmayı kolaylaştıran, üzerinde çalıştığımız tetikleyicinin tamamıdır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -948,7 +932,7 @@
       "start_ms": 157160,
       "end_ms": 160700,
       "text_en": "Okay, so the next thing I do to get a good night's sleep is to catch the morning sun when I wake up.",
-      "text_tr": "",
+      "text_tr": "Tamam, iyi bir gece uykusu çekmek için yapacağım bir sonraki şey, uyandığımda sabah güneşini yakalamak.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -976,7 +960,7 @@
       "start_ms": 160800,
       "end_ms": 169380,
       "text_en": "That's because in addition to adenosine, there's a second system inside all of us that affects when we feel sleepy and when we feel awake, a kind of internal 24 hour clock called the circadian rhythm.",
-      "text_tr": "",
+      "text_tr": "Bunun nedeni, adenozinin yanı sıra, hepimizin içinde ne zaman uykulu olduğumuzu ve ne zaman uyanık olduğumuzu etkileyen ikinci bir sistemin de bulunmasıdır; sirkadiyen ritim adı verilen bir tür 24 saatlik dahili saat.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1028,7 +1012,7 @@
       "start_ms": 169380,
       "end_ms": 179160,
       "text_en": "This system is mainly controlled from a master clock in our brain called the suprachiasmatic nucleus which lives just above the roof of our mouth and sends signals to the rest of our body about whether to feel sleepy or awake.",
-      "text_tr": "",
+      "text_tr": "Bu sistem esas olarak beynimizde bulunan, ağzımızın çatısının hemen üzerinde yaşayan ve vücudumuzun geri kalanına uykulu mu yoksa uyanık mı olacağı konusunda sinyaller gönderen suprakiazmatik çekirdek adı verilen bir ana saat tarafından kontrol edilir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1072,7 +1056,7 @@
       "start_ms": 179460,
       "end_ms": 190560,
       "text_en": "The circadian rhythm generally looks like a wave, with our brain releasing the chemicals cortisol and epinephrine to drive our upward spike in alertness during the morning and the rest of the day and melatonin driving the downward covid night, making us feel",
-      "text_tr": "",
+      "text_tr": "Sirkadiyen ritim genel olarak bir dalgaya benziyor; beynimiz sabah ve günün geri kalanında uyanıklığımızı yukarıya çıkarmak için kortizol ve epinefrin kimyasallarını salgılıyor ve melatonin kovid gecesini aşağı doğru yönlendirerek bize hissettiriyor",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1100,7 +1084,7 @@
       "start_ms": 190560,
       "end_ms": 191160,
       "text_en": "like going to bed.",
-      "text_tr": "",
+      "text_tr": "yatmak gibi.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -1111,7 +1095,7 @@
       "start_ms": 191440,
       "end_ms": 195440,
       "text_en": "And the number one thing that influences this circadian rhythm is light, particularly morning sunlight.",
-      "text_tr": "",
+      "text_tr": "Ve bu günlük ritmi etkileyen bir numaralı şey ışık, özellikle de sabah güneş ışığıdır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1139,7 +1123,7 @@
       "start_ms": 195860,
       "end_ms": 204620,
       "text_en": "When morning sunlight hits the retina in our eyes, it sends a message to our internal circadian clock to trigger that release of cortisol and epinephrine, which makes us feel awake and alert.",
-      "text_tr": "",
+      "text_tr": "Sabah güneş ışığı gözlerimizdeki retinaya çarptığında, iç sirkadiyen saatimize bir mesaj göndererek kortizol ve epinefrin salınımını tetikler, bu da kendimizi uyanık ve tetikte hissetmemizi sağlar.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1183,7 +1167,7 @@
       "start_ms": 204920,
       "end_ms": 209060,
       "text_en": "Now, the sun doesn't need to be just peeking over the horizon, it just needs to be within a few hours of sunlight.",
-      "text_tr": "",
+      "text_tr": "Artık güneşin sadece ufukta görünmesine gerek yok, sadece birkaç saatlik güneş ışığı yakınında olması gerekiyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1211,7 +1195,7 @@
       "start_ms": 209460,
       "end_ms": 211280,
       "text_en": "And the sooner you can get it after waking up, the better.",
-      "text_tr": "",
+      "text_tr": "Ve uyandıktan sonra ne kadar erken alırsanız o kadar iyi olur.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1231,7 +1215,7 @@
       "start_ms": 211500,
       "end_ms": 218920,
       "text_en": "So in terms of my personal morning routine, I wake up, I grab some water, I take my medication, which in this case is finasteride and heights supplement and probiotic.",
-      "text_tr": "",
+      "text_tr": "Yani kişisel sabah rutinim açısından uyanıyorum, biraz su alıyorum, ilaçlarımı alıyorum ki bu durumda finasterid, boy takviyesi ve probiyotik var.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1283,7 +1267,7 @@
       "start_ms": 219160,
       "end_ms": 228580,
       "text_en": "And then after having a shower, I'll normally go for a walk and I'll walk over to the local Pretamonjay where I've got the Pret coffee subscription, because that encourages me to actually get out of the house in the morning to grab my coffee.",
-      "text_tr": "",
+      "text_tr": "Duş aldıktan sonra normalde yürüyüşe çıkacağım ve Pret kahve aboneliğimin olduğu yerel Pretamonjay'e doğru yürüyeceğim, çünkü bu beni sabah kahvemi almak için evden çıkmaya teşvik ediyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1343,7 +1327,7 @@
       "start_ms": 229000,
       "end_ms": 230040,
       "text_en": "And that means I'm getting the morning sunlight.",
-      "text_tr": "",
+      "text_tr": "Bu da sabah güneş ışığını aldığım anlamına geliyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1371,7 +1355,7 @@
       "start_ms": 230440,
       "end_ms": 233300,
       "text_en": "And I've also delayed my caffeine consumption more in that a little bit later.",
-      "text_tr": "",
+      "text_tr": "Ayrıca kafein tüketimimi de biraz daha erteledim.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1399,7 +1383,7 @@
       "start_ms": 233520,
       "end_ms": 241720,
       "text_en": "Now other types of bright light can trigger our wake up mechanisms, but our brain responds best to the quality and amount of light that's coming from the sun when it's at a low solar angle.",
-      "text_tr": "",
+      "text_tr": "Artık diğer parlak ışık türleri uyanma mekanizmalarımızı tetikleyebilir, ancak beynimiz güneşten gelen ışığın kalitesine ve miktarına, düşük güneş açısındayken en iyi tepkiyi verir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1443,7 +1427,7 @@
       "start_ms": 241840,
       "end_ms": 248540,
       "text_en": "So on bright cloudless days, you should apparently stay outside for around 10 minutes after waking up to properly trigger your circadian clock on cloudy days.",
-      "text_tr": "",
+      "text_tr": "Bu nedenle, bulutsuz günlerde sirkadiyen saatinizi uygun şekilde tetiklemek için uyandıktan sonra yaklaşık 10 dakika kadar dışarıda kalmanız gerekir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1463,7 +1447,7 @@
       "start_ms": 248560,
       "end_ms": 250120,
       "text_en": "It might take a bit longer, like 20 minutes.",
-      "text_tr": "",
+      "text_tr": "20 dakika gibi biraz daha uzun sürebilir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1483,7 +1467,7 @@
       "start_ms": 250120,
       "end_ms": 252960,
       "text_en": "And if it's really overcast, it could take 30 minutes to an hour.",
-      "text_tr": "",
+      "text_tr": "Ve eğer hava gerçekten kapalıysa, 30 dakikadan bir saate kadar sürebilir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1511,7 +1495,7 @@
       "start_ms": 253100,
       "end_ms": 255000,
       "text_en": "But the main thing is that we don't want to overthink this.",
-      "text_tr": "",
+      "text_tr": "Ancak asıl önemli olan, bunu fazla düşünmek istemememizdir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -1522,7 +1506,7 @@
       "start_ms": 255220,
       "end_ms": 261560,
       "text_en": "Perfect is the enemy of good and just getting any amount of morning sunlight in the morning is actually great for our circadian rhythm and for our sleep quality.",
-      "text_tr": "",
+      "text_tr": "Mükemmel, iyinin düşmanıdır ve sabahları herhangi bir miktarda sabah güneş ışığı almak aslında sirkadiyen ritmimiz ve uyku kalitemiz için harikadır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1542,7 +1526,7 @@
       "start_ms": 261800,
       "end_ms": 273100,
       "text_en": "Now, there's a second reason it's important to get that morning sunlight in that it sets our circadian clock on a timer to release the hormone melatonin from the pineal gland in our brain in about 12 to 14 hours time, which is going to make us feel sleepy",
-      "text_tr": "",
+      "text_tr": "Şimdi, sabah güneş ışığını almanın önemli olmasının ikinci bir nedeni daha var; bu, beynimizdeki epifiz bezinden melatonin hormonunu yaklaşık 12 ila 14 saat içinde serbest bırakacak şekilde sirkadiyen saatimizi bir zamanlayıcıya ayarlar, bu da bizi uykulu hissettirir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1594,7 +1578,7 @@
       "start_ms": 273100,
       "end_ms": 273940,
       "text_en": "later that evening.",
-      "text_tr": "",
+      "text_tr": "o akşamın ilerleyen saatlerinde.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -1605,7 +1589,7 @@
       "start_ms": 274180,
       "end_ms": 279340,
       "text_en": "So the earlier we get that morning sunlight, the sooner that clock starts counting down and the sooner we start feeling sleepy in the evening.",
-      "text_tr": "",
+      "text_tr": "Yani o sabah güneş ışığını ne kadar erken alırsak, saat o kadar erken geri saymaya başlar ve akşamları o kadar erken uykumuz gelmeye başlar.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1641,7 +1625,7 @@
       "start_ms": 279520,
       "end_ms": 290020,
       "text_en": "So if I wake up at 7am and then I go for a morning walk to get that strong burst of morning sun for about 10 minutes, I should start getting the sleepy signal from my brain between about 7pm and 9pm that night.",
-      "text_tr": "",
+      "text_tr": "Yani sabah 7'de uyanır ve yaklaşık 10 dakika boyunca güçlü sabah güneşi almak için sabah yürüyüşüne çıkarsam, beynimden uyku sinyalini o gece akşam 7 ile 21:00 arasında almaya başlamalıyım.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1685,7 +1669,7 @@
       "start_ms": 290260,
       "end_ms": 295600,
       "text_en": "But if I wake up later at 8am, for example, the sleepy phase is going to move forward to between 8pm and 10pm.",
-      "text_tr": "",
+      "text_tr": "Ancak örneğin sabah 8'de daha geç uyanırsam, uyku evresi akşam 8 ile 22:00 arasına doğru ilerleyecektir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1721,7 +1705,7 @@
       "start_ms": 295860,
       "end_ms": 299180,
       "text_en": "And before we continue, I want to give a massive shout out to the Huberman Lab podcast.",
-      "text_tr": "",
+      "text_tr": "Devam etmeden önce Huberman Lab podcast'ine büyük bir seslenmek istiyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1749,7 +1733,7 @@
       "start_ms": 299540,
       "end_ms": 301340,
       "text_en": "Andrew Huberman's podcast is absolutely sick.",
-      "text_tr": "",
+      "text_tr": "Andrew Huberman'ın podcast'i kesinlikle berbat.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -1760,7 +1744,7 @@
       "start_ms": 301500,
       "end_ms": 302220,
       "text_en": "I listen to it all the time.",
-      "text_tr": "",
+      "text_tr": "Her zaman dinlerim.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1788,7 +1772,7 @@
       "start_ms": 302640,
       "end_ms": 308740,
       "text_en": "And the episodes about sleep really help me figure out all of this stuff around the evidence around sleep and helped inform a lot of the research for this video.",
-      "text_tr": "",
+      "text_tr": "Ve uykuyla ilgili bölümler, uykuyla ilgili kanıtlarla ilgili tüm bu şeyleri anlamama gerçekten yardımcı oldu ve bu video için yapılan birçok araştırmaya bilgi sağladı.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1808,7 +1792,7 @@
       "start_ms": 308960,
       "end_ms": 310360,
       "text_en": "So thank you Andrew Huberman and your team.",
-      "text_tr": "",
+      "text_tr": "Bu yüzden Andrew Huberman ve ekibinize teşekkür ederim.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1828,7 +1812,7 @@
       "start_ms": 310480,
       "end_ms": 314280,
       "text_en": "Okay, next let's look at what time we ideally want to be exercising to get the best possible sleep.",
-      "text_tr": "",
+      "text_tr": "Tamam, şimdi mümkün olan en iyi uykuyu almak için ideal olarak ne zaman egzersiz yapmak istediğimize bakalım.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1848,7 +1832,7 @@
       "start_ms": 314640,
       "end_ms": 320480,
       "text_en": "So sunlight is the most important thing to focus on, but exercise does release endorphins, which also make us feel happy and more awake.",
-      "text_tr": "",
+      "text_tr": "Yani odaklanılması gereken en önemli şey güneş ışığıdır, ancak egzersiz endorfin salgılanmasını da sağlar, bu da kendimizi mutlu ve daha uyanık hissetmemizi sağlar.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1876,7 +1860,7 @@
       "start_ms": 320640,
       "end_ms": 327740,
       "text_en": "Now in an ideal world, I would be doing weight training in the morning, but I personally find that if I go gym in the morning, then I kind of feel a bit groggy for the rest of the day.",
-      "text_tr": "",
+      "text_tr": "İdeal bir dünyada sabahları ağırlık antrenmanı yapıyor olurdum, ancak şahsen şunu fark ettim ki eğer sabahları spor salonuna gidersem günün geri kalanında biraz sersemlemiş hissediyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1912,7 +1896,7 @@
       "start_ms": 327900,
       "end_ms": 328740,
       "text_en": "So I'm not a huge fan of that.",
-      "text_tr": "",
+      "text_tr": "Bu yüzden bunun büyük bir hayranı değilim.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -1923,7 +1907,7 @@
       "start_ms": 328880,
       "end_ms": 330420,
       "text_en": "Instead, I do my morning walk thing.",
-      "text_tr": "",
+      "text_tr": "Bunun yerine sabah yürüyüşümü yapıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1943,7 +1927,7 @@
       "start_ms": 330640,
       "end_ms": 332160,
       "text_en": "This is a thing that I figured out with my health coach.",
-      "text_tr": "",
+      "text_tr": "Bu, sağlık koçumla çözdüğüm bir şey.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1971,7 +1955,7 @@
       "start_ms": 332220,
       "end_ms": 334140,
       "text_en": "He was like, you know, try and get some steps in in the morning.",
-      "text_tr": "",
+      "text_tr": "Bilirsin, sabahları birkaç adım atmaya çalışıyordu.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -1999,7 +1983,7 @@
       "start_ms": 334140,
       "end_ms": 337340,
       "text_en": "And it also doubles as an effect in that it gets me the morning sunlight as well.",
-      "text_tr": "",
+      "text_tr": "Ve aynı zamanda sabah güneş ışığını da bana sağlaması açısından bir etki olarak ikiye katlanıyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2027,7 +2011,7 @@
       "start_ms": 337480,
       "end_ms": 348760,
       "text_en": "Now, if you can actually do some proper exercise in the morning, then according to Andrew Huberman, there is evidence that our body starts to develop this anticipatory circuit expecting that hit of morning exercise because it happened over the last few days and",
-      "text_tr": "",
+      "text_tr": "Şimdi, eğer sabahları gerçekten uygun bir egzersiz yapabiliyorsanız, o zaman Andrew Huberman'a göre vücudumuzun, son birkaç gün içinde gerçekleştiği için, o sabah egzersizini bekleyerek bu öngörü devresini geliştirmeye başladığına dair kanıtlar var.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2095,7 +2079,7 @@
       "start_ms": 348760,
       "end_ms": 350900,
       "text_en": "getting us to wake up and feel ready for it to happen again.",
-      "text_tr": "",
+      "text_tr": "uyanmamızı ve bunun tekrar gerçekleşmesine hazır hissetmemizi sağlıyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -2106,7 +2090,7 @@
       "start_ms": 351140,
       "end_ms": 353440,
       "text_en": "And that adds to that morning spike of energy that we want.",
-      "text_tr": "",
+      "text_tr": "Bu da o sabah istediğimiz enerji artışına katkıda bulunuyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2142,7 +2126,7 @@
       "start_ms": 353700,
       "end_ms": 359180,
       "text_en": "And it sets us up for healthy sleepiness in the evening because our body is going to be tired and it's going to need sleep to recover from that training.",
-      "text_tr": "",
+      "text_tr": "Ve bu bizi akşamları sağlıklı uykululuğa hazırlıyor çünkü vücudumuz yorulacak ve antrenmandan sonra toparlanmak için uykuya ihtiyaç duyacak.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2178,7 +2162,7 @@
       "start_ms": 359520,
       "end_ms": 362640,
       "text_en": "Like think about the last time you went for a really long hike or had a lot of exercise.",
-      "text_tr": "",
+      "text_tr": "Mesela en son ne zaman gerçekten uzun bir yürüyüşe çıktığınızı veya çok fazla egzersiz yaptığınızı düşünün.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2206,7 +2190,7 @@
       "start_ms": 362640,
       "end_ms": 364740,
       "text_en": "You probably had a long deep sleep that night.",
-      "text_tr": "",
+      "text_tr": "Muhtemelen o gece uzun ve derin bir uyku uyudun.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2226,7 +2210,7 @@
       "start_ms": 364860,
       "end_ms": 367660,
       "text_en": "So we've talked about some of the stuff that I do in my morning routine so far.",
-      "text_tr": "",
+      "text_tr": "Şu ana kadar sabah rutinimde yaptığım bazı şeylerden bahsettik.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2262,7 +2246,7 @@
       "start_ms": 368040,
       "end_ms": 374680,
       "text_en": "But one thing that I do that's unrelated to sleep is browse a cheeky newsletter called morning brew on my phone who are very kindly sponsoring this video.",
-      "text_tr": "",
+      "text_tr": "Ama yaptığım, uykuyla ilgisi olmayan bir şey, telefonumda bu videoya sponsorluk yapma nezaketini gösteren sabah içeceği adlı arsız bir haber bültenine göz atmak.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2298,7 +2282,7 @@
       "start_ms": 374680,
       "end_ms": 385720,
       "text_en": "Now morning brew is a totally free 100 % free daily newsletter that's delivered every single day, Monday through Sunday and it just takes a few minutes to read and it gets you up to date on all of the interesting news from the world of business and",
-      "text_tr": "",
+      "text_tr": "Artık Morning Brew, Pazartesi'den Pazar'a kadar her gün yayınlanan, tamamen ücretsiz, %100 ücretsiz bir günlük haber bültenidir ve okunması sadece birkaç dakika sürer ve size iş dünyasından tüm ilginç haberler hakkında güncel bilgiler verir ve",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2350,7 +2334,7 @@
       "start_ms": 385720,
       "end_ms": 388200,
       "text_en": "finance and tech, which are three of the things that I care most about.",
-      "text_tr": "",
+      "text_tr": "finans ve teknoloji, en çok önemsediğim üç şey.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2386,7 +2370,7 @@
       "start_ms": 388260,
       "end_ms": 397620,
       "text_en": "And it's my favorite way to consume the news because A, it doesn't take very long and B, it's written in a dry, witty, kind of entertaining manner, unlike most other sources of news, which are kind of dry and kind of boring.",
-      "text_tr": "",
+      "text_tr": "Ve bu benim haberleri tüketmenin en sevdiğim yolu çünkü A, çok uzun sürmüyor ve B, kuru, esprili, biraz eğlenceli bir şekilde yazılmış, diğer haber kaynaklarının çoğunun aksine, biraz kuru ve biraz sıkıcı.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2422,7 +2406,7 @@
       "start_ms": 397820,
       "end_ms": 406860,
       "text_en": "And it's really useful for keeping up to date with the content creator business stuff that affects me personally, like for example, Zuckerberg recently rolling out Meta verified, which I heard about because I read my morning brew newsletter.",
-      "text_tr": "",
+      "text_tr": "Ve beni kişisel olarak etkileyen içerik oluşturucu işleriyle ilgili güncel bilgileri takip etmek için gerçekten yararlı; örneğin Zuckerberg'in yakın zamanda Meta onaylı özelliğini kullanıma sunması gibi, bunu sabah bira bültenimi okuduğum için duydum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2474,7 +2458,7 @@
       "start_ms": 407240,
       "end_ms": 412080,
       "text_en": "And it's been great for also keeping me up to date about what's going on with the whole AI stuff because there's just too much going on.",
-      "text_tr": "",
+      "text_tr": "Ayrıca yapay zeka konusunda neler olup bittiği konusunda beni güncel tutması da harika oldu çünkü çok fazla olay oluyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2510,7 +2494,7 @@
       "start_ms": 412300,
       "end_ms": 413380,
       "text_en": "It's hard to keep track of it on Twitter.",
-      "text_tr": "",
+      "text_tr": "Twitter'da takip etmek çok zor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -2521,7 +2505,7 @@
       "start_ms": 413800,
       "end_ms": 422900,
       "text_en": "And so on morning brew, I get like a decent write up of what Microsoft Edge is doing and how chat GPT is going and like what's going on with Bing and how it's just started making absolutely ridiculous statements.",
-      "text_tr": "",
+      "text_tr": "Ve böylece sabah demlendiğinde, Microsoft Edge'in ne yaptığını, GPT sohbetinin nasıl gittiğini ve Bing'de olup bitenleri ve nasıl tamamen saçma açıklamalar yapmaya başladığını anlatan düzgün bir yazı yazmaya başladım.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2573,7 +2557,7 @@
       "start_ms": 423260,
       "end_ms": 425340,
       "text_en": "And it's just generally funny and interesting reading about this kind of stuff.",
-      "text_tr": "",
+      "text_tr": "Ve bu tür şeyler hakkında okumak genel olarak komik ve ilginçtir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2593,7 +2577,7 @@
       "start_ms": 425540,
       "end_ms": 433840,
       "text_en": "So if you are interested in anything to do with business or finance or tech, or you just want an entertaining way to browse the news once a day, then there is no reason not to sign up to morning brew.",
-      "text_tr": "",
+      "text_tr": "Dolayısıyla, iş, finans veya teknolojiyle ilgili herhangi bir şeyle ilgileniyorsanız veya günde bir kez haberlere göz atmanın eğlenceli bir yolunu istiyorsanız, o zaman sabah birasına kaydolmamak için hiçbir neden yok.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2629,7 +2613,7 @@
       "start_ms": 433960,
       "end_ms": 437160,
       "text_en": "It is completely free and it takes less than 15 seconds to subscribe.",
-      "text_tr": "",
+      "text_tr": "Tamamen ücretsizdir ve abone olmanız 15 saniyeden az sürer.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2649,7 +2633,7 @@
       "start_ms": 437400,
       "end_ms": 443660,
       "text_en": "So if you're interested, then head over to morningbrewdaily .com forward slash Ali and then you can subscribe there and you'll be supporting the channel along the way.",
-      "text_tr": "",
+      "text_tr": "Eğer ilgileniyorsanız, sabahbrewdaily .com'a gidin ve Ali'yi ileri doğru yönlendirin, ardından oraya abone olabilirsiniz ve yol boyunca kanala destek vermiş olursunuz.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2677,7 +2661,7 @@
       "start_ms": 443760,
       "end_ms": 444940,
       "text_en": "That link is also in the video description.",
-      "text_tr": "",
+      "text_tr": "Bu bağlantı aynı zamanda videonun açıklamasında da bulunmaktadır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -2688,7 +2672,7 @@
       "start_ms": 445160,
       "end_ms": 447100,
       "text_en": "So thank you so much morning Brew for sponsoring this video.",
-      "text_tr": "",
+      "text_tr": "Bu videoya sponsor olduğunuz için çok teşekkür ederim Morning Brew.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2716,7 +2700,7 @@
       "start_ms": 447360,
       "end_ms": 448960,
       "text_en": "All right, time to talk about a big topic, caffeine.",
-      "text_tr": "",
+      "text_tr": "Pekala, büyük bir konu hakkında konuşmanın zamanı geldi: kafein.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -2727,7 +2711,7 @@
       "start_ms": 449600,
       "end_ms": 451920,
       "text_en": "Now remember the chemical adenosine which makes us hungry for sleep.",
-      "text_tr": "",
+      "text_tr": "Şimdi bizi uykuya acıktıran kimyasal adenosini hatırlayın.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2755,7 +2739,7 @@
       "start_ms": 452140,
       "end_ms": 456000,
       "text_en": "Well, to actually make us feel sleepy, adenosine needs to get picked up by our adenosine receptors.",
-      "text_tr": "",
+      "text_tr": "Aslında kendimizi uykulu hissetmemiz için adenosinin, adenozin reseptörlerimiz tarafından alınması gerekir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2775,7 +2759,7 @@
       "start_ms": 456480,
       "end_ms": 463780,
       "text_en": "And what caffeine does is act like an adenosine antagonist blocking those adenosine receptors in our brain to stop the sleepy adenosine signal from being processed.",
-      "text_tr": "",
+      "text_tr": "Ve kafeinin yaptığı şey, uykulu adenozin sinyalinin işlenmesini durdurmak için beynimizdeki adenosin reseptörlerini bloke eden bir adenozin antagonisti gibi davranmaktır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2795,7 +2779,7 @@
       "start_ms": 464080,
       "end_ms": 465960,
       "text_en": "So the caffeine keeps us alert and awake initially.",
-      "text_tr": "",
+      "text_tr": "Yani kafein başlangıçta bizi uyanık ve uyanık tutar.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2815,7 +2799,7 @@
       "start_ms": 466360,
       "end_ms": 472700,
       "text_en": "But when the caffeine wears off, we get a caffeine crash as the blocked adenosine rushes through our receptors again, making us feel really tired.",
-      "text_tr": "",
+      "text_tr": "Ancak kafeinin etkisi geçince, bloke edilen adenozin tekrar reseptörlerimize hücum ederek kafein krizi geçiririz ve kendimizi gerçekten yorgun hissederiz.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2851,7 +2835,7 @@
       "start_ms": 472700,
       "end_ms": 475700,
       "text_en": "Now, I drink coffee every morning and around two to three times a day.",
-      "text_tr": "",
+      "text_tr": "Artık her sabah ve günde yaklaşık iki ila üç kez kahve içerim.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2871,7 +2855,7 @@
       "start_ms": 475700,
       "end_ms": 479480,
       "text_en": "But there are two things when it comes to caffeine timing that I find quite useful.",
-      "text_tr": "",
+      "text_tr": "Ancak kafein zamanlaması söz konusu olduğunda oldukça faydalı bulduğum iki şey var.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2915,7 +2899,7 @@
       "start_ms": 479700,
       "end_ms": 482300,
       "text_en": "Firstly, I try to avoid coffee for the first hour of the day.",
-      "text_tr": "",
+      "text_tr": "Öncelikle günün ilk saatlerinde kahveden uzak durmaya çalışıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2935,7 +2919,7 @@
       "start_ms": 482600,
       "end_ms": 487960,
       "text_en": "And the idea behind this is that it gives your body enough time to naturally clear the adenosine that's left behind in your system.",
-      "text_tr": "",
+      "text_tr": "Bunun arkasındaki fikir, vücudunuza, sisteminizde kalan adenozini doğal olarak temizlemesi için yeterli zamanı vermesidir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -2979,7 +2963,7 @@
       "start_ms": 487960,
       "end_ms": 496000,
       "text_en": "And secondly, to get better quality of sleep, I try to avoid drinking coffee or any other caffeinated drinks too late in the day, specifically after around two to three p .m.",
-      "text_tr": "",
+      "text_tr": "İkincisi, daha kaliteli bir uyku elde etmek için, günün çok geç saatlerinde, özellikle öğleden sonra 2-3 civarında kahve veya diğer kafeinli içecekleri içmekten kaçınmaya çalışıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3007,7 +2991,7 @@
       "start_ms": 496160,
       "end_ms": 501260,
       "text_en": "Now caffeine has a half life of five to six hours, which is the time it takes for the caffeine levels in your system to drop by 50%.",
-      "text_tr": "",
+      "text_tr": "Artık kafeinin beş ila altı saatlik bir yarı ömrü vardır; bu, sisteminizdeki kafein seviyelerinin %50 oranında düşmesi için gereken süredir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3043,7 +3027,7 @@
       "start_ms": 501260,
       "end_ms": 506060,
       "text_en": "But it takes even longer than that after drinking caffeine for our adenosine to be working normally again.",
-      "text_tr": "",
+      "text_tr": "Ancak kafein içtikten sonra adenozinimizin tekrar normal şekilde çalışması bundan daha uzun zaman alır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3071,7 +3055,7 @@
       "start_ms": 506280,
       "end_ms": 511900,
       "text_en": "So to stop caffeine interfering with our sleep, Dr. Huberman reckons that we should avoid it eight to 10 hours before our normal bedtime.",
-      "text_tr": "",
+      "text_tr": "Dolayısıyla Dr. Huberman, kafeinin uykumuzu etkilemesini önlemek için, normal yatma vaktimizden sekiz ila 10 saat önce kafeinin kafeinden kaçınmamız gerektiğini düşünüyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3099,7 +3083,7 @@
       "start_ms": 512179,
       "end_ms": 513580,
       "text_en": "So stop drinking between 1 p .m.",
-      "text_tr": "",
+      "text_tr": "Bu yüzden öğleden sonra 13:00'e kadar içmeyi bırakın.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -3110,7 +3094,7 @@
       "start_ms": 513700,
       "end_ms": 514159,
       "text_en": "and 3 p .m.",
-      "text_tr": "",
+      "text_tr": "ve öğleden sonra 3.00",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -3121,7 +3105,7 @@
       "start_ms": 514299,
       "end_ms": 515440,
       "text_en": "if your bedtime is 11 p .m.",
-      "text_tr": "",
+      "text_tr": "yatma saatiniz 23:00 ise",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -3132,7 +3116,7 @@
       "start_ms": 515799,
       "end_ms": 519799,
       "text_en": "Matthew Walker, the author of why we sleep is a bit more conservative and says aim for 10 to 12 hours.",
-      "text_tr": "",
+      "text_tr": "Neden uyuduğumuzun yazarı Matthew Walker biraz daha muhafazakar ve 10 ila 12 saat uyumayı hedeflediğini söylüyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3160,7 +3144,7 @@
       "start_ms": 520039,
       "end_ms": 523600,
       "text_en": "So basically only caffeine in the morning, but I personally stop around 3 p .m.",
-      "text_tr": "",
+      "text_tr": "Yani aslında sadece sabahları kafein alıyorum ama ben şahsen öğleden sonra 3 civarında duruyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3180,7 +3164,7 @@
       "start_ms": 523600,
       "end_ms": 525040,
       "text_en": "Everyone has different caffeine tolerances though.",
-      "text_tr": "",
+      "text_tr": "Herkesin kafein toleransı farklıdır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3208,7 +3192,7 @@
       "start_ms": 525320,
       "end_ms": 527820,
       "text_en": "Like some people can't drink any caffeine past 11 a .m.",
-      "text_tr": "",
+      "text_tr": "Mesela bazı insanlar sabah 11'den sonra kafein içemezler.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3236,7 +3220,7 @@
       "start_ms": 527980,
       "end_ms": 528820,
       "text_en": "Without it messing with their sleep.",
-      "text_tr": "",
+      "text_tr": "Uykularını bozmadan.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -3247,7 +3231,7 @@
       "start_ms": 529140,
       "end_ms": 531420,
       "text_en": "But for other people the cutoff point is more like 4 p .m.",
-      "text_tr": "",
+      "text_tr": "Ancak diğer insanlar için kesme noktası daha çok öğleden sonra 4'tür.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -3258,7 +3242,7 @@
       "start_ms": 531500,
       "end_ms": 539580,
       "text_en": "There's a small percentage of people that can even have caffeine late at night and still fall asleep easily, but that probably still affects their sleep quality even if they get technically a full night's sleep.",
-      "text_tr": "",
+      "text_tr": "Gece geç saatlerde kafein alıp yine de kolayca uykuya dalabilen küçük bir insan yüzdesi var, ancak bu, teknik olarak tam bir gece uykusu çekseler bile muhtemelen uyku kalitelerini etkiliyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3318,7 +3302,7 @@
       "start_ms": 539720,
       "end_ms": 543560,
       "text_en": "And by the way, if you're enjoying this video so far, I'd love it if you could drop a little thumbs up on the thing.",
-      "text_tr": "",
+      "text_tr": "Bu arada, eğer şu ana kadar bu videodan keyif aldıysanız, biraz beğenirseniz çok sevinirim.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3362,7 +3346,7 @@
       "start_ms": 543740,
       "end_ms": 544980,
       "text_en": "Apparently it really helps us for the algorithm.",
-      "text_tr": "",
+      "text_tr": "Görünüşe göre algoritma açısından bize gerçekten yardımcı oluyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3382,7 +3366,7 @@
       "start_ms": 545220,
       "end_ms": 554640,
       "text_en": "Now this is potentially getting a bit overboard, but the sixth thing that I try to do every day is to go outside around an hour or so before sunset and get a good 10 to 30 minutes of evening sunlight.",
-      "text_tr": "",
+      "text_tr": "Şimdi bu potansiyel olarak biraz abartılıyor, ancak her gün yapmaya çalıştığım altıncı şey, gün batımından yaklaşık bir saat kadar önce dışarı çıkmak ve 10 ila 30 dakika kadar iyi bir akşam güneş ışığı almak.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3418,7 +3402,7 @@
       "start_ms": 554880,
       "end_ms": 557380,
       "text_en": "So the sunlight trick that we talked about earlier works in reverse.",
-      "text_tr": "",
+      "text_tr": "Yani daha önce bahsettiğimiz güneş ışığı hilesi tersten çalışır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3446,7 +3430,7 @@
       "start_ms": 557680,
       "end_ms": 567180,
       "text_en": "When the light sensitive melanops and neurons in your eye detect the specific color and intensity of evening sunlight, they send a signal to your circadian clock that it's getting to the end of the day and that sleep is coming.",
-      "text_tr": "",
+      "text_tr": "Gözünüzdeki ışığa duyarlı melanoplar ve nöronlar akşam güneş ışığının spesifik rengini ve yoğunluğunu tespit ettiğinde sirkadiyen saatinize günün sonuna yaklaşıldığını ve uykunun yaklaştığını belirten bir sinyal gönderirler.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3482,7 +3466,7 @@
       "start_ms": 567380,
       "end_ms": 573240,
       "text_en": "Again, try to be in direct sunlight if it'll be possible because windows and other kind of barriers like sunglasses make the sunlight a lot less effective.",
-      "text_tr": "",
+      "text_tr": "Yine mümkünse doğrudan güneş ışığı altında olmaya çalışın çünkü pencereler ve güneş gözlüğü gibi diğer bariyerler güneş ışığının etkisini çok daha az azaltır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3518,18 +3502,10 @@
       "start_ms": 573520,
       "end_ms": 583000,
       "text_en": "So if you get the sun in the morning and in the evening, you give your internal clock consistent light anchors, making it way easier to get into a healthy rhythm of waking up and going to sleep at the same time every day.",
-      "text_tr": "",
+      "text_tr": "Yani sabah ve akşam güneş alırsanız, iç saatinize tutarlı ışık çapaları vermiş olursunuz, bu da her gün aynı saatte uyanıp uyumak gibi sağlıklı bir ritim yakalamanızı çok daha kolay hale getirir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
-        {
-          "pattern": "going to sleep",
-          "note_tr": "Future (be going to)",
-          "cefr": "A2",
-          "norm_pattern": "future_going_to",
-          "span_start": 179,
-          "span_end": 193
-        },
         {
           "pattern": "if you get the sun in the morning and",
           "note_tr": "If Clause Type 0 (General Truth)",
@@ -3562,7 +3538,7 @@
       "start_ms": 583200,
       "end_ms": 584400,
       "text_en": "Alright, so now it's evening.",
-      "text_tr": "",
+      "text_tr": "Pekala, artık akşam oldu.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -3573,7 +3549,7 @@
       "start_ms": 584820,
       "end_ms": 595840,
       "text_en": "And for me, I try my very best not to expose myself to artificial lights after around 8pm, and I try to avoid viewing bright lights between 10pm and 4am, including my laptop screen and my computer monitor and",
-      "text_tr": "",
+      "text_tr": "Ben de akşam saat 20.00'den sonra kendimi yapay ışıklara maruz bırakmamak için elimden gelenin en iyisini yapmaya çalışıyorum ve akşam 22.00 ile sabah 4.00 arasında, dizüstü bilgisayar ekranım ve bilgisayar monitörüm de dahil olmak üzere parlak ışıklara bakmaktan kaçınmaya çalışıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3601,7 +3577,7 @@
       "start_ms": 595840,
       "end_ms": 596140,
       "text_en": "my phone.",
-      "text_tr": "",
+      "text_tr": "telefonum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -3612,7 +3588,7 @@
       "start_ms": 596300,
       "end_ms": 606020,
       "text_en": "The reason we want to avoid light is because bright artificial lights mimic the effect of bright sunlight somewhat, which, like we've seen, tells our brain that it's daytime and releases cortisol and epinephrine that keeps us awake.",
-      "text_tr": "",
+      "text_tr": "Işıktan kaçınmak istememizin nedeni, parlak yapay ışıkların, daha önce de gördüğümüz gibi, beynimize gündüz olduğunu söyleyen ve bizi uyanık tutan kortizol ve epinefrin salgılayan parlak güneş ışığının etkisini bir şekilde taklit etmesidir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3680,7 +3656,7 @@
       "start_ms": 606200,
       "end_ms": 608320,
       "text_en": "And being awake in the evenings is exactly what we want to avoid.",
-      "text_tr": "",
+      "text_tr": "Akşamları uyanık olmak da tam olarak kaçınmak istediğimiz şeydir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3700,7 +3676,7 @@
       "start_ms": 608560,
       "end_ms": 613000,
       "text_en": "Now, scarily, the longer that we've been awake, the more sensitive we are to bright lights making us feel even more awake.",
-      "text_tr": "",
+      "text_tr": "Şimdi, korkutucu bir şekilde, ne kadar uzun süre uyanık kalırsak, parlak ışıklara karşı o kadar hassas oluyoruz ve bu da bizi daha da uyanık hissettiriyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3720,7 +3696,7 @@
       "start_ms": 613160,
       "end_ms": 614920,
       "text_en": "So the later it gets in the evening, the higher the stakes.",
-      "text_tr": "",
+      "text_tr": "Yani akşam ne kadar geç olursa bahisler de o kadar yüksek olur.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3740,7 +3716,7 @@
       "start_ms": 614920,
       "end_ms": 625960,
       "text_en": "In fact, this 2018 study, which was published in the journal Cell, which is a high quality journal, showed that light arriving to the eyes between 11pm and 4am, even suppresses dopamine, the thing that makes us feel good, and is a natural",
-      "text_tr": "",
+      "text_tr": "Hatta 2018 yılında kaliteli bir dergi olan Cell'de yayınlanan bu çalışma, gece 23:00 ile 04:00 arasında gözlere gelen ışığın, kendimizi iyi hissetmemizi sağlayan doğal bir madde olan dopamini bile baskıladığını gösterdi.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3808,7 +3784,7 @@
       "start_ms": 625960,
       "end_ms": 626360,
       "text_en": "antidepressant.",
-      "text_tr": "",
+      "text_tr": "antidepresan.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -3819,7 +3795,7 @@
       "start_ms": 626760,
       "end_ms": 630280,
       "text_en": "And it also activates the habenula, the disappointment nucleus in our brain.",
-      "text_tr": "",
+      "text_tr": "Ayrıca beynimizdeki hayal kırıklığı çekirdeği olan habenula'yı da harekete geçirir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3839,7 +3815,7 @@
       "start_ms": 630460,
       "end_ms": 635640,
       "text_en": "And so over the next few days, this lowers our mood, and makes us feel more disappointed, and actually can make it harder to learn new things.",
-      "text_tr": "",
+      "text_tr": "Ve önümüzdeki birkaç gün içinde bu, ruh halimizi düşürür, daha fazla hayal kırıklığına uğramamıza neden olur ve aslında yeni şeyler öğrenmemizi zorlaştırabilir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3883,7 +3859,7 @@
       "start_ms": 635840,
       "end_ms": 640420,
       "text_en": "So for me personally, the way that I avoid all these lights is I try to avoid going on the computer beyond 10pm.",
-      "text_tr": "",
+      "text_tr": "Kişisel olarak benim için tüm bu ışıklardan kaçınmanın yolu, akşam 22:00'den sonra bilgisayara girmekten kaçınmaktır.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3927,7 +3903,7 @@
       "start_ms": 640680,
       "end_ms": 643840,
       "text_en": "If I am on the computer, I try and dim the brightness setting on my computer down.",
-      "text_tr": "",
+      "text_tr": "Bilgisayar başındaysam bilgisayarımın parlaklık ayarını kısmaya çalışırım.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3963,7 +3939,7 @@
       "start_ms": 643960,
       "end_ms": 650520,
       "text_en": "I try and use the kind of flux light mode display setting on the Mac to try and avoid the blue light that comes in from the computer screen.",
-      "text_tr": "",
+      "text_tr": "Bilgisayar ekranından gelen mavi ışığı önlemek için Mac'teki akı ışık modu görüntüleme ayarını kullanmaya çalışıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -3999,7 +3975,7 @@
       "start_ms": 650660,
       "end_ms": 657360,
       "text_en": "I also try my best to avoid using my phone at night time, and instead I use my Kindle, which is generally on a fairly dim dark mode warm light setting.",
-      "text_tr": "",
+      "text_tr": "Ayrıca gece telefonumu kullanmaktan kaçınmak için elimden geleni yapıyorum ve bunun yerine genellikle oldukça loş, karanlık mod, sıcak ışık ayarında olan Kindle'ımı kullanıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4043,7 +4019,7 @@
       "start_ms": 657580,
       "end_ms": 664740,
       "text_en": "Now, apparently the positioning of these artificial lights can make a difference, because we're particularly sensitive to overhead lights, because we've evolved to detect the light from the sunlight.",
-      "text_tr": "",
+      "text_tr": "Görünen o ki, bu yapay ışıkların konumlandırılması bir fark yaratabilir çünkü biz tepedeki ışıklara karşı özellikle hassasız, çünkü güneş ışığından gelen ışığı algılayacak şekilde evrimleştik.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4071,7 +4047,7 @@
       "start_ms": 665020,
       "end_ms": 673540,
       "text_en": "And so having warm lights that are positioned low, like lamps and candles that are low down, instead of having the ceiling lights on, apparently it can make a difference to how effective a sleep can be.",
-      "text_tr": "",
+      "text_tr": "Ve böylece tavan ışıklarını açmak yerine alçakta konumlandırılmış lambalar ve mumlar gibi sıcak ışıkların kullanılması, görünüşe göre uykunun ne kadar etkili olabileceği konusunda bir fark yaratabilir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4115,7 +4091,7 @@
       "start_ms": 673720,
       "end_ms": 674620,
       "text_en": "Okay, a really quick tip here.",
-      "text_tr": "",
+      "text_tr": "Tamam, burada gerçekten hızlı bir ipucu var.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4126,7 +4102,7 @@
       "start_ms": 674940,
       "end_ms": 678040,
       "text_en": "I always expect to feel alert around one hour before my natural bedtime.",
-      "text_tr": "",
+      "text_tr": "Her zaman doğal yatma zamanımdan bir saat kadar önce kendimi uyanık hissetmeyi beklerim.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4154,7 +4130,7 @@
       "start_ms": 678320,
       "end_ms": 682180,
       "text_en": "And I know that if I just read a book and stick to my normal habits, then I'll eventually feel sleepy again.",
-      "text_tr": "",
+      "text_tr": "Ve biliyorum ki, eğer sadece bir kitap okursam ve normal alışkanlıklarıma sadık kalırsam, eninde sonunda yeniden uykum gelecektir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4190,7 +4166,7 @@
       "start_ms": 682320,
       "end_ms": 683160,
       "text_en": "Now, this is totally normal.",
-      "text_tr": "",
+      "text_tr": "Bu tamamen normaldir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4201,7 +4177,7 @@
       "start_ms": 683160,
       "end_ms": 687380,
       "text_en": "And according to Dr. Hebrewman's podcast, this is a naturally occurring spike in wakefulness.",
-      "text_tr": "",
+      "text_tr": "Ve Dr. İbranice'nin podcast'ine göre bu, uyanıklıkta doğal olarak meydana gelen bir artış.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4212,7 +4188,7 @@
       "start_ms": 687420,
       "end_ms": 688740,
       "text_en": "So don't freak out if it happens.",
-      "text_tr": "",
+      "text_tr": "O yüzden böyle bir şey olursa panik yapmayın.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4240,7 +4216,7 @@
       "start_ms": 688780,
       "end_ms": 689400,
       "text_en": "It's going to pass.",
-      "text_tr": "",
+      "text_tr": "Geçecek.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4260,7 +4236,7 @@
       "start_ms": 689780,
       "end_ms": 693400,
       "text_en": "Now, the final step in my sleep routine is keeping the room where I sleep nice and cool.",
-      "text_tr": "",
+      "text_tr": "Artık uyku rutinimin son adımı uyuduğum odayı güzel ve serin tutmak.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4296,7 +4272,7 @@
       "start_ms": 693660,
       "end_ms": 698020,
       "text_en": "Now, our bodies need a drop in temperature by one to three degrees to fall asleep and to stay asleep effectively.",
-      "text_tr": "",
+      "text_tr": "Artık uykuya dalmak ve etkili bir şekilde uykuda kalabilmek için vücudumuzun sıcaklığının bir ila üç derece düşmesi gerekiyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4316,7 +4292,7 @@
       "start_ms": 698320,
       "end_ms": 699160,
       "text_en": "So here's what I do personally.",
-      "text_tr": "",
+      "text_tr": "Kişisel olarak yaptığım şey şu.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4344,7 +4320,7 @@
       "start_ms": 699380,
       "end_ms": 703820,
       "text_en": "Firstly, if I'm in a hotel room or anything that has air conditioning and thermostat, I generally set it quite low.",
-      "text_tr": "",
+      "text_tr": "Öncelikle eğer bir otel odasında ya da kliması ve termostatı olan bir odadaysam genellikle oldukça düşük bir seviyeye ayarlıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4396,7 +4372,7 @@
       "start_ms": 704100,
       "end_ms": 706240,
       "text_en": "Some people say that 19 degrees Celsius is the ideal.",
-      "text_tr": "",
+      "text_tr": "Bazıları ideal sıcaklığın 19 santigrat derece olduğunu söylüyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4424,7 +4400,7 @@
       "start_ms": 706700,
       "end_ms": 708220,
       "text_en": "I find that that's still a bit warm for me.",
-      "text_tr": "",
+      "text_tr": "Bunun benim için hâlâ biraz sıcak olduğunu düşünüyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4444,7 +4420,7 @@
       "start_ms": 708400,
       "end_ms": 710780,
       "text_en": "And I like to set it at like 16, 17 degrees, if I can.",
-      "text_tr": "",
+      "text_tr": "Ve mümkünse 16, 17 dereceye ayarlamayı seviyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4472,7 +4448,7 @@
       "start_ms": 710920,
       "end_ms": 712260,
       "text_en": "In my own home, I don't have air conditioning.",
-      "text_tr": "",
+      "text_tr": "Kendi evimde klima yok.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4483,7 +4459,7 @@
       "start_ms": 712500,
       "end_ms": 715480,
       "text_en": "And so I'll sometimes open the windows if it's particularly warm in the room.",
-      "text_tr": "",
+      "text_tr": "Bu yüzden eğer oda özellikle sıcaksa bazen pencereleri açıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4519,7 +4495,7 @@
       "start_ms": 715500,
       "end_ms": 717360,
       "text_en": "And I'll use a fan if it's particularly hot.",
-      "text_tr": "",
+      "text_tr": "Ve eğer hava çok sıcaksa vantilatör kullanacağım.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4547,7 +4523,7 @@
       "start_ms": 717400,
       "end_ms": 719660,
       "text_en": "Plus, I like the white noise of the fan, which helps me for the sleep.",
-      "text_tr": "",
+      "text_tr": "Ayrıca, uyumama yardımcı olan fanın beyaz sesini de seviyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4583,7 +4559,7 @@
       "start_ms": 719840,
       "end_ms": 720420,
       "text_en": "And this one's a bit extra.",
-      "text_tr": "",
+      "text_tr": "Ve bu biraz ekstra.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4594,7 +4570,7 @@
       "start_ms": 720560,
       "end_ms": 722480,
       "text_en": "But I do also happen to have an eight sleep mattress.",
-      "text_tr": "",
+      "text_tr": "Ama aynı zamanda sekiz kişilik yatağım da var.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4605,7 +4581,7 @@
       "start_ms": 722820,
       "end_ms": 725200,
       "text_en": "I interview the founders of eight sleep on my podcast a little while ago.",
-      "text_tr": "",
+      "text_tr": "Biraz önce podcastimde sekiz uykunun kurucularıyla röportaj yapmıştım.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4633,7 +4609,7 @@
       "start_ms": 725320,
       "end_ms": 726240,
       "text_en": "We talked a lot about sleep.",
-      "text_tr": "",
+      "text_tr": "Uyku hakkında çok konuştuk.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4653,7 +4629,7 @@
       "start_ms": 726440,
       "end_ms": 728060,
       "text_en": "I'll link that episode down below if you want to check it out.",
-      "text_tr": "",
+      "text_tr": "İzlemek isterseniz bölümün linkini aşağıya bırakıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4689,7 +4665,7 @@
       "start_ms": 728160,
       "end_ms": 732520,
       "text_en": "But the eight sleep mattress is basically like a mattress topo thing that has liquid cooling system in it.",
-      "text_tr": "",
+      "text_tr": "Ancak sekiz uyku yatağı temelde içinde sıvı soğutma sistemi bulunan bir yatak topo şeyine benzer.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4717,7 +4693,7 @@
       "start_ms": 732880,
       "end_ms": 735020,
       "text_en": "And so I usually have that set to the colder setting.",
-      "text_tr": "",
+      "text_tr": "Ve bu yüzden genellikle bunu daha soğuk bir ayara ayarlıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4745,7 +4721,7 @@
       "start_ms": 735320,
       "end_ms": 736780,
       "text_en": "Honestly, something like that is pretty overkill.",
-      "text_tr": "",
+      "text_tr": "Doğrusunu söylemek gerekirse böyle bir şey oldukça abartılı.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4756,7 +4732,7 @@
       "start_ms": 736920,
       "end_ms": 737520,
       "text_en": "You really don't need it.",
-      "text_tr": "",
+      "text_tr": "Gerçekten buna ihtiyacın yok.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4767,7 +4743,7 @@
       "start_ms": 737520,
       "end_ms": 738100,
       "text_en": "It's pretty expensive.",
-      "text_tr": "",
+      "text_tr": "Oldukça pahalı.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4778,7 +4754,7 @@
       "start_ms": 738280,
       "end_ms": 743060,
       "text_en": "You can just leave a window open or just get a cheap house fan just to cool your body down to the temperature that it needs to be.",
-      "text_tr": "",
+      "text_tr": "Vücudunuzu olması gereken sıcaklığa kadar soğutmak için bir pencereyi açık bırakabilir veya ucuz bir ev vantilatörü alabilirsiniz.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4814,7 +4790,7 @@
       "start_ms": 743160,
       "end_ms": 748560,
       "text_en": "And some people find that having a hot bath or a hot shower before bed really helps because it helps reduce your internal body temperature.",
-      "text_tr": "",
+      "text_tr": "Ve bazı insanlar yatmadan önce sıcak bir banyo veya sıcak duş almanın vücut sıcaklığınızı düşürmeye yardımcı olduğu için gerçekten yardımcı olduğunu düşünüyor.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4858,7 +4834,7 @@
       "start_ms": 748800,
       "end_ms": 753540,
       "text_en": "So if you incorporate each of these nine science back tips from my routine, your day might look something like this.",
-      "text_tr": "",
+      "text_tr": "Yani eğer rutinimdeki bu dokuz bilimsel ipucunun her birini birleştirirseniz, gününüz buna benzer olabilir.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4894,7 +4870,7 @@
       "start_ms": 753760,
       "end_ms": 755400,
       "text_en": "You'd have a regular bedtime and waking time.",
-      "text_tr": "",
+      "text_tr": "Düzenli bir yatma ve uyanma saatiniz olur.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4905,7 +4881,7 @@
       "start_ms": 755600,
       "end_ms": 757300,
       "text_en": "So you'd get around seven to eight hours of sleep.",
-      "text_tr": "",
+      "text_tr": "Yani yaklaşık yedi ila sekiz saat uyursunuz.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4916,7 +4892,7 @@
       "start_ms": 761080,
       "end_ms": 767020,
       "text_en": "You'd delay your caffeine consumption for around an hour after waking up and you'd stop drinking caffeine after around two or three p .m.",
-      "text_tr": "",
+      "text_tr": "Kafein tüketiminizi uyandıktan sonra yaklaşık bir saat ertelersiniz ve öğleden sonra iki veya üç civarında kafein içmeyi bırakırsınız.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [],
@@ -4927,7 +4903,7 @@
       "start_ms": 767320,
       "end_ms": 770740,
       "text_en": "You might go for a walk and view evening sunlight for about 10 minutes just before sunset.",
-      "text_tr": "",
+      "text_tr": "Gün batımından hemen önce yürüyüşe çıkabilir ve akşam güneş ışığını yaklaşık 10 dakika boyunca görebilirsiniz.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4947,7 +4923,7 @@
       "start_ms": 771180,
       "end_ms": 774620,
       "text_en": "You would dim all of your house lights just a few hours before bed and avoid any bright screens.",
-      "text_tr": "",
+      "text_tr": "Yatmadan sadece birkaç saat önce tüm evinizin ışıklarını kısar ve parlak ekranlardan kaçınırsınız.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -4983,7 +4959,7 @@
       "start_ms": 775020,
       "end_ms": 777560,
       "text_en": "You'd try and ride out any spike in energy before your bedtime.",
-      "text_tr": "",
+      "text_tr": "Yatmadan önce enerjinizdeki herhangi bir yükselişi atlatmaya çalışırsınız.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -5003,7 +4979,7 @@
       "start_ms": 778020,
       "end_ms": 781040,
       "text_en": "And finally, you'd keep your bedroom cool so that you can fall asleep easily.",
-      "text_tr": "",
+      "text_tr": "Ve son olarak, rahat uyuyabilmeniz için yatak odanızı serin tutmalısınız.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -5023,7 +4999,7 @@
       "start_ms": 781460,
       "end_ms": 783580,
       "text_en": "Now, I'll be honest, I don't do all of these things every day.",
-      "text_tr": "",
+      "text_tr": "Şimdi dürüst olacağım, bunların hepsini her gün yapmıyorum.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -5043,7 +5019,7 @@
       "start_ms": 783740,
       "end_ms": 790540,
       "text_en": "I try my best to stick to them, but I don't beat myself up if I have a little bit of a lion or if I have coffee a little bit early in the morning or a little bit too late in the day.",
-      "text_tr": "",
+      "text_tr": "Onlara bağlı kalmak için elimden geleni yapıyorum ama eğer biraz aslanım varsa ya da sabah biraz erken ya da günün biraz geç saatlerinde kahve içersem kendimi hırpalamam.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -5111,7 +5087,7 @@
       "start_ms": 790760,
       "end_ms": 795880,
       "text_en": "And if you go to this video, you might like to check out this video over here, which is a video about why you might find yourself always tired.",
-      "text_tr": "",
+      "text_tr": "Ve eğer bu videoya giderseniz, buradaki videoya göz atmak isteyebilirsiniz; bu video, kendinizi neden sürekli yorgun bulabileceğinizi anlatan bir videodur.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -5163,7 +5139,7 @@
       "start_ms": 796120,
       "end_ms": 798080,
       "text_en": "And it's about seven myths that are ruining your sleep.",
-      "text_tr": "",
+      "text_tr": "Ve uykunuzu mahveden yaklaşık yedi efsane var.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -5191,7 +5167,7 @@
       "start_ms": 798240,
       "end_ms": 802640,
       "text_en": "And so with this video and that video, that's basically everything you need to know to have a fantastic sleep routine.",
-      "text_tr": "",
+      "text_tr": "İşte bu video ve bu videoda harika bir uyku rutinine sahip olmak için bilmeniz gereken her şey bu kadar.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [
@@ -5211,7 +5187,7 @@
       "start_ms": 802920,
       "end_ms": 803860,
       "text_en": "Thank you so much for watching.",
-      "text_tr": "",
+      "text_tr": "İzlediğiniz için çok teşekkür ederim.",
       "cefr": "B1",
       "chunks": [],
       "grammar": [

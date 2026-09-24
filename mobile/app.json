@@ -87,7 +87,13 @@
     },
     "owner": "tunadev58",
     "updates": {
-      "url": "https://u.expo.dev/a55975f9-79af-4b0c-b8c0-90a617e05d65"
+      "url": "https://u.expo.dev/a55975f9-79af-4b0c-b8c0-90a617e05d65",
+      "assetPatternsToBeBundled": [
+        "assets/images/**",
+        "assets/posters/**",
+        "assets/reading/**",
+        "assets/expo.icon/**"
+      ]
     }
   }
 }

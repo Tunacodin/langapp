@@ -249,7 +249,8 @@ const db = SQLite.openDatabaseSync('cogni3.db');
 // 18: article_patterns (okuma odak suzme) eklendi.
 // 19: Simple Wikipedia'dan 10 otomatik okuma makalesi eklendi (ingest_reading.py).
 // 20: zayif odaklar icin curated ornek cumle dersleri (96 cumle, 8 konu).
-const SEED_VERSION = '20';
+// 21: tum video cumlelerine Turkce ceviri (fill_tr_gtx.py) + yanlis gramer etiketi temizligi.
+const SEED_VERSION = '21';
 
 // ---------------------------------------------------------------------------
 // Sema
