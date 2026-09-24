@@ -1,5 +1,4 @@
 import { Ionicons } from '@expo/vector-icons';
-import * as Speech from 'expo-speech';
 import type { VideoSource } from 'expo-video';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
@@ -8,7 +7,15 @@ import { AppSheet } from '@/components/app-sheet';
 import { PressableScale } from '@/components/pressable-scale';
 import { scoreColor } from '@/components/speak-practice';
 import { colors, radius, space } from '@/constants/appTheme';
-import { getCrossVideoOccurrencesByLemma, getLexemeExamples, getMedia } from '@/lib/db';
+import {
+  enrollExampleReview,
+  getCrossVideoOccurrencesByLemma,
+  getLexemeExamples,
+  getMedia,
+  isVocabSaved,
+  removeVocabSaved,
+  saveVocabReview,
+} from '@/lib/db';
 import { useSpeechAssessment } from '@/lib/useSpeechAssessment';
 import { resolveVideoSource } from '@/lib/videoSource';
 
@@ -36,6 +43,8 @@ type Props = {
   pos?: string | null;
   /** Kisa anlam (ilk sense). */
   meaning?: string | null;
+  /** Kok kimligi (Tekrar'a kaydetmek icin). */
+  lexiconId?: number | null;
 };
 
 // Kok icin cumle havuzu: once GERCEK video kullanimlari, sonra uretilmis ornekler.
@@ -73,22 +82,39 @@ function buildItems(lemma: string, pos?: string | null): Item[] {
 // Kelime pratik sheet'i: kokun FARKLI cumlelerdeki GERCEK kullanimlari. Aktif
 // cumleyi dinle (video sesi; yoksa TTS) + mikrofonla tekrar et (Azure skor).
 // Video ekranina ATLAMAZ; her sey sheet icinde.
-export function WordUsageSheet({ visible, onClose, lemma, pos, meaning }: Props) {
+export function WordUsageSheet({ visible, onClose, lemma, pos, meaning, lexiconId }: Props) {
   const [items, setItems] = useState<Item[]>([]);
   const [active, setActive] = useState(0);
   const [source, setSource] = useState<VideoSource | null>(null);
   const srcCache = useRef<Map<string, VideoSource>>(new Map());
+  const [added, setAdded] = useState<Set<string>>(new Set()); // tekrara eklenen cumleler
+  const [saved, setSaved] = useState(false); // kelime Tekrar'a kayitli mi
+
+  // Kelimeyi Tekrar havuzuna elle ekle/kaldir (doner kart).
+  const toggleSave = () => {
+    if (!lexiconId || !lemma) return;
+    if (saved) {
+      removeVocabSaved(lexiconId);
+      setSaved(false);
+    } else {
+      saveVocabReview(lexiconId, lemma, meaning ?? null);
+      setSaved(true);
+    }
+  };
 
   // Acilista cumle havuzunu kur (video kullanimlari + uretilmis ornekler).
   useEffect(() => {
+    setAdded(new Set());
     if (!visible || !lemma) {
       setItems([]);
       setActive(0);
+      setSaved(false);
       return;
     }
     setItems(buildItems(lemma, pos));
     setActive(0);
-  }, [visible, lemma, pos]);
+    setSaved(lexiconId ? isVocabSaved(lexiconId) : false);
+  }, [visible, lemma, pos, lexiconId]);
 
   const cur = items[active] ?? null;
 
@@ -130,21 +156,30 @@ export function WordUsageSheet({ visible, onClose, lemma, pos, meaning }: Props)
     reset();
   }, [active, reset]);
 
-  const speakWord = () => {
-    if (lemma) Speech.speak(lemma, { language: 'en-US', rate: 0.9 });
+  const listenAt = (rate: number) => listen(rate);
+  const recordToggle = () => toggleRecord();
+  const curKey = (cur?.text_en ?? '').trim().toLowerCase();
+  const isAdded = !!curKey && added.has(curKey);
+  const addSentence = () => {
+    if (!cur) return;
+    enrollExampleReview(cur.text_en, cur.text_tr);
+    setAdded((prev) => new Set(prev).add(curKey));
   };
 
   return (
     <AppSheet visible={visible} onClose={onClose} height="auto" dragAnywhere>
-      {/* Baslik: kelime + tur + anlam + okunus */}
+      {/* Baslik: kelime + tur + anlam + Kaydet */}
       <View style={styles.headRow}>
         <View style={styles.headLeft}>
           <Text style={styles.word}>{lemma ?? '—'}</Text>
           {pos ? <Text style={styles.pos}>{POS_TR[pos] ?? pos.toLowerCase()}</Text> : null}
         </View>
-        <Pressable style={styles.speakBtn} onPress={speakWord} hitSlop={8}>
-          <Ionicons name="volume-high" size={20} color={colors.accent} />
-        </Pressable>
+        {lexiconId ? (
+          <Pressable style={[styles.saveBtn, saved && styles.saveBtnOn]} onPress={toggleSave} hitSlop={8}>
+            <Ionicons name={saved ? 'bookmark' : 'bookmark-outline'} size={18} color={saved ? '#fff' : colors.accent} />
+            <Text style={[styles.saveText, saved && styles.saveTextOn]}>{saved ? 'Kayıtlı' : 'Kaydet'}</Text>
+          </Pressable>
+        ) : null}
       </View>
       {meaning ? <Text style={styles.meaning}>{meaning}</Text> : null}
 
@@ -158,25 +193,31 @@ export function WordUsageSheet({ visible, onClose, lemma, pos, meaning }: Props)
               <Text style={styles.practiceLabel}>ÇALIŞILAN CÜMLE</Text>
               <Text style={styles.sentence}>{highlight(cur.text_en, cur.surface, styles.hl)}</Text>
               {cur.text_tr ? <Text style={styles.sentenceTr}>{cur.text_tr}</Text> : null}
-              <Text style={styles.sourceTitle} numberOfLines={1}>
-                <Ionicons name={cur.kind === 'video' ? 'film-outline' : 'sparkles-outline'} size={12} color={colors.muted} />{' '}
-                {cur.kind === 'video' ? cur.title : 'Örnek cümle'}
-              </Text>
 
-              {/* Dinle / Yavas / Mic */}
+              {/* Dinle / Yavas / Tekrara ekle / Mic */}
               <View style={styles.controls}>
-                <Pressable style={styles.listenBtn} onPress={() => listen(0.95)}>
+                <Pressable style={styles.listenBtn} onPress={() => listenAt(0.95)}>
                   <Ionicons name="volume-high-outline" size={17} color={colors.accent} />
                   <Text style={styles.listenText}>Dinle</Text>
                 </Pressable>
-                <Pressable style={styles.listenBtn} onPress={() => listen(0.6)}>
+                <Pressable style={styles.listenBtn} onPress={() => listenAt(0.6)}>
                   <Ionicons name="hourglass-outline" size={16} color={colors.muted} />
                   <Text style={[styles.listenText, { color: colors.muted }]}>Yavaş</Text>
+                </Pressable>
+                <Pressable style={styles.listenBtn} onPress={addSentence} disabled={isAdded}>
+                  <Ionicons
+                    name={isAdded ? 'checkmark-circle' : 'add-circle-outline'}
+                    size={18}
+                    color={isAdded ? colors.good : colors.ink}
+                  />
+                  <Text style={[styles.listenText, { color: isAdded ? colors.good : colors.ink }]}>
+                    {isAdded ? 'Eklendi' : 'Tekrara ekle'}
+                  </Text>
                 </Pressable>
                 <PressableScale
                   style={[styles.mic, status === 'recording' && styles.micOn]}
                   haptic="medium"
-                  onPress={toggleRecord}
+                  onPress={recordToggle}
                   disabled={status === 'assessing'}>
                   <Ionicons name={status === 'recording' ? 'stop' : 'mic'} size={20} color="#fff" />
                 </PressableScale>
@@ -261,15 +302,19 @@ const styles = StyleSheet.create({
   headLeft: { flexDirection: 'row', alignItems: 'baseline', gap: space.sm },
   word: { fontSize: 26, fontWeight: '800', color: colors.ink, letterSpacing: -0.4 },
   pos: { fontSize: 13, color: colors.muted, fontStyle: 'italic' },
-  speakBtn: {
-    width: 44,
-    height: 44,
-    borderRadius: radius.pill,
+  saveBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
     borderWidth: 1,
     borderColor: colors.accent,
-    alignItems: 'center',
-    justifyContent: 'center',
+    borderRadius: radius.pill,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
   },
+  saveBtnOn: { backgroundColor: colors.accent },
+  saveText: { fontSize: 13, fontWeight: '800', color: colors.accent },
+  saveTextOn: { color: '#fff' },
   meaning: { fontSize: 15, color: colors.ink, marginTop: -space.xs },
   empty: { fontSize: 14, color: colors.muted, lineHeight: 20, paddingVertical: space.lg },
 
@@ -284,7 +329,6 @@ const styles = StyleSheet.create({
   sentence: { fontSize: 19, fontWeight: '700', color: colors.ink, lineHeight: 27 },
   hl: { color: colors.accent },
   sentenceTr: { fontSize: 14, color: colors.muted, lineHeight: 20 },
-  sourceTitle: { fontSize: 12, color: colors.muted },
 
   controls: { flexDirection: 'row', alignItems: 'center', gap: space.lg, marginTop: space.xs },
   listenBtn: { flexDirection: 'row', alignItems: 'center', gap: space.xs },

@@ -1,0 +1,72 @@
+{
+  "_note": "Okuma hatti kaynak listesi. VOA icin ONERILEN yol: source 'paste' - metni scripts/reading_text/<id>.txt dosyasina yapistir, ses+gorsel page_url'den otomatik gelir. voa_feeds = sadece medya toplamak icin. items = paste/gutenberg/html parcalari.",
+
+  "voa_feeds": [
+    { "name": "health",   "url": "https://learningenglish.voanews.com/api/zmmpql-vomx-tpey-_q",  "cefr": "B1", "topic": "food" },
+    { "name": "science",  "url": "https://learningenglish.voanews.com/api/zmg_pl-vomx-tpeymtm",   "cefr": "B1", "topic": "tech" },
+    { "name": "stories",  "url": "https://learningenglish.voanews.com/api/zyg__l-vomx-tpetmty",   "cefr": "B1", "topic": "arts" },
+    { "name": "asitis",   "url": "https://learningenglish.voanews.com/api/zkm-ql-vomx-tpej-rqi",  "cefr": "B1", "topic": "identity" },
+    { "name": "america",  "url": "https://learningenglish.voanews.com/api/zbmroml-vomx-tpeqboo_",  "cefr": "B1", "topic": "travel" }
+  ],
+
+  "items": [
+    { "id": "wiki_habit",     "source": "wikipedia", "wiki_title": "Exercise",       "title": "Exercise",         "cefr": "A2", "topic": "daily",       "max_chars": 2400 },
+    { "id": "wiki_sleep",     "source": "wikipedia", "wiki_title": "Sleep",          "title": "Sleep",            "cefr": "A2", "topic": "food",        "max_chars": 2200 },
+    { "id": "wiki_coffee",    "source": "wikipedia", "wiki_title": "Coffee",         "title": "Coffee",           "cefr": "A2", "topic": "food",        "max_chars": 2200 },
+    { "id": "wiki_telephone", "source": "wikipedia", "wiki_title": "Telephone",      "title": "The Telephone",    "cefr": "B1", "topic": "tech",        "max_chars": 2500 },
+    { "id": "wiki_internet",  "source": "wikipedia", "wiki_title": "Internet",       "title": "The Internet",     "cefr": "B1", "topic": "tech",        "max_chars": 2500 },
+    { "id": "wiki_travel",    "source": "wikipedia", "wiki_title": "Tourism",        "title": "Tourism",          "cefr": "A2", "topic": "travel",      "max_chars": 2400 },
+    { "id": "wiki_music",     "source": "wikipedia", "wiki_title": "Music",          "title": "Music",            "cefr": "A2", "topic": "arts",        "max_chars": 2200 },
+    { "id": "wiki_climate",   "source": "wikipedia", "wiki_title": "Climate change", "title": "Climate Change",   "cefr": "B1", "topic": "environment", "max_chars": 2500 },
+    { "id": "wiki_emotion",   "source": "wikipedia", "wiki_title": "Emotion",        "title": "Emotions",         "cefr": "B1", "topic": "identity",    "max_chars": 2400 },
+    { "id": "wiki_money",     "source": "wikipedia", "wiki_title": "Money",          "title": "Money",            "cefr": "A2", "topic": "work",        "max_chars": 2200 },
+    { "id": "wiki_dog",       "source": "wikipedia", "wiki_title": "Dog",            "title": "Dogs",             "cefr": "A2", "topic": "daily",       "max_chars": 2400 },
+    { "id": "wiki_ocean",     "source": "wikipedia", "wiki_title": "Ocean",          "title": "The Ocean",        "cefr": "B1", "topic": "environment", "max_chars": 2500 },
+    { "id": "wiki_city",      "source": "wikipedia", "wiki_title": "City",           "title": "Cities",           "cefr": "B1", "topic": "travel",      "max_chars": 2500 },
+    { "id": "wiki_football",  "source": "wikipedia", "wiki_title": "Association football", "title": "Football",    "cefr": "A2", "topic": "arts",        "max_chars": 2400 },
+    { "id": "wiki_smartphone","source": "wikipedia", "wiki_title": "Smartphone",     "title": "Smartphones",      "cefr": "B1", "topic": "tech",        "max_chars": 2500 },
+    { "id": "wiki_friendship","source": "wikipedia", "wiki_title": "Friendship",     "title": "Friendship",       "cefr": "A2", "topic": "identity",    "max_chars": 2300 },
+    { "id": "wiki_dream",     "source": "wikipedia", "wiki_title": "Dream",          "title": "Dreams",           "cefr": "B1", "topic": "identity",    "max_chars": 2500 },
+    { "id": "wiki_exercise2", "source": "wikipedia", "wiki_title": "Health",         "title": "Health",           "cefr": "A2", "topic": "food",        "max_chars": 2400 },
+    { "id": "wiki_language",  "source": "wikipedia", "wiki_title": "Language",       "title": "Language",         "cefr": "B1", "topic": "identity",    "max_chars": 2500 },
+    { "id": "wiki_history",   "source": "wikipedia", "wiki_title": "History",        "title": "History",          "cefr": "B1", "topic": "arts",        "max_chars": 2500 },
+
+    {
+      "id": "voa_health_telefon",
+      "source": "paste",
+      "page_url": "https://learningenglish.voanews.com/a/8007217.html",
+      "title": "Containers for Planting Seeds That Cost (Almost) Nothing",
+      "cefr": "B1",
+      "topic": "food",
+      "_note": "Govde metnini scripts/reading_text/voa_health_telefon.txt dosyasina yapistir. Ses+gorsel page_url'den otomatik. Calistir: python scripts/ingest_reading.py voa_health_telefon --align"
+    },
+    {
+      "id": "gutenberg_aesop_01",
+      "source": "gutenberg",
+      "gutenberg_id": 21,
+      "title": "Aesop's Fables (excerpt)",
+      "cefr": "B2",
+      "topic": "arts",
+      "max_chars": 3000
+    },
+    {
+      "id": "gutenberg_alice_ch1",
+      "source": "gutenberg",
+      "gutenberg_id": 11,
+      "title": "Alice in Wonderland - Chapter 1 (excerpt)",
+      "cefr": "B2",
+      "topic": "arts",
+      "max_chars": 3500
+    },
+    {
+      "id": "librivox_example",
+      "source": "html",
+      "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+      "audio_url": "",
+      "title": "",
+      "cefr": "B1",
+      "topic": "food",
+      "_note": "html modulu ornegi (BBC/BC/LibriVox). audio_url doldurulursa dogrudan MP3 indirilir. Kirilgandir; sayfa yapisina bagli."
+    }
+  ]
+}

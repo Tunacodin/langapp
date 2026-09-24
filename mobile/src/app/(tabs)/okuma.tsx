@@ -1,4 +1,5 @@
 import { Ionicons } from '@expo/vector-icons';
+import { Image } from 'expo-image';
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
@@ -9,19 +10,23 @@ import { ScreenHeader } from '@/components/screen-header';
 import { Skeleton } from '@/components/skeleton';
 import { colors, radius, space } from '@/constants/appTheme';
 import { useScrollTopOnBlur } from '@/lib/useScrollTopOnBlur';
-import { ArticleRow, getArticles } from '@/lib/db';
+import { ActiveFocus, ArticleRow, getActiveFocus, getArticles } from '@/lib/db';
 
 // OKUMA: seviyene uygun kisa metinler + Sozlugum (kelime kutuphanesi). Kelime,
-// okuma alanina ait oldugu icin vocab girisi burada. Seviye (CEFR) cipleri yok.
+// okuma alanina ait oldugu icin vocab girisi burada. Odak varken SADECE o gramer
+// yapisini iceren metinler listelenir (odak kilidi).
 export default function OkumaScreen() {
   const [articles, setArticles] = useState<ArticleRow[]>([]);
+  const [focus, setFocus] = useState<ActiveFocus | null>(null);
   const [q, setQ] = useState('');
   const [loading, setLoading] = useState(true);
   const scrollRef = useScrollTopOnBlur();
 
   useFocusEffect(
     useCallback(() => {
-      setArticles(getArticles());
+      const f = getActiveFocus();
+      setFocus(f);
+      setArticles(getArticles(f?.key));
       setLoading(false);
     }, []),
   );
@@ -75,16 +80,22 @@ export default function OkumaScreen() {
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>Metinler</Text>
             {fArticles.length === 0 ? (
-              <Text style={styles.empty}>{searching ? 'Sonuç yok.' : 'Henüz metin yok.'}</Text>
+              <Text style={styles.empty}>
+                {searching ? 'Sonuç yok.' : focus ? `${focus.label} için metin yok.` : 'Henüz metin yok.'}
+              </Text>
             ) : (
               fArticles.map((a) => (
                 <Pressable
                   key={a.id}
                   style={styles.row}
                   onPress={() => router.push(`/reading?id=${encodeURIComponent(a.id)}`)}>
-                  <View style={styles.rowIcon}>
-                    <Ionicons name="document-text-outline" size={22} color={colors.teal} />
-                  </View>
+                  {a.image_url ? (
+                    <Image source={{ uri: a.image_url }} style={styles.rowImg} contentFit="cover" transition={150} />
+                  ) : (
+                    <View style={styles.rowIcon}>
+                      <Ionicons name="document-text-outline" size={22} color={colors.teal} />
+                    </View>
+                  )}
                   <View style={{ flex: 1 }}>
                     <Text style={styles.rowText} numberOfLines={2}>
                       {a.title}
@@ -177,6 +188,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  rowImg: { width: 56, height: 56, borderRadius: radius.sm, backgroundColor: colors.line },
   rowText: { fontSize: 15, fontWeight: '700', color: colors.ink, lineHeight: 20 },
   rowFoot: { fontSize: 11, fontWeight: '600', color: colors.muted, marginTop: 4 },
 
