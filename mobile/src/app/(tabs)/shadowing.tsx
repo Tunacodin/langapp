@@ -9,7 +9,7 @@ import { ScreenHeader } from '@/components/screen-header';
 import { colors, radius, space } from '@/constants/appTheme';
 import { getLadderSummary, getSpeakingStats, LadderSummary, SpeakingFocusStat } from '@/lib/db';
 import { SPEAKING_FOCUS } from '@/lib/speaking';
-import { LADDER_TRACKS } from '@/lib/speaking/ladder';
+import { LADDER_TRACKS, ladderStep } from '@/lib/speaking/ladder';
 import { useScrollTopOnBlur } from '@/lib/useScrollTopOnBlur';
 
 // KONUSMA: ustte KONUSMA MERDIVENI (gramer konusu -> temalar; her tema dinle ->
@@ -46,14 +46,8 @@ export default function KonusmaScreen() {
               <Text style={styles.secSub}>{track.subtitle}</Text>
             </View>
             {track.themes.map((t) => {
-              const n = t.sentences.length;
               const sm = ladder[t.id];
-              const p1 = sm?.p1 ?? 0;
-              const p2 = sm?.p2 ?? 0;
-              const chain = sm?.chainLen ?? 0;
-              const step =
-                p1 < n ? `Dinle ${p1}/${n}` : p2 < n ? `Türkçeden ${p2}/${n}` : chain >= n ? 'Tamamlandı' : `Zincir ${Math.max(chain, 3)}/${n}`;
-              const frac = (p1 + p2 + Math.min(chain, n)) / (3 * n);
+              const { label: step, frac } = ladderStep(t, sm?.byStage ?? {}, sm?.chainLen ?? 0);
               return (
                 <Pressable
                   key={t.id}

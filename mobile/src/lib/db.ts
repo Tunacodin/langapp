@@ -452,7 +452,7 @@ export function initSchema() {
     CREATE INDEX IF NOT EXISTS ix_speaking_focus ON speaking_takes (focus_id, created_at);
 
     -- Konusma merdiveni ilerlemesi (kullanici verisi; seed silmez).
-    -- stage: 1 = dinle-tekrarla, 2 = Turkceden soyle. best = en iyi eslesme (%).
+    -- stage: 1 dinle, 3 bosluklu, 4 ilk harf ipucu, 2 Turkceden. best = en iyi eslesme (%).
     CREATE TABLE IF NOT EXISTS ladder_progress (
       theme_id TEXT NOT NULL,
       sent_key TEXT NOT NULL,
@@ -1930,7 +1930,8 @@ export function recordLadderAttempt(themeId: string, sentKey: string, stage: num
   );
 }
 
-export type LadderState = { passed1: Set<string>; passed2: Set<string>; chainLen: number; chainBest: number };
+// stage: 1 dinle, 3 bosluk, 4 ilk harf, 2 Turkceden (ekrandaki sira: 1,3,4,2).
+export type LadderState = { passed: Record<number, Set<string>>; chainLen: number; chainBest: number };
 export function getLadderState(themeId: string): LadderState {
   const rows = db.getAllSync<{ sent_key: string; stage: number }>(
     `SELECT sent_key, stage FROM ladder_progress WHERE theme_id = ? AND passed = 1`,
@@ -1940,27 +1941,20 @@ export function getLadderState(themeId: string): LadderState {
     `SELECT chain_len, best FROM ladder_chain WHERE theme_id = ?`,
     [themeId],
   );
-  return {
-    passed1: new Set(rows.filter((r) => r.stage === 1).map((r) => r.sent_key)),
-    passed2: new Set(rows.filter((r) => r.stage === 2).map((r) => r.sent_key)),
-    chainLen: c?.chain_len ?? 0,
-    chainBest: c?.best ?? 0,
-  };
+  const passed: Record<number, Set<string>> = { 1: new Set(), 2: new Set(), 3: new Set(), 4: new Set() };
+  for (const r of rows) (passed[r.stage] ??= new Set()).add(r.sent_key);
+  return { passed, chainLen: c?.chain_len ?? 0, chainBest: c?.best ?? 0 };
 }
 
-export type LadderSummary = { p1: number; p2: number; chainLen: number };
+export type LadderSummary = { byStage: Record<number, number>; chainLen: number };
 export function getLadderSummary(): Record<string, LadderSummary> {
   const out: Record<string, LadderSummary> = {};
   const rows = db.getAllSync<{ theme_id: string; stage: number; c: number }>(
     `SELECT theme_id, stage, COUNT(*) AS c FROM ladder_progress WHERE passed = 1 GROUP BY theme_id, stage`,
   );
-  for (const r of rows) {
-    const o = (out[r.theme_id] ??= { p1: 0, p2: 0, chainLen: 0 });
-    if (r.stage === 1) o.p1 = r.c;
-    if (r.stage === 2) o.p2 = r.c;
-  }
+  for (const r of rows) (out[r.theme_id] ??= { byStage: {}, chainLen: 0 }).byStage[r.stage] = r.c;
   for (const c of db.getAllSync<{ theme_id: string; chain_len: number }>(`SELECT theme_id, chain_len FROM ladder_chain`)) {
-    (out[c.theme_id] ??= { p1: 0, p2: 0, chainLen: 0 }).chainLen = c.chain_len;
+    (out[c.theme_id] ??= { byStage: {}, chainLen: 0 }).chainLen = c.chain_len;
   }
   return out;
 }

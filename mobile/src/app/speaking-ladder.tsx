@@ -16,26 +16,36 @@ import {
   updateSpeakingTakeMedia,
   type LadderState,
 } from '@/lib/db';
-import { getLadderTheme, type LadderSentence, type LadderTheme } from '@/lib/speaking/ladder';
+import {
+  getLadderTheme,
+  LADDER_STAGES,
+  ladderSets,
+  type LadderSentence,
+  type LadderStageId,
+  type LadderTheme,
+} from '@/lib/speaking/ladder';
 import { persistTakeAudio, persistTakeVideo } from '@/lib/speaking/media';
 import { bestMatch, useLiveSpeech } from '@/lib/useLiveSpeech';
 import { alignWords, type WordStatus } from '@/lib/wordAlign';
 
-// KONUSMA MERDIVENI: bir temanin cumleleri (bir konusma akisi) uc basamakta calisilir.
-// 1 Dinle: cumle calinir, EN+TR gorerek soylersin.
-// 2 Turkceden: yalniz TR gorunur, EN'yi aklindan soylersin (alternatifler de kabul).
-// 3 Zincir: TR ipuclariyla cumleleri ART ARDA soylersin; her basarili zincirde +2 uzar.
+// KONUSMA MERDIVENI: tema 4'er cumlelik GRUPLARA bolunur; her grup dort basamakta,
+// metin giderek silinerek calisilir:
+// Dinle (EN+TR, cumle calinir) -> Bosluk (anahtar kelimeler gizli) -> Ipucu (yalniz
+// ilk harfler) -> Turkce (yalniz TR, EN aklindan). Grup bitince sonraki grup acilir.
+// Zincir: bitmis gruplarin cumleleri TR ipuclariyla ART ARDA soylenir; basarida +2 uzar.
 // Degerlendirme otomatik (cihaz ici tanima + kelime hizalama); %80 ve ustu gecer.
-// Bir basamagin tum cumleleri gecilmeden sonraki acilmaz.
 const PASS = 80;
 const CHAIN_PASS = 75;
 const CHAIN_START = 3;
+const ORDER = LADDER_STAGES.map((s) => s.id) as LadderStageId[];
 
 export default function SpeakingLadder() {
   const { theme: themeId } = useLocalSearchParams<{ theme?: string }>();
   const theme = useMemo(() => getLadderTheme(themeId), [themeId]);
+  const sets = useMemo(() => (theme ? ladderSets(theme) : []), [theme]);
   const [st, setSt] = useState<LadderState | null>(null);
-  const [stage, setStage] = useState<1 | 2 | 3>(1);
+  const [group, setGroup] = useState(0); // sets.length = zincir
+  const [stage, setStage] = useState<LadderStageId>(1);
 
   const refresh = useCallback(() => {
     if (!theme) return null;
@@ -44,13 +54,24 @@ export default function SpeakingLadder() {
     return s;
   }, [theme]);
 
-  // Ilk acilista: tamamlanmamis ilk basamaktan basla.
+  const setDone = useCallback(
+    (s: LadderState, j: number) => sets[j].every((x) => s.passed[2]?.has(x.key)),
+    [sets],
+  );
+  const stageDone = useCallback(
+    (s: LadderState, j: number, k: LadderStageId) => sets[j].every((x) => s.passed[k]?.has(x.key)),
+    [sets],
+  );
+
+  // Ilk acilista: bitmemis ilk grup + o grubun bitmemis ilk basamagi.
   useEffect(() => {
     const s = refresh();
-    if (!s || !theme) return;
-    const n = theme.sentences.length;
-    setStage(s.passed1.size < n ? 1 : s.passed2.size < n ? 2 : 3);
-  }, [refresh, theme]);
+    if (!s) return;
+    const j = sets.findIndex((_, i) => !setDone(s, i));
+    if (j < 0) return setGroup(sets.length);
+    setGroup(j);
+    setStage(ORDER.find((k) => !stageDone(s, j, k)) ?? 2);
+  }, [refresh, sets, setDone, stageDone]);
 
   if (!theme || !st) {
     return (
@@ -62,9 +83,24 @@ export default function SpeakingLadder() {
     );
   }
 
-  const n = theme.sentences.length;
-  const open2 = st.passed1.size >= n;
-  const open3 = st.passed2.size >= n;
+  const doneSets = sets.filter((_, j) => setDone(st, j)).length;
+  const chainMax = sets.slice(0, doneSets).reduce((a, x) => a + x.length, 0);
+  const groupOpen = (j: number) => j === 0 || setDone(st, j - 1);
+  const stageOpen = (k: LadderStageId) => {
+    const i = ORDER.indexOf(k);
+    return i === 0 || stageDone(st, group, ORDER[i - 1]);
+  };
+
+  // Basamak bitince: sonraki basamak; grubun son basamagiysa sonraki grup (ya da zincir).
+  const advance = () => {
+    refresh();
+    const i = ORDER.indexOf(stage);
+    if (i < ORDER.length - 1) return setStage(ORDER[i + 1]);
+    if (group + 1 < sets.length) {
+      setGroup(group + 1);
+      setStage(1);
+    } else setGroup(sets.length);
+  };
 
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
@@ -85,52 +121,89 @@ export default function SpeakingLadder() {
       <View style={styles.seg}>
         <Segmented
           options={[
-            { key: '1', label: `Dinle ${st.passed1.size}/${n}` },
-            { key: '2', label: open2 ? `Türkçeden ${st.passed2.size}/${n}` : 'Türkçeden' },
-            { key: '3', label: open3 ? `Zincir ${Math.max(st.chainLen, CHAIN_START)}` : 'Zincir' },
+            ...sets.map((_, j) => ({ key: String(j), label: `${j + 1}. grup` })),
+            { key: String(sets.length), label: 'Zincir' },
           ]}
-          disabled={[...(open2 ? [] : ['2']), ...(open3 ? [] : ['3'])]}
-          value={String(stage)}
-          onChange={(k) => setStage(Number(k) as 1 | 2 | 3)}
+          disabled={[
+            ...sets.map((_, j) => (groupOpen(j) ? '' : String(j))).filter(Boolean),
+            ...(doneSets > 0 ? [] : [String(sets.length)]),
+          ]}
+          value={String(group)}
+          onChange={(k) => {
+            const j = Number(k);
+            setGroup(j);
+            if (j < sets.length) setStage(ORDER.find((x) => !stageDone(st, j, x)) ?? 2);
+          }}
         />
+        {group < sets.length ? (
+          <Segmented
+            options={LADDER_STAGES.map((x) => ({ key: String(x.id), label: x.label }))}
+            disabled={ORDER.filter((k) => !stageOpen(k)).map(String)}
+            value={String(stage)}
+            onChange={(k) => setStage(Number(k) as LadderStageId)}
+          />
+        ) : null}
       </View>
 
-      {stage === 3 ? (
-        <Chain key="chain" theme={theme} st={st} onSaved={refresh} />
+      {group >= sets.length ? (
+        <Chain key="chain" theme={theme} st={st} maxLen={chainMax} onSaved={refresh} />
       ) : (
         <Drill
-          key={`drill${stage}`}
+          key={`g${group}s${stage}`}
           theme={theme}
+          list={sets[group]}
           stage={stage}
-          passed={stage === 1 ? st.passed1 : st.passed2}
+          passed={st.passed[stage] ?? new Set()}
+          lastStage={stage === 2}
+          lastGroup={group === sets.length - 1}
           onSaved={refresh}
-          onStageDone={() => setStage((stage + 1) as 2 | 3)}
+          onStageDone={advance}
         />
       )}
     </SafeAreaView>
   );
 }
 
+// Basamaga gore kelimenin gorunumu: Bosluk'ta 4+ harfli kelimeler gizli, Ipucu'nda
+// yalniz ilk harf. Dogru soylenen kelime hemen acilir.
+function maskWord(w: string, stage: LadderStageId): string | null {
+  const letters = w.replace(/[^A-Za-z']/g, '');
+  if (stage === 3) return letters.length >= 4 ? w.replace(/[A-Za-z']/g, '_') : null;
+  if (stage === 4) {
+    const first = w.search(/[A-Za-z]/);
+    return w.replace(/[A-Za-z']/g, (ch, i: number) => (i === first ? ch : '_'));
+  }
+  return null;
+}
+
 // ---------------------------------------------------------------------------
-// Basamak 1 ve 2: cumle cumle.
+// Grup icinde cumle cumle (Dinle / Bosluk / Ipucu / Turkce).
 function Drill({
   theme,
+  list,
   stage,
   passed,
+  lastStage,
+  lastGroup,
   onSaved,
   onStageDone,
 }: {
   theme: LadderTheme;
-  stage: 1 | 2;
+  list: LadderSentence[];
+  stage: LadderStageId;
   passed: Set<string>;
+  lastStage: boolean;
+  lastGroup: boolean;
   onSaved: () => void;
   onStageDone: () => void;
 }) {
-  const list = theme.sentences;
   const firstOpen = Math.max(0, list.findIndex((s) => !passed.has(s.key)));
   const [idx, setIdx] = useState(firstOpen);
   const [result, setResult] = useState<{ pct: number; pass: boolean } | null>(null);
-  const [allDone, setAllDone] = useState(passed.size >= list.length);
+  const [donePass, setDonePass] = useState<Set<string>>(
+    () => new Set(list.filter((s) => passed.has(s.key)).map((s) => s.key)),
+  );
+  const [allDone, setAllDone] = useState(list.every((s) => passed.has(s.key)));
   const live = useLiveSpeech();
   const evaluating = useRef(false);
 
@@ -152,8 +225,9 @@ function Drill({
     (fromIdx: number, justPassed?: string) => {
       setResult(null);
       live.reset();
-      const done = new Set(passed);
+      const done = new Set(donePass);
       if (justPassed) done.add(justPassed);
+      setDonePass(done);
       if (done.size >= list.length) {
         setAllDone(true);
         return;
@@ -163,7 +237,7 @@ function Drill({
         if (!done.has(list[j].key)) return setIdx(j);
       }
     },
-    [list, passed, live],
+    [list, donePass, live],
   );
 
   const evaluate = useCallback(async () => {
@@ -198,38 +272,35 @@ function Drill({
   };
 
   if (allDone) {
+    const label = LADDER_STAGES.find((x) => x.id === stage)?.done ?? 'Tamam';
     return (
       <View style={styles.center}>
         <Ionicons name="checkmark-circle" size={56} color={colors.success} />
-        <Text style={styles.h1}>{stage === 1 ? 'Dinle basamağı tamam' : 'Türkçeden söyleme tamam'}</Text>
+        <Text style={styles.h1}>{label}</Text>
         <Text style={styles.sub}>
-          {stage === 1
-            ? 'Şimdi aynı cümleleri yalnız Türkçesine bakarak söyle.'
-            : 'Şimdi cümleleri art arda, zincir hâlinde söyle.'}
+          {!lastStage
+            ? 'Aynı cümleler, bu kez daha az ipucuyla.'
+            : lastGroup
+              ? 'Bütün gruplar bitti. Şimdi cümleleri art arda, zincir hâlinde söyle.'
+              : 'Bu grup bitti. Sıradaki 4 cümleye geç; zincirde bitirdiğin cümleleri art arda da söyleyebilirsin.'}
         </Text>
         <Pressable style={styles.primaryBtn} onPress={onStageDone}>
-          <Text style={styles.primaryText}>Sonraki basamak</Text>
+          <Text style={styles.primaryText}>
+            {lastStage ? (lastGroup ? 'Zincire geç' : 'Sonraki grup') : 'Sonraki basamak'}
+          </Text>
         </Pressable>
       </View>
     );
   }
 
-  const showEn = stage === 1 || result != null;
-  const shownWords = result ? match.words : cur.en.split(/\s+/);
-  const shownStatus: WordStatus[] = stage === 1 || result ? match.status : [];
+  const words = result ? match.words : cur.en.split(/\s+/);
+  const status: WordStatus[] = match.status;
 
   return (
     <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
       <View style={styles.dots}>
         {list.map((s, i) => (
-          <View
-            key={s.key}
-            style={[
-              styles.dot,
-              passed.has(s.key) && styles.dotDone,
-              i === idx && styles.dotCur,
-            ]}
-          />
+          <View key={s.key} style={[styles.dot, donePass.has(s.key) && styles.dotDone, i === idx && styles.dotCur]} />
         ))}
       </View>
 
@@ -254,24 +325,26 @@ function Drill({
 
         {stage === 2 ? <Text style={styles.trBig}>{cur.tr}</Text> : null}
 
-        {showEn ? (
-          <Text style={stage === 1 ? styles.enBig : styles.en}>
-            {shownWords.map((w, i) => (
-              <Text
-                key={i}
-                style={shownStatus[i] === 'ok' ? styles.ok : shownStatus[i] === 'wrong' ? styles.bad : undefined}>
-                {w}
-                {i < shownWords.length - 1 ? ' ' : ''}
-              </Text>
-            ))}
+        {stage !== 2 || result ? (
+          <Text style={stage === 2 ? styles.en : styles.enBig}>
+            {words.map((w, i) => {
+              const s = status[i];
+              const masked = !result && s !== 'ok' ? maskWord(w, stage) : null;
+              return (
+                <Text
+                  key={i}
+                  style={s === 'ok' ? styles.ok : s === 'wrong' ? styles.bad : masked ? styles.mask : undefined}>
+                  {masked ?? w}
+                  {i < words.length - 1 ? ' ' : ''}
+                </Text>
+              );
+            })}
           </Text>
         ) : null}
 
-        {stage === 1 ? <Text style={styles.tr}>{cur.tr}</Text> : null}
+        {stage !== 2 ? <Text style={styles.tr}>{cur.tr}</Text> : null}
 
-        {stage === 2 && live.listening && live.transcript ? (
-          <Text style={styles.heard}>{live.transcript}</Text>
-        ) : null}
+        {stage === 2 && live.listening && live.transcript ? <Text style={styles.heard}>{live.transcript}</Text> : null}
       </View>
 
       <View style={styles.micWrap}>
@@ -283,9 +356,7 @@ function Drill({
             %{result.pct}
           </Text>
         ) : null}
-        {result && !result.pass && live.transcript ? (
-          <Text style={styles.heard}>Duyulan: {live.transcript}</Text>
-        ) : null}
+        {result && !result.pass && live.transcript ? <Text style={styles.heard}>Duyulan: {live.transcript}</Text> : null}
         {live.error ? <Text style={styles.err}>{live.error}</Text> : null}
       </View>
     </ScrollView>
@@ -293,10 +364,20 @@ function Drill({
 }
 
 // ---------------------------------------------------------------------------
-// Basamak 3: zincir. Ilk N cumle TR ipucuyla art arda soylenir. On kamera sessiz
+// Zincir: bitmis gruplarin ilk N cumlesi TR ipucuyla art arda soylenir. On kamera sessiz
 // video + tanima sesi kaydedilir; kayit Gelisim ekraninda izlenir.
-function Chain({ theme, st, onSaved }: { theme: LadderTheme; st: LadderState; onSaved: () => void }) {
-  const total = theme.sentences.length;
+function Chain({
+  theme,
+  st,
+  maxLen,
+  onSaved,
+}: {
+  theme: LadderTheme;
+  st: LadderState;
+  maxLen: number;
+  onSaved: () => void;
+}) {
+  const total = maxLen; // yalniz bitmis gruplarin cumleleri
   const len = Math.min(total, Math.max(st.chainLen, CHAIN_START));
   const items = theme.sentences.slice(0, len);
   const live = useLiveSpeech();
@@ -392,7 +473,7 @@ function Chain({ theme, st, onSaved }: { theme: LadderTheme; st: LadderState; on
         </View>
         <View style={{ flex: 1, gap: 4 }}>
           <Text style={styles.chainTitle}>
-            {len} cümle art arda{len >= total ? ' · tüm tema' : ''}
+            {len} cümle art arda{len >= theme.sentences.length ? ' · tüm tema' : ''}
           </Text>
           <Text style={styles.sub}>Türkçelere bakarak İngilizcesini durmadan söyle.</Text>
           {graded ? <Text style={styles.resultInline}>%{result ? result.pct : overall}</Text> : null}
@@ -413,8 +494,10 @@ function Chain({ theme, st, onSaved }: { theme: LadderTheme; st: LadderState; on
         {result ? (
           <Text style={[styles.sub, { color: result.pass ? colors.success : colors.danger }]}>
             {result.pass
-              ? len >= total
+              ? len >= theme.sentences.length
                 ? 'Temanın tamamını art arda söyledin.'
+                : len >= total
+                ? 'Bitirdiğin grupların hepsini art arda söyledin. Sıradaki grubu çalış.'
                 : `Zincir uzadı: sıradaki tur ${Math.min(total, len + 2)} cümle.`
               : `Geçmek için en az %${CHAIN_PASS} gerekiyor.`}
           </Text>
@@ -449,7 +532,7 @@ const styles = StyleSheet.create({
     paddingTop: space.md,
   },
   headTitle: { flex: 1, fontSize: 17, fontWeight: '800', color: colors.ink },
-  seg: { paddingHorizontal: space.xl, paddingTop: space.md },
+  seg: { paddingHorizontal: space.xl, paddingTop: space.md, gap: space.sm },
   content: { padding: space.xl, gap: space.lg, paddingBottom: space.xxl },
 
   h1: { fontSize: 20, fontWeight: '800', color: colors.ink, textAlign: 'center' },
@@ -469,6 +552,7 @@ const styles = StyleSheet.create({
   trBig: { fontSize: 22, fontWeight: '800', color: colors.ink, lineHeight: 30 },
   tr: { fontSize: 15, color: colors.muted },
   ok: { color: colors.success },
+  mask: { color: colors.muted, letterSpacing: 1 },
   bad: { color: colors.danger },
   heard: { fontSize: 13, color: colors.muted, fontStyle: 'italic', textAlign: 'center' },
 
