@@ -1,0 +1,261 @@
+{
+  "video_id": "curated_would_have_v3",
+  "title": "Would have V3 (gerçekleşmemiş geçmiş sonuç)",
+  "license": "curated",
+  "cefr": "B2",
+  "topic": "grammar",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I would have helped you.",
+      "text_tr": "Sana yardım ederdim.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would have helped",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 2,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We would have won the game.",
+      "text_tr": "Maçı kazanırdık.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would have won",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 3,
+          "span_end": 17
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Life would have been easier.",
+      "text_tr": "Hayat daha kolay olurdu.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would have been",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 5,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "He would have called if he knew.",
+      "text_tr": "Bilseydi arardı.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would have called",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 3,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "He wouldn't have said that.",
+      "text_tr": "Bunu söylemezdi.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wouldn't have said",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 3,
+          "span_end": 21
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "They wouldn't have agreed.",
+      "text_tr": "Kabul etmezlerdi.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wouldn't have agreed",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 5,
+          "span_end": 25
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I wouldn't have believed it.",
+      "text_tr": "Buna inanmazdım.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wouldn't have believed",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 2,
+          "span_end": 24
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We wouldn't have missed the flight.",
+      "text_tr": "Uçağı kaçırmazdık.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "wouldn't have missed",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 3,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Would you have done the same thing?",
+      "text_tr": "Sen de aynı şeyi yapar mıydın?",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Would you have done",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 0,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Would she have accepted the offer?",
+      "text_tr": "Teklifi kabul eder miydi?",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Would she have accepted",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 0,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "What would you have said?",
+      "text_tr": "Sen ne derdin?",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would you have said",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 5,
+          "span_end": 24
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "She would have come if she had time.",
+      "text_tr": "Vakti olsaydı gelirdi.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "would have come",
+          "note_tr": "Geçmişte koşul sağlansaydı ortaya çıkacak sonuç.",
+          "cefr": "B2",
+          "norm_pattern": "would_have_v3",
+          "span_start": 4,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    }
+  ]
+}

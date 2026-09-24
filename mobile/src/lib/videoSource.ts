@@ -1,16 +1,13 @@
 import { Asset } from 'expo-asset';
 import type { VideoSource } from 'expo-video';
 
+import { VIDEO_MODULES } from './lessonManifest';
+
 // Video kaynagi cozumu (uzak URL / gomulu asset). Player, item ve shadowing
 // ekranlari AYNI mantigi paylasir; tek kaynak burasidir.
+// VIDEO_MODULES (gomulu videolar) manifest'ten gelir; yeni video eklemek =
+// python scripts/gen_lesson_manifest.py.
 const BASE = process.env.EXPO_PUBLIC_VIDEO_BASE_URL?.replace(/\/$/, '') || null;
-
-const VIDEO_MODULES: Record<string, number> = {
-  lesson1: require('../../assets/videos/lesson1.mp4'),
-  fireship_ai: require('../../assets/videos/fireship_ai.mp4'),
-  mckinnon_day: require('../../assets/videos/mckinnon_day.mp4'),
-  tifo_clubs_money: require('../../assets/videos/tifo_clubs_money.mp4'),
-};
 
 export async function resolveVideoSource(
   youtubeId: string,

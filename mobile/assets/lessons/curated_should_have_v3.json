@@ -1,0 +1,261 @@
+{
+  "video_id": "curated_should_have_v3",
+  "title": "Should have V3 (geçmiş pişmanlık/tavsiye)",
+  "license": "curated",
+  "cefr": "B1",
+  "topic": "grammar",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I should have studied harder.",
+      "text_tr": "Daha çok çalışmalıydım.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should have studied",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 2,
+          "span_end": 21
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "You should have told me the truth.",
+      "text_tr": "Bana gerçeği söylemeliydin.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should have told",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 4,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "She should have called before coming.",
+      "text_tr": "Gelmeden önce aramalıydı.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should have called",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 4,
+          "span_end": 22
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I should have listened to your advice.",
+      "text_tr": "Tavsiyene kulak vermeliydim.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should have listened",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 2,
+          "span_end": 22
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "He should have apologized.",
+      "text_tr": "Özür dilemeliydi.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should have apologized",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 3,
+          "span_end": 25
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We shouldn't have waited so long.",
+      "text_tr": "Bu kadar uzun beklememeliydik.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "shouldn't have waited",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 3,
+          "span_end": 24
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "He shouldn't have said that.",
+      "text_tr": "Bunu söylememeliydi.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "shouldn't have said",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 3,
+          "span_end": 22
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "You shouldn't have spent all your money.",
+      "text_tr": "Bütün paranı harcamamalıydın.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "shouldn't have spent",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 4,
+          "span_end": 24
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "They shouldn't have left early.",
+      "text_tr": "Erken ayrılmamalıydılar.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "shouldn't have left",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 5,
+          "span_end": 24
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Should I have booked the tickets earlier?",
+      "text_tr": "Biletleri daha erken mi almalıydım?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Should I have booked",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 0,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Should we have brought a gift?",
+      "text_tr": "Hediye mi getirmeliydik?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Should we have brought",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 0,
+          "span_end": 22
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "What should I have done differently?",
+      "text_tr": "Neyi farklı yapmalıydım?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "should I have done",
+          "note_tr": "Geçmişte yapılması gereken ama yapılmayan şey; pişmanlık veya eleştiri.",
+          "cefr": "B1",
+          "norm_pattern": "should_have_v3",
+          "span_start": 5,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    }
+  ]
+}

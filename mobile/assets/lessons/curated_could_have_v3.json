@@ -1,0 +1,261 @@
+{
+  "video_id": "curated_could_have_v3",
+  "title": "Could have V3 (geçmiş ihtimal/kaçan fırsat)",
+  "license": "curated",
+  "cefr": "B1",
+  "topic": "grammar",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I could have won the race.",
+      "text_tr": "Yarışı kazanabilirdim.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could have won",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 2,
+          "span_end": 16
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "You could have helped me.",
+      "text_tr": "Bana yardım edebilirdin.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could have helped",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 4,
+          "span_end": 21
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "She could have been a doctor.",
+      "text_tr": "O bir doktor olabilirdi.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could have been",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 4,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We could have taken a taxi.",
+      "text_tr": "Taksiye binebilirdik.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could have taken",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 3,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "He could have told us the truth.",
+      "text_tr": "Bize gerçeği söyleyebilirdi.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could have told",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 3,
+          "span_end": 18
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We couldn't have finished on time.",
+      "text_tr": "Zamanında bitiremezdik.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "couldn't have finished",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 3,
+          "span_end": 25
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "He couldn't have known the answer.",
+      "text_tr": "Cevabı bilmiş olamaz.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "couldn't have known",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 3,
+          "span_end": 22
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "They couldn't have arrived earlier.",
+      "text_tr": "Daha erken varamazlardı.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "couldn't have arrived",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 5,
+          "span_end": 26
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Could I have done anything to help?",
+      "text_tr": "Yardım için bir şey yapabilir miydim?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Could I have done",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 0,
+          "span_end": 17
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Could she have missed the train?",
+      "text_tr": "Treni kaçırmış olabilir mi?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Could she have missed",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 0,
+          "span_end": 21
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "You could have called me last night.",
+      "text_tr": "Dün gece beni arayabilirdin.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could have called",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 4,
+          "span_end": 21
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "This could have been a big mistake.",
+      "text_tr": "Bu büyük bir hata olabilirdi.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "could have been",
+          "note_tr": "Geçmişte mümkün olan ama gerçekleşmeyen şey.",
+          "cefr": "B1",
+          "norm_pattern": "could_have_v3",
+          "span_start": 5,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    }
+  ]
+}

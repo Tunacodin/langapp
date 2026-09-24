@@ -1,0 +1,5514 @@
+[
+  {
+    "w": "The",
+    "start_ms": 1900,
+    "end_ms": 2340
+  },
+  {
+    "w": "idea",
+    "start_ms": 2340,
+    "end_ms": 2580,
+    "lemma": "idea",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that",
+    "start_ms": 2580,
+    "end_ms": 2880
+  },
+  {
+    "w": "work",
+    "start_ms": 2880,
+    "end_ms": 3180,
+    "lemma": "work",
+    "pos": "NOUN"
+  },
+  {
+    "w": "might",
+    "start_ms": 3180,
+    "end_ms": 3500
+  },
+  {
+    "w": "be",
+    "start_ms": 3500,
+    "end_ms": 3720
+  },
+  {
+    "w": "fulfilling",
+    "start_ms": 3720,
+    "end_ms": 4040,
+    "lemma": "fulfil",
+    "pos": "VERB"
+  },
+  {
+    "w": "rather",
+    "start_ms": 4040,
+    "end_ms": 4740,
+    "lemma": "rather",
+    "pos": "ADV"
+  },
+  {
+    "w": "than",
+    "start_ms": 4740,
+    "end_ms": 5040
+  },
+  {
+    "w": "just",
+    "start_ms": 5040,
+    "end_ms": 5240,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "painfully",
+    "start_ms": 5240,
+    "end_ms": 5580,
+    "lemma": "painfully",
+    "pos": "ADV"
+  },
+  {
+    "w": "necessary",
+    "start_ms": 5580,
+    "end_ms": 6340,
+    "lemma": "necessary",
+    "pos": "ADJ"
+  },
+  {
+    "w": "is",
+    "start_ms": 6340,
+    "end_ms": 7060
+  },
+  {
+    "w": "a",
+    "start_ms": 7060,
+    "end_ms": 7140
+  },
+  {
+    "w": "strikingly",
+    "start_ms": 7140,
+    "end_ms": 7480,
+    "lemma": "strikingly",
+    "pos": "ADV"
+  },
+  {
+    "w": "recent",
+    "start_ms": 7480,
+    "end_ms": 8080,
+    "lemma": "recent",
+    "pos": "ADJ"
+  },
+  {
+    "w": "invention.",
+    "start_ms": 8080,
+    "end_ms": 8720,
+    "lemma": "invention",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Open",
+    "start_ms": 9220,
+    "end_ms": 9420,
+    "lemma": "open",
+    "pos": "ADJ"
+  },
+  {
+    "w": "Dr.",
+    "start_ms": 9420,
+    "end_ms": 9640
+  },
+  {
+    "w": "Johnson's",
+    "start_ms": 10020,
+    "end_ms": 10100
+  },
+  {
+    "w": "celebrated",
+    "start_ms": 10100,
+    "end_ms": 10580,
+    "lemma": "celebrate",
+    "pos": "VERB"
+  },
+  {
+    "w": "dictionary",
+    "start_ms": 10580,
+    "end_ms": 11260,
+    "lemma": "dictionary",
+    "pos": "NOUN"
+  },
+  {
+    "w": "published",
+    "start_ms": 11260,
+    "end_ms": 11660,
+    "lemma": "publish",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 11660,
+    "end_ms": 11960
+  },
+  {
+    "w": "1755",
+    "start_ms": 11960,
+    "end_ms": 12780
+  },
+  {
+    "w": "and",
+    "start_ms": 12780,
+    "end_ms": 13560
+  },
+  {
+    "w": "the",
+    "start_ms": 13560,
+    "end_ms": 13660
+  },
+  {
+    "w": "word",
+    "start_ms": 13660,
+    "end_ms": 13800,
+    "lemma": "word",
+    "pos": "NOUN"
+  },
+  {
+    "w": "fulfillment",
+    "start_ms": 13800,
+    "end_ms": 14240,
+    "lemma": "fulfillment",
+    "pos": "NOUN"
+  },
+  {
+    "w": "doesn't",
+    "start_ms": 14240,
+    "end_ms": 14940
+  },
+  {
+    "w": "even",
+    "start_ms": 14940,
+    "end_ms": 15100,
+    "lemma": "even",
+    "pos": "ADV"
+  },
+  {
+    "w": "appear.",
+    "start_ms": 15100,
+    "end_ms": 15400,
+    "lemma": "appear",
+    "pos": "VERB"
+  },
+  {
+    "w": "Nowadays,",
+    "start_ms": 16160,
+    "end_ms": 16540,
+    "lemma": "nowadays",
+    "pos": "ADV"
+  },
+  {
+    "w": "in",
+    "start_ms": 16600,
+    "end_ms": 16780
+  },
+  {
+    "w": "the",
+    "start_ms": 16780,
+    "end_ms": 16840
+  },
+  {
+    "w": "prosperous",
+    "start_ms": 16840,
+    "end_ms": 17040,
+    "lemma": "prosperous",
+    "pos": "ADJ"
+  },
+  {
+    "w": "world,",
+    "start_ms": 17040,
+    "end_ms": 17600,
+    "lemma": "world",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we",
+    "start_ms": 18120,
+    "end_ms": 18180
+  },
+  {
+    "w": "don't",
+    "start_ms": 18180,
+    "end_ms": 18440
+  },
+  {
+    "w": "only",
+    "start_ms": 18440,
+    "end_ms": 18640,
+    "lemma": "only",
+    "pos": "ADV"
+  },
+  {
+    "w": "expect",
+    "start_ms": 18640,
+    "end_ms": 18980,
+    "lemma": "expect",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 18980,
+    "end_ms": 19320
+  },
+  {
+    "w": "obtain",
+    "start_ms": 19320,
+    "end_ms": 19620,
+    "lemma": "obtain",
+    "pos": "VERB"
+  },
+  {
+    "w": "money",
+    "start_ms": 19620,
+    "end_ms": 20000,
+    "lemma": "money",
+    "pos": "NOUN"
+  },
+  {
+    "w": "through",
+    "start_ms": 20000,
+    "end_ms": 20280
+  },
+  {
+    "w": "our",
+    "start_ms": 20280,
+    "end_ms": 20440
+  },
+  {
+    "w": "labour.",
+    "start_ms": 20440,
+    "end_ms": 20680,
+    "lemma": "labour",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We",
+    "start_ms": 21280,
+    "end_ms": 21300
+  },
+  {
+    "w": "also,",
+    "start_ms": 21300,
+    "end_ms": 21580,
+    "lemma": "also",
+    "pos": "ADV"
+  },
+  {
+    "w": "to",
+    "start_ms": 21800,
+    "end_ms": 22060
+  },
+  {
+    "w": "a",
+    "start_ms": 22060,
+    "end_ms": 22180
+  },
+  {
+    "w": "greater",
+    "start_ms": 22180,
+    "end_ms": 22440,
+    "lemma": "great",
+    "pos": "ADJ"
+  },
+  {
+    "w": "or",
+    "start_ms": 22440,
+    "end_ms": 22740
+  },
+  {
+    "w": "lesser",
+    "start_ms": 22740,
+    "end_ms": 22980,
+    "lemma": "less",
+    "pos": "ADJ"
+  },
+  {
+    "w": "extent,",
+    "start_ms": 22980,
+    "end_ms": 23440,
+    "lemma": "extent",
+    "pos": "NOUN"
+  },
+  {
+    "w": "expect",
+    "start_ms": 23800,
+    "end_ms": 24180,
+    "lemma": "expect",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 24180,
+    "end_ms": 24400
+  },
+  {
+    "w": "find",
+    "start_ms": 24400,
+    "end_ms": 24600,
+    "lemma": "find",
+    "pos": "VERB"
+  },
+  {
+    "w": "meaning",
+    "start_ms": 24600,
+    "end_ms": 24860,
+    "lemma": "meaning",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 24860,
+    "end_ms": 25400
+  },
+  {
+    "w": "satisfaction.",
+    "start_ms": 25400,
+    "end_ms": 25700,
+    "lemma": "satisfaction",
+    "pos": "NOUN"
+  },
+  {
+    "w": "It's",
+    "start_ms": 26580,
+    "end_ms": 26900
+  },
+  {
+    "w": "a",
+    "start_ms": 26900,
+    "end_ms": 27020
+  },
+  {
+    "w": "big",
+    "start_ms": 27020,
+    "end_ms": 27140,
+    "lemma": "big",
+    "pos": "ADJ"
+  },
+  {
+    "w": "ask",
+    "start_ms": 27140,
+    "end_ms": 27420,
+    "lemma": "ask",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 27420,
+    "end_ms": 27980
+  },
+  {
+    "w": "helps",
+    "start_ms": 27980,
+    "end_ms": 28120,
+    "lemma": "help",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 28120,
+    "end_ms": 28360
+  },
+  {
+    "w": "explain",
+    "start_ms": 28360,
+    "end_ms": 28640,
+    "lemma": "explain",
+    "pos": "VERB"
+  },
+  {
+    "w": "why",
+    "start_ms": 28640,
+    "end_ms": 28900
+  },
+  {
+    "w": "so",
+    "start_ms": 28900,
+    "end_ms": 29160,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "many",
+    "start_ms": 29160,
+    "end_ms": 29360,
+    "lemma": "many",
+    "pos": "ADJ"
+  },
+  {
+    "w": "of",
+    "start_ms": 29360,
+    "end_ms": 29520
+  },
+  {
+    "w": "us",
+    "start_ms": 29520,
+    "end_ms": 29640
+  },
+  {
+    "w": "have",
+    "start_ms": 29640,
+    "end_ms": 29820,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "career",
+    "start_ms": 29820,
+    "end_ms": 30060,
+    "lemma": "career",
+    "pos": "NOUN"
+  },
+  {
+    "w": "crises,",
+    "start_ms": 30060,
+    "end_ms": 30500,
+    "lemma": "crisis",
+    "pos": "NOUN"
+  },
+  {
+    "w": "often",
+    "start_ms": 30500,
+    "end_ms": 31380,
+    "lemma": "often",
+    "pos": "ADV"
+  },
+  {
+    "w": "on",
+    "start_ms": 31380,
+    "end_ms": 31480
+  },
+  {
+    "w": "a",
+    "start_ms": 31480,
+    "end_ms": 31560
+  },
+  {
+    "w": "Sunday",
+    "start_ms": 31560,
+    "end_ms": 31720
+  },
+  {
+    "w": "evening",
+    "start_ms": 31720,
+    "end_ms": 32119,
+    "lemma": "evening",
+    "pos": "NOUN"
+  },
+  {
+    "w": "as",
+    "start_ms": 32119,
+    "end_ms": 32619
+  },
+  {
+    "w": "the",
+    "start_ms": 32619,
+    "end_ms": 32720
+  },
+  {
+    "w": "sun",
+    "start_ms": 32720,
+    "end_ms": 32940,
+    "lemma": "sun",
+    "pos": "NOUN"
+  },
+  {
+    "w": "begins",
+    "start_ms": 32940,
+    "end_ms": 33180,
+    "lemma": "begin",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 33180,
+    "end_ms": 33400
+  },
+  {
+    "w": "set.",
+    "start_ms": 33400,
+    "end_ms": 33640,
+    "lemma": "set",
+    "pos": "VERB"
+  },
+  {
+    "w": "To",
+    "start_ms": 34560,
+    "end_ms": 34700
+  },
+  {
+    "w": "help",
+    "start_ms": 34700,
+    "end_ms": 34880,
+    "lemma": "help",
+    "pos": "VERB"
+  },
+  {
+    "w": "us",
+    "start_ms": 34880,
+    "end_ms": 35020
+  },
+  {
+    "w": "on",
+    "start_ms": 35020,
+    "end_ms": 35140
+  },
+  {
+    "w": "the",
+    "start_ms": 35140,
+    "end_ms": 35220
+  },
+  {
+    "w": "quest",
+    "start_ms": 35220,
+    "end_ms": 35420,
+    "lemma": "quest",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 35420,
+    "end_ms": 35640
+  },
+  {
+    "w": "fulfilling",
+    "start_ms": 35640,
+    "end_ms": 36000,
+    "lemma": "fulfil",
+    "pos": "VERB"
+  },
+  {
+    "w": "work,",
+    "start_ms": 36000,
+    "end_ms": 36360,
+    "lemma": "work",
+    "pos": "NOUN"
+  },
+  {
+    "w": "here",
+    "start_ms": 36840,
+    "end_ms": 36940,
+    "lemma": "here",
+    "pos": "ADV"
+  },
+  {
+    "w": "are",
+    "start_ms": 36940,
+    "end_ms": 37000
+  },
+  {
+    "w": "six",
+    "start_ms": 37000,
+    "end_ms": 37260
+  },
+  {
+    "w": "useful",
+    "start_ms": 37260,
+    "end_ms": 37720,
+    "lemma": "useful",
+    "pos": "ADJ"
+  },
+  {
+    "w": "ideas.",
+    "start_ms": 37720,
+    "end_ms": 38040,
+    "lemma": "idea",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Firstly,",
+    "start_ms": 38860,
+    "end_ms": 39200,
+    "lemma": "firstly",
+    "pos": "ADV"
+  },
+  {
+    "w": "accept",
+    "start_ms": 39540,
+    "end_ms": 39980,
+    "lemma": "accept",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 39980,
+    "end_ms": 40220
+  },
+  {
+    "w": "being",
+    "start_ms": 40220,
+    "end_ms": 40380
+  },
+  {
+    "w": "confused",
+    "start_ms": 40380,
+    "end_ms": 40780,
+    "lemma": "confuse",
+    "pos": "VERB"
+  },
+  {
+    "w": "about",
+    "start_ms": 40780,
+    "end_ms": 41140
+  },
+  {
+    "w": "careers",
+    "start_ms": 41140,
+    "end_ms": 41400,
+    "lemma": "career",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 41400,
+    "end_ms": 42120
+  },
+  {
+    "w": "perfectly",
+    "start_ms": 42120,
+    "end_ms": 42440,
+    "lemma": "perfectly",
+    "pos": "ADV"
+  },
+  {
+    "w": "normal.",
+    "start_ms": 42440,
+    "end_ms": 42840,
+    "lemma": "normal",
+    "pos": "ADJ"
+  },
+  {
+    "w": "In",
+    "start_ms": 43600,
+    "end_ms": 43720
+  },
+  {
+    "w": "the",
+    "start_ms": 43720,
+    "end_ms": 43800
+  },
+  {
+    "w": "pre",
+    "start_ms": 43800,
+    "end_ms": 43980,
+    "lemma": "pre",
+    "pos": "ADJ"
+  },
+  {
+    "w": "-industrial",
+    "start_ms": 43980,
+    "end_ms": 44220,
+    "lemma": "industrial",
+    "pos": "ADJ"
+  },
+  {
+    "w": "world,",
+    "start_ms": 44220,
+    "end_ms": 44760,
+    "lemma": "world",
+    "pos": "NOUN"
+  },
+  {
+    "w": "there",
+    "start_ms": 45140,
+    "end_ms": 45280
+  },
+  {
+    "w": "were",
+    "start_ms": 45280,
+    "end_ms": 45420,
+    "lemma": "be",
+    "pos": "VERB"
+  },
+  {
+    "w": "at",
+    "start_ms": 45420,
+    "end_ms": 45580,
+    "lemma": "at",
+    "pos": "ADV"
+  },
+  {
+    "w": "most",
+    "start_ms": 45580,
+    "end_ms": 45780,
+    "lemma": "most",
+    "pos": "ADV"
+  },
+  {
+    "w": "some",
+    "start_ms": 45780,
+    "end_ms": 46060
+  },
+  {
+    "w": "2",
+    "start_ms": 46060,
+    "end_ms": 46300
+  },
+  {
+    "w": ",000",
+    "start_ms": 46300,
+    "end_ms": 46660
+  },
+  {
+    "w": "different",
+    "start_ms": 46660,
+    "end_ms": 46940,
+    "lemma": "different",
+    "pos": "ADJ"
+  },
+  {
+    "w": "trades",
+    "start_ms": 46940,
+    "end_ms": 47340,
+    "lemma": "trade",
+    "pos": "NOUN"
+  },
+  {
+    "w": "out",
+    "start_ms": 47340,
+    "end_ms": 47580,
+    "lemma": "out",
+    "pos": "ADV"
+  },
+  {
+    "w": "there.",
+    "start_ms": 47580,
+    "end_ms": 47800,
+    "lemma": "there",
+    "pos": "ADV"
+  },
+  {
+    "w": "Nowadays,",
+    "start_ms": 48280,
+    "end_ms": 48660,
+    "lemma": "nowadays",
+    "pos": "ADV"
+  },
+  {
+    "w": "there",
+    "start_ms": 49040,
+    "end_ms": 49160
+  },
+  {
+    "w": "are",
+    "start_ms": 49160,
+    "end_ms": 49240,
+    "lemma": "be",
+    "pos": "VERB"
+  },
+  {
+    "w": "estimated",
+    "start_ms": 49240,
+    "end_ms": 49520,
+    "lemma": "estimate",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 49520,
+    "end_ms": 49880
+  },
+  {
+    "w": "be",
+    "start_ms": 49880,
+    "end_ms": 50000
+  },
+  {
+    "w": "half",
+    "start_ms": 50000,
+    "end_ms": 50240
+  },
+  {
+    "w": "a",
+    "start_ms": 50240,
+    "end_ms": 50420
+  },
+  {
+    "w": "million",
+    "start_ms": 50420,
+    "end_ms": 50680
+  },
+  {
+    "w": "different",
+    "start_ms": 50680,
+    "end_ms": 51080,
+    "lemma": "different",
+    "pos": "ADJ"
+  },
+  {
+    "w": "options.",
+    "start_ms": 51080,
+    "end_ms": 51380,
+    "lemma": "option",
+    "pos": "NOUN"
+  },
+  {
+    "w": "The",
+    "start_ms": 52120,
+    "end_ms": 52180
+  },
+  {
+    "w": "result,",
+    "start_ms": 52180,
+    "end_ms": 52400,
+    "lemma": "result",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we",
+    "start_ms": 52800,
+    "end_ms": 53080
+  },
+  {
+    "w": "can",
+    "start_ms": 53080,
+    "end_ms": 53180
+  },
+  {
+    "w": "become",
+    "start_ms": 53180,
+    "end_ms": 53280,
+    "lemma": "become",
+    "pos": "VERB"
+  },
+  {
+    "w": "so",
+    "start_ms": 53280,
+    "end_ms": 53680,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "anxious",
+    "start_ms": 53680,
+    "end_ms": 53960,
+    "lemma": "anxious",
+    "pos": "ADJ"
+  },
+  {
+    "w": "about",
+    "start_ms": 53960,
+    "end_ms": 54320
+  },
+  {
+    "w": "making",
+    "start_ms": 54320,
+    "end_ms": 54540,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 54540,
+    "end_ms": 54740
+  },
+  {
+    "w": "wrong",
+    "start_ms": 54740,
+    "end_ms": 54880,
+    "lemma": "wrong",
+    "pos": "ADJ"
+  },
+  {
+    "w": "choice,",
+    "start_ms": 54880,
+    "end_ms": 55220,
+    "lemma": "choice",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we",
+    "start_ms": 55640,
+    "end_ms": 55780
+  },
+  {
+    "w": "end",
+    "start_ms": 55780,
+    "end_ms": 55900,
+    "lemma": "end",
+    "pos": "VERB"
+  },
+  {
+    "w": "up",
+    "start_ms": 55900,
+    "end_ms": 56020
+  },
+  {
+    "w": "making",
+    "start_ms": 56020,
+    "end_ms": 56240,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "no",
+    "start_ms": 56240,
+    "end_ms": 56460
+  },
+  {
+    "w": "choice",
+    "start_ms": 56460,
+    "end_ms": 56660,
+    "lemma": "choice",
+    "pos": "NOUN"
+  },
+  {
+    "w": "at",
+    "start_ms": 56660,
+    "end_ms": 56880
+  },
+  {
+    "w": "all.",
+    "start_ms": 56880,
+    "end_ms": 57120
+  },
+  {
+    "w": "Psychologists",
+    "start_ms": 57600,
+    "end_ms": 58140,
+    "lemma": "psychologist",
+    "pos": "NOUN"
+  },
+  {
+    "w": "call",
+    "start_ms": 58140,
+    "end_ms": 58460,
+    "lemma": "call",
+    "pos": "VERB"
+  },
+  {
+    "w": "this",
+    "start_ms": 58460,
+    "end_ms": 58660
+  },
+  {
+    "w": "the",
+    "start_ms": 58660,
+    "end_ms": 58800
+  },
+  {
+    "w": "paradox",
+    "start_ms": 58800,
+    "end_ms": 59060,
+    "lemma": "paradox",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 59060,
+    "end_ms": 59380
+  },
+  {
+    "w": "choice,",
+    "start_ms": 59380,
+    "end_ms": 59560,
+    "lemma": "choice",
+    "pos": "NOUN"
+  },
+  {
+    "w": "paralysis",
+    "start_ms": 60180,
+    "end_ms": 60520,
+    "lemma": "paralysis",
+    "pos": "NOUN"
+  },
+  {
+    "w": "stemming",
+    "start_ms": 60520,
+    "end_ms": 60960,
+    "lemma": "stem",
+    "pos": "VERB"
+  },
+  {
+    "w": "from",
+    "start_ms": 60960,
+    "end_ms": 61300
+  },
+  {
+    "w": "too",
+    "start_ms": 61300,
+    "end_ms": 61460,
+    "lemma": "too",
+    "pos": "ADV"
+  },
+  {
+    "w": "many",
+    "start_ms": 61460,
+    "end_ms": 61600,
+    "lemma": "many",
+    "pos": "ADJ"
+  },
+  {
+    "w": "options.",
+    "start_ms": 61600,
+    "end_ms": 61920,
+    "lemma": "option",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We",
+    "start_ms": 62840,
+    "end_ms": 62940
+  },
+  {
+    "w": "should",
+    "start_ms": 62940,
+    "end_ms": 63060
+  },
+  {
+    "w": "acknowledge",
+    "start_ms": 63060,
+    "end_ms": 63320,
+    "lemma": "acknowledge",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 63320,
+    "end_ms": 63660
+  },
+  {
+    "w": "confusion",
+    "start_ms": 63660,
+    "end_ms": 64019,
+    "lemma": "confusion",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 64019,
+    "end_ms": 64420
+  },
+  {
+    "w": "natural",
+    "start_ms": 64420,
+    "end_ms": 64640,
+    "lemma": "natural",
+    "pos": "ADJ"
+  },
+  {
+    "w": "and",
+    "start_ms": 64640,
+    "end_ms": 65360
+  },
+  {
+    "w": "fear",
+    "start_ms": 65360,
+    "end_ms": 65620,
+    "lemma": "fear",
+    "pos": "VERB"
+  },
+  {
+    "w": "entirely",
+    "start_ms": 65620,
+    "end_ms": 66240,
+    "lemma": "entirely",
+    "pos": "ADV"
+  },
+  {
+    "w": "normal,",
+    "start_ms": 66240,
+    "end_ms": 66500,
+    "lemma": "normal",
+    "pos": "ADJ"
+  },
+  {
+    "w": "but",
+    "start_ms": 67100,
+    "end_ms": 67300
+  },
+  {
+    "w": "let",
+    "start_ms": 67300,
+    "end_ms": 67460,
+    "lemma": "let",
+    "pos": "VERB"
+  },
+  {
+    "w": "neither",
+    "start_ms": 67460,
+    "end_ms": 67840
+  },
+  {
+    "w": "of",
+    "start_ms": 67840,
+    "end_ms": 68040
+  },
+  {
+    "w": "these",
+    "start_ms": 68040,
+    "end_ms": 68180
+  },
+  {
+    "w": "scupper",
+    "start_ms": 68180,
+    "end_ms": 68560,
+    "lemma": "scupper",
+    "pos": "NOUN"
+  },
+  {
+    "w": "our",
+    "start_ms": 68560,
+    "end_ms": 68760
+  },
+  {
+    "w": "chances",
+    "start_ms": 68760,
+    "end_ms": 69140,
+    "lemma": "chance",
+    "pos": "NOUN"
+  },
+  {
+    "w": "forever.",
+    "start_ms": 69140,
+    "end_ms": 69520,
+    "lemma": "forever",
+    "pos": "ADV"
+  },
+  {
+    "w": "Secondly,",
+    "start_ms": 70480,
+    "end_ms": 70820,
+    "lemma": "secondly",
+    "pos": "ADV"
+  },
+  {
+    "w": "know",
+    "start_ms": 71240,
+    "end_ms": 71480,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "yourself.",
+    "start_ms": 71480,
+    "end_ms": 71740
+  },
+  {
+    "w": "It's",
+    "start_ms": 72740,
+    "end_ms": 72900
+  },
+  {
+    "w": "the",
+    "start_ms": 72900,
+    "end_ms": 73000
+  },
+  {
+    "w": "oldest",
+    "start_ms": 73000,
+    "end_ms": 73300,
+    "lemma": "old",
+    "pos": "ADJ"
+  },
+  {
+    "w": "philosophical",
+    "start_ms": 73300,
+    "end_ms": 73620,
+    "lemma": "philosophical",
+    "pos": "ADJ"
+  },
+  {
+    "w": "recommendation",
+    "start_ms": 73620,
+    "end_ms": 74440,
+    "lemma": "recommendation",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 74440,
+    "end_ms": 75260
+  },
+  {
+    "w": "is",
+    "start_ms": 75260,
+    "end_ms": 75360
+  },
+  {
+    "w": "particular",
+    "start_ms": 75360,
+    "end_ms": 75680,
+    "lemma": "particular",
+    "pos": "ADJ"
+  },
+  {
+    "w": "relevance",
+    "start_ms": 75680,
+    "end_ms": 76180,
+    "lemma": "relevance",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 76180,
+    "end_ms": 76480
+  },
+  {
+    "w": "careers.",
+    "start_ms": 76480,
+    "end_ms": 76760,
+    "lemma": "career",
+    "pos": "NOUN"
+  },
+  {
+    "w": "For",
+    "start_ms": 77560,
+    "end_ms": 77700
+  },
+  {
+    "w": "99",
+    "start_ms": 77700,
+    "end_ms": 77900
+  },
+  {
+    "w": "%",
+    "start_ms": 77900,
+    "end_ms": 78320
+  },
+  {
+    "w": "of",
+    "start_ms": 78320,
+    "end_ms": 78520
+  },
+  {
+    "w": "us,",
+    "start_ms": 78520,
+    "end_ms": 78660
+  },
+  {
+    "w": "knowing",
+    "start_ms": 78920,
+    "end_ms": 79260,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "what",
+    "start_ms": 79260,
+    "end_ms": 79540
+  },
+  {
+    "w": "we",
+    "start_ms": 79540,
+    "end_ms": 79660
+  },
+  {
+    "w": "want",
+    "start_ms": 79660,
+    "end_ms": 79860,
+    "lemma": "want",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 79860,
+    "end_ms": 80020
+  },
+  {
+    "w": "do",
+    "start_ms": 80020,
+    "end_ms": 80160
+  },
+  {
+    "w": "doesn't",
+    "start_ms": 80160,
+    "end_ms": 80740
+  },
+  {
+    "w": "arise",
+    "start_ms": 80740,
+    "end_ms": 80980,
+    "lemma": "arise",
+    "pos": "VERB"
+  },
+  {
+    "w": "spontaneously,",
+    "start_ms": 80980,
+    "end_ms": 81680,
+    "lemma": "spontaneously",
+    "pos": "ADV"
+  },
+  {
+    "w": "like",
+    "start_ms": 82340,
+    "end_ms": 82500
+  },
+  {
+    "w": "for",
+    "start_ms": 82500,
+    "end_ms": 82680
+  },
+  {
+    "w": "example",
+    "start_ms": 82680,
+    "end_ms": 82900,
+    "lemma": "example",
+    "pos": "NOUN"
+  },
+  {
+    "w": "knowing",
+    "start_ms": 82900,
+    "end_ms": 83260,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "what",
+    "start_ms": 83260,
+    "end_ms": 83500
+  },
+  {
+    "w": "to",
+    "start_ms": 83500,
+    "end_ms": 83620
+  },
+  {
+    "w": "eat.",
+    "start_ms": 83620,
+    "end_ms": 83800,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "Most",
+    "start_ms": 84320,
+    "end_ms": 84480,
+    "lemma": "most",
+    "pos": "ADJ"
+  },
+  {
+    "w": "of",
+    "start_ms": 84480,
+    "end_ms": 84620
+  },
+  {
+    "w": "us",
+    "start_ms": 84620,
+    "end_ms": 84720
+  },
+  {
+    "w": "don't",
+    "start_ms": 84720,
+    "end_ms": 85060
+  },
+  {
+    "w": "have",
+    "start_ms": 85060,
+    "end_ms": 85200,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 85200,
+    "end_ms": 85260
+  },
+  {
+    "w": "calling,",
+    "start_ms": 85260,
+    "end_ms": 85500,
+    "lemma": "calling",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we",
+    "start_ms": 85960,
+    "end_ms": 86080
+  },
+  {
+    "w": "don't",
+    "start_ms": 86080,
+    "end_ms": 86280
+  },
+  {
+    "w": "hear",
+    "start_ms": 86280,
+    "end_ms": 86460,
+    "lemma": "hear",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 86460,
+    "end_ms": 86660
+  },
+  {
+    "w": "commanding",
+    "start_ms": 86660,
+    "end_ms": 86900,
+    "lemma": "commanding",
+    "pos": "ADJ"
+  },
+  {
+    "w": "godlike",
+    "start_ms": 86900,
+    "end_ms": 87620,
+    "lemma": "godlike",
+    "pos": "NOUN"
+  },
+  {
+    "w": "voice",
+    "start_ms": 87620,
+    "end_ms": 87860,
+    "lemma": "voice",
+    "pos": "NOUN"
+  },
+  {
+    "w": "directing",
+    "start_ms": 87860,
+    "end_ms": 88460,
+    "lemma": "direct",
+    "pos": "VERB"
+  },
+  {
+    "w": "us",
+    "start_ms": 88460,
+    "end_ms": 88880
+  },
+  {
+    "w": "to",
+    "start_ms": 88880,
+    "end_ms": 89040
+  },
+  {
+    "w": "accountancy",
+    "start_ms": 89040,
+    "end_ms": 89680,
+    "lemma": "accountancy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "or",
+    "start_ms": 89680,
+    "end_ms": 89880
+  },
+  {
+    "w": "packaging",
+    "start_ms": 89880,
+    "end_ms": 90100,
+    "lemma": "packaging",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 90100,
+    "end_ms": 90420
+  },
+  {
+    "w": "distribution.",
+    "start_ms": 90420,
+    "end_ms": 90700,
+    "lemma": "distribution",
+    "pos": "NOUN"
+  },
+  {
+    "w": "That",
+    "start_ms": 91480,
+    "end_ms": 91620
+  },
+  {
+    "w": "isn't",
+    "start_ms": 91620,
+    "end_ms": 91860
+  },
+  {
+    "w": "to",
+    "start_ms": 91860,
+    "end_ms": 91960
+  },
+  {
+    "w": "say",
+    "start_ms": 91960,
+    "end_ms": 92140,
+    "lemma": "say",
+    "pos": "VERB"
+  },
+  {
+    "w": "we",
+    "start_ms": 92140,
+    "end_ms": 92260
+  },
+  {
+    "w": "don't",
+    "start_ms": 92260,
+    "end_ms": 92480
+  },
+  {
+    "w": "have",
+    "start_ms": 92480,
+    "end_ms": 92580,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "tastes",
+    "start_ms": 92580,
+    "end_ms": 92880,
+    "lemma": "taste",
+    "pos": "NOUN"
+  },
+  {
+    "w": "or",
+    "start_ms": 92880,
+    "end_ms": 93060
+  },
+  {
+    "w": "inclinations,",
+    "start_ms": 93060,
+    "end_ms": 93560,
+    "lemma": "inclination",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we",
+    "start_ms": 94040,
+    "end_ms": 94240
+  },
+  {
+    "w": "just",
+    "start_ms": 94240,
+    "end_ms": 94360,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "don't",
+    "start_ms": 94360,
+    "end_ms": 94640
+  },
+  {
+    "w": "know",
+    "start_ms": 94640,
+    "end_ms": 94760,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "them",
+    "start_ms": 94760,
+    "end_ms": 94860
+  },
+  {
+    "w": "clearly",
+    "start_ms": 94860,
+    "end_ms": 95180,
+    "lemma": "clearly",
+    "pos": "ADV"
+  },
+  {
+    "w": "enough,",
+    "start_ms": 95180,
+    "end_ms": 95600,
+    "lemma": "enough",
+    "pos": "ADV"
+  },
+  {
+    "w": "which",
+    "start_ms": 95920,
+    "end_ms": 96120
+  },
+  {
+    "w": "is",
+    "start_ms": 96120,
+    "end_ms": 96220
+  },
+  {
+    "w": "a",
+    "start_ms": 96220,
+    "end_ms": 96320
+  },
+  {
+    "w": "perilous",
+    "start_ms": 96320,
+    "end_ms": 96680,
+    "lemma": "perilous",
+    "pos": "ADJ"
+  },
+  {
+    "w": "position",
+    "start_ms": 96680,
+    "end_ms": 97120,
+    "lemma": "position",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 97120,
+    "end_ms": 97340
+  },
+  {
+    "w": "be",
+    "start_ms": 97340,
+    "end_ms": 97480
+  },
+  {
+    "w": "in,",
+    "start_ms": 97480,
+    "end_ms": 97720
+  },
+  {
+    "w": "as",
+    "start_ms": 97940,
+    "end_ms": 98120
+  },
+  {
+    "w": "not",
+    "start_ms": 98120,
+    "end_ms": 98260
+  },
+  {
+    "w": "having",
+    "start_ms": 98260,
+    "end_ms": 98540,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 98540,
+    "end_ms": 98680
+  },
+  {
+    "w": "plan",
+    "start_ms": 98680,
+    "end_ms": 99000,
+    "lemma": "plan",
+    "pos": "NOUN"
+  },
+  {
+    "w": "quickly",
+    "start_ms": 99000,
+    "end_ms": 99440,
+    "lemma": "quickly",
+    "pos": "ADV"
+  },
+  {
+    "w": "puts",
+    "start_ms": 99440,
+    "end_ms": 99800,
+    "lemma": "put",
+    "pos": "VERB"
+  },
+  {
+    "w": "us",
+    "start_ms": 99800,
+    "end_ms": 99960
+  },
+  {
+    "w": "at",
+    "start_ms": 99960,
+    "end_ms": 100060
+  },
+  {
+    "w": "the",
+    "start_ms": 100060,
+    "end_ms": 100160
+  },
+  {
+    "w": "mercy",
+    "start_ms": 100160,
+    "end_ms": 100420,
+    "lemma": "mercy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 100420,
+    "end_ms": 100620
+  },
+  {
+    "w": "those",
+    "start_ms": 100620,
+    "end_ms": 100780
+  },
+  {
+    "w": "who",
+    "start_ms": 100780,
+    "end_ms": 100940
+  },
+  {
+    "w": "do",
+    "start_ms": 100940,
+    "end_ms": 101080
+  },
+  {
+    "w": "have",
+    "start_ms": 101080,
+    "end_ms": 101340,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "one.",
+    "start_ms": 101340,
+    "end_ms": 101540
+  },
+  {
+    "w": "We",
+    "start_ms": 102160,
+    "end_ms": 102220
+  },
+  {
+    "w": "only",
+    "start_ms": 102220,
+    "end_ms": 102340,
+    "lemma": "only",
+    "pos": "ADV"
+  },
+  {
+    "w": "catch",
+    "start_ms": 102340,
+    "end_ms": 102720,
+    "lemma": "catch",
+    "pos": "VERB"
+  },
+  {
+    "w": "glimpses,",
+    "start_ms": 102720,
+    "end_ms": 103220,
+    "lemma": "glimpse",
+    "pos": "NOUN"
+  },
+  {
+    "w": "little",
+    "start_ms": 103480,
+    "end_ms": 103620,
+    "lemma": "little",
+    "pos": "ADJ"
+  },
+  {
+    "w": "hints",
+    "start_ms": 103620,
+    "end_ms": 103840,
+    "lemma": "hint",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 103840,
+    "end_ms": 104120
+  },
+  {
+    "w": "our",
+    "start_ms": 104120,
+    "end_ms": 104220
+  },
+  {
+    "w": "tastes.",
+    "start_ms": 104220,
+    "end_ms": 104440,
+    "lemma": "taste",
+    "pos": "NOUN"
+  },
+  {
+    "w": "So",
+    "start_ms": 105120,
+    "end_ms": 105320,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "what",
+    "start_ms": 105320,
+    "end_ms": 105440
+  },
+  {
+    "w": "we",
+    "start_ms": 105440,
+    "end_ms": 105560
+  },
+  {
+    "w": "have",
+    "start_ms": 105560,
+    "end_ms": 105660
+  },
+  {
+    "w": "to",
+    "start_ms": 105660,
+    "end_ms": 105800
+  },
+  {
+    "w": "do",
+    "start_ms": 105800,
+    "end_ms": 105940,
+    "lemma": "do",
+    "pos": "VERB"
+  },
+  {
+    "w": "is",
+    "start_ms": 105940,
+    "end_ms": 106060
+  },
+  {
+    "w": "learn",
+    "start_ms": 106060,
+    "end_ms": 106260,
+    "lemma": "learn",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 106260,
+    "end_ms": 106440
+  },
+  {
+    "w": "pick",
+    "start_ms": 106440,
+    "end_ms": 106620,
+    "lemma": "pick",
+    "pos": "VERB"
+  },
+  {
+    "w": "up",
+    "start_ms": 106620,
+    "end_ms": 106820
+  },
+  {
+    "w": "on",
+    "start_ms": 106820,
+    "end_ms": 106980
+  },
+  {
+    "w": "their",
+    "start_ms": 106980,
+    "end_ms": 107120
+  },
+  {
+    "w": "faint",
+    "start_ms": 107120,
+    "end_ms": 107360,
+    "lemma": "faint",
+    "pos": "ADJ"
+  },
+  {
+    "w": "sounds,",
+    "start_ms": 107360,
+    "end_ms": 107820,
+    "lemma": "sound",
+    "pos": "NOUN"
+  },
+  {
+    "w": "start",
+    "start_ms": 108400,
+    "end_ms": 108760,
+    "lemma": "start",
+    "pos": "VERB"
+  },
+  {
+    "w": "by",
+    "start_ms": 108760,
+    "end_ms": 108960
+  },
+  {
+    "w": "parking",
+    "start_ms": 108960,
+    "end_ms": 109260,
+    "lemma": "park",
+    "pos": "VERB"
+  },
+  {
+    "w": "any",
+    "start_ms": 109260,
+    "end_ms": 109580
+  },
+  {
+    "w": "concerns",
+    "start_ms": 109580,
+    "end_ms": 109960,
+    "lemma": "concern",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 109960,
+    "end_ms": 110260
+  },
+  {
+    "w": "money",
+    "start_ms": 110260,
+    "end_ms": 110400,
+    "lemma": "money",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 110400,
+    "end_ms": 110660
+  },
+  {
+    "w": "a",
+    "start_ms": 110660,
+    "end_ms": 110740
+  },
+  {
+    "w": "time,",
+    "start_ms": 110740,
+    "end_ms": 111000,
+    "lemma": "time",
+    "pos": "NOUN"
+  },
+  {
+    "w": "financial",
+    "start_ms": 111380,
+    "end_ms": 111660,
+    "lemma": "financial",
+    "pos": "ADJ"
+  },
+  {
+    "w": "panic",
+    "start_ms": 111660,
+    "end_ms": 112120,
+    "lemma": "panic",
+    "pos": "NOUN"
+  },
+  {
+    "w": "too",
+    "start_ms": 112120,
+    "end_ms": 112400,
+    "lemma": "too",
+    "pos": "ADV"
+  },
+  {
+    "w": "often",
+    "start_ms": 112400,
+    "end_ms": 112640,
+    "lemma": "often",
+    "pos": "ADV"
+  },
+  {
+    "w": "kills",
+    "start_ms": 112640,
+    "end_ms": 112980,
+    "lemma": "kill",
+    "pos": "VERB"
+  },
+  {
+    "w": "all",
+    "start_ms": 112980,
+    "end_ms": 113440
+  },
+  {
+    "w": "dialogue,",
+    "start_ms": 113440,
+    "end_ms": 113780,
+    "lemma": "dialogue",
+    "pos": "NOUN"
+  },
+  {
+    "w": "with",
+    "start_ms": 113780,
+    "end_ms": 114400
+  },
+  {
+    "w": "the",
+    "start_ms": 114400,
+    "end_ms": 114520
+  },
+  {
+    "w": "more",
+    "start_ms": 114520,
+    "end_ms": 114680,
+    "lemma": "more",
+    "pos": "ADV"
+  },
+  {
+    "w": "authentic,",
+    "start_ms": 114680,
+    "end_ms": 115060,
+    "lemma": "authentic",
+    "pos": "ADJ"
+  },
+  {
+    "w": "passionate",
+    "start_ms": 115520,
+    "end_ms": 115960,
+    "lemma": "passionate",
+    "pos": "ADJ"
+  },
+  {
+    "w": "sides",
+    "start_ms": 115960,
+    "end_ms": 116260,
+    "lemma": "side",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 116260,
+    "end_ms": 116560
+  },
+  {
+    "w": "one's",
+    "start_ms": 116560,
+    "end_ms": 116780
+  },
+  {
+    "w": "nature.",
+    "start_ms": 116780,
+    "end_ms": 117140,
+    "lemma": "nature",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Right",
+    "start_ms": 117880,
+    "end_ms": 118080,
+    "lemma": "right",
+    "pos": "ADV"
+  },
+  {
+    "w": "down",
+    "start_ms": 118080,
+    "end_ms": 118360,
+    "lemma": "down",
+    "pos": "ADV"
+  },
+  {
+    "w": "without",
+    "start_ms": 118360,
+    "end_ms": 118580
+  },
+  {
+    "w": "being",
+    "start_ms": 118580,
+    "end_ms": 118900
+  },
+  {
+    "w": "too",
+    "start_ms": 118900,
+    "end_ms": 119120,
+    "lemma": "too",
+    "pos": "ADV"
+  },
+  {
+    "w": "logical",
+    "start_ms": 119120,
+    "end_ms": 119460,
+    "lemma": "logical",
+    "pos": "ADJ"
+  },
+  {
+    "w": "or",
+    "start_ms": 119460,
+    "end_ms": 119840
+  },
+  {
+    "w": "analytical",
+    "start_ms": 119840,
+    "end_ms": 120080,
+    "lemma": "analytical",
+    "pos": "ADJ"
+  },
+  {
+    "w": "about",
+    "start_ms": 120080,
+    "end_ms": 120660
+  },
+  {
+    "w": "it,",
+    "start_ms": 120660,
+    "end_ms": 120800
+  },
+  {
+    "w": "everything",
+    "start_ms": 121140,
+    "end_ms": 121440
+  },
+  {
+    "w": "you've",
+    "start_ms": 121440,
+    "end_ms": 121740
+  },
+  {
+    "w": "ever",
+    "start_ms": 121740,
+    "end_ms": 121860,
+    "lemma": "ever",
+    "pos": "ADV"
+  },
+  {
+    "w": "enjoyed",
+    "start_ms": 121860,
+    "end_ms": 122220,
+    "lemma": "enjoy",
+    "pos": "VERB"
+  },
+  {
+    "w": "doing",
+    "start_ms": 122220,
+    "end_ms": 122520,
+    "lemma": "do",
+    "pos": "VERB"
+  },
+  {
+    "w": "or",
+    "start_ms": 122520,
+    "end_ms": 122640
+  },
+  {
+    "w": "making,",
+    "start_ms": 122640,
+    "end_ms": 122940,
+    "lemma": "making",
+    "pos": "NOUN"
+  },
+  {
+    "w": "which",
+    "start_ms": 123320,
+    "end_ms": 123540
+  },
+  {
+    "w": "might",
+    "start_ms": 123540,
+    "end_ms": 123700
+  },
+  {
+    "w": "include",
+    "start_ms": 123700,
+    "end_ms": 123840,
+    "lemma": "include",
+    "pos": "VERB"
+  },
+  {
+    "w": "building",
+    "start_ms": 123840,
+    "end_ms": 124340,
+    "lemma": "build",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 124340,
+    "end_ms": 124440
+  },
+  {
+    "w": "treehouse",
+    "start_ms": 124440,
+    "end_ms": 124920,
+    "lemma": "treehouse",
+    "pos": "NOUN"
+  },
+  {
+    "w": "or",
+    "start_ms": 124920,
+    "end_ms": 125160
+  },
+  {
+    "w": "sorting",
+    "start_ms": 125160,
+    "end_ms": 125600,
+    "lemma": "sort",
+    "pos": "VERB"
+  },
+  {
+    "w": "out",
+    "start_ms": 125600,
+    "end_ms": 125780
+  },
+  {
+    "w": "the",
+    "start_ms": 125780,
+    "end_ms": 125900
+  },
+  {
+    "w": "winter",
+    "start_ms": 125900,
+    "end_ms": 126020,
+    "lemma": "winter",
+    "pos": "NOUN"
+  },
+  {
+    "w": "clothes,",
+    "start_ms": 126020,
+    "end_ms": 126360,
+    "lemma": "clothe",
+    "pos": "NOUN"
+  },
+  {
+    "w": "the",
+    "start_ms": 126920,
+    "end_ms": 126960
+  },
+  {
+    "w": "weirder",
+    "start_ms": 126960,
+    "end_ms": 127300,
+    "lemma": "weird",
+    "pos": "ADJ"
+  },
+  {
+    "w": "and",
+    "start_ms": 127300,
+    "end_ms": 127420
+  },
+  {
+    "w": "more",
+    "start_ms": 127420,
+    "end_ms": 127580,
+    "lemma": "more",
+    "pos": "ADV"
+  },
+  {
+    "w": "offbeat",
+    "start_ms": 127580,
+    "end_ms": 127960,
+    "lemma": "offbeat",
+    "pos": "ADJ"
+  },
+  {
+    "w": "the",
+    "start_ms": 127960,
+    "end_ms": 128120
+  },
+  {
+    "w": "list",
+    "start_ms": 128120,
+    "end_ms": 128259,
+    "lemma": "list",
+    "pos": "NOUN"
+  },
+  {
+    "w": "the",
+    "start_ms": 128259,
+    "end_ms": 128479
+  },
+  {
+    "w": "better.",
+    "start_ms": 128479,
+    "end_ms": 128639,
+    "lemma": "well",
+    "pos": "ADJ"
+  },
+  {
+    "w": "In",
+    "start_ms": 129460,
+    "end_ms": 129660
+  },
+  {
+    "w": "the",
+    "start_ms": 129660,
+    "end_ms": 129740
+  },
+  {
+    "w": "long",
+    "start_ms": 129740,
+    "end_ms": 129940,
+    "lemma": "long",
+    "pos": "ADJ"
+  },
+  {
+    "w": "and",
+    "start_ms": 129940,
+    "end_ms": 130080
+  },
+  {
+    "w": "confused",
+    "start_ms": 130080,
+    "end_ms": 130500,
+    "lemma": "confused",
+    "pos": "ADJ"
+  },
+  {
+    "w": "tangle",
+    "start_ms": 130500,
+    "end_ms": 130979,
+    "lemma": "tangle",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that",
+    "start_ms": 130979,
+    "end_ms": 131180
+  },
+  {
+    "w": "follows,",
+    "start_ms": 131180,
+    "end_ms": 131460,
+    "lemma": "follow",
+    "pos": "VERB"
+  },
+  {
+    "w": "there",
+    "start_ms": 131840,
+    "end_ms": 132040
+  },
+  {
+    "w": "will",
+    "start_ms": 132040,
+    "end_ms": 132200
+  },
+  {
+    "w": "somewhere",
+    "start_ms": 132200,
+    "end_ms": 132620,
+    "lemma": "somewhere",
+    "pos": "ADV"
+  },
+  {
+    "w": "be",
+    "start_ms": 132620,
+    "end_ms": 133080
+  },
+  {
+    "w": "the",
+    "start_ms": 133080,
+    "end_ms": 133180
+  },
+  {
+    "w": "shape",
+    "start_ms": 133180,
+    "end_ms": 133440,
+    "lemma": "shape",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 133440,
+    "end_ms": 133600
+  },
+  {
+    "w": "an",
+    "start_ms": 133600,
+    "end_ms": 133700
+  },
+  {
+    "w": "ideal",
+    "start_ms": 133700,
+    "end_ms": 134020,
+    "lemma": "ideal",
+    "pos": "ADJ"
+  },
+  {
+    "w": "future",
+    "start_ms": 134020,
+    "end_ms": 134620,
+    "lemma": "future",
+    "pos": "NOUN"
+  },
+  {
+    "w": "working",
+    "start_ms": 134620,
+    "end_ms": 135000,
+    "lemma": "work",
+    "pos": "VERB"
+  },
+  {
+    "w": "self,",
+    "start_ms": 135000,
+    "end_ms": 135360,
+    "lemma": "self",
+    "pos": "NOUN"
+  },
+  {
+    "w": "but",
+    "start_ms": 135860,
+    "end_ms": 136160
+  },
+  {
+    "w": "it'll",
+    "start_ms": 136160,
+    "end_ms": 136320
+  },
+  {
+    "w": "be",
+    "start_ms": 136320,
+    "end_ms": 136460
+  },
+  {
+    "w": "very",
+    "start_ms": 136460,
+    "end_ms": 136740,
+    "lemma": "very",
+    "pos": "ADV"
+  },
+  {
+    "w": "messed",
+    "start_ms": 136740,
+    "end_ms": 137020,
+    "lemma": "messed",
+    "pos": "ADJ"
+  },
+  {
+    "w": "up",
+    "start_ms": 137020,
+    "end_ms": 137320
+  },
+  {
+    "w": "and",
+    "start_ms": 137320,
+    "end_ms": 137460
+  },
+  {
+    "w": "in",
+    "start_ms": 137460,
+    "end_ms": 137560
+  },
+  {
+    "w": "need",
+    "start_ms": 137560,
+    "end_ms": 137760,
+    "lemma": "need",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 137760,
+    "end_ms": 137860
+  },
+  {
+    "w": "being",
+    "start_ms": 137860,
+    "end_ms": 138040
+  },
+  {
+    "w": "analysed",
+    "start_ms": 138040,
+    "end_ms": 138400,
+    "lemma": "analyse",
+    "pos": "VERB"
+  },
+  {
+    "w": "thoroughly.",
+    "start_ms": 138400,
+    "end_ms": 138980,
+    "lemma": "thoroughly",
+    "pos": "ADV"
+  },
+  {
+    "w": "That's",
+    "start_ms": 139720,
+    "end_ms": 139920
+  },
+  {
+    "w": "where",
+    "start_ms": 139920,
+    "end_ms": 140020
+  },
+  {
+    "w": "philosophy",
+    "start_ms": 140020,
+    "end_ms": 140220,
+    "lemma": "philosophy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "comes",
+    "start_ms": 140220,
+    "end_ms": 140680,
+    "lemma": "come",
+    "pos": "VERB"
+  },
+  {
+    "w": "in.",
+    "start_ms": 140680,
+    "end_ms": 140960
+  },
+  {
+    "w": "Philosophy",
+    "start_ms": 141560,
+    "end_ms": 141560,
+    "lemma": "philosophy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 141560,
+    "end_ms": 141940
+  },
+  {
+    "w": "the",
+    "start_ms": 141940,
+    "end_ms": 142040
+  },
+  {
+    "w": "art",
+    "start_ms": 142040,
+    "end_ms": 142220,
+    "lemma": "art",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 142220,
+    "end_ms": 142360
+  },
+  {
+    "w": "clearing",
+    "start_ms": 142360,
+    "end_ms": 142680,
+    "lemma": "clearing",
+    "pos": "NOUN"
+  },
+  {
+    "w": "up",
+    "start_ms": 142680,
+    "end_ms": 143020,
+    "lemma": "up",
+    "pos": "ADV"
+  },
+  {
+    "w": "and",
+    "start_ms": 143020,
+    "end_ms": 143480
+  },
+  {
+    "w": "demanding",
+    "start_ms": 143480,
+    "end_ms": 143720,
+    "lemma": "demand",
+    "pos": "VERB"
+  },
+  {
+    "w": "logic",
+    "start_ms": 143720,
+    "end_ms": 144280,
+    "lemma": "logic",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 144280,
+    "end_ms": 144780
+  },
+  {
+    "w": "our",
+    "start_ms": 144780,
+    "end_ms": 144920
+  },
+  {
+    "w": "first",
+    "start_ms": 144920,
+    "end_ms": 145160,
+    "lemma": "first",
+    "pos": "ADJ"
+  },
+  {
+    "w": "thoughts.",
+    "start_ms": 145160,
+    "end_ms": 145620,
+    "lemma": "thought",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Thirdly,",
+    "start_ms": 146760,
+    "end_ms": 147180,
+    "lemma": "thirdly",
+    "pos": "ADV"
+  },
+  {
+    "w": "think",
+    "start_ms": 147380,
+    "end_ms": 147660,
+    "lemma": "think",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 147660,
+    "end_ms": 147800
+  },
+  {
+    "w": "lot.",
+    "start_ms": 147800,
+    "end_ms": 147980,
+    "lemma": "lot",
+    "pos": "NOUN"
+  },
+  {
+    "w": "If",
+    "start_ms": 148680,
+    "end_ms": 148800
+  },
+  {
+    "w": "it",
+    "start_ms": 148800,
+    "end_ms": 148880
+  },
+  {
+    "w": "might",
+    "start_ms": 148880,
+    "end_ms": 149000
+  },
+  {
+    "w": "take",
+    "start_ms": 149000,
+    "end_ms": 149180,
+    "lemma": "take",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 149180,
+    "end_ms": 149260
+  },
+  {
+    "w": "couple",
+    "start_ms": 149260,
+    "end_ms": 149440,
+    "lemma": "couple",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 149440,
+    "end_ms": 149560
+  },
+  {
+    "w": "days,",
+    "start_ms": 149560,
+    "end_ms": 149800,
+    "lemma": "day",
+    "pos": "NOUN"
+  },
+  {
+    "w": "even",
+    "start_ms": 149800,
+    "end_ms": 150120,
+    "lemma": "even",
+    "pos": "ADV"
+  },
+  {
+    "w": "a",
+    "start_ms": 150120,
+    "end_ms": 150200
+  },
+  {
+    "w": "week",
+    "start_ms": 150200,
+    "end_ms": 150400,
+    "lemma": "week",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 150400,
+    "end_ms": 150580
+  },
+  {
+    "w": "choose",
+    "start_ms": 150580,
+    "end_ms": 150780,
+    "lemma": "choose",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 150780,
+    "end_ms": 150900
+  },
+  {
+    "w": "new",
+    "start_ms": 150900,
+    "end_ms": 151020,
+    "lemma": "new",
+    "pos": "ADJ"
+  },
+  {
+    "w": "car,",
+    "start_ms": 151020,
+    "end_ms": 151360,
+    "lemma": "car",
+    "pos": "NOUN"
+  },
+  {
+    "w": "it",
+    "start_ms": 151780,
+    "end_ms": 151900
+  },
+  {
+    "w": "could",
+    "start_ms": 151900,
+    "end_ms": 152000
+  },
+  {
+    "w": "fairly",
+    "start_ms": 152000,
+    "end_ms": 152220,
+    "lemma": "fairly",
+    "pos": "ADV"
+  },
+  {
+    "w": "take",
+    "start_ms": 152220,
+    "end_ms": 152540,
+    "lemma": "take",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 152540,
+    "end_ms": 152640
+  },
+  {
+    "w": "year",
+    "start_ms": 152640,
+    "end_ms": 152960,
+    "lemma": "year",
+    "pos": "NOUN"
+  },
+  {
+    "w": "or",
+    "start_ms": 152960,
+    "end_ms": 153160
+  },
+  {
+    "w": "more",
+    "start_ms": 153160,
+    "end_ms": 153400,
+    "lemma": "more",
+    "pos": "ADJ"
+  },
+  {
+    "w": "of",
+    "start_ms": 153400,
+    "end_ms": 153580
+  },
+  {
+    "w": "sustained",
+    "start_ms": 153580,
+    "end_ms": 153860,
+    "lemma": "sustained",
+    "pos": "ADJ"
+  },
+  {
+    "w": "daily",
+    "start_ms": 153860,
+    "end_ms": 154260,
+    "lemma": "daily",
+    "pos": "ADJ"
+  },
+  {
+    "w": "reflection",
+    "start_ms": 154260,
+    "end_ms": 154580,
+    "lemma": "reflection",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 154580,
+    "end_ms": 155300
+  },
+  {
+    "w": "start",
+    "start_ms": 155300,
+    "end_ms": 155520,
+    "lemma": "start",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 155520,
+    "end_ms": 155680
+  },
+  {
+    "w": "identify",
+    "start_ms": 155680,
+    "end_ms": 155800,
+    "lemma": "identify",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 155800,
+    "end_ms": 155800
+  },
+  {
+    "w": "career",
+    "start_ms": 155800,
+    "end_ms": 156640,
+    "lemma": "career",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that",
+    "start_ms": 156640,
+    "end_ms": 156860
+  },
+  {
+    "w": "fits.",
+    "start_ms": 156860,
+    "end_ms": 157040,
+    "lemma": "fit",
+    "pos": "VERB"
+  },
+  {
+    "w": "We",
+    "start_ms": 157700,
+    "end_ms": 157800
+  },
+  {
+    "w": "tend",
+    "start_ms": 157800,
+    "end_ms": 157920,
+    "lemma": "tend",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 157920,
+    "end_ms": 158000
+  },
+  {
+    "w": "feel",
+    "start_ms": 158000,
+    "end_ms": 158160,
+    "lemma": "feel",
+    "pos": "VERB"
+  },
+  {
+    "w": "guilty",
+    "start_ms": 158160,
+    "end_ms": 158540,
+    "lemma": "guilty",
+    "pos": "ADJ"
+  },
+  {
+    "w": "about",
+    "start_ms": 158540,
+    "end_ms": 158820
+  },
+  {
+    "w": "this,",
+    "start_ms": 158820,
+    "end_ms": 159040
+  },
+  {
+    "w": "imagining",
+    "start_ms": 159080,
+    "end_ms": 159520,
+    "lemma": "imagine",
+    "pos": "VERB"
+  },
+  {
+    "w": "we're",
+    "start_ms": 159520,
+    "end_ms": 159820
+  },
+  {
+    "w": "being",
+    "start_ms": 159820,
+    "end_ms": 159940
+  },
+  {
+    "w": "self",
+    "start_ms": 159940,
+    "end_ms": 160200
+  },
+  {
+    "w": "-indulgent,",
+    "start_ms": 160200,
+    "end_ms": 160800
+  },
+  {
+    "w": "far",
+    "start_ms": 161300,
+    "end_ms": 161380
+  },
+  {
+    "w": "from",
+    "start_ms": 161380,
+    "end_ms": 161640
+  },
+  {
+    "w": "it.",
+    "start_ms": 161640,
+    "end_ms": 161780
+  },
+  {
+    "w": "We",
+    "start_ms": 162140,
+    "end_ms": 162220
+  },
+  {
+    "w": "may",
+    "start_ms": 162220,
+    "end_ms": 162340
+  },
+  {
+    "w": "need",
+    "start_ms": 162340,
+    "end_ms": 162460,
+    "lemma": "need",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 162460,
+    "end_ms": 162580
+  },
+  {
+    "w": "empty",
+    "start_ms": 162580,
+    "end_ms": 162740,
+    "lemma": "empty",
+    "pos": "VERB"
+  },
+  {
+    "w": "every",
+    "start_ms": 162740,
+    "end_ms": 162960
+  },
+  {
+    "w": "weekend",
+    "start_ms": 162960,
+    "end_ms": 163380,
+    "lemma": "weekend",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 163380,
+    "end_ms": 163580
+  },
+  {
+    "w": "months",
+    "start_ms": 163580,
+    "end_ms": 163740,
+    "lemma": "month",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 163740,
+    "end_ms": 164280
+  },
+  {
+    "w": "sort",
+    "start_ms": 164280,
+    "end_ms": 164480,
+    "lemma": "sort",
+    "pos": "VERB"
+  },
+  {
+    "w": "out",
+    "start_ms": 164480,
+    "end_ms": 164720
+  },
+  {
+    "w": "the",
+    "start_ms": 164720,
+    "end_ms": 164860
+  },
+  {
+    "w": "biggest",
+    "start_ms": 164860,
+    "end_ms": 165060,
+    "lemma": "big",
+    "pos": "ADJ"
+  },
+  {
+    "w": "conundrum",
+    "start_ms": 165060,
+    "end_ms": 165520,
+    "lemma": "conundrum",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 165520,
+    "end_ms": 165700
+  },
+  {
+    "w": "our",
+    "start_ms": 165700,
+    "end_ms": 165820
+  },
+  {
+    "w": "lives.",
+    "start_ms": 165820,
+    "end_ms": 166140,
+    "lemma": "life",
+    "pos": "NOUN"
+  },
+  {
+    "w": "To",
+    "start_ms": 166620,
+    "end_ms": 166880
+  },
+  {
+    "w": "make",
+    "start_ms": 166880,
+    "end_ms": 167040,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "sure",
+    "start_ms": 167040,
+    "end_ms": 167300,
+    "lemma": "sure",
+    "pos": "ADJ"
+  },
+  {
+    "w": "we",
+    "start_ms": 167300,
+    "end_ms": 167500
+  },
+  {
+    "w": "don't",
+    "start_ms": 167500,
+    "end_ms": 172660
+  },
+  {
+    "w": "continue",
+    "start_ms": 172660,
+    "end_ms": 172660
+  },
+  {
+    "w": "knowing",
+    "start_ms": 172660,
+    "end_ms": 172880,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "sixteen",
+    "start_ms": 172880,
+    "end_ms": 173280
+  },
+  {
+    "w": "-year",
+    "start_ms": 173280,
+    "end_ms": 173500,
+    "lemma": "year",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-old",
+    "start_ms": 173500,
+    "end_ms": 173700,
+    "lemma": "old",
+    "pos": "ADJ"
+  },
+  {
+    "w": "selves,",
+    "start_ms": 173700,
+    "end_ms": 173920,
+    "lemma": "self",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we",
+    "start_ms": 174620,
+    "end_ms": 174700
+  },
+  {
+    "w": "need",
+    "start_ms": 174700,
+    "end_ms": 174800,
+    "lemma": "need",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 174800,
+    "end_ms": 174900
+  },
+  {
+    "w": "be",
+    "start_ms": 174900,
+    "end_ms": 175020
+  },
+  {
+    "w": "properly",
+    "start_ms": 175020,
+    "end_ms": 175360,
+    "lemma": "properly",
+    "pos": "ADV"
+  },
+  {
+    "w": "generous",
+    "start_ms": 175360,
+    "end_ms": 175800,
+    "lemma": "generous",
+    "pos": "ADJ"
+  },
+  {
+    "w": "about",
+    "start_ms": 175800,
+    "end_ms": 176180
+  },
+  {
+    "w": "the",
+    "start_ms": 176180,
+    "end_ms": 176360
+  },
+  {
+    "w": "amount",
+    "start_ms": 176360,
+    "end_ms": 176540,
+    "lemma": "amount",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 176540,
+    "end_ms": 176800
+  },
+  {
+    "w": "time",
+    "start_ms": 176800,
+    "end_ms": 177060,
+    "lemma": "time",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we'll",
+    "start_ms": 177060,
+    "end_ms": 177260
+  },
+  {
+    "w": "need",
+    "start_ms": 177260,
+    "end_ms": 177380,
+    "lemma": "need",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 177380,
+    "end_ms": 177520
+  },
+  {
+    "w": "give",
+    "start_ms": 177520,
+    "end_ms": 177660,
+    "lemma": "give",
+    "pos": "VERB"
+  },
+  {
+    "w": "this.",
+    "start_ms": 177660,
+    "end_ms": 177940
+  },
+  {
+    "w": "Fourthly,",
+    "start_ms": 178600,
+    "end_ms": 179060,
+    "lemma": "fourthly",
+    "pos": "ADV"
+  },
+  {
+    "w": "try",
+    "start_ms": 179240,
+    "end_ms": 179480,
+    "lemma": "try",
+    "pos": "VERB"
+  },
+  {
+    "w": "something.",
+    "start_ms": 179480,
+    "end_ms": 179840
+  },
+  {
+    "w": "It's",
+    "start_ms": 180480,
+    "end_ms": 180660
+  },
+  {
+    "w": "tempting",
+    "start_ms": 180660,
+    "end_ms": 180820,
+    "lemma": "tempting",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 180820,
+    "end_ms": 181100
+  },
+  {
+    "w": "imagine",
+    "start_ms": 181100,
+    "end_ms": 181380,
+    "lemma": "imagine",
+    "pos": "VERB"
+  },
+  {
+    "w": "we'll",
+    "start_ms": 181380,
+    "end_ms": 181660
+  },
+  {
+    "w": "be",
+    "start_ms": 181660,
+    "end_ms": 181800
+  },
+  {
+    "w": "able",
+    "start_ms": 181800,
+    "end_ms": 181940,
+    "lemma": "able",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 181940,
+    "end_ms": 182080
+  },
+  {
+    "w": "work",
+    "start_ms": 182080,
+    "end_ms": 182320,
+    "lemma": "work",
+    "pos": "VERB"
+  },
+  {
+    "w": "out",
+    "start_ms": 182320,
+    "end_ms": 182580
+  },
+  {
+    "w": "the",
+    "start_ms": 182580,
+    "end_ms": 182740
+  },
+  {
+    "w": "shape",
+    "start_ms": 182740,
+    "end_ms": 183020,
+    "lemma": "shape",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 183020,
+    "end_ms": 183160
+  },
+  {
+    "w": "the",
+    "start_ms": 183160,
+    "end_ms": 183260
+  },
+  {
+    "w": "workplace",
+    "start_ms": 183260,
+    "end_ms": 183580,
+    "lemma": "workplace",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 183580,
+    "end_ms": 184280
+  },
+  {
+    "w": "of",
+    "start_ms": 184280,
+    "end_ms": 184380
+  },
+  {
+    "w": "our",
+    "start_ms": 184380,
+    "end_ms": 184500
+  },
+  {
+    "w": "own",
+    "start_ms": 184500,
+    "end_ms": 184680,
+    "lemma": "own",
+    "pos": "ADJ"
+  },
+  {
+    "w": "characters",
+    "start_ms": 184680,
+    "end_ms": 185000,
+    "lemma": "character",
+    "pos": "NOUN"
+  },
+  {
+    "w": "simply",
+    "start_ms": 185000,
+    "end_ms": 185740,
+    "lemma": "simply",
+    "pos": "ADV"
+  },
+  {
+    "w": "through",
+    "start_ms": 185740,
+    "end_ms": 186080
+  },
+  {
+    "w": "a",
+    "start_ms": 186080,
+    "end_ms": 186180
+  },
+  {
+    "w": "pure",
+    "start_ms": 186180,
+    "end_ms": 186400,
+    "lemma": "pure",
+    "pos": "ADJ"
+  },
+  {
+    "w": "process",
+    "start_ms": 186400,
+    "end_ms": 186780,
+    "lemma": "process",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 186780,
+    "end_ms": 186960
+  },
+  {
+    "w": "reflection,",
+    "start_ms": 186960,
+    "end_ms": 187220,
+    "lemma": "reflection",
+    "pos": "NOUN"
+  },
+  {
+    "w": "but",
+    "start_ms": 187800,
+    "end_ms": 187920
+  },
+  {
+    "w": "we",
+    "start_ms": 187920,
+    "end_ms": 188060
+  },
+  {
+    "w": "need",
+    "start_ms": 188060,
+    "end_ms": 188240,
+    "lemma": "need",
+    "pos": "VERB"
+  },
+  {
+    "w": "data,",
+    "start_ms": 188240,
+    "end_ms": 188580,
+    "lemma": "data",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 189080,
+    "end_ms": 189320
+  },
+  {
+    "w": "we",
+    "start_ms": 189320,
+    "end_ms": 189420
+  },
+  {
+    "w": "can",
+    "start_ms": 189420,
+    "end_ms": 189540
+  },
+  {
+    "w": "only",
+    "start_ms": 189540,
+    "end_ms": 189680,
+    "lemma": "only",
+    "pos": "ADV"
+  },
+  {
+    "w": "understand",
+    "start_ms": 189680,
+    "end_ms": 189980,
+    "lemma": "understand",
+    "pos": "VERB"
+  },
+  {
+    "w": "ourselves",
+    "start_ms": 189980,
+    "end_ms": 190720
+  },
+  {
+    "w": "and",
+    "start_ms": 190720,
+    "end_ms": 190880
+  },
+  {
+    "w": "others",
+    "start_ms": 190880,
+    "end_ms": 191100,
+    "lemma": "other",
+    "pos": "NOUN"
+  },
+  {
+    "w": "by",
+    "start_ms": 191100,
+    "end_ms": 191600
+  },
+  {
+    "w": "colliding",
+    "start_ms": 191600,
+    "end_ms": 192040,
+    "lemma": "collide",
+    "pos": "VERB"
+  },
+  {
+    "w": "with",
+    "start_ms": 192040,
+    "end_ms": 192280
+  },
+  {
+    "w": "the",
+    "start_ms": 192280,
+    "end_ms": 192400
+  },
+  {
+    "w": "real",
+    "start_ms": 192400,
+    "end_ms": 192560,
+    "lemma": "real",
+    "pos": "ADJ"
+  },
+  {
+    "w": "world,",
+    "start_ms": 192560,
+    "end_ms": 192960,
+    "lemma": "world",
+    "pos": "NOUN"
+  },
+  {
+    "w": "in",
+    "start_ms": 193360,
+    "end_ms": 193480
+  },
+  {
+    "w": "the",
+    "start_ms": 193480,
+    "end_ms": 193560
+  },
+  {
+    "w": "process",
+    "start_ms": 193560,
+    "end_ms": 193920,
+    "lemma": "process",
+    "pos": "NOUN"
+  },
+  {
+    "w": "getting",
+    "start_ms": 193920,
+    "end_ms": 194160,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 194160,
+    "end_ms": 194380
+  },
+  {
+    "w": "know",
+    "start_ms": 194380,
+    "end_ms": 194540,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "both",
+    "start_ms": 194540,
+    "end_ms": 194740
+  },
+  {
+    "w": "it",
+    "start_ms": 194740,
+    "end_ms": 195000
+  },
+  {
+    "w": "and",
+    "start_ms": 195000,
+    "end_ms": 195220
+  },
+  {
+    "w": "our",
+    "start_ms": 195220,
+    "end_ms": 195340
+  },
+  {
+    "w": "own",
+    "start_ms": 195340,
+    "end_ms": 195520,
+    "lemma": "own",
+    "pos": "ADJ"
+  },
+  {
+    "w": "natures.",
+    "start_ms": 195520,
+    "end_ms": 195920,
+    "lemma": "nature",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We",
+    "start_ms": 196520,
+    "end_ms": 196820
+  },
+  {
+    "w": "need",
+    "start_ms": 196820,
+    "end_ms": 196940,
+    "lemma": "need",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 196940,
+    "end_ms": 197000
+  },
+  {
+    "w": "take",
+    "start_ms": 197000,
+    "end_ms": 197200,
+    "lemma": "take",
+    "pos": "VERB"
+  },
+  {
+    "w": "small,",
+    "start_ms": 197200,
+    "end_ms": 197640,
+    "lemma": "small",
+    "pos": "ADJ"
+  },
+  {
+    "w": "non",
+    "start_ms": 197900,
+    "end_ms": 198240,
+    "lemma": "non",
+    "pos": "ADJ"
+  },
+  {
+    "w": "-irrevocable",
+    "start_ms": 198240,
+    "end_ms": 198780,
+    "lemma": "irrevocable",
+    "pos": "ADJ"
+  },
+  {
+    "w": "steps",
+    "start_ms": 198780,
+    "end_ms": 199080,
+    "lemma": "step",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 199080,
+    "end_ms": 199320
+  },
+  {
+    "w": "gather",
+    "start_ms": 199320,
+    "end_ms": 199480,
+    "lemma": "gather",
+    "pos": "VERB"
+  },
+  {
+    "w": "information,",
+    "start_ms": 199480,
+    "end_ms": 199920,
+    "lemma": "information",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 200480,
+    "end_ms": 200680
+  },
+  {
+    "w": "example",
+    "start_ms": 200680,
+    "end_ms": 200880,
+    "lemma": "example",
+    "pos": "NOUN"
+  },
+  {
+    "w": "by",
+    "start_ms": 200880,
+    "end_ms": 201180
+  },
+  {
+    "w": "shadowing,",
+    "start_ms": 201180,
+    "end_ms": 201740,
+    "lemma": "shadow",
+    "pos": "VERB"
+  },
+  {
+    "w": "interning",
+    "start_ms": 201780,
+    "end_ms": 202300,
+    "lemma": "intern",
+    "pos": "VERB"
+  },
+  {
+    "w": "or",
+    "start_ms": 202300,
+    "end_ms": 202380
+  },
+  {
+    "w": "volunteering,",
+    "start_ms": 202380,
+    "end_ms": 202700,
+    "lemma": "volunteering",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we",
+    "start_ms": 203460,
+    "end_ms": 203600
+  },
+  {
+    "w": "mustn't",
+    "start_ms": 203600,
+    "end_ms": 203940
+  },
+  {
+    "w": "think",
+    "start_ms": 203940,
+    "end_ms": 204040,
+    "lemma": "think",
+    "pos": "VERB"
+  },
+  {
+    "w": "we",
+    "start_ms": 204040,
+    "end_ms": 204180
+  },
+  {
+    "w": "always",
+    "start_ms": 204180,
+    "end_ms": 204340,
+    "lemma": "always",
+    "pos": "ADV"
+  },
+  {
+    "w": "have",
+    "start_ms": 204340,
+    "end_ms": 204500,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 204500,
+    "end_ms": 204620
+  },
+  {
+    "w": "resign",
+    "start_ms": 204620,
+    "end_ms": 204840,
+    "lemma": "resign",
+    "pos": "VERB"
+  },
+  {
+    "w": "on",
+    "start_ms": 204840,
+    "end_ms": 205100
+  },
+  {
+    "w": "Monday.",
+    "start_ms": 205100,
+    "end_ms": 205300
+  },
+  {
+    "w": "We",
+    "start_ms": 206000,
+    "end_ms": 206080
+  },
+  {
+    "w": "can",
+    "start_ms": 206080,
+    "end_ms": 206200
+  },
+  {
+    "w": "investigate",
+    "start_ms": 206200,
+    "end_ms": 206500,
+    "lemma": "investigate",
+    "pos": "VERB"
+  },
+  {
+    "w": "our",
+    "start_ms": 206500,
+    "end_ms": 206940
+  },
+  {
+    "w": "futures",
+    "start_ms": 206940,
+    "end_ms": 207220,
+    "lemma": "future",
+    "pos": "NOUN"
+  },
+  {
+    "w": "through",
+    "start_ms": 207220,
+    "end_ms": 207720
+  },
+  {
+    "w": "branching",
+    "start_ms": 207720,
+    "end_ms": 208080,
+    "lemma": "branch",
+    "pos": "VERB"
+  },
+  {
+    "w": "projects",
+    "start_ms": 208080,
+    "end_ms": 208540,
+    "lemma": "project",
+    "pos": "NOUN"
+  },
+  {
+    "w": "on",
+    "start_ms": 208540,
+    "end_ms": 208900
+  },
+  {
+    "w": "the",
+    "start_ms": 208900,
+    "end_ms": 208980
+  },
+  {
+    "w": "side",
+    "start_ms": 208980,
+    "end_ms": 209300,
+    "lemma": "side",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 209300,
+    "end_ms": 209460
+  },
+  {
+    "w": "existing",
+    "start_ms": 209460,
+    "end_ms": 209560,
+    "lemma": "exist",
+    "pos": "VERB"
+  },
+  {
+    "w": "jobs.",
+    "start_ms": 209560,
+    "end_ms": 210140,
+    "lemma": "job",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Five.",
+    "start_ms": 210700,
+    "end_ms": 211180
+  },
+  {
+    "w": "Reflect",
+    "start_ms": 212180,
+    "end_ms": 212180,
+    "lemma": "reflect",
+    "pos": "VERB"
+  },
+  {
+    "w": "on",
+    "start_ms": 212180,
+    "end_ms": 212380
+  },
+  {
+    "w": "what",
+    "start_ms": 212380,
+    "end_ms": 212520
+  },
+  {
+    "w": "makes",
+    "start_ms": 212520,
+    "end_ms": 212740,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "people",
+    "start_ms": 212740,
+    "end_ms": 212980,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "unhappy.",
+    "start_ms": 212980,
+    "end_ms": 213340,
+    "lemma": "unhappy",
+    "pos": "ADJ"
+  },
+  {
+    "w": "Every",
+    "start_ms": 214280,
+    "end_ms": 214460
+  },
+  {
+    "w": "successful",
+    "start_ms": 214460,
+    "end_ms": 214740,
+    "lemma": "successful",
+    "pos": "ADJ"
+  },
+  {
+    "w": "business",
+    "start_ms": 214740,
+    "end_ms": 215240,
+    "lemma": "business",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 215240,
+    "end_ms": 215560
+  },
+  {
+    "w": "at",
+    "start_ms": 215560,
+    "end_ms": 215700
+  },
+  {
+    "w": "heart",
+    "start_ms": 215700,
+    "end_ms": 215900,
+    "lemma": "heart",
+    "pos": "NOUN"
+  },
+  {
+    "w": "an",
+    "start_ms": 215900,
+    "end_ms": 216380
+  },
+  {
+    "w": "attempt",
+    "start_ms": 216380,
+    "end_ms": 216600,
+    "lemma": "attempt",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 216600,
+    "end_ms": 216840
+  },
+  {
+    "w": "solve",
+    "start_ms": 216840,
+    "end_ms": 217060,
+    "lemma": "solve",
+    "pos": "VERB"
+  },
+  {
+    "w": "someone",
+    "start_ms": 217060,
+    "end_ms": 217440
+  },
+  {
+    "w": "else's",
+    "start_ms": 217440,
+    "end_ms": 217740
+  },
+  {
+    "w": "problem,",
+    "start_ms": 217740,
+    "end_ms": 218020,
+    "lemma": "problem",
+    "pos": "NOUN"
+  },
+  {
+    "w": "the",
+    "start_ms": 218620,
+    "end_ms": 218700
+  },
+  {
+    "w": "bigger",
+    "start_ms": 218700,
+    "end_ms": 218940,
+    "lemma": "big",
+    "pos": "ADJ"
+  },
+  {
+    "w": "and",
+    "start_ms": 218940,
+    "end_ms": 219120
+  },
+  {
+    "w": "more",
+    "start_ms": 219120,
+    "end_ms": 219300,
+    "lemma": "more",
+    "pos": "ADV"
+  },
+  {
+    "w": "urgent",
+    "start_ms": 219300,
+    "end_ms": 219620,
+    "lemma": "urgent",
+    "pos": "ADJ"
+  },
+  {
+    "w": "the",
+    "start_ms": 219620,
+    "end_ms": 219820
+  },
+  {
+    "w": "problem,",
+    "start_ms": 219820,
+    "end_ms": 220080,
+    "lemma": "problem",
+    "pos": "NOUN"
+  },
+  {
+    "w": "the",
+    "start_ms": 220380,
+    "end_ms": 220540
+  },
+  {
+    "w": "greater",
+    "start_ms": 220540,
+    "end_ms": 220720,
+    "lemma": "great",
+    "pos": "ADJ"
+  },
+  {
+    "w": "the",
+    "start_ms": 220720,
+    "end_ms": 220980
+  },
+  {
+    "w": "opportunity.",
+    "start_ms": 220980,
+    "end_ms": 221320,
+    "lemma": "opportunity",
+    "pos": "NOUN"
+  },
+  {
+    "w": "To",
+    "start_ms": 222200,
+    "end_ms": 222300
+  },
+  {
+    "w": "flex",
+    "start_ms": 222300,
+    "end_ms": 222480,
+    "lemma": "flex",
+    "pos": "VERB"
+  },
+  {
+    "w": "your",
+    "start_ms": 222480,
+    "end_ms": 222700
+  },
+  {
+    "w": "entrepreneurial",
+    "start_ms": 222700,
+    "end_ms": 223180,
+    "lemma": "entrepreneurial",
+    "pos": "ADJ"
+  },
+  {
+    "w": "muscles,",
+    "start_ms": 223180,
+    "end_ms": 223740,
+    "lemma": "muscle",
+    "pos": "NOUN"
+  },
+  {
+    "w": "consider",
+    "start_ms": 224100,
+    "end_ms": 224400,
+    "lemma": "consider",
+    "pos": "VERB"
+  },
+  {
+    "w": "an",
+    "start_ms": 224400,
+    "end_ms": 224640
+  },
+  {
+    "w": "average",
+    "start_ms": 224640,
+    "end_ms": 224840,
+    "lemma": "average",
+    "pos": "ADJ"
+  },
+  {
+    "w": "day",
+    "start_ms": 224840,
+    "end_ms": 225180,
+    "lemma": "day",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 225180,
+    "end_ms": 225500
+  },
+  {
+    "w": "everything",
+    "start_ms": 225500,
+    "end_ms": 225820
+  },
+  {
+    "w": "in",
+    "start_ms": 225820,
+    "end_ms": 226160
+  },
+  {
+    "w": "it",
+    "start_ms": 226160,
+    "end_ms": 226280
+  },
+  {
+    "w": "that",
+    "start_ms": 226280,
+    "end_ms": 226420
+  },
+  {
+    "w": "might",
+    "start_ms": 226420,
+    "end_ms": 226600
+  },
+  {
+    "w": "make",
+    "start_ms": 226600,
+    "end_ms": 226760,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "someone",
+    "start_ms": 226760,
+    "end_ms": 226980
+  },
+  {
+    "w": "unhappy,",
+    "start_ms": 226980,
+    "end_ms": 227340,
+    "lemma": "unhappy",
+    "pos": "ADJ"
+  },
+  {
+    "w": "from",
+    "start_ms": 227840,
+    "end_ms": 227980
+  },
+  {
+    "w": "losing",
+    "start_ms": 227980,
+    "end_ms": 228240,
+    "lemma": "lose",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 228240,
+    "end_ms": 228460
+  },
+  {
+    "w": "house",
+    "start_ms": 228460,
+    "end_ms": 228620,
+    "lemma": "house",
+    "pos": "NOUN"
+  },
+  {
+    "w": "keys",
+    "start_ms": 228620,
+    "end_ms": 228840,
+    "lemma": "key",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 228840,
+    "end_ms": 229120
+  },
+  {
+    "w": "finding",
+    "start_ms": 229120,
+    "end_ms": 229540,
+    "lemma": "find",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 229540,
+    "end_ms": 229740
+  },
+  {
+    "w": "food",
+    "start_ms": 229740,
+    "end_ms": 229880,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "a",
+    "start_ms": 229880,
+    "end_ms": 229880
+  },
+  {
+    "w": "little",
+    "start_ms": 229880,
+    "end_ms": 230140,
+    "lemma": "little",
+    "pos": "ADJ"
+  },
+  {
+    "w": "greasy",
+    "start_ms": 230140,
+    "end_ms": 230620,
+    "lemma": "greasy",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 230620,
+    "end_ms": 231000
+  },
+  {
+    "w": "arguing",
+    "start_ms": 231000,
+    "end_ms": 231240,
+    "lemma": "argue",
+    "pos": "VERB"
+  },
+  {
+    "w": "yet",
+    "start_ms": 231240,
+    "end_ms": 231620,
+    "lemma": "yet",
+    "pos": "ADV"
+  },
+  {
+    "w": "again",
+    "start_ms": 231620,
+    "end_ms": 231880,
+    "lemma": "again",
+    "pos": "ADV"
+  },
+  {
+    "w": "with",
+    "start_ms": 231880,
+    "end_ms": 232080
+  },
+  {
+    "w": "their",
+    "start_ms": 232080,
+    "end_ms": 232200
+  },
+  {
+    "w": "spouse.",
+    "start_ms": 232200,
+    "end_ms": 232420,
+    "lemma": "spouse",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Each",
+    "start_ms": 233680,
+    "end_ms": 233960
+  },
+  {
+    "w": "of",
+    "start_ms": 233960,
+    "end_ms": 234140
+  },
+  {
+    "w": "these",
+    "start_ms": 234140,
+    "end_ms": 234260
+  },
+  {
+    "w": "is",
+    "start_ms": 234260,
+    "end_ms": 234500
+  },
+  {
+    "w": "a",
+    "start_ms": 234500,
+    "end_ms": 234580
+  },
+  {
+    "w": "business",
+    "start_ms": 234580,
+    "end_ms": 234800,
+    "lemma": "business",
+    "pos": "NOUN"
+  },
+  {
+    "w": "opportunity",
+    "start_ms": 234800,
+    "end_ms": 235180,
+    "lemma": "opportunity",
+    "pos": "NOUN"
+  },
+  {
+    "w": "waiting",
+    "start_ms": 235180,
+    "end_ms": 235760,
+    "lemma": "wait",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 235760,
+    "end_ms": 236040
+  },
+  {
+    "w": "be",
+    "start_ms": 236040,
+    "end_ms": 236140
+  },
+  {
+    "w": "exploited.",
+    "start_ms": 236140,
+    "end_ms": 236440,
+    "lemma": "exploit",
+    "pos": "VERB"
+  },
+  {
+    "w": "It's",
+    "start_ms": 237160,
+    "end_ms": 237280
+  },
+  {
+    "w": "a",
+    "start_ms": 237280,
+    "end_ms": 237320
+  },
+  {
+    "w": "chance",
+    "start_ms": 237320,
+    "end_ms": 237520,
+    "lemma": "chance",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 237520,
+    "end_ms": 237900
+  },
+  {
+    "w": "us",
+    "start_ms": 237900,
+    "end_ms": 237980
+  },
+  {
+    "w": "to",
+    "start_ms": 237980,
+    "end_ms": 238120
+  },
+  {
+    "w": "serve,",
+    "start_ms": 238120,
+    "end_ms": 238480,
+    "lemma": "serve",
+    "pos": "VERB"
+  },
+  {
+    "w": "which",
+    "start_ms": 238880,
+    "end_ms": 239060
+  },
+  {
+    "w": "is",
+    "start_ms": 239060,
+    "end_ms": 239180
+  },
+  {
+    "w": "what",
+    "start_ms": 239180,
+    "end_ms": 239320
+  },
+  {
+    "w": "work",
+    "start_ms": 239320,
+    "end_ms": 239600,
+    "lemma": "work",
+    "pos": "NOUN"
+  },
+  {
+    "w": "really",
+    "start_ms": 239600,
+    "end_ms": 239840,
+    "lemma": "really",
+    "pos": "ADV"
+  },
+  {
+    "w": "is.",
+    "start_ms": 239840,
+    "end_ms": 240240
+  },
+  {
+    "w": "It's",
+    "start_ms": 240960,
+    "end_ms": 241160
+  },
+  {
+    "w": "easy",
+    "start_ms": 241160,
+    "end_ms": 241300,
+    "lemma": "easy",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 241300,
+    "end_ms": 241480
+  },
+  {
+    "w": "imagine",
+    "start_ms": 241480,
+    "end_ms": 241720,
+    "lemma": "imagine",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 241720,
+    "end_ms": 241960
+  },
+  {
+    "w": "everything's",
+    "start_ms": 241960,
+    "end_ms": 242380
+  },
+  {
+    "w": "been",
+    "start_ms": 242380,
+    "end_ms": 242500
+  },
+  {
+    "w": "done",
+    "start_ms": 242500,
+    "end_ms": 242740,
+    "lemma": "do",
+    "pos": "VERB"
+  },
+  {
+    "w": "and",
+    "start_ms": 242740,
+    "end_ms": 242880
+  },
+  {
+    "w": "tried.",
+    "start_ms": 242880,
+    "end_ms": 243220,
+    "lemma": "try",
+    "pos": "VERB"
+  },
+  {
+    "w": "Nonsense.",
+    "start_ms": 243760,
+    "end_ms": 243960,
+    "lemma": "nonsense",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We're",
+    "start_ms": 244560,
+    "end_ms": 244600
+  },
+  {
+    "w": "unhappy",
+    "start_ms": 244600,
+    "end_ms": 244900,
+    "lemma": "unhappy",
+    "pos": "ADJ"
+  },
+  {
+    "w": "enough",
+    "start_ms": 244900,
+    "end_ms": 245240,
+    "lemma": "enough",
+    "pos": "ADV"
+  },
+  {
+    "w": "for",
+    "start_ms": 245240,
+    "end_ms": 245460
+  },
+  {
+    "w": "capitalism",
+    "start_ms": 245460,
+    "end_ms": 245780,
+    "lemma": "capitalism",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 245780,
+    "end_ms": 246240
+  },
+  {
+    "w": "have",
+    "start_ms": 246240,
+    "end_ms": 246320,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "many",
+    "start_ms": 246320,
+    "end_ms": 246700,
+    "lemma": "many",
+    "pos": "ADJ"
+  },
+  {
+    "w": "more",
+    "start_ms": 246700,
+    "end_ms": 247060,
+    "lemma": "more",
+    "pos": "ADJ"
+  },
+  {
+    "w": "centuries",
+    "start_ms": 247060,
+    "end_ms": 247360,
+    "lemma": "century",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 247360,
+    "end_ms": 247960
+  },
+  {
+    "w": "invention",
+    "start_ms": 247960,
+    "end_ms": 248320,
+    "lemma": "invention",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 248320,
+    "end_ms": 248620
+  },
+  {
+    "w": "creativity",
+    "start_ms": 248620,
+    "end_ms": 248980,
+    "lemma": "creativity",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 248980,
+    "end_ms": 249560
+  },
+  {
+    "w": "it.",
+    "start_ms": 249560,
+    "end_ms": 249720
+  },
+  {
+    "w": "Six.",
+    "start_ms": 250520,
+    "end_ms": 250700
+  },
+  {
+    "w": "Be",
+    "start_ms": 251260,
+    "end_ms": 251300
+  },
+  {
+    "w": "confident.",
+    "start_ms": 251300,
+    "end_ms": 251540,
+    "lemma": "confident",
+    "pos": "ADJ"
+  },
+  {
+    "w": "So",
+    "start_ms": 252460,
+    "end_ms": 252520,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "many",
+    "start_ms": 252520,
+    "end_ms": 252680,
+    "lemma": "many",
+    "pos": "ADJ"
+  },
+  {
+    "w": "bad",
+    "start_ms": 252680,
+    "end_ms": 252920,
+    "lemma": "bad",
+    "pos": "ADJ"
+  },
+  {
+    "w": "self",
+    "start_ms": 252920,
+    "end_ms": 253180,
+    "lemma": "self",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-help",
+    "start_ms": 253180,
+    "end_ms": 253460,
+    "lemma": "help",
+    "pos": "NOUN"
+  },
+  {
+    "w": "books",
+    "start_ms": 253460,
+    "end_ms": 253700,
+    "lemma": "book",
+    "pos": "NOUN"
+  },
+  {
+    "w": "are",
+    "start_ms": 253700,
+    "end_ms": 253860
+  },
+  {
+    "w": "about",
+    "start_ms": 253860,
+    "end_ms": 254040
+  },
+  {
+    "w": "confidence.",
+    "start_ms": 254040,
+    "end_ms": 254420,
+    "lemma": "confidence",
+    "pos": "NOUN"
+  },
+  {
+    "w": "It",
+    "start_ms": 254980,
+    "end_ms": 255120
+  },
+  {
+    "w": "can",
+    "start_ms": 255120,
+    "end_ms": 255220
+  },
+  {
+    "w": "be",
+    "start_ms": 255220,
+    "end_ms": 255320
+  },
+  {
+    "w": "tempting",
+    "start_ms": 255320,
+    "end_ms": 255480,
+    "lemma": "tempting",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 255480,
+    "end_ms": 255740
+  },
+  {
+    "w": "dismiss",
+    "start_ms": 255740,
+    "end_ms": 255940,
+    "lemma": "dismiss",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 255940,
+    "end_ms": 256220
+  },
+  {
+    "w": "whole",
+    "start_ms": 256220,
+    "end_ms": 256300,
+    "lemma": "whole",
+    "pos": "ADJ"
+  },
+  {
+    "w": "topic",
+    "start_ms": 256300,
+    "end_ms": 256600,
+    "lemma": "topic",
+    "pos": "NOUN"
+  },
+  {
+    "w": "as",
+    "start_ms": 256600,
+    "end_ms": 256760
+  },
+  {
+    "w": "nonsense.",
+    "start_ms": 256760,
+    "end_ms": 256940,
+    "lemma": "nonsense",
+    "pos": "NOUN"
+  },
+  {
+    "w": "But",
+    "start_ms": 257740,
+    "end_ms": 257899
+  },
+  {
+    "w": "in",
+    "start_ms": 257899,
+    "end_ms": 258000
+  },
+  {
+    "w": "a",
+    "start_ms": 258000,
+    "end_ms": 258079
+  },
+  {
+    "w": "peculiar",
+    "start_ms": 258079,
+    "end_ms": 258360,
+    "lemma": "peculiar",
+    "pos": "ADJ"
+  },
+  {
+    "w": "and",
+    "start_ms": 258360,
+    "end_ms": 258760
+  },
+  {
+    "w": "rather",
+    "start_ms": 258760,
+    "end_ms": 258959,
+    "lemma": "rather",
+    "pos": "ADV"
+  },
+  {
+    "w": "humbling",
+    "start_ms": 258959,
+    "end_ms": 259380,
+    "lemma": "humble",
+    "pos": "VERB"
+  },
+  {
+    "w": "way,",
+    "start_ms": 259380,
+    "end_ms": 259680,
+    "lemma": "way",
+    "pos": "NOUN"
+  },
+  {
+    "w": "it",
+    "start_ms": 260060,
+    "end_ms": 260160
+  },
+  {
+    "w": "truly",
+    "start_ms": 260160,
+    "end_ms": 260339,
+    "lemma": "truly",
+    "pos": "ADV"
+  },
+  {
+    "w": "does",
+    "start_ms": 260339,
+    "end_ms": 260680
+  },
+  {
+    "w": "seem",
+    "start_ms": 260680,
+    "end_ms": 260940,
+    "lemma": "seem",
+    "pos": "VERB"
+  },
+  {
+    "w": "as",
+    "start_ms": 260940,
+    "end_ms": 261079
+  },
+  {
+    "w": "if",
+    "start_ms": 261079,
+    "end_ms": 261240
+  },
+  {
+    "w": "the",
+    "start_ms": 261240,
+    "end_ms": 261300
+  },
+  {
+    "w": "difference",
+    "start_ms": 261300,
+    "end_ms": 261579,
+    "lemma": "difference",
+    "pos": "NOUN"
+  },
+  {
+    "w": "between",
+    "start_ms": 261579,
+    "end_ms": 261959
+  },
+  {
+    "w": "success",
+    "start_ms": 261959,
+    "end_ms": 262180,
+    "lemma": "success",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 262180,
+    "end_ms": 262520
+  },
+  {
+    "w": "failure",
+    "start_ms": 262520,
+    "end_ms": 262800,
+    "lemma": "failure",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 262800,
+    "end_ms": 263320
+  },
+  {
+    "w": "sometimes",
+    "start_ms": 263320,
+    "end_ms": 263520,
+    "lemma": "sometimes",
+    "pos": "ADV"
+  },
+  {
+    "w": "nothing",
+    "start_ms": 263520,
+    "end_ms": 264000
+  },
+  {
+    "w": "less",
+    "start_ms": 264000,
+    "end_ms": 264300,
+    "lemma": "less",
+    "pos": "ADJ"
+  },
+  {
+    "w": "than",
+    "start_ms": 264300,
+    "end_ms": 264540
+  },
+  {
+    "w": "the",
+    "start_ms": 264540,
+    "end_ms": 264640
+  },
+  {
+    "w": "courage",
+    "start_ms": 264640,
+    "end_ms": 264880,
+    "lemma": "courage",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 264880,
+    "end_ms": 265120
+  },
+  {
+    "w": "give",
+    "start_ms": 265120,
+    "end_ms": 265240,
+    "lemma": "give",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 265240,
+    "end_ms": 265360
+  },
+  {
+    "w": "a",
+    "start_ms": 265360,
+    "end_ms": 265380
+  },
+  {
+    "w": "go.",
+    "start_ms": 265380,
+    "end_ms": 265620,
+    "lemma": "go",
+    "pos": "NOUN"
+  },
+  {
+    "w": "The",
+    "start_ms": 266240,
+    "end_ms": 266320
+  },
+  {
+    "w": "ability",
+    "start_ms": 266320,
+    "end_ms": 266580,
+    "lemma": "ability",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 266580,
+    "end_ms": 266880
+  },
+  {
+    "w": "imagine",
+    "start_ms": 266880,
+    "end_ms": 267240,
+    "lemma": "imagine",
+    "pos": "VERB"
+  },
+  {
+    "w": "oneself",
+    "start_ms": 267240,
+    "end_ms": 267600
+  },
+  {
+    "w": "into",
+    "start_ms": 267600,
+    "end_ms": 267960
+  },
+  {
+    "w": "a",
+    "start_ms": 267960,
+    "end_ms": 268260
+  },
+  {
+    "w": "role,",
+    "start_ms": 268260,
+    "end_ms": 268480,
+    "lemma": "role",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 268940,
+    "end_ms": 268940
+  },
+  {
+    "w": "surmise",
+    "start_ms": 268940,
+    "end_ms": 269340,
+    "lemma": "surmise",
+    "pos": "VERB"
+  },
+  {
+    "w": "one",
+    "start_ms": 269340,
+    "end_ms": 269560
+  },
+  {
+    "w": "doesn't",
+    "start_ms": 269560,
+    "end_ms": 269820
+  },
+  {
+    "w": "need",
+    "start_ms": 269820,
+    "end_ms": 269960,
+    "lemma": "need",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 269960,
+    "end_ms": 270060
+  },
+  {
+    "w": "ask",
+    "start_ms": 270060,
+    "end_ms": 270280,
+    "lemma": "ask",
+    "pos": "VERB"
+  },
+  {
+    "w": "anyone",
+    "start_ms": 270280,
+    "end_ms": 270580
+  },
+  {
+    "w": "for",
+    "start_ms": 270580,
+    "end_ms": 270800
+  },
+  {
+    "w": "permission,",
+    "start_ms": 270800,
+    "end_ms": 271040,
+    "lemma": "permission",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that",
+    "start_ms": 271740,
+    "end_ms": 271840
+  },
+  {
+    "w": "many",
+    "start_ms": 271840,
+    "end_ms": 272060,
+    "lemma": "many",
+    "pos": "ADJ"
+  },
+  {
+    "w": "of",
+    "start_ms": 272060,
+    "end_ms": 272180
+  },
+  {
+    "w": "the",
+    "start_ms": 272180,
+    "end_ms": 272260
+  },
+  {
+    "w": "top",
+    "start_ms": 272260,
+    "end_ms": 272420,
+    "lemma": "top",
+    "pos": "ADJ"
+  },
+  {
+    "w": "positions",
+    "start_ms": 272420,
+    "end_ms": 272680,
+    "lemma": "position",
+    "pos": "NOUN"
+  },
+  {
+    "w": "simply",
+    "start_ms": 272680,
+    "end_ms": 273380,
+    "lemma": "simply",
+    "pos": "ADV"
+  },
+  {
+    "w": "belong",
+    "start_ms": 273380,
+    "end_ms": 273760,
+    "lemma": "belong",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 273760,
+    "end_ms": 273960
+  },
+  {
+    "w": "those",
+    "start_ms": 273960,
+    "end_ms": 274140
+  },
+  {
+    "w": "who",
+    "start_ms": 274140,
+    "end_ms": 274340
+  },
+  {
+    "w": "dare",
+    "start_ms": 274340,
+    "end_ms": 274540,
+    "lemma": "dare",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 274540,
+    "end_ms": 274700
+  },
+  {
+    "w": "boldly",
+    "start_ms": 274700,
+    "end_ms": 274940,
+    "lemma": "boldly",
+    "pos": "ADV"
+  },
+  {
+    "w": "ask",
+    "start_ms": 274940,
+    "end_ms": 275340,
+    "lemma": "ask",
+    "pos": "VERB"
+  },
+  {
+    "w": "for",
+    "start_ms": 275340,
+    "end_ms": 275580
+  },
+  {
+    "w": "them.",
+    "start_ms": 275580,
+    "end_ms": 275780
+  },
+  {
+    "w": "A",
+    "start_ms": 276260,
+    "end_ms": 276540
+  },
+  {
+    "w": "lack",
+    "start_ms": 276540,
+    "end_ms": 276700,
+    "lemma": "lack",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 276700,
+    "end_ms": 276840
+  },
+  {
+    "w": "confidence",
+    "start_ms": 276840,
+    "end_ms": 277140,
+    "lemma": "confidence",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 277140,
+    "end_ms": 277440
+  },
+  {
+    "w": "at",
+    "start_ms": 277440,
+    "end_ms": 277580
+  },
+  {
+    "w": "heart",
+    "start_ms": 277580,
+    "end_ms": 277840,
+    "lemma": "heart",
+    "pos": "NOUN"
+  },
+  {
+    "w": "a",
+    "start_ms": 277840,
+    "end_ms": 278000
+  },
+  {
+    "w": "misunderstanding",
+    "start_ms": 278000,
+    "end_ms": 278280,
+    "lemma": "misunderstanding",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 278680,
+    "end_ms": 278920
+  },
+  {
+    "w": "the",
+    "start_ms": 278920,
+    "end_ms": 279000
+  },
+  {
+    "w": "way",
+    "start_ms": 279000,
+    "end_ms": 279140,
+    "lemma": "way",
+    "pos": "NOUN"
+  },
+  {
+    "w": "the",
+    "start_ms": 279140,
+    "end_ms": 279280
+  },
+  {
+    "w": "world",
+    "start_ms": 279280,
+    "end_ms": 279420,
+    "lemma": "world",
+    "pos": "NOUN"
+  },
+  {
+    "w": "works.",
+    "start_ms": 279420,
+    "end_ms": 279900,
+    "lemma": "work",
+    "pos": "VERB"
+  },
+  {
+    "w": "It's",
+    "start_ms": 280520,
+    "end_ms": 280680
+  },
+  {
+    "w": "an",
+    "start_ms": 280680,
+    "end_ms": 280740
+  },
+  {
+    "w": "internalised",
+    "start_ms": 280740,
+    "end_ms": 281440,
+    "lemma": "internalised",
+    "pos": "ADJ"
+  },
+  {
+    "w": "feudalism,",
+    "start_ms": 281440,
+    "end_ms": 282160,
+    "lemma": "feudalism",
+    "pos": "NOUN"
+  },
+  {
+    "w": "which",
+    "start_ms": 282380,
+    "end_ms": 282640
+  },
+  {
+    "w": "imagines",
+    "start_ms": 282640,
+    "end_ms": 283220,
+    "lemma": "imagine",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 283220,
+    "end_ms": 283300
+  },
+  {
+    "w": "only",
+    "start_ms": 283300,
+    "end_ms": 283500,
+    "lemma": "only",
+    "pos": "ADV"
+  },
+  {
+    "w": "certain",
+    "start_ms": 283500,
+    "end_ms": 283760,
+    "lemma": "certain",
+    "pos": "ADJ"
+  },
+  {
+    "w": "people,",
+    "start_ms": 283760,
+    "end_ms": 284080,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "but",
+    "start_ms": 284080,
+    "end_ms": 284420
+  },
+  {
+    "w": "not",
+    "start_ms": 284420,
+    "end_ms": 284600
+  },
+  {
+    "w": "oneself,",
+    "start_ms": 284600,
+    "end_ms": 284900
+  },
+  {
+    "w": "have",
+    "start_ms": 284900,
+    "end_ms": 285540
+  },
+  {
+    "w": "the",
+    "start_ms": 285540,
+    "end_ms": 285640
+  },
+  {
+    "w": "right",
+    "start_ms": 285640,
+    "end_ms": 285920,
+    "lemma": "right",
+    "pos": "NOUN"
+  },
+  {
+    "w": "preordained",
+    "start_ms": 285920,
+    "end_ms": 286840,
+    "lemma": "preordain",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 286840,
+    "end_ms": 287240
+  },
+  {
+    "w": "get",
+    "start_ms": 287240,
+    "end_ms": 287400,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "certain",
+    "start_ms": 287400,
+    "end_ms": 287620,
+    "lemma": "certain",
+    "pos": "ADJ"
+  },
+  {
+    "w": "things.",
+    "start_ms": 287620,
+    "end_ms": 288000,
+    "lemma": "thing",
+    "pos": "NOUN"
+  },
+  {
+    "w": "It",
+    "start_ms": 288620,
+    "end_ms": 288700
+  },
+  {
+    "w": "isn't",
+    "start_ms": 288700,
+    "end_ms": 288920
+  },
+  {
+    "w": "true,",
+    "start_ms": 288920,
+    "end_ms": 289160,
+    "lemma": "true",
+    "pos": "ADJ"
+  },
+  {
+    "w": "as",
+    "start_ms": 289560,
+    "end_ms": 289700
+  },
+  {
+    "w": "we",
+    "start_ms": 289700,
+    "end_ms": 289820
+  },
+  {
+    "w": "know,",
+    "start_ms": 289820,
+    "end_ms": 290020,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 290340,
+    "end_ms": 290420
+  },
+  {
+    "w": "lot",
+    "start_ms": 290420,
+    "end_ms": 290680,
+    "lemma": "lot",
+    "pos": "NOUN"
+  },
+  {
+    "w": "more",
+    "start_ms": 290680,
+    "end_ms": 290900,
+    "lemma": "more",
+    "pos": "ADJ"
+  },
+  {
+    "w": "is",
+    "start_ms": 290900,
+    "end_ms": 291040
+  },
+  {
+    "w": "possible",
+    "start_ms": 291040,
+    "end_ms": 291200,
+    "lemma": "possible",
+    "pos": "ADJ"
+  },
+  {
+    "w": "than",
+    "start_ms": 291200,
+    "end_ms": 291580
+  },
+  {
+    "w": "we",
+    "start_ms": 291580,
+    "end_ms": 291680
+  },
+  {
+    "w": "might",
+    "start_ms": 291680,
+    "end_ms": 291860
+  },
+  {
+    "w": "think",
+    "start_ms": 291860,
+    "end_ms": 292120,
+    "lemma": "think",
+    "pos": "VERB"
+  },
+  {
+    "w": "at",
+    "start_ms": 292120,
+    "end_ms": 292580
+  },
+  {
+    "w": "our",
+    "start_ms": 292580,
+    "end_ms": 292660
+  },
+  {
+    "w": "moments",
+    "start_ms": 292660,
+    "end_ms": 292940,
+    "lemma": "moment",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 292940,
+    "end_ms": 293160
+  },
+  {
+    "w": "timidity",
+    "start_ms": 293160,
+    "end_ms": 293520,
+    "lemma": "timidity",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 293520,
+    "end_ms": 293760
+  },
+  {
+    "w": "doubt.",
+    "start_ms": 293760,
+    "end_ms": 293960,
+    "lemma": "doubt",
+    "pos": "NOUN"
+  },
+  {
+    "w": "That's",
+    "start_ms": 294680,
+    "end_ms": 294980
+  },
+  {
+    "w": "the",
+    "start_ms": 294980,
+    "end_ms": 295060
+  },
+  {
+    "w": "start",
+    "start_ms": 295060,
+    "end_ms": 295420,
+    "lemma": "start",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 295420,
+    "end_ms": 295540
+  },
+  {
+    "w": "the",
+    "start_ms": 295540,
+    "end_ms": 295640
+  },
+  {
+    "w": "path",
+    "start_ms": 295640,
+    "end_ms": 295860,
+    "lemma": "path",
+    "pos": "NOUN"
+  },
+  {
+    "w": "towards",
+    "start_ms": 295860,
+    "end_ms": 296120
+  },
+  {
+    "w": "a",
+    "start_ms": 296120,
+    "end_ms": 296120
+  },
+  {
+    "w": "job",
+    "start_ms": 296120,
+    "end_ms": 296620,
+    "lemma": "job",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we",
+    "start_ms": 296620,
+    "end_ms": 297020
+  },
+  {
+    "w": "won't",
+    "start_ms": 297020,
+    "end_ms": 297320
+  },
+  {
+    "w": "regret",
+    "start_ms": 297320,
+    "end_ms": 297560,
+    "lemma": "regret",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 297560,
+    "end_ms": 297780
+  },
+  {
+    "w": "our",
+    "start_ms": 297780,
+    "end_ms": 297880
+  },
+  {
+    "w": "deathbeds,",
+    "start_ms": 297880,
+    "end_ms": 298560,
+    "lemma": "deathbed",
+    "pos": "NOUN"
+  },
+  {
+    "w": "which",
+    "start_ms": 298800,
+    "end_ms": 298980
+  },
+  {
+    "w": "should",
+    "start_ms": 298980,
+    "end_ms": 299160
+  },
+  {
+    "w": "always",
+    "start_ms": 299160,
+    "end_ms": 299420,
+    "lemma": "always",
+    "pos": "ADV"
+  },
+  {
+    "w": "be",
+    "start_ms": 299420,
+    "end_ms": 299660
+  },
+  {
+    "w": "the",
+    "start_ms": 299660,
+    "end_ms": 300100
+  },
+  {
+    "w": "ultimate",
+    "start_ms": 300100,
+    "end_ms": 300320,
+    "lemma": "ultimate",
+    "pos": "ADJ"
+  },
+  {
+    "w": "criterion.",
+    "start_ms": 300320,
+    "end_ms": 300820,
+    "lemma": "criterion",
+    "pos": "NOUN"
+  }
+]

@@ -1,0 +1,261 @@
+{
+  "video_id": "curated_used_to",
+  "title": "Used to (geçmiş alışkanlık)",
+  "license": "curated",
+  "cefr": "A2",
+  "topic": "grammar",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I used to live in Istanbul.",
+      "text_tr": "Eskiden İstanbul'da yaşardım.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "used to live",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 2,
+          "span_end": 14
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "She used to play the piano every day.",
+      "text_tr": "O eskiden her gün piyano çalardı.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "used to play",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 4,
+          "span_end": 16
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We used to be very close friends.",
+      "text_tr": "Eskiden çok yakın arkadaştık.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "used to be",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 3,
+          "span_end": 13
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "My brother used to hate vegetables.",
+      "text_tr": "Kardeşim eskiden sebzeden nefret ederdi.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "used to hate",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 11,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We used to go to the beach every summer.",
+      "text_tr": "Her yaz sahile giderdik.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "used to go",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 3,
+          "span_end": 13
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "He didn't use to like coffee.",
+      "text_tr": "O eskiden kahve sevmezdi.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "didn't use to like",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 3,
+          "span_end": 21
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I didn't use to wake up early.",
+      "text_tr": "Eskiden erken kalkmazdım.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "didn't use to wake",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 2,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "They didn't use to have a car.",
+      "text_tr": "Eskiden arabaları yoktu.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "didn't use to have",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 5,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Did you use to smoke?",
+      "text_tr": "Eskiden sigara içer miydin?",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Did you use to smoke",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 0,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Did she use to work here?",
+      "text_tr": "O eskiden burada mı çalışırdı?",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Did she use to work",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 0,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Where did you use to live?",
+      "text_tr": "Eskiden nerede yaşardın?",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "did you use to live",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 6,
+          "span_end": 25
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I used to read a lot when I was a child.",
+      "text_tr": "Çocukken çok kitap okurdum.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "used to read",
+          "note_tr": "Geçmişte olan ama artık sürmeyen alışkanlık veya durum.",
+          "cefr": "A2",
+          "norm_pattern": "used_to",
+          "span_start": 2,
+          "span_end": 14
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    }
+  ]
+}

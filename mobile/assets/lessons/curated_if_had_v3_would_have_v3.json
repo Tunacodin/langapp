@@ -1,0 +1,261 @@
+{
+  "video_id": "curated_if_had_v3_would_have_v3",
+  "title": "If (Tip 3 - geçmiş gerçekleşmemiş koşul)",
+  "license": "curated",
+  "cefr": "B2",
+  "topic": "grammar",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If I had studied, I would have passed.",
+      "text_tr": "Çalışsaydım geçerdim.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If I had studied, I would have passed",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 37
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If we had known, we would have helped.",
+      "text_tr": "Bilseydik yardım ederdik.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If we had known, we would have helped",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 37
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If he had asked, I would have said yes.",
+      "text_tr": "Sorsaydı evet derdim.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If he had asked, I would have said",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 34
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If you had told me, I would have understood.",
+      "text_tr": "Bana söyleseydin anlardım.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If you had told me, I would have understood",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 43
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If I had had more time, I would have finished.",
+      "text_tr": "Daha çok vaktim olsaydı bitirirdim.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If I had had more time, I would have finished",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 45
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If she had left earlier, she would have caught the train.",
+      "text_tr": "Daha erken çıksaydı treni yakalardı.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If she had left earlier, she would have caught",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 46
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If they had listened, this wouldn't have happened.",
+      "text_tr": "Dinleselerdi bu olmazdı.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If they had listened, this wouldn't have happened",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 49
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If it hadn't rained, we would have gone out.",
+      "text_tr": "Yağmur yağmasaydı dışarı çıkardık.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If it hadn't rained, we would have gone out",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 43
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If he had driven carefully, he wouldn't have crashed.",
+      "text_tr": "Dikkatli sürseydi kaza yapmazdı.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If he had driven carefully, he wouldn't have crashed",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 52
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We would have won if we had practiced more.",
+      "text_tr": "Daha çok çalışsaydık kazanırdık.",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "We would have won if we had practiced more",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 42
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "What would you have done if you had been there?",
+      "text_tr": "Orada olsaydın ne yapardın?",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "What would you have done if you had been",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 40
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Would she have come if we had invited her?",
+      "text_tr": "Onu davet etseydik gelir miydi?",
+      "cefr": "B2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Would she have come if we had invited",
+          "note_tr": "Geçmişte olmayan varsayım: If + had V3, would have V3.",
+          "cefr": "B2",
+          "norm_pattern": "if_had_v3_would_have_v3",
+          "span_start": 0,
+          "span_end": 37
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    }
+  ]
+}

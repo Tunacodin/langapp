@@ -1,0 +1,974 @@
+[
+  {
+    "w": "but",
+    "start_ms": 31180,
+    "end_ms": 31280
+  },
+  {
+    "w": "we're",
+    "start_ms": 31280,
+    "end_ms": 31380
+  },
+  {
+    "w": "cutting",
+    "start_ms": 31380,
+    "end_ms": 31540,
+    "lemma": "cut",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 31540,
+    "end_ms": 31700
+  },
+  {
+    "w": "close.",
+    "start_ms": 31700,
+    "end_ms": 31900,
+    "lemma": "close",
+    "pos": "ADV"
+  },
+  {
+    "w": "So",
+    "start_ms": 32380,
+    "end_ms": 32600,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "far",
+    "start_ms": 32600,
+    "end_ms": 32700,
+    "lemma": "far",
+    "pos": "ADV"
+  },
+  {
+    "w": "the",
+    "start_ms": 32700,
+    "end_ms": 32860
+  },
+  {
+    "w": "trip",
+    "start_ms": 32860,
+    "end_ms": 33040,
+    "lemma": "trip",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 33040,
+    "end_ms": 33200
+  },
+  {
+    "w": "off",
+    "start_ms": 33200,
+    "end_ms": 33340,
+    "lemma": "off",
+    "pos": "ADV"
+  },
+  {
+    "w": "to",
+    "start_ms": 33340,
+    "end_ms": 33500
+  },
+  {
+    "w": "a",
+    "start_ms": 33500,
+    "end_ms": 33580
+  },
+  {
+    "w": "fairly",
+    "start_ms": 33580,
+    "end_ms": 33820,
+    "lemma": "fairly",
+    "pos": "ADV"
+  },
+  {
+    "w": "irresponsible",
+    "start_ms": 33820,
+    "end_ms": 34060,
+    "lemma": "irresponsible",
+    "pos": "ADJ"
+  },
+  {
+    "w": "start.",
+    "start_ms": 34060,
+    "end_ms": 34880,
+    "lemma": "start",
+    "pos": "NOUN"
+  },
+  {
+    "w": "And",
+    "start_ms": 39150,
+    "end_ms": 39330
+  },
+  {
+    "w": "so",
+    "start_ms": 39330,
+    "end_ms": 39550,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "it",
+    "start_ms": 39550,
+    "end_ms": 39710
+  },
+  {
+    "w": "begins.",
+    "start_ms": 39710,
+    "end_ms": 39910,
+    "lemma": "begin",
+    "pos": "VERB"
+  },
+  {
+    "w": "We",
+    "start_ms": 50160,
+    "end_ms": 50460
+  },
+  {
+    "w": "got",
+    "start_ms": 50460,
+    "end_ms": 50660,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 50660,
+    "end_ms": 50820
+  },
+  {
+    "w": "Paris",
+    "start_ms": 50820,
+    "end_ms": 51060
+  },
+  {
+    "w": "at",
+    "start_ms": 51060,
+    "end_ms": 51380
+  },
+  {
+    "w": "17",
+    "start_ms": 51380,
+    "end_ms": 52060
+  },
+  {
+    "w": "degrees",
+    "start_ms": 52060,
+    "end_ms": 52600,
+    "lemma": "degree",
+    "pos": "NOUN"
+  },
+  {
+    "w": "outside.",
+    "start_ms": 52600,
+    "end_ms": 53020,
+    "lemma": "outside",
+    "pos": "ADV"
+  },
+  {
+    "w": "The",
+    "start_ms": 54060,
+    "end_ms": 54240
+  },
+  {
+    "w": "airport",
+    "start_ms": 54240,
+    "end_ms": 54500,
+    "lemma": "airport",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 54500,
+    "end_ms": 54900
+  },
+  {
+    "w": "okay.",
+    "start_ms": 54900,
+    "end_ms": 55260,
+    "lemma": "okay",
+    "pos": "ADJ"
+  },
+  {
+    "w": "We'll",
+    "start_ms": 59450,
+    "end_ms": 59850
+  },
+  {
+    "w": "come",
+    "start_ms": 59850,
+    "end_ms": 60090,
+    "lemma": "come",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 60090,
+    "end_ms": 60270
+  },
+  {
+    "w": "Paris.",
+    "start_ms": 60270,
+    "end_ms": 60470
+  },
+  {
+    "w": "All",
+    "start_ms": 71900,
+    "end_ms": 71980,
+    "lemma": "all",
+    "pos": "ADV"
+  },
+  {
+    "w": "right,",
+    "start_ms": 71980,
+    "end_ms": 72060,
+    "lemma": "right",
+    "pos": "ADV"
+  },
+  {
+    "w": "all",
+    "start_ms": 72140,
+    "end_ms": 72200
+  },
+  {
+    "w": "very",
+    "start_ms": 72200,
+    "end_ms": 72420,
+    "lemma": "very",
+    "pos": "ADV"
+  },
+  {
+    "w": "successful.",
+    "start_ms": 72420,
+    "end_ms": 72900,
+    "lemma": "successful",
+    "pos": "ADJ"
+  },
+  {
+    "w": "We",
+    "start_ms": 73420,
+    "end_ms": 73440
+  },
+  {
+    "w": "visited",
+    "start_ms": 73440,
+    "end_ms": 73620,
+    "lemma": "visit",
+    "pos": "VERB"
+  },
+  {
+    "w": "Tahir",
+    "start_ms": 73620,
+    "end_ms": 74120
+  },
+  {
+    "w": "Square.",
+    "start_ms": 74120,
+    "end_ms": 74360
+  },
+  {
+    "w": "We",
+    "start_ms": 74900,
+    "end_ms": 75060
+  },
+  {
+    "w": "rode",
+    "start_ms": 75060,
+    "end_ms": 75220,
+    "lemma": "ride",
+    "pos": "VERB"
+  },
+  {
+    "w": "horses",
+    "start_ms": 75220,
+    "end_ms": 75680,
+    "lemma": "horse",
+    "pos": "NOUN"
+  },
+  {
+    "w": "on",
+    "start_ms": 75680,
+    "end_ms": 76300
+  },
+  {
+    "w": "the",
+    "start_ms": 76300,
+    "end_ms": 76460
+  },
+  {
+    "w": "max",
+    "start_ms": 76460,
+    "end_ms": 76600,
+    "lemma": "max",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 76600,
+    "end_ms": 76800
+  },
+  {
+    "w": "was",
+    "start_ms": 76800,
+    "end_ms": 76920
+  },
+  {
+    "w": "gone",
+    "start_ms": 76920,
+    "end_ms": 77100,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "off",
+    "start_ms": 77100,
+    "end_ms": 77360
+  },
+  {
+    "w": "his.",
+    "start_ms": 77360,
+    "end_ms": 77620
+  },
+  {
+    "w": "Now",
+    "start_ms": 87640,
+    "end_ms": 88040,
+    "lemma": "now",
+    "pos": "ADV"
+  },
+  {
+    "w": "the",
+    "start_ms": 88040,
+    "end_ms": 88180
+  },
+  {
+    "w": "men's",
+    "start_ms": 88180,
+    "end_ms": 88460
+  },
+  {
+    "w": "not",
+    "start_ms": 88460,
+    "end_ms": 88640
+  },
+  {
+    "w": "going",
+    "start_ms": 88640,
+    "end_ms": 88780,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 88780,
+    "end_ms": 88800
+  },
+  {
+    "w": "vent.",
+    "start_ms": 88800,
+    "end_ms": 89020,
+    "lemma": "vent",
+    "pos": "VERB"
+  },
+  {
+    "w": "She's",
+    "start_ms": 89200,
+    "end_ms": 89400
+  },
+  {
+    "w": "going",
+    "start_ms": 89400,
+    "end_ms": 89480,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 89480,
+    "end_ms": 89680
+  },
+  {
+    "w": "the",
+    "start_ms": 89680,
+    "end_ms": 89760
+  },
+  {
+    "w": "faucet.",
+    "start_ms": 89760,
+    "end_ms": 90100,
+    "lemma": "faucet",
+    "pos": "NOUN"
+  },
+  {
+    "w": "She's",
+    "start_ms": 90220,
+    "end_ms": 90360
+  },
+  {
+    "w": "going",
+    "start_ms": 90360,
+    "end_ms": 90440,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 90440,
+    "end_ms": 90600
+  },
+  {
+    "w": "find",
+    "start_ms": 90600,
+    "end_ms": 90680,
+    "lemma": "find",
+    "pos": "VERB"
+  },
+  {
+    "w": "her",
+    "start_ms": 90680,
+    "end_ms": 90820
+  },
+  {
+    "w": "to",
+    "start_ms": 90820,
+    "end_ms": 90960
+  },
+  {
+    "w": "be",
+    "start_ms": 90960,
+    "end_ms": 91200
+  },
+  {
+    "w": "special.",
+    "start_ms": 91200,
+    "end_ms": 91340,
+    "lemma": "special",
+    "pos": "ADJ"
+  },
+  {
+    "w": "We're",
+    "start_ms": 91580,
+    "end_ms": 91680
+  },
+  {
+    "w": "in",
+    "start_ms": 91680,
+    "end_ms": 91720
+  },
+  {
+    "w": "Johannesburg",
+    "start_ms": 91720,
+    "end_ms": 92280
+  },
+  {
+    "w": "in",
+    "start_ms": 92280,
+    "end_ms": 92500
+  },
+  {
+    "w": "South",
+    "start_ms": 92500,
+    "end_ms": 92660
+  },
+  {
+    "w": "Africa",
+    "start_ms": 92660,
+    "end_ms": 92880
+  },
+  {
+    "w": "right",
+    "start_ms": 92880,
+    "end_ms": 93320,
+    "lemma": "right",
+    "pos": "ADV"
+  },
+  {
+    "w": "now.",
+    "start_ms": 93320,
+    "end_ms": 93540,
+    "lemma": "now",
+    "pos": "ADV"
+  },
+  {
+    "w": "Just",
+    "start_ms": 93740,
+    "end_ms": 93820,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "got",
+    "start_ms": 93820,
+    "end_ms": 94020,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 94020,
+    "end_ms": 94280
+  },
+  {
+    "w": "Zambia.",
+    "start_ms": 94280,
+    "end_ms": 94840
+  },
+  {
+    "w": "We're",
+    "start_ms": 95230,
+    "end_ms": 95480
+  },
+  {
+    "w": "stuck",
+    "start_ms": 128759,
+    "end_ms": 128960,
+    "lemma": "stuck",
+    "pos": "ADJ"
+  },
+  {
+    "w": "in",
+    "start_ms": 128960,
+    "end_ms": 129160
+  },
+  {
+    "w": "that",
+    "start_ms": 129160,
+    "end_ms": 129500
+  },
+  {
+    "w": "roving.",
+    "start_ms": 129500,
+    "end_ms": 129840,
+    "lemma": "roving",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We're",
+    "start_ms": 130060,
+    "end_ms": 130160
+  },
+  {
+    "w": "at",
+    "start_ms": 130160,
+    "end_ms": 130220
+  },
+  {
+    "w": "the",
+    "start_ms": 130220,
+    "end_ms": 130340
+  },
+  {
+    "w": "Vatican",
+    "start_ms": 130340,
+    "end_ms": 130580
+  },
+  {
+    "w": "right",
+    "start_ms": 130580,
+    "end_ms": 130860,
+    "lemma": "right",
+    "pos": "ADV"
+  },
+  {
+    "w": "now.",
+    "start_ms": 130860,
+    "end_ms": 131100,
+    "lemma": "now",
+    "pos": "ADV"
+  },
+  {
+    "w": "We're",
+    "start_ms": 131220,
+    "end_ms": 131320
+  },
+  {
+    "w": "leaving",
+    "start_ms": 131320,
+    "end_ms": 131520,
+    "lemma": "leave",
+    "pos": "VERB"
+  },
+  {
+    "w": "Rome",
+    "start_ms": 131520,
+    "end_ms": 131880
+  },
+  {
+    "w": "and",
+    "start_ms": 131880,
+    "end_ms": 132160
+  },
+  {
+    "w": "renting",
+    "start_ms": 132160,
+    "end_ms": 132520,
+    "lemma": "rent",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 132520,
+    "end_ms": 132680
+  },
+  {
+    "w": "car.",
+    "start_ms": 132680,
+    "end_ms": 132920,
+    "lemma": "car",
+    "pos": "NOUN"
+  },
+  {
+    "w": "The",
+    "start_ms": 133220,
+    "end_ms": 133280
+  },
+  {
+    "w": "trouble",
+    "start_ms": 133280,
+    "end_ms": 133580,
+    "lemma": "trouble",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 133580,
+    "end_ms": 133980
+  },
+  {
+    "w": "all",
+    "start_ms": 133980,
+    "end_ms": 134500
+  },
+  {
+    "w": "of",
+    "start_ms": 134500,
+    "end_ms": 134760
+  },
+  {
+    "w": "the",
+    "start_ms": 134760,
+    "end_ms": 134940
+  },
+  {
+    "w": "street",
+    "start_ms": 134940,
+    "end_ms": 135380,
+    "lemma": "street",
+    "pos": "NOUN"
+  },
+  {
+    "w": "signs",
+    "start_ms": 135380,
+    "end_ms": 135820,
+    "lemma": "sign",
+    "pos": "NOUN"
+  },
+  {
+    "w": "are",
+    "start_ms": 135820,
+    "end_ms": 136700
+  },
+  {
+    "w": "written",
+    "start_ms": 136700,
+    "end_ms": 136960,
+    "lemma": "write",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 136960,
+    "end_ms": 137200
+  },
+  {
+    "w": "squiggly",
+    "start_ms": 137200,
+    "end_ms": 137880,
+    "lemma": "squiggly",
+    "pos": "ADV"
+  },
+  {
+    "w": "lines.",
+    "start_ms": 137880,
+    "end_ms": 138240,
+    "lemma": "line",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Back",
+    "start_ms": 138840,
+    "end_ms": 139060,
+    "lemma": "back",
+    "pos": "ADV"
+  },
+  {
+    "w": "in",
+    "start_ms": 141710,
+    "end_ms": 141910
+  },
+  {
+    "w": "Doha.",
+    "start_ms": 141910,
+    "end_ms": 142270
+  },
+  {
+    "w": "It's",
+    "start_ms": 142770,
+    "end_ms": 142870
+  },
+  {
+    "w": "like",
+    "start_ms": 142870,
+    "end_ms": 142970
+  },
+  {
+    "w": "four",
+    "start_ms": 142970,
+    "end_ms": 143210
+  },
+  {
+    "w": "minutes.",
+    "start_ms": 143210,
+    "end_ms": 143690,
+    "lemma": "minute",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We're",
+    "start_ms": 144030,
+    "end_ms": 144430
+  },
+  {
+    "w": "in",
+    "start_ms": 144430,
+    "end_ms": 144550
+  },
+  {
+    "w": "Bangkok.",
+    "start_ms": 144550,
+    "end_ms": 144730
+  },
+  {
+    "w": "We",
+    "start_ms": 145350,
+    "end_ms": 145350
+  },
+  {
+    "w": "have",
+    "start_ms": 145350,
+    "end_ms": 145410,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 145410,
+    "end_ms": 145490
+  },
+  {
+    "w": "terrible",
+    "start_ms": 145490,
+    "end_ms": 145930,
+    "lemma": "terrible",
+    "pos": "ADJ"
+  },
+  {
+    "w": "taxi",
+    "start_ms": 145930,
+    "end_ms": 146290,
+    "lemma": "taxi",
+    "pos": "NOUN"
+  },
+  {
+    "w": "driver.",
+    "start_ms": 146290,
+    "end_ms": 146890,
+    "lemma": "driver",
+    "pos": "NOUN"
+  },
+  {
+    "w": "It's",
+    "start_ms": 147050,
+    "end_ms": 147150
+  },
+  {
+    "w": "taking",
+    "start_ms": 147150,
+    "end_ms": 147310,
+    "lemma": "take",
+    "pos": "VERB"
+  },
+  {
+    "w": "me",
+    "start_ms": 147310,
+    "end_ms": 147650
+  },
+  {
+    "w": "20.",
+    "start_ms": 147650,
+    "end_ms": 148090
+  },
+  {
+    "w": "What's",
+    "start_ms": 148590,
+    "end_ms": 148770
+  },
+  {
+    "w": "up?",
+    "start_ms": 148770,
+    "end_ms": 148910
+  },
+  {
+    "w": "We",
+    "start_ms": 149490,
+    "end_ms": 149610
+  },
+  {
+    "w": "forgot",
+    "start_ms": 149610,
+    "end_ms": 149830,
+    "lemma": "forgot",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 149830,
+    "end_ms": 149990
+  },
+  {
+    "w": "eat",
+    "start_ms": 149990,
+    "end_ms": 150050,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "today",
+    "start_ms": 150050,
+    "end_ms": 150350,
+    "lemma": "today",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 150350,
+    "end_ms": 150490
+  },
+  {
+    "w": "I've",
+    "start_ms": 150490,
+    "end_ms": 150610
+  },
+  {
+    "w": "got",
+    "start_ms": 150610,
+    "end_ms": 150690,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 150690,
+    "end_ms": 150830
+  },
+  {
+    "w": "shakes",
+    "start_ms": 150830,
+    "end_ms": 151030,
+    "lemma": "shake",
+    "pos": "NOUN"
+  },
+  {
+    "w": "real",
+    "start_ms": 151030,
+    "end_ms": 151370,
+    "lemma": "real",
+    "pos": "ADV"
+  },
+  {
+    "w": "bad.",
+    "start_ms": 151370,
+    "end_ms": 151690,
+    "lemma": "bad",
+    "pos": "ADJ"
+  },
+  {
+    "w": "This",
+    "start_ms": 152190,
+    "end_ms": 152530
+  },
+  {
+    "w": "is",
+    "start_ms": 154580,
+    "end_ms": 154700
+  },
+  {
+    "w": "the",
+    "start_ms": 154700,
+    "end_ms": 154860
+  },
+  {
+    "w": "dahlia's",
+    "start_ms": 154860,
+    "end_ms": 155520
+  },
+  {
+    "w": "airplane",
+    "start_ms": 155520,
+    "end_ms": 155800,
+    "lemma": "airplane",
+    "pos": "NOUN"
+  },
+  {
+    "w": "food",
+    "start_ms": 155800,
+    "end_ms": 156540,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "I've",
+    "start_ms": 156540,
+    "end_ms": 156920
+  },
+  {
+    "w": "ever",
+    "start_ms": 156920,
+    "end_ms": 157120,
+    "lemma": "ever",
+    "pos": "ADV"
+  },
+  {
+    "w": "seen.",
+    "start_ms": 157120,
+    "end_ms": 157400,
+    "lemma": "see",
+    "pos": "VERB"
+  },
+  {
+    "w": "Look",
+    "start_ms": 157740,
+    "end_ms": 157900,
+    "lemma": "look",
+    "pos": "VERB"
+  },
+  {
+    "w": "at",
+    "start_ms": 157900,
+    "end_ms": 158000
+  },
+  {
+    "w": "this",
+    "start_ms": 158000,
+    "end_ms": 158120
+  },
+  {
+    "w": "wiener.",
+    "start_ms": 158120,
+    "end_ms": 158440,
+    "lemma": "wiener",
+    "pos": "NOUN"
+  }
+]

@@ -1,142 +1,35 @@
 [
-  {
-    "id": "foster_matchday",
-    "query": "Ben Foster Cycling Goalkeeper matchday vlog",
-    "topic": "football",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=IBu7YqrxHoI"
-  },
-  {
-    "id": "skysports_micd",
-    "query": "Sky Sports player mic'd up funny",
-    "topic": "football",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=PfbdoEm63og"
-  },
-  {
-    "id": "tifo_clubs_money",
-    "query": "Tifo Football how clubs make money",
-    "topic": "football",
-    "cefr": "B2",
-    "url": "https://www.youtube.com/watch?v=_a68Gw4rsV4"
-  },
-  {
-    "id": "hitc_risefall",
-    "query": "HITC Sevens rise and fall football club",
-    "topic": "football",
-    "cefr": "B2",
-    "url": "https://www.youtube.com/watch?v=Qz-f7dt3FOY"
-  },
-  {
-    "id": "mayuko_day",
-    "query": "mayuko day in the life software engineer",
-    "topic": "software",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=rqX8PFcOpxA"
-  },
-  {
-    "id": "fireship_ai",
-    "query": "Fireship AI in 100 seconds",
-    "topic": "software",
-    "cefr": "B2",
-    "url": "https://www.youtube.com/watch?v=PeMlggyqz0Y"
-  },
-  {
-    "id": "mkbhd_ai",
-    "query": "MKBHD AI review",
-    "topic": "software",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=ohqxP8EEumo"
-  },
-  {
-    "id": "techlead_day",
-    "query": "TechLead day in the life silicon valley engineer",
-    "topic": "software",
-    "cefr": "B2",
-    "url": "https://www.youtube.com/watch?v=Rgx8dpiPwpA"
-  },
-  {
-    "id": "neistat_vlog",
-    "query": "Casey Neistat daily vlog",
-    "topic": "daily",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=gnHCw87Enq4"
-  },
-  {
-    "id": "davella_routine",
-    "query": "Matt D'Avella my daily routine",
-    "topic": "daily",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=lqvioBo1his"
-  },
-  {
-    "id": "damon_paris",
-    "query": "Damon Dominique day in my life Paris",
-    "topic": "daily",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=JlxwovTcPYY"
-  },
-  {
-    "id": "aliabdaal_eve",
-    "query": "Ali Abdaal evening routine productivity",
-    "topic": "daily",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=K3eS4jr2pIo"
-  },
-  {
-    "id": "easyeng_london",
-    "query": "Easy English street interview London daily life",
-    "topic": "daily",
-    "cefr": "A2",
-    "url": "https://www.youtube.com/watch?v=DDjWTWHHkpk"
-  },
-  {
-    "id": "foodreview_st",
-    "query": "Best Ever Food Review Show street food",
-    "topic": "daily",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=JLIIR-KrsSY"
-  },
-  {
-    "id": "ndrew_sleep",
-    "query": "Nathaniel Drew sleep experiment 30 days",
-    "topic": "daily",
-    "cefr": "B2",
-    "url": "https://www.youtube.com/watch?v=KTjLVK9mfME"
-  },
-  {
-    "id": "yestheory_yes",
-    "query": "Yes Theory saying yes to strangers",
-    "topic": "daily",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=knfr0SUqJvI"
-  },
-  {
-    "id": "zoella_vlog",
-    "query": "Zoella weekly vlog",
-    "topic": "daily",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=_uoU4crBf8M"
-  },
-  {
-    "id": "mckinnon_day",
-    "query": "Peter McKinnon day in the life coffee",
-    "topic": "daily",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=r5NuduSK75o"
-  },
-  {
-    "id": "learneng_tv",
-    "query": "Learn English with TV Series real conversations",
-    "topic": "daily",
-    "cefr": "B1",
-    "url": "https://www.youtube.com/watch?v=RjQJRRU8ZFU"
-  },
-  {
-    "id": "ted_procrast",
-    "query": "Tim Urban inside the mind of a master procrastinator TED",
-    "topic": "daily",
-    "cefr": "B2",
-    "url": "https://www.youtube.com/watch?v=arj7oStGLkU"
-  }
+  { "id": "learneng_tv",        "unit": 1, "unit_title": "Personal Identity & Relationships", "topic": "identity", "cefr": "B1", "query": "Learn English with TV Series real life conversation", "url": "https://www.youtube.com/watch?v=RjQJRRU8ZFU" },
+  { "id": "oxford_self",        "unit": 1, "unit_title": "Personal Identity & Relationships", "topic": "identity", "cefr": "A2", "query": "Oxford Online English how to talk about yourself", "url": "https://www.youtube.com/watch?v=rc-M4PtgYug" },
+  { "id": "zoella_vlog",        "unit": 1, "unit_title": "Personal Identity & Relationships", "topic": "identity", "cefr": "B1", "query": "Zoella weekly vlog", "url": "https://www.youtube.com/watch?v=_uoU4crBf8M" },
+  { "id": "ted_introvert",      "unit": 1, "unit_title": "Personal Identity & Relationships", "topic": "identity", "cefr": "B2", "query": "Susan Cain the power of introverts TED", "url": "https://www.youtube.com/watch?v=c0KYU2j0TM4" },
+
+  { "id": "aliabdaal_eve",      "unit": 2, "unit_title": "Daily Life, Routines & Habits", "topic": "daily", "cefr": "B1", "query": "Ali Abdaal evening routine productivity", "url": "https://www.youtube.com/watch?v=K3eS4jr2pIo" },
+  { "id": "davella_routine",    "unit": 2, "unit_title": "Daily Life, Routines & Habits", "topic": "daily", "cefr": "B1", "query": "Matt D'Avella my daily routine", "url": "https://www.youtube.com/watch?v=lqvioBo1his" },
+  { "id": "easyeng_london",     "unit": 2, "unit_title": "Daily Life, Routines & Habits", "topic": "daily", "cefr": "A2", "query": "Easy English street interview London daily life", "url": "https://www.youtube.com/watch?v=DDjWTWHHkpk" },
+  { "id": "neistat_count",      "unit": 2, "unit_title": "Daily Life, Routines & Habits", "topic": "daily", "cefr": "B1", "query": "Casey Neistat make it count", "url": "https://www.youtube.com/watch?v=rJeH9ikDoBs" },
+
+  { "id": "damon_paris",        "unit": 3, "unit_title": "Travel, Culture & Exploration", "topic": "travel", "cefr": "B1", "query": "Damon Dominique day in my life Paris", "url": "https://www.youtube.com/watch?v=JlxwovTcPYY" },
+  { "id": "yestheory_yes",      "unit": 3, "unit_title": "Travel, Culture & Exploration", "topic": "travel", "cefr": "B1", "query": "Yes Theory saying yes to strangers", "url": "https://www.youtube.com/watch?v=knfr0SUqJvI" },
+
+  { "id": "bbc6min_food",       "unit": 4, "unit_title": "Food, Dining & Health", "topic": "food", "cefr": "A2", "query": "BBC Learning English 6 Minute English food waste", "url": "https://www.youtube.com/watch?v=Z51Q29u4CWc" },
+  { "id": "foodreview_st",      "unit": 4, "unit_title": "Food, Dining & Health", "topic": "food", "cefr": "B1", "query": "Best Ever Food Review Show street food", "url": "https://www.youtube.com/watch?v=JLIIR-KrsSY" },
+  { "id": "davella_sugar",      "unit": 4, "unit_title": "Food, Dining & Health", "topic": "food", "cefr": "B1", "query": "Matt D'Avella I quit sugar for 30 days", "url": "https://www.youtube.com/watch?v=Ufm0yPA-kWc" },
+  { "id": "ndrew_sleep",        "unit": 4, "unit_title": "Food, Dining & Health", "topic": "food", "cefr": "B2", "query": "Nathaniel Drew Da Vinci daily routine", "url": "https://www.youtube.com/watch?v=KTjLVK9mfME" },
+
+  { "id": "mayuko_day",         "unit": 5, "unit_title": "Work, Career & Ambition", "topic": "work", "cefr": "B1", "query": "mayuko day in the life software engineer", "url": "https://www.youtube.com/watch?v=rqX8PFcOpxA" },
+  { "id": "techlead_day",       "unit": 5, "unit_title": "Work, Career & Ambition", "topic": "work", "cefr": "B2", "query": "TechLead day in the life engineer", "url": "https://www.youtube.com/watch?v=Rgx8dpiPwpA" },
+  { "id": "schooloflife_career","unit": 5, "unit_title": "Work, Career & Ambition", "topic": "work", "cefr": "B1", "query": "The School of Life how to find fulfilling work", "url": "https://www.youtube.com/watch?v=veriqDHLXsw" },
+  { "id": "aliabdaal_time",     "unit": 5, "unit_title": "Work, Career & Ambition", "topic": "work", "cefr": "B1", "query": "Ali Abdaal how I manage my time 10 tips", "url": "https://www.youtube.com/watch?v=iONDebHX9qk" },
+
+  { "id": "mkbhd_ai",           "unit": 6, "unit_title": "Technology, Media & Innovation", "topic": "tech", "cefr": "B2", "query": "MKBHD Apple Intelligence review", "url": "https://www.youtube.com/watch?v=haDjmBT9tu4" },
+  { "id": "fireship_ai",        "unit": 6, "unit_title": "Technology, Media & Innovation", "topic": "tech", "cefr": "B2", "query": "Fireship machine learning in 100 seconds", "url": "https://www.youtube.com/watch?v=PeMlggyqz0Y" },
+  { "id": "wired_blockchain",   "unit": 6, "unit_title": "Technology, Media & Innovation", "topic": "tech", "cefr": "B2", "query": "Wired 5 levels blockchain explained", "url": "https://www.youtube.com/watch?v=hYip_Vuv8J0" },
+
+  { "id": "vox_noise",          "unit": 7, "unit_title": "Environment, Nature & Climate", "topic": "environment", "cefr": "B2", "query": "Vox is city noise making us sick", "url": "https://www.youtube.com/watch?v=qryWWGP0kKs" },
+  { "id": "kurzgesagt_lonely",  "unit": 7, "unit_title": "Environment, Nature & Climate", "topic": "environment", "cefr": "B1", "query": "Kurzgesagt loneliness", "url": "https://www.youtube.com/watch?v=n3Xv_g3g-mA" },
+
+  { "id": "mckinnon_day",       "unit": 8, "unit_title": "Arts, Entertainment & Leisure", "topic": "arts", "cefr": "B1", "query": "Peter McKinnon getting coffee day in the life", "url": "https://www.youtube.com/watch?v=r5NuduSK75o" },
+  { "id": "foster_matchday",    "unit": 8, "unit_title": "Arts, Entertainment & Leisure", "topic": "arts", "cefr": "B1", "query": "Ben Foster Cycling Goalkeeper matchday vlog", "url": "https://www.youtube.com/watch?v=IBu7YqrxHoI" },
+  { "id": "ted_schools",        "unit": 8, "unit_title": "Arts, Entertainment & Leisure", "topic": "arts", "cefr": "B2", "query": "Ken Robinson do schools kill creativity TED", "url": "https://www.youtube.com/watch?v=iG9CE55wbtY" }
 ]

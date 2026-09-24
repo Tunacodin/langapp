@@ -1,0 +1,1102 @@
+{
+  "video_id": "neistat_count",
+  "title": "Casey Neistat make it count",
+  "topic": "daily",
+  "license": "",
+  "cefr": "B1",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 31180,
+      "end_ms": 31900,
+      "text_en": "but we're cutting it close.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re cutting",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 6,
+          "span_end": 17
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "cutting",
+          "lemma": "cut",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 31380,
+          "end_ms": 31540
+        },
+        {
+          "surface": "close",
+          "lemma": "close",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 31700,
+          "end_ms": 31900
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "start_ms": 32380,
+      "end_ms": 34880,
+      "text_en": "So far the trip is off to a fairly irresponsible start.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 32380,
+          "end_ms": 32600
+        },
+        {
+          "surface": "far",
+          "lemma": "far",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 32600,
+          "end_ms": 32700
+        },
+        {
+          "surface": "trip",
+          "lemma": "trip",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 32860,
+          "end_ms": 33040
+        },
+        {
+          "surface": "off",
+          "lemma": "off",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 33200,
+          "end_ms": 33340
+        },
+        {
+          "surface": "fairly",
+          "lemma": "fairly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 33580,
+          "end_ms": 33820
+        },
+        {
+          "surface": "irresponsible",
+          "lemma": "irresponsible",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 33820,
+          "end_ms": 34060
+        },
+        {
+          "surface": "start",
+          "lemma": "start",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 34060,
+          "end_ms": 34880
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "start_ms": 39150,
+      "end_ms": 39910,
+      "text_en": "And so it begins.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "begins",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 10,
+          "span_end": 16
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 39330,
+          "end_ms": 39550
+        },
+        {
+          "surface": "begins",
+          "lemma": "begin",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 39710,
+          "end_ms": 39910
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "start_ms": 50160,
+      "end_ms": 53020,
+      "text_en": "We got to Paris at 17 degrees outside.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 6
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 50460,
+          "end_ms": 50660
+        },
+        {
+          "surface": "degrees",
+          "lemma": "degree",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 52060,
+          "end_ms": 52600
+        },
+        {
+          "surface": "outside",
+          "lemma": "outside",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 52600,
+          "end_ms": 53020
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "start_ms": 54060,
+      "end_ms": 55260,
+      "text_en": "The airport is okay.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "airport",
+          "lemma": "airport",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 54240,
+          "end_ms": 54500
+        },
+        {
+          "surface": "okay",
+          "lemma": "okay",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 54900,
+          "end_ms": 55260
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "start_ms": 59450,
+      "end_ms": 60470,
+      "text_en": "We'll come to Paris.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ll come",
+          "note_tr": "Future (will)",
+          "cefr": "A2",
+          "norm_pattern": "future_will",
+          "span_start": 2,
+          "span_end": 10
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "come",
+          "lemma": "come",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 59850,
+          "end_ms": 60090
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "start_ms": 71900,
+      "end_ms": 72900,
+      "text_en": "All right, all very successful.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "all",
+          "lemma": "all",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 71900,
+          "end_ms": 71980
+        },
+        {
+          "surface": "right",
+          "lemma": "right",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 71980,
+          "end_ms": 72060
+        },
+        {
+          "surface": "very",
+          "lemma": "very",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 72200,
+          "end_ms": 72420
+        },
+        {
+          "surface": "successful",
+          "lemma": "successful",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 72420,
+          "end_ms": 72900
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "start_ms": 73420,
+      "end_ms": 74360,
+      "text_en": "We visited Tahir Square.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "visited",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 10
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "visited",
+          "lemma": "visit",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 73440,
+          "end_ms": 73620
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "start_ms": 74900,
+      "end_ms": 77620,
+      "text_en": "We rode horses on the max and was gone off his.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "was gone",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 30,
+          "span_end": 38
+        },
+        {
+          "pattern": "rode",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 3,
+          "span_end": 7
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "rode",
+          "lemma": "ride",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 75060,
+          "end_ms": 75220
+        },
+        {
+          "surface": "horses",
+          "lemma": "horse",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 75220,
+          "end_ms": 75680
+        },
+        {
+          "surface": "max",
+          "lemma": "max",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 76460,
+          "end_ms": 76600
+        },
+        {
+          "surface": "gone",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 76920,
+          "end_ms": 77100
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "start_ms": 87640,
+      "end_ms": 89020,
+      "text_en": "Now the men's not going to vent.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s not going to vent",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 11,
+          "span_end": 31
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 87640,
+          "end_ms": 88040
+        },
+        {
+          "surface": "men",
+          "lemma": "man",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 87640,
+          "end_ms": 89020
+        },
+        {
+          "surface": "going",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 88640,
+          "end_ms": 88780
+        },
+        {
+          "surface": "vent",
+          "lemma": "vent",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 88800,
+          "end_ms": 89020
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "start_ms": 89200,
+      "end_ms": 90100,
+      "text_en": "She's going to the faucet.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s going",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 3,
+          "span_end": 11
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "going",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 89400,
+          "end_ms": 89480
+        },
+        {
+          "surface": "faucet",
+          "lemma": "faucet",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 89760,
+          "end_ms": 90100
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "start_ms": 90220,
+      "end_ms": 91340,
+      "text_en": "She's going to find her to be special.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s going to find",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 3,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "going",
+          "lemma": "go",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 90360,
+          "end_ms": 90440
+        },
+        {
+          "surface": "find",
+          "lemma": "find",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 90600,
+          "end_ms": 90680
+        },
+        {
+          "surface": "special",
+          "lemma": "special",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 91200,
+          "end_ms": 91340
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "start_ms": 91580,
+      "end_ms": 93540,
+      "text_en": "We're in Johannesburg in South Africa right now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "right",
+          "lemma": "right",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 92880,
+          "end_ms": 93320
+        },
+        {
+          "surface": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 93320,
+          "end_ms": 93540
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "start_ms": 93740,
+      "end_ms": 94840,
+      "text_en": "Just got to Zambia.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "got",
+          "note_tr": "Simple Past",
+          "cefr": "A2",
+          "norm_pattern": "simple_past",
+          "span_start": 5,
+          "span_end": 8
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "just",
+          "lemma": "just",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 93740,
+          "end_ms": 93820
+        },
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 93820,
+          "end_ms": 94020
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "start_ms": 95230,
+      "end_ms": 129840,
+      "text_en": "We're stuck in that roving.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "stuck",
+          "lemma": "stuck",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 128759,
+          "end_ms": 128960
+        },
+        {
+          "surface": "roving",
+          "lemma": "roving",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 129500,
+          "end_ms": 129840
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "start_ms": 130060,
+      "end_ms": 131100,
+      "text_en": "We're at the Vatican right now.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "right",
+          "lemma": "right",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 130580,
+          "end_ms": 130860
+        },
+        {
+          "surface": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 130860,
+          "end_ms": 131100
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "start_ms": 131220,
+      "end_ms": 132920,
+      "text_en": "We're leaving Rome and renting a car.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'re leaving",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 13
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "leaving",
+          "lemma": "leave",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 131320,
+          "end_ms": 131520
+        },
+        {
+          "surface": "renting",
+          "lemma": "rent",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 132160,
+          "end_ms": 132520
+        },
+        {
+          "surface": "car",
+          "lemma": "car",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 132680,
+          "end_ms": 132920
+        }
+      ]
+    },
+    {
+      "idx": 17,
+      "start_ms": 133220,
+      "end_ms": 138240,
+      "text_en": "The trouble is all of the street signs are written in squiggly lines.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "are written",
+          "note_tr": "Passive Voice",
+          "cefr": "B1",
+          "norm_pattern": "passive_voice",
+          "span_start": 39,
+          "span_end": 50
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "trouble",
+          "lemma": "trouble",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 133280,
+          "end_ms": 133580
+        },
+        {
+          "surface": "street",
+          "lemma": "street",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 134940,
+          "end_ms": 135380
+        },
+        {
+          "surface": "signs",
+          "lemma": "sign",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 135380,
+          "end_ms": 135820
+        },
+        {
+          "surface": "written",
+          "lemma": "write",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 136700,
+          "end_ms": 136960
+        },
+        {
+          "surface": "squiggly",
+          "lemma": "squiggly",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 137200,
+          "end_ms": 137880
+        },
+        {
+          "surface": "lines",
+          "lemma": "line",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 137880,
+          "end_ms": 138240
+        }
+      ]
+    },
+    {
+      "idx": 18,
+      "start_ms": 138840,
+      "end_ms": 142270,
+      "text_en": "Back in Doha.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "back",
+          "lemma": "back",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 138840,
+          "end_ms": 139060
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "start_ms": 142770,
+      "end_ms": 143690,
+      "text_en": "It's like four minutes.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "minutes",
+          "lemma": "minute",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 143210,
+          "end_ms": 143690
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "start_ms": 144030,
+      "end_ms": 144730,
+      "text_en": "We're in Bangkok.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 21,
+      "start_ms": 145350,
+      "end_ms": 146890,
+      "text_en": "We have a terrible taxi driver.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 7
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 145350,
+          "end_ms": 145410
+        },
+        {
+          "surface": "terrible",
+          "lemma": "terrible",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 145490,
+          "end_ms": 145930
+        },
+        {
+          "surface": "taxi",
+          "lemma": "taxi",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 145930,
+          "end_ms": 146290
+        },
+        {
+          "surface": "driver",
+          "lemma": "driver",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 146290,
+          "end_ms": 146890
+        }
+      ]
+    },
+    {
+      "idx": 22,
+      "start_ms": 147050,
+      "end_ms": 148090,
+      "text_en": "It's taking me 20.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'s taking",
+          "note_tr": "Present Continuous",
+          "cefr": "A1",
+          "norm_pattern": "present_continuous",
+          "span_start": 2,
+          "span_end": 11
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "taking",
+          "lemma": "take",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 147150,
+          "end_ms": 147310
+        }
+      ]
+    },
+    {
+      "idx": 23,
+      "start_ms": 148590,
+      "end_ms": 148910,
+      "text_en": "What's up?",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 24,
+      "start_ms": 149490,
+      "end_ms": 151690,
+      "text_en": "We forgot to eat today and I've got the shakes real bad.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve got",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 28,
+          "span_end": 35
+        },
+        {
+          "pattern": "forgot",
+          "note_tr": "Simple Present",
+          "cefr": "A1",
+          "norm_pattern": "present_simple",
+          "span_start": 3,
+          "span_end": 9
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "forgot",
+          "lemma": "forgot",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 149610,
+          "end_ms": 149830
+        },
+        {
+          "surface": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 149990,
+          "end_ms": 150050
+        },
+        {
+          "surface": "today",
+          "lemma": "today",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 150050,
+          "end_ms": 150350
+        },
+        {
+          "surface": "got",
+          "lemma": "get",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 150610,
+          "end_ms": 150690
+        },
+        {
+          "surface": "shakes",
+          "lemma": "shake",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 150830,
+          "end_ms": 151030
+        },
+        {
+          "surface": "real",
+          "lemma": "real",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 151030,
+          "end_ms": 151370
+        },
+        {
+          "surface": "bad",
+          "lemma": "bad",
+          "pos": "ADJ",
+          "sense_idx": null,
+          "start_ms": 151370,
+          "end_ms": 151690
+        }
+      ]
+    },
+    {
+      "idx": 25,
+      "start_ms": 152190,
+      "end_ms": 157400,
+      "text_en": "This is the dahlia's airplane food I've ever seen.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "'ve ever seen",
+          "note_tr": "Present Perfect (have/has V3)",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_have_v3",
+          "span_start": 36,
+          "span_end": 49
+        }
+      ],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "dahlia",
+          "lemma": "dahlia",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 152190,
+          "end_ms": 157400
+        },
+        {
+          "surface": "airplane",
+          "lemma": "airplane",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 155520,
+          "end_ms": 155800
+        },
+        {
+          "surface": "food",
+          "lemma": "food",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 155800,
+          "end_ms": 156540
+        },
+        {
+          "surface": "ever",
+          "lemma": "ever",
+          "pos": "ADV",
+          "sense_idx": null,
+          "start_ms": 156920,
+          "end_ms": 157120
+        },
+        {
+          "surface": "seen",
+          "lemma": "see",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 157120,
+          "end_ms": 157400
+        }
+      ]
+    },
+    {
+      "idx": 26,
+      "start_ms": 157740,
+      "end_ms": 158440,
+      "text_en": "Look at this wiener.",
+      "text_tr": "",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [],
+      "vocab": [],
+      "occurrences": [
+        {
+          "surface": "look",
+          "lemma": "look",
+          "pos": "VERB",
+          "sense_idx": null,
+          "start_ms": 157740,
+          "end_ms": 157900
+        },
+        {
+          "surface": "wiener",
+          "lemma": "wiener",
+          "pos": "NOUN",
+          "sense_idx": null,
+          "start_ms": 158120,
+          "end_ms": 158440
+        }
+      ]
+    }
+  ]
+}

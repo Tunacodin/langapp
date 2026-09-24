@@ -1,0 +1,5977 @@
+[
+  {
+    "w": "Hello,",
+    "start_ms": 2060,
+    "end_ms": 2700
+  },
+  {
+    "w": "this",
+    "start_ms": 7220,
+    "end_ms": 7380
+  },
+  {
+    "w": "is",
+    "start_ms": 7380,
+    "end_ms": 7480
+  },
+  {
+    "w": "6",
+    "start_ms": 7480,
+    "end_ms": 7720
+  },
+  {
+    "w": "Minute",
+    "start_ms": 7720,
+    "end_ms": 7980
+  },
+  {
+    "w": "English",
+    "start_ms": 7980,
+    "end_ms": 8260
+  },
+  {
+    "w": "from",
+    "start_ms": 8260,
+    "end_ms": 8560
+  },
+  {
+    "w": "BBC",
+    "start_ms": 8560,
+    "end_ms": 8920
+  },
+  {
+    "w": "Learning",
+    "start_ms": 8920,
+    "end_ms": 9360
+  },
+  {
+    "w": "English,",
+    "start_ms": 9360,
+    "end_ms": 9740
+  },
+  {
+    "w": "I'm",
+    "start_ms": 10060,
+    "end_ms": 10220
+  },
+  {
+    "w": "Neil.",
+    "start_ms": 10220,
+    "end_ms": 10360
+  },
+  {
+    "w": "And",
+    "start_ms": 10720,
+    "end_ms": 10780
+  },
+  {
+    "w": "I'm",
+    "start_ms": 10780,
+    "end_ms": 10960
+  },
+  {
+    "w": "Sam.",
+    "start_ms": 10960,
+    "end_ms": 11160
+  },
+  {
+    "w": "Does",
+    "start_ms": 11680,
+    "end_ms": 11760
+  },
+  {
+    "w": "this",
+    "start_ms": 11760,
+    "end_ms": 11960
+  },
+  {
+    "w": "situation",
+    "start_ms": 11960,
+    "end_ms": 12340,
+    "lemma": "situation",
+    "pos": "NOUN"
+  },
+  {
+    "w": "sound",
+    "start_ms": 12340,
+    "end_ms": 13060,
+    "lemma": "sound",
+    "pos": "VERB"
+  },
+  {
+    "w": "familiar",
+    "start_ms": 13060,
+    "end_ms": 13420,
+    "lemma": "familiar",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 13420,
+    "end_ms": 13740
+  },
+  {
+    "w": "you,",
+    "start_ms": 13740,
+    "end_ms": 13860
+  },
+  {
+    "w": "Sam?",
+    "start_ms": 14000,
+    "end_ms": 14140
+  },
+  {
+    "w": "You",
+    "start_ms": 14860,
+    "end_ms": 14880
+  },
+  {
+    "w": "reach",
+    "start_ms": 14880,
+    "end_ms": 15100,
+    "lemma": "reach",
+    "pos": "VERB"
+  },
+  {
+    "w": "into",
+    "start_ms": 15100,
+    "end_ms": 15520
+  },
+  {
+    "w": "the",
+    "start_ms": 15520,
+    "end_ms": 15720
+  },
+  {
+    "w": "kitchen",
+    "start_ms": 15720,
+    "end_ms": 15980,
+    "lemma": "kitchen",
+    "pos": "NOUN"
+  },
+  {
+    "w": "refrigerator",
+    "start_ms": 15980,
+    "end_ms": 16440,
+    "lemma": "refrigerator",
+    "pos": "NOUN"
+  },
+  {
+    "w": "looking",
+    "start_ms": 16440,
+    "end_ms": 17280,
+    "lemma": "look",
+    "pos": "VERB"
+  },
+  {
+    "w": "for",
+    "start_ms": 17280,
+    "end_ms": 17580
+  },
+  {
+    "w": "something",
+    "start_ms": 17580,
+    "end_ms": 17900
+  },
+  {
+    "w": "to",
+    "start_ms": 17900,
+    "end_ms": 18100
+  },
+  {
+    "w": "eat,",
+    "start_ms": 18100,
+    "end_ms": 18320,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "only",
+    "start_ms": 18860,
+    "end_ms": 18940,
+    "lemma": "only",
+    "pos": "ADV"
+  },
+  {
+    "w": "to",
+    "start_ms": 18940,
+    "end_ms": 19160
+  },
+  {
+    "w": "find",
+    "start_ms": 19160,
+    "end_ms": 19460,
+    "lemma": "find",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 19460,
+    "end_ms": 19940
+  },
+  {
+    "w": "brown",
+    "start_ms": 19940,
+    "end_ms": 20360,
+    "lemma": "brown",
+    "pos": "ADJ"
+  },
+  {
+    "w": "lettuce,",
+    "start_ms": 20360,
+    "end_ms": 21100
+  },
+  {
+    "w": "a",
+    "start_ms": 21780,
+    "end_ms": 21840
+  },
+  {
+    "w": "sad",
+    "start_ms": 21840,
+    "end_ms": 22320,
+    "lemma": "sad",
+    "pos": "ADJ"
+  },
+  {
+    "w": "looking",
+    "start_ms": 22320,
+    "end_ms": 22740,
+    "lemma": "look",
+    "pos": "VERB"
+  },
+  {
+    "w": "cucumber",
+    "start_ms": 22740,
+    "end_ms": 23420,
+    "lemma": "cucumber",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 23420,
+    "end_ms": 23920
+  },
+  {
+    "w": "some",
+    "start_ms": 23920,
+    "end_ms": 24120
+  },
+  {
+    "w": "two",
+    "start_ms": 24120,
+    "end_ms": 24400
+  },
+  {
+    "w": "-week",
+    "start_ms": 24400,
+    "end_ms": 24720,
+    "lemma": "week",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-old",
+    "start_ms": 24720,
+    "end_ms": 24980,
+    "lemma": "old",
+    "pos": "ADJ"
+  },
+  {
+    "w": "fish",
+    "start_ms": 24980,
+    "end_ms": 25420,
+    "lemma": "fish",
+    "pos": "NOUN"
+  },
+  {
+    "w": "all",
+    "start_ms": 25420,
+    "end_ms": 25860
+  },
+  {
+    "w": "past",
+    "start_ms": 25860,
+    "end_ms": 26340
+  },
+  {
+    "w": "its",
+    "start_ms": 26340,
+    "end_ms": 26700
+  },
+  {
+    "w": "use",
+    "start_ms": 26700,
+    "end_ms": 27060,
+    "lemma": "use",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-by",
+    "start_ms": 27060,
+    "end_ms": 27380
+  },
+  {
+    "w": "date.",
+    "start_ms": 27380,
+    "end_ms": 27660,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "The",
+    "start_ms": 27660,
+    "end_ms": 28340
+  },
+  {
+    "w": "date",
+    "start_ms": 28340,
+    "end_ms": 28620,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "printed",
+    "start_ms": 28620,
+    "end_ms": 28980,
+    "lemma": "print",
+    "pos": "VERB"
+  },
+  {
+    "w": "on",
+    "start_ms": 28980,
+    "end_ms": 29440
+  },
+  {
+    "w": "the",
+    "start_ms": 29440,
+    "end_ms": 29600
+  },
+  {
+    "w": "food",
+    "start_ms": 29600,
+    "end_ms": 29800,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "containers",
+    "start_ms": 29800,
+    "end_ms": 30240,
+    "lemma": "container",
+    "pos": "NOUN"
+  },
+  {
+    "w": "showing",
+    "start_ms": 30240,
+    "end_ms": 30960,
+    "lemma": "show",
+    "pos": "VERB"
+  },
+  {
+    "w": "how",
+    "start_ms": 30960,
+    "end_ms": 31320
+  },
+  {
+    "w": "long",
+    "start_ms": 31320,
+    "end_ms": 31640,
+    "lemma": "long",
+    "pos": "ADJ"
+  },
+  {
+    "w": "it",
+    "start_ms": 31640,
+    "end_ms": 31960
+  },
+  {
+    "w": "is",
+    "start_ms": 31960,
+    "end_ms": 32119
+  },
+  {
+    "w": "safe",
+    "start_ms": 32119,
+    "end_ms": 32400,
+    "lemma": "safe",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 32400,
+    "end_ms": 32659
+  },
+  {
+    "w": "eat.",
+    "start_ms": 32659,
+    "end_ms": 32880,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 33140,
+    "end_ms": 33320
+  },
+  {
+    "w": "I'm",
+    "start_ms": 33480,
+    "end_ms": 33640
+  },
+  {
+    "w": "guilty",
+    "start_ms": 33640,
+    "end_ms": 33820,
+    "lemma": "guilty",
+    "pos": "ADJ"
+  },
+  {
+    "w": "of",
+    "start_ms": 33820,
+    "end_ms": 34120
+  },
+  {
+    "w": "wasting",
+    "start_ms": 34120,
+    "end_ms": 34280,
+    "lemma": "waste",
+    "pos": "VERB"
+  },
+  {
+    "w": "food,",
+    "start_ms": 34280,
+    "end_ms": 34740,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Neil.",
+    "start_ms": 34740,
+    "end_ms": 35020
+  },
+  {
+    "w": "Me",
+    "start_ms": 35280,
+    "end_ms": 35360
+  },
+  {
+    "w": "and",
+    "start_ms": 35360,
+    "end_ms": 35900
+  },
+  {
+    "w": "many",
+    "start_ms": 35900,
+    "end_ms": 36240,
+    "lemma": "many",
+    "pos": "ADJ"
+  },
+  {
+    "w": "others.",
+    "start_ms": 36240,
+    "end_ms": 36620,
+    "lemma": "other",
+    "pos": "NOUN"
+  },
+  {
+    "w": "According",
+    "start_ms": 37340,
+    "end_ms": 37540,
+    "lemma": "accord",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 37540,
+    "end_ms": 37920
+  },
+  {
+    "w": "the",
+    "start_ms": 37920,
+    "end_ms": 38020
+  },
+  {
+    "w": "UN,",
+    "start_ms": 38020,
+    "end_ms": 38340
+  },
+  {
+    "w": "one",
+    "start_ms": 38660,
+    "end_ms": 38900
+  },
+  {
+    "w": "-third",
+    "start_ms": 38900,
+    "end_ms": 39420,
+    "lemma": "third",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 39420,
+    "end_ms": 39640
+  },
+  {
+    "w": "the",
+    "start_ms": 39640,
+    "end_ms": 39760
+  },
+  {
+    "w": "food",
+    "start_ms": 39760,
+    "end_ms": 40000,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we",
+    "start_ms": 40000,
+    "end_ms": 40220
+  },
+  {
+    "w": "grow",
+    "start_ms": 40220,
+    "end_ms": 40500,
+    "lemma": "grow",
+    "pos": "VERB"
+  },
+  {
+    "w": "ends",
+    "start_ms": 40500,
+    "end_ms": 41100,
+    "lemma": "end",
+    "pos": "VERB"
+  },
+  {
+    "w": "up",
+    "start_ms": 41100,
+    "end_ms": 41320
+  },
+  {
+    "w": "in",
+    "start_ms": 41320,
+    "end_ms": 41520
+  },
+  {
+    "w": "the",
+    "start_ms": 41520,
+    "end_ms": 41640
+  },
+  {
+    "w": "rubbish",
+    "start_ms": 41640,
+    "end_ms": 41920
+  },
+  {
+    "w": "bin.",
+    "start_ms": 41920,
+    "end_ms": 42300
+  },
+  {
+    "w": "And",
+    "start_ms": 43020,
+    "end_ms": 43080
+  },
+  {
+    "w": "it's",
+    "start_ms": 43080,
+    "end_ms": 43180
+  },
+  {
+    "w": "not",
+    "start_ms": 43180,
+    "end_ms": 43340
+  },
+  {
+    "w": "just",
+    "start_ms": 43340,
+    "end_ms": 43560,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "food",
+    "start_ms": 43560,
+    "end_ms": 43900,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that's",
+    "start_ms": 43900,
+    "end_ms": 44280
+  },
+  {
+    "w": "wasted.",
+    "start_ms": 44280,
+    "end_ms": 44440,
+    "lemma": "waste",
+    "pos": "VERB"
+  },
+  {
+    "w": "It's",
+    "start_ms": 45120,
+    "end_ms": 45240
+  },
+  {
+    "w": "also",
+    "start_ms": 45240,
+    "end_ms": 45440,
+    "lemma": "also",
+    "pos": "ADV"
+  },
+  {
+    "w": "the",
+    "start_ms": 45440,
+    "end_ms": 45620
+  },
+  {
+    "w": "resources",
+    "start_ms": 45620,
+    "end_ms": 46080,
+    "lemma": "resource",
+    "pos": "NOUN"
+  },
+  {
+    "w": "used",
+    "start_ms": 46080,
+    "end_ms": 46660,
+    "lemma": "use",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 46660,
+    "end_ms": 47060
+  },
+  {
+    "w": "produce",
+    "start_ms": 47060,
+    "end_ms": 47300,
+    "lemma": "produce",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 47300,
+    "end_ms": 47700
+  },
+  {
+    "w": "food,",
+    "start_ms": 47700,
+    "end_ms": 48020,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "things",
+    "start_ms": 48440,
+    "end_ms": 48560,
+    "lemma": "thing",
+    "pos": "NOUN"
+  },
+  {
+    "w": "like",
+    "start_ms": 48560,
+    "end_ms": 48820
+  },
+  {
+    "w": "water,",
+    "start_ms": 48820,
+    "end_ms": 49180,
+    "lemma": "water",
+    "pos": "NOUN"
+  },
+  {
+    "w": "land",
+    "start_ms": 49580,
+    "end_ms": 49800,
+    "lemma": "land",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 49800,
+    "end_ms": 50380
+  },
+  {
+    "w": "transport.",
+    "start_ms": 50380,
+    "end_ms": 50800,
+    "lemma": "transport",
+    "pos": "NOUN"
+  },
+  {
+    "w": "In",
+    "start_ms": 51280,
+    "end_ms": 51380
+  },
+  {
+    "w": "this",
+    "start_ms": 51380,
+    "end_ms": 51520
+  },
+  {
+    "w": "program,",
+    "start_ms": 51520,
+    "end_ms": 51800,
+    "lemma": "program",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we'll",
+    "start_ms": 52240,
+    "end_ms": 52380
+  },
+  {
+    "w": "be",
+    "start_ms": 52380,
+    "end_ms": 52480
+  },
+  {
+    "w": "talking",
+    "start_ms": 52480,
+    "end_ms": 52760,
+    "lemma": "talk",
+    "pos": "VERB"
+  },
+  {
+    "w": "about",
+    "start_ms": 52760,
+    "end_ms": 53220
+  },
+  {
+    "w": "food",
+    "start_ms": 53220,
+    "end_ms": 53560,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "waste.",
+    "start_ms": 53560,
+    "end_ms": 53880,
+    "lemma": "waste",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We'll",
+    "start_ms": 53880,
+    "end_ms": 54860
+  },
+  {
+    "w": "meet",
+    "start_ms": 54860,
+    "end_ms": 55040,
+    "lemma": "meet",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 55040,
+    "end_ms": 55260
+  },
+  {
+    "w": "people",
+    "start_ms": 55260,
+    "end_ms": 55540,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "trying",
+    "start_ms": 55540,
+    "end_ms": 55900,
+    "lemma": "try",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 55900,
+    "end_ms": 56160
+  },
+  {
+    "w": "stop",
+    "start_ms": 56160,
+    "end_ms": 56440,
+    "lemma": "stop",
+    "pos": "VERB"
+  },
+  {
+    "w": "us",
+    "start_ms": 56440,
+    "end_ms": 56660
+  },
+  {
+    "w": "from",
+    "start_ms": 56660,
+    "end_ms": 56980
+  },
+  {
+    "w": "throwing",
+    "start_ms": 56980,
+    "end_ms": 57240,
+    "lemma": "throw",
+    "pos": "VERB"
+  },
+  {
+    "w": "good",
+    "start_ms": 57240,
+    "end_ms": 57760,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "food",
+    "start_ms": 57760,
+    "end_ms": 58040,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "away,",
+    "start_ms": 58040,
+    "end_ms": 58360,
+    "lemma": "away",
+    "pos": "ADV"
+  },
+  {
+    "w": "and,",
+    "start_ms": 58940,
+    "end_ms": 58960
+  },
+  {
+    "w": "as",
+    "start_ms": 59080,
+    "end_ms": 59340
+  },
+  {
+    "w": "usual,",
+    "start_ms": 59340,
+    "end_ms": 59560,
+    "lemma": "usual",
+    "pos": "ADJ"
+  },
+  {
+    "w": "we'll",
+    "start_ms": 60000,
+    "end_ms": 60100
+  },
+  {
+    "w": "be",
+    "start_ms": 60100,
+    "end_ms": 60220
+  },
+  {
+    "w": "learning",
+    "start_ms": 60220,
+    "end_ms": 60500,
+    "lemma": "learn",
+    "pos": "VERB"
+  },
+  {
+    "w": "some",
+    "start_ms": 60500,
+    "end_ms": 60820
+  },
+  {
+    "w": "new",
+    "start_ms": 60820,
+    "end_ms": 61060,
+    "lemma": "new",
+    "pos": "ADJ"
+  },
+  {
+    "w": "vocabulary",
+    "start_ms": 61060,
+    "end_ms": 61400,
+    "lemma": "vocabulary",
+    "pos": "NOUN"
+  },
+  {
+    "w": "as",
+    "start_ms": 61400,
+    "end_ms": 62040,
+    "lemma": "as",
+    "pos": "ADV"
+  },
+  {
+    "w": "well.",
+    "start_ms": 62040,
+    "end_ms": 62220,
+    "lemma": "well",
+    "pos": "ADV"
+  },
+  {
+    "w": "Here",
+    "start_ms": 62460,
+    "end_ms": 62640,
+    "lemma": "here",
+    "pos": "ADV"
+  },
+  {
+    "w": "in",
+    "start_ms": 62640,
+    "end_ms": 62780
+  },
+  {
+    "w": "the",
+    "start_ms": 62780,
+    "end_ms": 62880
+  },
+  {
+    "w": "UK,",
+    "start_ms": 62880,
+    "end_ms": 63140
+  },
+  {
+    "w": "big",
+    "start_ms": 63520,
+    "end_ms": 63600,
+    "lemma": "big",
+    "pos": "ADJ"
+  },
+  {
+    "w": "supermarkets",
+    "start_ms": 63600,
+    "end_ms": 64180,
+    "lemma": "supermarket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "import",
+    "start_ms": 64180,
+    "end_ms": 64739,
+    "lemma": "import",
+    "pos": "VERB"
+  },
+  {
+    "w": "food",
+    "start_ms": 64739,
+    "end_ms": 65200,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "from",
+    "start_ms": 65200,
+    "end_ms": 65459
+  },
+  {
+    "w": "abroad",
+    "start_ms": 65459,
+    "end_ms": 65660,
+    "lemma": "abroad",
+    "pos": "ADV"
+  },
+  {
+    "w": "for",
+    "start_ms": 65660,
+    "end_ms": 66160
+  },
+  {
+    "w": "customers",
+    "start_ms": 66160,
+    "end_ms": 66520,
+    "lemma": "customer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 66520,
+    "end_ms": 66920
+  },
+  {
+    "w": "enjoy",
+    "start_ms": 66920,
+    "end_ms": 67280,
+    "lemma": "enjoy",
+    "pos": "VERB"
+  },
+  {
+    "w": "all",
+    "start_ms": 67280,
+    "end_ms": 67640
+  },
+  {
+    "w": "year",
+    "start_ms": 67640,
+    "end_ms": 67920,
+    "lemma": "year",
+    "pos": "NOUN"
+  },
+  {
+    "w": "round.",
+    "start_ms": 67920,
+    "end_ms": 68220,
+    "lemma": "round",
+    "pos": "ADV"
+  },
+  {
+    "w": "Summer",
+    "start_ms": 69000,
+    "end_ms": 69180,
+    "lemma": "summer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "fruit,",
+    "start_ms": 69180,
+    "end_ms": 69520,
+    "lemma": "fruit",
+    "pos": "NOUN"
+  },
+  {
+    "w": "like",
+    "start_ms": 69740,
+    "end_ms": 69860
+  },
+  {
+    "w": "strawberries",
+    "start_ms": 69860,
+    "end_ms": 70160,
+    "lemma": "strawberry",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 70160,
+    "end_ms": 70600
+  },
+  {
+    "w": "mangoes",
+    "start_ms": 70600,
+    "end_ms": 71240,
+    "lemma": "mango",
+    "pos": "NOUN"
+  },
+  {
+    "w": "are",
+    "start_ms": 71240,
+    "end_ms": 71400
+  },
+  {
+    "w": "flown",
+    "start_ms": 71400,
+    "end_ms": 71720,
+    "lemma": "fly",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 71720,
+    "end_ms": 72020
+  },
+  {
+    "w": "from",
+    "start_ms": 72020,
+    "end_ms": 72300
+  },
+  {
+    "w": "tropical",
+    "start_ms": 72300,
+    "end_ms": 72660,
+    "lemma": "tropical",
+    "pos": "ADJ"
+  },
+  {
+    "w": "countries",
+    "start_ms": 72660,
+    "end_ms": 73260,
+    "lemma": "country",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 73260,
+    "end_ms": 73660
+  },
+  {
+    "w": "sold",
+    "start_ms": 73660,
+    "end_ms": 73960,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 73960,
+    "end_ms": 74260
+  },
+  {
+    "w": "winter,",
+    "start_ms": 74260,
+    "end_ms": 74620,
+    "lemma": "winter",
+    "pos": "NOUN"
+  },
+  {
+    "w": "increasing",
+    "start_ms": 75220,
+    "end_ms": 75580,
+    "lemma": "increase",
+    "pos": "VERB"
+  },
+  {
+    "w": "carbon",
+    "start_ms": 75580,
+    "end_ms": 76140,
+    "lemma": "carbon",
+    "pos": "NOUN"
+  },
+  {
+    "w": "emissions",
+    "start_ms": 76140,
+    "end_ms": 76540,
+    "lemma": "emission",
+    "pos": "NOUN"
+  },
+  {
+    "w": "as",
+    "start_ms": 76540,
+    "end_ms": 77220,
+    "lemma": "as",
+    "pos": "ADV"
+  },
+  {
+    "w": "well",
+    "start_ms": 77220,
+    "end_ms": 77400,
+    "lemma": "well",
+    "pos": "ADV"
+  },
+  {
+    "w": "as",
+    "start_ms": 77400,
+    "end_ms": 77600
+  },
+  {
+    "w": "waste.",
+    "start_ms": 77600,
+    "end_ms": 77800,
+    "lemma": "waste",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Yes,",
+    "start_ms": 78240,
+    "end_ms": 78440
+  },
+  {
+    "w": "that's",
+    "start_ms": 78660,
+    "end_ms": 78960
+  },
+  {
+    "w": "why",
+    "start_ms": 78960,
+    "end_ms": 79160
+  },
+  {
+    "w": "you",
+    "start_ms": 79160,
+    "end_ms": 79400
+  },
+  {
+    "w": "hear",
+    "start_ms": 79400,
+    "end_ms": 79580,
+    "lemma": "hear",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 79580,
+    "end_ms": 79740
+  },
+  {
+    "w": "phrase,",
+    "start_ms": 79740,
+    "end_ms": 79980,
+    "lemma": "phrase",
+    "pos": "NOUN"
+  },
+  {
+    "w": "eat",
+    "start_ms": 80280,
+    "end_ms": 80380,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "local,",
+    "start_ms": 80380,
+    "end_ms": 80640,
+    "lemma": "local",
+    "pos": "ADJ"
+  },
+  {
+    "w": "eat",
+    "start_ms": 81160,
+    "end_ms": 81300,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "seasonal,",
+    "start_ms": 81300,
+    "end_ms": 81740,
+    "lemma": "seasonal",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 82080,
+    "end_ms": 82200
+  },
+  {
+    "w": "encourage",
+    "start_ms": 82200,
+    "end_ms": 82540,
+    "lemma": "encourage",
+    "pos": "VERB"
+  },
+  {
+    "w": "people",
+    "start_ms": 82540,
+    "end_ms": 82960,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 82960,
+    "end_ms": 83240
+  },
+  {
+    "w": "buy",
+    "start_ms": 83240,
+    "end_ms": 83500,
+    "lemma": "buy",
+    "pos": "VERB"
+  },
+  {
+    "w": "and",
+    "start_ms": 83500,
+    "end_ms": 83820
+  },
+  {
+    "w": "eat",
+    "start_ms": 83820,
+    "end_ms": 84060,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "food",
+    "start_ms": 84060,
+    "end_ms": 84360,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "which",
+    "start_ms": 84360,
+    "end_ms": 84720
+  },
+  {
+    "w": "has",
+    "start_ms": 84720,
+    "end_ms": 84900
+  },
+  {
+    "w": "been",
+    "start_ms": 84900,
+    "end_ms": 85040
+  },
+  {
+    "w": "grown",
+    "start_ms": 85040,
+    "end_ms": 85320,
+    "lemma": "grow",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 85320,
+    "end_ms": 85600
+  },
+  {
+    "w": "their",
+    "start_ms": 85600,
+    "end_ms": 85760
+  },
+  {
+    "w": "local",
+    "start_ms": 85760,
+    "end_ms": 86000,
+    "lemma": "local",
+    "pos": "ADJ"
+  },
+  {
+    "w": "area",
+    "start_ms": 86000,
+    "end_ms": 86480,
+    "lemma": "area",
+    "pos": "NOUN"
+  },
+  {
+    "w": "at",
+    "start_ms": 86480,
+    "end_ms": 87120
+  },
+  {
+    "w": "that",
+    "start_ms": 87120,
+    "end_ms": 87440
+  },
+  {
+    "w": "time",
+    "start_ms": 87440,
+    "end_ms": 87860,
+    "lemma": "time",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 87860,
+    "end_ms": 88000
+  },
+  {
+    "w": "year.",
+    "start_ms": 88000,
+    "end_ms": 88300,
+    "lemma": "year",
+    "pos": "NOUN"
+  },
+  {
+    "w": "So,",
+    "start_ms": 88680,
+    "end_ms": 88860,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "Sam,",
+    "start_ms": 89020,
+    "end_ms": 89200
+  },
+  {
+    "w": "my",
+    "start_ms": 89400,
+    "end_ms": 89440
+  },
+  {
+    "w": "question",
+    "start_ms": 89440,
+    "end_ms": 89800,
+    "lemma": "question",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is,",
+    "start_ms": 89800,
+    "end_ms": 90120
+  },
+  {
+    "w": "which",
+    "start_ms": 90480,
+    "end_ms": 90700
+  },
+  {
+    "w": "of",
+    "start_ms": 90700,
+    "end_ms": 91060
+  },
+  {
+    "w": "the",
+    "start_ms": 91060,
+    "end_ms": 91220
+  },
+  {
+    "w": "following",
+    "start_ms": 91220,
+    "end_ms": 91560,
+    "lemma": "follow",
+    "pos": "VERB"
+  },
+  {
+    "w": "foods",
+    "start_ms": 91560,
+    "end_ms": 91940,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "can",
+    "start_ms": 91940,
+    "end_ms": 92280
+  },
+  {
+    "w": "be",
+    "start_ms": 92280,
+    "end_ms": 92400
+  },
+  {
+    "w": "grown",
+    "start_ms": 92400,
+    "end_ms": 92680,
+    "lemma": "grow",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 92680,
+    "end_ms": 92940
+  },
+  {
+    "w": "Britain",
+    "start_ms": 92940,
+    "end_ms": 93180
+  },
+  {
+    "w": "throughout",
+    "start_ms": 93180,
+    "end_ms": 93660
+  },
+  {
+    "w": "the",
+    "start_ms": 93660,
+    "end_ms": 94280
+  },
+  {
+    "w": "year?",
+    "start_ms": 94280,
+    "end_ms": 94620,
+    "lemma": "year",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Is",
+    "start_ms": 95160,
+    "end_ms": 95220
+  },
+  {
+    "w": "it",
+    "start_ms": 95220,
+    "end_ms": 95380
+  },
+  {
+    "w": "A,",
+    "start_ms": 95380,
+    "end_ms": 95620
+  },
+  {
+    "w": "strawberries,",
+    "start_ms": 95880,
+    "end_ms": 96280,
+    "lemma": "strawberry",
+    "pos": "NOUN"
+  },
+  {
+    "w": "B,",
+    "start_ms": 96960,
+    "end_ms": 97200,
+    "lemma": "b",
+    "pos": "NOUN"
+  },
+  {
+    "w": "kale",
+    "start_ms": 97620,
+    "end_ms": 97740,
+    "lemma": "kale",
+    "pos": "NOUN"
+  },
+  {
+    "w": "or",
+    "start_ms": 97740,
+    "end_ms": 98280
+  },
+  {
+    "w": "C,",
+    "start_ms": 98280,
+    "end_ms": 98600
+  },
+  {
+    "w": "rhubarb?",
+    "start_ms": 99360,
+    "end_ms": 99820,
+    "lemma": "rhubarb",
+    "pos": "NOUN"
+  },
+  {
+    "w": "It's",
+    "start_ms": 100400,
+    "end_ms": 100980
+  },
+  {
+    "w": "definitely",
+    "start_ms": 100980,
+    "end_ms": 101180,
+    "lemma": "definitely",
+    "pos": "ADV"
+  },
+  {
+    "w": "not",
+    "start_ms": 101180,
+    "end_ms": 101640
+  },
+  {
+    "w": "strawberries",
+    "start_ms": 101640,
+    "end_ms": 102060,
+    "lemma": "strawberry",
+    "pos": "NOUN"
+  },
+  {
+    "w": "because",
+    "start_ms": 102060,
+    "end_ms": 102660
+  },
+  {
+    "w": "they",
+    "start_ms": 102660,
+    "end_ms": 102840
+  },
+  {
+    "w": "only",
+    "start_ms": 102840,
+    "end_ms": 103000,
+    "lemma": "only",
+    "pos": "ADV"
+  },
+  {
+    "w": "grow",
+    "start_ms": 103000,
+    "end_ms": 103280,
+    "lemma": "grow",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 103280,
+    "end_ms": 103440
+  },
+  {
+    "w": "summer,",
+    "start_ms": 103440,
+    "end_ms": 103760,
+    "lemma": "summer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "so",
+    "start_ms": 104140,
+    "end_ms": 104260
+  },
+  {
+    "w": "I'll",
+    "start_ms": 104260,
+    "end_ms": 104860
+  },
+  {
+    "w": "say",
+    "start_ms": 104860,
+    "end_ms": 105020,
+    "lemma": "say",
+    "pos": "VERB"
+  },
+  {
+    "w": "B,",
+    "start_ms": 105020,
+    "end_ms": 105320
+  },
+  {
+    "w": "kale.",
+    "start_ms": 105720,
+    "end_ms": 105980,
+    "lemma": "kale",
+    "pos": "NOUN"
+  },
+  {
+    "w": "OK,",
+    "start_ms": 106420,
+    "end_ms": 106620
+  },
+  {
+    "w": "I'll",
+    "start_ms": 106840,
+    "end_ms": 106980
+  },
+  {
+    "w": "reveal",
+    "start_ms": 106980,
+    "end_ms": 107260,
+    "lemma": "reveal",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 107260,
+    "end_ms": 107540
+  },
+  {
+    "w": "answer",
+    "start_ms": 107540,
+    "end_ms": 107740,
+    "lemma": "answer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "later.",
+    "start_ms": 107740,
+    "end_ms": 108180,
+    "lemma": "later",
+    "pos": "ADV"
+  },
+  {
+    "w": "We've",
+    "start_ms": 108900,
+    "end_ms": 109220
+  },
+  {
+    "w": "talked",
+    "start_ms": 109220,
+    "end_ms": 109340,
+    "lemma": "talk",
+    "pos": "VERB"
+  },
+  {
+    "w": "about",
+    "start_ms": 109340,
+    "end_ms": 109820
+  },
+  {
+    "w": "supermarkets",
+    "start_ms": 109820,
+    "end_ms": 110140,
+    "lemma": "supermarket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "in",
+    "start_ms": 110140,
+    "end_ms": 110880
+  },
+  {
+    "w": "Britain,",
+    "start_ms": 110880,
+    "end_ms": 111260
+  },
+  {
+    "w": "but",
+    "start_ms": 111640,
+    "end_ms": 111720
+  },
+  {
+    "w": "food",
+    "start_ms": 111720,
+    "end_ms": 111980,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "waste",
+    "start_ms": 111980,
+    "end_ms": 112300,
+    "lemma": "waste",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 112300,
+    "end_ms": 112580
+  },
+  {
+    "w": "happening",
+    "start_ms": 112580,
+    "end_ms": 112940,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "all",
+    "start_ms": 112940,
+    "end_ms": 113420,
+    "lemma": "all",
+    "pos": "ADV"
+  },
+  {
+    "w": "over",
+    "start_ms": 113420,
+    "end_ms": 113860
+  },
+  {
+    "w": "the",
+    "start_ms": 113860,
+    "end_ms": 114020
+  },
+  {
+    "w": "world.",
+    "start_ms": 114020,
+    "end_ms": 114380,
+    "lemma": "world",
+    "pos": "NOUN"
+  },
+  {
+    "w": "In",
+    "start_ms": 114960,
+    "end_ms": 115080
+  },
+  {
+    "w": "Puerto",
+    "start_ms": 115080,
+    "end_ms": 115300
+  },
+  {
+    "w": "Rico,",
+    "start_ms": 115300,
+    "end_ms": 115720
+  },
+  {
+    "w": "too,",
+    "start_ms": 116000,
+    "end_ms": 116140,
+    "lemma": "too",
+    "pos": "ADV"
+  },
+  {
+    "w": "most",
+    "start_ms": 116420,
+    "end_ms": 116540,
+    "lemma": "most",
+    "pos": "ADJ"
+  },
+  {
+    "w": "people",
+    "start_ms": 116540,
+    "end_ms": 116920,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "shop",
+    "start_ms": 116920,
+    "end_ms": 117180,
+    "lemma": "shop",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 117180,
+    "end_ms": 117480
+  },
+  {
+    "w": "supermarkets,",
+    "start_ms": 117480,
+    "end_ms": 118000,
+    "lemma": "supermarket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "making",
+    "start_ms": 118260,
+    "end_ms": 118780,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 118780,
+    "end_ms": 119000
+  },
+  {
+    "w": "difficult",
+    "start_ms": 119000,
+    "end_ms": 119340,
+    "lemma": "difficult",
+    "pos": "ADJ"
+  },
+  {
+    "w": "for",
+    "start_ms": 119340,
+    "end_ms": 119740
+  },
+  {
+    "w": "farmers",
+    "start_ms": 119740,
+    "end_ms": 120020,
+    "lemma": "farmer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 120020,
+    "end_ms": 120320
+  },
+  {
+    "w": "choose",
+    "start_ms": 120320,
+    "end_ms": 120600,
+    "lemma": "choose",
+    "pos": "VERB"
+  },
+  {
+    "w": "what",
+    "start_ms": 120600,
+    "end_ms": 120980
+  },
+  {
+    "w": "to",
+    "start_ms": 120980,
+    "end_ms": 121160
+  },
+  {
+    "w": "sell",
+    "start_ms": 121160,
+    "end_ms": 121440,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "and",
+    "start_ms": 121440,
+    "end_ms": 121920
+  },
+  {
+    "w": "how",
+    "start_ms": 121920,
+    "end_ms": 122160
+  },
+  {
+    "w": "much",
+    "start_ms": 122160,
+    "end_ms": 122400,
+    "lemma": "much",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 122400,
+    "end_ms": 122660
+  },
+  {
+    "w": "charge",
+    "start_ms": 122660,
+    "end_ms": 122980,
+    "lemma": "charge",
+    "pos": "VERB"
+  },
+  {
+    "w": "for",
+    "start_ms": 122980,
+    "end_ms": 123260
+  },
+  {
+    "w": "their",
+    "start_ms": 123260,
+    "end_ms": 123380
+  },
+  {
+    "w": "fruit",
+    "start_ms": 123380,
+    "end_ms": 123620,
+    "lemma": "fruit",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 123620,
+    "end_ms": 123840
+  },
+  {
+    "w": "vegetables.",
+    "start_ms": 123840,
+    "end_ms": 124200,
+    "lemma": "vegetable",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Josefina",
+    "start_ms": 124900,
+    "end_ms": 125380
+  },
+  {
+    "w": "Archai",
+    "start_ms": 125380,
+    "end_ms": 125940
+  },
+  {
+    "w": "is",
+    "start_ms": 125940,
+    "end_ms": 126280
+  },
+  {
+    "w": "a",
+    "start_ms": 126280,
+    "end_ms": 126400
+  },
+  {
+    "w": "farmer",
+    "start_ms": 126400,
+    "end_ms": 126680,
+    "lemma": "farmer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "who",
+    "start_ms": 126680,
+    "end_ms": 127000
+  },
+  {
+    "w": "wanted",
+    "start_ms": 127000,
+    "end_ms": 127220,
+    "lemma": "want",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 127220,
+    "end_ms": 127520
+  },
+  {
+    "w": "make",
+    "start_ms": 127520,
+    "end_ms": 127720,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 127720,
+    "end_ms": 127860
+  },
+  {
+    "w": "easier",
+    "start_ms": 127860,
+    "end_ms": 128199,
+    "lemma": "easy",
+    "pos": "ADJ"
+  },
+  {
+    "w": "for",
+    "start_ms": 128199,
+    "end_ms": 128680
+  },
+  {
+    "w": "customers",
+    "start_ms": 128680,
+    "end_ms": 129020,
+    "lemma": "customer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 129020,
+    "end_ms": 129380
+  },
+  {
+    "w": "buy",
+    "start_ms": 129380,
+    "end_ms": 129560,
+    "lemma": "buy",
+    "pos": "VERB"
+  },
+  {
+    "w": "local",
+    "start_ms": 129560,
+    "end_ms": 129800,
+    "lemma": "local",
+    "pos": "ADJ"
+  },
+  {
+    "w": "food.",
+    "start_ms": 129800,
+    "end_ms": 130280,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "She",
+    "start_ms": 130840,
+    "end_ms": 131200
+  },
+  {
+    "w": "started",
+    "start_ms": 131200,
+    "end_ms": 131560,
+    "lemma": "start",
+    "pos": "VERB"
+  },
+  {
+    "w": "an",
+    "start_ms": 131560,
+    "end_ms": 131900
+  },
+  {
+    "w": "online",
+    "start_ms": 131900,
+    "end_ms": 132040,
+    "lemma": "online",
+    "pos": "ADJ"
+  },
+  {
+    "w": "shop",
+    "start_ms": 132040,
+    "end_ms": 132580,
+    "lemma": "shop",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 132580,
+    "end_ms": 133020
+  },
+  {
+    "w": "connect",
+    "start_ms": 133020,
+    "end_ms": 133320,
+    "lemma": "connect",
+    "pos": "VERB"
+  },
+  {
+    "w": "shoppers",
+    "start_ms": 133320,
+    "end_ms": 133700,
+    "lemma": "shopper",
+    "pos": "NOUN"
+  },
+  {
+    "w": "with",
+    "start_ms": 133700,
+    "end_ms": 134320
+  },
+  {
+    "w": "farmers",
+    "start_ms": 134320,
+    "end_ms": 134620,
+    "lemma": "farmer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "directly,",
+    "start_ms": 134620,
+    "end_ms": 135260,
+    "lemma": "directly",
+    "pos": "ADV"
+  },
+  {
+    "w": "without",
+    "start_ms": 135820,
+    "end_ms": 135920
+  },
+  {
+    "w": "the",
+    "start_ms": 135920,
+    "end_ms": 136300
+  },
+  {
+    "w": "supermarkets.",
+    "start_ms": 136300,
+    "end_ms": 136720,
+    "lemma": "supermarket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Here,",
+    "start_ms": 137520,
+    "end_ms": 138000,
+    "lemma": "here",
+    "pos": "ADV"
+  },
+  {
+    "w": "Josefina",
+    "start_ms": 138180,
+    "end_ms": 138580
+  },
+  {
+    "w": "explains",
+    "start_ms": 138580,
+    "end_ms": 139120,
+    "lemma": "explain",
+    "pos": "VERB"
+  },
+  {
+    "w": "her",
+    "start_ms": 139120,
+    "end_ms": 139360
+  },
+  {
+    "w": "project",
+    "start_ms": 139360,
+    "end_ms": 139700,
+    "lemma": "project",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 139700,
+    "end_ms": 139980
+  },
+  {
+    "w": "Joan",
+    "start_ms": 139980,
+    "end_ms": 140300
+  },
+  {
+    "w": "Mathis,",
+    "start_ms": 140300,
+    "end_ms": 140720
+  },
+  {
+    "w": "reporter",
+    "start_ms": 141120,
+    "end_ms": 141500,
+    "lemma": "reporter",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 141500,
+    "end_ms": 141940
+  },
+  {
+    "w": "BBC",
+    "start_ms": 141940,
+    "end_ms": 142120
+  },
+  {
+    "w": "World",
+    "start_ms": 142120,
+    "end_ms": 142600
+  },
+  {
+    "w": "Service",
+    "start_ms": 142600,
+    "end_ms": 142780
+  },
+  {
+    "w": "programme,",
+    "start_ms": 142780,
+    "end_ms": 143340,
+    "lemma": "programme",
+    "pos": "NOUN"
+  },
+  {
+    "w": "People",
+    "start_ms": 143640,
+    "end_ms": 143820,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Fixing",
+    "start_ms": 143820,
+    "end_ms": 144580,
+    "lemma": "fix",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 144580,
+    "end_ms": 144720
+  },
+  {
+    "w": "World.",
+    "start_ms": 144720,
+    "end_ms": 144900,
+    "lemma": "world",
+    "pos": "NOUN"
+  },
+  {
+    "w": "So,",
+    "start_ms": 145340,
+    "end_ms": 145500,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "Josefina,",
+    "start_ms": 145600,
+    "end_ms": 146080
+  },
+  {
+    "w": "that's",
+    "start_ms": 146320,
+    "end_ms": 146560
+  },
+  {
+    "w": "the",
+    "start_ms": 146560,
+    "end_ms": 146640
+  },
+  {
+    "w": "farmer",
+    "start_ms": 146640,
+    "end_ms": 146860,
+    "lemma": "farmer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "who",
+    "start_ms": 146860,
+    "end_ms": 147120
+  },
+  {
+    "w": "we",
+    "start_ms": 147120,
+    "end_ms": 147300
+  },
+  {
+    "w": "heard",
+    "start_ms": 147300,
+    "end_ms": 147500,
+    "lemma": "hear",
+    "pos": "VERB"
+  },
+  {
+    "w": "earlier,",
+    "start_ms": 147500,
+    "end_ms": 147920,
+    "lemma": "early",
+    "pos": "ADV"
+  },
+  {
+    "w": "growing",
+    "start_ms": 148120,
+    "end_ms": 148340,
+    "lemma": "grow",
+    "pos": "VERB"
+  },
+  {
+    "w": "those",
+    "start_ms": 148340,
+    "end_ms": 148600
+  },
+  {
+    "w": "giant",
+    "start_ms": 148600,
+    "end_ms": 148940,
+    "lemma": "giant",
+    "pos": "ADJ"
+  },
+  {
+    "w": "avocados.",
+    "start_ms": 148940,
+    "end_ms": 149500,
+    "lemma": "avocado",
+    "pos": "NOUN"
+  },
+  {
+    "w": "She",
+    "start_ms": 149920,
+    "end_ms": 150320
+  },
+  {
+    "w": "used",
+    "start_ms": 150320,
+    "end_ms": 150600,
+    "lemma": "use",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 150600,
+    "end_ms": 150800
+  },
+  {
+    "w": "have",
+    "start_ms": 150800,
+    "end_ms": 150940,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 150940,
+    "end_ms": 151080
+  },
+  {
+    "w": "sell",
+    "start_ms": 151080,
+    "end_ms": 151260,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "her",
+    "start_ms": 151260,
+    "end_ms": 151440
+  },
+  {
+    "w": "crops",
+    "start_ms": 151440,
+    "end_ms": 151720,
+    "lemma": "crop",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 151720,
+    "end_ms": 152020
+  },
+  {
+    "w": "these",
+    "start_ms": 152020,
+    "end_ms": 152140
+  },
+  {
+    "w": "kind",
+    "start_ms": 152140,
+    "end_ms": 152360,
+    "lemma": "kind",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 152360,
+    "end_ms": 152480
+  },
+  {
+    "w": "middlemen.",
+    "start_ms": 152480,
+    "end_ms": 152980,
+    "lemma": "middleman",
+    "pos": "NOUN"
+  },
+  {
+    "w": "We",
+    "start_ms": 153260,
+    "end_ms": 153480
+  },
+  {
+    "w": "had",
+    "start_ms": 153480,
+    "end_ms": 153640,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 153640,
+    "end_ms": 153760
+  },
+  {
+    "w": "lot",
+    "start_ms": 153760,
+    "end_ms": 154000,
+    "lemma": "lot",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of,",
+    "start_ms": 154000,
+    "end_ms": 154160
+  },
+  {
+    "w": "I",
+    "start_ms": 154380,
+    "end_ms": 154800
+  },
+  {
+    "w": "don't",
+    "start_ms": 154800,
+    "end_ms": 154920
+  },
+  {
+    "w": "know",
+    "start_ms": 154920,
+    "end_ms": 155040,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "how",
+    "start_ms": 155040,
+    "end_ms": 155140
+  },
+  {
+    "w": "you",
+    "start_ms": 155140,
+    "end_ms": 155280
+  },
+  {
+    "w": "call",
+    "start_ms": 155280,
+    "end_ms": 155460,
+    "lemma": "call",
+    "pos": "VERB"
+  },
+  {
+    "w": "it,",
+    "start_ms": 155460,
+    "end_ms": 155620
+  },
+  {
+    "w": "Carrados.",
+    "start_ms": 155760,
+    "end_ms": 156040
+  },
+  {
+    "w": "It's",
+    "start_ms": 156400,
+    "end_ms": 156520
+  },
+  {
+    "w": "just",
+    "start_ms": 156520,
+    "end_ms": 156700,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "people",
+    "start_ms": 156700,
+    "end_ms": 157140,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that",
+    "start_ms": 157140,
+    "end_ms": 157460
+  },
+  {
+    "w": "have",
+    "start_ms": 157460,
+    "end_ms": 157740,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 157740,
+    "end_ms": 158020
+  },
+  {
+    "w": "big",
+    "start_ms": 158020,
+    "end_ms": 158540,
+    "lemma": "big",
+    "pos": "ADJ"
+  },
+  {
+    "w": "truck",
+    "start_ms": 158540,
+    "end_ms": 158860,
+    "lemma": "truck",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 158860,
+    "end_ms": 159600
+  },
+  {
+    "w": "they",
+    "start_ms": 159600,
+    "end_ms": 159740
+  },
+  {
+    "w": "will",
+    "start_ms": 159740,
+    "end_ms": 159880
+  },
+  {
+    "w": "just",
+    "start_ms": 159880,
+    "end_ms": 160100,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "come",
+    "start_ms": 160100,
+    "end_ms": 160300,
+    "lemma": "come",
+    "pos": "VERB"
+  },
+  {
+    "w": "by",
+    "start_ms": 160300,
+    "end_ms": 160640
+  },
+  {
+    "w": "and",
+    "start_ms": 160640,
+    "end_ms": 161080
+  },
+  {
+    "w": "they",
+    "start_ms": 161080,
+    "end_ms": 161300
+  },
+  {
+    "w": "will",
+    "start_ms": 161300,
+    "end_ms": 161500
+  },
+  {
+    "w": "say,",
+    "start_ms": 161500,
+    "end_ms": 161740,
+    "lemma": "say",
+    "pos": "VERB"
+  },
+  {
+    "w": "what",
+    "start_ms": 162000,
+    "end_ms": 162000
+  },
+  {
+    "w": "do",
+    "start_ms": 162000,
+    "end_ms": 162140
+  },
+  {
+    "w": "you",
+    "start_ms": 162140,
+    "end_ms": 162260
+  },
+  {
+    "w": "have?",
+    "start_ms": 162260,
+    "end_ms": 162520,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "Oh,",
+    "start_ms": 163320,
+    "end_ms": 163500
+  },
+  {
+    "w": "that's",
+    "start_ms": 163680,
+    "end_ms": 163860
+  },
+  {
+    "w": "too",
+    "start_ms": 163860,
+    "end_ms": 163960,
+    "lemma": "too",
+    "pos": "ADV"
+  },
+  {
+    "w": "expensive.",
+    "start_ms": 163960,
+    "end_ms": 164300,
+    "lemma": "expensive",
+    "pos": "ADJ"
+  },
+  {
+    "w": "Ooh,",
+    "start_ms": 164300,
+    "end_ms": 165260
+  },
+  {
+    "w": "very",
+    "start_ms": 165340,
+    "end_ms": 165540,
+    "lemma": "very",
+    "pos": "ADV"
+  },
+  {
+    "w": "expensive.",
+    "start_ms": 165540,
+    "end_ms": 166020,
+    "lemma": "expensive",
+    "pos": "ADJ"
+  },
+  {
+    "w": "I",
+    "start_ms": 166420,
+    "end_ms": 166420
+  },
+  {
+    "w": "wanted",
+    "start_ms": 166420,
+    "end_ms": 166600,
+    "lemma": "want",
+    "pos": "VERB"
+  },
+  {
+    "w": "half",
+    "start_ms": 166600,
+    "end_ms": 167040
+  },
+  {
+    "w": "that",
+    "start_ms": 167040,
+    "end_ms": 167300
+  },
+  {
+    "w": "price.",
+    "start_ms": 167300,
+    "end_ms": 167680,
+    "lemma": "price",
+    "pos": "NOUN"
+  },
+  {
+    "w": "So,",
+    "start_ms": 168520,
+    "end_ms": 168560,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "I",
+    "start_ms": 168620,
+    "end_ms": 168760
+  },
+  {
+    "w": "didn't",
+    "start_ms": 168760,
+    "end_ms": 169100
+  },
+  {
+    "w": "have",
+    "start_ms": 169100,
+    "end_ms": 169420,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "any",
+    "start_ms": 169420,
+    "end_ms": 169680
+  },
+  {
+    "w": "way",
+    "start_ms": 169680,
+    "end_ms": 170100,
+    "lemma": "way",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 170100,
+    "end_ms": 170340
+  },
+  {
+    "w": "controlling",
+    "start_ms": 170340,
+    "end_ms": 170760,
+    "lemma": "control",
+    "pos": "VERB"
+  },
+  {
+    "w": "how",
+    "start_ms": 170760,
+    "end_ms": 171820
+  },
+  {
+    "w": "I",
+    "start_ms": 171820,
+    "end_ms": 172080
+  },
+  {
+    "w": "was",
+    "start_ms": 172080,
+    "end_ms": 172220
+  },
+  {
+    "w": "going",
+    "start_ms": 172220,
+    "end_ms": 172440,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 172440,
+    "end_ms": 172620
+  },
+  {
+    "w": "sell.",
+    "start_ms": 172620,
+    "end_ms": 172940,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "It",
+    "start_ms": 173140,
+    "end_ms": 173160
+  },
+  {
+    "w": "just",
+    "start_ms": 173160,
+    "end_ms": 173360,
+    "lemma": "just",
+    "pos": "ADV"
+  },
+  {
+    "w": "depended",
+    "start_ms": 173360,
+    "end_ms": 173780,
+    "lemma": "depend",
+    "pos": "VERB"
+  },
+  {
+    "w": "on",
+    "start_ms": 173780,
+    "end_ms": 174200
+  },
+  {
+    "w": "these",
+    "start_ms": 174200,
+    "end_ms": 174500
+  },
+  {
+    "w": "people",
+    "start_ms": 174500,
+    "end_ms": 174900,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "coming.",
+    "start_ms": 174900,
+    "end_ms": 175280,
+    "lemma": "come",
+    "pos": "VERB"
+  },
+  {
+    "w": "And",
+    "start_ms": 175980,
+    "end_ms": 176260
+  },
+  {
+    "w": "a",
+    "start_ms": 176260,
+    "end_ms": 176400
+  },
+  {
+    "w": "lot",
+    "start_ms": 176400,
+    "end_ms": 176640,
+    "lemma": "lot",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 176640,
+    "end_ms": 176740,
+    "lemma": "of",
+    "pos": "ADV"
+  },
+  {
+    "w": "these",
+    "start_ms": 176740,
+    "end_ms": 176880
+  },
+  {
+    "w": "Carrados",
+    "start_ms": 176880,
+    "end_ms": 177480,
+    "lemma": "carrado",
+    "pos": "NOUN"
+  },
+  {
+    "w": "are",
+    "start_ms": 177480,
+    "end_ms": 177720
+  },
+  {
+    "w": "kind",
+    "start_ms": 177720,
+    "end_ms": 177980,
+    "lemma": "kind",
+    "pos": "ADV"
+  },
+  {
+    "w": "of",
+    "start_ms": 177980,
+    "end_ms": 178080
+  },
+  {
+    "w": "commissioned",
+    "start_ms": 178080,
+    "end_ms": 178480,
+    "lemma": "commission",
+    "pos": "VERB"
+  },
+  {
+    "w": "by",
+    "start_ms": 178480,
+    "end_ms": 178860
+  },
+  {
+    "w": "the",
+    "start_ms": 178860,
+    "end_ms": 178980
+  },
+  {
+    "w": "supermarkets.",
+    "start_ms": 178980,
+    "end_ms": 179240,
+    "lemma": "supermarket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "All",
+    "start_ms": 179840,
+    "end_ms": 179960
+  },
+  {
+    "w": "this",
+    "start_ms": 179960,
+    "end_ms": 180180
+  },
+  {
+    "w": "leads",
+    "start_ms": 180180,
+    "end_ms": 180420,
+    "lemma": "lead",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 180420,
+    "end_ms": 180680
+  },
+  {
+    "w": "food",
+    "start_ms": 180680,
+    "end_ms": 180900,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "waste",
+    "start_ms": 180900,
+    "end_ms": 181160,
+    "lemma": "waste",
+    "pos": "NOUN"
+  },
+  {
+    "w": "because",
+    "start_ms": 181160,
+    "end_ms": 182000
+  },
+  {
+    "w": "it's",
+    "start_ms": 182000,
+    "end_ms": 182180
+  },
+  {
+    "w": "really",
+    "start_ms": 182180,
+    "end_ms": 182440,
+    "lemma": "really",
+    "pos": "ADV"
+  },
+  {
+    "w": "hard",
+    "start_ms": 182440,
+    "end_ms": 182860,
+    "lemma": "hard",
+    "pos": "ADJ"
+  },
+  {
+    "w": "for",
+    "start_ms": 182860,
+    "end_ms": 183160
+  },
+  {
+    "w": "farmers",
+    "start_ms": 183160,
+    "end_ms": 183540,
+    "lemma": "farmer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "like",
+    "start_ms": 183540,
+    "end_ms": 183940
+  },
+  {
+    "w": "Josefina",
+    "start_ms": 183940,
+    "end_ms": 184500
+  },
+  {
+    "w": "to",
+    "start_ms": 184500,
+    "end_ms": 185160
+  },
+  {
+    "w": "predict",
+    "start_ms": 185160,
+    "end_ms": 185460,
+    "lemma": "predict",
+    "pos": "VERB"
+  },
+  {
+    "w": "which",
+    "start_ms": 185460,
+    "end_ms": 185900
+  },
+  {
+    "w": "crops",
+    "start_ms": 185900,
+    "end_ms": 186260,
+    "lemma": "crop",
+    "pos": "NOUN"
+  },
+  {
+    "w": "they're",
+    "start_ms": 186260,
+    "end_ms": 186740
+  },
+  {
+    "w": "going",
+    "start_ms": 186740,
+    "end_ms": 186900,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 186900,
+    "end_ms": 187040
+  },
+  {
+    "w": "be",
+    "start_ms": 187040,
+    "end_ms": 187120
+  },
+  {
+    "w": "able",
+    "start_ms": 187120,
+    "end_ms": 187340,
+    "lemma": "able",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 187340,
+    "end_ms": 187480
+  },
+  {
+    "w": "sell.",
+    "start_ms": 187480,
+    "end_ms": 187760,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "Josefina",
+    "start_ms": 188160,
+    "end_ms": 188620
+  },
+  {
+    "w": "used",
+    "start_ms": 188620,
+    "end_ms": 188960,
+    "lemma": "use",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 188960,
+    "end_ms": 189160
+  },
+  {
+    "w": "sell",
+    "start_ms": 189160,
+    "end_ms": 189380,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "her",
+    "start_ms": 189380,
+    "end_ms": 189600
+  },
+  {
+    "w": "food",
+    "start_ms": 189600,
+    "end_ms": 189900,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 189900,
+    "end_ms": 190120
+  },
+  {
+    "w": "Carrados",
+    "start_ms": 190120,
+    "end_ms": 190700
+  },
+  {
+    "w": "or",
+    "start_ms": 190700,
+    "end_ms": 191240
+  },
+  {
+    "w": "middlemen,",
+    "start_ms": 191240,
+    "end_ms": 191900,
+    "lemma": "middleman",
+    "pos": "NOUN"
+  },
+  {
+    "w": "people",
+    "start_ms": 191900,
+    "end_ms": 192500,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "who",
+    "start_ms": 192500,
+    "end_ms": 192760
+  },
+  {
+    "w": "buy",
+    "start_ms": 192760,
+    "end_ms": 193040,
+    "lemma": "buy",
+    "pos": "VERB"
+  },
+  {
+    "w": "food",
+    "start_ms": 193040,
+    "end_ms": 193500,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "directly",
+    "start_ms": 193500,
+    "end_ms": 193840,
+    "lemma": "directly",
+    "pos": "ADV"
+  },
+  {
+    "w": "from",
+    "start_ms": 193840,
+    "end_ms": 194280
+  },
+  {
+    "w": "the",
+    "start_ms": 194280,
+    "end_ms": 194420
+  },
+  {
+    "w": "grower",
+    "start_ms": 194420,
+    "end_ms": 194900,
+    "lemma": "grower",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 194900,
+    "end_ms": 195100
+  },
+  {
+    "w": "make",
+    "start_ms": 195100,
+    "end_ms": 195260,
+    "lemma": "make",
+    "pos": "VERB"
+  },
+  {
+    "w": "money",
+    "start_ms": 195260,
+    "end_ms": 195600,
+    "lemma": "money",
+    "pos": "NOUN"
+  },
+  {
+    "w": "by",
+    "start_ms": 195600,
+    "end_ms": 195920
+  },
+  {
+    "w": "selling",
+    "start_ms": 195920,
+    "end_ms": 196260,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 196260,
+    "end_ms": 196440
+  },
+  {
+    "w": "on",
+    "start_ms": 196440,
+    "end_ms": 196600
+  },
+  {
+    "w": "to",
+    "start_ms": 196600,
+    "end_ms": 196820
+  },
+  {
+    "w": "customers.",
+    "start_ms": 196820,
+    "end_ms": 197560,
+    "lemma": "customer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Josefina",
+    "start_ms": 197700,
+    "end_ms": 198180
+  },
+  {
+    "w": "had",
+    "start_ms": 198180,
+    "end_ms": 198460,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "no",
+    "start_ms": 198460,
+    "end_ms": 198760
+  },
+  {
+    "w": "control",
+    "start_ms": 198760,
+    "end_ms": 199060,
+    "lemma": "control",
+    "pos": "NOUN"
+  },
+  {
+    "w": "over",
+    "start_ms": 199060,
+    "end_ms": 199520
+  },
+  {
+    "w": "what",
+    "start_ms": 199520,
+    "end_ms": 199820
+  },
+  {
+    "w": "to",
+    "start_ms": 199820,
+    "end_ms": 199980
+  },
+  {
+    "w": "sell",
+    "start_ms": 199980,
+    "end_ms": 200220,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "and",
+    "start_ms": 200220,
+    "end_ms": 200840
+  },
+  {
+    "w": "a",
+    "start_ms": 200840,
+    "end_ms": 200940
+  },
+  {
+    "w": "lot",
+    "start_ms": 200940,
+    "end_ms": 201100,
+    "lemma": "lot",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 201100,
+    "end_ms": 201240
+  },
+  {
+    "w": "her",
+    "start_ms": 201240,
+    "end_ms": 201380
+  },
+  {
+    "w": "food",
+    "start_ms": 201380,
+    "end_ms": 201640,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "went",
+    "start_ms": 201640,
+    "end_ms": 201940,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 201940,
+    "end_ms": 202140
+  },
+  {
+    "w": "waste.",
+    "start_ms": 202140,
+    "end_ms": 202380,
+    "lemma": "waste",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Usually,",
+    "start_ms": 202860,
+    "end_ms": 203180,
+    "lemma": "usually",
+    "pos": "ADV"
+  },
+  {
+    "w": "middlemen",
+    "start_ms": 203380,
+    "end_ms": 203840,
+    "lemma": "middleman",
+    "pos": "NOUN"
+  },
+  {
+    "w": "are",
+    "start_ms": 203840,
+    "end_ms": 204120
+  },
+  {
+    "w": "commissioned.",
+    "start_ms": 204120,
+    "end_ms": 204380,
+    "lemma": "commission",
+    "pos": "VERB"
+  },
+  {
+    "w": "They",
+    "start_ms": 205140,
+    "end_ms": 205140
+  },
+  {
+    "w": "receive",
+    "start_ms": 205140,
+    "end_ms": 205440,
+    "lemma": "receive",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 205440,
+    "end_ms": 205660
+  },
+  {
+    "w": "payment",
+    "start_ms": 205660,
+    "end_ms": 206000,
+    "lemma": "payment",
+    "pos": "NOUN"
+  },
+  {
+    "w": "from",
+    "start_ms": 206000,
+    "end_ms": 206280
+  },
+  {
+    "w": "the",
+    "start_ms": 206280,
+    "end_ms": 206400
+  },
+  {
+    "w": "supermarkets",
+    "start_ms": 206400,
+    "end_ms": 206880,
+    "lemma": "supermarket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "directly",
+    "start_ms": 206880,
+    "end_ms": 207500,
+    "lemma": "directly",
+    "pos": "ADV"
+  },
+  {
+    "w": "related",
+    "start_ms": 207500,
+    "end_ms": 208160,
+    "lemma": "relate",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 208160,
+    "end_ms": 208480
+  },
+  {
+    "w": "the",
+    "start_ms": 208480,
+    "end_ms": 208580
+  },
+  {
+    "w": "amount",
+    "start_ms": 208580,
+    "end_ms": 208780,
+    "lemma": "amount",
+    "pos": "NOUN"
+  },
+  {
+    "w": "they",
+    "start_ms": 208780,
+    "end_ms": 209020
+  },
+  {
+    "w": "sell.",
+    "start_ms": 209020,
+    "end_ms": 209340,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "But",
+    "start_ms": 210420,
+    "end_ms": 210420
+  },
+  {
+    "w": "with",
+    "start_ms": 210420,
+    "end_ms": 210720
+  },
+  {
+    "w": "Josefina's",
+    "start_ms": 210720,
+    "end_ms": 211440
+  },
+  {
+    "w": "online",
+    "start_ms": 211440,
+    "end_ms": 211600,
+    "lemma": "online",
+    "pos": "ADJ"
+  },
+  {
+    "w": "shop,",
+    "start_ms": 211600,
+    "end_ms": 212200,
+    "lemma": "shop",
+    "pos": "NOUN"
+  },
+  {
+    "w": "farmers",
+    "start_ms": 212280,
+    "end_ms": 212920,
+    "lemma": "farmer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "get",
+    "start_ms": 212920,
+    "end_ms": 213360,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 213360,
+    "end_ms": 213420
+  },
+  {
+    "w": "fair",
+    "start_ms": 213420,
+    "end_ms": 213640,
+    "lemma": "fair",
+    "pos": "ADJ"
+  },
+  {
+    "w": "price",
+    "start_ms": 213640,
+    "end_ms": 213960,
+    "lemma": "price",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 213960,
+    "end_ms": 214180
+  },
+  {
+    "w": "their",
+    "start_ms": 214180,
+    "end_ms": 214320
+  },
+  {
+    "w": "food.",
+    "start_ms": 214320,
+    "end_ms": 214680,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Customers",
+    "start_ms": 215620,
+    "end_ms": 215620,
+    "lemma": "customer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "get",
+    "start_ms": 215620,
+    "end_ms": 216040,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "high",
+    "start_ms": 216040,
+    "end_ms": 216280,
+    "lemma": "high",
+    "pos": "ADJ"
+  },
+  {
+    "w": "quality",
+    "start_ms": 216280,
+    "end_ms": 216620,
+    "lemma": "quality",
+    "pos": "NOUN"
+  },
+  {
+    "w": "fresh",
+    "start_ms": 216620,
+    "end_ms": 217120,
+    "lemma": "fresh",
+    "pos": "ADJ"
+  },
+  {
+    "w": "vegetables",
+    "start_ms": 217120,
+    "end_ms": 217680,
+    "lemma": "vegetable",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 217680,
+    "end_ms": 218460
+  },
+  {
+    "w": "less",
+    "start_ms": 218460,
+    "end_ms": 218640,
+    "lemma": "less",
+    "pos": "ADJ"
+  },
+  {
+    "w": "food",
+    "start_ms": 218640,
+    "end_ms": 218960,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 218960,
+    "end_ms": 219320
+  },
+  {
+    "w": "wasted.",
+    "start_ms": 219320,
+    "end_ms": 219560,
+    "lemma": "waste",
+    "pos": "VERB"
+  },
+  {
+    "w": "Another",
+    "start_ms": 219560,
+    "end_ms": 220220
+  },
+  {
+    "w": "problem",
+    "start_ms": 220220,
+    "end_ms": 220680,
+    "lemma": "problem",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 220680,
+    "end_ms": 221080
+  },
+  {
+    "w": "that",
+    "start_ms": 221080,
+    "end_ms": 221360
+  },
+  {
+    "w": "we",
+    "start_ms": 221360,
+    "end_ms": 221540
+  },
+  {
+    "w": "throw",
+    "start_ms": 221540,
+    "end_ms": 221780,
+    "lemma": "throw",
+    "pos": "VERB"
+  },
+  {
+    "w": "away",
+    "start_ms": 221780,
+    "end_ms": 222040,
+    "lemma": "away",
+    "pos": "ADV"
+  },
+  {
+    "w": "food",
+    "start_ms": 222040,
+    "end_ms": 222480,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "after",
+    "start_ms": 222480,
+    "end_ms": 222880
+  },
+  {
+    "w": "we've",
+    "start_ms": 222880,
+    "end_ms": 223260
+  },
+  {
+    "w": "bought",
+    "start_ms": 223260,
+    "end_ms": 223520,
+    "lemma": "buy",
+    "pos": "VERB"
+  },
+  {
+    "w": "it.",
+    "start_ms": 223520,
+    "end_ms": 223740
+  },
+  {
+    "w": "In",
+    "start_ms": 224380,
+    "end_ms": 224540
+  },
+  {
+    "w": "fact,",
+    "start_ms": 224540,
+    "end_ms": 224800,
+    "lemma": "fact",
+    "pos": "NOUN"
+  },
+  {
+    "w": "the",
+    "start_ms": 225140,
+    "end_ms": 225160
+  },
+  {
+    "w": "UN",
+    "start_ms": 225160,
+    "end_ms": 225520
+  },
+  {
+    "w": "estimates",
+    "start_ms": 225520,
+    "end_ms": 225940,
+    "lemma": "estimate",
+    "pos": "VERB"
+  },
+  {
+    "w": "that",
+    "start_ms": 225940,
+    "end_ms": 226400
+  },
+  {
+    "w": "60",
+    "start_ms": 226400,
+    "end_ms": 226800
+  },
+  {
+    "w": "%",
+    "start_ms": 226800,
+    "end_ms": 227360
+  },
+  {
+    "w": "of",
+    "start_ms": 227360,
+    "end_ms": 227640
+  },
+  {
+    "w": "food",
+    "start_ms": 227640,
+    "end_ms": 227880,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "waste",
+    "start_ms": 227880,
+    "end_ms": 228200,
+    "lemma": "waste",
+    "pos": "NOUN"
+  },
+  {
+    "w": "happens",
+    "start_ms": 228200,
+    "end_ms": 228680,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 228680,
+    "end_ms": 228960
+  },
+  {
+    "w": "this",
+    "start_ms": 228960,
+    "end_ms": 229140
+  },
+  {
+    "w": "way,",
+    "start_ms": 229140,
+    "end_ms": 229440,
+    "lemma": "way",
+    "pos": "NOUN"
+  },
+  {
+    "w": "often",
+    "start_ms": 229680,
+    "end_ms": 230020,
+    "lemma": "often",
+    "pos": "ADV"
+  },
+  {
+    "w": "because",
+    "start_ms": 230020,
+    "end_ms": 230380
+  },
+  {
+    "w": "it's",
+    "start_ms": 230380,
+    "end_ms": 230740
+  },
+  {
+    "w": "passed",
+    "start_ms": 230740,
+    "end_ms": 231000,
+    "lemma": "pass",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 231000,
+    "end_ms": 231300
+  },
+  {
+    "w": "use",
+    "start_ms": 231300,
+    "end_ms": 231580,
+    "lemma": "use",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-by",
+    "start_ms": 231580,
+    "end_ms": 231820
+  },
+  {
+    "w": "-date",
+    "start_ms": 231820,
+    "end_ms": 232100,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 232100,
+    "end_ms": 232600
+  },
+  {
+    "w": "might",
+    "start_ms": 232600,
+    "end_ms": 232780
+  },
+  {
+    "w": "not",
+    "start_ms": 232780,
+    "end_ms": 233080
+  },
+  {
+    "w": "be",
+    "start_ms": 233080,
+    "end_ms": 233400
+  },
+  {
+    "w": "safe",
+    "start_ms": 233400,
+    "end_ms": 233620,
+    "lemma": "safe",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 233620,
+    "end_ms": 233840
+  },
+  {
+    "w": "eat.",
+    "start_ms": 233840,
+    "end_ms": 234040,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "But",
+    "start_ms": 234260,
+    "end_ms": 234320
+  },
+  {
+    "w": "according",
+    "start_ms": 234320,
+    "end_ms": 234640,
+    "lemma": "accord",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 234640,
+    "end_ms": 234980
+  },
+  {
+    "w": "Green",
+    "start_ms": 234980,
+    "end_ms": 235180
+  },
+  {
+    "w": "Designer",
+    "start_ms": 235180,
+    "end_ms": 235520
+  },
+  {
+    "w": "Solvega",
+    "start_ms": 235520,
+    "end_ms": 236500
+  },
+  {
+    "w": "Pakstaitit,",
+    "start_ms": 236500,
+    "end_ms": 237360
+  },
+  {
+    "w": "these",
+    "start_ms": 237540,
+    "end_ms": 237640
+  },
+  {
+    "w": "use",
+    "start_ms": 237640,
+    "end_ms": 237940,
+    "lemma": "use",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-by",
+    "start_ms": 237940,
+    "end_ms": 238340
+  },
+  {
+    "w": "dates",
+    "start_ms": 238340,
+    "end_ms": 238660,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "aren't",
+    "start_ms": 238660,
+    "end_ms": 239160
+  },
+  {
+    "w": "always",
+    "start_ms": 239160,
+    "end_ms": 239460,
+    "lemma": "always",
+    "pos": "ADV"
+  },
+  {
+    "w": "accurate.",
+    "start_ms": 239460,
+    "end_ms": 239920,
+    "lemma": "accurate",
+    "pos": "ADJ"
+  },
+  {
+    "w": "Some",
+    "start_ms": 240600,
+    "end_ms": 240800
+  },
+  {
+    "w": "things",
+    "start_ms": 240800,
+    "end_ms": 241060,
+    "lemma": "thing",
+    "pos": "NOUN"
+  },
+  {
+    "w": "she",
+    "start_ms": 241060,
+    "end_ms": 241260
+  },
+  {
+    "w": "discussed",
+    "start_ms": 241260,
+    "end_ms": 241480,
+    "lemma": "discuss",
+    "pos": "VERB"
+  },
+  {
+    "w": "with",
+    "start_ms": 241480,
+    "end_ms": 241960
+  },
+  {
+    "w": "BBC",
+    "start_ms": 241960,
+    "end_ms": 242220
+  },
+  {
+    "w": "World",
+    "start_ms": 242220,
+    "end_ms": 242640,
+    "lemma": "world",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Services,",
+    "start_ms": 242640,
+    "end_ms": 243040
+  },
+  {
+    "w": "people",
+    "start_ms": 243520,
+    "end_ms": 243660,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "fixing",
+    "start_ms": 243660,
+    "end_ms": 244020,
+    "lemma": "fix",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 244020,
+    "end_ms": 244360
+  },
+  {
+    "w": "world.",
+    "start_ms": 244360,
+    "end_ms": 244580
+  },
+  {
+    "w": "Well,",
+    "start_ms": 244980,
+    "end_ms": 245100
+  },
+  {
+    "w": "food",
+    "start_ms": 245140,
+    "end_ms": 245260,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "makers",
+    "start_ms": 245260,
+    "end_ms": 245480,
+    "lemma": "maker",
+    "pos": "NOUN"
+  },
+  {
+    "w": "don't",
+    "start_ms": 245480,
+    "end_ms": 246060
+  },
+  {
+    "w": "know",
+    "start_ms": 246060,
+    "end_ms": 246260,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "how",
+    "start_ms": 246260,
+    "end_ms": 246580
+  },
+  {
+    "w": "people",
+    "start_ms": 246580,
+    "end_ms": 246820,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "will",
+    "start_ms": 246820,
+    "end_ms": 247060
+  },
+  {
+    "w": "keep",
+    "start_ms": 247060,
+    "end_ms": 247300,
+    "lemma": "keep",
+    "pos": "VERB"
+  },
+  {
+    "w": "their",
+    "start_ms": 247300,
+    "end_ms": 247540
+  },
+  {
+    "w": "products.",
+    "start_ms": 247540,
+    "end_ms": 247780,
+    "lemma": "product",
+    "pos": "NOUN"
+  },
+  {
+    "w": "So,",
+    "start_ms": 247780,
+    "end_ms": 248200,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "for",
+    "start_ms": 248600,
+    "end_ms": 248760
+  },
+  {
+    "w": "instance,",
+    "start_ms": 248760,
+    "end_ms": 248900,
+    "lemma": "instance",
+    "pos": "NOUN"
+  },
+  {
+    "w": "they",
+    "start_ms": 249180,
+    "end_ms": 249400
+  },
+  {
+    "w": "might",
+    "start_ms": 249400,
+    "end_ms": 249760
+  },
+  {
+    "w": "forget",
+    "start_ms": 249760,
+    "end_ms": 250060,
+    "lemma": "forget",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 250060,
+    "end_ms": 250240
+  },
+  {
+    "w": "put",
+    "start_ms": 250240,
+    "end_ms": 250360,
+    "lemma": "put",
+    "pos": "VERB"
+  },
+  {
+    "w": "their",
+    "start_ms": 250360,
+    "end_ms": 250540
+  },
+  {
+    "w": "grocery",
+    "start_ms": 250540,
+    "end_ms": 250740,
+    "lemma": "grocery",
+    "pos": "NOUN"
+  },
+  {
+    "w": "straight",
+    "start_ms": 250740,
+    "end_ms": 251140,
+    "lemma": "straight",
+    "pos": "ADV"
+  },
+  {
+    "w": "in",
+    "start_ms": 251140,
+    "end_ms": 251320
+  },
+  {
+    "w": "the",
+    "start_ms": 251320,
+    "end_ms": 251380
+  },
+  {
+    "w": "fridge",
+    "start_ms": 251380,
+    "end_ms": 251640,
+    "lemma": "fridge",
+    "pos": "NOUN"
+  },
+  {
+    "w": "when",
+    "start_ms": 251640,
+    "end_ms": 251900
+  },
+  {
+    "w": "they",
+    "start_ms": 251900,
+    "end_ms": 252020
+  },
+  {
+    "w": "get",
+    "start_ms": 252020,
+    "end_ms": 252160,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "home.",
+    "start_ms": 252160,
+    "end_ms": 252460,
+    "lemma": "home",
+    "pos": "ADV"
+  },
+  {
+    "w": "So",
+    "start_ms": 253060,
+    "end_ms": 253260,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "what",
+    "start_ms": 253260,
+    "end_ms": 253400
+  },
+  {
+    "w": "they",
+    "start_ms": 253400,
+    "end_ms": 253540
+  },
+  {
+    "w": "do",
+    "start_ms": 253540,
+    "end_ms": 253660
+  },
+  {
+    "w": "is",
+    "start_ms": 253660,
+    "end_ms": 253780
+  },
+  {
+    "w": "they",
+    "start_ms": 253780,
+    "end_ms": 253880
+  },
+  {
+    "w": "calculate",
+    "start_ms": 253880,
+    "end_ms": 254260,
+    "lemma": "calculate",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 254260,
+    "end_ms": 254620
+  },
+  {
+    "w": "use",
+    "start_ms": 254620,
+    "end_ms": 254780,
+    "lemma": "use",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-by",
+    "start_ms": 254780,
+    "end_ms": 254980
+  },
+  {
+    "w": "-date",
+    "start_ms": 254980,
+    "end_ms": 255200,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "using",
+    "start_ms": 255200,
+    "end_ms": 255540,
+    "lemma": "use",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 255540,
+    "end_ms": 255780
+  },
+  {
+    "w": "very",
+    "start_ms": 255780,
+    "end_ms": 256079,
+    "lemma": "very",
+    "pos": "ADV"
+  },
+  {
+    "w": "cautious",
+    "start_ms": 256079,
+    "end_ms": 256560,
+    "lemma": "cautious",
+    "pos": "ADJ"
+  },
+  {
+    "w": "estimate.",
+    "start_ms": 256560,
+    "end_ms": 257200,
+    "lemma": "estimate",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Food",
+    "start_ms": 257800,
+    "end_ms": 258060,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "producers",
+    "start_ms": 258060,
+    "end_ms": 258459,
+    "lemma": "producer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 258459,
+    "end_ms": 259300
+  },
+  {
+    "w": "supermarkets,",
+    "start_ms": 259300,
+    "end_ms": 259920,
+    "lemma": "supermarket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "they",
+    "start_ms": 260160,
+    "end_ms": 260779
+  },
+  {
+    "w": "kind",
+    "start_ms": 260779,
+    "end_ms": 261459,
+    "lemma": "kind",
+    "pos": "ADV"
+  },
+  {
+    "w": "of",
+    "start_ms": 261459,
+    "end_ms": 261660,
+    "lemma": "of",
+    "pos": "ADV"
+  },
+  {
+    "w": "have",
+    "start_ms": 261660,
+    "end_ms": 261760,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 261760,
+    "end_ms": 261880
+  },
+  {
+    "w": "calculate",
+    "start_ms": 261880,
+    "end_ms": 262220,
+    "lemma": "calculate",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 262220,
+    "end_ms": 262500
+  },
+  {
+    "w": "to",
+    "start_ms": 262500,
+    "end_ms": 262660
+  },
+  {
+    "w": "the",
+    "start_ms": 262660,
+    "end_ms": 262760
+  },
+  {
+    "w": "worst",
+    "start_ms": 262760,
+    "end_ms": 262980,
+    "lemma": "bad",
+    "pos": "ADJ"
+  },
+  {
+    "w": "-case",
+    "start_ms": 262980,
+    "end_ms": 263240,
+    "lemma": "case",
+    "pos": "NOUN"
+  },
+  {
+    "w": "scenario",
+    "start_ms": 263240,
+    "end_ms": 263660,
+    "lemma": "scenario",
+    "pos": "NOUN"
+  },
+  {
+    "w": "because",
+    "start_ms": 263660,
+    "end_ms": 264400
+  },
+  {
+    "w": "they",
+    "start_ms": 264400,
+    "end_ms": 264580
+  },
+  {
+    "w": "don't",
+    "start_ms": 264580,
+    "end_ms": 264760
+  },
+  {
+    "w": "know",
+    "start_ms": 264760,
+    "end_ms": 264920,
+    "lemma": "know",
+    "pos": "VERB"
+  },
+  {
+    "w": "which",
+    "start_ms": 264920,
+    "end_ms": 265540
+  },
+  {
+    "w": "product",
+    "start_ms": 265540,
+    "end_ms": 265920,
+    "lemma": "product",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 265920,
+    "end_ms": 266160
+  },
+  {
+    "w": "going",
+    "start_ms": 266160,
+    "end_ms": 266300,
+    "lemma": "go",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 266300,
+    "end_ms": 266400
+  },
+  {
+    "w": "get",
+    "start_ms": 266400,
+    "end_ms": 266580
+  },
+  {
+    "w": "stored",
+    "start_ms": 266580,
+    "end_ms": 266960,
+    "lemma": "store",
+    "pos": "VERB"
+  },
+  {
+    "w": "at",
+    "start_ms": 266960,
+    "end_ms": 267140
+  },
+  {
+    "w": "the",
+    "start_ms": 267140,
+    "end_ms": 267220
+  },
+  {
+    "w": "wrong",
+    "start_ms": 267220,
+    "end_ms": 267340,
+    "lemma": "wrong",
+    "pos": "ADJ"
+  },
+  {
+    "w": "temperature.",
+    "start_ms": 267340,
+    "end_ms": 267740,
+    "lemma": "temperature",
+    "pos": "NOUN"
+  },
+  {
+    "w": "So",
+    "start_ms": 268060,
+    "end_ms": 268140,
+    "lemma": "so",
+    "pos": "ADV"
+  },
+  {
+    "w": "they",
+    "start_ms": 268140,
+    "end_ms": 268700
+  },
+  {
+    "w": "have",
+    "start_ms": 268700,
+    "end_ms": 268840,
+    "lemma": "have",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 268840,
+    "end_ms": 268980
+  },
+  {
+    "w": "blanket",
+    "start_ms": 268980,
+    "end_ms": 269220,
+    "lemma": "blanket",
+    "pos": "VERB"
+  },
+  {
+    "w": "apply",
+    "start_ms": 269220,
+    "end_ms": 269640,
+    "lemma": "apply",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 269640,
+    "end_ms": 270000
+  },
+  {
+    "w": "shorter",
+    "start_ms": 270000,
+    "end_ms": 270180,
+    "lemma": "short",
+    "pos": "ADJ"
+  },
+  {
+    "w": "date",
+    "start_ms": 270180,
+    "end_ms": 270540,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 270540,
+    "end_ms": 271320
+  },
+  {
+    "w": "protect",
+    "start_ms": 271320,
+    "end_ms": 271860,
+    "lemma": "protect",
+    "pos": "VERB"
+  },
+  {
+    "w": "consumers.",
+    "start_ms": 271860,
+    "end_ms": 272500,
+    "lemma": "consumer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Supermarkets",
+    "start_ms": 272820,
+    "end_ms": 273340,
+    "lemma": "supermarket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "set",
+    "start_ms": 273340,
+    "end_ms": 273700,
+    "lemma": "set",
+    "pos": "VERB"
+  },
+  {
+    "w": "cautious",
+    "start_ms": 273700,
+    "end_ms": 274060,
+    "lemma": "cautious",
+    "pos": "ADJ"
+  },
+  {
+    "w": "use",
+    "start_ms": 274060,
+    "end_ms": 274620,
+    "lemma": "use",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-by",
+    "start_ms": 274620,
+    "end_ms": 274860
+  },
+  {
+    "w": "-date",
+    "start_ms": 274860,
+    "end_ms": 275080,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 275080,
+    "end_ms": 275520
+  },
+  {
+    "w": "the",
+    "start_ms": 275520,
+    "end_ms": 275660
+  },
+  {
+    "w": "worst",
+    "start_ms": 275660,
+    "end_ms": 275940,
+    "lemma": "bad",
+    "pos": "ADJ"
+  },
+  {
+    "w": "-case",
+    "start_ms": 275940,
+    "end_ms": 276420,
+    "lemma": "case",
+    "pos": "NOUN"
+  },
+  {
+    "w": "scenario.",
+    "start_ms": 276420,
+    "end_ms": 277120,
+    "lemma": "scenario",
+    "pos": "NOUN"
+  },
+  {
+    "w": "The",
+    "start_ms": 277120,
+    "end_ms": 277720
+  },
+  {
+    "w": "worst",
+    "start_ms": 277720,
+    "end_ms": 277940,
+    "lemma": "bad",
+    "pos": "ADJ"
+  },
+  {
+    "w": "-case",
+    "start_ms": 277940,
+    "end_ms": 278380,
+    "lemma": "case",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that",
+    "start_ms": 278380,
+    "end_ms": 278680
+  },
+  {
+    "w": "could",
+    "start_ms": 278680,
+    "end_ms": 278840
+  },
+  {
+    "w": "possibly",
+    "start_ms": 278840,
+    "end_ms": 279220,
+    "lemma": "possibly",
+    "pos": "ADV"
+  },
+  {
+    "w": "happen",
+    "start_ms": 279220,
+    "end_ms": 279680,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 279680,
+    "end_ms": 279920
+  },
+  {
+    "w": "a",
+    "start_ms": 279920,
+    "end_ms": 279980
+  },
+  {
+    "w": "situation,",
+    "start_ms": 279980,
+    "end_ms": 280280,
+    "lemma": "situation",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 281160,
+    "end_ms": 281280
+  },
+  {
+    "w": "example,",
+    "start_ms": 281280,
+    "end_ms": 281560,
+    "lemma": "example",
+    "pos": "NOUN"
+  },
+  {
+    "w": "someone",
+    "start_ms": 282160,
+    "end_ms": 282220
+  },
+  {
+    "w": "getting",
+    "start_ms": 282220,
+    "end_ms": 282520,
+    "lemma": "get",
+    "pos": "VERB"
+  },
+  {
+    "w": "sick",
+    "start_ms": 282520,
+    "end_ms": 282900,
+    "lemma": "sick",
+    "pos": "ADJ"
+  },
+  {
+    "w": "and",
+    "start_ms": 282900,
+    "end_ms": 283360
+  },
+  {
+    "w": "dying",
+    "start_ms": 283360,
+    "end_ms": 283760,
+    "lemma": "die",
+    "pos": "VERB"
+  },
+  {
+    "w": "of",
+    "start_ms": 283760,
+    "end_ms": 283900
+  },
+  {
+    "w": "food",
+    "start_ms": 283900,
+    "end_ms": 284180,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "poisoning.",
+    "start_ms": 284180,
+    "end_ms": 284500,
+    "lemma": "poisoning",
+    "pos": "NOUN"
+  },
+  {
+    "w": "In",
+    "start_ms": 285340,
+    "end_ms": 285380
+  },
+  {
+    "w": "other",
+    "start_ms": 285380,
+    "end_ms": 285540,
+    "lemma": "other",
+    "pos": "ADJ"
+  },
+  {
+    "w": "words,",
+    "start_ms": 285540,
+    "end_ms": 285840,
+    "lemma": "word",
+    "pos": "NOUN"
+  },
+  {
+    "w": "they",
+    "start_ms": 286140,
+    "end_ms": 286160
+  },
+  {
+    "w": "blanket",
+    "start_ms": 286160,
+    "end_ms": 286740,
+    "lemma": "blanket",
+    "pos": "VERB"
+  },
+  {
+    "w": "apply",
+    "start_ms": 286740,
+    "end_ms": 287060,
+    "lemma": "apply",
+    "pos": "VERB"
+  },
+  {
+    "w": "use",
+    "start_ms": 287060,
+    "end_ms": 287880,
+    "lemma": "use",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-by",
+    "start_ms": 287880,
+    "end_ms": 288200
+  },
+  {
+    "w": "-dates.",
+    "start_ms": 288200,
+    "end_ms": 288580,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Here,",
+    "start_ms": 288860,
+    "end_ms": 289100,
+    "lemma": "here",
+    "pos": "ADV"
+  },
+  {
+    "w": "blanket",
+    "start_ms": 289400,
+    "end_ms": 289600,
+    "lemma": "blanket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 289600,
+    "end_ms": 290000
+  },
+  {
+    "w": "an",
+    "start_ms": 290000,
+    "end_ms": 290100
+  },
+  {
+    "w": "adverb,",
+    "start_ms": 290100,
+    "end_ms": 290660,
+    "lemma": "adverb",
+    "pos": "ADJ"
+  },
+  {
+    "w": "meaning",
+    "start_ms": 290900,
+    "end_ms": 291100,
+    "lemma": "mean",
+    "pos": "VERB"
+  },
+  {
+    "w": "applied",
+    "start_ms": 291100,
+    "end_ms": 291560,
+    "lemma": "apply",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 291560,
+    "end_ms": 291960
+  },
+  {
+    "w": "the",
+    "start_ms": 291960,
+    "end_ms": 292060
+  },
+  {
+    "w": "same",
+    "start_ms": 292060,
+    "end_ms": 292280,
+    "lemma": "same",
+    "pos": "ADJ"
+  },
+  {
+    "w": "way",
+    "start_ms": 292280,
+    "end_ms": 292560,
+    "lemma": "way",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 292560,
+    "end_ms": 292700
+  },
+  {
+    "w": "everything,",
+    "start_ms": 292700,
+    "end_ms": 293180
+  },
+  {
+    "w": "even",
+    "start_ms": 293460,
+    "end_ms": 293860,
+    "lemma": "even",
+    "pos": "ADV"
+  },
+  {
+    "w": "when",
+    "start_ms": 293860,
+    "end_ms": 294120
+  },
+  {
+    "w": "there",
+    "start_ms": 294120,
+    "end_ms": 294380
+  },
+  {
+    "w": "are",
+    "start_ms": 294380,
+    "end_ms": 294480,
+    "lemma": "be",
+    "pos": "VERB"
+  },
+  {
+    "w": "differences",
+    "start_ms": 294480,
+    "end_ms": 294940,
+    "lemma": "difference",
+    "pos": "NOUN"
+  },
+  {
+    "w": "between",
+    "start_ms": 294940,
+    "end_ms": 295500
+  },
+  {
+    "w": "those",
+    "start_ms": 295500,
+    "end_ms": 295760
+  },
+  {
+    "w": "things.",
+    "start_ms": 295760,
+    "end_ms": 296040,
+    "lemma": "thing",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Doing",
+    "start_ms": 296280,
+    "end_ms": 296460,
+    "lemma": "do",
+    "pos": "VERB"
+  },
+  {
+    "w": "this",
+    "start_ms": 296460,
+    "end_ms": 296780
+  },
+  {
+    "w": "protects",
+    "start_ms": 296780,
+    "end_ms": 297020,
+    "lemma": "protect",
+    "pos": "VERB"
+  },
+  {
+    "w": "customers",
+    "start_ms": 297020,
+    "end_ms": 297680,
+    "lemma": "customer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "from",
+    "start_ms": 297680,
+    "end_ms": 298120
+  },
+  {
+    "w": "bad",
+    "start_ms": 298120,
+    "end_ms": 298360,
+    "lemma": "bad",
+    "pos": "ADJ"
+  },
+  {
+    "w": "food,",
+    "start_ms": 298360,
+    "end_ms": 298700,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "but",
+    "start_ms": 299240,
+    "end_ms": 299400
+  },
+  {
+    "w": "it",
+    "start_ms": 299400,
+    "end_ms": 299500
+  },
+  {
+    "w": "also",
+    "start_ms": 299500,
+    "end_ms": 299660,
+    "lemma": "also",
+    "pos": "ADV"
+  },
+  {
+    "w": "means",
+    "start_ms": 299660,
+    "end_ms": 300100,
+    "lemma": "mean",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 300100,
+    "end_ms": 300460
+  },
+  {
+    "w": "lot",
+    "start_ms": 300460,
+    "end_ms": 300660,
+    "lemma": "lot",
+    "pos": "NOUN"
+  },
+  {
+    "w": "of",
+    "start_ms": 300660,
+    "end_ms": 300860
+  },
+  {
+    "w": "safe",
+    "start_ms": 300860,
+    "end_ms": 301160,
+    "lemma": "safe",
+    "pos": "ADJ"
+  },
+  {
+    "w": "-to",
+    "start_ms": 301160,
+    "end_ms": 301440
+  },
+  {
+    "w": "-eat",
+    "start_ms": 301440,
+    "end_ms": 301620,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "food",
+    "start_ms": 301620,
+    "end_ms": 301980,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "gets",
+    "start_ms": 301980,
+    "end_ms": 302420
+  },
+  {
+    "w": "thrown",
+    "start_ms": 302420,
+    "end_ms": 302780,
+    "lemma": "throw",
+    "pos": "VERB"
+  },
+  {
+    "w": "away.",
+    "start_ms": 302780,
+    "end_ms": 303220,
+    "lemma": "away",
+    "pos": "ADV"
+  },
+  {
+    "w": "Maybe",
+    "start_ms": 303940,
+    "end_ms": 304220,
+    "lemma": "maybe",
+    "pos": "ADV"
+  },
+  {
+    "w": "it's",
+    "start_ms": 304220,
+    "end_ms": 304700
+  },
+  {
+    "w": "best",
+    "start_ms": 304700,
+    "end_ms": 304860,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 304860,
+    "end_ms": 305140
+  },
+  {
+    "w": "stick",
+    "start_ms": 305140,
+    "end_ms": 305400,
+    "lemma": "stick",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 305400,
+    "end_ms": 305620
+  },
+  {
+    "w": "local",
+    "start_ms": 305620,
+    "end_ms": 305880,
+    "lemma": "local",
+    "pos": "ADJ"
+  },
+  {
+    "w": "seasonal",
+    "start_ms": 305880,
+    "end_ms": 306460,
+    "lemma": "seasonal",
+    "pos": "ADJ"
+  },
+  {
+    "w": "food",
+    "start_ms": 306460,
+    "end_ms": 307020,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "after",
+    "start_ms": 307020,
+    "end_ms": 307460,
+    "lemma": "after",
+    "pos": "ADV"
+  },
+  {
+    "w": "all.",
+    "start_ms": 307460,
+    "end_ms": 307720,
+    "lemma": "all",
+    "pos": "ADV"
+  },
+  {
+    "w": "Anyway,",
+    "start_ms": 308100,
+    "end_ms": 308320,
+    "lemma": "anyway",
+    "pos": "ADV"
+  },
+  {
+    "w": "Neil,",
+    "start_ms": 308680,
+    "end_ms": 308800
+  },
+  {
+    "w": "what",
+    "start_ms": 309040,
+    "end_ms": 309120
+  },
+  {
+    "w": "was",
+    "start_ms": 309120,
+    "end_ms": 309380
+  },
+  {
+    "w": "the",
+    "start_ms": 309380,
+    "end_ms": 309520
+  },
+  {
+    "w": "answer",
+    "start_ms": 309520,
+    "end_ms": 309700,
+    "lemma": "answer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 309700,
+    "end_ms": 309960
+  },
+  {
+    "w": "your",
+    "start_ms": 309960,
+    "end_ms": 310080
+  },
+  {
+    "w": "question?",
+    "start_ms": 310080,
+    "end_ms": 310440,
+    "lemma": "question",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Right.",
+    "start_ms": 310660,
+    "end_ms": 310920
+  },
+  {
+    "w": "I",
+    "start_ms": 311180,
+    "end_ms": 311280
+  },
+  {
+    "w": "asked",
+    "start_ms": 311280,
+    "end_ms": 311640,
+    "lemma": "ask",
+    "pos": "VERB"
+  },
+  {
+    "w": "you",
+    "start_ms": 311640,
+    "end_ms": 311780
+  },
+  {
+    "w": "which",
+    "start_ms": 311780,
+    "end_ms": 312000
+  },
+  {
+    "w": "food",
+    "start_ms": 312000,
+    "end_ms": 312380,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "could",
+    "start_ms": 312380,
+    "end_ms": 312640
+  },
+  {
+    "w": "be",
+    "start_ms": 312640,
+    "end_ms": 312800
+  },
+  {
+    "w": "grown",
+    "start_ms": 312800,
+    "end_ms": 313020,
+    "lemma": "grow",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 313020,
+    "end_ms": 313220
+  },
+  {
+    "w": "Britain",
+    "start_ms": 313220,
+    "end_ms": 313480
+  },
+  {
+    "w": "all",
+    "start_ms": 313480,
+    "end_ms": 313920
+  },
+  {
+    "w": "year",
+    "start_ms": 313920,
+    "end_ms": 314200,
+    "lemma": "year",
+    "pos": "NOUN"
+  },
+  {
+    "w": "round.",
+    "start_ms": 314200,
+    "end_ms": 314620,
+    "lemma": "round",
+    "pos": "ADV"
+  },
+  {
+    "w": "You",
+    "start_ms": 315120,
+    "end_ms": 315180
+  },
+  {
+    "w": "said",
+    "start_ms": 315180,
+    "end_ms": 315380,
+    "lemma": "say",
+    "pos": "VERB"
+  },
+  {
+    "w": "kale,",
+    "start_ms": 315380,
+    "end_ms": 315720,
+    "lemma": "kale",
+    "pos": "NOUN"
+  },
+  {
+    "w": "which",
+    "start_ms": 316160,
+    "end_ms": 316260
+  },
+  {
+    "w": "was",
+    "start_ms": 316260,
+    "end_ms": 316540
+  },
+  {
+    "w": "the",
+    "start_ms": 316540,
+    "end_ms": 316900
+  },
+  {
+    "w": "correct",
+    "start_ms": 316900,
+    "end_ms": 317220,
+    "lemma": "correct",
+    "pos": "ADJ"
+  },
+  {
+    "w": "answer.",
+    "start_ms": 317220,
+    "end_ms": 317900,
+    "lemma": "answer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Unlike",
+    "start_ms": 318900,
+    "end_ms": 318900
+  },
+  {
+    "w": "strawberries",
+    "start_ms": 318900,
+    "end_ms": 319380,
+    "lemma": "strawberry",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 319380,
+    "end_ms": 319920
+  },
+  {
+    "w": "rhubarb,",
+    "start_ms": 319920,
+    "end_ms": 320400,
+    "lemma": "rhubarb",
+    "pos": "NOUN"
+  },
+  {
+    "w": "kale",
+    "start_ms": 320740,
+    "end_ms": 320980
+  },
+  {
+    "w": "grows",
+    "start_ms": 320980,
+    "end_ms": 321340,
+    "lemma": "grow",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 321340,
+    "end_ms": 321580
+  },
+  {
+    "w": "all",
+    "start_ms": 321580,
+    "end_ms": 321760
+  },
+  {
+    "w": "seasons.",
+    "start_ms": 321760,
+    "end_ms": 322160,
+    "lemma": "season",
+    "pos": "NOUN"
+  },
+  {
+    "w": "And",
+    "start_ms": 322560,
+    "end_ms": 322580
+  },
+  {
+    "w": "what's",
+    "start_ms": 322580,
+    "end_ms": 322800
+  },
+  {
+    "w": "more,",
+    "start_ms": 322800,
+    "end_ms": 322940,
+    "lemma": "more",
+    "pos": "ADJ"
+  },
+  {
+    "w": "it's",
+    "start_ms": 323060,
+    "end_ms": 323100
+  },
+  {
+    "w": "good",
+    "start_ms": 323100,
+    "end_ms": 323320,
+    "lemma": "good",
+    "pos": "ADJ"
+  },
+  {
+    "w": "for",
+    "start_ms": 323320,
+    "end_ms": 323500
+  },
+  {
+    "w": "you",
+    "start_ms": 323500,
+    "end_ms": 323640
+  },
+  {
+    "w": "too.",
+    "start_ms": 323640,
+    "end_ms": 323860,
+    "lemma": "too",
+    "pos": "ADV"
+  },
+  {
+    "w": "Okay,",
+    "start_ms": 324400,
+    "end_ms": 324760
+  },
+  {
+    "w": "let's",
+    "start_ms": 325000,
+    "end_ms": 325220
+  },
+  {
+    "w": "recap",
+    "start_ms": 325220,
+    "end_ms": 325480,
+    "lemma": "recap",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 325480,
+    "end_ms": 326320
+  },
+  {
+    "w": "vocabulary",
+    "start_ms": 326320,
+    "end_ms": 326320,
+    "lemma": "vocabulary",
+    "pos": "NOUN"
+  },
+  {
+    "w": "we've",
+    "start_ms": 326320,
+    "end_ms": 326720
+  },
+  {
+    "w": "learned,",
+    "start_ms": 326720,
+    "end_ms": 326940,
+    "lemma": "learn",
+    "pos": "VERB"
+  },
+  {
+    "w": "starting",
+    "start_ms": 327200,
+    "end_ms": 327460,
+    "lemma": "start",
+    "pos": "VERB"
+  },
+  {
+    "w": "with",
+    "start_ms": 327460,
+    "end_ms": 327940
+  },
+  {
+    "w": "use",
+    "start_ms": 327940,
+    "end_ms": 328420,
+    "lemma": "use",
+    "pos": "NOUN"
+  },
+  {
+    "w": "-by",
+    "start_ms": 328420,
+    "end_ms": 328720
+  },
+  {
+    "w": "-date,",
+    "start_ms": 328720,
+    "end_ms": 328920,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "the",
+    "start_ms": 329260,
+    "end_ms": 329300
+  },
+  {
+    "w": "date",
+    "start_ms": 329300,
+    "end_ms": 329540,
+    "lemma": "date",
+    "pos": "NOUN"
+  },
+  {
+    "w": "and",
+    "start_ms": 329540,
+    "end_ms": 330000
+  },
+  {
+    "w": "tool",
+    "start_ms": 330000,
+    "end_ms": 330200,
+    "lemma": "tool",
+    "pos": "NOUN"
+  },
+  {
+    "w": "which",
+    "start_ms": 330200,
+    "end_ms": 330460
+  },
+  {
+    "w": "food",
+    "start_ms": 330460,
+    "end_ms": 330800,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "is",
+    "start_ms": 330800,
+    "end_ms": 331140
+  },
+  {
+    "w": "safe",
+    "start_ms": 331140,
+    "end_ms": 331360,
+    "lemma": "safe",
+    "pos": "ADJ"
+  },
+  {
+    "w": "to",
+    "start_ms": 331360,
+    "end_ms": 331560
+  },
+  {
+    "w": "eat.",
+    "start_ms": 331560,
+    "end_ms": 331740,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "The",
+    "start_ms": 331740,
+    "end_ms": 332100
+  },
+  {
+    "w": "slogan",
+    "start_ms": 332100,
+    "end_ms": 332340,
+    "lemma": "slogan",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Eat",
+    "start_ms": 332340,
+    "end_ms": 332800,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "Local",
+    "start_ms": 332800,
+    "end_ms": 333060,
+    "lemma": "local",
+    "pos": "ADJ"
+  },
+  {
+    "w": "Eat",
+    "start_ms": 333060,
+    "end_ms": 333540,
+    "lemma": "eat",
+    "pos": "VERB"
+  },
+  {
+    "w": "Seasonal",
+    "start_ms": 333540,
+    "end_ms": 334140,
+    "lemma": "seasonal",
+    "pos": "ADJ"
+  },
+  {
+    "w": "encourages",
+    "start_ms": 334140,
+    "end_ms": 334420,
+    "lemma": "encourage",
+    "pos": "VERB"
+  },
+  {
+    "w": "people",
+    "start_ms": 334420,
+    "end_ms": 335080,
+    "lemma": "people",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 335080,
+    "end_ms": 335360
+  },
+  {
+    "w": "buy",
+    "start_ms": 335360,
+    "end_ms": 335540,
+    "lemma": "buy",
+    "pos": "VERB"
+  },
+  {
+    "w": "food,",
+    "start_ms": 335540,
+    "end_ms": 335820,
+    "lemma": "food",
+    "pos": "NOUN"
+  },
+  {
+    "w": "which",
+    "start_ms": 336100,
+    "end_ms": 336120
+  },
+  {
+    "w": "has",
+    "start_ms": 336120,
+    "end_ms": 336300
+  },
+  {
+    "w": "been",
+    "start_ms": 336300,
+    "end_ms": 336460
+  },
+  {
+    "w": "grown",
+    "start_ms": 336460,
+    "end_ms": 336760,
+    "lemma": "grow",
+    "pos": "VERB"
+  },
+  {
+    "w": "locally",
+    "start_ms": 336760,
+    "end_ms": 337220,
+    "lemma": "locally",
+    "pos": "ADV"
+  },
+  {
+    "w": "during",
+    "start_ms": 337220,
+    "end_ms": 337740
+  },
+  {
+    "w": "the",
+    "start_ms": 337740,
+    "end_ms": 337960
+  },
+  {
+    "w": "current",
+    "start_ms": 337960,
+    "end_ms": 338320,
+    "lemma": "current",
+    "pos": "ADJ"
+  },
+  {
+    "w": "season.",
+    "start_ms": 338320,
+    "end_ms": 338860,
+    "lemma": "season",
+    "pos": "NOUN"
+  },
+  {
+    "w": "A",
+    "start_ms": 339300,
+    "end_ms": 339360
+  },
+  {
+    "w": "middleman",
+    "start_ms": 339360,
+    "end_ms": 339860,
+    "lemma": "middleman",
+    "pos": "NOUN"
+  },
+  {
+    "w": "buys",
+    "start_ms": 339860,
+    "end_ms": 340120,
+    "lemma": "buy",
+    "pos": "VERB"
+  },
+  {
+    "w": "produce",
+    "start_ms": 340120,
+    "end_ms": 340600,
+    "lemma": "produce",
+    "pos": "VERB"
+  },
+  {
+    "w": "directly",
+    "start_ms": 340600,
+    "end_ms": 341060,
+    "lemma": "directly",
+    "pos": "ADV"
+  },
+  {
+    "w": "from",
+    "start_ms": 341060,
+    "end_ms": 341420
+  },
+  {
+    "w": "the",
+    "start_ms": 341420,
+    "end_ms": 341540
+  },
+  {
+    "w": "producer",
+    "start_ms": 341540,
+    "end_ms": 341840,
+    "lemma": "producer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "before",
+    "start_ms": 341840,
+    "end_ms": 342280
+  },
+  {
+    "w": "selling",
+    "start_ms": 342280,
+    "end_ms": 342800,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "it",
+    "start_ms": 342800,
+    "end_ms": 342940
+  },
+  {
+    "w": "on",
+    "start_ms": 342940,
+    "end_ms": 343120
+  },
+  {
+    "w": "to",
+    "start_ms": 343120,
+    "end_ms": 343320
+  },
+  {
+    "w": "customers",
+    "start_ms": 343320,
+    "end_ms": 343860,
+    "lemma": "customer",
+    "pos": "NOUN"
+  },
+  {
+    "w": "for",
+    "start_ms": 343860,
+    "end_ms": 344180
+  },
+  {
+    "w": "a",
+    "start_ms": 344180,
+    "end_ms": 344360
+  },
+  {
+    "w": "profit.",
+    "start_ms": 344360,
+    "end_ms": 344660,
+    "lemma": "profit",
+    "pos": "NOUN"
+  },
+  {
+    "w": "If",
+    "start_ms": 345040,
+    "end_ms": 345060
+  },
+  {
+    "w": "he",
+    "start_ms": 345060,
+    "end_ms": 345220
+  },
+  {
+    "w": "is",
+    "start_ms": 345220,
+    "end_ms": 345340
+  },
+  {
+    "w": "commissioned,",
+    "start_ms": 345340,
+    "end_ms": 345640,
+    "lemma": "commission",
+    "pos": "VERB"
+  },
+  {
+    "w": "he",
+    "start_ms": 346240,
+    "end_ms": 346280
+  },
+  {
+    "w": "receives",
+    "start_ms": 346280,
+    "end_ms": 346460,
+    "lemma": "receive",
+    "pos": "VERB"
+  },
+  {
+    "w": "a",
+    "start_ms": 346460,
+    "end_ms": 346740
+  },
+  {
+    "w": "payment",
+    "start_ms": 346740,
+    "end_ms": 347100,
+    "lemma": "payment",
+    "pos": "NOUN"
+  },
+  {
+    "w": "directly",
+    "start_ms": 347100,
+    "end_ms": 347520,
+    "lemma": "directly",
+    "pos": "ADV"
+  },
+  {
+    "w": "related",
+    "start_ms": 347520,
+    "end_ms": 348240,
+    "lemma": "relate",
+    "pos": "VERB"
+  },
+  {
+    "w": "to",
+    "start_ms": 348240,
+    "end_ms": 348580
+  },
+  {
+    "w": "the",
+    "start_ms": 348580,
+    "end_ms": 348680
+  },
+  {
+    "w": "amount",
+    "start_ms": 348680,
+    "end_ms": 348920,
+    "lemma": "amount",
+    "pos": "NOUN"
+  },
+  {
+    "w": "he",
+    "start_ms": 348920,
+    "end_ms": 349120
+  },
+  {
+    "w": "sells.",
+    "start_ms": 349120,
+    "end_ms": 349400,
+    "lemma": "sell",
+    "pos": "VERB"
+  },
+  {
+    "w": "The",
+    "start_ms": 349760,
+    "end_ms": 349780
+  },
+  {
+    "w": "worst",
+    "start_ms": 349780,
+    "end_ms": 349980,
+    "lemma": "bad",
+    "pos": "ADJ"
+  },
+  {
+    "w": "-case",
+    "start_ms": 349980,
+    "end_ms": 350280,
+    "lemma": "case",
+    "pos": "NOUN"
+  },
+  {
+    "w": "scenario",
+    "start_ms": 350280,
+    "end_ms": 350700,
+    "lemma": "scenario",
+    "pos": "NOUN"
+  },
+  {
+    "w": "describes",
+    "start_ms": 350700,
+    "end_ms": 351340,
+    "lemma": "describe",
+    "pos": "VERB"
+  },
+  {
+    "w": "the",
+    "start_ms": 351340,
+    "end_ms": 351940
+  },
+  {
+    "w": "most",
+    "start_ms": 351940,
+    "end_ms": 352140,
+    "lemma": "most",
+    "pos": "ADV"
+  },
+  {
+    "w": "serious,",
+    "start_ms": 352140,
+    "end_ms": 352580,
+    "lemma": "serious",
+    "pos": "ADJ"
+  },
+  {
+    "w": "unpleasant",
+    "start_ms": 352920,
+    "end_ms": 353180,
+    "lemma": "unpleasant",
+    "pos": "ADJ"
+  },
+  {
+    "w": "thing",
+    "start_ms": 353180,
+    "end_ms": 353700,
+    "lemma": "thing",
+    "pos": "NOUN"
+  },
+  {
+    "w": "that",
+    "start_ms": 353700,
+    "end_ms": 354040
+  },
+  {
+    "w": "could",
+    "start_ms": 354040,
+    "end_ms": 354200
+  },
+  {
+    "w": "happen",
+    "start_ms": 354200,
+    "end_ms": 354600,
+    "lemma": "happen",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 354600,
+    "end_ms": 354960
+  },
+  {
+    "w": "a",
+    "start_ms": 354960,
+    "end_ms": 355060
+  },
+  {
+    "w": "situation.",
+    "start_ms": 355060,
+    "end_ms": 355280,
+    "lemma": "situation",
+    "pos": "NOUN"
+  },
+  {
+    "w": "And",
+    "start_ms": 355940,
+    "end_ms": 356140
+  },
+  {
+    "w": "finally,",
+    "start_ms": 356140,
+    "end_ms": 356460,
+    "lemma": "finally",
+    "pos": "ADV"
+  },
+  {
+    "w": "the",
+    "start_ms": 356640,
+    "end_ms": 356760
+  },
+  {
+    "w": "adverb",
+    "start_ms": 356760,
+    "end_ms": 357160,
+    "lemma": "adverb",
+    "pos": "ADJ"
+  },
+  {
+    "w": "blanket",
+    "start_ms": 357160,
+    "end_ms": 357640,
+    "lemma": "blanket",
+    "pos": "NOUN"
+  },
+  {
+    "w": "means",
+    "start_ms": 357640,
+    "end_ms": 358140,
+    "lemma": "mean",
+    "pos": "NOUN"
+  },
+  {
+    "w": "applied",
+    "start_ms": 358140,
+    "end_ms": 358720,
+    "lemma": "apply",
+    "pos": "VERB"
+  },
+  {
+    "w": "in",
+    "start_ms": 358720,
+    "end_ms": 359200
+  },
+  {
+    "w": "the",
+    "start_ms": 359200,
+    "end_ms": 359320
+  },
+  {
+    "w": "same",
+    "start_ms": 359320,
+    "end_ms": 359620,
+    "lemma": "same",
+    "pos": "ADJ"
+  },
+  {
+    "w": "uniform",
+    "start_ms": 359620,
+    "end_ms": 360020,
+    "lemma": "uniform",
+    "pos": "ADJ"
+  },
+  {
+    "w": "way",
+    "start_ms": 360020,
+    "end_ms": 360660,
+    "lemma": "way",
+    "pos": "NOUN"
+  },
+  {
+    "w": "to",
+    "start_ms": 360660,
+    "end_ms": 360840
+  },
+  {
+    "w": "everything.",
+    "start_ms": 360840,
+    "end_ms": 361260
+  },
+  {
+    "w": "Even",
+    "start_ms": 361260,
+    "end_ms": 361940,
+    "lemma": "even",
+    "pos": "ADV"
+  },
+  {
+    "w": "when",
+    "start_ms": 361940,
+    "end_ms": 362220
+  },
+  {
+    "w": "there",
+    "start_ms": 362220,
+    "end_ms": 362400
+  },
+  {
+    "w": "are",
+    "start_ms": 362400,
+    "end_ms": 362500,
+    "lemma": "be",
+    "pos": "VERB"
+  },
+  {
+    "w": "differences",
+    "start_ms": 362500,
+    "end_ms": 362920,
+    "lemma": "difference",
+    "pos": "NOUN"
+  },
+  {
+    "w": "between",
+    "start_ms": 362920,
+    "end_ms": 363380
+  },
+  {
+    "w": "those",
+    "start_ms": 363380,
+    "end_ms": 363740
+  },
+  {
+    "w": "things.",
+    "start_ms": 363740,
+    "end_ms": 364000,
+    "lemma": "thing",
+    "pos": "NOUN"
+  },
+  {
+    "w": "Bye",
+    "start_ms": 364360,
+    "end_ms": 364400
+  },
+  {
+    "w": "for",
+    "start_ms": 364400,
+    "end_ms": 364520
+  },
+  {
+    "w": "now.",
+    "start_ms": 364520,
+    "end_ms": 364740,
+    "lemma": "now",
+    "pos": "ADV"
+  },
+  {
+    "w": "Bye",
+    "start_ms": 364980,
+    "end_ms": 365100
+  },
+  {
+    "w": "-bye.",
+    "start_ms": 365100,
+    "end_ms": 365360
+  }
+]

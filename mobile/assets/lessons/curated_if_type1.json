@@ -1,0 +1,261 @@
+{
+  "video_id": "curated_if_type1",
+  "title": "If (Tip 1 - gerçek koşul)",
+  "license": "curated",
+  "cefr": "B1",
+  "topic": "grammar",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If it rains, we will stay home.",
+      "text_tr": "Yağmur yağarsa evde kalırız.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If it rains, we will stay",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 25
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If you study, you will pass the exam.",
+      "text_tr": "Çalışırsan sınavı geçersin.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If you study, you will pass",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 27
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If she calls, I will answer.",
+      "text_tr": "Ararsa cevap veririm.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If she calls, I will answer",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 27
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If I have time, I will call you.",
+      "text_tr": "Vaktim olursa seni ararım.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If I have time, I will call",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 27
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If they win, they will celebrate.",
+      "text_tr": "Kazanırlarsa kutlama yaparlar.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If they win, they will celebrate",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 32
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If we hurry, we won't be late.",
+      "text_tr": "Acele edersek geç kalmayız.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If we hurry, we won't be late",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 29
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If he doesn't come, we will start without him.",
+      "text_tr": "Gelmezse onsuz başlarız.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If he doesn't come, we will start",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 33
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If you don't hurry, you will miss the bus.",
+      "text_tr": "Acele etmezsen otobüsü kaçırırsın.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If you don't hurry, you will miss",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 33
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "You will feel better if you sleep.",
+      "text_tr": "Uyursan daha iyi hissedersin.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "You will feel better if you sleep",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 33
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We will go out if the weather is good.",
+      "text_tr": "Hava güzel olursa dışarı çıkarız.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "We will go out if the weather is good",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 37
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "What will you do if it snows?",
+      "text_tr": "Kar yağarsa ne yapacaksın?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "What will you do if it snows",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 28
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Will you help me if I ask?",
+      "text_tr": "İstersem bana yardım eder misin?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Will you help me if I ask",
+          "note_tr": "Gerçekleşmesi muhtemel koşul: If + present, will + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_type1",
+          "span_start": 0,
+          "span_end": 25
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    }
+  ]
+}

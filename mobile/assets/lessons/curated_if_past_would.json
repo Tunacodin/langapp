@@ -1,0 +1,261 @@
+{
+  "video_id": "curated_if_past_would",
+  "title": "If (Tip 2 - şimdiki gerçekleşmemiş koşul)",
+  "license": "curated",
+  "cefr": "B1",
+  "topic": "grammar",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If I were rich, I would travel the world.",
+      "text_tr": "Zengin olsam dünyayı gezerdim.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If I were rich, I would travel",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 30
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If I had time, I would help you.",
+      "text_tr": "Vaktim olsa sana yardım ederdim.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If I had time, I would help",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 27
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If she knew the answer, she would tell us.",
+      "text_tr": "Cevabı bilse bize söylerdi.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If she knew the answer, she would tell",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 38
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If we lived closer, we would visit more.",
+      "text_tr": "Daha yakın yaşasak daha çok ziyaret ederdik.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If we lived closer, we would visit",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 34
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If he were here, he would understand.",
+      "text_tr": "Burada olsa anlardı.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If he were here, he would understand",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 36
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If I spoke French, I would live in Paris.",
+      "text_tr": "Fransızca bilsem Paris'te yaşardım.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If I spoke French, I would live",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 31
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If they had more money, they would buy a house.",
+      "text_tr": "Daha çok paraları olsa ev alırlardı.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If they had more money, they would buy",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 38
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I wouldn't do that if I were you.",
+      "text_tr": "Yerinde olsam bunu yapmazdım.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "I wouldn't do that if I were you",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 32
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "She would be happier if she changed jobs.",
+      "text_tr": "İş değiştirse daha mutlu olurdu.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "She would be happier if she changed",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 35
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "If it weren't so late, we would stay.",
+      "text_tr": "Bu kadar geç olmasa kalırdık.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "If it weren't so late, we would stay",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 36
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "What would you do if you won the lottery?",
+      "text_tr": "Piyangoyu kazansan ne yapardın?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "What would you do if you won",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 28
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Where would you go if you had a week off?",
+      "text_tr": "Bir hafta iznin olsa nereye giderdin?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Where would you go if you had",
+          "note_tr": "Şu an gerçek olmayan varsayım: If + past, would + V1.",
+          "cefr": "B1",
+          "norm_pattern": "if_past_would",
+          "span_start": 0,
+          "span_end": 29
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    }
+  ]
+}
