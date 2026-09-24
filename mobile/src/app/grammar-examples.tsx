@@ -55,7 +55,7 @@ export default function GrammarExamplesScreen() {
 
   function save(card: ExampleCard) {
     if (saved.has(card.en)) return;
-    addSrsCard({ front_type: 'chunk', front_en: card.en, back_tr: card.tr });
+    addSrsCard({ front_type: 'chunk', front_en: card.en, back_tr: card.tr, source: 'grammar' });
     setSaved((s) => new Set(s).add(card.en));
   }
 

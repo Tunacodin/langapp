@@ -60,6 +60,7 @@ export default function ItemScreen() {
           front_en: d.lemma,
           back_tr: d.senses.map((s) => s.gloss_tr).join('; '),
           lexicon_id: d.lexicon_id,
+          source: 'vocab',
         });
         const occ = getCrossVideoOccurrencesByLemma(d.lemma);
         setScenes(dedupe(occ.map((o) => scene(o.media_id, o.media_id, o.sent_start, o.sent_end, o.text_en))));
@@ -81,13 +82,13 @@ export default function ItemScreen() {
           })),
         ),
       );
-      setAdd({ front_type: 'grammar', front_en: p.key, back_tr: p.title ?? '' });
+      setAdd({ front_type: 'grammar', front_en: p.key, back_tr: p.title ?? '', source: 'grammar' });
       if (u[0]) {
         setUsage({ text_en: u[0].text_en, span_start: u[0].span_start, span_end: u[0].span_end });
         if (p.practice === '1') setPractice(true); // yol haritasi 3. adim: pratigi hemen ac
       }
     } else if (p.type === 'chunk' && p.key) {
-      setAdd({ front_type: 'chunk', front_en: p.key, back_tr: p.tr ?? '' });
+      setAdd({ front_type: 'chunk', front_en: p.key, back_tr: p.tr ?? '', source: 'vocab' });
       // Obeklerde zaman damgasi yok -> sahne yok.
     }
   }, [p.type, p.id, p.key]);

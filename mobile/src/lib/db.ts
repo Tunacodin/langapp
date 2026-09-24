@@ -1,10 +1,6 @@
 import * as SQLite from 'expo-sqlite';
 
-import lesson1 from '../../assets/lessons/lesson1.json';
-import fireshipAi from '../../assets/lessons/fireship_ai.json';
-import mckinnonDay from '../../assets/lessons/mckinnon_day.json';
-import tifoClubsMoney from '../../assets/lessons/tifo_clubs_money.json';
-import easyengLondon from '../../assets/lessons/easyeng_london.json';
+import { ALL_LESSONS, UNIT_BY_MEDIA } from './lessonManifest';
 import globalLexicon from '../../assets/lessons/_lexicon.json';
 import globalExamples from '../../assets/lessons/_examples.json';
 import articlesSeed from '../../assets/articles/_articles.json';
@@ -172,15 +168,7 @@ export const COURSE_UNITS: CourseUnit[] = [
   },
 ];
 
-// Elle etiket (karma yaklasim): hangi video/makale hangi uniteye ait.
-// Icerik az; el ile net eslenir. Yeni icerik eklendikce buraya eklenir.
-const UNIT_BY_MEDIA: Record<string, number> = {
-  lesson1: 1,
-  mckinnon_day: 2,
-  easyeng_london: 3,
-  tifo_clubs_money: 5,
-  fireship_ai: 6,
-};
+// UNIT_BY_MEDIA artik lessonManifest'ten gelir (sources.json unite alanindan uretilir).
 const UNIT_BY_ARTICLE: Record<string, number> = {
   art_small_habits: 2,
   art_first_users: 5,
@@ -250,18 +238,18 @@ export type Lesson = {
   sentences: LessonSentence[];
 };
 
-const LESSONS: Lesson[] = [
-  lesson1 as Lesson,
-  fireshipAi as Lesson,
-  mckinnonDay as Lesson,
-  tifoClubsMoney as Lesson,
-  easyengLondon as Lesson,
-];
+// Tum dersler manifest'ten (assets/lessons taranarak uretilir). Yeni ders eklemek =
+// python scripts/gen_lesson_manifest.py + SEED_VERSION artir.
+const LESSONS: Lesson[] = ALL_LESSONS;
 
 const db = SQLite.openDatabaseSync('cogni3.db');
 
 // Ders verisi/semasi degistiginde artir; seed otomatik tazelenir (SRS korunur).
-const SEED_VERSION = '16';
+// 17: tum dersler manifest'ten seed'e girdi (5 -> 30+).
+// 18: article_patterns (okuma odak suzme) eklendi.
+// 19: Simple Wikipedia'dan 10 otomatik okuma makalesi eklendi (ingest_reading.py).
+// 20: zayif odaklar icin curated ornek cumle dersleri (96 cumle, 8 konu).
+const SEED_VERSION = '20';
 
 // ---------------------------------------------------------------------------
 // Sema
@@ -433,8 +421,18 @@ export function initSchema() {
       body_en TEXT NOT NULL,
       body_tr TEXT,
       word_count INTEGER NOT NULL DEFAULT 0,
-      read_minutes INTEGER NOT NULL DEFAULT 0
+      read_minutes INTEGER NOT NULL DEFAULT 0,
+      image_url TEXT
     );
+
+    -- Okuma metnindeki gramer yapilari (norm_pattern). Okuma sekmesi aktif odaga
+    -- gore metin suzer: WHERE norm_pattern = aktif_odak. Layer-A (tag_reading.py) uretir.
+    CREATE TABLE IF NOT EXISTS article_patterns (
+      article_id TEXT NOT NULL,
+      norm_pattern TEXT NOT NULL
+    );
+    CREATE INDEX IF NOT EXISTS ix_article_patterns ON article_patterns (norm_pattern);
+    CREATE UNIQUE INDEX IF NOT EXISTS ux_article_patterns ON article_patterns (article_id, norm_pattern);
 
     -- Konusma pratigi kayitlari (KULLANICI VERISI, seed tazelemede SILINMEZ).
     -- Her satir bir "take": bir odak varyasyonu icin ses (+ opsiyonel video) kaydi.
@@ -668,6 +666,7 @@ export function seedLessons() {
     DELETE FROM word_occurrences;
     DELETE FROM examples;
     DELETE FROM articles;
+    DELETE FROM article_patterns;
   `);
 
   // Okuma metinleri: kelime sayisi + okuma suresi (dk) METINDEN turetilir (~200 kelime/dk).
@@ -675,10 +674,16 @@ export function seedLessons() {
     const wc = a.body_en.trim().split(/\s+/).filter(Boolean).length;
     const mins = Math.max(1, Math.round(wc / 200));
     db.runSync(
-      `INSERT OR REPLACE INTO articles (id, title, source, cefr, topic, body_en, body_tr, word_count, read_minutes)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
-      [a.id, a.title, a.source ?? null, a.cefr ?? null, a.topic ?? null, a.body_en, a.body_tr ?? null, wc, mins],
+      `INSERT OR REPLACE INTO articles (id, title, source, cefr, topic, body_en, body_tr, word_count, read_minutes, image_url)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      [a.id, a.title, a.source ?? null, a.cefr ?? null, a.topic ?? null, a.body_en, a.body_tr ?? null, wc, mins, a.image_url ?? null],
     );
+    // Odak suzme icin: metindeki gecerli norm_pattern'lari (enum) article_patterns'a yaz.
+    for (const np of a.norm_patterns ?? []) {
+      if (GRAMMAR_PATTERN_SET.has(np)) {
+        db.runSync(`INSERT OR IGNORE INTO article_patterns (article_id, norm_pattern) VALUES (?, ?)`, [a.id, np]);
+      }
+    }
   }
 
   // GLOBAL sozluk (tum videolar paylasir): bir kez tohumla, haritalari her derste kullan.
@@ -1037,6 +1042,8 @@ type ArticleSeed = {
   topic?: string | null;
   body_en: string;
   body_tr?: string | null;
+  norm_patterns?: string[]; // tag_reading.py: metindeki gramer yapilari (odak suzme)
+  image_url?: string | null; // kapak gorseli (uzak adres)
 };
 
 export type ArticleRow = {
@@ -1047,18 +1054,28 @@ export type ArticleRow = {
   topic: string | null;
   word_count: number;
   read_minutes: number;
+  image_url: string | null;
 };
 export type ArticleFull = ArticleRow & { body_en: string; body_tr: string | null };
 
-export function getArticles(): ArticleRow[] {
+// focusKey verilirse SADECE o gramer yapisini iceren metinler doner (odak kilidi).
+export function getArticles(focusKey?: string | null): ArticleRow[] {
+  if (focusKey) {
+    return db.getAllSync<ArticleRow>(
+      `SELECT a.id, a.title, a.source, a.cefr, a.topic, a.word_count, a.read_minutes, a.image_url
+       FROM articles a JOIN article_patterns ap ON ap.article_id = a.id
+       WHERE ap.norm_pattern = ? ORDER BY a.cefr, a.title`,
+      [focusKey],
+    );
+  }
   return db.getAllSync<ArticleRow>(
-    `SELECT id, title, source, cefr, topic, word_count, read_minutes FROM articles ORDER BY cefr, title`,
+    `SELECT id, title, source, cefr, topic, word_count, read_minutes, image_url FROM articles ORDER BY cefr, title`,
   );
 }
 export function getArticle(id: string): ArticleFull | null {
   return (
     db.getFirstSync<ArticleFull>(
-      `SELECT id, title, source, cefr, topic, word_count, read_minutes, body_en, body_tr
+      `SELECT id, title, source, cefr, topic, word_count, read_minutes, image_url, body_en, body_tr
        FROM articles WHERE id = ?`,
       [id],
     ) ?? null
@@ -1089,6 +1106,7 @@ export function getWatchClips(limit = 40): WatchClip[] {
             (SELECT COUNT(*) FROM chunks c WHERE c.media_id = s.media_id AND c.sentence_idx = s.idx) AS chunk_count
      FROM sentences s JOIN media_items m ON m.id = s.media_id
      WHERE s.text_en IS NOT NULL AND TRIM(s.text_en) <> ''
+       AND s.media_id NOT LIKE 'curated_%'
      ORDER BY chunk_count DESC, s.media_id, s.idx
      LIMIT ?`,
     [limit],
@@ -2252,7 +2270,7 @@ export function getUnitReading(no: number): ArticleRow[] {
   const ids = articleIdsForUnit(no);
   if (!ids.length) return [];
   return db.getAllSync<ArticleRow>(
-    `SELECT id, title, source, cefr, topic, word_count, read_minutes FROM articles
+    `SELECT id, title, source, cefr, topic, word_count, read_minutes, image_url FROM articles
      WHERE id IN (${unitPh(ids.length)}) ORDER BY cefr, title`,
     ids,
   );

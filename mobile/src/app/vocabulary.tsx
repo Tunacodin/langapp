@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { FlatList, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { Skeleton } from '@/components/skeleton';
 import { WordUsageSheet } from '@/components/word-usage-sheet';
 import { colors, radius, space } from '@/constants/appTheme';
 import { getVocabulary, VOCAB_DOMAINS, VocabHubRow } from '@/lib/db';
@@ -44,10 +45,12 @@ export default function VocabularyScreen() {
   const [q, setQ] = useState('');
   const [limit, setLimit] = useState(PAGE);
   const [openWord, setOpenWord] = useState<VocabHubRow | null>(null); // acik kelime sheet'i
+  const [loading, setLoading] = useState(true); // ilk yukleme iskeleti
 
   useFocusEffect(
     useCallback(() => {
       setAll(getVocabulary()); // tum hub (A1/A2 haric); filtre + sayfalama bellekte
+      setLoading(false);
     }, []),
   );
 
@@ -152,7 +155,29 @@ export default function VocabularyScreen() {
             </ScrollView>
           </View>
         }
-        ListEmptyComponent={<Text style={styles.empty}>{total === 0 ? 'Henüz kelime yok.' : 'Sonuç yok.'}</Text>}
+        ListEmptyComponent={
+          loading ? (
+            <View style={{ gap: space.md }}>
+              {[0, 1, 2, 3].map((r) => (
+                <View key={r} style={{ flexDirection: 'row', gap: space.md }}>
+                  {[0, 1].map((c) => (
+                    <View
+                      key={c}
+                      style={{ flex: 1, borderWidth: 1, borderColor: colors.line, borderRadius: radius.md, overflow: 'hidden' }}>
+                      <Skeleton width="100%" height={52} radius={0} />
+                      <View style={{ padding: space.sm, gap: space.xs }}>
+                        <Skeleton width="90%" height={12} />
+                        <Skeleton width="55%" height={10} />
+                      </View>
+                    </View>
+                  ))}
+                </View>
+              ))}
+            </View>
+          ) : (
+            <Text style={styles.empty}>{total === 0 ? 'Henüz kelime yok.' : 'Sonuç yok.'}</Text>
+          )
+        }
         renderItem={({ item }) => {
           if (item.lexicon_id === GHOST_ID) return <View style={styles.cardGhost} />;
           const inSrs = item.card_count > 0;
@@ -200,6 +225,7 @@ export default function VocabularyScreen() {
         lemma={openWord?.lemma ?? null}
         pos={openWord?.pos ?? null}
         meaning={openWord?.first_sense ?? null}
+        lexiconId={openWord?.lexicon_id ?? null}
       />
     </SafeAreaView>
   );

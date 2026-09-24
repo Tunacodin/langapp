@@ -17,7 +17,10 @@ import {
   getSentencesByMedia,
   getSentenceWords,
   getSetting,
+  isSavedByFront,
   recordShadowAttempt,
+  removeSavedByFront,
+  saveShadowReview,
   SentenceCefrCount,
   WordTiming,
 } from '@/lib/db';
@@ -185,6 +188,22 @@ export default function ShadowingStudio() {
 
   const line = lines[idx] ?? FALLBACK;
 
+  // Aktif cumleyi Tekrar'a elle kaydet/kaldir (otomatik ekleme yok).
+  const [lineSaved, setLineSaved] = useState(false);
+  useEffect(() => {
+    setLineSaved(line.en ? isSavedByFront('sentence', line.en) : false);
+  }, [line.en]);
+  function toggleSaveLine() {
+    if (!line.en) return;
+    if (lineSaved) {
+      removeSavedByFront('sentence', line.en);
+      setLineSaved(false);
+    } else {
+      saveShadowReview(line.mediaId, line.idx, line.en, line.tr);
+      setLineSaved(true);
+    }
+  }
+
   // Aktif satirin ses kaynagini coz (video degisince). Cozulenler onbellekte.
   useEffect(() => {
     if (!line.mediaId || line.start == null || !line.ytId) {
@@ -307,7 +326,7 @@ export default function ShadowingStudio() {
   const focused = pack || lesson; // baslikli + geri butonlu odak modu
   const headerTitle = focused ? (params.title ?? line.en) : 'Shadowing Stüdyosu';
   const headerEyebrow = pack
-    ? 'PAKET PRATİĞİ'
+    ? 'BÖLÜM PRATİĞİ'
     : lesson
       ? 'DERS PRATİĞİ'
       : level
@@ -332,9 +351,6 @@ export default function ShadowingStudio() {
               </Text>
             </View>
           </View>
-          <Pressable style={styles.avatar} onPress={() => router.navigate('/profile')}>
-            <Ionicons name="person" size={18} color={colors.muted} />
-          </Pressable>
         </View>
 
         {/* Seviye (CEFR) kategorileri - yalniz havuz modunda */}
@@ -402,6 +418,13 @@ export default function ShadowingStudio() {
                   <Text style={styles.trToggle}>Çeviri</Text>
                 </Pressable>
               ) : null}
+              <Pressable onPress={toggleSaveLine} hitSlop={6}>
+                <Ionicons
+                  name={lineSaved ? 'bookmark' : 'bookmark-outline'}
+                  size={18}
+                  color={lineSaved ? colors.accent : colors.muted}
+                />
+              </Pressable>
             </View>
           </View>
 
@@ -506,16 +529,6 @@ const styles = StyleSheet.create({
   headTexts: { flex: 1 },
   eyebrow: { fontSize: 11, fontWeight: '800', color: colors.accent, letterSpacing: 1 },
   title: { fontSize: 24, fontWeight: '800', color: colors.ink, letterSpacing: -0.5, marginTop: 2 },
-  avatar: {
-    width: 34,
-    height: 34,
-    borderRadius: radius.pill,
-    borderWidth: 1,
-    borderColor: colors.line,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.surface,
-  },
 
   levelBlock: { gap: space.sm },
   levelLabel: { fontSize: 11, fontWeight: '800', color: colors.muted, letterSpacing: 0.5 },

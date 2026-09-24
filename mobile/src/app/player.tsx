@@ -11,15 +11,13 @@ import { colors, radius, space } from '@/constants/appTheme';
 import { WordSheet } from '@/components/word-sheet';
 import { getPoster } from '@/lib/posters';
 import {
-  addSrsCard,
-  getChunksForSentence,
-  getGrammarForSentence,
   getMedia,
   getSentences,
   getWatchPosition,
-  GrammarRow,
-  LessonChunk,
+  isWatchSaved,
+  removeSavedByFront,
   saveWatchProgress,
+  saveWatchReview,
   SentenceRow,
 } from '@/lib/db';
 import { resolveVideoSource } from '@/lib/videoSource';
@@ -30,22 +28,37 @@ export default function PlayerScreen() {
   const insets = useSafeAreaInsets();
 
   const [mediaId, setMediaId] = useState<string | null>(null);
+  const [title, setTitle] = useState('');
   const [sentences, setSentences] = useState<SentenceRow[]>([]);
   const [source, setSource] = useState<VideoSource | null>(null);
   const [poster, setPoster] = useState<number | null>(null);
   const [resumeMs, setResumeMs] = useState(0);
+  const [saved, setSaved] = useState(false); // Tekrar'a kayitli mi
 
   useEffect(() => {
     if (!p.id) return;
     const m = getMedia().find((x) => x.id === p.id);
     if (!m) return;
     setMediaId(m.id);
+    setTitle(m.title);
+    setSaved(isWatchSaved(m.id));
     setSentences(getSentences(m.id));
     setPoster(getPoster(m.youtube_id));
     // start verilmisse (Kesfet kesiti) o ana git; yoksa kaldigi yerden devam.
     setResumeMs(p.start ? Number(p.start) : getWatchPosition(m.id));
     resolveVideoSource(m.youtube_id, m.video_url).then(setSource);
   }, [p.id, p.start]);
+
+  function toggleSave() {
+    if (!mediaId) return;
+    if (saved) {
+      removeSavedByFront('watch', mediaId);
+      setSaved(false);
+    } else {
+      saveWatchReview(mediaId, title);
+      setSaved(true);
+    }
+  }
 
   return (
     <View style={styles.root}>
@@ -71,6 +84,11 @@ export default function PlayerScreen() {
       <Pressable style={[styles.back, { top: insets.top + 8 }]} onPress={() => router.back()} hitSlop={8}>
         <Ionicons name="chevron-back" size={22} color="#fff" />
       </Pressable>
+      {mediaId ? (
+        <Pressable style={[styles.saveTop, { top: insets.top + 8 }]} onPress={toggleSave} hitSlop={8}>
+          <Ionicons name={saved ? 'bookmark' : 'bookmark-outline'} size={22} color="#fff" />
+        </Pressable>
+      ) : null}
     </View>
   );
 }
@@ -177,14 +195,6 @@ function CardPlayer({
   }, [player, sentences, mediaId]);
 
   const current = sentences[active] ?? null;
-  const chunks: LessonChunk[] = useMemo(
-    () => (current ? getChunksForSentence(mediaId, current.idx) : []),
-    [current, mediaId],
-  );
-  const grammar: GrammarRow[] = useMemo(
-    () => (current ? getGrammarForSentence(mediaId, current.idx).filter((g) => g.norm_pattern) : []),
-    [current, mediaId],
-  );
   const words: TWord[] = useMemo(() => {
     if (!current) return [];
     const next = sentences[active + 1]?.start_ms ?? null;
@@ -216,22 +226,6 @@ function CardPlayer({
       player.pause();
     } catch {}
     setWordSheet(token);
-  }
-  function openGrammar(g: GrammarRow) {
-    if (!g.norm_pattern) return;
-    router.push(
-      `/item?type=grammar&key=${encodeURIComponent(g.norm_pattern)}&title=${encodeURIComponent(g.label_tr ?? g.pattern)}`,
-    );
-  }
-  function addChunk(c: LessonChunk) {
-    if (!current) return;
-    addSrsCard({
-      front_type: 'chunk',
-      front_en: c.text_en,
-      back_tr: c.text_tr,
-      media_id: mediaId,
-      sentence_idx: current.idx,
-    });
   }
   return (
     <View style={{ flex: 1 }}>
@@ -283,21 +277,6 @@ function CardPlayer({
                       ))}
                 </View>
                 <Text style={styles.tr}>{current.text_tr}</Text>
-
-                {(chunks.length > 0 || grammar.length > 0) && (
-                  <View style={styles.pills}>
-                    {grammar.map((g, i) => (
-                      <Pressable key={`g${i}`} style={[styles.pill, styles.pillGrammar]} onPress={() => openGrammar(g)}>
-                        <Text style={[styles.pillText, { color: colors.teal }]}>{g.label_tr ?? g.pattern}</Text>
-                      </Pressable>
-                    ))}
-                    {chunks.map((c, i) => (
-                      <Pressable key={`c${i}`} style={[styles.pill, styles.pillChunk]} onPress={() => addChunk(c)}>
-                        <Text style={[styles.pillText, { color: colors.accent }]}>{c.text_en} +</Text>
-                      </Pressable>
-                    ))}
-                  </View>
-                )}
               </>
             ) : (
               <Text style={styles.tr}>Videoyu oynat.</Text>
@@ -351,6 +330,7 @@ const styles = StyleSheet.create({
   loadingText: { fontSize: 14, color: '#fff', fontWeight: '600' },
   posterFill: { ...StyleSheet.absoluteFillObject, width: '100%', height: '100%' },
   back: { position: 'absolute', left: space.md, width: 36, height: 36, alignItems: 'center', justifyContent: 'center' },
+  saveTop: { position: 'absolute', right: space.md, width: 36, height: 36, alignItems: 'center', justifyContent: 'center' },
 
   playerBlock: { backgroundColor: '#000' },
   videoWrap: { width: '100%', backgroundColor: '#000' },
@@ -390,11 +370,6 @@ const styles = StyleSheet.create({
   },
   wordActive: { color: '#fff', backgroundColor: colors.accent },
   tr: { fontSize: 15, color: colors.muted, lineHeight: 22 },
-  pills: { flexDirection: 'row', flexWrap: 'wrap', gap: space.xs, marginTop: space.xs },
-  pill: { borderRadius: radius.pill, paddingVertical: 5, paddingHorizontal: space.sm },
-  pillChunk: { backgroundColor: colors.accentSoft },
-  pillGrammar: { backgroundColor: colors.tealSoft },
-  pillText: { fontWeight: '700', fontSize: 12 },
   navRow: { flexDirection: 'row', justifyContent: 'flex-end', gap: space.sm },
   navBtn: {
     borderWidth: 1,
