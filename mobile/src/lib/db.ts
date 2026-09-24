@@ -5,7 +5,7 @@ import globalLexicon from '../../assets/lessons/_lexicon.json';
 import globalExamples from '../../assets/lessons/_examples.json';
 import articlesSeed from '../../assets/articles/_articles.json';
 import { LESSON_GLOSSARY, LESSON_WORDS } from './lessonAssets';
-import { GRAMMAR_TOPICS } from './grammar';
+import { getTopic, GRAMMAR_TOPICS } from './grammar';
 import { emptyCard, rate } from './srs';
 import type { Grade } from 'ts-fsrs';
 
@@ -1670,6 +1670,60 @@ export function getGrammarUsagesByPattern(
      LIMIT ?`,
     [normPattern, exclude?.mediaId ?? '', exclude?.sentenceIdx ?? -1, limit],
   );
+}
+
+// Dinleme listesi (sayfali). Her kesit TEK "ogrenecegin yapi" ile gelir: cumledeki
+// en ileri seviye kalip (esitlikte en kisa vurgu). Odak varsa yalniz o kalip.
+// Sira videolar arasinda donusumlu (ROW_NUMBER / media) -> liste tek videoya yigilmaz.
+// Cok kisa/cok uzun cumleler (selamlama, paragraf) elenir.
+export type ListeningClip = {
+  media_id: string;
+  youtube_id: string;
+  idx: number;
+  start_ms: number;
+  end_ms: number;
+  text_en: string;
+  text_tr: string | null;
+  norm_pattern: string;
+  topic: string; // kalip adi (ing.)
+  note_tr: string; // ne ise yaradigi (tr)
+  cefr: string | null;
+  span_start: number | null;
+  span_end: number | null;
+};
+export function getListeningClips(opts: {
+  focusKey?: string | null;
+  query?: string;
+  limit: number;
+  offset: number;
+}): ListeningClip[] {
+  const q = opts.query?.trim() ? `%${opts.query.trim()}%` : null;
+  return db.getAllSync<ListeningClip>(
+    `WITH pick AS (
+       SELECT gp.media_id, gp.sentence_idx, gp.norm_pattern, gp.span_start, gp.span_end,
+              gt.label_tr AS topic, gt.cefr,
+              ROW_NUMBER() OVER (
+                PARTITION BY gp.media_id, gp.sentence_idx
+                ORDER BY gt.cefr DESC, (gp.span_end - gp.span_start) ASC
+              ) AS r
+       FROM grammar_patterns gp
+       JOIN grammar_topics gt ON gt.norm_pattern = gp.norm_pattern
+       WHERE (?1 IS NULL OR gp.norm_pattern = ?1)
+     ), rows AS (
+       SELECT s.media_id, m.youtube_id, s.idx, s.start_ms, s.end_ms, s.text_en, s.text_tr,
+              p.norm_pattern, p.topic, p.cefr, p.span_start, p.span_end,
+              ROW_NUMBER() OVER (PARTITION BY s.media_id ORDER BY s.idx) AS rn
+       FROM pick p
+       JOIN sentences s ON s.media_id = p.media_id AND s.idx = p.sentence_idx
+       JOIN media_items m ON m.id = s.media_id
+       WHERE p.r = 1
+         AND LENGTH(s.text_en) BETWEEN 25 AND 180
+         AND (?1 IS NOT NULL OR s.media_id NOT LIKE 'curated_%')
+         AND (?2 IS NULL OR s.text_en LIKE ?2 OR s.text_tr LIKE ?2 OR p.topic LIKE ?2)
+     )
+     SELECT * FROM rows ORDER BY rn, media_id LIMIT ?3 OFFSET ?4`,
+    [opts.focusKey ?? null, q, opts.limit, opts.offset],
+  ).map((c) => ({ ...c, note_tr: getTopic(c.norm_pattern)?.note_tr ?? '' }));
 }
 
 // --- Capraz-video graf (Obsidian benzeri) ---
