@@ -1,0 +1,2854 @@
+[
+ {
+  "phrase": "in fact",
+  "surfaces": [
+   "in fact"
+  ],
+  "tr": [
+   "aslında",
+   "gerçekte"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I thought it was hard. In fact, it was easy.",
+    "tr": "Zor olduğunu düşündüm. Aslında kolaydı."
+   },
+   {
+    "en": "She looks young. In fact, she is fifty.",
+    "tr": "Genç görünüyor. Aslında elli yaşında."
+   }
+  ]
+ },
+ {
+  "phrase": "give up",
+  "surfaces": [
+   "give up"
+  ],
+  "tr": [
+   "vazgeçmek",
+   "bırakmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Don't give up, you are almost there.",
+    "tr": "Vazgeçme, neredeyse bitti."
+   },
+   {
+    "en": "He gave up smoking last year.",
+    "tr": "Geçen yıl sigarayı bıraktı."
+   }
+  ]
+ },
+ {
+  "phrase": "at once",
+  "surfaces": [
+   "at once"
+  ],
+  "tr": [
+   "aynı anda",
+   "hemen"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I can't do three things at once.",
+    "tr": "Aynı anda üç iş yapamam."
+   },
+   {
+    "en": "Come here at once!",
+    "tr": "Hemen buraya gel!"
+   }
+  ]
+ },
+ {
+  "phrase": "over time",
+  "surfaces": [
+   "over time"
+  ],
+  "tr": [
+   "zamanla"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Your English will get better over time.",
+    "tr": "İngilizcen zamanla daha iyi olacak."
+   },
+   {
+    "en": "Over time, we became good friends.",
+    "tr": "Zamanla iyi arkadaş olduk."
+   }
+  ]
+ },
+ {
+  "phrase": "add up",
+  "surfaces": [
+   "add up"
+  ],
+  "tr": [
+   "birikmek",
+   "toplamak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Small costs add up quickly.",
+    "tr": "Küçük masraflar hızla birikir."
+   },
+   {
+    "en": "Can you add up these numbers?",
+    "tr": "Bu sayıları toplayabilir misin?"
+   }
+  ]
+ },
+ {
+  "phrase": "a few",
+  "surfaces": [
+   "a few"
+  ],
+  "tr": [
+   "birkaç"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "I will be back in a few minutes.",
+    "tr": "Birkaç dakika içinde döneceğim."
+   },
+   {
+    "en": "She has a few good friends.",
+    "tr": "Birkaç iyi arkadaşı var."
+   }
+  ]
+ },
+ {
+  "phrase": "a handful of",
+  "surfaces": [
+   "a handful of"
+  ],
+  "tr": [
+   "bir avuç",
+   "az sayıda"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Only a handful of people came to the party.",
+    "tr": "Partiye sadece bir avuç insan geldi."
+   },
+   {
+    "en": "He ate a handful of nuts.",
+    "tr": "Bir avuç kuruyemiş yedi."
+   }
+  ]
+ },
+ {
+  "phrase": "on one's own",
+  "surfaces": [
+   "on their own"
+  ],
+  "tr": [
+   "kendi kendine",
+   "tek başına"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "She built the house on her own.",
+    "tr": "Evi tek başına inşa etti."
+   },
+   {
+    "en": "The door opened on its own.",
+    "tr": "Kapı kendi kendine açıldı."
+   }
+  ]
+ },
+ {
+  "phrase": "in the beginning",
+  "surfaces": [
+   "in the beginning"
+  ],
+  "tr": [
+   "başlangıçta",
+   "ilk başta"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "In the beginning, the job was very hard.",
+    "tr": "Başlangıçta iş çok zordu."
+   },
+   {
+    "en": "I didn't like him in the beginning.",
+    "tr": "İlk başta ondan hoşlanmadım."
+   }
+  ]
+ },
+ {
+  "phrase": "one by one",
+  "surfaces": [
+   "one by one"
+  ],
+  "tr": [
+   "tek tek",
+   "birer birer"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "The guests left one by one.",
+    "tr": "Misafirler birer birer ayrıldı."
+   },
+   {
+    "en": "Check the boxes one by one.",
+    "tr": "Kutuları tek tek kontrol et."
+   }
+  ]
+ },
+ {
+  "phrase": "worry about",
+  "surfaces": [
+   "worry about"
+  ],
+  "tr": [
+   "için endişelenmek"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Don't worry about the test.",
+    "tr": "Sınav için endişelenme."
+   },
+   {
+    "en": "My mother worries about me.",
+    "tr": "Annem benim için endişeleniyor."
+   }
+  ]
+ },
+ {
+  "phrase": "forget about",
+  "surfaces": [
+   "forget about"
+  ],
+  "tr": [
+   "unutmak",
+   "aklından çıkarmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I forgot about the meeting.",
+    "tr": "Toplantıyı unuttum."
+   },
+   {
+    "en": "Forget about work this weekend.",
+    "tr": "Bu hafta sonu işi aklından çıkar."
+   }
+  ]
+ },
+ {
+  "phrase": "complain about",
+  "surfaces": [
+   "complain about"
+  ],
+  "tr": [
+   "şikâyet etmek"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "He always complains about the weather.",
+    "tr": "Hep havadan şikâyet ediyor."
+   },
+   {
+    "en": "Many guests complained about the noise.",
+    "tr": "Birçok misafir gürültüden şikâyet etti."
+   }
+  ]
+ },
+ {
+  "phrase": "struggle with",
+  "surfaces": [
+   "struggle with"
+  ],
+  "tr": [
+   "zorlanmak",
+   "ile uğraşmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I struggle with English grammar.",
+    "tr": "İngilizce dilbilgisinde zorlanıyorum."
+   },
+   {
+    "en": "She struggled with the heavy box.",
+    "tr": "Ağır kutuyla uğraştı."
+   }
+  ]
+ },
+ {
+  "phrase": "each other",
+  "surfaces": [
+   "each other",
+   "each other's"
+  ],
+  "tr": [
+   "birbiri",
+   "birbirini"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "They love each other.",
+    "tr": "Birbirlerini seviyorlar."
+   },
+   {
+    "en": "We help each other every day.",
+    "tr": "Her gün birbirimize yardım ediyoruz."
+   }
+  ]
+ },
+ {
+  "phrase": "one another",
+  "surfaces": [
+   "one another"
+  ],
+  "tr": [
+   "birbiri",
+   "birbirini"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The students helped one another.",
+    "tr": "Öğrenciler birbirine yardım etti."
+   },
+   {
+    "en": "They looked at one another in surprise.",
+    "tr": "Şaşkınlıkla birbirlerine baktılar."
+   }
+  ]
+ },
+ {
+  "phrase": "sort through",
+  "surfaces": [
+   "sorts through"
+  ],
+  "tr": [
+   "gözden geçirip ayıklamak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I need to sort through my old clothes.",
+    "tr": "Eski kıyafetlerimi gözden geçirip ayıklamam gerekiyor."
+   },
+   {
+    "en": "She sorted through the letters.",
+    "tr": "Mektupları tek tek gözden geçirdi."
+   }
+  ]
+ },
+ {
+  "phrase": "clear out",
+  "surfaces": [
+   "clears out"
+  ],
+  "tr": [
+   "temizlemek",
+   "boşaltmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "We cleared out the garage.",
+    "tr": "Garajı boşalttık."
+   },
+   {
+    "en": "Rain clears out the dust in the air.",
+    "tr": "Yağmur havadaki tozu temizler."
+   }
+  ]
+ },
+ {
+  "phrase": "build up",
+  "surfaces": [
+   "builds up",
+   "building up"
+  ],
+  "tr": [
+   "birikmek",
+   "geliştirmek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Dirt builds up under the bed.",
+    "tr": "Yatağın altında kir birikir."
+   },
+   {
+    "en": "Exercise helps you build up your muscles.",
+    "tr": "Egzersiz kaslarını geliştirmene yardım eder."
+   }
+  ]
+ },
+ {
+  "phrase": "in the morning",
+  "surfaces": [
+   "in the morning"
+  ],
+  "tr": [
+   "sabahleyin",
+   "sabah"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "I drink tea in the morning.",
+    "tr": "Sabahleyin çay içerim."
+   },
+   {
+    "en": "The shop opens at nine in the morning.",
+    "tr": "Dükkân sabah dokuzda açılır."
+   }
+  ]
+ },
+ {
+  "phrase": "this is why",
+  "surfaces": [
+   "this is why"
+  ],
+  "tr": [
+   "bu yüzden",
+   "işte bu nedenle"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I missed the bus. This is why I am late.",
+    "tr": "Otobüsü kaçırdım. Bu yüzden geç kaldım."
+   },
+   {
+    "en": "He loves music. This is why he plays the piano.",
+    "tr": "Müziği seviyor. İşte bu nedenle piyano çalıyor."
+   }
+  ]
+ },
+ {
+  "phrase": "be able to",
+  "surfaces": [
+   "be able to",
+   "is able to",
+   "been able to"
+  ],
+  "tr": [
+   "-ebilmek",
+   "yapabilmek"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I will be able to come tomorrow.",
+    "tr": "Yarın gelebileceğim."
+   },
+   {
+    "en": "She was able to finish the work.",
+    "tr": "İşi bitirebildi."
+   }
+  ]
+ },
+ {
+  "phrase": "in general",
+  "surfaces": [
+   "in general"
+  ],
+  "tr": [
+   "genel olarak",
+   "genellikle"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "In general, people like sunny days.",
+    "tr": "Genel olarak insanlar güneşli günleri sever."
+   },
+   {
+    "en": "I like sports in general.",
+    "tr": "Genel olarak sporu severim."
+   }
+  ]
+ },
+ {
+  "phrase": "in particular",
+  "surfaces": [
+   "in particular"
+  ],
+  "tr": [
+   "özellikle"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I like fruit, apples in particular.",
+    "tr": "Meyveyi, özellikle elmayı severim."
+   },
+   {
+    "en": "Is there anything in particular you want?",
+    "tr": "Özellikle istediğin bir şey var mı?"
+   }
+  ]
+ },
+ {
+  "phrase": "for a long time",
+  "surfaces": [
+   "for a long time"
+  ],
+  "tr": [
+   "uzun süre",
+   "uzun zamandır"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I haven't seen him for a long time.",
+    "tr": "Onu uzun zamandır görmedim."
+   },
+   {
+    "en": "We waited for a long time.",
+    "tr": "Uzun süre bekledik."
+   }
+  ]
+ },
+ {
+  "phrase": "a long time ago",
+  "surfaces": [
+   "a long time ago"
+  ],
+  "tr": [
+   "uzun zaman önce"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I lived in Izmir a long time ago.",
+    "tr": "Uzun zaman önce İzmir'de yaşadım."
+   },
+   {
+    "en": "A long time ago, there were no cars.",
+    "tr": "Uzun zaman önce araba yoktu."
+   }
+  ]
+ },
+ {
+  "phrase": "make up for",
+  "surfaces": [
+   "make up for"
+  ],
+  "tr": [
+   "telafi etmek",
+   "açığını kapatmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I will make up for the lost time.",
+    "tr": "Kaybedilen zamanı telafi edeceğim."
+   },
+   {
+    "en": "Nothing can make up for his mistake.",
+    "tr": "Hiçbir şey onun hatasını telafi edemez."
+   }
+  ]
+ },
+ {
+  "phrase": "be made up of",
+  "surfaces": [
+   "made up of"
+  ],
+  "tr": [
+   "-den oluşmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The team is made up of five people.",
+    "tr": "Takım beş kişiden oluşuyor."
+   },
+   {
+    "en": "Water is made up of hydrogen and oxygen.",
+    "tr": "Su hidrojen ve oksijenden oluşur."
+   }
+  ]
+ },
+ {
+  "phrase": "among others",
+  "surfaces": [
+   "among others"
+  ],
+  "tr": [
+   "diğerlerinin yanı sıra",
+   "başkaları arasında"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "He speaks French and German, among others.",
+    "tr": "Başka dillerin yanı sıra Fransızca ve Almanca konuşuyor."
+   },
+   {
+    "en": "The city has parks and museums, among others.",
+    "tr": "Şehirde diğerlerinin yanı sıra parklar ve müzeler var."
+   }
+  ]
+ },
+ {
+  "phrase": "of course",
+  "surfaces": [
+   "of course"
+  ],
+  "tr": [
+   "tabii ki",
+   "elbette"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "Of course you can come with us.",
+    "tr": "Tabii ki bizimle gelebilirsin."
+   },
+   {
+    "en": "Can I sit here? Of course.",
+    "tr": "Buraya oturabilir miyim? Elbette."
+   }
+  ]
+ },
+ {
+  "phrase": "wake up",
+  "surfaces": [
+   "wake up",
+   "woken up",
+   "waking up"
+  ],
+  "tr": [
+   "uyanmak",
+   "uyandırmak"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "I wake up at seven every day.",
+    "tr": "Her gün saat yedide uyanırım."
+   },
+   {
+    "en": "The baby woke up in the night.",
+    "tr": "Bebek gece uyandı."
+   }
+  ]
+ },
+ {
+  "phrase": "as well as",
+  "surfaces": [
+   "as well as"
+  ],
+  "tr": [
+   "-in yanı sıra",
+   "hem ... hem de"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "She speaks English as well as Turkish.",
+    "tr": "Türkçenin yanı sıra İngilizce de konuşuyor."
+   },
+   {
+    "en": "We need bread as well as milk.",
+    "tr": "Sütün yanı sıra ekmeğe de ihtiyacımız var."
+   }
+  ]
+ },
+ {
+  "phrase": "as well",
+  "surfaces": [
+   "as well"
+  ],
+  "tr": [
+   "de/da",
+   "ayrıca"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I want a coffee as well.",
+    "tr": "Ben de bir kahve istiyorum."
+   },
+   {
+    "en": "He plays the guitar as well.",
+    "tr": "Ayrıca gitar da çalıyor."
+   }
+  ]
+ },
+ {
+  "phrase": "a number of",
+  "surfaces": [
+   "a number of"
+  ],
+  "tr": [
+   "birçok",
+   "bir takım"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "A number of students were late today.",
+    "tr": "Bugün birçok öğrenci geç kaldı."
+   },
+   {
+    "en": "There are a number of ways to learn English.",
+    "tr": "İngilizce öğrenmenin birçok yolu var."
+   }
+  ]
+ },
+ {
+  "phrase": "a large number of",
+  "surfaces": [
+   "a large number of"
+  ],
+  "tr": [
+   "çok sayıda"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "A large number of people came to the concert.",
+    "tr": "Konsere çok sayıda insan geldi."
+   },
+   {
+    "en": "The park has a large number of trees.",
+    "tr": "Parkta çok sayıda ağaç var."
+   }
+  ]
+ },
+ {
+  "phrase": "such as",
+  "surfaces": [
+   "such as"
+  ],
+  "tr": [
+   "gibi",
+   "örneğin"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I like fruits such as apples and bananas.",
+    "tr": "Elma ve muz gibi meyveleri severim."
+   },
+   {
+    "en": "Big cities such as Istanbul are very busy.",
+    "tr": "İstanbul gibi büyük şehirler çok kalabalıktır."
+   }
+  ]
+ },
+ {
+  "phrase": "for example",
+  "surfaces": [
+   "for example"
+  ],
+  "tr": [
+   "örneğin",
+   "mesela"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Some animals, for example cats, sleep a lot.",
+    "tr": "Bazı hayvanlar, örneğin kediler, çok uyur."
+   },
+   {
+    "en": "You can walk more. For example, take the stairs.",
+    "tr": "Daha çok yürüyebilirsin. Mesela merdivenleri kullan."
+   }
+  ]
+ },
+ {
+  "phrase": "lead to",
+  "surfaces": [
+   "lead to",
+   "leads to",
+   "leading to"
+  ],
+  "tr": [
+   "yol açmak",
+   "neden olmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Too much sugar can lead to health problems.",
+    "tr": "Fazla şeker sağlık sorunlarına yol açabilir."
+   },
+   {
+    "en": "His hard work led to success.",
+    "tr": "Sıkı çalışması başarıya yol açtı."
+   }
+  ]
+ },
+ {
+  "phrase": "have in common",
+  "surfaces": [
+   "have this in common"
+  ],
+  "tr": [
+   "ortak yanı olmak",
+   "ortak özelliği olmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "We have a lot in common.",
+    "tr": "Pek çok ortak noktamız var."
+   },
+   {
+    "en": "The two brothers have nothing in common.",
+    "tr": "İki kardeşin hiçbir ortak yanı yok."
+   }
+  ]
+ },
+ {
+  "phrase": "be known as",
+  "surfaces": [
+   "known as"
+  ],
+  "tr": [
+   "olarak bilinmek",
+   "diye anılmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Istanbul was once known as Constantinople.",
+    "tr": "İstanbul bir zamanlar Konstantinopolis olarak biliniyordu."
+   },
+   {
+    "en": "He is known as a kind teacher.",
+    "tr": "Nazik bir öğretmen olarak bilinir."
+   }
+  ]
+ },
+ {
+  "phrase": "up to",
+  "surfaces": [
+   "up to"
+  ],
+  "tr": [
+   "-e kadar",
+   "en fazla"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The bus can carry up to fifty people.",
+    "tr": "Otobüs en fazla elli kişi taşıyabilir."
+   },
+   {
+    "en": "This bag can hold up to ten kilos.",
+    "tr": "Bu çanta on kiloya kadar taşıyabilir."
+   }
+  ]
+ },
+ {
+  "phrase": "be made from",
+  "surfaces": [
+   "made from"
+  ],
+  "tr": [
+   "-den yapılmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Bread is made from flour.",
+    "tr": "Ekmek undan yapılır."
+   },
+   {
+    "en": "This paper is made from old boxes.",
+    "tr": "Bu kâğıt eski kutulardan yapılmış."
+   }
+  ]
+ },
+ {
+  "phrase": "be made of",
+  "surfaces": [
+   "made of"
+  ],
+  "tr": [
+   "-den yapılmış olmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "The table is made of wood.",
+    "tr": "Masa ahşaptan yapılmış."
+   },
+   {
+    "en": "These rings are made of gold.",
+    "tr": "Bu yüzükler altından yapılmış."
+   }
+  ]
+ },
+ {
+  "phrase": "in the past",
+  "surfaces": [
+   "in the past"
+  ],
+  "tr": [
+   "geçmişte",
+   "eskiden"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "In the past, people wrote letters.",
+    "tr": "Eskiden insanlar mektup yazardı."
+   },
+   {
+    "en": "I made many mistakes in the past.",
+    "tr": "Geçmişte birçok hata yaptım."
+   }
+  ]
+ },
+ {
+  "phrase": "come from",
+  "surfaces": [
+   "come from",
+   "came from"
+  ],
+  "tr": [
+   "-den gelmek",
+   "kaynaklanmak"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "Where do you come from?",
+    "tr": "Nerelisin?"
+   },
+   {
+    "en": "Most of our fruit comes from the south.",
+    "tr": "Meyvemizin çoğu güneyden gelir."
+   }
+  ]
+ },
+ {
+  "phrase": "carry around",
+  "surfaces": [
+   "carry around",
+   "carried around"
+  ],
+  "tr": [
+   "yanında taşımak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I always carry around a small notebook.",
+    "tr": "Yanımda hep küçük bir defter taşırım."
+   },
+   {
+    "en": "This bag is easy to carry around.",
+    "tr": "Bu çantayı yanında taşımak kolay."
+   }
+  ]
+ },
+ {
+  "phrase": "instead of",
+  "surfaces": [
+   "instead of"
+  ],
+  "tr": [
+   "yerine"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Drink water instead of cola.",
+    "tr": "Kola yerine su iç."
+   },
+   {
+    "en": "I walked instead of taking the bus.",
+    "tr": "Otobüse binmek yerine yürüdüm."
+   }
+  ]
+ },
+ {
+  "phrase": "rely on",
+  "surfaces": [
+   "rely on"
+  ],
+  "tr": [
+   "güvenmek",
+   "bağlı olmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "You can always rely on me.",
+    "tr": "Bana her zaman güvenebilirsin."
+   },
+   {
+    "en": "Many farmers rely on rain.",
+    "tr": "Birçok çiftçi yağmura bağlıdır."
+   }
+  ]
+ },
+ {
+  "phrase": "make a call",
+  "surfaces": [
+   "make calls",
+   "make telephone calls",
+   "make voice calls"
+  ],
+  "tr": [
+   "telefon etmek",
+   "arama yapmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I need to make a call.",
+    "tr": "Bir arama yapmam gerekiyor."
+   },
+   {
+    "en": "You can make calls with this card.",
+    "tr": "Bu kartla telefon edebilirsin."
+   }
+  ]
+ },
+ {
+  "phrase": "take a photo",
+  "surfaces": [
+   "take photos"
+  ],
+  "tr": [
+   "fotoğraf çekmek"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "Can you take a photo of us?",
+    "tr": "Bizim bir fotoğrafımızı çekebilir misin?"
+   },
+   {
+    "en": "Tourists take photos of the bridge.",
+    "tr": "Turistler köprünün fotoğrafını çeker."
+   }
+  ]
+ },
+ {
+  "phrase": "no one",
+  "surfaces": [
+   "no one"
+  ],
+  "tr": [
+   "hiç kimse"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "No one answered the phone.",
+    "tr": "Telefona kimse cevap vermedi."
+   },
+   {
+    "en": "There was no one in the room.",
+    "tr": "Odada hiç kimse yoktu."
+   }
+  ]
+ },
+ {
+  "phrase": "look at",
+  "surfaces": [
+   "looks at",
+   "looking at"
+  ],
+  "tr": [
+   "bakmak",
+   "incelemek"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "Look at this beautiful bird!",
+    "tr": "Şu güzel kuşa bak!"
+   },
+   {
+    "en": "The doctor looked at my arm.",
+    "tr": "Doktor koluma baktı."
+   }
+  ]
+ },
+ {
+  "phrase": "be similar to",
+  "surfaces": [
+   "similar to"
+  ],
+  "tr": [
+   "-e benzemek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "My bag is similar to yours.",
+    "tr": "Çantam seninkine benziyor."
+   },
+   {
+    "en": "This song is similar to an old one.",
+    "tr": "Bu şarkı eski bir şarkıya benziyor."
+   }
+  ]
+ },
+ {
+  "phrase": "learn about",
+  "surfaces": [
+   "learn about"
+  ],
+  "tr": [
+   "hakkında bilgi edinmek",
+   "öğrenmek"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "We learn about animals at school.",
+    "tr": "Okulda hayvanları öğreniyoruz."
+   },
+   {
+    "en": "I want to learn about Turkish history.",
+    "tr": "Türk tarihi hakkında bilgi edinmek istiyorum."
+   }
+  ]
+ },
+ {
+  "phrase": "vice versa",
+  "surfaces": [
+   "vice versa"
+  ],
+  "tr": [
+   "tam tersi",
+   "ya da tersi"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I help him, and vice versa.",
+    "tr": "Ben ona yardım ederim, o da bana."
+   },
+   {
+    "en": "Cats chase dogs, and sometimes vice versa.",
+    "tr": "Kediler köpekleri kovalar, bazen de tam tersi olur."
+   }
+  ]
+ },
+ {
+  "phrase": "put aside",
+  "surfaces": [
+   "put aside"
+  ],
+  "tr": [
+   "bir kenara bırakmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Let's put aside our problems for tonight.",
+    "tr": "Bu gece sorunlarımızı bir kenara bırakalım."
+   },
+   {
+    "en": "She put aside some money every month.",
+    "tr": "Her ay biraz para bir kenara koydu."
+   }
+  ]
+ },
+ {
+  "phrase": "be home to",
+  "surfaces": [
+   "home to"
+  ],
+  "tr": [
+   "-e ev sahipliği yapmak",
+   "yurdu olmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The forest is home to many birds.",
+    "tr": "Orman birçok kuşa ev sahipliği yapar."
+   },
+   {
+    "en": "This city is home to two million people.",
+    "tr": "Bu şehir iki milyon insanın yurdu."
+   }
+  ]
+ },
+ {
+  "phrase": "at home",
+  "surfaces": [
+   "at home"
+  ],
+  "tr": [
+   "evde"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "I stayed at home yesterday.",
+    "tr": "Dün evde kaldım."
+   },
+   {
+    "en": "Is your father at home?",
+    "tr": "Baban evde mi?"
+   }
+  ]
+ },
+ {
+  "phrase": "put together",
+  "surfaces": [
+   "put together"
+  ],
+  "tr": [
+   "bir araya getirmek",
+   "birleştirmek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "We put together a small team.",
+    "tr": "Küçük bir ekip bir araya getirdik."
+   },
+   {
+    "en": "Can you put together this table?",
+    "tr": "Bu masayı birleştirebilir misin?"
+   }
+  ]
+ },
+ {
+  "phrase": "fit together",
+  "surfaces": [
+   "fit together"
+  ],
+  "tr": [
+   "birbirine uymak",
+   "uyum içinde birleşmek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The puzzle pieces fit together.",
+    "tr": "Yapboz parçaları birbirine uyuyor."
+   },
+   {
+    "en": "Their ideas fit together well.",
+    "tr": "Fikirleri birbirine iyi uyuyor."
+   }
+  ]
+ },
+ {
+  "phrase": "come into play",
+  "surfaces": [
+   "come into play"
+  ],
+  "tr": [
+   "devreye girmek",
+   "rol oynamak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Luck also comes into play in sports.",
+    "tr": "Sporda şans da devreye girer."
+   },
+   {
+    "en": "Here, your experience comes into play.",
+    "tr": "Burada senin deneyimin rol oynar."
+   }
+  ]
+ },
+ {
+  "phrase": "leave out",
+  "surfaces": [
+   "leave out"
+  ],
+  "tr": [
+   "dışarıda bırakmak",
+   "atlamak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Don't leave out any details.",
+    "tr": "Hiçbir ayrıntıyı atlama."
+   },
+   {
+    "en": "He felt left out at the party.",
+    "tr": "Partide dışlanmış hissetti."
+   }
+  ]
+ },
+ {
+  "phrase": "in between",
+  "surfaces": [
+   "in between"
+  ],
+  "tr": [
+   "arada",
+   "ikisinin arasında"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I eat fruit in between meals.",
+    "tr": "Öğün aralarında meyve yerim."
+   },
+   {
+    "en": "It is not hot or cold, it is in between.",
+    "tr": "Ne sıcak ne soğuk, ikisinin arası."
+   }
+  ]
+ },
+ {
+  "phrase": "most of the time",
+  "surfaces": [
+   "most of the time"
+  ],
+  "tr": [
+   "çoğu zaman",
+   "genellikle"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Most of the time, I walk to work.",
+    "tr": "Çoğu zaman işe yürüyerek giderim."
+   },
+   {
+    "en": "He is happy most of the time.",
+    "tr": "Çoğu zaman mutludur."
+   }
+  ]
+ },
+ {
+  "phrase": "be different from",
+  "surfaces": [
+   "different from"
+  ],
+  "tr": [
+   "-den farklı olmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "My sister is very different from me.",
+    "tr": "Kız kardeşim benden çok farklı."
+   },
+   {
+    "en": "This city is different from my hometown.",
+    "tr": "Bu şehir memleketimden farklı."
+   }
+  ]
+ },
+ {
+  "phrase": "go up",
+  "surfaces": [
+   "go up"
+  ],
+  "tr": [
+   "yükselmek",
+   "yukarı çıkmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Prices go up every year.",
+    "tr": "Fiyatlar her yıl yükseliyor."
+   },
+   {
+    "en": "We went up the hill.",
+    "tr": "Tepeye çıktık."
+   }
+  ]
+ },
+ {
+  "phrase": "refer to",
+  "surfaces": [
+   "refers to"
+  ],
+  "tr": [
+   "ifade etmek",
+   "kastetmek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The word 'kid' refers to a child.",
+    "tr": "'Kid' kelimesi çocuğu ifade eder."
+   },
+   {
+    "en": "Which book are you referring to?",
+    "tr": "Hangi kitabı kastediyorsun?"
+   }
+  ]
+ },
+ {
+  "phrase": "talk about",
+  "surfaces": [
+   "talk about",
+   "talks about",
+   "talking about"
+  ],
+  "tr": [
+   "hakkında konuşmak"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "Let's talk about your plans.",
+    "tr": "Planların hakkında konuşalım."
+   },
+   {
+    "en": "They talked about the film for hours.",
+    "tr": "Saatlerce film hakkında konuştular."
+   }
+  ]
+ },
+ {
+  "phrase": "due to",
+  "surfaces": [
+   "due to"
+  ],
+  "tr": [
+   "nedeniyle",
+   "yüzünden"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The flight was late due to the snow.",
+    "tr": "Uçuş kar nedeniyle gecikti."
+   },
+   {
+    "en": "The school closed due to the storm.",
+    "tr": "Okul fırtına yüzünden kapandı."
+   }
+  ]
+ },
+ {
+  "phrase": "a variety of",
+  "surfaces": [
+   "a variety of"
+  ],
+  "tr": [
+   "çeşitli",
+   "çok çeşitli"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The shop sells a variety of cheeses.",
+    "tr": "Dükkân çok çeşitli peynirler satıyor."
+   },
+   {
+    "en": "People come here for a variety of reasons.",
+    "tr": "İnsanlar buraya çeşitli nedenlerle gelir."
+   }
+  ]
+ },
+ {
+  "phrase": "a lot of",
+  "surfaces": [
+   "a lot of"
+  ],
+  "tr": [
+   "çok",
+   "pek çok"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "She has a lot of books.",
+    "tr": "Onun çok kitabı var."
+   },
+   {
+    "en": "We had a lot of fun.",
+    "tr": "Çok eğlendik."
+   }
+  ]
+ },
+ {
+  "phrase": "lots of",
+  "surfaces": [
+   "lots of"
+  ],
+  "tr": [
+   "bir sürü",
+   "çok"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "There are lots of shops here.",
+    "tr": "Burada bir sürü dükkân var."
+   },
+   {
+    "en": "He drinks lots of water.",
+    "tr": "Çok su içer."
+   }
+  ]
+ },
+ {
+  "phrase": "compared to",
+  "surfaces": [
+   "compared to"
+  ],
+  "tr": [
+   "-e göre",
+   "ile karşılaştırıldığında"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "This room is small compared to mine.",
+    "tr": "Bu oda benimkine göre küçük."
+   },
+   {
+    "en": "Compared to last year, prices are high.",
+    "tr": "Geçen yılla karşılaştırıldığında fiyatlar yüksek."
+   }
+  ]
+ },
+ {
+  "phrase": "make a difference",
+  "surfaces": [
+   "make a difference"
+  ],
+  "tr": [
+   "fark yaratmak",
+   "etkisi olmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "A small gift can make a difference.",
+    "tr": "Küçük bir hediye fark yaratabilir."
+   },
+   {
+    "en": "Your help made a difference.",
+    "tr": "Yardımın fark yarattı."
+   }
+  ]
+ },
+ {
+  "phrase": "at times",
+  "surfaces": [
+   "at times"
+  ],
+  "tr": [
+   "zaman zaman",
+   "bazen"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The job is boring at times.",
+    "tr": "İş zaman zaman sıkıcı oluyor."
+   },
+   {
+    "en": "At times, I miss my old school.",
+    "tr": "Bazen eski okulumu özlüyorum."
+   }
+  ]
+ },
+ {
+  "phrase": "according to",
+  "surfaces": [
+   "according to"
+  ],
+  "tr": [
+   "-e göre"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "According to the news, it will rain.",
+    "tr": "Haberlere göre yağmur yağacak."
+   },
+   {
+    "en": "Everything went according to plan.",
+    "tr": "Her şey plana göre gitti."
+   }
+  ]
+ },
+ {
+  "phrase": "in the case of",
+  "surfaces": [
+   "in the case of"
+  ],
+  "tr": [
+   "... söz konusu olduğunda",
+   "... durumunda"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "In the case of fire, use the stairs.",
+    "tr": "Yangın durumunda merdivenleri kullanın."
+   },
+   {
+    "en": "In the case of children, the ticket is free.",
+    "tr": "Çocuklar söz konusu olduğunda bilet ücretsiz."
+   }
+  ]
+ },
+ {
+  "phrase": "in that case",
+  "surfaces": [
+   "in that case"
+  ],
+  "tr": [
+   "o zaman",
+   "bu durumda"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "It's raining. In that case, let's stay home.",
+    "tr": "Yağmur yağıyor. O zaman evde kalalım."
+   },
+   {
+    "en": "You are tired? In that case, go to bed.",
+    "tr": "Yorgun musun? Bu durumda yat."
+   }
+  ]
+ },
+ {
+  "phrase": "hundreds of",
+  "surfaces": [
+   "hundreds of"
+  ],
+  "tr": [
+   "yüzlerce"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Hundreds of people waited outside.",
+    "tr": "Dışarıda yüzlerce insan bekledi."
+   },
+   {
+    "en": "This tree is hundreds of years old.",
+    "tr": "Bu ağaç yüzlerce yaşında."
+   }
+  ]
+ },
+ {
+  "phrase": "thousands of",
+  "surfaces": [
+   "thousands of"
+  ],
+  "tr": [
+   "binlerce"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Thousands of fans came to the game.",
+    "tr": "Maça binlerce taraftar geldi."
+   },
+   {
+    "en": "The library has thousands of books.",
+    "tr": "Kütüphanede binlerce kitap var."
+   }
+  ]
+ },
+ {
+  "phrase": "millions of",
+  "surfaces": [
+   "millions of"
+  ],
+  "tr": [
+   "milyonlarca"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Millions of people use this app.",
+    "tr": "Milyonlarca insan bu uygulamayı kullanıyor."
+   },
+   {
+    "en": "The Earth is millions of years old.",
+    "tr": "Dünya milyonlarca yaşında."
+   }
+  ]
+ },
+ {
+  "phrase": "in the same way",
+  "surfaces": [
+   "in the same way"
+  ],
+  "tr": [
+   "aynı şekilde"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Treat everyone in the same way.",
+    "tr": "Herkese aynı şekilde davran."
+   },
+   {
+    "en": "The twins dress in the same way.",
+    "tr": "İkizler aynı şekilde giyinir."
+   }
+  ]
+ },
+ {
+  "phrase": "be aware of",
+  "surfaces": [
+   "aware of"
+  ],
+  "tr": [
+   "farkında olmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Are you aware of the risks?",
+    "tr": "Risklerin farkında mısın?"
+   },
+   {
+    "en": "I wasn't aware of the problem.",
+    "tr": "Sorunun farkında değildim."
+   }
+  ]
+ },
+ {
+  "phrase": "be associated with",
+  "surfaces": [
+   "associated with"
+  ],
+  "tr": [
+   "ile ilişkilendirilmek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Red is often associated with love.",
+    "tr": "Kırmızı genellikle aşkla ilişkilendirilir."
+   },
+   {
+    "en": "This song is associated with summer.",
+    "tr": "Bu şarkı yazla ilişkilendirilir."
+   }
+  ]
+ },
+ {
+  "phrase": "a series of",
+  "surfaces": [
+   "a series of"
+  ],
+  "tr": [
+   "bir dizi"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "He asked a series of questions.",
+    "tr": "Bir dizi soru sordu."
+   },
+   {
+    "en": "There was a series of small earthquakes.",
+    "tr": "Bir dizi küçük deprem oldu."
+   }
+  ]
+ },
+ {
+  "phrase": "give rise to",
+  "surfaces": [
+   "gave rise to"
+  ],
+  "tr": [
+   "doğurmak",
+   "yol açmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The new law gave rise to many questions.",
+    "tr": "Yeni yasa birçok soruyu doğurdu."
+   },
+   {
+    "en": "Bad food can give rise to illness.",
+    "tr": "Kötü yiyecek hastalığa yol açabilir."
+   }
+  ]
+ },
+ {
+  "phrase": "the rest of",
+  "surfaces": [
+   "the rest of"
+  ],
+  "tr": [
+   "-in geri kalanı"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I'll spend the rest of the day at home.",
+    "tr": "Günün geri kalanını evde geçireceğim."
+   },
+   {
+    "en": "The rest of the class went home.",
+    "tr": "Sınıfın geri kalanı eve gitti."
+   }
+  ]
+ },
+ {
+  "phrase": "in half",
+  "surfaces": [
+   "in half"
+  ],
+  "tr": [
+   "ikiye",
+   "yarı yarıya"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Cut the apple in half.",
+    "tr": "Elmayı ikiye kes."
+   },
+   {
+    "en": "She folded the paper in half.",
+    "tr": "Kâğıdı ikiye katladı."
+   }
+  ]
+ },
+ {
+  "phrase": "care for",
+  "surfaces": [
+   "cares for"
+  ],
+  "tr": [
+   "bakmak",
+   "ilgilenmek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "She cares for her old mother.",
+    "tr": "Yaşlı annesine bakıyor."
+   },
+   {
+    "en": "Nurses care for sick people.",
+    "tr": "Hemşireler hastalarla ilgilenir."
+   }
+  ]
+ },
+ {
+  "phrase": "on the other hand",
+  "surfaces": [
+   "on the other hand"
+  ],
+  "tr": [
+   "öte yandan",
+   "diğer taraftan"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The job pays well. On the other hand, it is boring.",
+    "tr": "İş iyi para veriyor. Öte yandan sıkıcı."
+   },
+   {
+    "en": "Cats are quiet. Dogs, on the other hand, are loud.",
+    "tr": "Kediler sessizdir. Köpekler ise gürültücüdür."
+   }
+  ]
+ },
+ {
+  "phrase": "on average",
+  "surfaces": [
+   "on average"
+  ],
+  "tr": [
+   "ortalama olarak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "On average, I sleep seven hours.",
+    "tr": "Ortalama olarak yedi saat uyurum."
+   },
+   {
+    "en": "We sell fifty cakes a day on average.",
+    "tr": "Günde ortalama elli pasta satıyoruz."
+   }
+  ]
+ },
+ {
+  "phrase": "move around",
+  "surfaces": [
+   "move around"
+  ],
+  "tr": [
+   "dolaşmak",
+   "hareket etmek"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "It's hard to move around in this small room.",
+    "tr": "Bu küçük odada hareket etmek zor."
+   },
+   {
+    "en": "He moved around the city by bike.",
+    "tr": "Şehirde bisikletle dolaştı."
+   }
+  ]
+ },
+ {
+  "phrase": "because of",
+  "surfaces": [
+   "because of"
+  ],
+  "tr": [
+   "yüzünden",
+   "nedeniyle"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "We stayed home because of the rain.",
+    "tr": "Yağmur yüzünden evde kaldık."
+   },
+   {
+    "en": "He was late because of the traffic.",
+    "tr": "Trafik nedeniyle geç kaldı."
+   }
+  ]
+ },
+ {
+  "phrase": "depend on",
+  "surfaces": [
+   "depend on"
+  ],
+  "tr": [
+   "-e bağlı olmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "It depends on the weather.",
+    "tr": "Havaya bağlı."
+   },
+   {
+    "en": "Children depend on their parents.",
+    "tr": "Çocuklar ebeveynlerine bağlıdır."
+   }
+  ]
+ },
+ {
+  "phrase": "depending on",
+  "surfaces": [
+   "depending on"
+  ],
+  "tr": [
+   "-e bağlı olarak",
+   "-e göre"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Prices change depending on the season.",
+    "tr": "Fiyatlar mevsime göre değişir."
+   },
+   {
+    "en": "Depending on traffic, we'll arrive at six.",
+    "tr": "Trafiğe bağlı olarak altıda varacağız."
+   }
+  ]
+ },
+ {
+  "phrase": "be dependent on",
+  "surfaces": [
+   "dependent on"
+  ],
+  "tr": [
+   "-e bağımlı olmak",
+   "-e bağlı olmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The town is dependent on tourism.",
+    "tr": "Kasaba turizme bağımlı."
+   },
+   {
+    "en": "Success is dependent on hard work.",
+    "tr": "Başarı sıkı çalışmaya bağlıdır."
+   }
+  ]
+ },
+ {
+  "phrase": "close together",
+  "surfaces": [
+   "close together"
+  ],
+  "tr": [
+   "birbirine yakın"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The houses are built close together.",
+    "tr": "Evler birbirine yakın yapılmış."
+   },
+   {
+    "en": "Stand close together for the photo.",
+    "tr": "Fotoğraf için birbirinize yakın durun."
+   }
+  ]
+ },
+ {
+  "phrase": "law and order",
+  "surfaces": [
+   "law and order"
+  ],
+  "tr": [
+   "kamu düzeni",
+   "asayiş"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The police keep law and order.",
+    "tr": "Polis asayişi sağlar."
+   },
+   {
+    "en": "People want law and order in their city.",
+    "tr": "İnsanlar şehirlerinde kamu düzeni ister."
+   }
+  ]
+ },
+ {
+  "phrase": "take place",
+  "surfaces": [
+   "takes place"
+  ],
+  "tr": [
+   "gerçekleşmek",
+   "yer almak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The wedding will take place in June.",
+    "tr": "Düğün haziranda gerçekleşecek."
+   },
+   {
+    "en": "The story takes place in Istanbul.",
+    "tr": "Hikâye İstanbul'da geçiyor."
+   }
+  ]
+ },
+ {
+  "phrase": "at least",
+  "surfaces": [
+   "at least"
+  ],
+  "tr": [
+   "en az",
+   "en azından"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Drink at least two liters of water.",
+    "tr": "En az iki litre su iç."
+   },
+   {
+    "en": "At least nobody was hurt.",
+    "tr": "En azından kimse yaralanmadı."
+   }
+  ]
+ },
+ {
+  "phrase": "be around",
+  "surfaces": [
+   "been around",
+   "being around"
+  ],
+  "tr": [
+   "var olmak",
+   "yanında olmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "This shop has been around for fifty years.",
+    "tr": "Bu dükkân elli yıldır var."
+   },
+   {
+    "en": "I like being around my friends.",
+    "tr": "Arkadaşlarımın yanında olmayı severim."
+   }
+  ]
+ },
+ {
+  "phrase": "around the world",
+  "surfaces": [
+   "around the world"
+  ],
+  "tr": [
+   "dünyanın her yerinde",
+   "dünya çapında"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "People around the world love football.",
+    "tr": "Dünyanın her yerinde insanlar futbolu sever."
+   },
+   {
+    "en": "This song is famous around the world.",
+    "tr": "Bu şarkı dünya çapında ünlü."
+   }
+  ]
+ },
+ {
+  "phrase": "a bit",
+  "surfaces": [
+   "a bit"
+  ],
+  "tr": [
+   "biraz"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I'm a bit tired today.",
+    "tr": "Bugün biraz yorgunum."
+   },
+   {
+    "en": "Can you wait a bit?",
+    "tr": "Biraz bekleyebilir misin?"
+   }
+  ]
+ },
+ {
+  "phrase": "end in a tie",
+  "surfaces": [
+   "end in a tie"
+  ],
+  "tr": [
+   "berabere bitmek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The game ended in a tie.",
+    "tr": "Maç berabere bitti."
+   },
+   {
+    "en": "Chess games sometimes end in a tie.",
+    "tr": "Satranç oyunları bazen berabere biter."
+   }
+  ]
+ },
+ {
+  "phrase": "right before",
+  "surfaces": [
+   "right before"
+  ],
+  "tr": [
+   "hemen önce"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "He called me right before dinner.",
+    "tr": "Akşam yemeğinden hemen önce beni aradı."
+   },
+   {
+    "en": "Don't drink coffee right before bed.",
+    "tr": "Yatmadan hemen önce kahve içme."
+   }
+  ]
+ },
+ {
+  "phrase": "run on",
+  "surfaces": [
+   "run on"
+  ],
+  "tr": [
+   "ile çalışmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "This car runs on electricity.",
+    "tr": "Bu araba elektrikle çalışıyor."
+   },
+   {
+    "en": "My laptop runs on Windows.",
+    "tr": "Dizüstü bilgisayarım Windows ile çalışıyor."
+   }
+  ]
+ },
+ {
+  "phrase": "think of",
+  "surfaces": [
+   "think of"
+  ],
+  "tr": [
+   "düşünmek",
+   "aklına gelmek"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I can't think of his name.",
+    "tr": "Adı aklıma gelmiyor."
+   },
+   {
+    "en": "What do you think of my new car?",
+    "tr": "Yeni arabam hakkında ne düşünüyorsun?"
+   }
+  ]
+ },
+ {
+  "phrase": "the majority of",
+  "surfaces": [
+   "the majority of"
+  ],
+  "tr": [
+   "-in çoğu",
+   "büyük kısmı"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The majority of students passed the exam.",
+    "tr": "Öğrencilerin çoğu sınavı geçti."
+   },
+   {
+    "en": "The majority of my friends live here.",
+    "tr": "Arkadaşlarımın büyük kısmı burada yaşıyor."
+   }
+  ]
+ },
+ {
+  "phrase": "spend time",
+  "surfaces": [
+   "spend time"
+  ],
+  "tr": [
+   "zaman geçirmek"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I like to spend time with my family.",
+    "tr": "Ailemle zaman geçirmeyi severim."
+   },
+   {
+    "en": "She spent time in the garden.",
+    "tr": "Bahçede zaman geçirdi."
+   }
+  ]
+ },
+ {
+  "phrase": "in trouble",
+  "surfaces": [
+   "in trouble"
+  ],
+  "tr": [
+   "başı dertte"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Call me if you are in trouble.",
+    "tr": "Başın derde girerse beni ara."
+   },
+   {
+    "en": "He is in trouble with his boss.",
+    "tr": "Patronuyla başı dertte."
+   }
+  ]
+ },
+ {
+  "phrase": "look up to",
+  "surfaces": [
+   "looked up to"
+  ],
+  "tr": [
+   "saygı duymak",
+   "örnek almak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Kids often look up to their older brothers.",
+    "tr": "Çocuklar genellikle ağabeylerini örnek alır."
+   },
+   {
+    "en": "I have always looked up to my teacher.",
+    "tr": "Öğretmenime hep saygı duydum."
+   }
+  ]
+ },
+ {
+  "phrase": "be all about",
+  "surfaces": [
+   "all about"
+  ],
+  "tr": [
+   "tamamen ... ile ilgili olmak",
+   "her şey ... demek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "This job is all about people.",
+    "tr": "Bu iş tamamen insanlarla ilgili."
+   },
+   {
+    "en": "Good cooking is all about fresh food.",
+    "tr": "İyi yemekte her şey taze malzeme demek."
+   }
+  ]
+ },
+ {
+  "phrase": "whenever possible",
+  "surfaces": [
+   "whenever possible"
+  ],
+  "tr": [
+   "mümkün olduğunca",
+   "fırsat buldukça"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I walk to work whenever possible.",
+    "tr": "Fırsat buldukça işe yürüyerek giderim."
+   },
+   {
+    "en": "Use public transport whenever possible.",
+    "tr": "Mümkün olduğunca toplu taşıma kullan."
+   }
+  ]
+ },
+ {
+  "phrase": "at a young age",
+  "surfaces": [
+   "at a young age"
+  ],
+  "tr": [
+   "genç yaşta",
+   "küçük yaşta"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "She started playing the piano at a young age.",
+    "tr": "Piyano çalmaya küçük yaşta başladı."
+   },
+   {
+    "en": "He left home at a young age.",
+    "tr": "Evden genç yaşta ayrıldı."
+   }
+  ]
+ },
+ {
+  "phrase": "make friends",
+  "surfaces": [
+   "make friends",
+   "making friends"
+  ],
+  "tr": [
+   "arkadaş edinmek"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "It's easy to make friends at school.",
+    "tr": "Okulda arkadaş edinmek kolay."
+   },
+   {
+    "en": "He made friends with his neighbor.",
+    "tr": "Komşusuyla arkadaş oldu."
+   }
+  ]
+ },
+ {
+  "phrase": "be based on",
+  "surfaces": [
+   "based on"
+  ],
+  "tr": [
+   "-e dayanmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The film is based on a true story.",
+    "tr": "Film gerçek bir hikâyeye dayanıyor."
+   },
+   {
+    "en": "My choice is based on price.",
+    "tr": "Seçimim fiyata dayanıyor."
+   }
+  ]
+ },
+ {
+  "phrase": "in some way or another",
+  "surfaces": [
+   "in some way or another"
+  ],
+  "tr": [
+   "öyle ya da böyle",
+   "bir şekilde"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Everyone helped in some way or another.",
+    "tr": "Herkes öyle ya da böyle yardım etti."
+   },
+   {
+    "en": "We will pay for it in some way or another.",
+    "tr": "Bunun bedelini bir şekilde ödeyeceğiz."
+   }
+  ]
+ },
+ {
+  "phrase": "tend to",
+  "surfaces": [
+   "tend to",
+   "tends to"
+  ],
+  "tr": [
+   "eğiliminde olmak",
+   "genellikle -mek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I tend to sleep late on Sundays.",
+    "tr": "Pazar günleri genellikle geç uyurum."
+   },
+   {
+    "en": "Prices tend to rise in summer.",
+    "tr": "Fiyatlar yazın yükselme eğilimindedir."
+   }
+  ]
+ },
+ {
+  "phrase": "even if",
+  "surfaces": [
+   "even if"
+  ],
+  "tr": [
+   "-se bile"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I will go even if it rains.",
+    "tr": "Yağmur yağsa bile gideceğim."
+   },
+   {
+    "en": "Even if you are tired, finish your work.",
+    "tr": "Yorgun olsan bile işini bitir."
+   }
+  ]
+ },
+ {
+  "phrase": "be likely to",
+  "surfaces": [
+   "likely to"
+  ],
+  "tr": [
+   "muhtemelen -mek",
+   "-me olasılığı yüksek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "It is likely to snow tonight.",
+    "tr": "Bu gece muhtemelen kar yağacak."
+   },
+   {
+    "en": "Young drivers are more likely to have accidents.",
+    "tr": "Genç sürücülerin kaza yapma olasılığı daha yüksek."
+   }
+  ]
+ },
+ {
+  "phrase": "write down",
+  "surfaces": [
+   "write down"
+  ],
+  "tr": [
+   "not etmek",
+   "yazmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "Please write down your phone number.",
+    "tr": "Lütfen telefon numaranı yaz."
+   },
+   {
+    "en": "I wrote down the new words.",
+    "tr": "Yeni kelimeleri not ettim."
+   }
+  ]
+ },
+ {
+  "phrase": "by itself",
+  "surfaces": [
+   "by itself"
+  ],
+  "tr": [
+   "kendi kendine",
+   "tek başına"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The light turned off by itself.",
+    "tr": "Işık kendi kendine söndü."
+   },
+   {
+    "en": "The problem won't go away by itself.",
+    "tr": "Sorun kendi kendine geçmeyecek."
+   }
+  ]
+ },
+ {
+  "phrase": "make sense of",
+  "surfaces": [
+   "make sense of",
+   "making sense of"
+  ],
+  "tr": [
+   "anlam vermek",
+   "bir şey anlamak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I can't make sense of this letter.",
+    "tr": "Bu mektuba bir anlam veremiyorum."
+   },
+   {
+    "en": "She tried to make sense of the map.",
+    "tr": "Haritadan bir şey anlamaya çalıştı."
+   }
+  ]
+ },
+ {
+  "phrase": "in pain",
+  "surfaces": [
+   "in pain"
+  ],
+  "tr": [
+   "acı içinde",
+   "ağrısı olan"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The dog was in pain.",
+    "tr": "Köpek acı içindeydi."
+   },
+   {
+    "en": "He is still in pain after the accident.",
+    "tr": "Kazadan sonra hâlâ acı içinde."
+   }
+  ]
+ },
+ {
+  "phrase": "be responsible for",
+  "surfaces": [
+   "responsible for"
+  ],
+  "tr": [
+   "-den sorumlu olmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Who is responsible for this room?",
+    "tr": "Bu odadan kim sorumlu?"
+   },
+   {
+    "en": "Parents are responsible for their children.",
+    "tr": "Ebeveynler çocuklarından sorumludur."
+   }
+  ]
+ },
+ {
+  "phrase": "carry out",
+  "surfaces": [
+   "carry out"
+  ],
+  "tr": [
+   "yerine getirmek",
+   "gerçekleştirmek"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "The team carried out the plan.",
+    "tr": "Ekip planı gerçekleştirdi."
+   },
+   {
+    "en": "Scientists carry out many tests.",
+    "tr": "Bilim insanları birçok test yapar."
+   }
+  ]
+ },
+ {
+  "phrase": "at risk",
+  "surfaces": [
+   "at risk of",
+   "at risk"
+  ],
+  "tr": [
+   "risk altında",
+   "tehlikede"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "These animals are at risk.",
+    "tr": "Bu hayvanlar tehlikede."
+   },
+   {
+    "en": "Smokers are at risk of heart disease.",
+    "tr": "Sigara içenler kalp hastalığı riski altındadır."
+   }
+  ]
+ },
+ {
+  "phrase": "come out",
+  "surfaces": [
+   "come out"
+  ],
+  "tr": [
+   "çıkmak",
+   "ortaya çıkmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "The sun came out after the rain.",
+    "tr": "Yağmurdan sonra güneş çıktı."
+   },
+   {
+    "en": "Her new book comes out next week.",
+    "tr": "Yeni kitabı haftaya çıkıyor."
+   }
+  ]
+ },
+ {
+  "phrase": "keep track of",
+  "surfaces": [
+   "keep track of"
+  ],
+  "tr": [
+   "takip etmek",
+   "kaydını tutmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "I use an app to keep track of my money.",
+    "tr": "Paramı takip etmek için bir uygulama kullanıyorum."
+   },
+   {
+    "en": "It's hard to keep track of all the news.",
+    "tr": "Tüm haberleri takip etmek zor."
+   }
+  ]
+ },
+ {
+  "phrase": "get up",
+  "surfaces": [
+   "get up"
+  ],
+  "tr": [
+   "kalkmak",
+   "ayağa kalkmak"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "I get up at six every morning.",
+    "tr": "Her sabah altıda kalkarım."
+   },
+   {
+    "en": "Get up, we are late!",
+    "tr": "Kalk, geç kaldık!"
+   }
+  ]
+ },
+ {
+  "phrase": "so do I",
+  "surfaces": [
+   "so do i"
+  ],
+  "tr": [
+   "ben de"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I like tea. So do I.",
+    "tr": "Çay severim. Ben de."
+   },
+   {
+    "en": "She works hard, and so do I.",
+    "tr": "O çok çalışıyor, ben de."
+   }
+  ]
+ },
+ {
+  "phrase": "leave behind",
+  "surfaces": [
+   "left behind"
+  ],
+  "tr": [
+   "geride bırakmak"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Don't leave your bag behind.",
+    "tr": "Çantanı geride bırakma."
+   },
+   {
+    "en": "The storm left behind a lot of damage.",
+    "tr": "Fırtına geride çok hasar bıraktı."
+   }
+  ]
+ },
+ {
+  "phrase": "at some point",
+  "surfaces": [
+   "at some point"
+  ],
+  "tr": [
+   "bir noktada",
+   "bir ara"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "At some point, you need to decide.",
+    "tr": "Bir noktada karar vermen gerekiyor."
+   },
+   {
+    "en": "I will visit Paris at some point.",
+    "tr": "Bir ara Paris'e gideceğim."
+   }
+  ]
+ },
+ {
+  "phrase": "so that",
+  "surfaces": [
+   "so that"
+  ],
+  "tr": [
+   "-sin diye",
+   "böylece"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "Speak slowly so that I can understand.",
+    "tr": "Anlayabileyim diye yavaş konuş."
+   },
+   {
+    "en": "I left early so that I could catch the bus.",
+    "tr": "Otobüse yetişeyim diye erken çıktım."
+   }
+  ]
+ },
+ {
+  "phrase": "have to",
+  "surfaces": [
+   "have to"
+  ],
+  "tr": [
+   "zorunda olmak",
+   "-mek gerekmek"
+  ],
+  "cefr": "A1",
+  "examples": [
+   {
+    "en": "I have to work tomorrow.",
+    "tr": "Yarın çalışmak zorundayım."
+   },
+   {
+    "en": "She had to leave early.",
+    "tr": "Erken ayrılmak zorunda kaldı."
+   }
+  ]
+ },
+ {
+  "phrase": "try to",
+  "surfaces": [
+   "try to",
+   "tried to"
+  ],
+  "tr": [
+   "-meye çalışmak"
+  ],
+  "cefr": "A2",
+  "examples": [
+   {
+    "en": "I try to read every day.",
+    "tr": "Her gün okumaya çalışırım."
+   },
+   {
+    "en": "He tried to open the door.",
+    "tr": "Kapıyı açmaya çalıştı."
+   }
+  ]
+ },
+ {
+  "phrase": "in different parts of",
+  "surfaces": [
+   "in different parts of"
+  ],
+  "tr": [
+   "-in farklı yerlerinde"
+  ],
+  "cefr": "B1",
+  "examples": [
+   {
+    "en": "My friends live in different parts of the country.",
+    "tr": "Arkadaşlarım ülkenin farklı yerlerinde yaşıyor."
+   },
+   {
+    "en": "It rained in different parts of the city.",
+    "tr": "Şehrin farklı yerlerinde yağmur yağdı."
+   }
+  ]
+ }
+]

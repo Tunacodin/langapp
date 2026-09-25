@@ -4,6 +4,7 @@ import { ALL_LESSONS, UNIT_BY_MEDIA } from './lessonManifest';
 import globalLexicon from '../../assets/lessons/_lexicon.json';
 import globalExamples from '../../assets/lessons/_examples.json';
 import articlesSeed from '../../assets/articles/_articles.json';
+import readingDict from '../../assets/articles/_reading_lexicon.json';
 import { LESSON_GLOSSARY, LESSON_WORDS } from './lessonAssets';
 import { getTopic, GRAMMAR_TOPICS } from './grammar';
 import { emptyCard, rate } from './srs';
@@ -250,7 +251,8 @@ const db = SQLite.openDatabaseSync('cogni3.db');
 // 19: Simple Wikipedia'dan 10 otomatik okuma makalesi eklendi (ingest_reading.py).
 // 20: zayif odaklar icin curated ornek cumle dersleri (96 cumle, 8 konu).
 // 21: tum video cumlelerine Turkce ceviri (fill_tr_gtx.py) + yanlis gramer etiketi temizligi.
-const SEED_VERSION = '21';
+// 22: okuma sozlugu (_reading_lexicon.json): eksik kelimeler + kelime gruplari + word_forms.
+const SEED_VERSION = '22';
 
 // ---------------------------------------------------------------------------
 // Sema
@@ -450,6 +452,14 @@ export function initSchema() {
       created_at INTEGER NOT NULL DEFAULT 0
     );
     CREATE INDEX IF NOT EXISTS ix_speaking_focus ON speaking_takes (focus_id, created_at);
+
+    -- Yuzey bicimi -> sozluk koku (okuma metinleri icin; video disi kelimeler ve
+    -- "grew up" gibi kelime gruplari). form: kucuk harf, tek bosluk, duz kesme.
+    CREATE TABLE IF NOT EXISTS word_forms (
+      form TEXT PRIMARY KEY NOT NULL,
+      lemma TEXT NOT NULL,
+      pos TEXT
+    );
 
     -- Konusma merdiveni ilerlemesi (kullanici verisi; seed silmez).
     -- stage: 1 dinle, 3 bosluklu, 4 ilk harf ipucu, 2 Turkceden. best = en iyi eslesme (%).
@@ -686,6 +696,7 @@ export function seedLessons() {
     DELETE FROM senses;
     DELETE FROM word_occurrences;
     DELETE FROM examples;
+    DELETE FROM word_forms;
     DELETE FROM articles;
     DELETE FROM article_patterns;
   `);
@@ -710,8 +721,21 @@ export function seedLessons() {
   // GLOBAL sozluk (tum videolar paylasir): bir kez tohumla, haritalari her derste kullan.
   const { lemmaToId, senseId } = seedLexemes(globalLexicon as LessonLexeme[]);
 
+  // Okuma sozlugu: videolarda gecmeyen kelimeler + kelime gruplari (PHRASE) ve
+  // yuzey -> kok eslemesi (scripts/build_reading_dict.py + merge_reading_dict.py).
+  const RD = readingDict as { lexemes: LessonLexeme[]; examples: ExampleSeed[]; forms: Record<string, string> };
+  seedLexemes(RD.lexemes);
+  for (const [form, key] of Object.entries(RD.forms)) {
+    const bar = key.lastIndexOf('|');
+    db.runSync(`INSERT OR REPLACE INTO word_forms (form, lemma, pos) VALUES (?, ?, ?)`, [
+      form,
+      key.slice(0, bar),
+      key.slice(bar + 1) || null,
+    ]);
+  }
+
   // Ornek kullanimlar (transfer verisi).
-  for (const e of globalExamples as ExampleSeed[]) {
+  for (const e of [...(globalExamples as ExampleSeed[]), ...RD.examples]) {
     db.runSync(
       `INSERT INTO examples (owner_type, owner_key, text_en, text_tr, cefr) VALUES (?, ?, ?, ?, ?)`,
       [e.owner_type, e.owner_key, e.text_en, e.text_tr ?? null, e.cefr ?? null],
@@ -1281,6 +1305,35 @@ function sensesFor(lexiconId: number): Sense[] {
 // Ekrandaki bir sozcugu (surface) o cumledeki gecise gore koke cozer.
 // Once (media, sentence, surface) geciste arar (baglamsal anlami da getirir),
 // yoksa genel surface eslesmesine duser.
+// Yuzey bicimini word_forms anahtarina indir: kucuk harf, tek bosluk, duz kesme.
+export function normForm(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/\u2019/g, "'")
+    .replace(/[^a-z' -]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function lexiconIdForForm(surface: string): number | null {
+  const f = normForm(surface);
+  if (!f) return null;
+  const wf = db.getFirstSync<{ lemma: string; pos: string | null }>(`SELECT lemma, pos FROM word_forms WHERE form = ?`, [f]);
+  const lemma = wf?.lemma ?? f;
+  const row =
+    (wf?.pos
+      ? db.getFirstSync<{ id: number }>(`SELECT id FROM lexicon WHERE lemma = ? AND pos = ?`, [lemma, wf.pos])
+      : null) ?? db.getFirstSync<{ id: number }>(`SELECT id FROM lexicon WHERE lemma = ? LIMIT 1`, [lemma]);
+  return row?.id ?? null;
+}
+
+// Metinde tek parca gosterilecek kelime gruplarinin yuzeyleri (uzundan kisaya).
+export function getPhraseForms(): string[] {
+  return db
+    .getAllSync<{ form: string }>(`SELECT form FROM word_forms WHERE form LIKE '% %' ORDER BY LENGTH(form) DESC`)
+    .map((r) => r.form);
+}
+
 export function lookupLexeme(
   surface: string,
   ctx?: { mediaId: string; sentenceIdx: number },
@@ -1309,7 +1362,12 @@ export function lookupLexeme(
       [clean],
     );
   }
-  if (!occ?.lexicon_id) return null;
+  // Videoda hic gecmeyen yuzey (okuma metni) ya da kelime grubu: word_forms -> kok.
+  if (!occ?.lexicon_id) {
+    const id = lexiconIdForForm(surface);
+    if (id == null) return null;
+    occ = { lexicon_id: id, sense_idx: 0 };
+  }
 
   const lx = db.getFirstSync<{ id: number; lemma: string; pos: string; cefr: string }>(
     `SELECT id, lemma, pos, cefr FROM lexicon WHERE id = ?`,
@@ -2104,6 +2162,23 @@ export function saveWatchReview(mediaId: string, title: string) {
   addSrsCard({ front_type: 'watch', front_en: id, back_tr: title ?? '', media_id: id, source: 'watch', no_card: true });
 }
 
+// Dinleme: videonun tek cumlesini kaydet (Tekrar > Dinleme). front_type='listen'
+// (shadow/ornek 'sentence' kayitlariyla UNIQUE cakismasin). Tiklayinca oynatici o
+// cumleden acilir. Doner kart yok (Tekrar'da yalniz kelimeler notlanir).
+export function saveListenSentence(mediaId: string, sentIdx: number, textEn: string, textTr?: string | null) {
+  const en = (textEn ?? '').trim();
+  if (!en || !mediaId) return;
+  addSrsCard({
+    front_type: 'listen',
+    front_en: en,
+    back_tr: textTr ?? '',
+    media_id: mediaId,
+    sentence_idx: sentIdx,
+    source: 'watch',
+    no_card: true,
+  });
+}
+
 // --- Kayitli mi? (buton durumu) ---
 export function isVocabSaved(lexiconId: number): boolean {
   return !!db.getFirstSync<{ id: number }>(
@@ -2125,6 +2200,9 @@ export function isArticleSaved(articleId: string): boolean {
 }
 export function isWatchSaved(mediaId: string): boolean {
   return isSavedByFront('watch', mediaId);
+}
+export function isListenSaved(textEn: string): boolean {
+  return isSavedByFront('listen', textEn);
 }
 
 // Kaydi kaldir (kart id ile ya da (front_type, front_en) ile).
@@ -2151,12 +2229,15 @@ export type SavedRow = {
   card_json: string | null;
   due_ms: number | null;
   media_title: string | null; // shadow/watch: kaynak video basligi (alt satir)
+  start_ms: number | null; // listen: cumlenin videodaki baslangici (oynaticiyi oradan ac)
 };
 export function getSavedItems(): SavedRow[] {
   return db.getAllSync<SavedRow>(
     `SELECT c.id, c.source, c.front_type, c.front_en, c.back_tr, c.media_id, c.sentence_idx,
             c.lexicon_id, c.card_json, c.due_ms,
-            (SELECT m.title FROM media_items m WHERE m.id = c.media_id) AS media_title
+            (SELECT m.title FROM media_items m WHERE m.id = c.media_id) AS media_title,
+            (SELECT s.start_ms FROM sentences s
+              WHERE s.media_id = c.media_id AND s.idx = c.sentence_idx) AS start_ms
      FROM srs_cards c
      WHERE c.source IS NOT NULL
      ORDER BY c.id DESC`,

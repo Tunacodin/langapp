@@ -33,6 +33,7 @@ const POS_TR: Record<string, string> = {
   PART: 'Edat',
   INTJ: 'Ünlem',
   AUX: 'Yardımcı Fiil',
+  PHRASE: 'Kelime grubu',
 };
 const posLabel = (pos: string) => POS_TR[pos] ?? pos;
 
@@ -156,7 +157,11 @@ export function WordSheet({ visible, onClose, surface, ctx }: Props) {
       </View>
 
       {!lex ? (
-        <Text style={styles.empty}>Bu kelime sözlükte kayıtlı değil. Okunuşu için “Dinle” simgesine dokun.</Text>
+        <Text style={styles.empty}>
+          {/^[A-Z]/.test((surface ?? '').trim())
+            ? 'Özel isim (kişi, yer ya da kurum adı). Türkçe karşılığı yoktur.'
+            : 'Bu kelime henüz sözlükte yok.'}
+        </Text>
       ) : active ? (
         <>
           {/* Aktif tur: etiket + anlamlar */}

@@ -8,7 +8,14 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Skeleton } from '@/components/skeleton';
 import { WordSheet } from '@/components/word-sheet';
 import { colors, radius, space } from '@/constants/appTheme';
-import { getArticle, ArticleFull, isArticleSaved, removeSavedByFront, saveArticleReview } from '@/lib/db';
+import {
+  getArticle,
+  ArticleFull,
+  getPhraseForms,
+  isArticleSaved,
+  removeSavedByFront,
+  saveArticleReview,
+} from '@/lib/db';
 
 // Okuma ekrani: bir makalenin tam metni. Ingilizce paragraflar + istege bagli
 // Turkce ceviri (goster/gizle). Metrikler GERCEK (kelime say., okuma dk).
@@ -125,19 +132,60 @@ export default function ReadingScreen() {
   );
 }
 
-// Bir paragrafi tikanabilir kelimelere boler. Kelime disi parcalar (bosluk,
-// noktalama) oldugu gibi akar; kelimeye dokununca WordSheet acilir.
+// Bir paragrafi tiklanabilir parcalara boler. Once KELIME GRUPLARI (grew up, a lot of,
+// depend on...) tek parca alinir ve noktali alt cizgiyle gosterilir; hangi kelimesine
+// dokunulursa grubun tamami acilir (tek kelimeyi yanlis ogrenmeyi onler). Kalan
+// kelimeler tek tek, kelime disi parcalar (bosluk, noktalama) oldugu gibi akar.
+let PHRASE_RE: RegExp | null = null;
+function phraseRe(): RegExp | null {
+  if (PHRASE_RE) return PHRASE_RE;
+  const forms = getPhraseForms();
+  if (!forms.length) return null;
+  const esc = forms.map((f) => f.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/ /g, '\\s+'));
+  PHRASE_RE = new RegExp(`\\b(?:${esc.join('|')})\\b`, 'gi');
+  return PHRASE_RE;
+}
+
+type Piece = { t: string; kind: 'phrase' | 'word' | 'other' };
+function splitPieces(text: string): Piece[] {
+  const out: Piece[] = [];
+  const pushWords = (chunk: string) => {
+    for (const tok of chunk.split(/(\s+|[^A-Za-z'’-]+)/)) {
+      if (tok) out.push({ t: tok, kind: /[A-Za-z]/.test(tok) ? 'word' : 'other' });
+    }
+  };
+  const re = phraseRe();
+  if (!re) {
+    pushWords(text);
+    return out;
+  }
+  const norm = text.replace(/’/g, "'"); // ayni uzunluk: indeksler orijinalde de gecerli
+  let last = 0;
+  re.lastIndex = 0;
+  for (let m = re.exec(norm); m; m = re.exec(norm)) {
+    if (m.index > last) pushWords(text.slice(last, m.index));
+    out.push({ t: text.slice(m.index, m.index + m[0].length), kind: 'phrase' });
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) pushWords(text.slice(last));
+  return out;
+}
+
 function TappableText({ text, onWord }: { text: string; onWord: (w: string) => void }) {
-  const tokens = useMemo(() => text.split(/(\s+|[^A-Za-z'’-]+)/), [text]);
+  const pieces = useMemo(() => splitPieces(text), [text]);
   return (
     <Text style={styles.body}>
-      {tokens.map((tok, i) =>
-        /[A-Za-z]/.test(tok) ? (
-          <Text key={i} style={styles.word} onPress={() => onWord(tok)} suppressHighlighting>
-            {tok}
-          </Text>
+      {pieces.map((p, i) =>
+        p.kind === 'other' ? (
+          <Text key={i}>{p.t}</Text>
         ) : (
-          <Text key={i}>{tok}</Text>
+          <Text
+            key={i}
+            style={p.kind === 'phrase' ? styles.phrase : styles.word}
+            onPress={() => onWord(p.t)}
+            suppressHighlighting>
+            {p.t}
+          </Text>
         ),
       )}
     </Text>
@@ -197,6 +245,12 @@ const styles = StyleSheet.create({
   para: { marginBottom: space.lg },
   body: { fontSize: 17, color: colors.ink, lineHeight: 28 },
   word: { color: colors.ink },
+  phrase: {
+    color: colors.ink,
+    textDecorationLine: 'underline',
+    textDecorationStyle: 'dotted',
+    textDecorationColor: colors.accent,
+  },
   bodyTr: { fontSize: 15, color: colors.muted, lineHeight: 24, marginTop: space.sm, fontStyle: 'italic' },
 
   empty: { flex: 1, alignItems: 'center', justifyContent: 'center' },

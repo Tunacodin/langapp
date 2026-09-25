@@ -1,0 +1,2518 @@
+[
+ {
+  "surface": "long-term",
+  "lemma": "long-term",
+  "pos": "ADJ",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "uzun vadeli, uzun süreli"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The company is focused on long-term growth.",
+    "tr": "Şirket uzun vadeli büyümeye odaklanıyor."
+   },
+   {
+    "en": "Long-term stress can affect your health.",
+    "tr": "Uzun süreli stres sağlığınızı etkileyebilir."
+   }
+  ]
+ },
+ {
+  "surface": "muscle-sparing",
+  "lemma": "muscle-sparing",
+  "pos": "ADJ",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kas kaybını önleyen, kası koruyan"
+   }
+  ],
+  "examples": [
+   {
+    "en": "A high-protein diet is muscle-sparing during weight loss.",
+    "tr": "Yüksek proteinli bir diyet, kilo verirken kası korur."
+   },
+   {
+    "en": "Muscle-sparing exercise helps older adults stay strong.",
+    "tr": "Kası koruyan egzersiz, yaşlı yetişkinlerin güçlü kalmasına yardımcı olur."
+   }
+  ]
+ },
+ {
+  "surface": "marcus",
+  "skip": true
+ },
+ {
+  "surface": "cicero",
+  "skip": true
+ },
+ {
+  "surface": "bc",
+  "lemma": "bc",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "MÖ (Milattan Önce), takvimde İsa'nın doğumundan önceki dönemi belirten kısaltma"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The pyramids were built around 2500 BC.",
+    "tr": "Piramitler MÖ 2500 civarında inşa edildi."
+   },
+   {
+    "en": "This city was founded in 300 BC.",
+    "tr": "Bu şehir MÖ 300 yılında kuruldu."
+   }
+  ]
+ },
+ {
+  "surface": "cdc",
+  "skip": true
+ },
+ {
+  "surface": "adhd",
+  "lemma": "adhd",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "dikkat eksikliği ve hiperaktivite bozukluğu (odaklanma güçlüğü ve aşırı hareketlilikle giden bir rahatsızlık)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her son was diagnosed with ADHD last year.",
+    "tr": "Oğluna geçen yıl DEHB tanısı kondu."
+   },
+   {
+    "en": "Exercise can help reduce ADHD symptoms.",
+    "tr": "Egzersiz, DEHB belirtilerini azaltmaya yardımcı olabilir."
+   }
+  ]
+ },
+ {
+  "surface": "side-effects",
+  "lemma": "side-effect",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "yan etki (bir ilacın veya tedavinin istenmeyen etkisi)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The medicine has some mild side-effects.",
+    "tr": "İlacın bazı hafif yan etkileri var."
+   },
+   {
+    "en": "Doctors warned her about the side-effects of the treatment.",
+    "tr": "Doktorlar ona tedavinin yan etkileri konusunda uyardı."
+   }
+  ]
+ },
+ {
+  "surface": "cannot",
+  "lemma": "cannot",
+  "pos": "AUX",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "yapamamak ('can' ve 'not'un birleşimi, olumsuz yeterlilik/imkansızlık bildirir)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I cannot come to the party tonight.",
+    "tr": "Bu gece partiye gelemem."
+   },
+   {
+    "en": "She cannot swim very well.",
+    "tr": "O pek iyi yüzemiyor."
+   }
+  ]
+ },
+ {
+  "surface": "well-being",
+  "lemma": "well-being",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "iyi olma hali, esenlik (fiziksel ve ruhsal açıdan iyi hissetme)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Regular sleep improves your overall well-being.",
+    "tr": "Düzenli uyku, genel iyi olma halinizi geliştirir."
+   },
+   {
+    "en": "The program focuses on employee well-being.",
+    "tr": "Program, çalışanların esenliğine odaklanıyor."
+   }
+  ]
+ },
+ {
+  "surface": "sleep-deprived",
+  "lemma": "sleep-deprived",
+  "pos": "ADJ",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "uykusuz kalmış, yeterince uyuyamamış"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Sleep-deprived drivers cause many accidents.",
+    "tr": "Uykusuz kalmış sürücüler birçok kazaya sebep olur."
+   },
+   {
+    "en": "She felt sleep-deprived after the night shift.",
+    "tr": "Gece vardiyasından sonra kendini uykusuz hissetti."
+   }
+  ]
+ },
+ {
+  "surface": "one's",
+  "lemma": "one",
+  "pos": "PRON",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kişinin, insanın (belirsiz zamir 'one'ın iyelik hali)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "It is important to take care of one's health.",
+    "tr": "Kişinin kendi sağlığına dikkat etmesi önemlidir."
+   },
+   {
+    "en": "One should always keep one's promises.",
+    "tr": "İnsan her zaman verdiği sözleri tutmalıdır."
+   }
+  ]
+ },
+ {
+  "surface": "amnesia",
+  "lemma": "amnesia",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "bellek kaybı, hafıza yitimi"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The accident left him with amnesia.",
+    "tr": "Kaza sonrasında hafızasını kaybetti."
+   },
+   {
+    "en": "Amnesia can be temporary or permanent.",
+    "tr": "Hafıza kaybı geçici ya da kalıcı olabilir."
+   }
+  ]
+ },
+ {
+  "surface": "it's",
+  "lemma": "it",
+  "pos": "PRON",
+  "cefr": "A1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "o (it is / it has kısaltması, burada 'o dur' anlamında)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "It's raining outside.",
+    "tr": "Dışarıda yağmur yağıyor."
+   },
+   {
+    "en": "It's a beautiful garden.",
+    "tr": "Burası güzel bir bahçe."
+   }
+  ]
+ },
+ {
+  "surface": "coffea",
+  "skip": true
+ },
+ {
+  "surface": "ethiopia",
+  "skip": true
+ },
+ {
+  "surface": "america",
+  "skip": true
+ },
+ {
+  "surface": "southeast",
+  "lemma": "southeast",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "güneydoğu"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The wind is blowing from the southeast.",
+    "tr": "Rüzgar güneydoğudan esiyor."
+   },
+   {
+    "en": "They traveled southeast for two days.",
+    "tr": "İki gün boyunca güneydoğuya doğru yol aldılar."
+   }
+  ]
+ },
+ {
+  "surface": "asia",
+  "skip": true
+ },
+ {
+  "surface": "turkey",
+  "skip": true
+ },
+ {
+  "surface": "niacin",
+  "lemma": "niacin",
+  "pos": "NOUN",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "niasin (B3 vitamini, vücudun enerji üretimi için gerekli bir besin)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Niacin helps convert food into energy.",
+    "tr": "Niasin, besinlerin enerjiye dönüşmesine yardımcı olur."
+   },
+   {
+    "en": "Meat and fish are good sources of niacin.",
+    "tr": "Et ve balık iyi birer niasin kaynağıdır."
+   }
+  ]
+ },
+ {
+  "surface": "arabica",
+  "lemma": "arabica",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "Arabica (dünyada en çok yetiştirilen, yumuşak aromalı bir kahve çeşidi)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Arabica beans have a smoother taste than Robusta.",
+    "tr": "Arabica çekirdekleri Robusta'dan daha yumuşak bir tada sahiptir."
+   },
+   {
+    "en": "This cafe only serves coffee made from Arabica.",
+    "tr": "Bu kafe sadece Arabica'dan yapılan kahve sunuyor."
+   }
+  ]
+ },
+ {
+  "surface": "world's",
+  "lemma": "world",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "dünya (iyelik hali: dünyanın)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "This is the world's tallest building.",
+    "tr": "Bu, dünyanın en yüksek binası."
+   },
+   {
+    "en": "The world's population keeps growing.",
+    "tr": "Dünyanın nüfusu artmaya devam ediyor."
+   }
+  ]
+ },
+ {
+  "surface": "mocha",
+  "lemma": "mocha",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "moka (çikolata aromalı bir kahve türü ya da tarihi bir kahve çeşidi)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She ordered a hot mocha with whipped cream.",
+    "tr": "Kremalı sıcak bir moka sipariş etti."
+   },
+   {
+    "en": "Mocha combines the flavors of coffee and chocolate.",
+    "tr": "Moka, kahve ve çikolata tatlarını birleştirir."
+   }
+  ]
+ },
+ {
+  "surface": "java",
+  "lemma": "java",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kahve (günlük dilde kahve için kullanılan bir söz, aynı zamanda eski bir kahve çeşidinin adı)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "He can't start his day without a cup of java.",
+    "tr": "Bir fincan kahve içmeden güne başlayamıyor."
+   },
+   {
+    "en": "The cafe is famous for its strong java.",
+    "tr": "Kafe, sert kahvesiyle ünlü."
+   }
+  ]
+ },
+ {
+  "surface": "st",
+  "skip": true
+ },
+ {
+  "surface": "alexander",
+  "skip": true
+ },
+ {
+  "surface": "graham",
+  "skip": true
+ },
+ {
+  "surface": "th",
+  "skip": true
+ },
+ {
+  "surface": "gps",
+  "lemma": "gps",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "GPS (küresel konumlama sistemi, uydular yardımıyla konum belirleyen teknoloji)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We used GPS to find the hotel.",
+    "tr": "Oteli bulmak için GPS kullandık."
+   },
+   {
+    "en": "The car has a built-in GPS system.",
+    "tr": "Arabada yerleşik bir GPS sistemi var."
+   }
+  ]
+ },
+ {
+  "surface": "user's",
+  "lemma": "user",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kullanıcı (iyelik hali: kullanıcının)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The app asks for the user's location.",
+    "tr": "Uygulama, kullanıcının konumunu istiyor."
+   },
+   {
+    "en": "The user's password was too weak.",
+    "tr": "Kullanıcının şifresi çok zayıftı."
+   }
+  ]
+ },
+ {
+  "surface": "pots",
+  "lemma": "pots",
+  "pos": "NOUN",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "POTS (eski, geleneksel telefon hattı hizmetinin kısaltması); ayrıca 'pot'un çoğulu: kaplar, tencereler"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Many homes still use POTS for landline calls.",
+    "tr": "Birçok ev, sabit hat aramaları için hâlâ geleneksel telefon hattını kullanıyor."
+   },
+   {
+    "en": "The old exchange still supports POTS lines.",
+    "tr": "Eski santral hâlâ geleneksel telefon hatlarını destekliyor."
+   }
+  ]
+ },
+ {
+  "surface": "ip",
+  "lemma": "ip",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "IP (internet üzerinde veri iletimini sağlayan protokol, İnternet Protokolü)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Every device on the network has an IP address.",
+    "tr": "Ağdaki her cihazın bir IP adresi vardır."
+   },
+   {
+    "en": "The website blocked his IP after too many attempts.",
+    "tr": "Web sitesi, çok fazla denemeden sonra onun IP'sini engelledi."
+   }
+  ]
+ },
+ {
+  "surface": "voip",
+  "lemma": "voip",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "VoIP (internet üzerinden sesli görüşme yapma teknolojisi)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The company switched to VoIP to save money on calls.",
+    "tr": "Şirket, aramalardan tasarruf etmek için VoIP'e geçti."
+   },
+   {
+    "en": "VoIP calls need a stable internet connection.",
+    "tr": "VoIP aramaları kararlı bir internet bağlantısı gerektirir."
+   }
+  ]
+ },
+ {
+  "surface": "telephone's",
+  "lemma": "telephone",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "telefon (iyelik hali: telefonun)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The telephone's battery died during the call.",
+    "tr": "Telefonun pili görüşme sırasında bitti."
+   },
+   {
+    "en": "I forgot the telephone's charger at home.",
+    "tr": "Telefonun şarj aletini evde unuttum."
+   }
+  ]
+ },
+ {
+  "surface": "wide",
+  "lemma": "wide",
+  "pos": "ADJ",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "geniş"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The river is very wide near the coast.",
+    "tr": "Nehir, kıyıya yakın yerde çok geniş."
+   },
+   {
+    "en": "She has a wide range of interests.",
+    "tr": "Çok geniş bir ilgi alanı var."
+   }
+  ]
+ },
+ {
+  "surface": "united",
+  "lemma": "united",
+  "pos": "ADJ",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "birleşmiş, birlik olmuş"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The team felt united after the victory.",
+    "tr": "Takım, zaferden sonra kendini birleşmiş hissetti."
+   },
+   {
+    "en": "They stood united against the decision.",
+    "tr": "Karara karşı birlik içinde durdular."
+   }
+  ]
+ },
+ {
+  "surface": "defence",
+  "lemma": "defence",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "savunma"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The country increased its defence budget.",
+    "tr": "Ülke, savunma bütçesini artırdı."
+   },
+   {
+    "en": "Her lawyer prepared a strong defence.",
+    "tr": "Avukatı güçlü bir savunma hazırladı."
+   }
+  ]
+ },
+ {
+  "surface": "advanced",
+  "lemma": "advanced",
+  "pos": "ADJ",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "ileri, gelişmiş"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She is taking an advanced English class.",
+    "tr": "İleri seviye bir İngilizce dersi alıyor."
+   },
+   {
+    "en": "The company uses advanced technology.",
+    "tr": "Şirket, gelişmiş teknoloji kullanıyor."
+   }
+  ]
+ },
+ {
+  "surface": "darpa",
+  "skip": true
+ },
+ {
+  "surface": "october",
+  "lemma": "october",
+  "pos": "NOUN",
+  "cefr": "A1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "ekim (yılın onuncu ayı)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "School usually starts in October.",
+    "tr": "Okul genellikle ekim ayında başlar."
+   },
+   {
+    "en": "It gets colder in October.",
+    "tr": "Ekim ayında hava soğumaya başlar."
+   }
+  ]
+ },
+ {
+  "surface": "arpanet",
+  "skip": true
+ },
+ {
+  "surface": "cern",
+  "skip": true
+ },
+ {
+  "surface": "switzerland",
+  "skip": true
+ },
+ {
+  "surface": "uk",
+  "skip": true
+ },
+ {
+  "surface": "tim",
+  "skip": true
+ },
+ {
+  "surface": "berners-lee",
+  "skip": true
+ },
+ {
+  "surface": "www",
+  "lemma": "www",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "www (World Wide Web'in kısaltması, internet üzerindeki web sayfaları ağı)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Most website addresses start with www.",
+    "tr": "Çoğu web sitesi adresi www ile başlar."
+   },
+   {
+    "en": "The www changed how people share information.",
+    "tr": "www, insanların bilgi paylaşma biçimini değiştirdi."
+   }
+  ]
+ },
+ {
+  "surface": "wikipedia",
+  "skip": true
+ },
+ {
+  "surface": "e-mail",
+  "lemma": "e-mail",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "e-posta"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please send me an e-mail with the details.",
+    "tr": "Lütfen bana ayrıntıları içeren bir e-posta gönder."
+   },
+   {
+    "en": "She checks her e-mail every morning.",
+    "tr": "Her sabah e-postasını kontrol ediyor."
+   }
+  ]
+ },
+ {
+  "surface": "china",
+  "skip": true
+ },
+ {
+  "surface": "korea",
+  "skip": true
+ },
+ {
+  "surface": "facebook",
+  "skip": true
+ },
+ {
+  "surface": "e-mails",
+  "lemma": "e-mail",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "e-posta (çoğul: e-postalar)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "He received ten e-mails this morning.",
+    "tr": "Bu sabah on tane e-posta aldı."
+   },
+   {
+    "en": "Important e-mails should not be ignored.",
+    "tr": "Önemli e-postalar göz ardı edilmemeli."
+   }
+  ]
+ },
+ {
+  "surface": "europe",
+  "skip": true
+ },
+ {
+  "surface": "alps",
+  "skip": true
+ },
+ {
+  "surface": "austria",
+  "skip": true
+ },
+ {
+  "surface": "greece",
+  "skip": true
+ },
+ {
+  "surface": "litter",
+  "lemma": "litter",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "çöp, etrafa atılan çer çöp"
+   }
+  ],
+  "examples": [
+   {
+    "en": "There was a lot of litter on the beach.",
+    "tr": "Sahilde çok fazla çöp vardı."
+   },
+   {
+    "en": "Please don't throw litter on the street.",
+    "tr": "Lütfen sokağa çöp atma."
+   }
+  ]
+ },
+ {
+  "surface": "scuba-diving",
+  "lemma": "scuba-diving",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "tüplü dalış"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We tried scuba-diving for the first time in Egypt.",
+    "tr": "İlk kez Mısır'da tüplü dalış denedik."
+   },
+   {
+    "en": "Scuba-diving lets you explore coral reefs.",
+    "tr": "Tüplü dalış, mercan resiflerini keşfetmenizi sağlar."
+   }
+  ]
+ },
+ {
+  "surface": "lucia",
+  "skip": true
+ },
+ {
+  "surface": "hawaii",
+  "skip": true
+ },
+ {
+  "surface": "other's",
+  "lemma": "other",
+  "pos": "PRON",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "diğerinin, başkasının"
+   }
+  ],
+  "examples": [
+   {
+    "en": "They respect each other's opinions.",
+    "tr": "Birbirlerinin fikirlerine saygı duyarlar."
+   },
+   {
+    "en": "Don't read your other's messages without asking.",
+    "tr": "Sormadan başkasının mesajlarını okuma."
+   }
+  ]
+ },
+ {
+  "surface": "wikivoyage",
+  "skip": true
+ },
+ {
+  "surface": "tam-br",
+  "skip": true
+ },
+ {
+  "surface": "person's",
+  "lemma": "person",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kişi (iyelik hali: kişinin)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Every person's opinion matters here.",
+    "tr": "Burada her kişinin görüşü önemlidir."
+   },
+   {
+    "en": "I found a person's wallet on the street.",
+    "tr": "Sokakta bir kişinin cüzdanını buldum."
+   }
+  ]
+ },
+ {
+  "surface": "etc",
+  "lemma": "etc",
+  "pos": "ADV",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "vesaire, ve benzeri (bir listeyi tamamlamadan kısaltmak için kullanılır)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We need pens, paper, glue, etc. for the project.",
+    "tr": "Proje için kalem, kağıt, tutkal vesaire gerekiyor."
+   },
+   {
+    "en": "The store sells fruit, vegetables, etc.",
+    "tr": "Mağaza meyve, sebze ve benzerlerini satıyor."
+   }
+  ]
+ },
+ {
+  "surface": "p",
+  "skip": true
+ },
+ {
+  "surface": "phenomena",
+  "lemma": "phenomenon",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "olgu, olay (çoğul: 'phenomenon' kelimesinin çoğulu)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Scientists study natural phenomena like storms and earthquakes.",
+    "tr": "Bilim insanları fırtına ve deprem gibi doğal olguları inceler."
+   },
+   {
+    "en": "Dreams are still mysterious phenomena to researchers.",
+    "tr": "Rüyalar, araştırmacılar için hâlâ gizemli olgulardır."
+   }
+  ]
+ },
+ {
+  "surface": "human-caused",
+  "lemma": "human-caused",
+  "pos": "ADJ",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "insan kaynaklı, insan eliyle oluşan"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Human-caused pollution harms the oceans.",
+    "tr": "İnsan kaynaklı kirlilik okyanuslara zarar veriyor."
+   },
+   {
+    "en": "Many fires today are human-caused.",
+    "tr": "Günümüzde birçok yangın insan kaynaklıdır."
+   }
+  ]
+ },
+ {
+  "surface": "earth's",
+  "lemma": "earth",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "dünya, yerküre (iyelik hali: dünyanın)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The Earth's climate is changing fast.",
+    "tr": "Dünyanın iklimi hızla değişiyor."
+   },
+   {
+    "en": "Earth's surface is mostly covered by water.",
+    "tr": "Dünyanın yüzeyinin çoğu suyla kaplıdır."
+   }
+  ]
+ },
+ {
+  "surface": "arctic",
+  "lemma": "arctic",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kuzey kutup bölgesi"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Polar bears live in the Arctic.",
+    "tr": "Kutup ayıları kuzey kutup bölgesinde yaşar."
+   },
+   {
+    "en": "The Arctic is warming faster than other regions.",
+    "tr": "Kuzey kutup bölgesi diğer bölgelerden daha hızlı ısınıyor."
+   }
+  ]
+ },
+ {
+  "surface": "poles",
+  "lemma": "pole",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kutup (dünyanın kuzey ve güney uçları)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Ice covers both poles of the Earth.",
+    "tr": "Buz, dünyanın her iki kutbunu da kaplar."
+   },
+   {
+    "en": "Few animals can survive at the poles.",
+    "tr": "Kutuplarda hayatta kalabilen çok az hayvan vardır."
+   }
+  ]
+ },
+ {
+  "surface": "oxygenation",
+  "lemma": "oxygenation",
+  "pos": "NOUN",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "oksijenlenme (ortama oksijen katılması süreci)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The oxygenation of the oceans changed early life on Earth.",
+    "tr": "Okyanusların oksijenlenmesi, dünyadaki ilk yaşamı değiştirdi."
+   },
+   {
+    "en": "Doctors monitor blood oxygenation during surgery.",
+    "tr": "Doktorlar ameliyat sırasında kanın oksijenlenmesini izler."
+   }
+  ]
+ },
+ {
+  "surface": "th-century",
+  "skip": true
+ },
+ {
+  "surface": "joseph",
+  "skip": true
+ },
+ {
+  "surface": "fourier",
+  "skip": true
+ },
+ {
+  "surface": "claude",
+  "skip": true
+ },
+ {
+  "surface": "pouillet",
+  "skip": true
+ },
+ {
+  "surface": "eunice",
+  "skip": true
+ },
+ {
+  "surface": "foote",
+  "skip": true
+ },
+ {
+  "surface": "john",
+  "skip": true
+ },
+ {
+  "surface": "tyndall",
+  "skip": true
+ },
+ {
+  "surface": "svante",
+  "skip": true
+ },
+ {
+  "surface": "arrhenius",
+  "skip": true
+ },
+ {
+  "surface": "stewart",
+  "skip": true
+ },
+ {
+  "surface": "nils",
+  "skip": true
+ },
+ {
+  "surface": "gustaf",
+  "skip": true
+ },
+ {
+  "surface": "ekholm",
+  "skip": true
+ },
+ {
+  "surface": "arousal'",
+  "lemma": "arousal",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "uyarılma, heyecanlanma (bedensel veya duygusal tepki hali)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Fear causes physical arousal like a faster heartbeat.",
+    "tr": "Korku, hızlı kalp atışı gibi bedensel bir uyarılmaya neden olur."
+   },
+   {
+    "en": "The test measured her emotional arousal during the game.",
+    "tr": "Test, oyun sırasındaki duygusal uyarılmasını ölçtü."
+   }
+  ]
+ },
+ {
+  "surface": "lower'",
+  "lemma": "lower",
+  "pos": "ADJ",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "alt, daha aşağıdaki"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The lower part of the building was flooded.",
+    "tr": "Binanın alt kısmı sular altında kaldı."
+   },
+   {
+    "en": "Emotions come from the lower brain centers too.",
+    "tr": "Duygular, beynin alt merkezlerinden de kaynaklanır."
+   }
+  ]
+ },
+ {
+  "surface": "darwin's",
+  "skip": true
+ },
+ {
+  "surface": "descent",
+  "lemma": "descent",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "iniş; ayrıca soy, köken"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The plane began its descent toward the airport.",
+    "tr": "Uçak, havalimanına doğru inişe geçti."
+   },
+   {
+    "en": "She is of Italian descent.",
+    "tr": "İtalyan kökenlidir."
+   }
+  ]
+ },
+ {
+  "surface": "darwin",
+  "skip": true
+ },
+ {
+  "surface": "ekman",
+  "skip": true
+ },
+ {
+  "surface": "guinea",
+  "skip": true
+ },
+ {
+  "surface": "ekman's",
+  "skip": true
+ },
+ {
+  "surface": "lydia",
+  "skip": true
+ },
+ {
+  "surface": "mediterranean",
+  "skip": true
+ },
+ {
+  "surface": "cow's",
+  "lemma": "cow",
+  "pos": "NOUN",
+  "cefr": "A1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "inek (iyelik hali: ineğin)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The farmer sold the cow's milk at the market.",
+    "tr": "Çiftçi, ineğin sütünü pazarda sattı."
+   },
+   {
+    "en": "This cheese is made from a cow's milk.",
+    "tr": "Bu peynir bir ineğin sütünden yapılır."
+   }
+  ]
+ },
+ {
+  "surface": "pleistocene",
+  "lemma": "pleistocene",
+  "pos": "NOUN",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "Pleyistosen (yaklaşık 2,6 milyon ile 11.700 yıl önce arasındaki buzul çağı dönemi)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Mammoths lived during the Pleistocene.",
+    "tr": "Mamutlar Pleyistosen döneminde yaşadı."
+   },
+   {
+    "en": "The Pleistocene ended with the last ice age.",
+    "tr": "Pleyistosen, son buzul çağıyla sona erdi."
+   }
+  ]
+ },
+ {
+  "surface": "human's",
+  "lemma": "human",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "insan (iyelik hali: insanın)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "A human's brain uses a lot of energy.",
+    "tr": "Bir insanın beyni çok fazla enerji kullanır."
+   },
+   {
+    "en": "The dog is often called a human's best friend.",
+    "tr": "Köpeğe sıklıkla insanın en iyi dostu denir."
+   }
+  ]
+ },
+ {
+  "surface": "dachshund",
+  "lemma": "dachshund",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "dachshund (kısa bacaklı, uzun gövdeli küçük bir köpek ırkı, sosis köpeği)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Our neighbor has a small brown dachshund.",
+    "tr": "Komşumuzun küçük kahverengi bir dachshund'u var."
+   },
+   {
+    "en": "Dachshunds were originally bred to hunt badgers.",
+    "tr": "Dachshund'lar aslında porsuk avlamak için yetiştirildi."
+   }
+  ]
+ },
+ {
+  "surface": "chihuahuas",
+  "lemma": "chihuahua",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "chihuahua (dünyanın en küçük köpek ırklarından biri)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Chihuahuas are small but very brave dogs.",
+    "tr": "Chihuahua'lar küçük ama çok cesur köpeklerdir."
+   },
+   {
+    "en": "She carries her chihuahua in a small bag.",
+    "tr": "Chihuahua'sını küçük bir çantada taşıyor."
+   }
+  ]
+ },
+ {
+  "surface": "dane",
+  "lemma": "dane",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "Danua (iri cüsseli, uzun boylu bir köpek ırkı olan 'Great Dane'in kısaltması)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The Great Dane is one of the tallest dog breeds.",
+    "tr": "Danua, en uzun köpek ırklarından biridir."
+   },
+   {
+    "en": "A Dane needs a lot of space to move around.",
+    "tr": "Bir Danua'nın hareket etmesi için çok yere ihtiyacı vardır."
+   }
+  ]
+ },
+ {
+  "surface": "danes",
+  "lemma": "dane",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "Danua (çoğul: birden fazla Great Dane köpeği)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Great Danes are gentle despite their size.",
+    "tr": "Danua'lar büyüklüklerine rağmen uysaldırlar."
+   },
+   {
+    "en": "The farm had two Great Danes guarding it.",
+    "tr": "Çiftliği koruyan iki Danua vardı."
+   }
+  ]
+ },
+ {
+  "surface": "bulldog",
+  "lemma": "bulldog",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "buldog (kısa burunlu, güçlü yapılı bir köpek ırkı)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The bulldog snored loudly while sleeping.",
+    "tr": "Buldog uyurken yüksek sesle horluyordu."
+   },
+   {
+    "en": "Bulldogs are known for their wrinkled faces.",
+    "tr": "Buldoglar kırışık yüzleriyle bilinir."
+   }
+  ]
+ },
+ {
+  "surface": "pacific",
+  "skip": true
+ },
+ {
+  "surface": "atlantic",
+  "skip": true
+ },
+ {
+  "surface": "indian",
+  "skip": true
+ },
+ {
+  "surface": "southern",
+  "lemma": "southern",
+  "pos": "ADJ",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "güney, güneyle ilgili"
+   }
+  ],
+  "examples": [
+   {
+    "en": "They live in a small southern town.",
+    "tr": "Küçük bir güney kasabasında yaşıyorlar."
+   },
+   {
+    "en": "The southern coast has warmer weather.",
+    "tr": "Güney kıyısında hava daha sıcaktır."
+   }
+  ]
+ },
+ {
+  "surface": "antarctic",
+  "skip": true
+ },
+ {
+  "surface": "antarctica",
+  "skip": true
+ },
+ {
+  "surface": "phytoplankton",
+  "lemma": "phytoplankton",
+  "pos": "NOUN",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "fitoplankton (suyun yüzeyine yakın yaşayan, fotosentezle beslenen mikroskobik bitkiler)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Phytoplankton produce much of the world's oxygen.",
+    "tr": "Fitoplankton, dünyadaki oksijenin büyük bir kısmını üretir."
+   },
+   {
+    "en": "Fish depend on phytoplankton for food.",
+    "tr": "Balıklar beslenmek için fitoplanktona bağımlıdır."
+   }
+  ]
+ },
+ {
+  "surface": "yellow-lipped",
+  "lemma": "yellow-lipped",
+  "pos": "ADJ",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "sarı dudaklı"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The yellow-lipped sea krait hunts among coral reefs.",
+    "tr": "Sarı dudaklı deniz yılanı mercan resifleri arasında avlanır."
+   },
+   {
+    "en": "A yellow-lipped snake was spotted near the shore.",
+    "tr": "Kıyı yakınında sarı dudaklı bir yılan görüldü."
+   }
+  ]
+ },
+ {
+  "surface": "krait",
+  "lemma": "krait",
+  "pos": "NOUN",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kreyt (zehirli bir yılan türü)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The krait's venom can be dangerous to humans.",
+    "tr": "Kreytin zehri insanlar için tehlikeli olabilir."
+   },
+   {
+    "en": "Kraits are usually active at night.",
+    "tr": "Kreytler genellikle geceleri aktiftir."
+   }
+  ]
+ },
+ {
+  "surface": "beaked",
+  "lemma": "beaked",
+  "pos": "ADJ",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "gagalı, gaga şeklinde"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The beaked whale has a long, narrow snout.",
+    "tr": "Gagalı balina, uzun ve dar bir burna sahiptir."
+   },
+   {
+    "en": "A beaked sea snake was seen near the boat.",
+    "tr": "Teknenin yakınında gagalı bir deniz yılanı görüldü."
+   }
+  ]
+ },
+ {
+  "surface": "belcher's",
+  "skip": true
+ },
+ {
+  "surface": "bighead",
+  "lemma": "bighead",
+  "pos": "ADJ",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "büyük başlı, iri kafalı"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The bighead carp is a large freshwater fish.",
+    "tr": "Büyük başlı sazan, iri bir tatlı su balığıdır."
+   },
+   {
+    "en": "Scientists studied the bighead sea snake's habitat.",
+    "tr": "Bilim insanları büyük başlı deniz yılanının yaşam alanını inceledi."
+   }
+  ]
+ },
+ {
+  "surface": "banded",
+  "lemma": "banded",
+  "pos": "ADJ",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "bantlı, çizgili (üzerinde şeritler bulunan)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The banded snake has black and yellow stripes.",
+    "tr": "Bantlı yılanın siyah ve sarı çizgileri vardır."
+   },
+   {
+    "en": "A banded bird flew past the window.",
+    "tr": "Bantlı bir kuş pencerenin önünden uçtu."
+   }
+  ]
+ },
+ {
+  "surface": "brooks",
+  "skip": true
+ },
+ {
+  "surface": "saint",
+  "lemma": "saint",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "aziz, ermiş"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The church was named after a famous saint.",
+    "tr": "Kilise, ünlü bir azizin adını taşıyordu."
+   },
+   {
+    "en": "People visit the saint's tomb every year.",
+    "tr": "İnsanlar her yıl azizin mezarını ziyaret eder."
+   }
+  ]
+ },
+ {
+  "surface": "girons'",
+  "skip": true
+ },
+ {
+  "surface": "sydney",
+  "skip": true
+ },
+ {
+  "surface": "melbourne",
+  "skip": true
+ },
+ {
+  "surface": "adelaide",
+  "skip": true
+ },
+ {
+  "surface": "perth",
+  "skip": true
+ },
+ {
+  "surface": "york",
+  "skip": true
+ },
+ {
+  "surface": "los",
+  "skip": true
+ },
+ {
+  "surface": "angeles",
+  "skip": true
+ },
+ {
+  "surface": "london",
+  "skip": true
+ },
+ {
+  "surface": "paris",
+  "skip": true
+ },
+ {
+  "surface": "berlin",
+  "skip": true
+ },
+ {
+  "surface": "tokyo",
+  "skip": true
+ },
+ {
+  "surface": "athens",
+  "skip": true
+ },
+ {
+  "surface": "rome",
+  "skip": true
+ },
+ {
+  "surface": "italy",
+  "skip": true
+ },
+ {
+  "surface": "japan",
+  "skip": true
+ },
+ {
+  "surface": "metropolis",
+  "lemma": "metropolis",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "metropol, büyükşehir"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Tokyo is one of the largest metropolises in the world.",
+    "tr": "Tokyo, dünyanın en büyük metropollerinden biridir."
+   },
+   {
+    "en": "Life in a metropolis can be fast and stressful.",
+    "tr": "Bir metropoldeki yaşam hızlı ve stresli olabilir."
+   }
+  ]
+ },
+ {
+  "surface": "yokohama",
+  "skip": true
+ },
+ {
+  "surface": "chiba",
+  "skip": true
+ },
+ {
+  "surface": "frankfurt",
+  "skip": true
+ },
+ {
+  "surface": "germany",
+  "skip": true
+ },
+ {
+  "surface": "atlanta",
+  "skip": true
+ },
+ {
+  "surface": "georgia",
+  "skip": true
+ },
+ {
+  "surface": "washington",
+  "skip": true
+ },
+ {
+  "surface": "d",
+  "skip": true
+ },
+ {
+  "surface": "c",
+  "skip": true
+ },
+ {
+  "surface": "kingdom",
+  "lemma": "kingdom",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "krallık"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The old kingdom had its own laws and king.",
+    "tr": "Eski krallığın kendi yasaları ve kralı vardı."
+   },
+   {
+    "en": "This story is set in a small kingdom.",
+    "tr": "Bu hikâye küçük bir krallıkta geçiyor."
+   }
+  ]
+ },
+ {
+  "surface": "david's",
+  "skip": true
+ },
+ {
+  "surface": "asaph's",
+  "skip": true
+ },
+ {
+  "surface": "wales",
+  "skip": true
+ },
+ {
+  "surface": "ripon",
+  "skip": true
+ },
+ {
+  "surface": "wells",
+  "skip": true
+ },
+ {
+  "surface": "england",
+  "skip": true
+ },
+ {
+  "surface": "canada",
+  "skip": true
+ },
+ {
+  "surface": "australia",
+  "skip": true
+ },
+ {
+  "surface": "ireland",
+  "skip": true
+ },
+ {
+  "surface": "english-speaking",
+  "lemma": "english-speaking",
+  "pos": "ADJ",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "İngilizce konuşan"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She moved to an English-speaking country to study.",
+    "tr": "Okumak için İngilizce konuşulan bir ülkeye taşındı."
+   },
+   {
+    "en": "Many English-speaking tourists visit the museum.",
+    "tr": "Birçok İngilizce konuşan turist müzeyi ziyaret ediyor."
+   }
+  ]
+ },
+ {
+  "surface": "black-and-white",
+  "lemma": "black-and-white",
+  "pos": "ADJ",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "siyah beyaz"
+   }
+  ],
+  "examples": [
+   {
+    "en": "They watched an old black-and-white film.",
+    "tr": "Eski siyah beyaz bir film izlediler."
+   },
+   {
+    "en": "The photo was printed in black-and-white.",
+    "tr": "Fotoğraf siyah beyaz basıldı."
+   }
+  ]
+ },
+ {
+  "surface": "opponents'",
+  "lemma": "opponent",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "rakip (iyelik hali: rakiplerin)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The team studied their opponents' weaknesses.",
+    "tr": "Takım, rakiplerinin zayıf yönlerini inceledi."
+   },
+   {
+    "en": "He scored a goal in the opponents' half.",
+    "tr": "Rakiplerin sahasında gol attı."
+   }
+  ]
+ },
+ {
+  "surface": "half-time",
+  "lemma": "half-time",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "devre arası (maçın iki yarısı arasındaki mola)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The coach spoke to the players at half-time.",
+    "tr": "Antrenör, devre arasında oyuncularla konuştu."
+   },
+   {
+    "en": "The score was tied at half-time.",
+    "tr": "Devre arasında skor beraberdi."
+   }
+  ]
+ },
+ {
+  "surface": "extra-time",
+  "lemma": "extra-time",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "uzatma süresi (normal süre bitince oynanan ek süre)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The match went into extra-time after a draw.",
+    "tr": "Maç berabere bitince uzatma süresine gitti."
+   },
+   {
+    "en": "He scored the winning goal in extra-time.",
+    "tr": "Kazandıran golü uzatma süresinde attı."
+   }
+  ]
+ },
+ {
+  "surface": "e-reader",
+  "lemma": "e-reader",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "e-kitap okuyucu (dijital kitap okumak için kullanılan cihaz)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "I read most of my books on an e-reader now.",
+    "tr": "Artık kitaplarımın çoğunu bir e-kitap okuyucuda okuyorum."
+   },
+   {
+    "en": "The e-reader can store thousands of books.",
+    "tr": "E-kitap okuyucu binlerce kitap depolayabilir."
+   }
+  ]
+ },
+ {
+  "surface": "calculator",
+  "lemma": "calculator",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "hesap makinesi"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She used a calculator to check the total.",
+    "tr": "Toplamı kontrol etmek için bir hesap makinesi kullandı."
+   },
+   {
+    "en": "My phone has a built-in calculator.",
+    "tr": "Telefonumda yerleşik bir hesap makinesi var."
+   }
+  ]
+ },
+ {
+  "surface": "positioning",
+  "lemma": "positioning",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "konumlandırma (bir şeyin yerini belirleme)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "GPS stands for Global Positioning System.",
+    "tr": "GPS, Küresel Konumlama Sistemi anlamına gelir."
+   },
+   {
+    "en": "The camera's positioning affected the photo's quality.",
+    "tr": "Kameranın konumlandırılması fotoğrafın kalitesini etkiledi."
+   }
+  ]
+ },
+ {
+  "surface": "google",
+  "skip": true
+ },
+ {
+  "surface": "android",
+  "skip": true
+ },
+ {
+  "surface": "manufacturer's",
+  "lemma": "manufacturer",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "üretici (iyelik hali: üreticinin)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Always check the manufacturer's instructions first.",
+    "tr": "Önce her zaman üreticinin talimatlarını kontrol edin."
+   },
+   {
+    "en": "The phone came with the manufacturer's warranty.",
+    "tr": "Telefon, üreticinin garantisiyle geldi."
+   }
+  ]
+ },
+ {
+  "surface": "nd",
+  "skip": true
+ },
+ {
+  "surface": "dial-up",
+  "lemma": "dial-up",
+  "pos": "ADJ",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "çevirmeli bağlantı (telefon hattı üzerinden yavaş internet bağlantısı)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We used a dial-up connection back in the 1990s.",
+    "tr": "1990'larda çevirmeli bir bağlantı kullanıyorduk."
+   },
+   {
+    "en": "Dial-up internet was much slower than today's networks.",
+    "tr": "Çevirmeli internet, günümüz ağlarından çok daha yavaştı."
+   }
+  ]
+ },
+ {
+  "surface": "mbit",
+  "lemma": "mbit",
+  "pos": "NOUN",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "megabit (veri hızı ölçü birimi, Mbit)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The connection speed reached 10 Mbit per second.",
+    "tr": "Bağlantı hızı saniyede 10 megabite ulaştı."
+   },
+   {
+    "en": "Older phones downloaded data at just a few Mbit/s.",
+    "tr": "Eski telefonlar veriyi saniyede sadece birkaç megabit hızında indiriyordu."
+   }
+  ]
+ },
+ {
+  "surface": "dsl",
+  "lemma": "dsl",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "DSL (telefon hattı üzerinden sağlanan bir internet bağlantı türü)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "We switched from dial-up to DSL for faster internet.",
+    "tr": "Daha hızlı internet için çevirmeliden DSL'e geçtik."
+   },
+   {
+    "en": "DSL speeds depend on the distance to the exchange.",
+    "tr": "DSL hızları santrale olan uzaklığa bağlıdır."
+   }
+  ]
+ },
+ {
+  "surface": "gbit",
+  "lemma": "gbit",
+  "pos": "NOUN",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "gigabit (veri hızı ölçü birimi, Gbit)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The new network can reach speeds of 1 Gbit per second.",
+    "tr": "Yeni ağ, saniyede 1 gigabite kadar hız ulaşabilir."
+   },
+   {
+    "en": "Fiber connections often offer several Gbit/s.",
+    "tr": "Fiber bağlantılar genellikle birkaç gigabit/sn sunar."
+   }
+  ]
+ },
+ {
+  "surface": "ethernet",
+  "lemma": "ethernet",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "Ethernet (kablolu bilgisayar ağı bağlantı teknolojisi)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The office computers are connected by Ethernet cables.",
+    "tr": "Ofisteki bilgisayarlar Ethernet kablolarıyla bağlıdır."
+   },
+   {
+    "en": "Ethernet connections are usually faster than Wi-Fi.",
+    "tr": "Ethernet bağlantıları genellikle Wi-Fi'den daha hızlıdır."
+   }
+  ]
+ },
+ {
+  "surface": "lte",
+  "lemma": "lte",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "LTE (4G mobil internet teknolojisi standardı)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her phone connects to the LTE network in the city.",
+    "tr": "Telefonu şehirde LTE ağına bağlanıyor."
+   },
+   {
+    "en": "LTE offers faster speeds than older 3G networks.",
+    "tr": "LTE, eski 3G ağlarından daha hızlı bağlantı sunar."
+   }
+  ]
+ },
+ {
+  "surface": "sierra",
+  "skip": true
+ },
+ {
+  "surface": "olivia",
+  "skip": true
+ },
+ {
+  "surface": "emma",
+  "skip": true
+ },
+ {
+  "surface": "langli",
+  "skip": true
+ },
+ {
+  "surface": "mallory",
+  "skip": true
+ },
+ {
+  "surface": "whittier",
+  "skip": true
+ },
+ {
+  "surface": "texas",
+  "skip": true
+ },
+ {
+  "surface": "wikimedia",
+  "skip": true
+ },
+ {
+  "surface": "commons",
+  "skip": true
+ },
+ {
+  "surface": "roastedbook",
+  "skip": true
+ },
+ {
+  "surface": "archived",
+  "lemma": "archived",
+  "pos": "ADJ",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "arşivlenmiş (saklanmak üzere kayıt altına alınmış)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The old newspaper articles are archived online.",
+    "tr": "Eski gazete makaleleri çevrimiçi olarak arşivlenmiş."
+   },
+   {
+    "en": "She found an archived copy of the website.",
+    "tr": "Web sitesinin arşivlenmiş bir kopyasını buldu."
+   }
+  ]
+ },
+ {
+  "surface": "wayback",
+  "skip": true
+ },
+ {
+  "surface": "that's",
+  "lemma": "that",
+  "pos": "PRON",
+  "cefr": "A1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "o, şu (that is kısaltması: 'odur/şudur' anlamında)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "That's a great idea.",
+    "tr": "Bu harika bir fikir."
+   },
+   {
+    "en": "I don't understand why that's happening.",
+    "tr": "Bunun neden olduğunu anlamıyorum."
+   }
+  ]
+ },
+ {
+  "surface": "dreamer's",
+  "lemma": "dreamer",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "rüya gören kişi (iyelik hali: rüya görenin)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The story reflects the dreamer's hidden fears.",
+    "tr": "Hikâye, rüya görenin gizli korkularını yansıtıyor."
+   },
+   {
+    "en": "A dreamer's mind can create strange worlds.",
+    "tr": "Rüya görenin zihni tuhaf dünyalar yaratabilir."
+   }
+  ]
+ },
+ {
+  "surface": "fortune-telling",
+  "lemma": "fortune-telling",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "fal bakma, kehanet"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Some cultures use fortune-telling to predict the future.",
+    "tr": "Bazı kültürler geleceği tahmin etmek için fal bakmayı kullanır."
+   },
+   {
+    "en": "She doesn't believe in fortune-telling.",
+    "tr": "Fal bakmaya inanmıyor."
+   }
+  ]
+ },
+ {
+  "surface": "mass",
+  "lemma": "mass",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kütle; kitle"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Scientists measured the mass of the object.",
+    "tr": "Bilim insanları cismin kütlesini ölçtü."
+   },
+   {
+    "en": "A large mass of people gathered in the square.",
+    "tr": "Meydanda büyük bir insan kitlesi toplandı."
+   }
+  ]
+ },
+ {
+  "surface": "index",
+  "lemma": "index",
+  "pos": "NOUN",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "endeks, gösterge; dizin"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The book has an index at the back.",
+    "tr": "Kitabın arkasında bir dizin var."
+   },
+   {
+    "en": "The stock market index fell sharply today.",
+    "tr": "Bugün borsa endeksi sert şekilde düştü."
+   }
+  ]
+ },
+ {
+  "surface": "country's",
+  "lemma": "country",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "ülke (iyelik hali: ülkenin)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The country's economy grew last year.",
+    "tr": "Ülkenin ekonomisi geçen yıl büyüdü."
+   },
+   {
+    "en": "Every country's culture is different.",
+    "tr": "Her ülkenin kültürü farklıdır."
+   }
+  ]
+ },
+ {
+  "surface": "non-verbal",
+  "lemma": "non-verbal",
+  "pos": "ADJ",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "sözsüz (konuşmadan, beden diliyle yapılan)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Facial expressions are a form of non-verbal communication.",
+    "tr": "Yüz ifadeleri bir tür sözsüz iletişimdir."
+   },
+   {
+    "en": "Dogs use non-verbal signals to show their feelings.",
+    "tr": "Köpekler duygularını göstermek için sözsüz işaretler kullanır."
+   }
+  ]
+ },
+ {
+  "surface": "unesco",
+  "skip": true
+ },
+ {
+  "surface": "non-content",
+  "lemma": "non-content",
+  "pos": "ADJ",
+  "cefr": "C1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "içerik taşımayan (dilbiliminde: cümlede kavram değil, dilbilgisi görevi taşıyan kelimeler için kullanılır)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Words like 'the' and 'of' are non-content words.",
+    "tr": "'The' ve 'of' gibi kelimeler içerik taşımayan kelimelerdir."
+   },
+   {
+    "en": "Non-content words help sentences fit together grammatically.",
+    "tr": "İçerik taşımayan kelimeler, cümlelerin dilbilgisel olarak bir araya gelmesine yardımcı olur."
+   }
+  ]
+ },
+ {
+  "surface": "grammar",
+  "lemma": "grammar",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "dilbilgisi, gramer"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She studies English grammar every day.",
+    "tr": "Her gün İngilizce dilbilgisi çalışıyor."
+   },
+   {
+    "en": "Good grammar makes writing easier to understand.",
+    "tr": "İyi bir dilbilgisi, yazıyı anlaşılır kılar."
+   }
+  ]
+ },
+ {
+  "surface": "jill",
+  "skip": true
+ },
+ {
+  "surface": "pre-history",
+  "lemma": "pre-history",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "tarih öncesi dönem"
+   }
+  ],
+  "examples": [
+   {
+    "en": "Pre-history covers the time before written records.",
+    "tr": "Tarih öncesi dönem, yazılı kayıtlardan önceki zamanı kapsar."
+   },
+   {
+    "en": "Archaeologists study tools from pre-history.",
+    "tr": "Arkeologlar tarih öncesi döneme ait aletleri inceler."
+   }
+  ]
+ },
+ {
+  "surface": "civil",
+  "lemma": "civil",
+  "pos": "ADJ",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "sivil; medeni"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The country fell into a civil war.",
+    "tr": "Ülke bir iç savaşa sürüklendi."
+   },
+   {
+    "en": "Civil rights protect people's basic freedoms.",
+    "tr": "Medeni haklar, insanların temel özgürlüklerini korur."
+   }
+  ]
+ },
+ {
+  "surface": "war",
+  "lemma": "war",
+  "pos": "NOUN",
+  "cefr": "A2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "savaş"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The war lasted for four years.",
+    "tr": "Savaş dört yıl sürdü."
+   },
+   {
+    "en": "Many families lost their homes during the war.",
+    "tr": "Savaş sırasında birçok aile evini kaybetti."
+   }
+  ]
+ },
+ {
+  "surface": "medieval",
+  "lemma": "medieval",
+  "pos": "ADJ",
+  "cefr": "B1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "ortaçağa ait, ortaçağ"
+   }
+  ],
+  "examples": [
+   {
+    "en": "They visited a medieval castle in France.",
+    "tr": "Fransa'da ortaçağa ait bir kaleyi ziyaret ettiler."
+   },
+   {
+    "en": "Medieval Europe had many small kingdoms.",
+    "tr": "Ortaçağ Avrupası'nda birçok küçük krallık vardı."
+   }
+  ]
+ },
+ {
+  "surface": "didn't",
+  "lemma": "did not",
+  "pos": "AUX",
+  "cefr": "A1",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "yapmadı ('did not'ın kısaltması, geçmiş zaman olumsuzu)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "She didn't answer the phone.",
+    "tr": "Telefona cevap vermedi."
+   },
+   {
+    "en": "They didn't know about the meeting.",
+    "tr": "Toplantıdan haberleri yoktu."
+   }
+  ]
+ },
+ {
+  "surface": "k",
+  "skip": true
+ },
+ {
+  "surface": "chronology",
+  "lemma": "chronology",
+  "pos": "NOUN",
+  "cefr": "B2",
+  "senses": [
+   {
+    "sense_idx": 0,
+    "gloss_tr": "kronoloji (olayların zaman sırasına göre dizilişi)"
+   }
+  ],
+  "examples": [
+   {
+    "en": "The museum shows the chronology of human history.",
+    "tr": "Müze, insanlık tarihinin kronolojisini gösteriyor."
+   },
+   {
+    "en": "This book gives a clear chronology of the war.",
+    "tr": "Bu kitap, savaşın net bir kronolojisini veriyor."
+   }
+  ]
+ }
+]
