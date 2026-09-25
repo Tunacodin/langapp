@@ -85,11 +85,9 @@ export default function SpeakingLadder() {
 
   const doneSets = sets.filter((_, j) => setDone(st, j)).length;
   const chainMax = sets.slice(0, doneSets).reduce((a, x) => a + x.length, 0);
-  const groupOpen = (j: number) => j === 0 || setDone(st, j - 1);
-  const stageOpen = (k: LadderStageId) => {
-    const i = ORDER.indexOf(k);
-    return i === 0 || stageDone(st, group, ORDER[i - 1]);
-  };
+  // DEV: kilit gecici kapali, tum grup/asamalar acik gorunsun.
+  const groupOpen = (_j: number) => true;
+  const stageOpen = (_k: LadderStageId) => true;
 
   // Basamak bitince: sonraki basamak; grubun son basamagiysa sonraki grup (ya da zincir).
   const advance = () => {
@@ -342,7 +340,7 @@ function Drill({
           </Text>
         ) : null}
 
-        {stage !== 2 ? <Text style={styles.tr}>{cur.tr}</Text> : null}
+        {stage === 1 ? <Text style={styles.tr}>{cur.tr}</Text> : null}
 
         {stage === 2 && live.listening && live.transcript ? <Text style={styles.heard}>{live.transcript}</Text> : null}
       </View>
