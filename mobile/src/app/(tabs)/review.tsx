@@ -32,7 +32,7 @@ const SOURCE_META: Record<SavedSource, { label: string; icon: keyof typeof Ionic
   grammar: { label: 'Gramer', icon: 'git-branch-outline', color: colors.teal },
   shadow: { label: 'Sesli Taklit', icon: 'mic-outline', color: colors.accent },
   article: { label: 'Makaleler', icon: 'document-text-outline', color: colors.ink },
-  watch: { label: 'Videolar', icon: 'play-circle-outline', color: colors.accent },
+  watch: { label: 'Dinleme', icon: 'headset-outline', color: colors.accent },
 };
 
 // Bir kaydin baslik + alt satiri (kaynagina gore).
@@ -47,6 +47,8 @@ function rowText(r: SavedRow): { title: string; sub: string | null } {
     case 'article':
       return { title: r.back_tr || r.front_en, sub: 'Yeniden oku' };
     case 'watch':
+      // Dinleme cumlesi: cumle + kaynak video; aksi halde butun video baglantisi.
+      if (r.front_type === 'listen') return { title: r.front_en, sub: r.media_title || r.back_tr || null };
       return { title: r.back_tr || r.media_title || r.front_en, sub: 'Yeniden izle' };
     default:
       return { title: r.front_en, sub: null };
@@ -71,7 +73,13 @@ function openSaved(r: SavedRow) {
       router.push(`/reading?id=${encodeURIComponent(r.front_en)}`);
       break;
     case 'watch':
-      router.push(`/player?id=${encodeURIComponent(r.front_en)}`);
+      if (r.front_type === 'listen') {
+        if (!r.media_id) break;
+        const start = r.start_ms != null ? `&start=${r.start_ms}` : '';
+        router.push(`/player?id=${encodeURIComponent(r.media_id)}${start}`);
+      } else {
+        router.push(`/player?id=${encodeURIComponent(r.front_en)}`);
+      }
       break;
   }
 }
@@ -154,7 +162,7 @@ export default function TekrarHub() {
                       <Ionicons name={meta.icon} size={18} color={meta.color} />
                     </View>
                     <View style={{ flex: 1 }}>
-                      <Text style={styles.rowTitle} numberOfLines={r.source === 'shadow' ? 2 : 1}>{t.title}</Text>
+                      <Text style={styles.rowTitle} numberOfLines={r.source === 'shadow' || r.front_type === 'listen' ? 2 : 1}>{t.title}</Text>
                       {t.sub ? <Text style={styles.rowMeta} numberOfLines={1}>{t.sub}</Text> : null}
                     </View>
                     <Pressable hitSlop={10} onPress={() => remove(r.id)} style={styles.removeBtn}>

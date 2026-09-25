@@ -679,9 +679,22 @@ function seedLessonFromLegacyAssets(L: Lesson) {
   }
 }
 
+// Tohumlama TEK islemde (transaction). ~40 bin satir tek tek yazilinca her biri
+// diske ayri islenir ve JS is parcacigi telefonda onlarca saniye kilitlenir;
+// islem icinde milisaniyeler surer. Yarida kesilirse hicbiri yazilmaz (eski veri
+// kalir): "sildi ama dolduramadi" yarim durumu ve her acilista yeniden deneme
+// dongusu olusmaz. Hata olursa uygulama eski veriyle acilir, dusmez.
+export function seedLessons() {
+  try {
+    db.withTransactionSync(seedLessonsTx);
+  } catch (e) {
+    console.error('seedLessons failed, keeping previous data', e);
+  }
+}
+
 // Ders JSON'unu tabloya yaz. Seed surumu degismisse ders tablolarini tazeler
 // (srs_cards'a dokunmaz, ilerleme korunur).
-export function seedLessons() {
+function seedLessonsTx() {
   seedGrammarTopics(); // kapali enum: her acilista tazele (ucuz, OR REPLACE).
 
   const row = db.getFirstSync<{ value: string }>(`SELECT value FROM app_meta WHERE key = 'seed_version'`);

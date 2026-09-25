@@ -14,8 +14,10 @@ import {
   getMedia,
   getSentences,
   getWatchPosition,
+  isListenSaved,
   isWatchSaved,
   removeSavedByFront,
+  saveListenSentence,
   saveWatchProgress,
   saveWatchReview,
   SentenceRow,
@@ -195,6 +197,21 @@ function CardPlayer({
   }, [player, sentences, mediaId]);
 
   const current = sentences[active] ?? null;
+  // Aktif cumle Tekrar'a kayitli mi (cumle degistikce yeniden bak).
+  const [sentSaved, setSentSaved] = useState(false);
+  useEffect(() => {
+    setSentSaved(current ? isListenSaved(current.text_en) : false);
+  }, [current]);
+  function toggleSentSave() {
+    if (!current) return;
+    if (sentSaved) {
+      removeSavedByFront('listen', current.text_en);
+      setSentSaved(false);
+    } else {
+      saveListenSentence(mediaId, current.idx, current.text_en, current.text_tr);
+      setSentSaved(true);
+    }
+  }
   const words: TWord[] = useMemo(() => {
     if (!current) return [];
     const next = sentences[active + 1]?.start_ms ?? null;
@@ -247,14 +264,26 @@ function CardPlayer({
             <Text style={styles.counter}>
               {active + 1} / {sentences.length}
             </Text>
-            {/* Otomatik gecme (beklemeden bir sonraki cumleye) - kart ustunde, akista. */}
-            <Pressable onPress={toggleAuto} hitSlop={8} style={[styles.autoBtn, auto && styles.autoBtnOn]}>
-              <Ionicons
-                name={auto ? 'play-forward' : 'play-forward-outline'}
-                size={18}
-                color={auto ? '#fff' : colors.muted}
-              />
-            </Pressable>
+            <View style={styles.cardActions}>
+              {/* Bu cumleyi Tekrar'a kaydet (Tekrar > Dinleme). */}
+              {current ? (
+                <Pressable onPress={toggleSentSave} hitSlop={8} style={[styles.autoBtn, sentSaved && styles.autoBtnOn]}>
+                  <Ionicons
+                    name={sentSaved ? 'bookmark' : 'bookmark-outline'}
+                    size={17}
+                    color={sentSaved ? '#fff' : colors.muted}
+                  />
+                </Pressable>
+              ) : null}
+              {/* Otomatik gecme (beklemeden bir sonraki cumleye) - kart ustunde, akista. */}
+              <Pressable onPress={toggleAuto} hitSlop={8} style={[styles.autoBtn, auto && styles.autoBtnOn]}>
+                <Ionicons
+                  name={auto ? 'play-forward' : 'play-forward-outline'}
+                  size={18}
+                  color={auto ? '#fff' : colors.muted}
+                />
+              </Pressable>
+            </View>
           </View>
 
           <View style={styles.cardBody}>
@@ -347,6 +376,7 @@ const styles = StyleSheet.create({
   },
   cardTop: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   counter: { fontSize: 11, color: colors.muted, fontWeight: '700' },
+  cardActions: { flexDirection: 'row', gap: space.sm },
   autoBtn: {
     width: 36,
     height: 36,
