@@ -84,10 +84,9 @@ export default function SpeakingLadder() {
   }
 
   const doneSets = sets.filter((_, j) => setDone(st, j)).length;
-  const chainMax = sets.slice(0, doneSets).reduce((a, x) => a + x.length, 0);
-  // DEV: kilit gecici kapali, tum grup/asamalar acik gorunsun.
-  const groupOpen = (_j: number) => true;
+  // DEV: kilit gecici kapali, tum grup/asama/zincir acik gorunsun.
   const stageOpen = (_k: LadderStageId) => true;
+  const chainMax = doneSets > 0 ? sets.slice(0, doneSets).reduce((a, x) => a + x.length, 0) : theme.sentences.length;
 
   // Basamak bitince: sonraki basamak; grubun son basamagiysa sonraki grup (ya da zincir).
   const advance = () => {
@@ -122,10 +121,7 @@ export default function SpeakingLadder() {
             ...sets.map((_, j) => ({ key: String(j), label: `${j + 1}. grup` })),
             { key: String(sets.length), label: 'Zincir' },
           ]}
-          disabled={[
-            ...sets.map((_, j) => (groupOpen(j) ? '' : String(j))).filter(Boolean),
-            ...(doneSets > 0 ? [] : [String(sets.length)]),
-          ]}
+          disabled={[]}
           value={String(group)}
           onChange={(k) => {
             const j = Number(k);
