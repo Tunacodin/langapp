@@ -18,6 +18,24 @@ içeriğini gösterir. Kullanıcı tek konuya kilitlenir, dağılmaz; aynı anda
 ileri yapıyla (ör. odak Past Simple iken `had V3`) karşılaşmaz. Öğrenme kompakt ve
 eş zamanlı ilerler.
 
+## 0.1. Uygulama Mottosu: Gerçek Hayat İngilizcesi (2026-09-26)
+
+Bu ilke sadece Konuşma değil, TÜM becerileri (Gramer, Kelime, Dinleme, Konuşma,
+Okuma, Yazma) ve içerik üretiminin TAMAMINI bağlar.
+
+**Test sorusu (her cümle/kalıp/örnek için sor):** Gerçek bir insanla konuşurken, bir
+film/dizi izlerken ya da bir şarkı dinlerken bu cümle yapısıyla veya kelimeyle
+karşılaşır mıyım? Cevap hayırsa, o içerik "okul İngilizcesi"dir ve uygun değildir.
+
+- Hedef: ders kitabı/sınav İngilizcesi değil, otantik/gerçek hayat İngilizcesi.
+- Bu, HER yüklemin phrasal verb olması ya da argo kullanılması GEREKTİĞİ anlamına
+  GELMEZ. Ölçü zorlama değil doğallıktır: bir native'in günlük konuşmada gerçekten
+  söyleyeceği cümle.
+- Uygulama: cümle önce doğal İngilizce olarak kurulur (native'in söyleyeceği hal),
+  Türkçesi ona göre uydurulur; Türkçe'den kelime kelime çeviri (translationese) YASAK.
+- Bu ilke ihlal edilirse (örn. yapay/ders kitabı cümlesi, zorlama çeviri, gerçek
+  konuşmada geçmeyecek kalıp) içerik "çöp" sayılır ve elden geçirilir.
+
 ## 1. Temel İlke: Global Active Focus Node
 
 - Aynı anda EN FAZLA bir aktif odak vardır (`getActiveFocus()` -> `{ key, label }`).
@@ -152,6 +170,7 @@ Bir iş bitince şu soruların HEPSİ "evet" olmalı:
 - [ ] Telif: kaynak kamu malı mı, değilse kişisel/cihaz-içi mi?
 - [ ] Ders/okuma/şarkı app veritabanına GERÇEKTEN girdi mi (seed)?
 - [ ] Türkçe metinler doğru imla (diakritik) + uzun çizgi yok mu?
+- [ ] Cümle/kalıp gerçek hayat İngilizcesi mi (bkz. Bölüm 0.1), ders kitabı/çeviri kokan cümle değil mi?
 
 ## 11. Mevcut Durum vs Hedef (dürüst boşluk)
 
