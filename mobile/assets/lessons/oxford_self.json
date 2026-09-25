@@ -286,6 +286,14 @@
       "grammar": [
         {
           "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 72,
+          "span_end": 76
+        },
+        {
+          "pattern": "need",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -354,6 +362,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 60,
+          "span_end": 64
+        },
         {
           "pattern": "if you need them",
           "note_tr": "If Clause Type 0 (General Truth)",
@@ -801,20 +817,20 @@
           "span_end": 45
         },
         {
+          "pattern": "need to answer",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 53,
+          "span_end": 67
+        },
+        {
           "pattern": "feel",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
           "span_start": 7,
           "span_end": 11
-        },
-        {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 53,
-          "span_end": 57
         }
       ],
       "vocab": [],
@@ -1079,6 +1095,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 26,
+          "span_end": 30
+        },
+        {
           "pattern": "if you just want a general way to respond to",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -1340,12 +1364,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to choose",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 14,
-          "span_end": 18
+          "span_end": 28
         }
       ],
       "vocab": [],
@@ -1718,6 +1742,14 @@
           "norm_pattern": "future_will",
           "span_start": 58,
           "span_end": 67
+        },
+        {
+          "pattern": "much attention",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 68,
+          "span_end": 82
         },
         {
           "pattern": "most",
@@ -2535,6 +2567,14 @@
           "span_end": 78
         },
         {
+          "pattern": "wants",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 34,
+          "span_end": 39
+        },
+        {
           "pattern": "if he or she wants",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -3062,12 +3102,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to follow",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 4,
-          "span_end": 8
+          "span_end": 18
         }
       ],
       "vocab": [],
@@ -3149,6 +3189,14 @@
       "grammar": [
         {
           "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 73,
+          "span_end": 77
+        },
+        {
+          "pattern": "need",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3208,7 +3256,16 @@
       "text_tr": "bir sektör adı verin. Mesela yedi yıldır eğitim sektöründe çalışıyorum.",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve been working",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 29,
+          "span_end": 45
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -3270,6 +3327,22 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "'ve been working",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 60,
+          "span_end": 76
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 14,
+          "span_end": 18
+        },
         {
           "pattern": "If you want to name a company",
           "note_tr": "If Clause Type 0 (General Truth)",
@@ -3786,6 +3859,14 @@
           "span_end": 59
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 83,
+          "span_end": 87
+        },
+        {
           "pattern": "that I want to be an",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -3886,6 +3967,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 30,
           "span_end": 38
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 80,
+          "span_end": 85
         },
         {
           "pattern": "think",
@@ -4076,20 +4165,20 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "need to have",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 81,
+          "span_end": 93
+        },
+        {
           "pattern": "heard",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
           "span_start": 27,
           "span_end": 32
-        },
-        {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 81,
-          "span_end": 85
         }
       ],
       "vocab": [],
@@ -4255,6 +4344,22 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "knew",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 68,
+          "span_end": 72
+        },
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 75,
+          "span_end": 81
+        },
         {
           "pattern": "knew",
           "note_tr": "Simple Past",
@@ -4539,9 +4644,9 @@
       "grammar": [
         {
           "pattern": "'m doing",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "note_tr": "Present Continuous (Future Plans)",
+          "cefr": "A2",
+          "norm_pattern": "present_cont_future",
           "span_start": 1,
           "span_end": 9
         },
@@ -4647,6 +4752,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "pieces of language",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 82,
+          "span_end": 100
+        },
         {
           "pattern": "focus",
           "note_tr": "Simple Present",
@@ -5140,6 +5253,22 @@
           "span_end": 28
         },
         {
+          "pattern": "need to practice",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 24,
+          "span_end": 40
+        },
+        {
+          "pattern": "few times",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 43,
+          "span_end": 52
+        },
+        {
           "pattern": "few",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -5225,6 +5354,22 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 34,
+          "span_end": 38
+        },
+        {
+          "pattern": "many times",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 16,
+          "span_end": 26
+        },
         {
           "pattern": "need",
           "note_tr": "Simple Present",
@@ -5566,6 +5711,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 26,
           "span_end": 36
+        },
+        {
+          "pattern": "need to answer",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 32,
+          "span_end": 46
         }
       ],
       "vocab": [],
@@ -6135,7 +6288,16 @@
       "text_tr": "Bir tane daha görelim. Aslen Buenos Aires'liyim ama uzun zamandır burada Dublin'de yaşıyorum.",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve been living",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 59,
+          "span_end": 74
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -6330,6 +6492,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 2,
           "span_end": 10
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 25,
+          "span_end": 29
         },
         {
           "pattern": "like",
@@ -6529,6 +6699,14 @@
       "grammar": [
         {
           "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "like",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -6652,6 +6830,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 4,
           "span_end": 15
+        },
+        {
+          "pattern": "in the next year",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 49,
+          "span_end": 65
         }
       ],
       "vocab": [],
@@ -6791,7 +6977,16 @@
       "text_tr": "Cevabınızın çok uzun olmasını istemediğinizi unutmayın. Kısa tutun ve odaklanın.",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 24,
+          "span_end": 28
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -7351,6 +7546,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
           "pattern": "If you want",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -7816,6 +8019,14 @@
           "norm_pattern": "future_will",
           "span_start": 3,
           "span_end": 11
+        },
+        {
+          "pattern": "have to introduce",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 7,
+          "span_end": 24
         }
       ],
       "vocab": [],
@@ -8428,6 +8639,14 @@
           "span_end": 47
         },
         {
+          "pattern": "need to introduce",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 43,
+          "span_end": 60
+        },
+        {
           "pattern": "If you work in a larger company",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -8769,6 +8988,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 18,
           "span_end": 35
+        },
+        {
+          "pattern": "'ve been working",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 55,
+          "span_end": 71
         }
       ],
       "vocab": [],
@@ -8849,20 +9076,20 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "need to take",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 50,
+          "span_end": 62
+        },
+        {
           "pattern": "heard",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
           "span_start": 33,
           "span_end": 38
-        },
-        {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 50,
-          "span_end": 54
         },
         {
           "pattern": "all",
@@ -8973,7 +9200,16 @@
       "text_tr": "yani önümüzdeki ay benimle veya meslektaşlarımdan biriyle çevrimiçi ortamda nasıl güvende kalacağınızı öğreneceksiniz",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in the next month",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 84,
+          "span_end": 101
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -9052,20 +9288,20 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "have to introduce",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 76,
+          "span_end": 93
+        },
+        {
           "pattern": "start",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
           "span_start": 49,
           "span_end": 54
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 76,
-          "span_end": 80
         }
       ],
       "vocab": [],

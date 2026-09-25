@@ -26,14 +26,39 @@ os.makedirs(VIDEO_DIR, exist_ok=True)
 os.makedirs(LESSON_DIR, exist_ok=True)
 
 
+def ensure_h264(path):
+    # yt-dlp'nin yedek formatlari AV1/VP9 getirebilir; iPhone'larin cogu bunlari
+    # cozemez (ses var goruntu yok). H.264 degilse yerinde H.264'e cevir.
+    codec = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v:0",
+         "-show_entries", "stream=codec_name", "-of", "csv=p=0", path],
+        capture_output=True, text=True, check=True,
+    ).stdout.strip()
+    if codec == "h264":
+        return
+    print(f"  [cevir] {codec} -> h264: {path}")
+    tmp = path + ".h264.mp4"
+    subprocess.run([
+        "ffmpeg", "-y", "-v", "error", "-i", path,
+        "-map", "0:v:0", "-map", "0:a:0",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "25",
+        "-maxrate", "1000k", "-bufsize", "2000k",
+        "-profile:v", "main", "-level", "3.1", "-pix_fmt", "yuv420p",
+        "-c:a", "copy", "-movflags", "+faststart", tmp,
+    ], check=True)
+    os.replace(tmp, path)
+
+
 def download(src):
     out = os.path.join(VIDEO_DIR, f"{src['id']}.mp4")
     if os.path.exists(out):
         print(f"  [atla] video zaten var: {out}")
+        ensure_h264(out)
         return out
     # <=480p mp4: dil calismasi icin fazlasi gereksiz, disk/bant tasarrufu.
     # H.264 (avc1) ZORUNLU: AV1 codec'ini telefon oynaticilari cozemez (ses var
-    # goruntu yok). Once avc1 dene, yoksa mp4'e dus.
+    # goruntu yok). Once avc1 dene, yoksa mp4'e dus; dusulen format ensure_h264
+    # ile cevrilir.
     fmt = (
         "bv*[height<=480][vcodec^=avc1]+ba[ext=m4a]/"
         "b[height<=480][vcodec^=avc1]/"
@@ -48,6 +73,7 @@ def download(src):
     ]
     print(f"  [indir] {src['url']}")
     subprocess.run(cmd, check=True)
+    ensure_h264(out)
     return out
 
 

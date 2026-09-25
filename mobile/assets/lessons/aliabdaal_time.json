@@ -268,6 +268,14 @@
       "grammar": [
         {
           "pattern": "own",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 74,
+          "span_end": 77
+        },
+        {
+          "pattern": "own",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -516,6 +524,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 16
+        },
+        {
           "pattern": "which said something like",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -640,6 +656,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 21,
           "span_end": 30
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 45,
+          "span_end": 49
         },
         {
           "pattern": "want",
@@ -855,6 +879,14 @@
         },
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 33,
+          "span_end": 37
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -915,6 +947,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 66,
+          "span_end": 72
+        },
         {
           "pattern": "spent",
           "note_tr": "Simple Past",
@@ -1347,6 +1387,14 @@
         },
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 92,
+          "span_end": 96
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1697,6 +1745,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many opportunities",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 94,
+          "span_end": 112
+        },
         {
           "pattern": "says",
           "note_tr": "Simple Present",
@@ -2243,6 +2299,14 @@
           "span_end": 45
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
           "pattern": "sounds",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -2345,12 +2409,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "is gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "is gonna be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 25,
-          "span_end": 31
+          "span_end": 36
         },
         {
           "pattern": "if I get an email from someone saying hey",
@@ -2439,12 +2503,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'m gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m gonna do",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 59,
-          "span_end": 65
+          "span_end": 70
         },
         {
           "pattern": "'m trying",
@@ -2453,6 +2517,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 86,
           "span_end": 95
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
         }
       ],
       "vocab": [],
@@ -3047,12 +3119,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "is gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "is gonna be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 36,
-          "span_end": 42
+          "span_end": 47
         },
         {
           "pattern": "decide",
@@ -3125,12 +3197,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to get",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 25,
-          "span_end": 29
+          "span_end": 36
         }
       ],
       "vocab": [],
@@ -3186,6 +3258,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "on the days",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 4,
+          "span_end": 15
+        },
         {
           "pattern": "where I set a daily highlight",
           "note_tr": "Relative Clause",
@@ -3280,6 +3360,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "at the end",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 56,
+          "span_end": 66
+        },
         {
           "pattern": "get",
           "note_tr": "Simple Present",
@@ -3563,12 +3651,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 2,
-          "span_end": 6
+          "span_end": 12
         }
       ],
       "vocab": [],
@@ -3600,6 +3688,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "on days",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 44,
+          "span_end": 51
+        },
         {
           "pattern": "where I have the daily highlight",
           "note_tr": "Relative Clause",
@@ -3866,12 +3962,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 2,
-          "span_end": 6
+          "span_end": 12
         },
         {
           "pattern": "helps",
@@ -4298,6 +4394,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 85,
+          "span_end": 95
+        },
+        {
           "pattern": "that I have to do that day",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -4328,14 +4432,6 @@
           "norm_pattern": "present_simple",
           "span_start": 47,
           "span_end": 51
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 85,
-          "span_end": 89
         }
       ],
       "vocab": [],
@@ -4541,6 +4637,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "matter",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 18,
+          "span_end": 24
+        },
         {
           "pattern": "what system you use for a to-do list",
           "note_tr": "Embedded WH- Question",
@@ -4854,12 +4958,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 17,
-          "span_end": 21
+          "span_end": 27
         },
         {
           "pattern": "write",
@@ -5573,20 +5677,20 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "need to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 43,
+          "span_end": 53
+        },
+        {
           "pattern": "is",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
           "span_start": 29,
           "span_end": 31
-        },
-        {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 43,
-          "span_end": 47
         },
         {
           "pattern": "put",
@@ -5681,7 +5785,16 @@
       "text_tr": "Bu yüzden kesinlikle her şey için bunu yapmaktan hoşlanmıyorum çünkü biraz israf adamıyım",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -5751,6 +5864,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -5946,6 +6067,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "at the start",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 58,
+          "span_end": 70
+        },
         {
           "pattern": "that I always schedule into my calendar at the start of the day",
           "note_tr": "Relative Clause",
@@ -6143,12 +6272,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'m gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m gonna film",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 81,
-          "span_end": 87
+          "span_end": 94
         },
         {
           "pattern": "'ll try",
@@ -6157,6 +6286,22 @@
           "norm_pattern": "future_will",
           "span_start": 7,
           "span_end": 14
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 75,
+          "span_end": 79
+        },
+        {
+          "pattern": "at the time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 55,
+          "span_end": 66
         },
         {
           "pattern": "where I know I'm gonna film the video",
@@ -6462,6 +6607,14 @@
           "span_end": 97
         },
         {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 54,
+          "span_end": 59
+        },
+        {
           "pattern": "that I've decided",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -6564,12 +6717,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'s always gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'s always gonna get",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 2,
-          "span_end": 15
+          "span_end": 21
         },
         {
           "pattern": "always",
@@ -6650,6 +6803,14 @@
           "span_end": 46
         },
         {
+          "pattern": "need to move",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 14,
+          "span_end": 26
+        },
+        {
           "pattern": "if I need to move it around",
           "note_tr": "If Clause Type 1 (Real Future)",
           "cefr": "B1",
@@ -6664,14 +6825,6 @@
           "norm_pattern": "if_type1",
           "span_start": 57,
           "span_end": 78
-        },
-        {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 14,
-          "span_end": 18
         },
         {
           "pattern": "comes",
@@ -6863,6 +7016,14 @@
       "grammar": [
         {
           "pattern": "thinks",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 52,
+          "span_end": 58
+        },
+        {
+          "pattern": "thinks",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -6970,7 +7131,16 @@
       "text_tr": "Bundan daha fazlasını yapmanız gerekmiyor mu ve evet?",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "Don't you have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 0,
+          "span_end": 20
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -7007,7 +7177,16 @@
       "text_tr": "Hayatımızın çoğunda bundan daha fazlasını yapmak zorundasınız",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "do kind of have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 4,
+          "span_end": 25
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -7446,20 +7625,28 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "have to film",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 8,
+          "span_end": 20
+        },
+        {
+          "pattern": "in a day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 37,
+          "span_end": 45
+        },
+        {
           "pattern": "if I have to film a YouTube video in a day and I give myself the whole day to film that YouTube video inevitably",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
           "norm_pattern": "if_type0",
           "span_start": 3,
           "span_end": 115
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 8,
-          "span_end": 12
         },
         {
           "pattern": "give",
@@ -7572,12 +7759,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'s gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'s gonna take",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 2,
-          "span_end": 8
+          "span_end": 15
         },
         {
           "pattern": "all",
@@ -8080,6 +8267,14 @@
         },
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 80,
+          "span_end": 84
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -8155,6 +8350,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 55,
           "span_end": 62
+        },
+        {
+          "pattern": "don't have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 2,
+          "span_end": 18
         }
       ],
       "vocab": [],
@@ -8227,12 +8430,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'m gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m gonna film",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 15,
-          "span_end": 21
+          "span_end": 28
         },
         {
           "pattern": "'ve blocked",
@@ -8241,6 +8444,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 66,
           "span_end": 77
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 4,
+          "span_end": 8
         },
         {
           "pattern": "what I'm gonna film all of this course next weekend",
@@ -8406,12 +8617,20 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "is gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "is gonna get",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 23,
-          "span_end": 29
+          "span_end": 35
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
         },
         {
           "pattern": "had",
@@ -8696,6 +8915,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 75,
+          "span_end": 79
+        },
+        {
           "pattern": "end",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -8797,6 +9024,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 46,
+          "span_end": 50
+        },
         {
           "pattern": "if if you're like me and you and you like making connections and make friends with people",
           "note_tr": "If Clause Type 0 (General Truth)",
@@ -8995,6 +9230,14 @@
       "grammar": [
         {
           "pattern": "realized",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 14
+        },
+        {
+          "pattern": "realized",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -9024,12 +9267,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to keep",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 2,
-          "span_end": 6
+          "span_end": 14
         },
         {
           "pattern": "any",
@@ -9143,6 +9386,30 @@
         },
         {
           "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 71,
+          "span_end": 76
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 102,
+          "span_end": 106
+        },
+        {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 51,
+          "span_end": 65
+        },
+        {
+          "pattern": "means",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -9227,6 +9494,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 47,
+          "span_end": 52
+        },
         {
           "pattern": "means",
           "note_tr": "Simple Present",
@@ -9336,6 +9611,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 36,
           "span_end": 42
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 54,
+          "span_end": 58
         },
         {
           "pattern": "where I can do whatever I want so these days",
@@ -9832,12 +10115,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'m gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m gonna use",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 32,
-          "span_end": 38
+          "span_end": 44
         },
         {
           "pattern": "'ll just decide",
@@ -10060,12 +10343,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "is gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "is gonna be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 56,
-          "span_end": 62
+          "span_end": 67
         },
         {
           "pattern": "would recommend",
@@ -10497,6 +10780,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 19,
+          "span_end": 24
+        },
+        {
           "pattern": "that I think of it even when this YouTube channel wasn't successful",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -10566,6 +10857,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "how much",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 45,
+          "span_end": 53
+        },
+        {
+          "pattern": "how much",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 54,
+          "span_end": 62
+        },
         {
           "pattern": "came",
           "note_tr": "Simple Past",
@@ -10691,6 +10998,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 100,
           "span_end": 108
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 79,
+          "span_end": 84
         },
         {
           "pattern": "decided",
@@ -11069,6 +11384,30 @@
           "span_end": 80
         },
         {
+          "pattern": "don't have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 14,
+          "span_end": 30
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
+          "pattern": "in the day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 50,
+          "span_end": 60
+        },
+        {
           "pattern": "when I was building my businesses from the ground up",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -11171,6 +11510,14 @@
           "span_end": 51
         },
         {
+          "pattern": "needed to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 34,
+          "span_end": 46
+        },
+        {
           "pattern": "that needed to be done like data entry or things like that",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -11185,14 +11532,6 @@
           "norm_pattern": "simple_past",
           "span_start": 10,
           "span_end": 13
-        },
-        {
-          "pattern": "needed",
-          "note_tr": "Simple Past",
-          "cefr": "A2",
-          "norm_pattern": "simple_past",
-          "span_start": 34,
-          "span_end": 40
         }
       ],
       "vocab": [],
@@ -11619,6 +11958,14 @@
           "span_end": 40
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 19,
+          "span_end": 23
+        },
+        {
           "pattern": "if you want",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -11984,6 +12331,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "want",
           "note_tr": "Simple Present",
@@ -12787,12 +13142,12 @@
           "span_end": 48
         },
         {
-          "pattern": "'m never gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m never gonna get",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 85,
-          "span_end": 97
+          "span_end": 103
         },
         {
           "pattern": "that I'm never gonna get back in",
@@ -12912,6 +13267,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "Not having to worry",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 0,
+          "span_end": 19
+        },
         {
           "pattern": "comes",
           "note_tr": "Simple Present",
@@ -13179,20 +13542,20 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'re never gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'re never gonna talk",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 9,
-          "span_end": 22
+          "span_end": 29
         },
         {
-          "pattern": "are never gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "are never gonna align",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 52,
-          "span_end": 65
+          "span_end": 73
         },
         {
           "pattern": "know",
@@ -13431,6 +13794,30 @@
           "span_end": 33
         },
         {
+          "pattern": "many more friends",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 45,
+          "span_end": 62
+        },
+        {
+          "pattern": "few months",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 75,
+          "span_end": 85
+        },
+        {
+          "pattern": "in the last few months",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 63,
+          "span_end": 85
+        },
+        {
           "pattern": "many",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -13609,7 +13996,16 @@
       "text_tr": "WhatsApp mesajlarıyla ileri geri planlama yapmak zorunda kalmak ve son olarak zaman yönetimi için 10 numaralı prensip",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "Having to schedule",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 0,
+          "span_end": 18
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -13931,6 +14327,14 @@
           "span_end": 120
         },
         {
+          "pattern": "at the end",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 29,
+          "span_end": 39
+        },
+        {
           "pattern": "filmed",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -14100,6 +14504,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 69,
           "span_end": 79
+        },
+        {
+          "pattern": "at the end",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 96,
+          "span_end": 106
         }
       ],
       "vocab": [],
@@ -14390,6 +14802,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 62,
           "span_end": 70
+        },
+        {
+          "pattern": "how much work",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 47,
+          "span_end": 60
         },
         {
           "pattern": "how much work I've done by me",
@@ -15316,6 +15736,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        },
         {
           "pattern": "if you want more tips for time management and general productivity",
           "note_tr": "If Clause Type 0 (General Truth)",

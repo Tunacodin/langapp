@@ -94,6 +94,14 @@
       "grammar": [
         {
           "pattern": "realize",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "realize",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -268,6 +276,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in my day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 14,
+          "span_end": 23
+        },
         {
           "pattern": "that I literally live",
           "note_tr": "Relative Clause",
@@ -696,6 +712,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
+          "pattern": "mean",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 55,
+          "span_end": 59
+        },
+        {
           "pattern": ", what does all that noise mean for our health",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -1098,6 +1130,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 30,
           "span_end": 46
+        },
+        {
+          "pattern": "in time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 56,
+          "span_end": 63
         }
       ],
       "vocab": [],
@@ -2091,6 +2131,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 46,
+          "span_end": 50
+        },
         {
           "pattern": "want",
           "note_tr": "Simple Present",
@@ -3153,7 +3201,16 @@
       "text_tr": "Yıllardır gürültünün insan vücudu üzerindeki etkilerini araştırıyorsunuz.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve been studying",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 3,
+          "span_end": 20
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -3230,6 +3287,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 58,
           "span_end": 68
+        },
+        {
+          "pattern": "seems",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 3,
+          "span_end": 8
         },
         {
           "pattern": "seems",
@@ -3410,6 +3475,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 58,
           "span_end": 73
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 12
         }
       ],
       "vocab": [],
@@ -3793,6 +3866,14 @@
         },
         {
           "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 17
+        },
+        {
+          "pattern": "wanted",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -3930,6 +4011,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 60,
           "span_end": 67
+        },
+        {
+          "pattern": "many different kinds",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 13,
+          "span_end": 33
         },
         {
           "pattern": "that you can get through an app",
@@ -4680,6 +4769,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 78,
+          "span_end": 82
+        },
+        {
           "pattern": "listen",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -4790,20 +4887,28 @@
           "span_end": 16
         },
         {
+          "pattern": "has to happen",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 35,
+          "span_end": 48
+        },
+        {
+          "pattern": "how much exposure",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 17,
+          "span_end": 34
+        },
+        {
           "pattern": "how much exposure has to happen before you start to",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
           "norm_pattern": "embedded_wh_question",
           "span_start": 17,
           "span_end": 68
-        },
-        {
-          "pattern": "has",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 35,
-          "span_end": 38
         },
         {
           "pattern": "start",
@@ -4936,6 +5041,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "believe",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 35,
+          "span_end": 42
+        },
         {
           "pattern": "which is about as loud as",
           "note_tr": "Relative Clause",
@@ -5520,6 +5633,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -5563,6 +5684,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 21,
           "span_end": 33
+        },
+        {
+          "pattern": "in 2014",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 39,
+          "span_end": 46
         },
         {
           "pattern": "where you're standing back in 2014",
@@ -6055,7 +6184,16 @@
       "text_tr": "Sizce bu, gürültünün haklı bir kullanımı mı?",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 12
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -6110,20 +6248,20 @@
           "span_end": 45
         },
         {
+          "pattern": "had to say",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 5,
+          "span_end": 15
+        },
+        {
           "pattern": "If I had to say it was anything",
           "note_tr": "If Clause Type 2 (Unreal Present)",
           "cefr": "B1",
           "norm_pattern": "if_past_would",
           "span_start": 0,
           "span_end": 31
-        },
-        {
-          "pattern": "had",
-          "note_tr": "Simple Past",
-          "cefr": "A2",
-          "norm_pattern": "simple_past",
-          "span_start": 5,
-          "span_end": 8
         }
       ],
       "vocab": [],
@@ -6721,6 +6859,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "that gets towards explaining why we see health disparities",
           "note_tr": "Relative Clause",
@@ -7405,6 +7551,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 28,
           "span_end": 35
+        },
+        {
+          "pattern": "in the 1970s",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 55,
+          "span_end": 67
         }
       ],
       "vocab": [],
@@ -7631,6 +7785,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 5,
           "span_end": 14
+        },
+        {
+          "pattern": "in the 1950s",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 15,
+          "span_end": 27
         }
       ],
       "vocab": [],
@@ -7779,12 +7941,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to blow",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 11,
-          "span_end": 15
+          "span_end": 23
         },
         {
           "pattern": "all",
@@ -8122,6 +8284,14 @@
         },
         {
           "pattern": "realize",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 32,
+          "span_end": 39
+        },
+        {
+          "pattern": "realize",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -8228,6 +8398,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "seems",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 12
+        },
+        {
+          "pattern": "in the past 10 years",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 18,
+          "span_end": 38
+        },
         {
           "pattern": "seems",
           "note_tr": "Simple Present",
@@ -8461,6 +8647,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in the evenings",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 23,
+          "span_end": 38
+        },
+        {
           "pattern": "exceed",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -8575,7 +8769,16 @@
       "text_tr": "buradaki gece gürültü düzeyi 65 desibele daha yakın.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "at night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 22,
+          "span_end": 30
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -8644,6 +8847,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 38,
           "span_end": 58
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 12
         }
       ],
       "vocab": [],
@@ -8767,6 +8978,14 @@
           "cefr": "A2",
           "norm_pattern": "modal_v1",
           "span_start": 5,
+          "span_end": 19
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
           "span_end": 19
         }
       ],
@@ -9368,7 +9587,16 @@
       "text_tr": "Sizce bunun nedeni ne?",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 16
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -9398,6 +9626,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 64,
+          "span_end": 68
+        },
         {
           "pattern": "where others don't want to live",
           "note_tr": "Relative Clause",
@@ -9655,6 +9891,14 @@
       "grammar": [
         {
           "pattern": "thought",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 9
+        },
+        {
+          "pattern": "thought",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -9723,6 +9967,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "how many",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 30,
+          "span_end": 38
+        },
         {
           "pattern": "started",
           "note_tr": "Simple Past",
@@ -9837,7 +10089,16 @@
       "text_tr": "Bu yıl ben de bunu epey yaptım.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve been doing",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 5,
+          "span_end": 19
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -9875,6 +10136,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 38,
+          "span_end": 43
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -10277,7 +10546,16 @@
       "text_tr": "bir dönem eyalet ortalamasının altı katı kadar yüksekti.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "at one time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 4,
+          "span_end": 15
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -10433,6 +10711,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "matter",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 35,
+          "span_end": 41
+        },
+        {
+          "pattern": "many barriers",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 8,
+          "span_end": 21
+        },
         {
           "pattern": "many",
           "note_tr": "Quantifiers",
@@ -10657,7 +10951,16 @@
       "text_tr": "Gürültünün işitmeyle ilgili olmayan sağlık etkileri hakkında ne biliyoruz?",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -10726,6 +11029,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 36,
           "span_end": 43
+        },
+        {
+          "pattern": "in the last couple",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 3,
+          "span_end": 21
         }
       ],
       "vocab": [],
@@ -10952,6 +11263,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many studies",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 48,
+          "span_end": 60
+        },
+        {
+          "pattern": "in 2018",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 26,
+          "span_end": 33
+        },
         {
           "pattern": "that reviewed many studies",
           "note_tr": "Relative Clause",
@@ -11247,6 +11574,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 39,
+          "span_end": 44
+        },
+        {
+          "pattern": "agrees",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 55,
+          "span_end": 61
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -11547,6 +11890,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 66,
           "span_end": 73
+        },
+        {
+          "pattern": "at night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 29,
+          "span_end": 37
         }
       ],
       "vocab": [],
@@ -11842,6 +12193,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 29,
           "span_end": 37
+        },
+        {
+          "pattern": "at various times",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 44,
+          "span_end": 60
         }
       ],
       "vocab": [],
@@ -12433,6 +12792,14 @@
           "span_end": 43
         },
         {
+          "pattern": "in like a couple",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 49,
+          "span_end": 65
+        },
+        {
           "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -12564,6 +12931,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "'ve been focusing",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 15,
+          "span_end": 32
+        },
         {
           "pattern": "turns",
           "note_tr": "Simple Present",
@@ -12969,6 +13344,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in 1972",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 5,
+          "span_end": 12
+        },
+        {
           "pattern": "passed",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -13351,6 +13734,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in 1982",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 47,
+          "span_end": 54
+        },
+        {
           "pattern": "phased",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -13589,6 +13980,14 @@
           "span_end": 61
         },
         {
+          "pattern": "in all day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 62,
+          "span_end": 72
+        },
+        {
           "pattern": "made",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -13650,6 +14049,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 53,
+          "span_end": 58
+        },
+        {
+          "pattern": "matters",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 89,
+          "span_end": 96
+        },
         {
           "pattern": "that matters",
           "note_tr": "Relative Clause",
@@ -13744,6 +14159,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "seem",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 76,
+          "span_end": 80
+        },
         {
           "pattern": "that seem to suggest",
           "note_tr": "Relative Clause",
@@ -14114,6 +14537,14 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 24,
+          "span_end": 28
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -14190,6 +14621,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "'ve been doing",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 61,
+          "span_end": 75
+        },
         {
           "pattern": "have",
           "note_tr": "Simple Present",
@@ -14293,12 +14732,12 @@
           "span_end": 82
         },
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to protect",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 21,
-          "span_end": 25
+          "span_end": 36
         }
       ],
       "vocab": [],
@@ -14501,6 +14940,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "at night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 56,
+          "span_end": 64
+        },
         {
           "pattern": "goes",
           "note_tr": "Simple Present",
@@ -14878,6 +15325,14 @@
           "span_end": 70
         },
         {
+          "pattern": "how much noise",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 37,
+          "span_end": 51
+        },
+        {
           "pattern": "go",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -14970,6 +15425,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 89,
           "span_end": 95
+        },
+        {
+          "pattern": "needs",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 36,
+          "span_end": 41
         },
         {
           "pattern": "where people can go",
@@ -15340,6 +15803,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "how much noise",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 27,
+          "span_end": 41
+        },
+        {
           "pattern": "how much noise we don't hear",
           "note_tr": "Noun Clause (Object Position)",
           "cefr": "B1",
@@ -15644,6 +16115,22 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 16,
+          "span_end": 20
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -15765,6 +16252,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "in the summer",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 20,
+          "span_end": 33
+        },
         {
           "pattern": "like",
           "note_tr": "Simple Present",
@@ -16058,6 +16561,14 @@
           "span_end": 75
         },
         {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 40,
+          "span_end": 45
+        },
+        {
           "pattern": "are",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -16159,6 +16670,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 42,
+          "span_end": 47
+        },
         {
           "pattern": "are",
           "note_tr": "Simple Present",

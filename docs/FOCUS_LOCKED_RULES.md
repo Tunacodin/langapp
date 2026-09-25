@@ -45,6 +45,12 @@ girer. Her ünite bir tema + bağlı `norm_pattern` odakları + kelime temaları
 
 > Not: Bir odak birden çok ünitede geçebilir (ör. used_to hem 2 hem 3). Enum tek kaynak,
 > ünite eşlemesi `db.ts` içindeki UNITS tablosundadır.
+>
+> Güncelleme (2026-09-25): tablodaki eksik 6 odak enum'a eklendi (topics.json v4):
+> `stative_verbs` (tablodaki "stative"), `prepositions_time`, `countable_uncountable`,
+> `present_cont_future`, `present_perfect_cont`, `modal_obligation`. `must` artık
+> `modal_v1` değil `modal_obligation` sayılır. 7. ünitenin bağlı odağı `modal_v1` yerine
+> `modal_obligation` oldu, çünkü kitap hedefi zorunluluk bildiren modallar.
 
 ## 3. Sekme Bazlı Odak Kilidi Kuralları
 
@@ -171,6 +177,24 @@ Eski 8 zayıf odak, elle yazılmış graded cümlelerle dolduruldu (scripts/gen_
 konu YOK. Curated cümleler videosuz; Dinleme kartında TTS (cihaz sesli okuma) ile çalar.
 Sayımlar: should_have_v3(14), could_have_v3(18), would_have_v3(18), if_type1(25),
 if_past_would(15), if_had_v3_would_have_v3(14), wish_past(14), used_to(28).
+
+### Güncelleme (2026-09-25)
+- **Enum:** 30 odak (6 yeni, yukarıdaki nota bakın). Yeni odaklar için Layer-A kuralları
+  `grammar_detect.py` içinde. 32 video yeniden etiketlendi. Mevcut etiketler birebir korundu,
+  bu kuru çalıştırmayla doğrulandı. Toplam etiket sayısı 7215.
+- **Video kullanımı:** 32 videonun hepsi bir üniteye bağlı. sources.json dışındaki 6 video
+  `gen_lesson_manifest.py` UNIT_OVERRIDES ile bağlandı. AV1/VP9 kodlu 15+1 video H.264'e
+  çevrildi, çünkü iPhone'da ses çalıp görüntü gelmiyordu. `ingest.py` artık bunu
+  kendiliğinden yapıyor.
+- **Elle yazılmış cümleler:** videoda seyrek geçen veya uzun cümlelerle gelen 5 yapıya
+  12'şer cümle eklendi: present_cont_future (videoda 2 kısa cümle var),
+  present_perfect_cont, past_perfect_had_v3, countable_uncountable (much/many ve
+  "a piece of" karşıtlığı), modal_obligation (mustn't ile don't have to farkı).
+  Artık her odakta Dinleme'de en az 12 kesit var.
+- **Konuşma:** konuşma merdiveni 16 konuya çıktı (kitap sırası, konu başına 6 tema x 12
+  cümle). İçerik tamamen elle yazıldı. Bir konu ancak öncekinin bütün temaları bitince
+  açılır. Aktif odak açık bir konuya denk geliyorsa, sekmede o konu açık gelir.
+  İçerik denetimi: `scripts/check_ladder.py`.
 
 ### Sıradaki en yüksek değerli adımlar
 1. Konuşma (shadowing) sekmesini odağa bağla (speaking_takes.focus_id).

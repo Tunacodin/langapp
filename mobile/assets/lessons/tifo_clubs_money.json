@@ -203,9 +203,9 @@
       "grammar": [
         {
           "pattern": "must look",
-          "note_tr": "Could / Would / Should + V1",
+          "note_tr": "Must / Have to (Obligation)",
           "cefr": "A2",
-          "norm_pattern": "modal_v1",
+          "norm_pattern": "modal_obligation",
           "span_start": 82,
           "span_end": 91
         }
@@ -2083,6 +2083,14 @@
       ],
       "grammar": [
         {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 124,
+          "span_end": 129
+        },
+        {
           "pattern": "which means the Premier League is more equal when it comes to sharing revenue than",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -2316,6 +2324,14 @@
           "span_end": 39
         },
         {
+          "pattern": "at one time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 23,
+          "span_end": 34
+        },
+        {
           "pattern": "enjoy",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -2504,6 +2520,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "In 2016",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 0,
+          "span_end": 7
+        },
+        {
           "pattern": "saw",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -2603,6 +2627,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in the last three years",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 98,
+          "span_end": 121
+        },
         {
           "pattern": "finish",
           "note_tr": "Simple Present",

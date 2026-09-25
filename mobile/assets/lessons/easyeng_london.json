@@ -215,7 +215,16 @@
       "text_tr": "Londra'nın en çok neresini seviyorsunuz?",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 16
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -245,6 +254,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "how diverse it is",
           "note_tr": "Noun Clause (Object Position)",
@@ -298,6 +315,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 12,
           "span_end": 20
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
         },
         {
           "pattern": "think",
@@ -443,6 +468,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 57,
+          "span_end": 61
+        },
         {
           "pattern": "which I really like",
           "note_tr": "Relative Clause",
@@ -680,6 +713,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "love",
           "note_tr": "Simple Present",
@@ -972,7 +1013,16 @@
       "text_tr": "Londra'nın en çok neyi hoşuma gidiyor?",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 10,
+          "span_end": 14
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -1044,6 +1094,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "at 18",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 53,
+          "span_end": 58
+        },
         {
           "pattern": "grew",
           "note_tr": "Simple Past",
@@ -1331,6 +1389,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
           "pattern": "if you live in London",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -1494,6 +1560,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many different kinds",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 13,
+          "span_end": 33
+        },
         {
           "pattern": "many",
           "note_tr": "Quantifiers",
@@ -1877,12 +1951,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 19,
-          "span_end": 23
+          "span_end": 29
         }
       ],
       "vocab": [],
@@ -2108,20 +2182,28 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "have to learn",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 7,
+          "span_end": 20
+        },
+        {
+          "pattern": "have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 36,
+          "span_end": 46
+        },
+        {
           "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
           "span_start": 26,
           "span_end": 30
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 36,
-          "span_end": 40
         }
       ],
       "vocab": [],
@@ -2184,7 +2266,16 @@
       "text_tr": "Nereye gitmek istiyorsun?",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 13,
+          "span_end": 17
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -2589,6 +2680,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 26,
+          "span_end": 31
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2764,6 +2863,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many different areas",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 13,
+          "span_end": 33
+        },
         {
           "pattern": "many",
           "note_tr": "Quantifiers",
@@ -3631,6 +3738,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 6,
           "span_end": 13
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 38,
+          "span_end": 43
         }
       ],
       "vocab": [],
@@ -3701,6 +3816,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 18,
           "span_end": 26
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 14
         },
         {
           "pattern": "depends",
@@ -3946,6 +4069,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        },
+        {
           "pattern": "see",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -4124,6 +4255,14 @@
         },
         {
           "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "love",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4230,6 +4369,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many different people",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 16,
+          "span_end": 37
+        },
         {
           "pattern": "what makes London great",
           "note_tr": "Noun Clause (Object Position)",

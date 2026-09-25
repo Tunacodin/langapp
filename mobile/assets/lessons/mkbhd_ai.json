@@ -13,7 +13,16 @@
       "text_tr": "Yani eğer bu 2011'de olsaydı,",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in 2011",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 21,
+          "span_end": 28
+        }
+      ],
       "vocab": []
     },
     {
@@ -122,6 +131,22 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 103,
+          "span_end": 108
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -191,7 +216,16 @@
       "text_tr": "1.200 dolarlık iPhone'un değerinin küçümsenmesiyle ne demek istiyorsunuz?",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "mean",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 16
+        }
+      ],
       "vocab": []
     },
     {
@@ -306,6 +340,14 @@
       "grammar": [
         {
           "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 35,
+          "span_end": 41
+        },
+        {
+          "pattern": "wanted",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -342,6 +384,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 24,
           "span_end": 35
+        },
+        {
+          "pattern": "in over a decade",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 65,
+          "span_end": 81
         }
       ],
       "vocab": []
@@ -413,9 +463,9 @@
       "grammar": [
         {
           "pattern": "'s been quietly getting",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
           "span_start": 6,
           "span_end": 29
         }
@@ -579,6 +629,14 @@
         },
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 28,
+          "span_end": 32
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -597,6 +655,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 23,
+          "span_end": 27
+        },
         {
           "pattern": "what we all want",
           "note_tr": "Noun Clause (Object Position)",
@@ -636,6 +702,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 45,
+          "span_end": 49
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 69,
+          "span_end": 73
+        },
         {
           "pattern": "know",
           "note_tr": "Simple Present",
@@ -715,6 +797,22 @@
           "norm_pattern": "modal_v1",
           "span_start": 68,
           "span_end": 76
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 38,
+          "span_end": 42
         },
         {
           "pattern": "if you want more in focusing",
@@ -842,6 +940,14 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 19,
+          "span_end": 23
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -879,7 +985,16 @@
       "text_tr": "Neyse, bu ne kadar fark yaratır?",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "how much",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 8,
+          "span_end": 16
+        }
+      ],
       "vocab": []
     },
     {
@@ -1159,6 +1274,22 @@
       "grammar": [
         {
           "pattern": "seems",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 31,
+          "span_end": 36
+        },
+        {
+          "pattern": "much light",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 118,
+          "span_end": 128
+        },
+        {
+          "pattern": "seems",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1208,6 +1339,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 199,
           "span_end": 205
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 178,
+          "span_end": 183
         },
         {
           "pattern": "saw",
@@ -1365,6 +1504,22 @@
         },
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 50,
+          "span_end": 54
+        },
+        {
+          "pattern": "in the past couple years",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 87,
+          "span_end": 111
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1469,6 +1624,14 @@
           "norm_pattern": "future_will",
           "span_start": 98,
           "span_end": 106
+        },
+        {
+          "pattern": "have to hunt",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 102,
+          "span_end": 114
         },
         {
           "pattern": "sometimes",
@@ -1662,6 +1825,14 @@
           "span_end": 18
         },
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 75,
+          "span_end": 80
+        },
+        {
           "pattern": "which I think kind of hamstrung the pro phones for a while",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -1743,6 +1914,22 @@
           "norm_pattern": "modal_v1",
           "span_start": 4,
           "span_end": 12
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 48,
+          "span_end": 52
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 84,
+          "span_end": 88
         },
         {
           "pattern": "want",
@@ -1946,6 +2133,22 @@
           "span_end": 63
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 95,
+          "span_end": 99
+        },
+        {
+          "pattern": "how much storage",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 75,
+          "span_end": 91
+        },
+        {
           "pattern": "where we can set a limit to how much storage we want our ProRes footage to take up",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -2086,12 +2289,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "are they gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "are they gonna sync",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 11,
-          "span_end": 23
+          "span_end": 30
         }
       ],
       "vocab": []
@@ -2159,7 +2362,16 @@
       "text_tr": "Gerçekten bu çipin fazlasıyla küçümsendiğini düşünüyorum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 17
+        }
+      ],
       "vocab": []
     },
     {
@@ -2258,6 +2470,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
           "pattern": "that's meaningfully longer in the same size phone",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -2285,6 +2505,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 107,
+          "span_end": 111
+        },
         {
           "pattern": "know",
           "note_tr": "Simple Present",
@@ -2607,6 +2835,14 @@
           "span_end": 46
         },
         {
+          "pattern": "in the summer",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 79,
+          "span_end": 92
+        },
+        {
           "pattern": "how hot the iPhone has gotten while shooting autofocus videos in the summer here in New Jersey, but having this huge new vapor chamber and connected mid frame for better cooling",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -2663,12 +2899,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "is still gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "is still gonna be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 33,
-          "span_end": 45
+          "span_end": 50
         }
       ],
       "vocab": []
@@ -2733,12 +2969,36 @@
           "span_end": 22
         },
         {
+          "pattern": "has been running",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 131,
+          "span_end": 147
+        },
+        {
           "pattern": "would matter",
           "note_tr": "Could / Would / Should + V1",
           "cefr": "A2",
           "norm_pattern": "modal_v1",
           "span_start": 89,
           "span_end": 101
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 37,
+          "span_end": 41
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 80,
+          "span_end": 85
         },
         {
           "pattern": "know",
@@ -2813,20 +3073,20 @@
           "span_end": 70
         },
         {
+          "pattern": "has to work",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 102,
+          "span_end": 113
+        },
+        {
           "pattern": "where Siri has to work on device much faster",
           "note_tr": "Relative Clause",
           "cefr": "B1",
           "norm_pattern": "relative_clause",
           "span_start": 91,
           "span_end": 135
-        },
-        {
-          "pattern": "has",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 102,
-          "span_end": 105
         }
       ],
       "vocab": []
@@ -3093,6 +3353,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "remember",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 19
+        },
         {
           "pattern": "if you remember, last year,",
           "note_tr": "If Clause Type 0 (General Truth)",
@@ -3361,6 +3629,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "have been mostly testing",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 2,
+          "span_end": 26
+        },
         {
           "pattern": "can sometimes be stretched",
           "note_tr": "Passive Voice",
@@ -3714,6 +3990,14 @@
       "grammar": [
         {
           "pattern": "seems",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
+          "pattern": "seems",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3786,20 +4070,20 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "have to wait",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 30,
+          "span_end": 42
+        },
+        {
           "pattern": "what the capacity is",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
           "norm_pattern": "embedded_wh_question",
           "span_start": 105,
           "span_end": 125
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 30,
-          "span_end": 34
         }
       ],
       "vocab": []
@@ -3849,6 +4133,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 10
+        },
         {
           "pattern": "know",
           "note_tr": "Simple Present",
@@ -3909,20 +4201,28 @@
           "span_end": 20
         },
         {
+          "pattern": "have to wait",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 68,
+          "span_end": 80
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
           "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
           "span_start": 6,
           "span_end": 11
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 68,
-          "span_end": 72
         },
         {
           "pattern": "few",
@@ -4067,12 +4367,20 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'m not gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m not gonna lie",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 1,
-          "span_end": 11
+          "span_end": 17
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 26,
+          "span_end": 31
         },
         {
           "pattern": "think",
@@ -4096,6 +4404,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4114,6 +4430,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 80,
+          "span_end": 85
+        },
         {
           "pattern": "which is sort of a light sky blue",
           "note_tr": "Relative Clause",
@@ -4151,6 +4475,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "'ve been using",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 43,
+          "span_end": 57
+        },
+        {
           "pattern": "was hoping",
           "note_tr": "Past Continuous",
           "cefr": "A2",
@@ -4165,6 +4497,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 144,
           "span_end": 152
+        },
+        {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 159,
+          "span_end": 163
         },
         {
           "pattern": "which I've been using",
@@ -4318,6 +4658,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "doesn't need to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 22,
+          "span_end": 40
+        },
+        {
           "pattern": "that doesn't need to be a super high resolution, unlike a selfie camera",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -4357,6 +4705,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 22,
+          "span_end": 26
+        },
         {
           "pattern": "need",
           "note_tr": "Simple Present",
@@ -4435,7 +4791,16 @@
       "text_tr": "Günün sonunda, bu telefonla ilgili görüşüm, bunun gerçekten hiç de şaşırtıcı olmadığı yönünde.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "At the end",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 0,
+          "span_end": 10
+        }
+      ],
       "vocab": []
     },
     {
@@ -4769,6 +5134,14 @@
       "grammar": [
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 12
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4794,6 +5167,22 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 9,
           "span_end": 32
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "seems",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 88,
+          "span_end": 93
         },
         {
           "pattern": "think",

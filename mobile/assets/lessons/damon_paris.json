@@ -26,6 +26,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in 2011",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 100,
+          "span_end": 107
+        },
+        {
           "pattern": "which was actually something that I wrote to myself in 2011",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -101,6 +109,30 @@
           "span_end": 191
         },
         {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 17
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 65,
+          "span_end": 69
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 75,
+          "span_end": 80
+        },
+        {
           "pattern": "that I used to live in",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -167,6 +199,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 16,
           "span_end": 36
+        },
+        {
+          "pattern": "In 2011",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 0,
+          "span_end": 7
         },
         {
           "pattern": "that's still around in 2021 Paris",
@@ -238,6 +278,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 17,
+          "span_end": 23
+        },
         {
           "pattern": "wanted",
           "note_tr": "Simple Past",
@@ -317,6 +365,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "need to know",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 61,
+          "span_end": 73
+        },
+        {
           "pattern": "If you're a student or just want to save a lot of money",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -331,14 +387,6 @@
           "norm_pattern": "embedded_wh_question",
           "span_start": 74,
           "span_end": 99
-        },
-        {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 61,
-          "span_end": 65
         }
       ],
       "vocab": []
@@ -375,6 +423,14 @@
           "norm_pattern": "used_to",
           "span_start": 41,
           "span_end": 53
+        },
+        {
+          "pattern": "in the day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 59,
+          "span_end": 69
         },
         {
           "pattern": "where the cleaning ladies used to live back in the day",
@@ -516,7 +572,16 @@
       "text_tr": "Aslında Paris hakkında hiçbir şey bilmiyordum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 18,
+          "span_end": 22
+        }
+      ],
       "vocab": []
     },
     {
@@ -528,6 +593,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 13
+        },
         {
           "pattern": "wanted",
           "note_tr": "Simple Past",
@@ -590,6 +663,14 @@
       "grammar": [
         {
           "pattern": "thought",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 13,
+          "span_end": 20
+        },
+        {
+          "pattern": "thought",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -623,7 +704,16 @@
       "text_tr": "Bu Paris'in merkezi olmak anlamına mı geliyor?",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "mean",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 10,
+          "span_end": 14
+        }
+      ],
       "vocab": []
     },
     {
@@ -674,6 +764,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "remember",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 15
+        },
         {
           "pattern": "what happened to palm trees",
           "note_tr": "Embedded WH- Question",
@@ -744,6 +842,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "remember",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 19,
+          "span_end": 27
+        },
+        {
           "pattern": "what happened to palm trees",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -779,6 +885,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 39,
+          "span_end": 43
+        },
+        {
+          "pattern": "in the day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 5,
+          "span_end": 15
+        },
         {
           "pattern": "need",
           "note_tr": "Simple Present",
@@ -834,6 +956,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 121,
           "span_end": 127
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 69,
+          "span_end": 73
         },
         {
           "pattern": "that you know",
@@ -999,6 +1129,14 @@
           "span_end": 72
         },
         {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 122,
+          "span_end": 128
+        },
+        {
           "pattern": "that cut through Paris",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -1042,6 +1180,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "little music",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 59,
+          "span_end": 71
+        },
         {
           "pattern": "had",
           "note_tr": "Simple Past",
@@ -1129,6 +1275,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 12
+        },
         {
           "pattern": "want",
           "note_tr": "Simple Present",
@@ -1314,6 +1468,22 @@
           "norm_pattern": "present_continuous",
           "span_start": 86,
           "span_end": 101
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 66,
+          "span_end": 70
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 110,
+          "span_end": 114
         },
         {
           "pattern": "if you want to study abroad",
@@ -1647,12 +1817,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 4,
-          "span_end": 8
+          "span_end": 14
         }
       ],
       "vocab": []
@@ -1739,6 +1909,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 34,
+          "span_end": 40
+        },
         {
           "pattern": "chose",
           "note_tr": "Simple Past",
@@ -2364,6 +2542,14 @@
       "grammar": [
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2787,6 +2973,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
+          "span_end": 19
+        },
         {
           "pattern": "why we need our money and investments",
           "note_tr": "Noun Clause (Object Position)",
@@ -3330,6 +3524,14 @@
           "norm_pattern": "past_continuous_was_ving",
           "span_start": 5,
           "span_end": 15
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 59,
+          "span_end": 63
         }
       ],
       "vocab": []
@@ -3749,6 +3951,14 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 4,
+          "span_end": 8
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3779,12 +3989,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'m gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m gonna stay",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 5,
-          "span_end": 11
+          "span_end": 18
         },
         {
           "pattern": "what happens",
@@ -3825,6 +4035,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "knows",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 12
+        },
         {
           "pattern": "knows",
           "note_tr": "Simple Present",
@@ -3888,12 +4106,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'m gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m gonna see",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 1,
-          "span_end": 7
+          "span_end": 13
         },
         {
           "pattern": "what happens",
@@ -3946,12 +4164,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'m gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m gonna go",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 23,
-          "span_end": 29
+          "span_end": 34
         },
         {
           "pattern": "goes",
@@ -3975,6 +4193,14 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 4,
+          "span_end": 8
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3994,12 +4220,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'m gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'m gonna stay",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 33,
-          "span_end": 39
+          "span_end": 46
         },
         {
           "pattern": "goes",
@@ -4051,6 +4277,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many opportunities",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 12,
+          "span_end": 30
+        },
         {
           "pattern": "have",
           "note_tr": "Simple Present",
@@ -4151,12 +4385,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to go",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 4,
-          "span_end": 8
+          "span_end": 14
         }
       ],
       "vocab": []
@@ -4409,6 +4643,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 21,
           "span_end": 32
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 16,
+          "span_end": 20
         }
       ],
       "vocab": []
@@ -4489,6 +4731,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 19,
           "span_end": 30
+        },
+        {
+          "pattern": "in the day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 5,
+          "span_end": 15
         }
       ],
       "vocab": []
@@ -4623,6 +4873,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 50,
+          "span_end": 54
+        },
         {
           "pattern": "if you live on the left bank",
           "note_tr": "If Clause Type 0 (General Truth)",
@@ -4827,7 +5085,16 @@
       "text_tr": "Hayır. Durun, Mix Club'ın açık olup olmadığını bile bilmiyorum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 32,
+          "span_end": 36
+        }
+      ],
       "vocab": []
     },
     {
@@ -5217,6 +5484,14 @@
         },
         {
           "pattern": "thought",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 13,
+          "span_end": 20
+        },
+        {
+          "pattern": "thought",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -5250,6 +5525,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 29,
           "span_end": 39
+        },
+        {
+          "pattern": "have to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 35,
+          "span_end": 45
         },
         {
           "pattern": "move",
@@ -5456,6 +5739,30 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 12
+        },
+        {
+          "pattern": "understand",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 36,
+          "span_end": 46
+        },
+        {
+          "pattern": "how many times",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 13,
+          "span_end": 27
+        },
+        {
           "pattern": "how many times I say I understand",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -5506,6 +5813,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 4,
           "span_end": 21
+        },
+        {
+          "pattern": "much fun",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 25,
+          "span_end": 33
         },
         {
           "pattern": "much",
@@ -5698,6 +6013,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 12
+        },
         {
           "pattern": "know",
           "note_tr": "Simple Present",

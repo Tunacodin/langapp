@@ -27,6 +27,14 @@
       "grammar": [
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 23,
+          "span_end": 27
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -65,6 +73,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 4,
+          "span_end": 8
+        },
         {
           "pattern": "how it is, Monday mornings",
           "note_tr": "Embedded WH- Question",
@@ -199,6 +215,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 19,
+          "span_end": 23
+        },
         {
           "pattern": "need",
           "note_tr": "Simple Present",
@@ -436,6 +460,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 13,
+          "span_end": 17
+        },
+        {
           "pattern": "some",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -506,6 +538,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "need to sit",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 49,
+          "span_end": 60
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
           "pattern": "if you need to sit this one out and deal with it",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -520,14 +568,6 @@
           "norm_pattern": "present_simple",
           "span_start": 7,
           "span_end": 11
-        },
-        {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 49,
-          "span_end": 53
         }
       ],
       "vocab": []
@@ -658,6 +698,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 13,
           "span_end": 26
+        },
+        {
+          "pattern": "thought",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 9
         },
         {
           "pattern": "thought",
@@ -1214,6 +1262,22 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 17
+        },
+        {
+          "pattern": "understand",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 20,
+          "span_end": 30
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1314,6 +1378,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1389,6 +1461,14 @@
           "span_end": 51
         },
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 31,
+          "span_end": 36
+        },
+        {
           "pattern": "see",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -1428,6 +1508,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "understand",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 17
+        },
         {
           "pattern": "understand",
           "note_tr": "Simple Present",

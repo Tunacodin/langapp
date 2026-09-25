@@ -604,6 +604,14 @@
         },
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -710,9 +718,9 @@
         },
         {
           "pattern": "must get",
-          "note_tr": "Could / Would / Should + V1",
+          "note_tr": "Must / Have to (Obligation)",
           "cefr": "A2",
-          "norm_pattern": "modal_v1",
+          "norm_pattern": "modal_obligation",
           "span_start": 36,
           "span_end": 44
         }
@@ -772,6 +780,14 @@
           "pattern": "... that are around us (ilgi cümlesi)",
           "note_tr": "İsmi niteleyen yan cümle.",
           "cefr": "B1"
+        },
+        {
+          "pattern": "many other dangers",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 25,
+          "span_end": 43
         },
         {
           "pattern": "that are around us all the time",
@@ -1137,6 +1153,14 @@
           "cefr": "B1"
         },
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 47,
+          "span_end": 51
+        },
+        {
           "pattern": "have",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -1394,9 +1418,9 @@
         },
         {
           "pattern": "must obey",
-          "note_tr": "Could / Would / Should + V1",
+          "note_tr": "Must / Have to (Obligation)",
           "cefr": "A2",
-          "norm_pattern": "modal_v1",
+          "norm_pattern": "modal_obligation",
           "span_start": 65,
           "span_end": 74
         },
@@ -1529,9 +1553,9 @@
         },
         {
           "pattern": "must be",
-          "note_tr": "Could / Would / Should + V1",
+          "note_tr": "Must / Have to (Obligation)",
           "cefr": "A2",
-          "norm_pattern": "modal_v1",
+          "norm_pattern": "modal_obligation",
           "span_start": 8,
           "span_end": 15
         }
@@ -1616,20 +1640,20 @@
           "cefr": "A2"
         },
         {
+          "pattern": "have to know",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 11,
+          "span_end": 23
+        },
+        {
           "pattern": "what happens when an atomic bomb explodes",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
           "norm_pattern": "embedded_wh_question",
           "span_start": 24,
           "span_end": 65
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 11,
-          "span_end": 15
         },
         {
           "pattern": "happens",
@@ -1786,9 +1810,9 @@
         },
         {
           "pattern": "must get",
-          "note_tr": "Could / Would / Should + V1",
+          "note_tr": "Must / Have to (Obligation)",
           "cefr": "A2",
-          "norm_pattern": "modal_v1",
+          "norm_pattern": "modal_obligation",
           "span_start": 31,
           "span_end": 39
         },

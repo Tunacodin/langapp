@@ -38,6 +38,14 @@
       "grammar": [
         {
           "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "like",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -227,6 +235,14 @@
         },
         {
           "pattern": "knew",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "knew",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -245,6 +261,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
+          "span_end": 19
+        },
         {
           "pattern": "what we want",
           "note_tr": "Noun Clause (Object Position)",
@@ -314,7 +338,16 @@
       "text_tr": "Maç yaklaşık bir buçuk saat sonra başlayacak.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in about one hour",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 27,
+          "span_end": 44
+        }
+      ],
       "vocab": []
     },
     {
@@ -472,7 +505,16 @@
       "text_tr": "Altın çağındaki GoPro kadar basit bebeğim.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in a gold time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 21,
+          "span_end": 35
+        }
+      ],
       "vocab": []
     },
     {
@@ -859,6 +901,14 @@
       "grammar": [
         {
           "pattern": "needs",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 10,
+          "span_end": 15
+        },
+        {
+          "pattern": "needs",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1143,7 +1193,16 @@
       "text_tr": "Ben öyle düşünmüyorum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 13
+        }
+      ],
       "vocab": []
     },
     {
@@ -1335,20 +1394,20 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "needed to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 15,
+          "span_end": 27
+        },
+        {
           "pattern": "did",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
           "span_start": 3,
           "span_end": 6
-        },
-        {
-          "pattern": "needed",
-          "note_tr": "Simple Past",
-          "cefr": "A2",
-          "norm_pattern": "simple_past",
-          "span_start": 15,
-          "span_end": 21
         }
       ],
       "vocab": []
@@ -1363,20 +1422,20 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "needed to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 13,
+          "span_end": 25
+        },
+        {
           "pattern": "did",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
           "span_start": 2,
           "span_end": 5
-        },
-        {
-          "pattern": "needed",
-          "note_tr": "Simple Past",
-          "cefr": "A2",
-          "norm_pattern": "simple_past",
-          "span_start": 13,
-          "span_end": 19
         }
       ],
       "vocab": []
@@ -1492,6 +1551,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 1,
           "span_end": 17
+        },
+        {
+          "pattern": "have to think",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 13,
+          "span_end": 26
         }
       ],
       "vocab": []
@@ -1512,6 +1579,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 1,
           "span_end": 17
+        },
+        {
+          "pattern": "have to think",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 13,
+          "span_end": 26
         }
       ],
       "vocab": []
@@ -1543,6 +1618,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 1,
           "span_end": 27
+        },
+        {
+          "pattern": "have to think",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 23,
+          "span_end": 36
         }
       ],
       "vocab": []
@@ -1563,6 +1646,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 1,
           "span_end": 15
+        },
+        {
+          "pattern": "much love",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 21,
+          "span_end": 30
         },
         {
           "pattern": "welcome",
@@ -1659,6 +1750,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "love",
           "note_tr": "Simple Present",

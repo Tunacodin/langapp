@@ -79,7 +79,7 @@ export const COURSE_UNITS: CourseUnit[] = [
     icon: 'people-circle-outline',
     cefr: 'A2',
     grammarTargets: 'Present Simple & Continuous, Stative Verbs',
-    grammar: ['present_simple', 'present_continuous'],
+    grammar: ['present_simple', 'present_continuous', 'stative_verbs'],
     domains: ['SOCIAL', 'GREETINGS', 'EMOTIONS'],
     writing_tr: 'Kısa bir kişisel profil ya da tanışma e-postası yaz.',
   },
@@ -91,7 +91,7 @@ export const COURSE_UNITS: CourseUnit[] = [
     icon: 'time-outline',
     cefr: 'A2',
     grammarTargets: 'Adverbs of Frequency, Prepositions of Time',
-    grammar: ['adverb_frequency'],
+    grammar: ['adverb_frequency', 'prepositions_time', 'used_to'],
     domains: ['HOME'],
     writing_tr: 'Tipik bir gününü ya da bir alışkanlığını anlat.',
   },
@@ -115,7 +115,7 @@ export const COURSE_UNITS: CourseUnit[] = [
     icon: 'restaurant-outline',
     cefr: 'A2',
     grammarTargets: 'Countable/Uncountable, Quantifiers',
-    grammar: ['quantifier'],
+    grammar: ['quantifier', 'countable_uncountable'],
     domains: ['FOOD', 'HEALTH'],
     writing_tr: 'Bir restoran değerlendirmesi yaz.',
   },
@@ -126,8 +126,8 @@ export const COURSE_UNITS: CourseUnit[] = [
     theme_tr: 'Meslekler, iş görüşmeleri, gelecek planları',
     icon: 'briefcase-outline',
     cefr: 'B1',
-    grammarTargets: 'Future Forms (will / be going to)',
-    grammar: ['future_will', 'future_going_to'],
+    grammarTargets: 'Future Forms (will / be going to / Present Continuous)',
+    grammar: ['future_will', 'future_going_to', 'present_cont_future'],
     domains: ['BUSINESS', 'FINANCE'],
     writing_tr: 'Kısa bir ön yazı (cover letter) ya da hedef metni yaz.',
   },
@@ -139,7 +139,7 @@ export const COURSE_UNITS: CourseUnit[] = [
     icon: 'hardware-chip-outline',
     cefr: 'B1',
     grammarTargets: 'Present Perfect Simple vs. Continuous',
-    grammar: ['present_perfect_have_v3'],
+    grammar: ['present_perfect_have_v3', 'present_perfect_cont'],
     domains: ['TECH', 'MEDIA'],
     writing_tr: 'Ekran süresi üzerine bir görüş yazısı yaz.',
   },
@@ -151,7 +151,7 @@ export const COURSE_UNITS: CourseUnit[] = [
     icon: 'leaf-outline',
     cefr: 'B1',
     grammarTargets: 'Conditionals (Type 1 & 2), Modals of Obligation',
-    grammar: ['if_type1', 'if_past_would', 'modal_v1'],
+    grammar: ['if_type1', 'if_past_would', 'modal_obligation'],
     domains: ['NATURE'],
     writing_tr: 'Sorun-çözüm (problem-solution) yazısı yaz.',
   },
@@ -252,7 +252,7 @@ const db = SQLite.openDatabaseSync('cogni3.db');
 // 20: zayif odaklar icin curated ornek cumle dersleri (96 cumle, 8 konu).
 // 21: tum video cumlelerine Turkce ceviri (fill_tr_gtx.py) + yanlis gramer etiketi temizligi.
 // 22: okuma sozlugu (_reading_lexicon.json): eksik kelimeler + kelime gruplari + word_forms.
-const SEED_VERSION = '22';
+const SEED_VERSION = '23';
 
 // ---------------------------------------------------------------------------
 // Sema

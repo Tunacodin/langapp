@@ -394,20 +394,28 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "had to change",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 17,
+          "span_end": 30
+        },
+        {
+          "pattern": "knew",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
           "pattern": "knew",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
           "span_start": 2,
           "span_end": 6
-        },
-        {
-          "pattern": "had",
-          "note_tr": "Simple Past",
-          "cefr": "A2",
-          "norm_pattern": "simple_past",
-          "span_start": 17,
-          "span_end": 20
         },
         {
           "pattern": "exercised",
@@ -619,6 +627,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 16,
+          "span_end": 20
+        },
+        {
+          "pattern": "much sugar",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 30,
+          "span_end": 40
+        },
         {
           "pattern": "know",
           "note_tr": "Simple Present",
@@ -852,6 +876,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 41,
           "span_end": 49
+        },
+        {
+          "pattern": "much sugar",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 66,
+          "span_end": 76
         },
         {
           "pattern": "that can come with eating too much sugar",
@@ -1494,6 +1526,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 5,
+          "span_end": 9
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 33,
+          "span_end": 37
+        },
+        {
           "pattern": "that I want to do right now",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -1749,6 +1797,14 @@
           "norm_pattern": "past_continuous_was_ving",
           "span_start": 10,
           "span_end": 23
+        },
+        {
+          "pattern": "knew",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
         },
         {
           "pattern": "knew",
@@ -2544,12 +2600,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "needs",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "needs to go",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 18,
-          "span_end": 23
+          "span_end": 29
         },
         {
           "pattern": "all",
@@ -2665,6 +2721,14 @@
           "norm_pattern": "past_continuous_was_ving",
           "span_start": 21,
           "span_end": 35
+        },
+        {
+          "pattern": "at night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 41,
+          "span_end": 49
         }
       ],
       "vocab": [],
@@ -3231,7 +3295,16 @@
       "text_tr": "Hangi şekerden kaçınmalıyız ve ne kadarı çok fazla?",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "how much",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 45,
+          "span_end": 53
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -4713,6 +4786,14 @@
           "span_end": 60
         },
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
           "pattern": "where as a culture, we've really got off track",
           "note_tr": "Noun Clause (Object Position)",
           "cefr": "B1",
@@ -4877,6 +4958,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "much processed food",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 42,
+          "span_end": 61
+        },
+        {
           "pattern": "eat",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -5021,6 +5110,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "how much sugar",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 37,
+          "span_end": 51
+        },
+        {
           "pattern": "read",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -5098,6 +5195,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "knew",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "knew",
           "note_tr": "Simple Past",
@@ -5295,6 +5400,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 59,
           "span_end": 73
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
         },
         {
           "pattern": "think",
@@ -5734,6 +5847,14 @@
       "grammar": [
         {
           "pattern": "thought",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 13
+        },
+        {
+          "pattern": "thought",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -6118,6 +6239,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 20,
           "span_end": 48
+        },
+        {
+          "pattern": "bowl of food",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 54,
+          "span_end": 66
         }
       ],
       "vocab": [],
@@ -6395,6 +6524,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "realized",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 15
+        },
         {
           "pattern": "realized",
           "note_tr": "Simple Past",
@@ -6844,6 +6981,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 13,
+          "span_end": 17
+        },
+        {
           "pattern": "how small changes make a big difference",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -7291,7 +7436,16 @@
       "text_tr": "ama sonunda artık bunları yapmanıza gerek kalmayacak çünkü kötü alışkanlık devam ediyor,",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "don't need to make",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 19,
+          "span_end": 37
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -7557,6 +7711,14 @@
       "grammar": [
         {
           "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 40,
+          "span_end": 46
+        },
+        {
+          "pattern": "wanted",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -7695,6 +7857,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 8
+        },
         {
           "pattern": "wanted",
           "note_tr": "Simple Past",
@@ -10123,6 +10293,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "few things",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 13,
+          "span_end": 23
+        },
+        {
           "pattern": "that I changed over the past 30 days",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -10689,6 +10867,14 @@
           "span_end": 46
         },
         {
+          "pattern": "knows",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 17
+        },
+        {
           "pattern": "how bad it could have gotten if I just kept snacking",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -10908,6 +11094,22 @@
       "grammar": [
         {
           "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 21,
+          "span_end": 25
+        },
+        {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 36,
+          "span_end": 40
+        },
+        {
+          "pattern": "love",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -10999,7 +11201,16 @@
       "text_tr": "ve ondan tamamen kurtulmak istemiyorum,",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 16
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -11053,6 +11264,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 10,
+          "span_end": 15
+        },
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 32,
+          "span_end": 36
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -11131,6 +11358,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 10
+        },
         {
           "pattern": "want",
           "note_tr": "Simple Present",
@@ -11674,6 +11909,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        },
+        {
           "pattern": "if you want to take part in these 30-day challenges with me,",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -12095,12 +12338,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to give",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 2,
-          "span_end": 6
+          "span_end": 14
         }
       ],
       "vocab": [],

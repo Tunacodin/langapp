@@ -165,7 +165,16 @@
       "text_tr": "Ailemle ve ailem olmadan çok seyahat ettim.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve been traveling",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 1,
+          "span_end": 19
+        }
+      ],
       "vocab": []
     },
     {
@@ -289,6 +298,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "want",
           "note_tr": "Simple Present",
@@ -434,7 +451,16 @@
       "text_tr": "Uçuşlarımız üç saat içinde.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in three hours",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 12,
+          "span_end": 26
+        }
+      ],
       "vocab": []
     },
     {
@@ -447,12 +473,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to leave",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 3,
-          "span_end": 7
+          "span_end": 16
         }
       ],
       "vocab": []
@@ -466,6 +492,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "much stuff",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 18,
+          "span_end": 28
+        },
         {
           "pattern": "much",
           "note_tr": "Quantifiers",
@@ -629,7 +663,16 @@
       "text_tr": "Bunu biliyor musun?",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        }
+      ],
       "vocab": []
     },
     {
@@ -668,6 +711,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 60,
           "span_end": 74
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 33,
+          "span_end": 37
         }
       ],
       "vocab": []
@@ -745,6 +796,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 9,
+          "span_end": 13
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 45,
+          "span_end": 50
+        },
         {
           "pattern": "where our friends live",
           "note_tr": "Embedded WH- Question",
@@ -931,7 +998,16 @@
       "text_tr": "Sadece odada olmasını istemiyorum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 13,
+          "span_end": 17
+        }
+      ],
       "vocab": []
     },
     {
@@ -1040,6 +1116,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 46,
           "span_end": 64
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
+          "span_end": 19
         },
         {
           "pattern": "where they are",
@@ -1231,6 +1315,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 9,
+          "span_end": 13
+        },
         {
           "pattern": "want",
           "note_tr": "Simple Present",

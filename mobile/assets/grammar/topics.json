@@ -1,5 +1,5 @@
 {
-  "version": "3",
+  "version": "4",
   "topics": [
     {
       "norm_pattern": "simple_past",
@@ -215,6 +215,60 @@
       "formula": "always / usually / often / sometimes / never",
       "note_tr": "Bir eylemin ne sıklıkta yapıldığını söyler.",
       "cefr": "A2",
+      "layer": "A"
+    },
+    {
+      "norm_pattern": "stative_verbs",
+      "category": "Tenses & Aspects",
+      "topic": "Stative Verbs",
+      "formula": "know / like / want / need / believe (-ing almaz)",
+      "note_tr": "Durum bildiren fiiller: eylem değil durum anlatır, genelde -ing almaz.",
+      "cefr": "A2",
+      "layer": "A"
+    },
+    {
+      "norm_pattern": "present_cont_future",
+      "category": "Tenses & Aspects",
+      "topic": "Present Continuous (Future Plans)",
+      "formula": "S + am/is/are + V-ing + gelecek zaman",
+      "note_tr": "Kesinleşmiş, ayarlanmış gelecek planı (randevu, program).",
+      "cefr": "A2",
+      "layer": "A"
+    },
+    {
+      "norm_pattern": "present_perfect_cont",
+      "category": "Tenses & Aspects",
+      "topic": "Present Perfect Continuous",
+      "formula": "S + have/has been + V-ing",
+      "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+      "cefr": "B1",
+      "layer": "A"
+    },
+    {
+      "norm_pattern": "modal_obligation",
+      "category": "Modals & Modal Perfects",
+      "topic": "Must / Have to (Obligation)",
+      "formula": "S + must / have to / need to + V1",
+      "note_tr": "Zorunluluk ve gereklilik; mustn't = yasak, don't have to = gerek yok.",
+      "cefr": "A2",
+      "layer": "A"
+    },
+    {
+      "norm_pattern": "countable_uncountable",
+      "category": "Quantity & Frequency",
+      "topic": "Countable / Uncountable Nouns",
+      "formula": "many + çoğul / much + sayılamayan / a piece of ...",
+      "note_tr": "Sayılabilen ve sayılamayan isimler; miktar sözcüğü isme göre seçilir.",
+      "cefr": "A2",
+      "layer": "A"
+    },
+    {
+      "norm_pattern": "prepositions_time",
+      "category": "Prepositions",
+      "topic": "Prepositions of Time",
+      "formula": "at + saat / on + gün / in + ay, yıl, mevsim",
+      "note_tr": "Zaman bildiren edatlar: at, on, in.",
+      "cefr": "A1",
       "layer": "A"
     }
   ]

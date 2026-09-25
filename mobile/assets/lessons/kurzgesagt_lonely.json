@@ -69,6 +69,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "at lunch",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 35,
+          "span_end": 43
+        },
+        {
           "pattern": "have",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -177,6 +185,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "at the weekend",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 31,
+          "span_end": 45
+        },
+        {
           "pattern": "has",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -222,6 +238,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "few decades",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 18,
+          "span_end": 29
+        },
         {
           "pattern": "few",
           "note_tr": "Quantifiers",
@@ -505,6 +529,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 3,
           "span_end": 13
+        },
+        {
+          "pattern": "in the most connected time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 14,
+          "span_end": 40
         }
       ],
       "vocab": [],
@@ -914,6 +946,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 20,
+          "span_end": 24
+        },
         {
           "pattern": "who don't know how to talk to people",
           "note_tr": "Relative Clause",
@@ -1820,6 +1860,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "thought",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 25,
+          "span_end": 32
+        },
         {
           "pattern": "what others thought and felt and to form and sustain social bonds",
           "note_tr": "Noun Clause (Object Position)",
@@ -4040,6 +4088,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in 1985",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 59,
+          "span_end": 66
+        },
+        {
+          "pattern": "in 2011",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 72,
+          "span_end": 79
+        },
+        {
           "pattern": "dropped",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -5862,6 +5926,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "at the same time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 6,
+          "span_end": 22
+        },
+        {
           "pattern": "gets",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -5931,6 +6003,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "understand",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 42,
+          "span_end": 52
+        },
         {
           "pattern": "pay",
           "note_tr": "Simple Present",
@@ -6009,6 +6089,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "recognizes",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 28,
+          "span_end": 38
+        },
         {
           "pattern": "that recognizes faces",
           "note_tr": "Relative Clause",
@@ -8433,6 +8521,14 @@
           "norm_pattern": "past_continuous_was_ving",
           "span_start": 21,
           "span_end": 44
+        },
+        {
+          "pattern": "on time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 72,
+          "span_end": 79
         }
       ],
       "vocab": [],
@@ -8705,7 +8801,16 @@
       "text_tr": "Başkalarının seni etrafta istemediğini mi sanıyorsun?",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 27,
+          "span_end": 31
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -9532,6 +9637,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "needs",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 67,
+          "span_end": 72
+        },
+        {
           "pattern": "that needs solving to create more personal happiness",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -9665,6 +9778,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "deserves",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 51,
+          "span_end": 59
+        },
         {
           "pattern": "that deserves more attention",
           "note_tr": "Relative Clause",
@@ -9931,6 +10052,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 27,
+          "span_end": 31
+        },
+        {
           "pattern": "what they need from their physical surroundings",
           "note_tr": "Noun Clause (Object Position)",
           "cefr": "B1",
@@ -10025,6 +10154,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
+          "span_end": 19
+        },
+        {
           "pattern": "what we need from each other",
           "note_tr": "Noun Clause (Object Position)",
           "cefr": "B1",
@@ -10087,12 +10224,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to build",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 7,
-          "span_end": 11
+          "span_end": 20
         }
       ],
       "vocab": [],
@@ -10344,6 +10481,30 @@
       "grammar": [
         {
           "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 39,
+          "span_end": 45
+        },
+        {
+          "pattern": "many people",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 66,
+          "span_end": 77
+        },
+        {
+          "pattern": "piece of knowledge",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 2,
+          "span_end": 20
+        },
+        {
+          "pattern": "wanted",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -10452,6 +10613,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many days",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 28,
+          "span_end": 37
+        },
         {
           "pattern": "got",
           "note_tr": "Simple Past",
@@ -10789,6 +10958,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "many people",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 35,
+          "span_end": 46
+        },
+        {
           "pattern": "many",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -10858,6 +11035,30 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "much time",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 50,
+          "span_end": 59
+        },
+        {
+          "pattern": "much love",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 64,
+          "span_end": 73
+        },
+        {
+          "pattern": "much effort",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 82,
+          "span_end": 93
+        },
         {
           "pattern": "that took so much time",
           "note_tr": "Relative Clause",
@@ -11032,6 +11233,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "much effort",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 52,
+          "span_end": 63
+        },
         {
           "pattern": "create",
           "note_tr": "Simple Present",
@@ -11467,6 +11676,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "much time",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 14,
+          "span_end": 23
+        },
+        {
           "pattern": "much",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -11839,6 +12056,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many people",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 6,
+          "span_end": 17
+        },
         {
           "pattern": "many",
           "note_tr": "Quantifiers",

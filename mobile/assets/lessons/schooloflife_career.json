@@ -90,7 +90,16 @@
       "text_tr": "son buluş. Dr. Johnson'ın 1755'te yayınlanan ünlü sözlüğünü ve yerine getirilmesi kelimesini açın",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in 1755",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 69,
+          "span_end": 76
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -928,6 +937,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "many options",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 80,
+          "span_end": 92
+        },
+        {
           "pattern": "call",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -1176,6 +1193,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 86,
+          "span_end": 90
+        },
         {
           "pattern": "what we want",
           "note_tr": "Embedded WH- Question",
@@ -1478,7 +1503,16 @@
       "text_tr": "onları yeterince açık bir şekilde tanımıyoruz ve bu da içinde bulunduğumuz tehlikeli bir durum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 14,
+          "span_end": 18
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -1657,7 +1691,16 @@
       "text_tr": "zevklerimizin ipuçları. O halde yapmamız gereken onların zayıf seslerini algılamayı öğrenmek,",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 32,
+          "span_end": 42
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -2729,6 +2772,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 54,
           "span_end": 62
+        },
+        {
+          "pattern": "need to empty",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 58,
+          "span_end": 71
         }
       ],
       "vocab": [],
@@ -2878,12 +2929,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 36,
-          "span_end": 40
+          "span_end": 46
         }
       ],
       "vocab": [],
@@ -2986,6 +3037,14 @@
           "norm_pattern": "future_will",
           "span_start": 77,
           "span_end": 83
+        },
+        {
+          "pattern": "need to give",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 6,
+          "span_end": 18
         }
       ],
       "vocab": [],
@@ -3144,6 +3203,14 @@
         },
         {
           "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 22,
+          "span_end": 26
+        },
+        {
+          "pattern": "need",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3220,6 +3287,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 84,
+          "span_end": 88
+        },
         {
           "pattern": "need",
           "note_tr": "Simple Present",
@@ -3400,14 +3475,6 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "mustn't think",
-          "note_tr": "Could / Would / Should + V1",
-          "cefr": "A2",
-          "norm_pattern": "modal_v1",
-          "span_start": 20,
-          "span_end": 33
-        },
-        {
           "pattern": "can investigate",
           "note_tr": "Could / Would / Should + V1",
           "cefr": "A2",
@@ -3416,12 +3483,28 @@
           "span_end": 88
         },
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "mustn't think",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 20,
+          "span_end": 33
+        },
+        {
+          "pattern": "have to resign",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 44,
-          "span_end": 48
+          "span_end": 58
+        },
+        {
+          "pattern": "on Monday",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 59,
+          "span_end": 68
         },
         {
           "pattern": "always",
@@ -4115,6 +4198,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "many more centuries",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 23,
+          "span_end": 42
+        },
+        {
           "pattern": "many",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -4527,6 +4618,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "doesn't need to ask",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 0,
+          "span_end": 19
+        },
+        {
+          "pattern": "belong",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 81,
+          "span_end": 87
+        },
+        {
           "pattern": "belong",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -4885,6 +4992,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 37,
           "span_end": 48
+        },
+        {
+          "pattern": "at our moments",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 49,
+          "span_end": 63
         },
         {
           "pattern": "know",

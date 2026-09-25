@@ -230,6 +230,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 51,
+          "span_end": 55
+        },
+        {
           "pattern": "which I know doesn't sound that exciting",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -625,6 +633,14 @@
           "norm_pattern": "past_continuous_was_ving",
           "span_start": 2,
           "span_end": 12
+        },
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 49,
+          "span_end": 53
         }
       ],
       "vocab": []
@@ -638,6 +654,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "love",
           "note_tr": "Simple Present",
@@ -882,6 +906,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 23,
+          "span_end": 28
+        },
+        {
           "pattern": "put",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -918,6 +950,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "piece of lemongrass",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 36,
+          "span_end": 55
+        },
+        {
           "pattern": "tie",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -944,6 +984,14 @@
           "norm_pattern": "future_will",
           "span_start": 9,
           "span_end": 16
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
         },
         {
           "pattern": "think",
@@ -1173,6 +1221,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 20,
+          "span_end": 24
+        },
         {
           "pattern": "what we want right here",
           "note_tr": "Noun Clause (Object Position)",
@@ -1653,7 +1709,16 @@
       "text_tr": "Talihsiz aşıklar olacak gibi görünmüyorlar.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "seem",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        }
+      ],
       "vocab": []
     },
     {
@@ -1930,6 +1995,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 49,
+          "span_end": 53
+        },
+        {
           "pattern": "that you want inside your little fried cup",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -2093,6 +2166,14 @@
           "span_end": 61
         },
         {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 42,
+          "span_end": 47
+        },
+        {
           "pattern": "comes",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -2171,6 +2252,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
         {
           "pattern": "how it tastes on its own",
           "note_tr": "Embedded WH- Question",
@@ -2342,6 +2431,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "believe",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 16,
+          "span_end": 23
+        },
+        {
           "pattern": "has",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -2395,6 +2492,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 33,
           "span_end": 43
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 56,
+          "span_end": 60
         },
         {
           "pattern": "if you want some",
@@ -2680,6 +2785,14 @@
       "grammar": [
         {
           "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "love",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2759,12 +2872,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to try",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 4,
-          "span_end": 8
+          "span_end": 15
         }
       ],
       "vocab": []
@@ -3190,6 +3303,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 16
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3427,6 +3548,14 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 10
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3507,6 +3636,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "just how it is",
           "note_tr": "Noun Clause (Object Position)",
@@ -3694,6 +3831,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 12
+        },
         {
           "pattern": "any",
           "note_tr": "Quantifiers",
@@ -4085,6 +4230,14 @@
       "grammar": [
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4249,6 +4402,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 10,
           "span_end": 19
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
         },
         {
           "pattern": "think",
@@ -4798,6 +4959,14 @@
       "grammar": [
         {
           "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "like",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4873,12 +5042,12 @@
           "span_end": 24
         },
         {
-          "pattern": "has",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "has to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 63,
-          "span_end": 66
+          "span_end": 72
         }
       ],
       "vocab": []
@@ -4903,6 +5072,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -5130,6 +5307,14 @@
       "grammar": [
         {
           "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "love",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -5328,6 +5513,14 @@
           "span_end": 10
         },
         {
+          "pattern": "few hours",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 22,
+          "span_end": 31
+        },
+        {
           "pattern": "few",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -5347,6 +5540,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 27,
+          "span_end": 31
+        },
         {
           "pattern": "that I like",
           "note_tr": "Relative Clause",
@@ -5457,6 +5658,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "has to spritz",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 49,
+          "span_end": 62
+        },
+        {
           "pattern": "that she has to spritz like a house plant",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -5471,14 +5680,6 @@
           "norm_pattern": "present_simple",
           "span_start": 7,
           "span_end": 13
-        },
-        {
-          "pattern": "has",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 49,
-          "span_end": 52
         }
       ],
       "vocab": []
@@ -5676,6 +5877,14 @@
         },
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 20,
+          "span_end": 24
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -5827,6 +6036,14 @@
       "grammar": [
         {
           "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 17
+        },
+        {
+          "pattern": "means",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -5940,6 +6157,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "love",
           "note_tr": "Simple Present",
@@ -6232,6 +6457,14 @@
       "grammar": [
         {
           "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "love",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -6268,6 +6501,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 3,
           "span_end": 12
+        },
+        {
+          "pattern": "on 10 p .m",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 16,
+          "span_end": 26
         }
       ],
       "vocab": []
@@ -6827,6 +7068,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 42,
           "span_end": 53
+        },
+        {
+          "pattern": "At the end",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 0,
+          "span_end": 10
         }
       ],
       "vocab": []
@@ -7000,6 +7249,14 @@
       "grammar": [
         {
           "pattern": "mean",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 12
+        },
+        {
+          "pattern": "mean",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -7150,6 +7407,14 @@
           "span_end": 52
         },
         {
+          "pattern": "on all night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 53,
+          "span_end": 65
+        },
+        {
           "pattern": "all",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -7168,7 +7433,16 @@
       "text_tr": "Burası Vietnam'da geceleri gitmeyi en sevdiğim yerlerden biri.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "at night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 45,
+          "span_end": 53
+        }
+      ],
       "vocab": []
     },
     {

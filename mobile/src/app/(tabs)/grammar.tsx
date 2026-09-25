@@ -25,8 +25,9 @@ const CAT_META: Record<string, CatMeta> = {
   'Subordinate Clauses': { title: 'Subordinate Clauses', tag: 'Clauses', icon: 'link', color: '#7C3AED', soft: 'rgba(124,58,237,0.10)' },
   'Voice & Passives': { title: 'Voice & Passives', tag: 'Passive', icon: 'swap-horizontal', color: '#0D9488', soft: 'rgba(13,148,136,0.10)' },
   'Quantity & Frequency': { title: 'Quantity & Frequency', tag: 'Quantity', icon: 'stats-chart', color: '#DB2777', soft: 'rgba(219,39,119,0.10)' },
+  Prepositions: { title: 'Prepositions', tag: 'Prepositions', icon: 'calendar', color: '#B45309', soft: 'rgba(180,83,9,0.10)' },
 };
-const CAT_ORDER = ['Tenses & Aspects', 'Modals & Modal Perfects', 'Conditionals & Wish', 'Subordinate Clauses', 'Voice & Passives', 'Quantity & Frequency'];
+const CAT_ORDER = ['Tenses & Aspects', 'Modals & Modal Perfects', 'Conditionals & Wish', 'Subordinate Clauses', 'Voice & Passives', 'Quantity & Frequency', 'Prepositions'];
 
 // SRS/FSRS durumundan GERCEK ilerleme etiketi (uydurma yuzde yok).
 type Status = { label: string; tone: string; mastered: boolean; icon: keyof typeof Ionicons.glyphMap } | null;

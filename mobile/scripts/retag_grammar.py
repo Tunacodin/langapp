@@ -5,10 +5,16 @@ LLM (Layer-B) burada calismaz. Kurate edilmis (norm_pattern'siz) gramer notlarin
 dokunmaz. Idempotent: onceki pipeline tespitlerini (norm_pattern'li) atar, yeniden uretir.
 
 Kullanim:  python scripts/retag_grammar.py
+           python scripts/retag_grammar.py --only stative_verbs,modal_v1
+           (--only: yalniz bu norm_pattern'lar silinip yeniden uretilir; digerleri aynen kalir)
+Elle yazilmis curated_*.json ve sarki (.song.json) dosyalarina DOKUNMAZ: onlarin
+etiketleri elle verilmistir, detektor onlari yeniden uretemez.
+Sonra: python scripts/clean_grammar_tags.py (bilinen yanlis pozitifler).
 """
 import glob
 import json
 import os
+import sys
 
 import spacy
 
@@ -20,23 +26,32 @@ LESSONS = os.path.join(HERE, "..", "assets", "lessons")
 
 
 def main():
+    only = None
+    if "--only" in sys.argv:
+        only = set(sys.argv[sys.argv.index("--only") + 1].split(","))
     nlp = spacy.load("en_core_web_sm")
     files = sorted(glob.glob(os.path.join(LESSONS, "*.json")))
     files = [f for f in files
-             if not os.path.basename(f).startswith("_")
-             and ".words" not in f and ".glossary" not in f]
+             if not os.path.basename(f).startswith(("_", "curated_"))
+             and ".words" not in f and ".glossary" not in f and ".song" not in f]
 
     totals = {}
     for path in files:
         with open(path, encoding="utf-8") as f:
             lesson = json.load(f)
+        if "sentences" not in lesson:
+            continue
         n = 0
         for s in lesson.get("sentences", []):
             text = s.get("text_en") or ""
             # Kurate (norm_pattern'siz) notlari koru; pipeline tespitlerini at.
-            grammar = [g for g in (s.get("grammar") or []) if not g.get("norm_pattern")]
+            # --only verildiyse yalniz o kaliplari at (digerleri oldugu gibi kalir).
+            grammar = [g for g in (s.get("grammar") or [])
+                       if not g.get("norm_pattern") or (only is not None and g["norm_pattern"] not in only)]
             doc = nlp(text)
             for norm, a, b in detect(doc):
+                if only is not None and norm not in only:
+                    continue
                 grammar.append({
                     "pattern": text[a:b], "note_tr": label_of(norm),
                     "cefr": cefr_of(norm), "norm_pattern": norm,

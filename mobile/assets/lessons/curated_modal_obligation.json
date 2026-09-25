@@ -1,0 +1,261 @@
+{
+  "video_id": "curated_modal_obligation",
+  "title": "Must / Have to (zorunluluk)",
+  "license": "curated",
+  "cefr": "A2",
+  "topic": "grammar",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I have to get up early tomorrow.",
+      "text_tr": "Yarın erken kalkmam lazım.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have to get up",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 2,
+          "span_end": 16
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "You must wear a seat belt in the car.",
+      "text_tr": "Arabada emniyet kemeri takmak zorundasın.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "must wear",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 4,
+          "span_end": 13
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "She has to work on Saturdays.",
+      "text_tr": "Cumartesileri çalışmak zorunda.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has to work",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 4,
+          "span_end": 15
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We need to buy some bread.",
+      "text_tr": "Biraz ekmek almamız gerek.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "need to buy",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 3,
+          "span_end": 14
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I had to wait an hour at the doctor's.",
+      "text_tr": "Doktorda bir saat beklemek zorunda kaldım.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "had to wait",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 2,
+          "span_end": 13
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "You must try this soup, it's delicious.",
+      "text_tr": "Bu çorbayı mutlaka denemelisin, çok lezzetli.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "must try",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 4,
+          "span_end": 12
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "You mustn't smoke in the hospital.",
+      "text_tr": "Hastanede sigara içmemelisin.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "mustn't smoke",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 4,
+          "span_end": 17
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We mustn't be late for the meeting.",
+      "text_tr": "Toplantıya geç kalmamalıyız.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "mustn't be",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 3,
+          "span_end": 13
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "You don't have to come if you're busy.",
+      "text_tr": "Meşgulsen gelmek zorunda değilsin.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "don't have to come",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 4,
+          "span_end": 22
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "He doesn't have to wear a suit at work.",
+      "text_tr": "İşte takım elbise giymek zorunda değil.",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "doesn't have to wear",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 3,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Do I have to pay now?",
+      "text_tr": "Şimdi ödemem gerekiyor mu?",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Do I have to pay",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 0,
+          "span_end": 16
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Does she have to take the exam again?",
+      "text_tr": "Sınava tekrar girmesi gerekiyor mu?",
+      "cefr": "A2",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Does she have to take",
+          "note_tr": "Zorunluluk: must / have to. mustn't = yasak, don't have to = gerek yok.",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 0,
+          "span_end": 21
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    }
+  ]
+}

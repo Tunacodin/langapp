@@ -73,6 +73,22 @@
           "span_end": 158
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 59,
+          "span_end": 63
+        },
+        {
+          "pattern": "few weeks",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 13,
+          "span_end": 22
+        },
+        {
           "pattern": "who reached out",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -332,6 +348,30 @@
           "pattern": "finally + [gecmis fiil]",
           "note_tr": "Uzun beklenen bir seyin olmasi: 'I finally met' = sonunda tanistim.",
           "cefr": "A2"
+        },
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 134,
+          "span_end": 140
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 192,
+          "span_end": 197
+        },
+        {
+          "pattern": "few months",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 111,
+          "span_end": 121
         },
         {
           "pattern": "met",
@@ -782,6 +822,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 51,
           "span_end": 59
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
         },
         {
           "pattern": "think",
@@ -1347,7 +1395,16 @@
           "norm_key": "in real life"
         }
       ],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "cup of coffee",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 26,
+          "span_end": 39
+        }
+      ],
       "vocab": [
         {
           "word": "grabbing",
@@ -1527,6 +1584,14 @@
           "pattern": "already + [gecmis fiil]",
           "note_tr": "Onceden olmus bir sey: 'you already know' = zaten biliyorsunuz.",
           "cefr": "A2"
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 16
         },
         {
           "pattern": "what we do best",
@@ -1764,6 +1829,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 0,
           "span_end": 25
+        },
+        {
+          "pattern": "much time",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 29,
+          "span_end": 38
         },
         {
           "pattern": "much",
@@ -2391,6 +2464,14 @@
       ],
       "grammar": [
         {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
           "pattern": "sent",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -2569,6 +2650,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 42,
           "span_end": 68
+        },
+        {
+          "pattern": "much incredible video",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 10,
+          "span_end": 31
         }
       ],
       "vocab": [
@@ -2686,12 +2775,12 @@
           "cefr": "A2"
         },
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to wear",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 4,
-          "span_end": 8
+          "span_end": 16
         }
       ],
       "vocab": [
@@ -2779,6 +2868,14 @@
           "pattern": "keep + [nesne] + from + [fiil]-ing",
           "note_tr": "Bir seyi engellemek: 'kept that from happening' = olmasini engelledi.",
           "cefr": "B2"
+        },
+        {
+          "pattern": "cup of coffee",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 70,
+          "span_end": 83
         },
         {
           "pattern": "happened",
@@ -3405,6 +3502,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 49,
           "span_end": 64
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 77,
+          "span_end": 81
         },
         {
           "pattern": "if we commit to that big idea",
@@ -4713,6 +4818,14 @@
           "span_end": 108
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 59,
+          "span_end": 63
+        },
+        {
           "pattern": "that changes your life forever",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -4965,6 +5078,22 @@
           "norm_pattern": "present_continuous",
           "span_start": 1,
           "span_end": 19
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 74,
+          "span_end": 78
+        },
+        {
+          "pattern": "cup of coffee",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 40,
+          "span_end": 53
         },
         {
           "pattern": "if you even like coffee anymore",

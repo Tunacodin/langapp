@@ -494,6 +494,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -591,6 +599,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 19,
           "span_end": 36
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
         }
       ],
       "vocab": [],
@@ -789,6 +805,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
           "pattern": "what trade is",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -873,6 +897,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 39,
+          "span_end": 43
+        },
+        {
           "pattern": "give",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -934,6 +966,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 34,
+          "span_end": 38
+        },
         {
           "pattern": "give",
           "note_tr": "Simple Present",
@@ -1119,6 +1159,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 30,
           "span_end": 41
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 20,
+          "span_end": 25
         },
         {
           "pattern": "work",
@@ -1321,6 +1369,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 2,
           "span_end": 13
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 32,
+          "span_end": 36
         }
       ],
       "vocab": [],
@@ -1405,6 +1461,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "likes",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 20,
+          "span_end": 25
+        },
         {
           "pattern": "likes",
           "note_tr": "Simple Present",
@@ -1538,12 +1602,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to go",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 5,
-          "span_end": 9
+          "span_end": 15
         }
       ],
       "vocab": [],
@@ -1584,12 +1648,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to know",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 8,
-          "span_end": 12
+          "span_end": 20
         }
       ],
       "vocab": [],
@@ -1744,7 +1808,16 @@
       "text_tr": "ama mağazaya ihtiyacın olmaz,",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 14,
+          "span_end": 18
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -1773,7 +1846,16 @@
       "text_tr": "ve karşı tarafı tanımana bile gerek kalmaz.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "don't even necessarily need to know",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 8,
+          "span_end": 43
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -1835,6 +1917,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
+          "span_end": 19
+        },
         {
           "pattern": "what blockchain is",
           "note_tr": "Embedded WH- Question",
@@ -2178,6 +2268,14 @@
         },
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 5,
+          "span_end": 9
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2245,6 +2343,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 14,
           "span_end": 29
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 40,
+          "span_end": 44
         },
         {
           "pattern": "what they want",
@@ -4219,12 +4325,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'re gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'re gonna talk",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 2,
-          "span_end": 9
+          "span_end": 16
         }
       ],
       "vocab": [],
@@ -4356,6 +4462,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 19,
+          "span_end": 23
+        },
         {
           "pattern": "what it is",
           "note_tr": "Embedded WH- Question",
@@ -5703,6 +5817,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 26,
+          "span_end": 31
+        },
         {
           "pattern": "know",
           "note_tr": "Simple Present",
@@ -7582,6 +7704,14 @@
           "norm_pattern": "future_will",
           "span_start": 17,
           "span_end": 26
+        },
+        {
+          "pattern": "have to rewrite",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 22,
+          "span_end": 37
         }
       ],
       "vocab": [],
@@ -7838,6 +7968,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 2,
           "span_end": 19
+        },
+        {
+          "pattern": "have to create",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 15,
+          "span_end": 29
         }
       ],
       "vocab": [],
@@ -8757,6 +8895,14 @@
           "span_end": 19
         },
         {
+          "pattern": "need to make",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 15,
+          "span_end": 27
+        },
+        {
           "pattern": "have",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -9101,6 +9247,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 4,
           "span_end": 20
+        },
+        {
+          "pattern": "have to happen",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 16,
+          "span_end": 30
         }
       ],
       "vocab": [],
@@ -9208,6 +9362,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 25,
           "span_end": 38
+        },
+        {
+          "pattern": "many areas",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 48,
+          "span_end": 58
         },
         {
           "pattern": "many",
@@ -10062,6 +10224,22 @@
           "span_end": 13
         },
         {
+          "pattern": "few years",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 26,
+          "span_end": 35
+        },
+        {
+          "pattern": "in the next few years",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 14,
+          "span_end": 35
+        },
+        {
           "pattern": "few",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -10198,6 +10376,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 17
+        },
         {
           "pattern": "means",
           "note_tr": "Simple Present",
@@ -10610,7 +10796,16 @@
       "text_tr": "birbirlerine güvenmeleri gerekmeyen,",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "do not need to trust",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 5,
+          "span_end": 25
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -10649,12 +10844,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to trust",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 9,
-          "span_end": 13
+          "span_end": 22
         }
       ],
       "vocab": [],
@@ -11452,12 +11647,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "are we gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "are we gonna see",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 9,
-          "span_end": 19
+          "span_end": 25
         }
       ],
       "vocab": [],
@@ -11596,6 +11791,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 17,
+          "span_end": 22
+        },
         {
           "pattern": "that I think about a lot in terms",
           "note_tr": "Relative Clause",
@@ -12149,7 +12352,16 @@
       "text_tr": "çıkarılıyor.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "at different times",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 14,
+          "span_end": 32
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -12393,7 +12605,16 @@
       "text_tr": "Sahiplerinin bunun farkında olması bile gerekmiyor.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "don't even necessarily need to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 13,
+          "span_end": 46
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -12839,6 +13060,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 19,
           "span_end": 36
+        },
+        {
+          "pattern": "having to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 12,
+          "span_end": 24
         }
       ],
       "vocab": [],
@@ -13527,6 +13756,14 @@
           "span_end": 29
         },
         {
+          "pattern": "at this exact moment",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 30,
+          "span_end": 50
+        },
+        {
           "pattern": "that we're having at this exact moment",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -14069,6 +14306,14 @@
       "grammar": [
         {
           "pattern": "mean",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 10
+        },
+        {
+          "pattern": "mean",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -14448,6 +14693,14 @@
           "span_end": 29
         },
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 16,
+          "span_end": 21
+        },
+        {
           "pattern": "that I think will be very significant",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -14509,6 +14762,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -15557,6 +15818,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 18,
+          "span_end": 23
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -16626,6 +16895,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 33,
+          "span_end": 38
+        },
+        {
           "pattern": "in which I think",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -16733,6 +17010,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many kinds",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 32,
+          "span_end": 42
+        },
         {
           "pattern": "many",
           "note_tr": "Quantifiers",
@@ -18082,7 +18367,16 @@
       "text_tr": "Sen ve ben konuşurken,",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "have been talking",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 13,
+          "span_end": 30
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -18941,6 +19235,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -19046,6 +19348,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 7,
           "span_end": 24
+        },
+        {
+          "pattern": "need to develop",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 20,
+          "span_end": 35
         }
       ],
       "vocab": [],

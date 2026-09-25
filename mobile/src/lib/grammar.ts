@@ -22,6 +22,7 @@ export const CATEGORY_ORDER = [
   'Subordinate Clauses',
   'Voice & Passives',
   'Quantity & Frequency',
+  'Prepositions',
 ] as const;
 
 export const GRAMMAR_TOPICS: GrammarTopic[] = (topicsData as { topics: GrammarTopic[] }).topics;
@@ -47,6 +48,7 @@ export const CATEGORY_COLOR: Record<string, string> = {
   'Tenses & Aspects': '#16A34A', // yesil
   'Voice & Passives': '#0D9488', // teal
   'Quantity & Frequency': '#DB2777', // pembe
+  Prepositions: '#B45309', // amber
 };
 
 export function colorFor(category: string): string {

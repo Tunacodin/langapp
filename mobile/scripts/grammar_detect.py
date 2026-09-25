@@ -6,7 +6,8 @@ LLM'e (Layer-B) gerek yok; yapisal kaliplar bagimlilik ayristirmasiyla bulunur.
 """
 from grammar_topics import VALID
 
-MODALS_V1 = {"could", "would", "should", "can", "may", "might", "must"}
+# must -> modal_obligation (zorunluluk); modal_v1 = could/would/should/can/may/might.
+MODALS_V1 = {"could", "would", "should", "can", "may", "might"}
 WH = {"what", "where", "when", "why", "how", "who", "whom", "whose", "which", "whether"}
 # Rapor/zihinsel fiiller: bunlardan sonra gelen WH-yan cumle = embedded_wh_question.
 REPORTING = {
@@ -18,6 +19,31 @@ REPORTING = {
 QUANT = {"some", "any", "much", "many", "several", "few", "little", "enough", "all", "most", "couple"}
 FREQ = {"always", "usually", "often", "sometimes", "rarely", "seldom", "never",
         "frequently", "occasionally", "normally", "generally", "hardly", "regularly", "constantly"}
+# Durum fiilleri (stative): cekimli (-ing olmayan) kullanimlari etiketlenir.
+# have/see/feel/look gibi hem durum hem eylem olanlar belirsiz -> disarida.
+STATIVE = {"like", "love", "hate", "prefer", "want", "need", "know", "believe", "understand",
+           "remember", "mean", "seem", "own", "belong", "agree", "realize", "realise",
+           "recognize", "suppose", "deserve", "contain", "depend", "matter", "cost", "think"}
+DAYS = {"monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"}
+MONTHS = {"january", "february", "march", "april", "may", "june", "july", "august",
+          "september", "october", "november", "december"}
+# at/on/in + zaman: nesnenin koku bu listede ya da NER DATE/TIME ise.
+TIME_WORDS = DAYS | MONTHS | {d + "s" for d in DAYS} | {
+    "morning", "afternoon", "evening", "night", "noon", "midnight", "weekend", "weekday",
+    "spring", "summer", "autumn", "fall", "winter", "christmas", "birthday", "o'clock",
+    "moment", "time", "century", "decade", "year", "month", "week", "day", "hour", "minute",
+    "pm", "am", "sunrise", "sunset", "dawn", "lunchtime", "breakfast", "lunch", "dinner"}
+# Gelecek zaman belirteci (present_cont_future): tomorrow / tonight / next X / this X.
+FUT_NEXT = {"week", "month", "year", "weekend", "summer", "winter", "spring", "autumn",
+            "morning", "evening", "afternoon"} | DAYS
+MENTAL = {"think", "wonder", "hope", "plan", "consider", "look", "try", "expect", "feel"}
+# Sayilamayan (mass) isimler: "a little + N" icin (a little boy = kucuk, haric).
+MASS = {"water", "time", "money", "milk", "sugar", "salt", "information", "help", "food",
+        "bread", "coffee", "tea", "rice", "luck", "work", "advice", "patience", "space",
+        "energy", "oil", "juice", "cheese", "butter", "honey", "sleep", "attention",
+        "experience", "knowledge", "fun", "traffic", "weather", "music", "research", "effort"}
+PARTITIVE = {"piece", "glass", "cup", "bottle", "slice", "kilo", "loaf", "bar", "can",
+             "packet", "bag", "box", "bowl", "spoonful", "carton", "jar", "tube", "pinch"}
 
 
 def _clean(t):
@@ -29,6 +55,35 @@ def _span(toks):
     a = min(t.idx for t in toks)
     b = max(t.idx + len(t.text) for t in toks)
     return a, b
+
+
+def _clause_verb(t):
+    """Token'in bagli oldugu en yakin fiil (kendisi haric)."""
+    cur, guard = t.head, 0
+    while cur.pos_ not in ("VERB", "AUX") and cur.head is not cur and guard < 10:
+        cur, guard = cur.head, guard + 1
+    return cur
+
+
+def _has_future_marker(verb):
+    """Fiilin KENDI cumleciginde tomorrow / tonight / next X / this weekend / on Monday var mi."""
+    for t in verb.subtree:
+        # spaCy Token nesneleri her erisimde yeniden uretilir: kimlik degil .i karsilastir.
+        if t.i == verb.i or _clause_verb(t).i != verb.i:
+            continue
+        w = _clean(t)
+        if w in ("tomorrow", "tonight"):
+            return True
+        head = _clean(t.head) if t.head is not None else ""
+        if w == "next" and head in FUT_NEXT:
+            return True
+        # "this week/month/year" cogu zaman gecici simdiki durum -> gelecek sayilmaz.
+        if w == "this" and head in FUT_NEXT - {"week", "month", "year", "morning"}:
+            return True
+        # on Monday / on Monday morning / on Saturday afternoon
+        if w == "on" and any(_clean(c) in DAYS for c in t.subtree):
+            return True
+    return False
 
 
 def detect_grammar_a(doc):
@@ -82,12 +137,23 @@ def detect_grammar_a(doc):
 
         if tok.tag_ == "VBG" and tok.pos_ in ("VERB", "AUX"):
             auxes = [c for c in tok.children if c.dep_ in ("aux", "auxpass")]
-            be_now = any(c.lemma_ == "be" and _clean(c) in ("is", "am", "are", "s", "m", "re") for c in auxes)
+            texts = {_clean(c) for c in auxes}
+            been = "been" in texts
+            be_now = not been and any(c.lemma_ == "be" and _clean(c) in ("is", "am", "are", "s", "m", "re") for c in auxes)
             be_past = any(c.lemma_ == "be" and _clean(c) in ("was", "were") for c in auxes)
             nxt = doc[tok.i + 1] if tok.i + 1 < len(doc) else None
             nxt2 = doc[tok.i + 2] if tok.i + 2 < len(doc) else None
-            # "going to + V1" = future_going_to (present_continuous'tan ONCE)
-            if tok.lemma_ == "go" and nxt is not None and _clean(nxt) == "to" and nxt2 is not None and nxt2.tag_ == "VB":
+            # have/has been + V-ing (had been = past perfect cont. -> enum'da yok, atla)
+            # modal + have been V-ing (may have been doing) = modal perfect, haric.
+            if been:
+                modal = any(c.tag_ == "MD" for c in auxes)
+                if texts & {"have", "has", "ve", "s"} and not texts & {"had", "d"} and not modal:
+                    add("present_perfect_cont", auxes + [tok])
+                    covered.append(_span(auxes + [tok]))
+            # "going to + V1" = future_going_to (present_continuous'tan ONCE);
+            # "gonna" spaCy'de gon + na olarak ayrilir.
+            elif (tok.lemma_ == "go" or _clean(tok) == "gon") and nxt is not None and _clean(nxt) in ("to", "na") \
+                    and nxt2 is not None and nxt2.tag_ == "VB":
                 toks = auxes + [tok, nxt, nxt2]
                 add("future_going_to", toks)
                 covered.append(_span(toks))
@@ -95,7 +161,11 @@ def detect_grammar_a(doc):
                 add("past_continuous_was_ving", auxes + [tok])
                 covered.append(_span(auxes + [tok]))
             elif be_now:
-                add("present_continuous", auxes + [tok])
+                # Ayni cumlecikte gelecek zaman belirteci varsa = ayarlanmis plan.
+                # Zihinsel fiiller (thinking about / wondering) plan bildirmez.
+                plan = tok.lemma_ not in MENTAL and _has_future_marker(tok)
+                norm = "present_cont_future" if plan else "present_continuous"
+                add(norm, auxes + [tok])
                 covered.append(_span(auxes + [tok]))
 
     # --- 2) modal_v1: could/would/should/can/may/might/must + YALIN fiil (VB)
@@ -125,6 +195,89 @@ def detect_grammar_a(doc):
                     and not (prev is not None and prev.lemma_ == "be")):
                 add("used_to", [tok, nxt, nxt2])
                 covered.append(_span([tok, nxt, nxt2]))  # 'used' tekrar simple_past sayilmasin
+
+    # --- 2d) modal_obligation: must (+ not) + V1 / have-has-had to + V1 / need to + V1
+    for tok in doc:
+        if tok.tag_ == "MD" and _clean(tok) == "must":
+            head = tok.head if tok.head.pos_ in ("VERB", "AUX") else None
+            if head is not None and head.tag_ == "VB":
+                neg = [c for c in head.children if c.dep_ == "neg" and c.i == tok.i + 1]
+                add("modal_obligation", [tok] + neg + [head])
+            continue
+        if tok.lemma_ in ("have", "need") and tok.pos_ in ("VERB", "AUX"):
+            nxt = doc[tok.i + 1] if tok.i + 1 < len(doc) else None
+            nxt2 = doc[tok.i + 2] if tok.i + 2 < len(doc) else None
+            if nxt is None or _clean(nxt) != "to" or nxt2 is None or nxt2.tag_ != "VB":
+                continue
+            # do-destegi (don't / didn't have to) vurguya girsin
+            dos = [c for c in tok.children if c.lemma_ == "do" and c.i < tok.i]
+            negs = [c for c in tok.children if c.dep_ == "neg" and c.i < tok.i]
+            toks = dos + negs + [tok, nxt, nxt2]
+            add("modal_obligation", toks)
+            covered.append(_span([tok, nxt, nxt2]))
+
+    # --- 2e) stative_verbs: cekimli durum fiili (need to / think of gibi kaliplar haric)
+    for tok in doc:
+        if tok.pos_ != "VERB" or tok.lemma_.lower() not in STATIVE:
+            continue
+        do_aux = any(c.lemma_ == "do" for c in tok.children)
+        if not (tok.tag_ in ("VBZ", "VBP", "VBD") or (tok.tag_ == "VB" and do_aux)):
+            continue
+        a, b = tok.idx, tok.idx + len(tok.text)
+        if any(a >= s and b <= e for s, e in covered):
+            continue
+        # Ozne sart; "you know / I mean" dolgu sozu (tamlayicisiz) ornek olamaz.
+        if not any(c.dep_ in ("nsubj", "nsubjpass", "expl") for c in tok.children):
+            continue
+        comp = any(c.dep_ in ("dobj", "ccomp", "xcomp", "prep", "advcl", "attr", "acomp", "oprd")
+                   for c in tok.children)
+        if tok.lemma_.lower() in ("know", "mean") and not comp:
+            continue
+        add("stative_verbs", [tok])
+
+    # --- 2f) countable_uncountable: many + cogul / much + tekil / (a) few + cogul /
+    # a little + sayilamayan / how much-many / partitive (a glass of water)
+    for tok in doc:
+        w = _clean(tok)
+        head = tok.head
+        if w in ("much", "many") and tok.i > 0 and _clean(doc[tok.i - 1]) == "how":
+            add("countable_uncountable", [doc[tok.i - 1], tok] + ([head] if head.pos_ == "NOUN" and head.i == tok.i + 1 else []))
+            continue
+        if head.pos_ != "NOUN" or head.i <= tok.i or head.i - tok.i > 2:
+            continue
+        if (w == "many" and head.tag_ == "NNS") or (w == "much" and head.tag_ == "NN"):
+            add("countable_uncountable", [tok, head])
+        elif w == "few" and head.tag_ == "NNS":
+            add("countable_uncountable", [tok, head])
+        elif w == "little" and head.lemma_.lower() in MASS and tok.dep_ in ("amod", "det"):
+            add("countable_uncountable", [tok, head])
+    for tok in doc:
+        if tok.lemma_.lower() in PARTITIVE and tok.pos_ == "NOUN":
+            of = doc[tok.i + 1] if tok.i + 1 < len(doc) else None
+            if of is None or _clean(of) != "of":
+                continue
+            obj = [c for c in of.children if c.dep_ == "pobj" and c.pos_ == "NOUN"]
+            if obj:
+                add("countable_uncountable", [tok, of, obj[0]])
+
+    # --- 2g) prepositions_time: at / on / in + zaman ifadesi
+    for tok in doc:
+        if _clean(tok) not in ("at", "on", "in") or tok.dep_ != "prep":
+            continue
+        objs = [c for c in tok.children if c.dep_ == "pobj"]
+        if not objs:
+            continue
+        obj = objs[0]
+        is_time = (obj.lemma_.lower() in TIME_WORDS or obj.ent_type_ in ("DATE", "TIME")
+                   or (obj.like_num and len(obj.text) == 4 and obj.text.isdigit()))
+        if not is_time:
+            continue
+        # Vurgu: edat + nesne; yalniz am/pm/o'clock gibi ekleri saga uzat
+        # (ilgi cumlecigi vb. vurguya girmesin).
+        right = obj.i
+        while right + 1 < len(doc) and _clean(doc[right + 1]) in ("am", "pm", "a.m.", "p.m.", "o'clock"):
+            right += 1
+        add("prepositions_time", list(doc[tok.i:right + 1]))
 
     # --- 3) Kosul cumleleri (if) + wish
     for tok in doc:

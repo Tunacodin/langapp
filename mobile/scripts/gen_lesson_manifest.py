@@ -23,6 +23,18 @@ try:
             unit_by_media[s["id"]] = int(s["unit"])
 except Exception:
     pass
+# sources.json'dan once eklenmis (orada kaydi olmayan) videolarin unitesi: konu +
+# baskin gramer odagina gore elle secildi.
+UNIT_OVERRIDES = {
+    "ted_procrast": 2,       # erteleme aliskanligi -> Gunluk yasam & aliskanliklar
+    "neistat_vlog": 3,       # ada gezisi vlogu -> Seyahat
+    "tifo_clubs_money": 5,   # kulup ekonomisi -> Is & kariyer (BUSINESS/FINANCE)
+    "lesson1": 7,            # Duck and Cover: kurallar, must -> Cevre & zorunluluk
+    "hitc_risefall": 8,      # kulup hikayesi, cok passive/relative -> Eglence
+    "skysports_micd": 8,     # futbolcu eglence videosu -> Eglence
+}
+for k, v in UNIT_OVERRIDES.items():
+    unit_by_media.setdefault(k, v)
 
 lessons, words, gloss, skipped = [], [], [], []
 for p in sorted(glob.glob(os.path.join(LDIR, "*.json"))):

@@ -55,6 +55,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "cup of coffee",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 38,
+          "span_end": 51
+        },
+        {
           "pattern": "wake",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -283,6 +291,14 @@
       "grammar": [
         {
           "pattern": "loves",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 13
+        },
+        {
+          "pattern": "loves",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -365,6 +381,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 14,
+          "span_end": 19
+        },
+        {
+          "pattern": "seems",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 82,
+          "span_end": 87
+        },
         {
           "pattern": "'s",
           "note_tr": "Simple Present",
@@ -722,6 +754,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 54,
+          "span_end": 68
+        },
+        {
           "pattern": "wakes",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -945,6 +985,22 @@
           "span_end": 20
         },
         {
+          "pattern": "have to think",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 16,
+          "span_end": 29
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 70,
+          "span_end": 74
+        },
+        {
           "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -982,6 +1038,14 @@
         },
         {
           "pattern": "realized",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 10
+        },
+        {
+          "pattern": "realized",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -1000,6 +1064,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "many distractions",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 39,
+          "span_end": 56
+        },
         {
           "pattern": "did",
           "note_tr": "Simple Past",
@@ -1030,6 +1102,14 @@
       "grammar": [
         {
           "pattern": "meant",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 5,
+          "span_end": 10
+        },
+        {
+          "pattern": "meant",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -1056,6 +1136,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need to wake",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 79,
+          "span_end": 91
+        },
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 14,
+          "span_end": 18
+        },
         {
           "pattern": "which vibrates when I need to wake up",
           "note_tr": "Relative Clause",
@@ -1087,14 +1183,6 @@
           "norm_pattern": "present_simple",
           "span_start": 63,
           "span_end": 71
-        },
-        {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 79,
-          "span_end": 83
         }
       ],
       "vocab": []
@@ -1230,12 +1318,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to get",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 14,
-          "span_end": 18
+          "span_end": 25
         }
       ],
       "vocab": []
@@ -1290,6 +1378,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "'ve been committing",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 95,
+          "span_end": 114
+        },
+        {
           "pattern": "'m going to continue",
           "note_tr": "Future (be going to)",
           "cefr": "A2",
@@ -1316,7 +1412,16 @@
       "text_tr": "Sabah 7'de uyandığımdan beri.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "'ve been waking",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 7,
+          "span_end": 22
+        }
+      ],
       "vocab": []
     },
     {
@@ -1359,6 +1464,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "'ve been neglecting",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 75,
+          "span_end": 94
+        },
         {
           "pattern": "that I've been neglecting",
           "note_tr": "Relative Clause",
@@ -1721,6 +1834,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "remember",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 16
+        },
+        {
           "pattern": "took",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -1749,6 +1870,14 @@
           "span_end": 30
         },
         {
+          "pattern": "have to move",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 52,
+          "span_end": 64
+        },
+        {
           "pattern": "went",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -1763,14 +1892,6 @@
           "norm_pattern": "simple_past",
           "span_start": 127,
           "span_end": 133
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 52,
-          "span_end": 56
         },
         {
           "pattern": "usually",
@@ -1845,6 +1966,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "few steps",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 58,
+          "span_end": 67
+        },
+        {
           "pattern": "little",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -1872,6 +2001,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 45,
+          "span_end": 49
+        },
+        {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 103,
+          "span_end": 117
+        },
         {
           "pattern": "which I know is not a lot",
           "note_tr": "Relative Clause",
@@ -1982,6 +2127,22 @@
         },
         {
           "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 10,
+          "span_end": 14
+        },
+        {
+          "pattern": "few hours",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 92,
+          "span_end": 101
+        },
+        {
+          "pattern": "like",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2070,6 +2231,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 58,
           "span_end": 73
+        },
+        {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 12,
+          "span_end": 26
         },
         {
           "pattern": "comes",
@@ -2325,6 +2494,14 @@
         },
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2395,6 +2572,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 116,
+          "span_end": 120
+        },
         {
           "pattern": "break",
           "note_tr": "Simple Present",
@@ -2517,7 +2702,16 @@
       "text_tr": "Tekme atmaktan kas geliştirmelere, ateş yakmaya ve günde 100 haneli turtayı ezberlemeye kadar.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in a day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 76,
+          "span_end": 84
+        }
+      ],
       "vocab": []
     },
     {
@@ -2626,6 +2820,14 @@
           "span_end": 78
         },
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 54,
+          "span_end": 59
+        },
+        {
           "pattern": "got",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -2727,6 +2929,22 @@
       "grammar": [
         {
           "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 8
+        },
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 72,
+          "span_end": 78
+        },
+        {
+          "pattern": "wanted",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -2761,6 +2979,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 9,
+          "span_end": 13
+        },
+        {
+          "pattern": "much purpose",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 120,
+          "span_end": 132
+        },
         {
           "pattern": "that it actually took away from the work that gives me so much purpose",
           "note_tr": "Relative Clause",
@@ -2870,6 +3104,14 @@
           "span_end": 134
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 61,
+          "span_end": 65
+        },
+        {
           "pattern": "figured",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -2962,6 +3204,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 74,
+          "span_end": 78
+        },
+        {
           "pattern": "that I want to continue to bring in in the future",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -3044,6 +3294,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "want",
           "note_tr": "Simple Present",
@@ -3135,6 +3393,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in the day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 41,
+          "span_end": 51
+        },
+        {
           "pattern": "check",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -3180,6 +3446,14 @@
           "norm_pattern": "future_will",
           "span_start": 48,
           "span_end": 54
+        },
+        {
+          "pattern": "at noon",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 31,
+          "span_end": 38
         }
       ],
       "vocab": []
@@ -3200,6 +3474,22 @@
           "norm_pattern": "present_continuous",
           "span_start": 95,
           "span_end": 104
+        },
+        {
+          "pattern": "on time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 17,
+          "span_end": 24
+        },
+        {
+          "pattern": "in my day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 124,
+          "span_end": 133
         },
         {
           "pattern": "when it comes to these things",
@@ -3460,6 +3750,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "realize",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 40,
+          "span_end": 47
+        },
+        {
           "pattern": "get",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -3527,6 +3825,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 13,
+          "span_end": 18
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",

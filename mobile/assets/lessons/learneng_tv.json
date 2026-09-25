@@ -186,6 +186,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 16
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -227,6 +235,22 @@
           "norm_pattern": "modal_v1",
           "span_start": 116,
           "span_end": 124
+        },
+        {
+          "pattern": "understand",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 83,
+          "span_end": 93
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 106,
+          "span_end": 111
         },
         {
           "pattern": "think",
@@ -341,6 +365,22 @@
           "span_end": 67
         },
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 13
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 90,
+          "span_end": 94
+        },
+        {
           "pattern": "saw",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -360,6 +400,30 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "remember",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
+          "span_end": 23
+        },
+        {
+          "pattern": "agree",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 179,
+          "span_end": 184
+        },
+        {
+          "pattern": "few years",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 47,
+          "span_end": 56
+        },
         {
           "pattern": "watched",
           "note_tr": "Simple Past",
@@ -441,6 +505,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 20,
+          "span_end": 24
+        },
+        {
+          "pattern": "understand",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 71,
+          "span_end": 81
+        },
+        {
           "pattern": "hardly",
           "note_tr": "Adverbs of Frequency",
           "cefr": "A2",
@@ -490,6 +570,22 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 18
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -523,6 +619,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 35,
           "span_end": 50
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 27,
+          "span_end": 32
         },
         {
           "pattern": "think",
@@ -573,6 +677,30 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "have to have",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 59,
+          "span_end": 71
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 49,
+          "span_end": 54
+        },
+        {
+          "pattern": "realize",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 117,
+          "span_end": 124
+        },
+        {
           "pattern": "how good Jojo is",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -587,14 +715,6 @@
           "norm_pattern": "present_simple",
           "span_start": 49,
           "span_end": 54
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 59,
-          "span_end": 63
         }
       ],
       "vocab": []
@@ -638,6 +758,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -677,6 +805,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -695,6 +831,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -736,12 +880,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "was actually gon",
-          "note_tr": "Past Continuous",
+          "pattern": "was actually gonna ask",
+          "note_tr": "Future (be going to)",
           "cefr": "A2",
-          "norm_pattern": "past_continuous_was_ving",
+          "norm_pattern": "future_going_to",
           "span_start": 2,
-          "span_end": 18
+          "span_end": 24
         }
       ],
       "vocab": []
@@ -937,7 +1081,16 @@
       "text_tr": "ve benden sonra söyleyecek, önce yavaş, sonra hızlı olacak.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "becomes gonna say",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
+          "span_start": 13,
+          "span_end": 30
+        }
+      ],
       "vocab": []
     },
     {
@@ -950,20 +1103,20 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "was actually gon",
-          "note_tr": "Past Continuous",
+          "pattern": "was actually gonna ask",
+          "note_tr": "Future (be going to)",
           "cefr": "A2",
-          "norm_pattern": "past_continuous_was_ving",
+          "norm_pattern": "future_going_to",
           "span_start": 2,
-          "span_end": 18
+          "span_end": 24
         },
         {
-          "pattern": "was actually gon",
-          "note_tr": "Past Continuous",
+          "pattern": "was actually gonna ask",
+          "note_tr": "Future (be going to)",
           "cefr": "A2",
-          "norm_pattern": "past_continuous_was_ving",
+          "norm_pattern": "future_going_to",
           "span_start": 43,
-          "span_end": 59
+          "span_end": 65
         }
       ],
       "vocab": []
@@ -1012,6 +1165,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 125,
           "span_end": 141
+        },
+        {
+          "pattern": "mean",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 93,
+          "span_end": 97
         },
         {
           "pattern": "say",
@@ -1100,7 +1261,16 @@
       "text_tr": "Muhtemelen saygı kelimesine aşinasınızdır, ancak bu kelimeyi farklı son ekler kullanarak nasıl değiştireceğinizi biliyor musunuz?",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 59,
+          "span_end": 63
+        }
+      ],
       "vocab": []
     },
     {
@@ -1217,12 +1387,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to add",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 8,
-          "span_end": 12
+          "span_end": 19
         }
       ],
       "vocab": []
@@ -1263,7 +1433,16 @@
       "text_tr": "Saygısızlık etmek istemem,",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "mean",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 12
+        }
+      ],
       "vocab": []
     },
     {
@@ -1665,6 +1844,14 @@
         },
         {
           "pattern": "mean",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        },
+        {
+          "pattern": "mean",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1787,6 +1974,22 @@
           "span_end": 67
         },
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 13
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 90,
+          "span_end": 94
+        },
+        {
           "pattern": "saw",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -1805,7 +2008,16 @@
       "text_tr": "Gerçekten çok fazla hatırlamıyorum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "remember",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
+          "span_end": 23
+        }
+      ],
       "vocab": []
     },
     {
@@ -1957,6 +2169,14 @@
           "span_end": 43
         },
         {
+          "pattern": "liked",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 59,
+          "span_end": 64
+        },
+        {
           "pattern": "said",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -1995,6 +2215,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 122,
+          "span_end": 126
+        },
         {
           "pattern": "watched",
           "note_tr": "Simple Past",
@@ -2059,6 +2287,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
         {
           "pattern": "hardly",
           "note_tr": "Adverbs of Frequency",
@@ -2146,6 +2382,14 @@
           "norm_pattern": "past_perfect_had_v3",
           "span_start": 32,
           "span_end": 40
+        },
+        {
+          "pattern": "understand",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 50,
+          "span_end": 60
         },
         {
           "pattern": "if I had said I hardly understand anything",
@@ -2341,6 +2585,14 @@
       "grammar": [
         {
           "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 17
+        },
+        {
+          "pattern": "wanted",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -2495,6 +2747,22 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 18
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2528,6 +2796,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 43,
           "span_end": 63
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 13,
+          "span_end": 20
         },
         {
           "pattern": "If something depends on something else",
@@ -2569,6 +2845,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 44,
+          "span_end": 48
+        },
+        {
           "pattern": "depends",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -2609,6 +2893,22 @@
       "grammar": [
         {
           "pattern": "depends",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 9,
+          "span_end": 16
+        },
+        {
+          "pattern": "on the time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 17,
+          "span_end": 28
+        },
+        {
+          "pattern": "depends",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2646,7 +2946,16 @@
       "text_tr": "Maliyet, yılın zamanına bağlıdır.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "on the time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 22,
+          "span_end": 33
+        }
+      ],
       "vocab": []
     },
     {
@@ -2668,7 +2977,16 @@
       "text_tr": "Maliyet, yılın zamanına bağlıdır.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "on the time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 19,
+          "span_end": 30
+        }
+      ],
       "vocab": []
     },
     {
@@ -2832,12 +3150,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to lose",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 31,
-          "span_end": 35
+          "span_end": 43
         },
         {
           "pattern": "sometimes",
@@ -2888,20 +3206,28 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "have to have",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 55,
+          "span_end": 67
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 45,
+          "span_end": 50
+        },
+        {
           "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
           "span_start": 45,
           "span_end": 50
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 55,
-          "span_end": 59
         }
       ],
       "vocab": []
@@ -2922,6 +3248,22 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 140,
           "span_end": 152
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 82,
+          "span_end": 87
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 97,
+          "span_end": 101
         },
         {
           "pattern": "If you have an anime background or if you have a background in watching anime",
@@ -3082,6 +3424,14 @@
           "norm_pattern": "future_will",
           "span_start": 46,
           "span_end": 52
+        },
+        {
+          "pattern": "piece of cake",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 55,
+          "span_end": 68
         }
       ],
       "vocab": []
@@ -3123,6 +3473,14 @@
           "span_end": 96
         },
         {
+          "pattern": "have to interview",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 47,
+          "span_end": 64
+        },
+        {
           "pattern": "where you have to interview in English",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -3145,14 +3503,6 @@
           "norm_pattern": "simple_past",
           "span_start": 130,
           "span_end": 134
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 47,
-          "span_end": 51
         }
       ],
       "vocab": []
@@ -3207,6 +3557,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "realize",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 23,
+          "span_end": 30
+        },
+        {
           "pattern": "how good JoJo is",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -3237,6 +3595,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -3418,6 +3784,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3436,6 +3810,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -3502,6 +3884,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 80,
           "span_end": 105
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 5,
+          "span_end": 10
         },
         {
           "pattern": "means",
@@ -3602,6 +3992,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "thought",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 35,
+          "span_end": 42
+        },
         {
           "pattern": "thought",
           "note_tr": "Simple Past",
@@ -3753,6 +4151,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3794,6 +4200,22 @@
           "norm_pattern": "modal_v1",
           "span_start": 117,
           "span_end": 125
+        },
+        {
+          "pattern": "understand",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 84,
+          "span_end": 94
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 107,
+          "span_end": 112
         },
         {
           "pattern": "feel",
@@ -3946,6 +4368,22 @@
           "span_end": 68
         },
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 13
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 92,
+          "span_end": 96
+        },
+        {
           "pattern": "saw",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -3964,7 +4402,16 @@
       "text_tr": "Gerçekten çok fazla hatırlamıyorum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "remember",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
+          "span_end": 23
+        }
+      ],
       "vocab": []
     },
     {
@@ -3976,6 +4423,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "few years",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 11,
+          "span_end": 20
+        },
         {
           "pattern": "watched",
           "note_tr": "Simple Past",
@@ -4004,6 +4459,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "agree",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 14,
+          "span_end": 19
+        },
         {
           "pattern": "agree",
           "note_tr": "Simple Present",
@@ -4061,6 +4524,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 66,
+          "span_end": 70
+        },
+        {
+          "pattern": "understand",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 117,
+          "span_end": 127
+        },
+        {
           "pattern": "watched",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -4110,6 +4589,14 @@
       "grammar": [
         {
           "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 9,
+          "span_end": 13
+        },
+        {
+          "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4136,6 +4623,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 15,
+          "span_end": 19
+        },
         {
           "pattern": "hardly",
           "note_tr": "Adverbs of Frequency",
@@ -4197,6 +4692,22 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 18
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4223,6 +4734,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "depends",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 18
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -4258,6 +4785,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 35,
           "span_end": 50
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 27,
+          "span_end": 32
         },
         {
           "pattern": "think",
@@ -4320,6 +4855,30 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "have to have",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 59,
+          "span_end": 71
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 49,
+          "span_end": 54
+        },
+        {
+          "pattern": "realize",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 118,
+          "span_end": 125
+        },
+        {
           "pattern": "how good Jojo is",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -4334,14 +4893,6 @@
           "norm_pattern": "present_simple",
           "span_start": 49,
           "span_end": 54
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 59,
-          "span_end": 63
         }
       ],
       "vocab": []
@@ -4373,6 +4924,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 66,
           "span_end": 76
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
         },
         {
           "pattern": "think",
@@ -4415,6 +4974,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4433,6 +5000,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -4485,7 +5060,16 @@
       "text_tr": "Onu bilmiyorum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 12
+        }
+      ],
       "vocab": []
     },
     {
@@ -4497,6 +5081,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -4640,6 +5232,30 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 58,
+          "span_end": 63
+        },
+        {
+          "pattern": "in the day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 44,
+          "span_end": 54
+        },
+        {
           "pattern": "started",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -4677,6 +5293,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4702,6 +5326,14 @@
           "norm_pattern": "past_continuous_was_ving",
           "span_start": 101,
           "span_end": 115
+        },
+        {
+          "pattern": "at that time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 34,
+          "span_end": 46
         },
         {
           "pattern": "started",
@@ -4759,6 +5391,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
         {
           "pattern": "like",
           "note_tr": "Simple Present",

@@ -15,6 +15,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "On May 19th",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 0,
+          "span_end": 11
+        },
+        {
           "pattern": "beat",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -80,7 +88,16 @@
       "text_tr": "Bir sonraki sezon otomatik olarak yükseldiler ve 2020-21 sezonunda Ziyaretçiler yepyeni stadyumlarına taşındı ve Premier Lig'e bir kez yükseldi.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in the 2020 -21 season",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 59,
+          "span_end": 81
+        }
+      ],
       "vocab": []
     },
     {
@@ -130,6 +147,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 115,
           "span_end": 148
+        },
+        {
+          "pattern": "in 2016",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 187,
+          "span_end": 194
         },
         {
           "pattern": "that could quite reasonably be likened to Leicester City's Premier title win in 2016",
@@ -478,6 +503,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 84,
+          "span_end": 89
+        },
+        {
           "pattern": "which means that it is worth asking the question of just how Yovell Town managed to pull off",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -644,6 +677,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in 1949",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 130,
+          "span_end": 137
+        },
         {
           "pattern": "dumped",
           "note_tr": "Simple Past",
@@ -841,6 +882,14 @@
           "span_end": 165
         },
         {
+          "pattern": "in 1976",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 47,
+          "span_end": 54
+        },
+        {
           "pattern": "came",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -869,6 +918,14 @@
           "span_end": 14
         },
         {
+          "pattern": "at the time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 89,
+          "span_end": 100
+        },
+        {
           "pattern": "which was the sixth tier of English football at the time",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -888,6 +945,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in 1988",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 52,
+          "span_end": 59
+        },
+        {
+          "pattern": "in 1990",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 64,
+          "span_end": 71
+        },
         {
           "pattern": "bounced",
           "note_tr": "Simple Past",
@@ -1047,6 +1120,22 @@
           "norm_pattern": "passive_voice",
           "span_start": 153,
           "span_end": 169
+        },
+        {
+          "pattern": "in the 2000 -2001 season",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 57,
+          "span_end": 81
+        },
+        {
+          "pattern": "in injury time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 170,
+          "span_end": 184
         },
         {
           "pattern": "where the gloveers were only beaten in injury time",
@@ -1241,6 +1330,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "contained",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 22,
+          "span_end": 31
+        },
+        {
+          "pattern": "in 2004",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 131,
+          "span_end": 138
+        },
         {
           "pattern": "which contained several future football league stars, most notably Gavin Williams, who joined West Ham from Yovell in 2004 and went on to become a full Welsh international",
           "note_tr": "Relative Clause",
@@ -1600,6 +1705,14 @@
           "span_end": 74
         },
         {
+          "pattern": "at the beginning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 165,
+          "span_end": 181
+        },
+        {
           "pattern": "that Gary Johnson had done at Yovell Town",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -1710,6 +1823,14 @@
           "norm_pattern": "past_perfect_had_v3",
           "span_start": 0,
           "span_end": 28
+        },
+        {
+          "pattern": "in the year",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 36,
+          "span_end": 47
         },
         {
           "pattern": "appointed",
@@ -1852,6 +1973,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "meant",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 119,
+          "span_end": 124
+        },
+        {
+          "pattern": "at the end",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 87,
+          "span_end": 97
+        },
+        {
           "pattern": "which meant that the two teams met in the playoff semi -finals, bidding for a place in the championship",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -1896,6 +2033,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "on the night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 155,
+          "span_end": 167
+        },
+        {
           "pattern": "staged",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -1926,6 +2071,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in a row",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 129,
+          "span_end": 137
+        },
         {
           "pattern": "which heralded a change of ownership",
           "note_tr": "Relative Clause",
@@ -2014,6 +2167,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in 2010",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 41,
+          "span_end": 48
+        },
+        {
+          "pattern": "in 2012",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 164,
+          "span_end": 171
+        },
+        {
           "pattern": "came",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -2048,6 +2217,14 @@
           "norm_pattern": "past_perfect_had_v3",
           "span_start": 22,
           "span_end": 34
+        },
+        {
+          "pattern": "in 2006",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 132,
+          "span_end": 139
         },
         {
           "pattern": "that had finished in the bottom half of the league 1 table for five successive seasons after reaching the playoffs in 2006",
@@ -2183,6 +2360,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 89,
+          "span_end": 95
+        },
         {
           "pattern": "that typified the type of character that Johnson wanted at the club",
           "note_tr": "Relative Clause",
@@ -2575,6 +2760,14 @@
       "grammar": [
         {
           "pattern": "meant",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 62,
+          "span_end": 67
+        },
+        {
+          "pattern": "meant",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -2868,20 +3061,20 @@
           "span_end": 168
         },
         {
+          "pattern": "had to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 83,
+          "span_end": 92
+        },
+        {
           "pattern": "that had formed the backbone of their",
           "note_tr": "Relative Clause",
           "cefr": "B1",
           "norm_pattern": "relative_clause",
           "span_start": 153,
           "span_end": 190
-        },
-        {
-          "pattern": "had",
-          "note_tr": "Simple Past",
-          "cefr": "A2",
-          "norm_pattern": "simple_past",
-          "span_start": 83,
-          "span_end": 86
         },
         {
           "pattern": "several",
@@ -2952,6 +3145,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 58,
           "span_end": 68
+        },
+        {
+          "pattern": "in the February",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 77,
+          "span_end": 92
         },
         {
           "pattern": "got",
@@ -3038,6 +3239,14 @@
           "span_end": 158
         },
         {
+          "pattern": "at the start",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 38,
+          "span_end": 50
+        },
+        {
           "pattern": "felt",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -3105,6 +3314,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "In December",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 0,
+          "span_end": 11
+        },
+        {
           "pattern": "replaced",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -3139,6 +3356,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 91,
           "span_end": 108
+        },
+        {
+          "pattern": "In November",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 0,
+          "span_end": 11
         },
         {
           "pattern": "signed",
@@ -3269,6 +3494,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "knew",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 43,
+          "span_end": 47
+        },
+        {
           "pattern": "claimed",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -3388,6 +3621,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in 2020",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 101,
+          "span_end": 108
+        },
+        {
           "pattern": "where he still works",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -3424,6 +3665,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "In September",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 0,
+          "span_end": 12
+        },
+        {
           "pattern": "relinquished",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -3450,6 +3699,22 @@
           "norm_pattern": "past_perfect_had_v3",
           "span_start": 67,
           "span_end": 77
+        },
+        {
+          "pattern": "at the time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 24,
+          "span_end": 35
+        },
+        {
+          "pattern": "in 2018",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 100,
+          "span_end": 107
         }
       ],
       "vocab": []
@@ -3483,6 +3748,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in December",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 49,
+          "span_end": 60
+        },
         {
           "pattern": "made",
           "note_tr": "Simple Past",
@@ -4005,6 +4278,14 @@
           "span_end": 146
         },
         {
+          "pattern": "in May",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 172,
+          "span_end": 178
+        },
+        {
           "pattern": "who was appointed to the Yovell town board in May 2022",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -4044,6 +4325,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "How much",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 0,
+          "span_end": 8
+        },
         {
           "pattern": "paid",
           "note_tr": "Simple Past",

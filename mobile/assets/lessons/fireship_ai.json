@@ -372,6 +372,14 @@
           "span_end": 111
         },
         {
+          "pattern": "in 1959",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 20,
+          "span_end": 27
+        },
+        {
           "pattern": "who was developing artificial intelligence that could play checkers",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -788,6 +796,14 @@
           "norm_pattern": "future_will",
           "span_start": 61,
           "span_end": 78
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 113,
+          "span_end": 117
         }
       ],
       "vocab": [
@@ -1185,20 +1201,20 @@
           "cefr": "B1"
         },
         {
+          "pattern": "needs to have",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 9,
+          "span_end": 22
+        },
+        {
           "pattern": "that better represent the underlying problem",
           "note_tr": "Relative Clause",
           "cefr": "B1",
           "norm_pattern": "relative_clause",
           "span_start": 196,
           "span_end": 240
-        },
-        {
-          "pattern": "needs",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 9,
-          "span_end": 14
         },
         {
           "pattern": "perform",
@@ -2171,6 +2187,14 @@
       ],
       "grammar": [
         {
+          "pattern": "contain",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 46,
+          "span_end": 53
+        },
+        {
           "pattern": "that contain things like images or natural language, where manual feature engineering is virtually impossible",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -2590,6 +2614,22 @@
           "norm_pattern": "modal_v1",
           "span_start": 90,
           "span_end": 98
+        },
+        {
+          "pattern": "how much",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 35,
+          "span_end": 43
+        },
+        {
+          "pattern": "loaf of bread costs",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 51,
+          "span_end": 70
         }
       ],
       "vocab": [
@@ -2728,6 +2768,14 @@
           "pattern": "there are + [cogul isim]",
           "note_tr": "Bir seyin varligini soyler: 'there are many frameworks' = bircok cerceve var.",
           "cefr": "A1"
+        },
+        {
+          "pattern": "many supporting frameworks",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 112,
+          "span_end": 138
         },
         {
           "pattern": "are",
@@ -3363,6 +3411,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 5,
           "span_end": 13
+        },
+        {
+          "pattern": "in 100 seconds",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 31,
+          "span_end": 45
         }
       ],
       "vocab": [],
@@ -3421,6 +3477,22 @@
           "pattern": "[emir], if you want to + [fiil]",
           "note_tr": "Kosullu rica/oneri: 'leave a comment if you want to...' = ... istiyorsan yorum birak.",
           "cefr": "A2"
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 26,
+          "span_end": 30
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 94,
+          "span_end": 98
         },
         {
           "pattern": "if you want to see more short videos like this",

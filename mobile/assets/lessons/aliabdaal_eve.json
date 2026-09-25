@@ -23,6 +23,14 @@
           "span_end": 42
         },
         {
+          "pattern": "few months",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 14,
+          "span_end": 24
+        },
+        {
           "pattern": "listened",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -124,6 +132,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 33,
           "span_end": 45
+        },
+        {
+          "pattern": "at night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 129,
+          "span_end": 137
         },
         {
           "pattern": "says",
@@ -237,12 +253,20 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to feel",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 40,
-          "span_end": 44
+          "span_end": 52
+        },
+        {
+          "pattern": "how much sleep",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 21,
+          "span_end": 35
         },
         {
           "pattern": "much",
@@ -496,6 +520,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 27,
+          "span_end": 41
+        },
+        {
           "pattern": "wake",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -602,6 +634,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 31,
           "span_end": 42
+        },
+        {
+          "pattern": "mean",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 23,
+          "span_end": 27
         }
       ],
       "vocab": []
@@ -622,6 +662,22 @@
           "norm_pattern": "future_will",
           "span_start": 142,
           "span_end": 161
+        },
+        {
+          "pattern": "at the same time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 47,
+          "span_end": 63
+        },
+        {
+          "pattern": "at the same time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 162,
+          "span_end": 178
         },
         {
           "pattern": "if we start going to sleep and waking up at the same time every day and get our proper 7 to 8 hours of sleep",
@@ -825,6 +881,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 155,
           "span_end": 174
+        },
+        {
+          "pattern": "on Saturdays",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 82,
+          "span_end": 94
         }
       ],
       "vocab": []
@@ -838,6 +902,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in the day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 19,
+          "span_end": 29
+        },
         {
           "pattern": "little",
           "note_tr": "Quantifiers",
@@ -1172,12 +1244,28 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "needs",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "doesn't need to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 13,
+          "span_end": 31
+        },
+        {
+          "pattern": "needs to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 71,
-          "span_end": 76
+          "span_end": 82
+        },
+        {
+          "pattern": "few hours",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 92,
+          "span_end": 101
         },
         {
           "pattern": "few",
@@ -1296,6 +1384,14 @@
           "span_end": 73
         },
         {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 209,
+          "span_end": 223
+        },
+        {
           "pattern": "where I've got the Pret coffee subscription",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -1338,6 +1434,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 16,
           "span_end": 26
+        },
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 9,
+          "span_end": 14
         },
         {
           "pattern": "means",
@@ -1438,6 +1542,22 @@
           "norm_pattern": "modal_v1",
           "span_start": 33,
           "span_end": 55
+        },
+        {
+          "pattern": "on bright cloudless days",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 3,
+          "span_end": 27
+        },
+        {
+          "pattern": "on cloudy days",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 143,
+          "span_end": 157
         }
       ],
       "vocab": []
@@ -1498,7 +1618,16 @@
       "text_tr": "Ancak asıl önemli olan, bunu fazla düşünmek istemememizdir.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 36,
+          "span_end": 40
+        }
+      ],
       "vocab": []
     },
     {
@@ -1510,6 +1639,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 77,
+          "span_end": 91
+        },
         {
           "pattern": "any",
           "note_tr": "Quantifiers",
@@ -1537,6 +1674,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 224,
           "span_end": 240
+        },
+        {
+          "pattern": "in about 12 to 14 hours time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 188,
+          "span_end": 216
         },
         {
           "pattern": "in that it sets our circadian clock on a timer to release the hormone melatonin from the pineal gland in our brain in about 12 to 14 hours time, which is going to make us feel sleepy",
@@ -1594,6 +1739,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in the evening",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 127,
+          "span_end": 141
+        },
+        {
           "pattern": "get",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -1636,6 +1789,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 120,
           "span_end": 132
+        },
+        {
+          "pattern": "at 7am",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 16,
+          "span_end": 22
         },
         {
           "pattern": "if I wake up at 7am",
@@ -1682,6 +1843,14 @@
           "span_end": 77
         },
         {
+          "pattern": "at 8am",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 23,
+          "span_end": 29
+        },
+        {
           "pattern": "if I wake up later at 8am",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -1709,6 +1878,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 26,
+          "span_end": 30
+        },
         {
           "pattern": "continue",
           "note_tr": "Simple Present",
@@ -1818,6 +1995,14 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 46,
+          "span_end": 50
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1864,6 +2049,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 56,
+          "span_end": 70
+        },
+        {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 111,
+          "span_end": 125
+        },
         {
           "pattern": "find",
           "note_tr": "Simple Present",
@@ -1960,6 +2161,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 49,
+          "span_end": 63
+        },
+        {
           "pattern": "know",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -2022,6 +2231,22 @@
           "norm_pattern": "modal_v1",
           "span_start": 12,
           "span_end": 27
+        },
+        {
+          "pattern": "few days",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 249,
+          "span_end": 257
+        },
+        {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 49,
+          "span_end": 63
         },
         {
           "pattern": "if you can actually do some proper exercise in the morning, then",
@@ -2095,6 +2320,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 54,
+          "span_end": 58
+        },
+        {
           "pattern": "that we want",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -2145,6 +2378,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 100,
           "span_end": 116
+        },
+        {
+          "pattern": "in the evening",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 41,
+          "span_end": 55
         },
         {
           "pattern": "sets",
@@ -2293,6 +2534,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 67,
           "span_end": 79
+        },
+        {
+          "pattern": "few minutes",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 140,
+          "span_end": 151
         },
         {
           "pattern": "that's delivered every single day, Monday through Sunday",
@@ -2582,6 +2831,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 89,
+          "span_end": 93
+        },
+        {
           "pattern": "if you are interested in anything to do with business or finance or tech, or you just want an entertaining way to browse the news once a day",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -2677,6 +2934,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "much morning",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 16,
+          "span_end": 28
+        },
+        {
           "pattern": "thank",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -2744,12 +3009,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "needs",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "needs to get",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 49,
-          "span_end": 54
+          "span_end": 61
         }
       ],
       "vocab": []
@@ -2968,6 +3233,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in the day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 118,
+          "span_end": 128
+        },
+        {
           "pattern": "try",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -3149,6 +3422,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 27,
+          "span_end": 41
+        },
+        {
           "pattern": "stop",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -3253,6 +3534,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 42,
           "span_end": 55
+        },
+        {
+          "pattern": "at night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 70,
+          "span_end": 78
         },
         {
           "pattern": "even if they get technically a full night's sleep",
@@ -3507,6 +3796,30 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 22,
+          "span_end": 36
+        },
+        {
+          "pattern": "in the evening",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 41,
+          "span_end": 55
+        },
+        {
+          "pattern": "at the same time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 194,
+          "span_end": 210
+        },
+        {
           "pattern": "if you get the sun in the morning and",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -3601,6 +3914,14 @@
           "span_end": 138
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 14,
+          "span_end": 18
+        },
+        {
           "pattern": "that keeps us awake",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -3662,6 +3983,22 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 51,
+          "span_end": 55
+        },
+        {
+          "pattern": "in the evenings",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 16,
+          "span_end": 31
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3700,6 +4037,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in the evening",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 21,
+          "span_end": 35
+        },
         {
           "pattern": "gets",
           "note_tr": "Simple Present",
@@ -3826,6 +4171,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 103,
           "span_end": 111
+        },
+        {
+          "pattern": "few days",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 21,
+          "span_end": 29
         },
         {
           "pattern": "lowers",
@@ -3979,6 +4332,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "at night time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 43,
+          "span_end": 56
+        },
         {
           "pattern": "which is generally on a fairly dim dark mode warm light setting",
           "note_tr": "Relative Clause",
@@ -4143,6 +4504,14 @@
           "span_end": 94
         },
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 10
+        },
+        {
           "pattern": "read",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -4276,6 +4645,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 16,
+          "span_end": 20
+        },
         {
           "pattern": "need",
           "note_tr": "Simple Present",
@@ -4434,6 +4811,14 @@
         },
         {
           "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 10
+        },
+        {
+          "pattern": "like",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4527,6 +4912,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 12
+        },
         {
           "pattern": "which helps me for the sleep",
           "note_tr": "Relative Clause",
@@ -4642,6 +5035,14 @@
           "span_end": 9
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 41,
+          "span_end": 45
+        },
+        {
           "pattern": "if you want to check it out",
           "note_tr": "If Clause Type 1 (Real Future)",
           "cefr": "B1",
@@ -4735,7 +5136,16 @@
       "text_tr": "Gerçekten buna ihtiyacın yok.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 17,
+          "span_end": 21
+        }
+      ],
       "vocab": []
     },
     {
@@ -4767,20 +5177,20 @@
           "span_end": 18
         },
         {
+          "pattern": "needs to be",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 118,
+          "span_end": 129
+        },
+        {
           "pattern": "that it needs to be",
           "note_tr": "Relative Clause",
           "cefr": "B1",
           "norm_pattern": "relative_clause",
           "span_start": 110,
           "span_end": 129
-        },
-        {
-          "pattern": "needs",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 118,
-          "span_end": 123
         }
       ],
       "vocab": []
@@ -4936,6 +5346,14 @@
           "span_end": 13
         },
         {
+          "pattern": "few hours",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 46,
+          "span_end": 55
+        },
+        {
           "pattern": "few",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -5023,6 +5441,22 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in the morning",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 131,
+          "span_end": 145
+        },
+        {
+          "pattern": "in the day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 171,
+          "span_end": 181
+        },
         {
           "pattern": "if I have a little bit of a lion or if I have coffee a little bit early in the morning or a little bit too late in the day",
           "note_tr": "If Clause Type 0 (General Truth)",
@@ -5172,12 +5606,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "need to know",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 71,
-          "span_end": 75
+          "span_end": 83
         }
       ],
       "vocab": []

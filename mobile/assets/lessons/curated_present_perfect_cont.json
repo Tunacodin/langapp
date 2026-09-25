@@ -1,0 +1,261 @@
+{
+  "video_id": "curated_present_perfect_cont",
+  "title": "Present Perfect Continuous",
+  "license": "curated",
+  "cefr": "B1",
+  "topic": "grammar",
+  "sentences": [
+    {
+      "idx": 0,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I've been learning English for two years.",
+      "text_tr": "İki yıldır İngilizce öğreniyorum.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "I've been learning",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 0,
+          "span_end": 18
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 1,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "She has been working here since 2020.",
+      "text_tr": "2020'den beri burada çalışıyor.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has been working",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 4,
+          "span_end": 20
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 2,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "We've been waiting for the bus for twenty minutes.",
+      "text_tr": "Yirmi dakikadır otobüs bekliyoruz.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "We've been waiting",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 0,
+          "span_end": 18
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 3,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "It has been raining all morning.",
+      "text_tr": "Sabahtan beri yağmur yağıyor.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has been raining",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 3,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 4,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I'm tired because I've been running.",
+      "text_tr": "Yorgunum çünkü koşuyordum.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "I've been running",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 18,
+          "span_end": 35
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 5,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "They've been living in Istanbul since last year.",
+      "text_tr": "Geçen yıldan beri İstanbul'da yaşıyorlar.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "They've been living",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 0,
+          "span_end": 19
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 6,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "My phone has been ringing all afternoon.",
+      "text_tr": "Telefonum öğleden beri çalıp duruyor.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "has been ringing",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 9,
+          "span_end": 25
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 7,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "I haven't been sleeping well lately.",
+      "text_tr": "Son zamanlarda iyi uyuyamıyorum.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "haven't been sleeping",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 2,
+          "span_end": 23
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 8,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "He hasn't been feeling well this week.",
+      "text_tr": "Bu hafta kendini iyi hissetmiyor.",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "hasn't been feeling",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 3,
+          "span_end": 22
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 9,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "How long have you been studying?",
+      "text_tr": "Ne zamandır ders çalışıyorsun?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have you been studying",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 9,
+          "span_end": 31
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 10,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "What have you been doing all day?",
+      "text_tr": "Bütün gün ne yapıyordun?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "have you been doing",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 5,
+          "span_end": 24
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    },
+    {
+      "idx": 11,
+      "start_ms": 0,
+      "end_ms": 0,
+      "text_en": "Have you been waiting long?",
+      "text_tr": "Çok bekledin mi?",
+      "cefr": "B1",
+      "chunks": [],
+      "grammar": [
+        {
+          "pattern": "Have you been waiting",
+          "note_tr": "Geçmişte başlayıp hâlâ süren ya da yeni bitmiş, etkisi görünen eylem.",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 0,
+          "span_end": 21
+        }
+      ],
+      "vocab": [],
+      "occurrences": []
+    }
+  ]
+}

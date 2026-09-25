@@ -76,6 +76,14 @@
       "grammar": [
         {
           "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 30,
+          "span_end": 36
+        },
+        {
+          "pattern": "wanted",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -132,6 +140,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 158,
           "span_end": 168
+        },
+        {
+          "pattern": "thought",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 13,
+          "span_end": 20
         },
         {
           "pattern": "thought",
@@ -400,7 +416,16 @@
       "text_tr": "Yani bilmiyorum dostum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        }
+      ],
       "vocab": []
     },
     {
@@ -412,6 +437,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
         {
           "pattern": "want",
           "note_tr": "Simple Present",
@@ -472,6 +505,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "seems",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 31,
+          "span_end": 36
+        },
+        {
           "pattern": "that seems interesting",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -507,6 +548,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "wants",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 54,
+          "span_end": 59
+        },
         {
           "pattern": "that he wants to conquer",
           "note_tr": "Relative Clause",
@@ -602,6 +651,14 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 8,
           "span_end": 20
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 36,
+          "span_end": 41
         },
         {
           "pattern": "think",
@@ -796,12 +853,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'s gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'s gonna be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 2,
-          "span_end": 8
+          "span_end": 13
         },
         {
           "pattern": "might be",
@@ -864,12 +921,20 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'re gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'re gonna throw",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 19,
-          "span_end": 26
+          "span_end": 34
+        },
+        {
+          "pattern": "on Thursday night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 46,
+          "span_end": 63
         }
       ],
       "vocab": []
@@ -912,12 +977,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'re gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'re gonna go",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 46,
-          "span_end": 53
+          "span_end": 58
         }
       ],
       "vocab": []
@@ -1202,6 +1267,14 @@
       "grammar": [
         {
           "pattern": "loved",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 3,
+          "span_end": 8
+        },
+        {
+          "pattern": "loved",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -1227,6 +1300,14 @@
           "norm_pattern": "past_continuous_was_ving",
           "span_start": 7,
           "span_end": 20
+        },
+        {
+          "pattern": "in two days",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 124,
+          "span_end": 135
         },
         {
           "pattern": "what if for your first ever live show, we came up to Seattle, rented out a venue, and had you perform in two days",
@@ -1495,7 +1576,16 @@
       "text_tr": "Pekala, Perşembe sabah 7'de.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "at 7am",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 23,
+          "span_end": 29
+        }
+      ],
       "vocab": []
     },
     {
@@ -1699,9 +1789,9 @@
       "grammar": [
         {
           "pattern": "'s flying",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "note_tr": "Present Continuous (Future Plans)",
+          "cefr": "A2",
+          "norm_pattern": "present_cont_future",
           "span_start": 2,
           "span_end": 11
         }
@@ -1735,6 +1825,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 37,
           "span_end": 43
+        },
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 29,
+          "span_end": 33
         },
         {
           "pattern": "came",
@@ -1783,7 +1881,16 @@
       "text_tr": "Bunu ne zamandır yapıyorsunuz?",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "have you guys been doing",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 9,
+          "span_end": 33
+        }
+      ],
       "vocab": []
     },
     {
@@ -1835,6 +1942,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "has been rapping",
+          "note_tr": "Present Perfect Continuous",
+          "cefr": "B1",
+          "norm_pattern": "present_perfect_cont",
+          "span_start": 14,
+          "span_end": 30
+        },
         {
           "pattern": "'ve met",
           "note_tr": "Present Perfect (have/has V3)",
@@ -2633,6 +2748,14 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 19,
+          "span_end": 23
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2801,7 +2924,16 @@
       "text_tr": "Sanmıyorum.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "believe",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 15
+        }
+      ],
       "vocab": []
     },
     {
@@ -2954,6 +3086,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "at night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 26,
+          "span_end": 34
+        },
         {
           "pattern": "have",
           "note_tr": "Simple Present",
@@ -3126,7 +3266,16 @@
       "text_tr": "Evet, bir saniye takvime bakayım.",
       "cefr": "B1",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in one second",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 40,
+          "span_end": 53
+        }
+      ],
       "vocab": []
     },
     {
@@ -3424,6 +3573,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 41,
+          "span_end": 45
+        },
         {
           "pattern": "do",
           "note_tr": "Simple Present",
@@ -3868,6 +4025,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 35,
+          "span_end": 40
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4110,6 +4275,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "in three hours",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 18,
+          "span_end": 32
+        },
         {
           "pattern": "sold",
           "note_tr": "Simple Past",
@@ -4373,6 +4546,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 39,
           "span_end": 51
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 19,
+          "span_end": 23
         },
         {
           "pattern": "how these kids are handling this",
@@ -5016,6 +5197,14 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -5065,6 +5254,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 11,
+          "span_end": 15
+        },
         {
           "pattern": "want",
           "note_tr": "Simple Present",
@@ -5495,6 +5692,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "much fun",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 8,
+          "span_end": 16
+        },
+        {
           "pattern": "Have",
           "note_tr": "Simple Present",
           "cefr": "A1",
@@ -5571,6 +5776,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 17,
           "span_end": 27
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 4,
+          "span_end": 8
         },
         {
           "pattern": "what you're saying",
@@ -5903,6 +6116,14 @@
       "grammar": [
         {
           "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 98,
+          "span_end": 102
+        },
+        {
+          "pattern": "want",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -5962,12 +6183,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to do",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 8,
-          "span_end": 12
+          "span_end": 18
         }
       ],
       "vocab": []

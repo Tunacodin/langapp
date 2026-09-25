@@ -16,6 +16,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -33,7 +41,16 @@
       "text_tr": "Bunun bana özel bir durum olduğunu düşünmüyorum.",
       "cefr": "B2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 13
+        }
+      ],
       "vocab": []
     },
     {
@@ -45,6 +62,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "seems",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 3,
+          "span_end": 8
+        },
         {
           "pattern": "what made exceptional people exceptional",
           "note_tr": "Embedded WH- Question",
@@ -81,6 +106,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "that far out lasts our time on this earth",
           "note_tr": "Relative Clause",
@@ -263,6 +296,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 43,
+          "span_end": 48
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -351,6 +392,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 115,
+          "span_end": 120
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -407,6 +456,14 @@
           "norm_pattern": "modal_v1",
           "span_start": 128,
           "span_end": 139
+        },
+        {
+          "pattern": "believed",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 55,
+          "span_end": 63
         },
         {
           "pattern": "if he aligned himself with the Earth's magnetic fields",
@@ -719,6 +776,14 @@
           "span_end": 52
         },
         {
+          "pattern": "seem",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 80,
+          "span_end": 84
+        },
+        {
           "pattern": "that I was reading about",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -837,6 +902,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 124,
           "span_end": 150
+        },
+        {
+          "pattern": "at night",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 151,
+          "span_end": 159
         },
         {
           "pattern": "which is basically just sleeping at night",
@@ -1041,6 +1114,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "knows",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 46,
+          "span_end": 51
+        },
+        {
           "pattern": "why he did it",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -1091,6 +1180,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 59,
           "span_end": 67
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 17
         },
         {
           "pattern": "think",
@@ -1211,12 +1308,20 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "had",
-          "note_tr": "Simple Past",
+          "pattern": "had to look",
+          "note_tr": "Must / Have to (Obligation)",
           "cefr": "A2",
-          "norm_pattern": "simple_past",
+          "norm_pattern": "modal_obligation",
           "span_start": 6,
-          "span_end": 9
+          "span_end": 17
+        },
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 52,
+          "span_end": 56
         }
       ],
       "vocab": []
@@ -1302,6 +1407,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "seemed",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 18,
+          "span_end": 24
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 71,
+          "span_end": 76
+        },
         {
           "pattern": "which I think is fantastic",
           "note_tr": "Relative Clause",
@@ -1535,20 +1656,20 @@
           "span_end": 76
         },
         {
+          "pattern": "had to use",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 2,
+          "span_end": 12
+        },
+        {
           "pattern": "where I could type in my message",
           "note_tr": "Noun Clause (Object Position)",
           "cefr": "B1",
           "norm_pattern": "noun_clause_wh",
           "span_start": 26,
           "span_end": 58
-        },
-        {
-          "pattern": "had",
-          "note_tr": "Simple Past",
-          "cefr": "A2",
-          "norm_pattern": "simple_past",
-          "span_start": 2,
-          "span_end": 5
         }
       ],
       "vocab": []
@@ -1803,6 +1924,14 @@
       "grammar": [
         {
           "pattern": "seemed",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 3,
+          "span_end": 9
+        },
+        {
+          "pattern": "seemed",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -1900,6 +2029,14 @@
           "span_end": 39
         },
         {
+          "pattern": "have to see",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 35,
+          "span_end": 46
+        },
+        {
           "pattern": "how this goes",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -1985,6 +2122,14 @@
           "norm_pattern": "future_going_to",
           "span_start": 1,
           "span_end": 17
+        },
+        {
+          "pattern": "have to learn",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 13,
+          "span_end": 26
         }
       ],
       "vocab": []
@@ -1998,6 +2143,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 46,
+          "span_end": 50
+        },
         {
           "pattern": "miss",
           "note_tr": "Simple Present",
@@ -2213,6 +2366,14 @@
           "span_end": 23
         },
         {
+          "pattern": "have to pass",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 58,
+          "span_end": 70
+        },
+        {
           "pattern": "where your cognitive ability is just not optimal",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -2227,14 +2388,6 @@
           "norm_pattern": "present_simple",
           "span_start": 2,
           "span_end": 6
-        },
-        {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 58,
-          "span_end": 62
         }
       ],
       "vocab": []
@@ -2281,6 +2434,14 @@
       "grammar": [
         {
           "pattern": "seems",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 22,
+          "span_end": 27
+        },
+        {
+          "pattern": "seems",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -2316,20 +2477,20 @@
           "span_end": 72
         },
         {
+          "pattern": "need to keep",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 90,
+          "span_end": 102
+        },
+        {
           "pattern": "that I need to keep things gone",
           "note_tr": "Relative Clause",
           "cefr": "B1",
           "norm_pattern": "relative_clause",
           "span_start": 83,
           "span_end": 114
-        },
-        {
-          "pattern": "need",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 90,
-          "span_end": 94
         },
         {
           "pattern": "little",
@@ -2372,6 +2533,22 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "has to fit",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 40,
+          "span_end": 50
+        },
+        {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 121,
+          "span_end": 125
+        },
+        {
           "pattern": "that you create for yourself",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -2402,14 +2579,6 @@
           "norm_pattern": "present_simple",
           "span_start": 20,
           "span_end": 26
-        },
-        {
-          "pattern": "has",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 40,
-          "span_end": 43
         },
         {
           "pattern": "want",
@@ -2471,6 +2640,22 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
+          "pattern": "how many",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 19,
+          "span_end": 27
+        },
         {
           "pattern": "how many of us end up with kind of a schedule or a routine or a lifestyle",
           "note_tr": "Noun Clause (Object Position)",
@@ -2685,6 +2870,14 @@
           "span_end": 102
         },
         {
+          "pattern": "few hours",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 117,
+          "span_end": 126
+        },
+        {
           "pattern": "any",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -2760,6 +2953,14 @@
           "span_end": 114
         },
         {
+          "pattern": "few days",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 5,
+          "span_end": 13
+        },
+        {
           "pattern": "bought",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -2804,6 +3005,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 5,
+          "span_end": 11
+        },
+        {
           "pattern": "that I took while I was in Florence",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -2839,6 +3048,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 40,
+          "span_end": 44
+        },
         {
           "pattern": "like",
           "note_tr": "Simple Present",
@@ -2949,12 +3166,20 @@
           "span_end": 83
         },
         {
-          "pattern": "needed",
-          "note_tr": "Simple Past",
+          "pattern": "Not like you needed to know",
+          "note_tr": "Must / Have to (Obligation)",
           "cefr": "A2",
-          "norm_pattern": "simple_past",
-          "span_start": 13,
-          "span_end": 19
+          "norm_pattern": "modal_obligation",
+          "span_start": 0,
+          "span_end": 27
+        },
+        {
+          "pattern": "at this odd hour",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 103,
+          "span_end": 119
         },
         {
           "pattern": "felt",
@@ -3023,6 +3248,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "realized",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 27,
+          "span_end": 35
+        },
         {
           "pattern": "came",
           "note_tr": "Simple Past",
@@ -3196,6 +3429,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "few groceries",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 43,
+          "span_end": 56
+        },
         {
           "pattern": "figured",
           "note_tr": "Simple Past",
@@ -3620,6 +3861,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -3674,6 +3923,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "on those days",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 16,
+          "span_end": 29
+        },
         {
           "pattern": "that I dedicated to doing this as a little bit emotionally turbulent",
           "note_tr": "Relative Clause",
@@ -3819,6 +4076,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "on time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 66,
+          "span_end": 73
+        },
+        {
           "pattern": "that da Vinci placed on time",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -3939,6 +4204,14 @@
           "span_end": 50
         },
         {
+          "pattern": "want",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 11
+        },
+        {
           "pattern": "If you want to see the final results",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -3966,6 +4239,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 46,
+          "span_end": 51
+        },
         {
           "pattern": "said",
           "note_tr": "Simple Past",
@@ -4031,6 +4312,14 @@
           "norm_pattern": "future_will",
           "span_start": 93,
           "span_end": 111
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
         },
         {
           "pattern": "think",
@@ -4124,6 +4413,14 @@
           "span_end": 100
         },
         {
+          "pattern": "many other things",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 61,
+          "span_end": 78
+        },
+        {
           "pattern": "that we can all learn from this genius",
           "note_tr": "Relative Clause",
           "cefr": "B1",
@@ -4212,6 +4509,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "love",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 58,
+          "span_end": 62
+        },
+        {
           "pattern": "said",
           "note_tr": "Simple Past",
           "cefr": "A2",
@@ -4257,6 +4562,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -4282,6 +4595,22 @@
           "norm_pattern": "present_perfect_have_v3",
           "span_start": 24,
           "span_end": 33
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "much energy",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 40,
+          "span_end": 51
         },
         {
           "pattern": "think",
@@ -4312,20 +4641,28 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "has to offer",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 58,
+          "span_end": 70
+        },
+        {
+          "pattern": "in his day",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 84,
+          "span_end": 94
+        },
+        {
           "pattern": "that it has to offer",
           "note_tr": "Relative Clause",
           "cefr": "B1",
           "norm_pattern": "relative_clause",
           "span_start": 50,
           "span_end": 70
-        },
-        {
-          "pattern": "has",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
-          "span_start": 58,
-          "span_end": 61
         }
       ],
       "vocab": []
@@ -4339,6 +4676,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -4370,6 +4715,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 9,
+          "span_end": 13
+        },
         {
           "pattern": "like",
           "note_tr": "Simple Present",
@@ -4439,6 +4792,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "costs",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 46,
+          "span_end": 51
+        },
+        {
           "pattern": "if you decide to go beyond that trial",
           "note_tr": "If Clause Type 0 (General Truth)",
           "cefr": "A2",
@@ -4481,6 +4842,22 @@
           "norm_pattern": "future_will",
           "span_start": 93,
           "span_end": 101
+        },
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 44,
+          "span_end": 50
+        },
+        {
+          "pattern": "few classes",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 12,
+          "span_end": 23
         },
         {
           "pattern": "that I specifically wanted to mention",
@@ -4534,6 +4911,14 @@
       "cefr": "B2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "like",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 6
+        },
         {
           "pattern": "like",
           "note_tr": "Simple Present",

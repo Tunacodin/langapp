@@ -1,20 +1,22 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router, useFocusEffect } from 'expo-router';
-import { useCallback, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { FocusBadge } from '@/components/focus-badge';
 import { ScreenHeader } from '@/components/screen-header';
 import { colors, radius, space } from '@/constants/appTheme';
-import { getLadderSummary, getSpeakingStats, LadderSummary, SpeakingFocusStat } from '@/lib/db';
+import { getActiveFocus, getLadderSummary, getSpeakingStats, LadderSummary, SpeakingFocusStat } from '@/lib/db';
 import { SPEAKING_FOCUS } from '@/lib/speaking';
-import { LADDER_TRACKS, ladderStep } from '@/lib/speaking/ladder';
+import { LADDER_TRACKS, ladderStep, trackProgress, trackUnlocked } from '@/lib/speaking/ladder';
 import { useScrollTopOnBlur } from '@/lib/useScrollTopOnBlur';
 
 // KONUSMA: ustte KONUSMA MERDIVENI (gramer konusu -> temalar; her tema dinle ->
-// Turkceden soyle -> zincir basamaklari, bkz. speaking-ladder.tsx). Altta eski
-// kisa odak pratikleri.
+// Turkceden soyle -> zincir basamaklari, bkz. speaking-ladder.tsx). Konular ders
+// kitabi sirasinda tek satir; acik konunun temalari altinda listelenir. Varsayilan
+// acik konu: aktif odagin konusu (kilitli degilse), yoksa bitmemis ilk acik konu.
+// Altta eski kisa odak pratikleri.
 // Kisa pratik: odak-nokta temelli konusma pratigi. Her odak tek bir yapiyi
 // olumlu/olumsuz/soru/farkli-kelime varyasyonlariyla calistirir. Karta dokun ->
 // pratik ekrani (dinle -> ses kaydi + opsiyonel video -> sirakadi varyasyon).
@@ -22,15 +24,31 @@ import { useScrollTopOnBlur } from '@/lib/useScrollTopOnBlur';
 export default function KonusmaScreen() {
   const [stats, setStats] = useState<Record<string, SpeakingFocusStat>>({});
   const [ladder, setLadder] = useState<Record<string, LadderSummary>>({});
+  const [focusKey, setFocusKey] = useState<string | null>(null);
+  const [openId, setOpenId] = useState<string | null>(null); // null = varsayilan konu, '' = hepsi kapali
   const scrollRef = useScrollTopOnBlur();
 
   useFocusEffect(
     useCallback(() => {
       setStats(getSpeakingStats());
       setLadder(getLadderSummary());
+      setFocusKey(getActiveFocus()?.key ?? null);
     }, []),
   );
 
+  const unlocked = useMemo(() => LADDER_TRACKS.map((_, i) => trackUnlocked(i, ladder)), [ladder]);
+  const defaultId = useMemo(() => {
+    const fi = focusKey ? LADDER_TRACKS.findIndex((t) => t.patterns.includes(focusKey)) : -1;
+    if (fi >= 0 && unlocked[fi]) return LADDER_TRACKS[fi].id;
+    let last = LADDER_TRACKS[0].id;
+    for (let i = 0; i < LADDER_TRACKS.length && unlocked[i]; i++) {
+      last = LADDER_TRACKS[i].id;
+      const p = trackProgress(LADDER_TRACKS[i], ladder);
+      if (p.done < p.total) break;
+    }
+    return last;
+  }, [focusKey, unlocked, ladder]);
+  const shownId = openId ?? defaultId;
 
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
@@ -39,37 +57,70 @@ export default function KonusmaScreen() {
 
         <FocusBadge />
 
-        {LADDER_TRACKS.map((track) => (
-          <View key={track.id} style={styles.list}>
-            <View>
-              <Text style={styles.secTitle}>{track.title}</Text>
-              <Text style={styles.secSub}>{track.subtitle}</Text>
-            </View>
-            {track.themes.map((t) => {
-              const sm = ladder[t.id];
-              const { label: step, frac } = ladderStep(t, sm?.byStage ?? {}, sm?.chainLen ?? 0);
-              return (
-                <Pressable
-                  key={t.id}
-                  style={styles.themeRow}
-                  onPress={() => router.push(`/speaking-ladder?theme=${encodeURIComponent(t.id)}`)}>
-                  <View style={styles.cardIcon}>
-                    <Ionicons name={t.icon} size={20} color={colors.accent} />
-                  </View>
-                  <View style={{ flex: 1, gap: 6 }}>
-                    <View style={styles.themeTop}>
-                      <Text style={styles.themeTitle}>{t.title}</Text>
-                      <Text style={styles.themeStep}>{step}</Text>
-                    </View>
-                    <View style={styles.bar}>
-                      <View style={[styles.barFill, { width: `${Math.round(frac * 100)}%` }]} />
-                    </View>
-                  </View>
-                </Pressable>
-              );
-            })}
+        <View style={styles.list}>
+          <View>
+            <Text style={styles.secTitle}>Konuşma merdiveni</Text>
+            <Text style={styles.secSub}>
+              Her tema 4 cümlelik gruplarla ilerler: dinle, boşluklu söyle, ilk harflerle söyle, Türkçesinden söyle.
+              Sonra hepsini art arda anlat.
+            </Text>
           </View>
-        ))}
+          {LADDER_TRACKS.map((track, i) => {
+            const open = unlocked[i] && track.id === shownId;
+            const prog = trackProgress(track, ladder);
+            const nextUp = !unlocked[i] && unlocked[i - 1];
+            return (
+              <View key={track.id} style={styles.track}>
+                <Pressable
+                  style={[styles.trackHead, !unlocked[i] && styles.trackLocked]}
+                  disabled={!unlocked[i]}
+                  onPress={() => setOpenId(open ? '' : track.id)}>
+                  <View style={{ flex: 1, gap: 2 }}>
+                    <Text style={styles.trackTitle}>{track.title}</Text>
+                    <Text style={styles.trackSub} numberOfLines={1}>
+                      {nextUp ? 'Önceki konu bitince açılır' : track.subtitle}
+                    </Text>
+                  </View>
+                  {unlocked[i] ? (
+                    <>
+                      <Text style={styles.trackCount}>
+                        {prog.done}/{prog.total}
+                      </Text>
+                      <Ionicons name={open ? 'chevron-up' : 'chevron-down'} size={18} color={colors.muted} />
+                    </>
+                  ) : (
+                    <Ionicons name="lock-closed" size={16} color={colors.muted} />
+                  )}
+                </Pressable>
+                {open
+                  ? track.themes.map((t) => {
+                      const sm = ladder[t.id];
+                      const { label: step, frac } = ladderStep(t, sm?.byStage ?? {}, sm?.chainLen ?? 0);
+                      return (
+                        <Pressable
+                          key={t.id}
+                          style={styles.themeRow}
+                          onPress={() => router.push(`/speaking-ladder?theme=${encodeURIComponent(t.id)}`)}>
+                          <View style={styles.cardIcon}>
+                            <Ionicons name={t.icon} size={20} color={colors.accent} />
+                          </View>
+                          <View style={{ flex: 1, gap: 6 }}>
+                            <View style={styles.themeTop}>
+                              <Text style={styles.themeTitle}>{t.title}</Text>
+                              <Text style={styles.themeStep}>{step}</Text>
+                            </View>
+                            <View style={styles.bar}>
+                              <View style={[styles.barFill, { width: `${Math.round(frac * 100)}%` }]} />
+                            </View>
+                          </View>
+                        </Pressable>
+                      );
+                    })
+                  : null}
+              </View>
+            );
+          })}
+        </View>
 
         <Text style={styles.secTitle}>Kısa pratikler</Text>
         <View style={styles.list}>
@@ -151,6 +202,19 @@ const styles = StyleSheet.create({
   list: { gap: space.md },
   secTitle: { fontSize: 17, fontWeight: '800', color: colors.ink, letterSpacing: -0.3 },
   secSub: { fontSize: 13, color: colors.muted, marginTop: 2, lineHeight: 19 },
+  track: { gap: space.sm },
+  trackHead: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: space.sm,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.line,
+    paddingVertical: space.sm,
+  },
+  trackLocked: { opacity: 0.55 },
+  trackTitle: { fontSize: 15, fontWeight: '800', color: colors.ink },
+  trackSub: { fontSize: 12, color: colors.muted },
+  trackCount: { fontSize: 12, fontWeight: '700', color: colors.muted },
   themeRow: {
     flexDirection: 'row',
     alignItems: 'center',

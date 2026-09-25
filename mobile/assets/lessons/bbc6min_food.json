@@ -371,6 +371,14 @@
       "chunks": [],
       "grammar": [
         {
+          "pattern": "many others",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 7,
+          "span_end": 18
+        },
+        {
           "pattern": "many",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -1021,7 +1029,16 @@
       "text_tr": "Kışın karbon emisyonları ve atıklar artıyor.",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "in winter",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 0,
+          "span_end": 9
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -1200,6 +1217,14 @@
           "norm_pattern": "passive_voice",
           "span_start": 15,
           "span_end": 29
+        },
+        {
+          "pattern": "at that time",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 50,
+          "span_end": 62
         },
         {
           "pattern": "which has been grown in their local area at that time of year",
@@ -1422,6 +1447,14 @@
           "norm_pattern": "future_will",
           "span_start": 71,
           "span_end": 78
+        },
+        {
+          "pattern": "in summer",
+          "note_tr": "Prepositions of Time",
+          "cefr": "A1",
+          "norm_pattern": "prepositions_time",
+          "span_start": 56,
+          "span_end": 65
         },
         {
           "pattern": "grow",
@@ -1726,7 +1759,16 @@
       "text_tr": "neyi satacaklarını ve meyve ve sebzeleri için ne kadar ücret alacaklarını seçebiliyorlar.",
       "cefr": "A2",
       "chunks": [],
-      "grammar": [],
+      "grammar": [
+        {
+          "pattern": "how much",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 27,
+          "span_end": 35
+        }
+      ],
       "vocab": [],
       "occurrences": [
         {
@@ -1788,6 +1830,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 32,
+          "span_end": 38
+        },
         {
           "pattern": "who wanted to make it easier for customers to buy local food",
           "note_tr": "Relative Clause",
@@ -2160,6 +2210,14 @@
           "norm_pattern": "used_to",
           "span_start": 4,
           "span_end": 16
+        },
+        {
+          "pattern": "have to sell",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
+          "span_start": 12,
+          "span_end": 24
         }
       ],
       "vocab": [],
@@ -2223,6 +2281,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 25,
+          "span_end": 29
+        },
         {
           "pattern": "how you call it, Carrados",
           "note_tr": "Embedded WH- Question",
@@ -2455,6 +2521,14 @@
       "grammar": [
         {
           "pattern": "wanted",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 23,
+          "span_end": 29
+        },
+        {
+          "pattern": "wanted",
           "note_tr": "Simple Past",
           "cefr": "A2",
           "norm_pattern": "simple_past",
@@ -2585,6 +2659,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "depended",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 16
+        },
         {
           "pattern": "depended",
           "note_tr": "Simple Past",
@@ -3799,6 +3881,14 @@
           "span_end": 49
         },
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 24,
+          "span_end": 28
+        },
+        {
           "pattern": "how people will keep their products",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -4057,12 +4147,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to calculate",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 46,
-          "span_end": 50
+          "span_end": 63
         }
       ],
       "vocab": [],
@@ -4167,6 +4257,14 @@
           "span_end": 53
         },
         {
+          "pattern": "know",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 19,
+          "span_end": 23
+        },
+        {
           "pattern": "which product is going to get stored at the wrong temperature",
           "note_tr": "Embedded WH- Question",
           "cefr": "B2",
@@ -4237,12 +4335,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "have",
-          "note_tr": "Simple Present",
-          "cefr": "A1",
-          "norm_pattern": "present_simple",
+          "pattern": "have to blanket",
+          "note_tr": "Must / Have to (Obligation)",
+          "cefr": "A2",
+          "norm_pattern": "modal_obligation",
           "span_start": 8,
-          "span_end": 12
+          "span_end": 23
         }
       ],
       "vocab": [],
@@ -4802,6 +4900,14 @@
       "cefr": "A2",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "means",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 12,
+          "span_end": 17
+        },
         {
           "pattern": "means",
           "note_tr": "Simple Present",

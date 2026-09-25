@@ -195,6 +195,14 @@
           "norm_pattern": "future_will",
           "span_start": 15,
           "span_end": 26
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 7,
+          "span_end": 12
         }
       ],
       "vocab": []
@@ -208,6 +216,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 8,
+          "span_end": 13
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
@@ -282,12 +298,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'s gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'s gonna be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 2,
-          "span_end": 8
+          "span_end": 13
         }
       ],
       "vocab": []
@@ -302,12 +318,12 @@
       "chunks": [],
       "grammar": [
         {
-          "pattern": "'s gon",
-          "note_tr": "Present Continuous",
-          "cefr": "A1",
-          "norm_pattern": "present_continuous",
+          "pattern": "'s gonna be",
+          "note_tr": "Future (be going to)",
+          "cefr": "A2",
+          "norm_pattern": "future_going_to",
           "span_start": 8,
-          "span_end": 14
+          "span_end": 19
         }
       ],
       "vocab": []
@@ -698,6 +714,14 @@
       "grammar": [
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 6,
+          "span_end": 11
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -793,6 +817,14 @@
           "norm_pattern": "present_continuous",
           "span_start": 9,
           "span_end": 20
+        },
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
         },
         {
           "pattern": "think",
@@ -1424,6 +1456,14 @@
         },
         {
           "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
+        {
+          "pattern": "think",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1764,6 +1804,14 @@
           "span_end": 9
         },
         {
+          "pattern": "few reaches",
+          "note_tr": "Countable / Uncountable Nouns",
+          "cefr": "A2",
+          "norm_pattern": "countable_uncountable",
+          "span_start": 12,
+          "span_end": 23
+        },
+        {
           "pattern": "few",
           "note_tr": "Quantifiers",
           "cefr": "A2",
@@ -1829,6 +1877,14 @@
       "grammar": [
         {
           "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 3,
+          "span_end": 7
+        },
+        {
+          "pattern": "need",
           "note_tr": "Simple Present",
           "cefr": "A1",
           "norm_pattern": "present_simple",
@@ -1847,6 +1903,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "need",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 3,
+          "span_end": 7
+        },
         {
           "pattern": "need",
           "note_tr": "Simple Present",
@@ -1878,6 +1942,14 @@
       "cefr": "B1",
       "chunks": [],
       "grammar": [
+        {
+          "pattern": "think",
+          "note_tr": "Stative Verbs",
+          "cefr": "A2",
+          "norm_pattern": "stative_verbs",
+          "span_start": 2,
+          "span_end": 7
+        },
         {
           "pattern": "think",
           "note_tr": "Simple Present",
