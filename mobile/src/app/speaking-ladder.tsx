@@ -28,10 +28,10 @@ import { persistTakeAudio, persistTakeVideo } from '@/lib/speaking/media';
 import { bestMatch, useLiveSpeech } from '@/lib/useLiveSpeech';
 import { alignWords, type WordStatus } from '@/lib/wordAlign';
 
-// KONUSMA MERDIVENI: tema 4'er cumlelik GRUPLARA bolunur; her grup dort basamakta,
-// metin giderek silinerek calisilir:
-// Dinle (EN+TR, cumle calinir) -> Bosluk (anahtar kelimeler gizli) -> Ipucu (yalniz
-// ilk harfler) -> Turkce (yalniz TR, EN aklindan). Grup bitince sonraki grup acilir.
+// KONUSMA MERDIVENI: tema 4'er cumlelik GRUPLARA bolunur; her grup iki basamakta,
+// bosluk doldurma OLMADAN, cumle her zaman tam gorunerek calisilir:
+// Dinle (EN+TR, cumle calinir, tekrar edilir) -> Turkce (yalniz TR gorunur, EN
+// aklindan uretilip soylenir). Grup bitince sonraki grup acilir.
 // Zincir: bitmis gruplarin cumleleri TR ipuclariyla ART ARDA soylenir; basarida +2 uzar.
 // Degerlendirme otomatik (cihaz ici tanima + kelime hizalama); %80 ve ustu gecer.
 const PASS = 80;
@@ -158,20 +158,9 @@ export default function SpeakingLadder() {
   );
 }
 
-// Basamaga gore kelimenin gorunumu: Bosluk'ta 4+ harfli kelimeler gizli, Ipucu'nda
-// yalniz ilk harf. Dogru soylenen kelime hemen acilir.
-function maskWord(w: string, stage: LadderStageId): string | null {
-  const letters = w.replace(/[^A-Za-z']/g, '');
-  if (stage === 3) return letters.length >= 4 ? w.replace(/[A-Za-z']/g, '_') : null;
-  if (stage === 4) {
-    const first = w.search(/[A-Za-z]/);
-    return w.replace(/[A-Za-z']/g, (ch, i: number) => (i === first ? ch : '_'));
-  }
-  return null;
-}
-
 // ---------------------------------------------------------------------------
-// Grup icinde cumle cumle (Dinle / Bosluk / Ipucu / Turkce).
+// Grup icinde cumle cumle (Dinle / Turkce). Bosluk doldurma yok; her basamakta
+// cumle tam gorunur, hedef dogru soylemek.
 function Drill({
   theme,
   list,
@@ -323,12 +312,9 @@ function Drill({
           <Text style={stage === 2 ? styles.en : styles.enBig}>
             {words.map((w, i) => {
               const s = status[i];
-              const masked = !result && s !== 'ok' ? maskWord(w, stage) : null;
               return (
-                <Text
-                  key={i}
-                  style={s === 'ok' ? styles.ok : s === 'wrong' ? styles.bad : masked ? styles.mask : undefined}>
-                  {masked ?? w}
+                <Text key={i} style={s === 'ok' ? styles.ok : s === 'wrong' ? styles.bad : undefined}>
+                  {w}
                   {i < words.length - 1 ? ' ' : ''}
                 </Text>
               );
@@ -546,7 +532,6 @@ const styles = StyleSheet.create({
   trBig: { fontSize: 22, fontWeight: '800', color: colors.ink, lineHeight: 30 },
   tr: { fontSize: 15, color: colors.muted },
   ok: { color: colors.success },
-  mask: { color: colors.muted, letterSpacing: 1 },
   bad: { color: colors.danger },
   heard: { fontSize: 13, color: colors.muted, fontStyle: 'italic', textAlign: 'center' },
 

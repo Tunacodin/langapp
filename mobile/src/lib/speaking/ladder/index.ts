@@ -54,12 +54,11 @@ export function getLadderTheme(id: string | null | undefined): LadderTheme | nul
   return null;
 }
 
-// Basamaklar (ekran sirasi). id'ler DB'de saklanir: 2 Turkceden sonradan en sona
-// alindi; eski kayitlar bozulmasin diye id degil sira degisti.
+// Basamaklar (ekran sirasi). id'ler DB'de saklanir; Bosluk (3) ve Ipucu (4)
+// kaldirildi (bosluk doldurma yerine dogrudan uretim) ama eski kayitlarla
+// uyum icin id'ler degistirilmedi.
 export const LADDER_STAGES = [
   { id: 1, label: 'Dinle', done: 'Dinleme tamam' },
-  { id: 3, label: 'Boşluk', done: 'Boşluklu söyleme tamam' },
-  { id: 4, label: 'İpucu', done: 'İlk harflerle söyleme tamam' },
   { id: 2, label: 'Türkçe', done: 'Türkçeden söyleme tamam' },
 ] as const;
 export type LadderStageId = (typeof LADDER_STAGES)[number]['id'];
@@ -83,7 +82,7 @@ export function ladderStep(theme: LadderTheme, byStage: Record<number, number>, 
   if (turkce >= n) return { label: chainLen >= n ? 'Tamamlandı' : `Zincir ${Math.max(chainLen, 3)}/${n}`, frac };
   const g = Math.min(sets, Math.floor(turkce / SET_SIZE) + 1);
   const cap = Math.min(n, g * SET_SIZE);
-  const st = LADDER_STAGES.find((s) => (byStage[s.id] ?? 0) < cap) ?? LADDER_STAGES[3];
+  const st = LADDER_STAGES.find((s) => (byStage[s.id] ?? 0) < cap) ?? LADDER_STAGES[LADDER_STAGES.length - 1];
   return { label: `${g}. grup · ${st.label}`, frac };
 }
 
