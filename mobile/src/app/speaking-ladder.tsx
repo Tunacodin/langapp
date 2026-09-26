@@ -306,7 +306,7 @@ function Drill({
           </View>
         </View>
 
-        {stage === 2 ? <Text style={styles.trBig}>{cur.tr}</Text> : null}
+        {stage === 2 ? <Text style={styles.trBig}>{cur.cue ?? cur.tr}</Text> : null}
 
         {stage !== 2 || result ? (
           <Text style={stage === 2 ? styles.en : styles.enBig}>
@@ -321,6 +321,8 @@ function Drill({
             })}
           </Text>
         ) : null}
+
+        {stage === 2 && result ? <Text style={styles.tr}>{cur.tr}</Text> : null}
 
         {stage === 1 ? <Text style={styles.tr}>{cur.tr}</Text> : null}
 
