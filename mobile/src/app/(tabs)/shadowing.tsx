@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { FocusBadge } from '@/components/focus-badge';
 import { ScreenHeader } from '@/components/screen-header';
-import { colors, space } from '@/constants/appTheme';
+import { colors, radius, space } from '@/constants/appTheme';
 import { getActiveFocus, getLadderSummary, getSpeakingStats, LadderSummary, SpeakingFocusStat } from '@/lib/db';
 import { SPEAKING_FOCUS } from '@/lib/speaking';
 import { LADDER_TRACKS, ladderStep, trackProgress, trackUnlocked } from '@/lib/speaking/ladder';
@@ -188,42 +188,41 @@ const styles = StyleSheet.create({
   secTitle: { fontSize: 17, fontWeight: '800', color: colors.ink, letterSpacing: -0.3 },
   secSub: { fontSize: 13, color: colors.muted, marginTop: 2, lineHeight: 19 },
   track: { gap: space.sm },
-  // Konu basligi: kalin murekkep alt cizgi, kose/golge yok.
   trackHead: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: space.sm,
-    borderBottomWidth: 2,
-    borderBottomColor: colors.ink,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.line,
     paddingVertical: space.sm,
   },
-  trackLocked: { opacity: 0.45, borderBottomColor: colors.lineStrong },
+  trackLocked: { opacity: 0.55 },
   trackTitle: { fontSize: 15, fontWeight: '800', color: colors.ink },
   trackSub: { fontSize: 12, color: colors.muted },
-  trackCount: { fontSize: 12, fontWeight: '800', color: colors.ink, letterSpacing: 0.5 },
-  // Liste cercevesi: tek kalin cerceve, satirlar ince cizgiyle ayrilir.
-  frame: { borderWidth: 2, borderColor: colors.ink },
-  rowLast: { borderBottomWidth: 0 },
+  trackCount: { fontSize: 12, fontWeight: '700', color: colors.muted },
+  // Liste: ayri kartlar arasinda bosluk (uygulama geneli kart dili).
+  frame: { gap: space.sm },
+  rowLast: {},
   themeRow: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: space.md,
-    borderBottomWidth: 1,
-    borderBottomColor: colors.line,
+    borderWidth: 1,
+    borderColor: colors.line,
+    borderRadius: radius.md,
     padding: space.md,
   },
   themeTop: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space.sm },
   themeTitle: { flex: 1, fontSize: 15, fontWeight: '800', color: colors.ink },
   themeStep: { fontSize: 12, fontWeight: '700', color: colors.muted },
-  bar: { height: 5, backgroundColor: colors.line },
-  barFill: { height: 5, backgroundColor: colors.accent },
-  card: { borderBottomWidth: 1, borderBottomColor: colors.line, padding: space.lg, gap: space.sm },
+  bar: { height: 4, borderRadius: 2, backgroundColor: colors.line, overflow: 'hidden' },
+  barFill: { height: 4, backgroundColor: colors.accent },
+  card: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.md, padding: space.lg, gap: space.sm },
   cardTop: { flexDirection: 'row', alignItems: 'center', gap: space.sm },
   cardIcon: {
     width: 40,
     height: 40,
-    borderWidth: 2,
-    borderColor: colors.ink,
+    borderRadius: radius.sm,
     backgroundColor: colors.accentSoft,
     alignItems: 'center',
     justifyContent: 'center',
@@ -232,26 +231,24 @@ const styles = StyleSheet.create({
   cardTag: { fontSize: 12, color: colors.muted, fontWeight: '600', marginTop: 1 },
   cardGoal: { fontSize: 13, color: colors.muted, lineHeight: 19 },
   cardFoot: { flexDirection: 'row', alignItems: 'center', gap: space.sm, flexWrap: 'wrap' },
-  // Etiketler: kapsul degil, ince cerceveli kare.
   metaPill: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
-    borderWidth: 1,
-    borderColor: colors.lineStrong,
-    paddingHorizontal: 8,
-    paddingVertical: 3,
+    backgroundColor: colors.surface,
+    borderRadius: radius.pill,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
   },
   metaText: { fontSize: 11, fontWeight: '700', color: colors.muted },
   historyPill: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
-    borderWidth: 1,
-    borderColor: colors.accent,
     backgroundColor: colors.accentSoft,
-    paddingHorizontal: 8,
-    paddingVertical: 3,
+    borderRadius: radius.pill,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
   },
   historyText: { fontSize: 11, fontWeight: '800', color: colors.accent },
   newText: { fontSize: 11, fontWeight: '700', color: colors.accent },

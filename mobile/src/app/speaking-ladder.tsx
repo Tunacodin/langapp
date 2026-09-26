@@ -6,7 +6,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { colors, space } from '@/constants/appTheme';
+import { Segmented } from '@/components/segmented';
+import { colors, radius, space } from '@/constants/appTheme';
 import {
   addSpeakingTake,
   getLadderState,
@@ -85,11 +86,11 @@ export default function SpeakingLadder() {
       </View>
 
       <View style={styles.tabs}>
-        {tabs.map((t) => (
-          <Pressable key={t.k} style={[styles.tab, mode === t.k && styles.tabOn]} onPress={() => setMode(t.k)}>
-            <Text style={[styles.tabText, mode === t.k && styles.tabTextOn]}>{t.label}</Text>
-          </Pressable>
-        ))}
+        <Segmented
+          options={tabs.map((t) => ({ key: t.k, label: t.label }))}
+          value={mode}
+          onChange={(k) => setMode(k as Mode)}
+        />
       </View>
 
       {mode === 'chain' ? (
@@ -253,7 +254,7 @@ function Drill({
 
       <View style={styles.micWrap}>
         <Pressable style={[styles.mic, live.listening && styles.micOn]} onPress={onMic}>
-          <Ionicons name={live.listening ? 'stop' : 'mic'} size={30} color={live.listening ? '#fff' : colors.accent} />
+          <Ionicons name={live.listening ? 'stop' : 'mic'} size={30} color="#fff" />
         </Pressable>
         {result ? (
           <Text style={[styles.resultText, { color: result.pass ? colors.success : colors.danger }]}>
@@ -385,7 +386,7 @@ function Chain({ theme, st, onSaved }: { theme: LadderTheme; st: LadderState; on
           style={[styles.mic, listening && styles.micOn]}
           onPress={listening ? finish : start}
           disabled={saving}>
-          <Ionicons name={listening ? 'stop' : 'mic'} size={30} color={listening ? '#fff' : colors.accent} />
+          <Ionicons name={listening ? 'stop' : 'mic'} size={30} color="#fff" />
         </Pressable>
         {result ? (
           <Text style={[styles.sub, { color: result.pass ? colors.success : colors.danger }]}>
@@ -428,49 +429,50 @@ const styles = StyleSheet.create({
     paddingHorizontal: space.xl,
     paddingTop: space.md,
     paddingBottom: space.md,
-    borderBottomWidth: 2,
-    borderBottomColor: colors.ink,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.line,
   },
-  headTitle: { flex: 1, fontSize: 16, fontWeight: '800', color: colors.ink, letterSpacing: 0.4, textTransform: 'uppercase' },
+  headTitle: { flex: 1, fontSize: 17, fontWeight: '800', color: colors.ink, letterSpacing: -0.3 },
 
-  // Ust sekmeler: kare, murekkep cizgili; secili olan dolu.
-  tabs: { flexDirection: 'row', marginHorizontal: space.xl, marginTop: space.md, borderWidth: 2, borderColor: colors.ink },
-  tab: { flex: 1, paddingVertical: space.sm, alignItems: 'center' },
-  tabOn: { backgroundColor: colors.ink },
-  tabText: { fontSize: 13, fontWeight: '800', color: colors.ink, letterSpacing: 0.3 },
-  tabTextOn: { color: '#fff' },
+  tabs: { marginHorizontal: space.xl, marginTop: space.md },
 
   content: { padding: space.xl, gap: space.lg, paddingBottom: space.xxl },
 
   h1: { fontSize: 20, fontWeight: '800', color: colors.ink, textAlign: 'center' },
   sub: { fontSize: 13, color: colors.muted, lineHeight: 19 },
 
-  // Ilerleme: kare cetvel cizgileri.
   ticks: { flexDirection: 'row', gap: 3 },
-  tick: { flex: 1, height: 5, backgroundColor: colors.line },
+  tick: { flex: 1, height: 4, borderRadius: 2, backgroundColor: colors.line },
   tickDone: { backgroundColor: colors.success },
-  tickCur: { backgroundColor: colors.ink },
+  tickCur: { backgroundColor: colors.accent },
 
-  // Kart: keskin kose, golgesiz, kalin murekkep cercevesi.
-  card: { borderWidth: 2, borderColor: colors.ink, gap: space.md, paddingBottom: space.lg },
+  // Uygulama geneli kart dili: yuvarlak kose, ince kenarlik, golge yok.
+  card: {
+    borderWidth: 1,
+    borderColor: colors.line,
+    borderRadius: radius.lg,
+    overflow: 'hidden',
+    gap: space.md,
+    paddingBottom: space.lg,
+  },
   cardTop: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: space.lg,
     paddingVertical: space.sm,
-    borderBottomWidth: 2,
-    borderBottomColor: colors.ink,
-    backgroundColor: colors.accentSoft,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.line,
+    backgroundColor: colors.surface,
   },
   cardIcons: { flexDirection: 'row', alignItems: 'center', gap: space.lg },
-  count: { fontSize: 13, fontWeight: '800', color: colors.ink, letterSpacing: 1 },
+  count: { fontSize: 13, fontWeight: '700', color: colors.muted },
   cue: { fontSize: 24, fontWeight: '800', color: colors.ink, lineHeight: 32, paddingHorizontal: space.lg },
   reveal: {
     gap: space.xs,
     marginHorizontal: space.lg,
     paddingTop: space.md,
-    borderTopWidth: 1.5,
+    borderTopWidth: 1,
     borderTopColor: colors.line,
   },
   en: { fontSize: 18, fontWeight: '700', color: colors.ink, lineHeight: 26 },
@@ -486,23 +488,22 @@ const styles = StyleSheet.create({
   },
 
   micWrap: { alignItems: 'center', gap: space.sm },
-  // Mikrofon: yuvarlak degil, kalin kenarlikli kare.
   mic: {
     width: 84,
     height: 84,
-    borderWidth: 2,
-    borderColor: colors.ink,
-    backgroundColor: colors.accentSoft,
+    borderRadius: radius.pill,
+    backgroundColor: colors.accent,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  micOn: { backgroundColor: colors.danger, borderColor: colors.danger },
+  micOn: { backgroundColor: colors.danger },
   resultText: { fontSize: 22, fontWeight: '800' },
   err: { fontSize: 12, color: colors.danger, textAlign: 'center' },
 
   doneMark: {
     width: 56,
     height: 56,
+    borderRadius: radius.pill,
     backgroundColor: colors.success,
     alignItems: 'center',
     justifyContent: 'center',
@@ -512,8 +513,9 @@ const styles = StyleSheet.create({
   camBox: {
     width: 96,
     height: 128,
-    borderWidth: 2,
-    borderColor: colors.ink,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: colors.line,
     overflow: 'hidden',
     backgroundColor: colors.surface,
     alignItems: 'center',
@@ -521,26 +523,27 @@ const styles = StyleSheet.create({
   },
   chainTitle: { fontSize: 16, fontWeight: '800', color: colors.ink },
   resultInline: { fontSize: 20, fontWeight: '800', color: colors.accent },
-  // Zincir listesi: tek cerceve, satirlar ince cizgiyle ayrilir.
-  chainList: { borderWidth: 2, borderColor: colors.ink },
+  chainList: { gap: space.sm },
   chainRow: {
     flexDirection: 'row',
     gap: space.md,
     alignItems: 'center',
     padding: space.md,
-    borderBottomWidth: 1,
-    borderBottomColor: colors.line,
+    borderWidth: 1,
+    borderColor: colors.line,
+    borderRadius: radius.md,
   },
-  chainNumBox: { width: 22, height: 22, alignItems: 'center', justifyContent: 'center' },
+  chainNumBox: { width: 22, height: 22, borderRadius: radius.pill, alignItems: 'center', justifyContent: 'center' },
   chainNum: { fontSize: 12, fontWeight: '800', color: '#fff' },
   chainTr: { fontSize: 15, fontWeight: '700', color: colors.ink, lineHeight: 21 },
   chainEn: { fontSize: 13, color: colors.muted, lineHeight: 18 },
 
   primaryBtn: {
-    backgroundColor: colors.ink,
+    backgroundColor: colors.accent,
+    borderRadius: radius.md,
     paddingVertical: space.md,
     paddingHorizontal: space.xl,
     marginTop: space.sm,
   },
-  primaryText: { color: '#fff', fontWeight: '800', fontSize: 15, letterSpacing: 0.3 },
+  primaryText: { color: '#fff', fontWeight: '800', fontSize: 15 },
 });
