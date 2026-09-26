@@ -7,7 +7,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Segmented } from '@/components/segmented';
-import { colors, radius, space } from '@/constants/appTheme';
+import { colors, space } from '@/constants/appTheme';
 import {
   addSpeakingTake,
   getLadderState,
@@ -258,7 +258,9 @@ function Drill({
     const label = LADDER_STAGES.find((x) => x.id === stage)?.done ?? 'Tamam';
     return (
       <View style={styles.center}>
-        <Ionicons name="checkmark-circle" size={56} color={colors.success} />
+        <View style={styles.doneMark}>
+          <Ionicons name="checkmark" size={28} color="#fff" />
+        </View>
         <Text style={styles.h1}>{label}</Text>
         <Text style={styles.sub}>
           {!lastStage
@@ -278,20 +280,29 @@ function Drill({
 
   const words = result ? match.words : cur.en.split(/\s+/);
   const status: WordStatus[] = match.status;
+  const stageLabel = stage === 1 ? 'DİNLE' : 'TÜRKÇE';
+  const stageTone = stage === 1 ? colors.teal : colors.accent;
 
   return (
     <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-      <View style={styles.dots}>
+      <View style={styles.ticks}>
         {list.map((s, i) => (
-          <View key={s.key} style={[styles.dot, donePass.has(s.key) && styles.dotDone, i === idx && styles.dotCur]} />
+          <View
+            key={s.key}
+            style={[styles.tick, donePass.has(s.key) && styles.tickDone, i === idx && styles.tickCur]}
+          />
         ))}
       </View>
 
       <View style={styles.card}>
+        <View style={[styles.cardBar, { backgroundColor: stageTone }]} />
         <View style={styles.cardTop}>
-          <Text style={styles.count}>
-            {idx + 1} / {list.length}
-          </Text>
+          <View style={styles.cardTopLeft}>
+            <Text style={[styles.stageTag, { color: stageTone, borderColor: stageTone }]}>{stageLabel}</Text>
+            <Text style={styles.count}>
+              {idx + 1}/{list.length}
+            </Text>
+          </View>
           <View style={styles.cardIcons}>
             {stage === 1 || result ? (
               <Pressable
@@ -493,8 +504,10 @@ function Chain({
 function ChainRow({ n, s, pct, reveal }: { n: number; s: LadderSentence; pct: number | null; reveal: boolean }) {
   const tone = pct == null ? colors.line : pct >= PASS ? colors.success : pct > 0 ? colors.warning : colors.line;
   return (
-    <View style={[styles.chainRow, { borderLeftColor: tone }]}>
-      <Text style={styles.chainNum}>{n}</Text>
+    <View style={styles.chainRow}>
+      <View style={[styles.chainNumBox, { backgroundColor: tone === colors.line ? colors.ink : tone }]}>
+        <Text style={styles.chainNum}>{n}</Text>
+      </View>
       <View style={{ flex: 1, gap: 2 }}>
         <Text style={styles.chainTr}>{s.tr}</Text>
         {reveal ? <Text style={styles.chainEn}>{s.en}</Text> : null}
@@ -512,38 +525,66 @@ const styles = StyleSheet.create({
     gap: space.md,
     paddingHorizontal: space.xl,
     paddingTop: space.md,
+    paddingBottom: space.md,
+    borderBottomWidth: 2,
+    borderBottomColor: colors.ink,
   },
-  headTitle: { flex: 1, fontSize: 17, fontWeight: '800', color: colors.ink },
+  headTitle: { flex: 1, fontSize: 16, fontWeight: '800', color: colors.ink, letterSpacing: 0.4, textTransform: 'uppercase' },
   seg: { paddingHorizontal: space.xl, paddingTop: space.md, gap: space.sm },
   content: { padding: space.xl, gap: space.lg, paddingBottom: space.xxl },
 
   h1: { fontSize: 20, fontWeight: '800', color: colors.ink, textAlign: 'center' },
   sub: { fontSize: 13, color: colors.muted, lineHeight: 19 },
 
-  dots: { flexDirection: 'row', gap: 4 },
-  dot: { flex: 1, height: 4, borderRadius: 2, backgroundColor: colors.line },
-  dotDone: { backgroundColor: colors.success },
-  dotCur: { backgroundColor: colors.accent },
+  // Ilerleme: yuvarlak nokta yerine kare cetvel cizgileri.
+  ticks: { flexDirection: 'row', gap: 3 },
+  tick: { flex: 1, height: 5, backgroundColor: colors.line },
+  tickDone: { backgroundColor: colors.success },
+  tickCur: { backgroundColor: colors.ink },
 
-  card: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.lg, padding: space.lg, gap: space.sm },
-  cardTop: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  cardIcons: { flexDirection: 'row', alignItems: 'center', gap: space.lg },
-  count: { fontSize: 12, fontWeight: '800', color: colors.muted },
-  enBig: { fontSize: 22, fontWeight: '800', color: colors.ink, lineHeight: 30 },
-  en: { fontSize: 18, fontWeight: '700', color: colors.ink, lineHeight: 26 },
-  trBig: { fontSize: 22, fontWeight: '800', color: colors.ink, lineHeight: 30 },
-  tr: { fontSize: 15, color: colors.muted },
+  // Kart: keskin kose, golgesiz, ust kenarda asama rengini gosteren duz bir serit.
+  card: { borderWidth: 2, borderColor: colors.ink, gap: space.sm, overflow: 'hidden' },
+  cardBar: { height: 4, marginHorizontal: -space.lg, marginTop: -space.lg },
+  cardTop: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: space.lg,
+    paddingTop: space.md,
+  },
+  cardTopLeft: { flexDirection: 'row', alignItems: 'center', gap: space.sm },
+  cardIcons: { flexDirection: 'row', alignItems: 'center', gap: space.lg, paddingHorizontal: space.lg },
+  stageTag: {
+    fontSize: 11,
+    fontWeight: '800',
+    letterSpacing: 0.6,
+    borderWidth: 1.5,
+    paddingVertical: 2,
+    paddingHorizontal: 6,
+  },
+  count: { fontSize: 12, fontWeight: '700', color: colors.muted },
+  enBig: { fontSize: 22, fontWeight: '800', color: colors.ink, lineHeight: 30, paddingHorizontal: space.lg },
+  en: { fontSize: 18, fontWeight: '700', color: colors.ink, lineHeight: 26, paddingHorizontal: space.lg },
+  trBig: { fontSize: 22, fontWeight: '800', color: colors.ink, lineHeight: 30, paddingHorizontal: space.lg },
+  tr: { fontSize: 15, color: colors.muted, paddingHorizontal: space.lg },
   ok: { color: colors.success },
   bad: { color: colors.danger },
-  heard: { fontSize: 13, color: colors.muted, fontStyle: 'italic', textAlign: 'center' },
+  heard: {
+    fontSize: 13,
+    color: colors.muted,
+    fontStyle: 'italic',
+    textAlign: 'center',
+    paddingHorizontal: space.lg,
+    paddingBottom: space.md,
+  },
 
   micWrap: { alignItems: 'center', gap: space.sm },
+  // Mikrofon: yuvarlak degil, kalin kenarlikli kare.
   mic: {
     width: 84,
     height: 84,
-    borderRadius: 42,
     borderWidth: 2,
-    borderColor: colors.accent,
+    borderColor: colors.ink,
     backgroundColor: colors.accentSoft,
     alignItems: 'center',
     justifyContent: 'center',
@@ -552,11 +593,20 @@ const styles = StyleSheet.create({
   resultText: { fontSize: 22, fontWeight: '800' },
   err: { fontSize: 12, color: colors.danger, textAlign: 'center' },
 
+  doneMark: {
+    width: 56,
+    height: 56,
+    backgroundColor: colors.success,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
   camRow: { flexDirection: 'row', gap: space.md, alignItems: 'center' },
   camBox: {
     width: 96,
     height: 128,
-    borderRadius: radius.md,
+    borderWidth: 2,
+    borderColor: colors.ink,
     overflow: 'hidden',
     backgroundColor: colors.surface,
     alignItems: 'center',
@@ -567,22 +617,21 @@ const styles = StyleSheet.create({
   chainRow: {
     flexDirection: 'row',
     gap: space.md,
-    borderWidth: 1,
+    alignItems: 'center',
+    borderWidth: 1.5,
     borderColor: colors.line,
-    borderLeftWidth: 4,
-    borderRadius: radius.sm,
     padding: space.md,
   },
-  chainNum: { fontSize: 13, fontWeight: '800', color: colors.muted, width: 18 },
+  chainNumBox: { width: 22, height: 22, alignItems: 'center', justifyContent: 'center' },
+  chainNum: { fontSize: 12, fontWeight: '800', color: '#fff' },
   chainTr: { fontSize: 15, fontWeight: '700', color: colors.ink, lineHeight: 21 },
   chainEn: { fontSize: 13, color: colors.muted, lineHeight: 18 },
 
   primaryBtn: {
-    backgroundColor: colors.accent,
-    borderRadius: radius.md,
+    backgroundColor: colors.ink,
     paddingVertical: space.md,
     paddingHorizontal: space.xl,
     marginTop: space.sm,
   },
-  primaryText: { color: '#fff', fontWeight: '800', fontSize: 15 },
+  primaryText: { color: '#fff', fontWeight: '800', fontSize: 15, letterSpacing: 0.3 },
 });
