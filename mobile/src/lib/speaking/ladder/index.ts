@@ -19,7 +19,7 @@ import { PRESENT_SIMPLE_THEMES } from './present-simple';
 import { RELATIVE_CLAUSES_THEMES } from './relative-clauses';
 import { USED_TO_THEMES } from './used-to';
 import { WILL_THEMES } from './will';
-import type { LadderSentence, LadderTheme } from './types';
+import type { LadderTheme } from './types';
 
 export * from './types';
 
@@ -54,42 +54,23 @@ export function getLadderTheme(id: string | null | undefined): LadderTheme | nul
   return null;
 }
 
-// Basamaklar (ekran sirasi). id'ler DB'de saklanir; Bosluk (3) ve Ipucu (4)
-// kaldirildi (bosluk doldurma yerine dogrudan uretim) ama eski kayitlarla
-// uyum icin id'ler degistirilmedi.
-export const LADDER_STAGES = [
-  { id: 1, label: 'Dinle', done: 'Dinleme tamam' },
-  { id: 2, label: 'Türkçe', done: 'Türkçeden söyleme tamam' },
-] as const;
-export type LadderStageId = (typeof LADDER_STAGES)[number]['id'];
+// Tek akis: grup/basamak yok. Her cumle ipucundan (cue) uretilip soylenir;
+// gecenler DB'de stage=2 ile saklanir (eski kayitlarla uyum). Sonra zincir.
+export const PRODUCE_STAGE = 2;
 
-// Tema 4'er cumlelik gruplara bolunur; bir grup tum basamaklari bitirmeden
-// sonraki grup acilmaz. Zincir, bitmis gruplarin cumleleriyle buyur.
-export const SET_SIZE = 4;
-export function ladderSets(theme: LadderTheme): LadderSentence[][] {
-  const out: LadderSentence[][] = [];
-  for (let i = 0; i < theme.sentences.length; i += SET_SIZE) out.push(theme.sentences.slice(i, i + SET_SIZE));
-  return out;
-}
-
-// Sekme listesi icin ozet etiket + ilerleme orani (sayimlardan; gruplar sirali bittigi icin yeterli).
+// Sekme listesi icin ozet etiket + ilerleme orani (cumleler + zincir).
 export function ladderStep(theme: LadderTheme, byStage: Record<number, number>, chainLen: number) {
   const n = theme.sentences.length;
-  const sets = Math.ceil(n / SET_SIZE);
-  const turkce = byStage[2] ?? 0;
-  const total = LADDER_STAGES.reduce((a, s) => a + (byStage[s.id] ?? 0), 0) + Math.min(chainLen, n);
-  const frac = total / (n * (LADDER_STAGES.length + 1));
-  if (turkce >= n) return { label: chainLen >= n ? 'Tamamlandı' : `Zincir ${Math.max(chainLen, 3)}/${n}`, frac };
-  const g = Math.min(sets, Math.floor(turkce / SET_SIZE) + 1);
-  const cap = Math.min(n, g * SET_SIZE);
-  const st = LADDER_STAGES.find((s) => (byStage[s.id] ?? 0) < cap) ?? LADDER_STAGES[LADDER_STAGES.length - 1];
-  return { label: `${g}. grup · ${st.label}`, frac };
+  const said = Math.min(n, byStage[PRODUCE_STAGE] ?? 0);
+  const frac = (said + Math.min(chainLen, n)) / (n * 2);
+  if (said >= n) return { label: chainLen >= n ? 'Tamamlandı' : `Zincir ${Math.max(chainLen, 3)}/${n}`, frac };
+  return { label: `${said}/${n} cümle`, frac };
 }
 
 // Tema bitti = tum cumleler Turkceden soylendi + zincir tam uzunlukta.
 export function themeDone(theme: LadderTheme, byStage: Record<number, number>, chainLen: number): boolean {
   const n = theme.sentences.length;
-  return (byStage[2] ?? 0) >= n && chainLen >= n;
+  return (byStage[PRODUCE_STAGE] ?? 0) >= n && chainLen >= n;
 }
 
 type Summary = Record<string, { byStage: Record<number, number>; chainLen: number }>;
