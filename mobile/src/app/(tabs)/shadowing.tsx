@@ -9,7 +9,7 @@ import { ScreenHeader } from '@/components/screen-header';
 import { colors, radius, space } from '@/constants/appTheme';
 import { getActiveFocus, getLadderSummary, getSpeakingStats, LadderSummary, SpeakingFocusStat } from '@/lib/db';
 import { SPEAKING_FOCUS } from '@/lib/speaking';
-import { LADDER_TRACKS, ladderStep, trackProgress, trackUnlocked } from '@/lib/speaking/ladder';
+import { chainKey, LADDER_TRACKS, ladderStep, themeUnlocked, trackProgress, trackUnlocked } from '@/lib/speaking/ladder';
 import { useScrollTopOnBlur } from '@/lib/useScrollTopOnBlur';
 
 // KONUSMA: ustte KONUSMA MERDIVENI (gramer konusu -> temalar; her tema tek akis:
@@ -95,11 +95,13 @@ export default function KonusmaScreen() {
                   <View style={styles.frame}>
                     {track.themes.map((t, k) => {
                       const sm = ladder[t.id];
-                      const { label: step, frac } = ladderStep(t, sm?.byStage ?? {}, sm?.chainLen ?? 0);
+                      const { label: step, frac } = ladderStep(t, sm?.byStage ?? {});
+                      const tOpen = themeUnlocked(track, k, ladder);
                       return (
                         <Pressable
                           key={t.id}
-                          style={[styles.themeRow, k === track.themes.length - 1 && styles.rowLast]}
+                          disabled={!tOpen}
+                          style={[styles.themeRow, !tOpen && styles.trackLocked]}
                           onPress={() => router.push(`/speaking-ladder?theme=${encodeURIComponent(t.id)}`)}>
                           <View style={styles.cardIcon}>
                             <Ionicons name={t.icon} size={20} color={colors.accent} />
@@ -116,6 +118,21 @@ export default function KonusmaScreen() {
                         </Pressable>
                       );
                     })}
+                    {(ladder[track.themes[0].id]?.byStage[2] ?? 0) > 0 ? (
+                      <Pressable
+                        style={styles.themeRow}
+                        onPress={() => router.push(`/speaking-ladder?chain=${encodeURIComponent(track.id)}`)}>
+                        <View style={styles.cardIcon}>
+                          <Ionicons name="link-outline" size={20} color={colors.accent} />
+                        </View>
+                        <View style={[styles.themeTop, { flex: 1 }]}>
+                          <Text style={styles.themeTitle}>Zincir</Text>
+                          <Text style={styles.themeStep}>
+                            {Math.max(3, ladder[chainKey(track.id)]?.chainLen ?? 0)} cümle art arda
+                          </Text>
+                        </View>
+                      </Pressable>
+                    ) : null}
                   </View>
                 ) : null}
               </View>

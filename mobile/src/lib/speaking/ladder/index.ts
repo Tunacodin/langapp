@@ -54,33 +54,41 @@ export function getLadderTheme(id: string | null | undefined): LadderTheme | nul
   return null;
 }
 
-// Tek akis: grup/basamak yok. Her cumle ipucundan (cue) uretilip soylenir;
-// gecenler DB'de stage=2 ile saklanir (eski kayitlarla uyum). Sonra zincir.
-export const PRODUCE_STAGE = 2;
-
-// Sekme listesi icin ozet etiket + ilerleme orani (cumleler + zincir).
-export function ladderStep(theme: LadderTheme, byStage: Record<number, number>, chainLen: number) {
-  const n = theme.sentences.length;
-  const said = Math.min(n, byStage[PRODUCE_STAGE] ?? 0);
-  const frac = (said + Math.min(chainLen, n)) / (n * 2);
-  if (said >= n) return { label: chainLen >= n ? 'Tamamlandı' : `Zincir ${Math.max(chainLen, 3)}/${n}`, frac };
-  return { label: `${said}/${n} cümle`, frac };
+export function getLadderTrack(id: string | null | undefined): LadderTrack | null {
+  return LADDER_TRACKS.find((t) => t.id === id) ?? null;
 }
 
-// Tema bitti = tum cumleler Turkceden soylendi + zincir tam uzunlukta.
-export function themeDone(theme: LadderTheme, byStage: Record<number, number>, chainLen: number): boolean {
+// Her cumle ipucundan (cue) uretilip soylenir; gecenler DB'de stage=2 ile
+// saklanir (eski kayitlarla uyum). Zincir tema degil KONU seviyesindedir.
+export const PRODUCE_STAGE = 2;
+
+// Konu zincirinin ladder_chain anahtari (kayitlar: focus_id = 'ladder:' + bu).
+export const chainKey = (trackId: string) => `chain:${trackId}`;
+
+// Sekme listesi icin ozet etiket + ilerleme orani.
+export function ladderStep(theme: LadderTheme, byStage: Record<number, number>) {
   const n = theme.sentences.length;
-  return (byStage[PRODUCE_STAGE] ?? 0) >= n && chainLen >= n;
+  const said = Math.min(n, byStage[PRODUCE_STAGE] ?? 0);
+  return { label: said >= n ? 'Tamamlandı' : `${said}/${n} cümle`, frac: said / n };
+}
+
+// Tema bitti = tum cumleler tam dogru soylendi.
+export function themeDone(theme: LadderTheme, byStage: Record<number, number>): boolean {
+  return (byStage[PRODUCE_STAGE] ?? 0) >= theme.sentences.length;
 }
 
 type Summary = Record<string, { byStage: Record<number, number>; chainLen: number }>;
 
+// Rutin kilidi: konunun ilk temasi acik; digerleri bir oncekinin tum cumleleri bitince.
+export function themeUnlocked(track: LadderTrack, index: number, summary: Summary): boolean {
+  if (index <= 0) return true;
+  const prev = track.themes[index - 1];
+  return themeDone(prev, summary[prev.id]?.byStage ?? {});
+}
+
 // Konu ilerlemesi: kac tema bitti.
 export function trackProgress(track: LadderTrack, summary: Summary): { done: number; total: number } {
-  const done = track.themes.filter((t) => {
-    const s = summary[t.id];
-    return s ? themeDone(t, s.byStage, s.chainLen) : false;
-  }).length;
+  const done = track.themes.filter((t) => themeDone(t, summary[t.id]?.byStage ?? {})).length;
   return { done, total: track.themes.length };
 }
 

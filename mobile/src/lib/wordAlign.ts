@@ -26,6 +26,36 @@ export function spellNumbers(text: string): string {
     .replace(/\b\d{1,2}\b/g, (d) => numWord(Number(d)));
 }
 
+// Tam dogruluk (konusma merdiveni): beklenen her kelime dogru VE fazla kelime yok.
+// Kisaltmalar acilir (don't = do not), rakamlar yaziya cevrilir, "um/uh" atilir.
+// heShe: ipucunda ozne "o" ise he/she ve his/her esit sayilir.
+const CONTRACT: [RegExp, string][] = [
+  [/\bcan'?t\b/g, 'cannot'],
+  [/\bcan not\b/g, 'cannot'],
+  [/\bwon'?t\b/g, 'will not'],
+  [/\b(do|does|did|is|are|was|were|have|has|would|should|could)n'?t\b/g, '$1 not'],
+  [/\bi'?m\b/g, 'i am'],
+  [/\b(you|we|they)'re\b/g, '$1 are'],
+  [/\b(he|she|it|that|what|where|who)'s\b/g, '$1 is'],
+  [/\b(i|you|we|they)'ve\b/g, '$1 have'],
+  [/\b(i|you|we|they|he|she)'ll\b/g, '$1 will'],
+  [/\b(i|you|we|they|he|she)'d\b/g, '$1 would'],
+];
+const FILLER = new Set(['um', 'uh', 'erm', 'hmm']);
+
+export function normTokens(text: string, heShe = false): string[] {
+  let s = spellNumbers(text).toLowerCase().replace(/[‘’]/g, "'");
+  for (const [re, to] of CONTRACT) s = s.replace(re, to);
+  const out = s.split(/\s+/).map(tok).filter((w) => w && !FILLER.has(w));
+  return heShe ? out.map((w) => (w === 'she' ? 'he' : w === 'her' ? 'his' : w)) : out;
+}
+
+export function exactMatch(candidates: string[], heard: string, heShe = false): boolean {
+  const h = normTokens(heard, heShe).join(' ');
+  if (!h) return false;
+  return candidates.some((c) => normTokens(c, heShe).join(' ') === h);
+}
+
 export function alignWords(expected: string[], heardText: string): { status: WordStatus[]; note: string[] } {
   const heard = spellNumbers(heardText).split(/\s+/).map(tok).filter(Boolean);
   const exp = expected.map(tok);

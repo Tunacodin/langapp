@@ -9,7 +9,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { colors, radius, space } from '@/constants/appTheme';
 import { deleteSpeakingTake, getSpeakingTakes, SpeakingTake } from '@/lib/db';
 import { getSpeakingFocus } from '@/lib/speaking';
-import { getLadderTheme } from '@/lib/speaking/ladder';
+import { getLadderTheme, getLadderTrack } from '@/lib/speaking/ladder';
 import { deleteTakeFiles, humanBytes, totalBytes } from '@/lib/speaking/media';
 
 // GELISIM: bir odagin kayitlarini tarih tarih goster. Her kayit: varyasyon +
@@ -20,12 +20,16 @@ export default function SpeakingProgress() {
   const { focus: focusId } = useLocalSearchParams<{ focus?: string }>();
   // Kisa pratik odagi ya da merdiven temasi ("ladder:<tema>"; zincir kayitlari).
   const focus = useMemo(() => {
+    if (focusId?.startsWith('ladder:chain:')) {
+      const tr = getLadderTrack(focusId.slice(13));
+      return tr ? { id: focusId, title: `Zincir · ${tr.title}`, variations: [] as { key: string; typeLabel: string }[], ladder: null as string | null, chain: tr.id } : null;
+    }
     if (focusId?.startsWith('ladder:')) {
       const t = getLadderTheme(focusId.slice(7));
-      return t ? { id: focusId, title: t.title, variations: [] as { key: string; typeLabel: string }[], ladder: t.id } : null;
+      return t ? { id: focusId, title: t.title, variations: [] as { key: string; typeLabel: string }[], ladder: t.id, chain: null as string | null } : null;
     }
     const f = getSpeakingFocus(focusId);
-    return f ? { ...f, ladder: null as string | null } : null;
+    return f ? { ...f, ladder: null as string | null, chain: null as string | null } : null;
   }, [focusId]);
 
   const [takes, setTakes] = useState<SpeakingTake[]>([]);
@@ -169,7 +173,9 @@ export default function SpeakingProgress() {
           style={styles.practiceBtn}
           onPress={() =>
             router.replace(
-              focus.ladder
+              focus.chain
+                ? `/speaking-ladder?chain=${encodeURIComponent(focus.chain)}`
+                : focus.ladder
                 ? `/speaking-ladder?theme=${encodeURIComponent(focus.ladder)}`
                 : `/speaking-practice?focus=${encodeURIComponent(focus.id)}`,
             )

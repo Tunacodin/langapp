@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # Konusma merdiveni icerik denetimi (src/lib/speaking/ladder/*.ts).
-# - her tema 12 cumle, anahtarlar s1..s12, tema id'leri benzersiz
+# - eski temalar: 12 cumle, anahtarlar s1..s12, tema id'leri benzersiz
+# - rutinler (ladder/routines/*.ts, docs/SPEAKING_RULES.md): 50 cumle s1..s50,
+#   7 seviye 8/8/8/8/6/6/6, her cumlede cue + siklik kelimesi, <= 16 kelime
 # - uzun cizgi (U+2014) yok, Ingilizce cumle <= 13 kelime
 # - hedef yapi cumlede var mi (grammar_detect ile; soru/olumsuzda detektor
 #   kacirabilir, bu yuzden tema basina 3'ten fazla eksik = incele)
@@ -79,6 +81,56 @@ def ascii_suspects(tr, words, folded):
     return out
 
 
+ADV = re.compile(r"\b(always|usually|often|sometimes|occasionally|rarely|hardly ever|never)\b", re.I)
+LEVEL_SIZES = [8, 8, 8, 8, 6, 6, 6]
+CUE = re.compile(r"key:\s*'(s\d+)'[^}]*?cue:\s*[\"']")
+
+
+def check_routines(nlp, words, folded, ids):
+    problems = 0
+    target = {"present_simple"}
+    for path in sorted(glob.glob(os.path.join(LDIR, "routines", "*.ts"))):
+        src = open(path, encoding="utf-8").read()
+        tid = THEME.search(src).group(1)
+        ids[tid] += 1
+        notes = []
+        if "—" in src:
+            notes.append("uzun cizgi var")
+        levels = re.split(r"\n\s*\{\s*\n?\s*id:\s*'l\d+'", src)[1:]
+        sizes = [len(SENT.findall(l)) for l in levels]
+        if sizes != LEVEL_SIZES:
+            notes.append(f"seviye boyutlari {sizes}")
+        rows = SENT.findall(src)
+        keys = [k for k, _, _ in rows]
+        if keys != [f"s{i}" for i in range(1, 51)]:
+            notes.append(f"anahtarlar {keys[:3]}..{keys[-3:]} ({len(keys)})")
+        cued = set(CUE.findall(src))
+        miss = 0
+        for k, en, tr in rows:
+            en, tr = en[1:-1], tr[1:-1]
+            if k not in cued:
+                notes.append(f"{k} cue yok")
+            if not ADV.search(en):
+                notes.append(f"{k} siklik kelimesi yok: {en}")
+            if len(en.split()) > 16:
+                notes.append(f"{k} uzun ({len(en.split())} kelime): {en}")
+            sus = ascii_suspects(tr, words, folded)
+            if sus:
+                notes.append(f"{k} TR diakritik eksik? {sus}: {tr}")
+            found = {n for n, _, _ in detect(nlp(en))}
+            if not found & target:
+                miss += 1
+            later = sorted(n for n in found if RANK.get(n, -1) > 0 and n not in IGNORE_LATER)
+            if later:
+                notes.append(f"{k} sonraki yapi {later}: {en}")
+        flag = "!!" if notes else "ok"
+        problems += 1 if notes else 0
+        print(f"   {flag} {tid}: {len(rows)} cumle, hedef eksik {miss}")
+        for n in notes:
+            print(f"       - {n}")
+    return problems
+
+
 def main():
     nlp = spacy.load("en_core_web_sm")
     words, folded = tr_vocab()
@@ -94,6 +146,10 @@ def main():
         if "—" in src:
             print(f"!! {fname}: uzun cizgi var")
             problems += 1
+        if fname == "present-simple":
+            print("== present-simple: rutinler")
+            problems += check_routines(nlp, words, folded, ids)
+            continue
         rank = [i for i, (f, _) in enumerate(ORDER) if f == fname][0]
         # temalari id sirasiyla bol
         parts = re.split(r"(?=\n  \{\n    id:)", src)
